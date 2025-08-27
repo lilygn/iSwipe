@@ -1,0 +1,13 @@
+Home
+Center for Autonomy
+Enabling high-impact research in autonomous system design
+About the Center for Autonomy
+Located at the University of Illinois at Urbana-Champaign, the Center for Autonomy will enable high-impact research and develop new educational programs for students and professionals. The Center will play an important role in designing innovative systems that can function autonomously, or without human intervention, in a safe and reliable way.
+From self-driving cars to intelligent robotic assistants to remote surgical systems, autonomous technology will revolutionize the way we live, work, and play. In order to enable this revolution, however, advancements in foundational research and workforce development must first take place to provide assured and certified-safe performance.
+Application areas include:
+UPCOMING EVENTS
+Decision & Control Lecture: “Efficient algorithms for agile multi-contact locomotion”
+Speaker: Ludovic Righetti, Associate Professor in the Electrical and Computer Engineering Department and in the Mechanical and Aerospace Engineering Department, Tandon School of Engineering of New York University
+December 4, 2019
+CSL Auditorium (Bo2) | Urbana, IL
+3:00 PM

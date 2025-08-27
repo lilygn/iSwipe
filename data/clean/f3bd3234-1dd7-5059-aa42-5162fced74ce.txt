@@ -1,0 +1,16 @@
+Elsa Gunter
+Research Professor and Senior Lecturer
+(217) 265-6118
+2112 Siebel Center for Comp Sci
+For More Information
+Education
+- Ph.D., Mathematics, University of Wisconsin, 1987
+Research Areas
+Recent Courses Taught
+- CS 100 - Freshman Orientation
+- CS 421 - Progrmg Languages & Compilers
+- CS 431 - Embedded Systems
+- CS 477 (ECE 478) - Formal Software Devel Methods
+- CS 591 FM - Formal Methods Seminar
+- CS 591 IG - ADV Sem in Distributed Systems
+- CS 598 SVA - App-Cust Heterogeneous Systems

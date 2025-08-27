@@ -1,0 +1,55 @@
+Dong Wang
+Professor
+PhD, Computer Science, University of Illinois Urbana-Champaign
+Room 5082, 614 E. Daniel St.
+Other professional appointments
+- Faculty Affiliate, Siebel School of Computing and Data Science
+- Affiliate, Carl R. Woese Institute for Genomic Biology
+- Faculty Affiliate, National Center for Supercomputing Applications (NCSA)
+- Faculty Affiliate, Information Trust Institute
+- Faculty Affiliate, Illinois Informatics
+- Faculty Affiliate, Center for Social and Behavioral Science (CSBS)
+Research focus
+Social sensing and intelligence, human-centered AI, human-AI teaming, AI for social good, responsible AI, data quality, big data analytics, cyber-physical-human systems, smart cities, and edge computing.
+Honors and Awards
+- Best Paper Honorable Mention: 2025 ACM CHI conference on Human Factors in Computing Systems (CHI 2025)
+- Senior Member, Institute of Electrical and Electronics Engineers (IEEE)
+- Teachers Ranked as Excellent by Their Students, Fall 2022, 2023 and Spring 2023, 2024
+- Best Paper Award, 2022 ACM/IEEE International Conference on Advances in Social Networks Analysis and Mining (ASONAM)
+- Best Paper Honorable Mention, 8th IEEE International Conference on Smart Computing (SMARTCOMP)
+- NSF CAREER Award
+- Google Faculty Research Award
+- ARO Young Investigator Program Award (YIP)
+- NSF CISE Research Initiation Initiative (CRII) Award
+- Wing Kai Cheng Fellowship, University of Illinois
+- Best Paper Award, 16th IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)
+Biography
+Dong Wang joined the School of Information Sciences at the University of Illinois as an associate professor in August 2021. He previously served as an associate professor in the Computer Science and Engineering Department at the University of Notre Dame. His honors include the NSF CAREER Award, Google Faculty Research Award, Young Investigator Program (YIP) Award from the US Army Research Office, NSF CRII Award, Wing Kai Cheng Fellowship from the University of Illinois, and the Best Paper Awards of ACM/IEEE International Conference on Advances in Social Networks Analysis and Mining (ASONAM) and IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS). He also served as the TPC chairs of IEEE DCoSS 2022 and ACM/IEEE ASONAM 2023.
+Wang’s work has been applied in a wide range of real-world applications such as social network analysis, crowdsourcing, disaster response, education, smart cities, synthetic biology, and environmental sustainability. He has published over 150 technical papers in peer reviewed conferences and journals. His research on social sensing, intelligence and computing resulted in software tools that found applications in academia, industry, and government research labs.
+He has authored two books, Social Edge Computing: Empowering Human-Centric Edge Computing, Learning and Intelligence (Springer, 2023) and Social Sensing: Building Reliable Systems on Unreliable Data (Elsevier, 2015).
+Wang holds a PhD in computer science from the University of Illinois Urbana-Champaign.
+Courses currently teaching
+Office hours
+By appointment, please contact professor.
+Publications & Papers
+For a complete list of publications, visit Dong Wang's Google Scholar page.
+HaeJin Lee, Frank Stinar, Ruohan Zong, Hannah Valdiviejas, Dong Wang, Nigel Bosch. Learning Behaviors Mediate the Effect of AI-powered Support for Metacognitive Calibration on Learning Outcomes, ACM CHI conference on Human Factors in Computing Systems (CHI 2025), Full Paper, Yokohama, Japan, April, 2025. *Best Paper Honorable Mention
+Yang Zhang, Ruohan Zong, Lanyu Shang, Dong Wang. A Crowdsourcing-driven AI Model Design Framework to Public Health Policy-Adherence Assessment, IEEE Transactions on Emerging Topics in Computing (TETC) , in press, 2025.
+Huimin Zeng, Zhenrui Yue, Qian Jiang, Yang Zhang, Lanyu Shang, Ruohan Zong, Dong Wang. Mitigating Demographic Bias of Federated Learning Models via Robust-Fair Domain Smoothing: A Domain-Shifting Approach, 44th IEEE International Conference on Distributed Computing Systems (ICDCS 2024), Jersey City, New Jersey, USA, July 2024.
+Yang Zhang, Ruohan Zong, Lanyu Shang, Huimin Zeng, Zhenrui Yue, Dong Wang. SymLearn: A Symbiotic Crowd-AI Collective Learning Framework to Web-based Healthcare Policy Adherence Assessment, The ACM Web Conference 2024 (WWW 2024), Main Track, Full Paper, Singapore, May, 2024.
+Dong Wang and Daniel (Yue) Zhang. Social Edge Computing: Empowering Human-Centric Edge Computing, Learning and Intelligence, 1st Edition, Springer, 2023.
+Ruohan Zong, Yang Zhang, Frank Stinar, Lanyu Shang, Huimin Zeng, Nigel Bosch, Dong Wang. A Crowd-AI Collaborative Approach to Address Demographic Bias for Student Performance Prediction in Online Education, 11th AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2023) , Full Paper, Delft, Netherlands, November, 2023.
+Yang Zhang, Ziyi Kou, Lanyu Shang, Huimin Zeng, Zhenrui Yue, Dong Wang. A Crowd-AI Collaborative Duo Relational Graph Learning Framework Towards Social Impact Aware Photo Classification , Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI 2023), Washington DC, USA, February, 2023.
+Yang Zhang, Ruohan Zong, Ziyi Kou, Lanyu Shang, Dong Wang. CrowdNAS: A Crowd-guided Neural Architecture Searching Approach to Disaster Damage Assessment, The 25th ACM Conference On Computer-Supported Cooperative Work And Social Computing (CSCW 22), November, Virtual Conference, 2022.
+Daniel Zhang, Ziyi Kou, Dong Wang. FedSens: A Federated Learning Approach for Smart Health Sensing with Class Imbalance in Resource Constrained Edge Computing, IEEE International Conference on Computer Communications (IEEE INFOCOM 2021), Full Paper, Virtual Conference, May, 2021.
+Dong Wang, Tarek Abdelzaher, and Lance Kaplan. Social Sensing: Building Reliable Systems on Unreliable Data, 1st Edition, Elsevier, 2015.
+Presentations
+Dong Wang, Social Intelligence for Human-centric Computing Systems, Department of Computer Science, City University of London, UK, March, 2024
+Dong Wang, Social-Physical Sensing: An Emerging Sensing Paradigm that Explores the Collective Intelligence of Humans and Machine, invited talk at ACM and SAGE Collective Intelligence, June, 2023
+Dong Wang, Vision of Social Informatics: the Perspectives from Social (Human-centric) Sensing and Intelligence, invited talk at National Research Council of Italy, July, 2022.
+Dong Wang, Addressing Data Heterogeneity and Sparsity in Human-centric Smart City Applications, invited panel talk at 8th International Conference on Networking, Systems and Security (NSysS 2021), Virtual, December, 2021.
+The Era of Human-centric Sensing, Computing and Intelligence, Invited Talk at Case Western Reserve University, Cleveland, Ohio, 2020
+Harnessing the Power of Crowd for Human-centric Computing Systems, Invited Talk at the University of Illinois, 2020
+Social Sensing based Edge Computing Systems, Invited Talk at University of Washington, Seattle, 2018
+Towards Scalable and Responsive Social Sensing, Invited Talk at University of North Carolina at Chapel Hill, 2018
+Building Reliable Cyber-Physical Systems with Human-in-the-loop, Invited Talk at Indiana University, Bloomington, Indiana, 2017

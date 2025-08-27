@@ -1,0 +1,1320 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>[ Romit Roy Choudhury @ UIUC ]</title>
+  <meta name="viewport" content="width=device-width,
+          initial-scale=1.0">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+             <script src="js/html5shiv.js"></script>
+             <script src="js/respond.min.js"></script>
+             <![endif]-->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/menucollapse.js"></script>
+  <!-- <script type="text/javascript" src="js/arrow78.js"></script> -->
+  <!-- <script type="text/javascript" src="js/custom.js"></script> -->
+
+  <script>
+    var all_ids = ["more-papers", "more-students", "more-talks", "more-tweets", "more-bio"]
+    function unhide(id) {
+      all_ids.map(hide_id => {
+        $("#" + hide_id).css("display", "none");
+      })
+      $("#" + id).css("display", "table-cell");
+      location.hash = "#" + 'scroll-to-' + id;
+    }
+
+    function hide(id) {
+      all_ids.map(hide_id => {
+        $("#" + hide_id).css("display", "none");
+      })
+    }
+  </script>
+</head>
+
+<style>
+  /* @media only screen and (max-width: 1000px) {
+    #t1 td {
+      display: block;
+    }
+
+    #t2 td {
+      display: table-cell;
+    }
+  } */
+
+  .myDiv {
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    text-align: left;
+    background-color: #54494B;
+    /* width: 75%; */
+  }
+
+  div.a {
+    text-indent: 5px;
+  }
+
+  div.b {
+    text-indent: -3px;
+    font-weight: bold;
+    font-size: "+4";
+    color: #D9CFC1;
+  }
+
+  div.c {
+    text-indent: 30%;
+  }
+
+  h2 {
+    display: block;
+    color: #5E4731;
+    /* color: lightgray;  */
+    font-size: 1.7em;
+    margin-top: 0.43em;
+    margin-bottom: 0.43em;
+    margin-left: 10px;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h4 {
+    margin-left: 10px;
+    /* margin-bottom: 0.43em;
+      margin-top: 0.43em; */
+  }
+
+  h5 {
+    display: block;
+    font-size: 0.93em;
+    color: #5E4731;
+    /* color: lightgray; */
+    /* color: rgb(102, 102, 102); */
+    margin-top: 0.23em;
+    margin-bottom: 0.23em;
+    margin-left: 15px;
+    margin-right: 0;
+    font-weight: normal;
+  }
+
+  h6 {
+    display: block;
+    font-size: 0.93em;
+    color: #5E4731;
+    /* color: lightgray; */
+    margin-top: 0.23em;
+    margin-bottom: 0.23em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h7 {
+    display: block;
+    font-size: 0.93em;
+    color: #5E4731;
+    /* color: rgb(102, 102, 102); */
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    margin-left: 15px;
+    margin-right: 0;
+    font-weight: normal;
+  }
+
+  h8 {
+    margin-left: 15px;
+    font-weight: bold;
+    /* margin-bottom: 0.43em;
+      margin-top: 0.43em; */
+  }
+
+  p.small {
+    line-height: 1em;
+  }
+
+  /* div {
+        border: 0px;
+        border-style: solid;
+        border-color: white;
+        background-color: white;
+        text-align: left;
+        background-color: rgb(204,204, 204);
+      }
+      .container {
+          background-color:rgb(204,204, 204);
+          display:flex;
+      }
+      .fixed {
+          background-color:rgb(204,204, 204);
+          width: 350px;
+      }
+      .flex-item {
+          background-color:rgb(204,204, 204);
+          flex-grow: 1;
+      } */
+
+
+  table,
+  tr,
+  td {
+    vertical-align: top;
+  }
+
+  #t1 td {
+    border: solid 5px #fff;
+    margin: 10px;
+    padding: 0px;
+  }
+
+  /* #t1 {
+                  border: 5px solid white;
+                  padding: 0px;
+                  } */
+
+
+  #t2 td {
+    border-collapse: collapse;
+    /* padding: 0px; */
+    background-color: #D9CFC1;
+    border-spacing: 15px 1px;
+    /* border-right: none; */
+    border: none;
+    padding: 0;
+    /* margin:  5px; */
+    padding-right: 6px;
+  }
+
+  #t3 td {
+    border-collapse: collapse;
+    /* padding: 0px; */
+    background-color: #D9CFC1;
+    border-spacing: 5px 0px;
+    /* border-right: none; */
+    border: none;
+    padding: 0;
+    /* margin:  5px; */
+    padding-right: 0px;
+  }
+
+  .more {
+    /* float: right; */
+    font-size: 12px;
+    color: #B19D81;
+    padding-left: 5px;
+  }
+
+  h4 span.label {
+    color: #28190E;
+    /* #3076ac; */
+    background-color: #C7AB94;
+    /* light blue: #e6faff; */
+    /* text-decoration: underline; */
+  }
+
+
+
+  /* unvisited link */
+  a:link {
+    color: #a33a3a;
+  }
+
+  /* visited link */
+  a:visited {
+    color: #a33a3a;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: brown;
+  }
+
+  /* selected link */
+  a:active {
+    color: brown;
+  }
+
+  /* .table { table-layout: fixed } */
+</style>
+
+
+<body>
+
+  <table id="t1">
+    <!-- <table border="5px" bordercolor="white"> -->
+    <colgroup>
+      <!-- <col style="background-color: #C7AD94; width: 316px;">
+      <col style="background-color:#D9CFC1; width: 530px;">
+      <col style="background-color:#E3D5CA; width: 150px;"> -->
+      <col style="background-color: #C7AD94;">
+      <col style="background-color:#D9CFC1; ">
+      <col style="background-color:#E3D5CA; ">
+    </colgroup>
+
+    <!-- This is the 1st column -->
+    <tr>
+
+      <td style="width: 316px; min-width: 316px; max-width: 316px;">
+  <div id="image-container" style="position: relative; display: inline-block; width: 100%;">
+    <img id="profile-img" src="images/romit_anime3.jpg" alt="Romit" width="100%">
+    <div id="overlay-text" style="position: absolute; bottom: 10px; right: 10px; 
+                background: rgba(0,0,0,0.6); color: rgba(190,190,190,0.8); 
+                padding: 3px 6px; font-size: 14px; border-radius: 5px; cursor: pointer;">
+      original
+    </div>
+  </div>
+
+  <script>
+    const img = document.getElementById("profile-img");
+    const overlay = document.getElementById("overlay-text");
+
+    overlay.addEventListener("click", function() {
+      if (img.src.includes("images/romit_anime3.jpg")) {
+        img.src = "images/romit_original.jpg";
+        overlay.textContent = "generative";
+      } else {
+        img.src = "images/romit_anime3.jpg";
+        overlay.textContent = "original";
+      }
+    });
+  </script>
+
+
+
+        <div class="b">
+          <h2> Romit Roy Choudhury </h2>
+          <h5>- Gilmore Family Endowed Professor </h5>
+          <h5>- Amazon Scholar </h5>
+          <h5>- Dept. of <a href="https://ece.illinois.edu/">ECE</a> and <a href="https://cs.illinois.edu/">CS</a>, UIUC
+            <h5>
+              <h5>- Email: croy@illinois.edu </h5>
+              <h5>- Office: 263 CSL, Phone: 217.300.7577 </h5>
+              <h5>- <span class="label label-success"><a
+                    href="http://croy.web.engr.illinois.edu/pdfs/2020_09_CV.pdf">CV</a></span> and
+                <!-- <span class="label label-success"><a class="more" onClick="unhide('more-tweets')">Bio</a>   </span></h5> -->
+                <span class="label label-success"><a href="http://croy.web.engr.illinois.edu/bio.html">Bio</a></span>
+              </h5>
+              <!-- <span class="label label-success"><a onClick="unhide('more-bio')">Bio</a></span></h5> -->
+              <br>
+              <h4 style="color: #5E4731"> Past: </h4>
+              <h5>- Ph.D. from CS/UIUC in 2006 </h5>
+              <h5>- Associate Professor at Duke, 2011 </h5>
+              <h5>- Joined UIUC, Fall 2013 </h5>
+              <h5>- Jerry Sanders AMD Scholar, 2015 </h5> 
+              <h5>- Professor at UIUC, 2017 </h5>
+              <h5>- Visitor: MSR Redmond, Intel, Samsung AI </h5>
+              <!-- </div> -->
+              <div style="height:10px;font-size:1px;">&nbsp;</div>
+        </div>
+
+      </td>
+
+
+      <!-- This is the 2nd column  -->
+      <td style="width: 530px;min-width: 530px;max-width: 530px;">
+        <div style="height:10px;font-size:1px;">&nbsp;</div>
+
+        <h4> <span class="label label-success">Research</span>
+        <div class="b">
+        </h4>
+        <h5> - Signals and Inference Research Group @ illinois <a href="https://sinrg.csl.illinois.edu/">(SiNRG)</a> </h5>
+        <h5> - Areas: Generative models, Blackbox optimization, Inverse problems, </h5>
+        <h5> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp NeRFs, Audio denoising, and Source separation</h5>
+        <!-- <h5> - Applications: NeRFs and wireless imaging, audio denoising, wearable computing </h5> -->
+	      <!-- <h5> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Spatial and Inverse problems (NeRFs), <a href="https://synrg.csl.illinois.edu/earables.html">Earable Computing</a> </h5> -->
+        
+      </div>
+        <div style="height:3px;font-size:1px;">&nbsp;</div>
+
+        <h4> <span class="label label-success">Past and Present Students</span><a class="more" onClick="unhide('more-students')">[click here]</a> 
+          </h4>
+          <div style="height:3px;font-size:1px;">&nbsp;</div>
+
+        <!-- <h4> <span class="label label-success">Research Group: </span></h4>
+                <h5> <a href="https://synrg.csl.illinois.edu/">Systems and Networking Research Group (SyNRG)</a> </h5>
+                <br> -->
+
+                <h4>
+                  <span class="label label-success">Selected Publications </span>
+                  <a class="more" href="https://synrg.csl.illinois.edu/publications">[Show All]</a>
+                </h4>
+
+                <table id="t2">
+                  <!-- id="to1" rules=none border="0" bgcolor="#006600" cellpadding="5" cellspacing="0"> -->
+                  
+                  <tr>
+                    <td>
+                      <h7> - ICML 25 </h7>
+                    </td>
+                    <td>
+                      <h7> Speech Separation with a Diffusion Prior <a
+                        href="https://www.arxiv.org/pdf/2505.05657">[ pdf ] </a></h7>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <h7> - AAAI 25 </h7>
+                    </td>
+                    <td>
+                      <h7> Kernel Learning for BlackBox Optimization <a
+                        href="https://sinrg.csl.illinois.edu/papers/KOBO_v4.pdf">[ pdf ] </a></h7>
+                    </td>
+                  </tr>
+
+                <tr>
+                    <td>
+                      <h7> - ICASSP 25 </h7>
+                    </td>
+                    <td>
+                      <h7> Curvature-Guided Langevin Monte Carlo <a
+                        href="https://arxiv.org/abs/2501.18178">[ pdf ] </a></h7>
+                    </td>
+                  </tr>
+                  
+                 <!-- <tr>
+                    <td>
+                      <h7> - AAAI 24 </h7>
+                    </td>
+                    <td>
+                      <h7> Sample Constrained Black Box Optimization <a
+                        href="https://sinrg.csl.illinois.edu/papers/OracleBO_AAAI.pdf">[ pdf ] </a></h7>   
+                    </td>
+                  </tr> -->
+
+                  <!-- <tr>
+                    <td>
+                      <h7> - NeuRIPS w/s </h7>
+                    </td>
+                    <td>
+                      <h7> Audio Persosnalization via Black Box Optimization
+                        
+                    </td>
+                  </tr> -->
+
+                  <tr>
+                    <td>
+                      <h7> - NeuRIPS w/s </h7>
+                    </td>
+                    <td>
+                      <h7> Music Generation with Latent Diffusion
+                      <a href="https://xzwy.github.io/MSLDMDemo/">[ pdf ] </a></h7>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <h7> - ICRA 23 </h7>
+                    </td>
+                    <td>
+                      <h7> Rotation-induced Aliasing for Source Separation  
+                        <a href="https://synrg.csl.illinois.edu/papers/ross_icra23.pdf">[ pdf ] </a></h7>
+                    </td>
+                  </tr>
+        
+                  <tr>
+                    <td>
+                      <h7> - ICML 22 </h7>
+                    </td>
+                    <td>
+                      <h7> Learning to Separate Voices by Spatial Regions  
+                        <a href="https://synrg.csl.illinois.edu/papers/source_separation_icml22.pdf">[ pdf ] </a></h7>
+                    </td>
+                  </tr>
+                  
+                <!--
+                  <tr>
+                    <td>
+                      <h7> - ICASSP 21 </h7>
+                    </td>
+                    <td>
+                      <h7> Angle of Arrival (AoA) factorization under multipath <a
+                          href="https://synrg.csl.illinois.edu/papers/iaoa_icassp21.pdf">[ pdf ] </a></h7>
+                    </td>
+                  </tr>
+                -->
+        
+                  <tr>
+                    <td>
+                      <h7> - SIGCOMM 21 </h7>
+                    </td>
+                    <td>
+                      <h7> Personalizing HRTFs for Earables <a
+                          href="https://synrg.csl.illinois.edu/papers/UNIQ_Sigcomm21.pdf">[ pdf ] </a></h7>
+                    </td>
+                  </tr>
+        
+        
+        <!--
+                  <tr>
+                    <td>
+                      <h7> HotMobile 21 </h7>
+                    </td>
+                    <td>
+                      <h7> Earable Computing: A New Area to Think About <a
+                          href="https://synrg.csl.illinois.edu/papers/earable_hotmobile21.pdf">[ pdf ] </a></h7>
+                    </td>
+                  </tr>
+        -->
+        
+                  <tr>
+                    <td>
+                      <h7> - MobiCom 20 </h7>
+                    </td>
+                    <td>
+                      <h7> Voice Localization using Nearby Wall Reflections <a
+                          href="https://synrg.csl.illinois.edu/papers/voloc_mobicom20.pdf">[ pdf ] </a></h7>
+                    </td>
+                  </tr>
+        
+                  <tr>
+                    <td>
+                      <h7> - SIGCOMM 18 </h7>
+                    </td>
+                    <td>
+                      <h7> MUTE: Bringing IoT to Noise Cancellation <a
+                          href="https://synrg.csl.illinois.edu/papers/mute-sigcomm18.pdf">[ pdf ] </a></h7>
+                    </td>
+                  </tr>
+        
+                  <tr>
+                    <td>
+                      <h7> - NSDI 18 </h7>
+                    </td>
+                    <td>
+                      <h7> Inaudible Voice Commands: Long Range Attack <a
+                          href="https://synrg.csl.illinois.edu/papers/lipread_nsdi18.pdf">[ pdf ] </a></h7>
+                    </td>
+                  </tr>
+        
+                </table>
+                <div style="height:8px;font-size:1px;">&nbsp;</div>
+        
+
+
+
+
+        <h4> <span class="label label-success">Teaching </span></h4>
+        <h5> <a href="https://rrc-uiuc.notion.site/gen-models-fa25">- ECE 498/598:</a> Deep Generative Models<span class="label label-success">(new)</span> </h5>
+        <h5>  <a href="https://courses.grainger.illinois.edu/ece434/sp2024/">- ECE/CS 434:</a> Real-world Algorithms for IoT and Data Science </h5>
+        <h5> <a href="https://courses.grainger.illinois.edu/cs438/fa2023/">- ECE/CS 438:</a> Communication Networks </h5>
+        <h5> <a href="https://courses.grainger.illinois.edu/ece101/sp2022/">- ECE 101:</a> Computing for Non-Engineers  </h5>
+        <div style="height:8px;font-size:1px;">&nbsp;</div>
+
+        <!-- <h4> <span class="label label-success">Service </span></h4>
+        <h5> TPC: SIGCOMM 2021, MobiCom 2020, NSDI 2020, ... </h5>
+        <div style="height:8px;font-size:1px;">&nbsp;</div> -->
+
+
+        
+
+        <!-- <h4>
+          <span class="label label-success">Students (Present and Past)</span> -->
+          <!-- <a class="more" onClick="unhide('more-students')">[Show More]</a> -->
+        <!-- </h4>
+        <h5> <a href="https://yulinlw2.web.illinois.edu/">Yu-Lin</a> &nbsp; | &nbsp; 
+            <a href="https://zhijianyang.web.illinois.edu/">Zhijian</a> &nbsp; | &nbsp; 
+            <a href="https://rrajalaxmi.web.illinois.edu/">Rajalaxmi</a> &nbsp; | &nbsp; 
+            <a href="https://rrajalaxmi.web.illinois.edu/">Sahil</a> &nbsp; | &nbsp; 
+            <a href="https://rrajalaxmi.web.illinois.edu/">Zhongweiyang</a> &nbsp; | &nbsp; 
+            <a class="more" onClick="unhide('more-students')">[Show More]</a> </h5>
+        <div style="height:8px;font-size:1px;">&nbsp;</div>  -->
+        
+
+        <!-- <h4> <span class="label label-success"><a href=" ">Students: </a></span></h4>
+                <h5> [Current] Yu-lin, Zhijian, Ibrahim, Rajalaxmi, Hyungjoo (co-advised) </h5>
+                <h5> [Recent past] Sheng (Facebook Labs), Ashutosh (Georgia Tech), Mahanth (Penn State), Nirupam (Maryland) </h5>
+                <br> -->
+
+        <h4>
+          <span class="label label-success">Tweets </span>
+        </h4>
+        
+        <div class="b">
+          <h5> - Amazon Scholar, 2022 </h5>
+          <h5> - Dean's list of excellent teachers (2021, 20, 19, 18, 17, 15) </h5>
+          
+          <h5> - IEEE NYU-Abu Dhabi, 
+            <a href="https://nyuad.nyu.edu/content/dam/nyuad/academics/divisions/engineering/ieee-seminar-series-spring-2021/IEEE%20Spring%202021_v3.pdf">
+            2021 Distinguished seminar</a>
+          </h5>
+          
+          <h5> - National Univ. of Singapore,  
+            <a href="https://researchweek.comp.nus.edu.sg/index_Jan2020.html">Computer Science Week, 2020</a>
+                <a href="https://www.youtube.com/watch?v=1Qvu1G59JC0&t=568s">[ video ]</a>
+          </h5>
+
+          <h5> - IEEE Fellow, 2019 </h5>
+          
+          <h5> - Cambridge University, UK, 2019
+            <a href="http://talks.cam.ac.uk/talk/index/128890">Charles Babbage Seminar, UK</a>
+          </h5>
+
+          <!-- <h5> - London and Oxford Univ., 2019 <a href="https://www.esense.io/earcomp/">Keynote at MobiUK and EarComp </a></h5>  -->
+          
+          <h5> - 2017 MobiSys Best Paper Award </h5>
+          <h5> - 2015 ACM Sigmobile Rockstar Award </h5>
+          <h5> - 2014 UIUC Distinguished Alumni Award, Google, IBM Award <a class="more" onClick="unhide('more-tweets')">[Show More]</a></h5>
+          <!-- <h5> Google Faculty Research Award, IBM Award <a class="more" onClick="unhide('more-tweets')">[Show More]</a></h5> -->
+        </div>
+        <div style="height:10px;font-size:1px;">&nbsp;</div>
+        </div>
+      </td>
+
+      
+
+
+      <!-- This is the 3rd column  -->
+      <td id="more-papers" style="display:none; background-color: #D9CFC1; width: 780px;">
+        <div class="b">
+          <div style="height:10px;font-size:1px;">&nbsp;</div>
+          <h4> <span class="label label-success">More Publications </span>
+            <a class="more" onClick="hide('more-papers')">[Hide]</a>
+          </h4>
+          <div style="height:2px;font-size:1px;">&nbsp;</div>
+
+          <table id="t3">
+            <!-- id="to1" rules=none border="0" bgcolor="#006600" cellpadding="5" cellspacing="0"> -->
+
+            <tr>
+              <td>
+                <h8 style="color: #5E4731"> 2021: </h8>
+              </td>
+              <td>
+                <h7> <a href=" "> </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> ICASSP </h7>
+              </td>
+              <td>
+                <h7> Angle of Arrival (AoA) factorization under multipath <a
+                    href="https://synrg.csl.illinois.edu/papers/iaoa_icassp21.pdf">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> SIGCOMM </h7>
+              </td>
+              <td>
+                <h7> Spatial Acoustics for Earables <a href="https://synrg.csl.illinois.edu/papers/iaoa_icassp21.pdf">[
+                    pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> HotMobile </h7>
+              </td>
+              <td>
+                <h7> Earable Computing: A New Area to Think About <a
+                    href="https://synrg.csl.illinois.edu/papers/earable_hotmobile21.pdf">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> &nbsp; </h7>
+              </td>
+              <td>
+                <h7> <a href=" "> </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h8 style="color: #5E4731"> 2020: </h8>
+              </td>
+              <td>
+                <h7> <a href=" "> </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> MobiCom </h7>
+              </td>
+              <td>
+                <h7> Voice Localization using Nearby Wall Reflections <a
+                    href="https://synrg.csl.illinois.edu/papers/voloc_mobicom20.pdf">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> MobiCom </h7>
+              </td>
+              <td>
+                <h7> Ear-AR: Indoor Acoustic Augmented Reality on Earphones <a
+                    href="https://synrg.csl.illinois.edu/papers/ear-ar_mobicom20.pdf">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> MobiCom </h7>
+              </td>
+              <td>
+                <h7> EarSense: Earphones as a Teeth Activity Sensor <a
+                    href="https://synrg.csl.illinois.edu/papers/earsense_mobicom20.pdf">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> &nbsp; </h7>
+              </td>
+              <td>
+                <h7> <a href=" "> </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h8 style="color: #5E4731"> 2019: </h8>
+              </td>
+              <td>
+                <h7> <a href=" "> </a></h7>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td>
+                <h7> NSDI </h7>
+              </td>
+              <td>
+                <h7>Many-to-Many Beam Alignment in mm Wave Networks <a
+                    href="https://synrg.csl.illinois.edu/papers/bouncenet_nsdi19.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> &nbsp; </h7>
+              </td>
+              <td>
+                <h7> <a href=" "> </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h8 style="color: #5E4731"> 2018: </h8>
+              </td>
+              <td>
+                <h7> <a href=" "> </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> SIGCOMM </h7>
+              </td>
+              <td>
+                <h7> MUTE: Bringing IoT to Noise Cancellation <a
+                    href="https://synrg.csl.illinois.edu/papers/mute-sigcomm18.pdf">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> MobiCom </h7>
+              </td>
+              <td>
+                <h7>Ghostbuster: Detecting Presence of Eavesdroppers <a
+                    href="https://synrg.csl.illinois.edu/papers/ghostbuster-mobicom18.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> MobiCom </h7>
+              </td>
+              <td>
+                <h7>Closing the Gaps in Inertial Motion Tracking <a
+                    href="https://synrg.csl.illinois.edu/papers/muse-mobicom18.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> MobiSys </h7>
+              </td>
+              <td>
+                <h7>LiquID: A Wireless Liquid IDentifier <a
+                    href="https://synrg.csl.illinois.edu/papers/liquid_mobisys2018.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> NSDI </h7>
+              </td>
+              <td>
+                <h7>Inaudible Voice Commands: The Long-Range Attack <a
+                    href="https://synrg.csl.illinois.edu/papers/lipread_nsdi18.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> IEEE TMC </h7>
+              </td>
+              <td>
+                <h7> If WiFi APs Could Move: A Measurement Study <a
+                    href="https://synrg.csl.illinois.edu/papers/im_tmc_cam_nc.pdf">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> &nbsp; </h7>
+              </td>
+              <td>
+                <h7> <a href=" "> </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h8 style="color: #5E4731"> Prior 2017: </h8>
+              </td>
+              <td>
+                <h7> <a href=" "> </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7>MobiSys</h7>
+              </td>
+              <td>
+                <h7>BackDoor: Making Microphones Hear Inaudible Sounds <a
+                    href="https://synrg.csl.illinois.edu/papers/backdoor_mobisys17.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7>NSDI </h7>
+              </td>
+              <td>
+                <h7>Bringing IoT to Sports Analytics <a
+                    href="https://synrg.csl.illinois.edu/papers/cricket-nsdi-2017.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7>HotMobile </h7>
+              </td>
+              <td>
+                <h7>Extending Cell Tower Coverage through Drones <a
+                    href="https://synrg.csl.illinois.edu/papers/dronenet_hotmobile2017.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <!-- <tr>
+                <td><h7> &nbsp; </h7></td>
+                <td><h7>  <a href=" "> </a></h7></td>
+              </tr>
+              <tr>
+                <td> <h8 style="color: #5E4731"> 2016: </h8> </td>
+                <td><h7>  <a href=" "> </a></h7></td>
+              </tr> -->
+            <tr>
+              <td>
+                <h7> NSDI </h7>
+              </td>
+              <td>
+                <h7> Ripple II: Faster Communications via Physical Vibrations <a
+                    href="https://synrg.csl.illinois.edu/papers/ripple2_nsdi16_nirupam.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h7> MobiCom </h7>
+              </td>
+              <td>
+                <h7>Tracking Drone Orientation with Multiple GPS Receivers <a
+                    href="https://synrg.csl.illinois.edu/papers/drone-attitude-camera.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h7> MobiSys </h7>
+              </td>
+              <td>
+                <h7>I am a Smartwatch and I can Track my Userâs Arm <a
+                    href="https://synrg.csl.illinois.edu/papers/ArmTrak_Mobisys.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h7> MobiSys </h7>
+              </td>
+              <td>
+                <h7>Listening through a Vibration Motor <a
+                    href="https://synrg.csl.illinois.edu/papers/VibraPhone_mobisys16.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h7> CoNext </h7>
+              </td>
+              <td>
+                <h7>Low Bandwidth Offload for Mobile AR <a
+                    href="https://synrg.csl.illinois.edu/papers/VisualPrint-Camera.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h7> WWW </h7>
+              </td>
+              <td>
+                <h7>The Case for Robotic Wireless Networks <a
+                    href="https://synrg.csl.illinois.edu/papers/robotic_wireless.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h7> ICNP </h7>
+              </td>
+              <td>
+                <h7>Compressing Backoff in CSMA Networks <a
+                    href="https://synrg.csl.illinois.edu/papers/hibo-icnp.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h7> UbiComp </h7>
+              </td>
+              <td>
+                <h7>AutoLabel: Labeling Places from Pictures and Websites <a
+                    href="https://synrg.csl.illinois.edu/papers/AutoLabel_UbiComp16.pdf ">[ pdf ] </a></h7>
+              </td>
+            </tr>
+
+          </table>
+          <br>
+        </div>
+      </td>
+
+      <td id="more-students"
+        style="display:none; background-color: #D9CFC1; width: 550px; min-width: 550px; max-width: 550px;">
+        <a id="scroll-to-more-students" style="float: right;"></a>
+        <div class="b">
+          <div style="height:10px;font-size:1px;">&nbsp;</div>
+          <h4>
+            <h4> <span class="label label-success">Present PhD Candidates </span>
+              <!-- <a class="more" onClick="hide('more-students')">[Hide]</a> -->
+            </h4>
+            <!-- <div style="height:5px;font-size:1px;">&nbsp;</div> -->
+            <table id="t3">
+              <tr>
+                <td>
+                  <h7>- <a href="https://yulinlw2.web.illinois.edu/">Yu-lin Wei</a> </h7>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://zhijianyang.web.illinois.edu/">Zhijian Yang</a> </h7>
+                </td>
+                <td>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <h7>- <a href="https://rrajalaxmi.web.illinois.edu/">Rajalaxmi Rajagopalan</a> </h7>
+                </td>
+                <td>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h7>- <a href="https://zhongweiyangxu.web.illinois.edu/">Zhongweiyang Xu</a> </h7>
+                </td>
+                <td>
+                </td>
+              </tr>
+
+             <tr>
+                <td>
+                  <h7>- <a href="http://sahilbhandary.web.illinois.edu/">Sahil Bhandari</a> </h7>
+                </td>
+                <td>
+                </td>
+              </tr>
+ 
+
+
+
+            </table>
+            <div style="height:5px;font-size:1px;">&nbsp;</div>
+
+            <h4> <span class="label label-success">Present MS Students </span></h4>
+            <table id="t3">
+              
+              <tr>
+                <td>
+                  <h7>- <a href="https://basusattwik.github.io/">Sattwik Basu</a> </h7>
+                </td>
+                <td>
+                
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h7>- <a href="https://debottam-dutta7.github.io//">Debottam Dutta</a> </h7>
+                </td>
+                <td>                  
+                  
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h7>- <a href="https://achaitanya.web.illinois.edu/">Chaitanya Amballa</a> </h7>
+                </td>
+                <td>
+                  
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h7>- <a href="https://akash-mittal.netlify.app/">Akash Mittal</a> </h7>
+                </td>
+                <td>
+                </td>
+              </tr>
+
+            </table>
+
+            <h4> <span class="label label-success">Past PhD Students </span></h4>
+
+            <table id="t3">
+              <tr>
+                <td>
+                  <h7>- <a href="https://seoyumyum.github.io/">Hyungjoo Seo</a> </h7>
+                </td>
+                <td>
+                  <h7> 2022, Apple </h7>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h7>- <a href="https://sheng-shen.github.io/">Sheng Shen</a> </h7>
+                </td>
+                <td>
+                  <h7> 2021, Researcher, Facebook Reality Labs </h7>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://www.cc.gatech.edu/~dhekne/ ">Ashutosh Dhekne</a> </h7>
+                </td>
+                <td>
+                  <h7> 2019, Asst. Professor, CS, Georgia Tech. </h7>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://www.cs.umd.edu/~nirupam/ ">Nirupam Roy</a> </h7>
+                </td>
+                <td>
+                  <h7> 2018, Asst. Professor, CS, Maryland, College Park </h7>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="http://www.cse.psu.edu/~mkg31/ ">Mahanth Gowda</a> </h7>
+                </td>
+                <td>
+                  <h7> 2017, Asst. Professor, EECS, Penn State University</h7>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://www.cs.purdue.edu/homes/hw/ ">He Wang</a> </h7>
+                </td>
+                <td>
+                  <h7> 2016, Asst. Professor, CS, Purdue University </h7>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://jain-puneet.github.io/ ">Puneet Jain</a> </h7>
+                </td>
+                <td>
+                  <h7> 2015, Google </h7>
+                </td>
+              </tr>
+              <tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://www.linkedin.com/in/manweiler/"> Justin Manweiler</a> </h7>
+                </td>
+                <td>
+                  <h7> 2012, Google </h7>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://www.linkedin.com/in/souvik-sen-5038569/"> Souvik Sen</a> </h7>
+                </td>
+                <td>
+                  <h7> 2012, Google </h7>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://www.linkedin.com/in/ionut-constandache-ba6240b3"> Ionut Constandache</a> </h7>
+                </td>
+                <td>
+                  <h7> 2011, LinkedIn </h7>
+                </td>
+              </tr>
+            </table>
+            <div style="height:5px;font-size:1px;">&nbsp;</div>
+
+            <h4> <span class="label label-success">Past MS Students </span></h4>
+
+            <table id="t3">
+
+              <tr>
+                <td>
+                  <h7>- <a href="https://avinash6.web.illinois.edu/">Avinash Subramaniam</a> </h7>
+                </td>
+                <td>
+                  <h7> 2023, Industry </h7>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h7>- <a href="http://ziyueli3.web.illinois.edu/">Ziyue (Liz) Li</a> </h7>
+                </td>
+                <td>
+                  <h7> 2021, Waymo </h7>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://www.linkedin.com/in/agrawalamod "> Amod Agrawal </a> </h7>
+                </td>
+                <td>
+                  <h7> 2019, Amazon Lab 126 </h7>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://www.linkedin.com/in/daguan-chen-105169b5/ "> Daguan Chen </a> </h7>
+                </td>
+                <td>
+                  <h7> 2019, Mercedez Benz, R&D </h7>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://www.linkedin.com/in/umberto-ravaioli-30061957/ "> Umberto Ravaioli</a> </h7>
+                </td>
+                <td>
+                  <h7> 2018, Toyon Research </h7>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>
+                  <h7>- <a href="https://schfan.github.io/ "> Songchun Fan</a> </h7>
+                </td>
+                <td>
+                  <h7> 2013, Google (PhD 2016, Duke University) </h7>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://www.linkedin.com/in/rahul-ghosh-a20382b/?originalSubdomain=in"> Rahul Ghosh</a>
+                  </h7>
+                </td>
+                <td>
+                  <h7> 2009, American Express AI Labs </h7>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h7>- <a href="https://people.cs.umass.edu/~jxiong/"> Jie Xiong</a> </h7>
+                </td>
+                <td>
+                  <h7> 2009, Asst. Professor, UMAss Amherst (PhD, UCL) </h7>
+                </td>
+              </tr>
+            </table>
+
+            <h2><a class="more" onClick="hide('more-students')">[Hide]</a></h2>
+        </div>
+      </td>
+
+      <td id="more-talks" style="display:none; background-color: #DBDAD1; width: 540px;">
+        <div class="b">
+          <div style="height:10px;font-size:1px;">&nbsp;</div>
+          <h4> <span class="label label-success">More Talks and Seminars </span>
+            <a class="more" onClick="hide('more-talks')">[Hide]</a>
+          </h4>
+          <h5>- Invited speaker, NUS Computer Science Week, Singapore, 2020</h5>
+          <h5>- Keynote at ACM EarComp Workshop (with UbiComp), London, 2019</h5>
+          <h5>- Keynote at MobiUK Symposium, Oxford University, 2019</h5>
+          <h5>- Invited Plenary Speaker, NSF Career Workshop, 2017</h5>
+          <h5>- Invited talk at UC Berkeley Robotics Communication Workshop, 2014</h5>
+          <h5>- Keynote at ACM Pervasive Urban Crowd Sensing Workshop, 2013</h5>
+          <h5>- Keynote at ACM MobiArch Workshop (with MobiCom), 2012</h5>
+          <h5>- Invited talk at Google, 2012</h5>
+          <h5>- Keynote at ACM Mobile Cloud Computing Workshop (with MobiSys), 2011</h5>
+          <br>
+        </div>
+      </td>
+
+      <td id="more-tweets"
+        style="display:none; background-color: #EFE5D2; width: 450px; min-width: 450px; max-width: 450px;">
+        <a id="scroll-to-more-tweets" style="float: right;"></a>
+        <div class="b">
+          <div style="height:10px;font-size:1px;">&nbsp;</div>
+          <h4> <span class="label label-success">More Tweets </span>
+            <!-- <a class="more" onClick="hide('more-tweets')">[Hide]</a> -->
+          </h4>
+          <h5>- Earable Computing: <a href="https://synrg.csl.illinois.edu/earables.php">webpage </a> launched</a> </h5>
+          <h5>- Digitaltrends' <a href="https://www.digitaltrends.com/features/ar-earbuds-future-computing/">article
+            </a> on our research </h5>
+          <h5>- Hotmobile presentation <a href="https://youtu.be/_ZV9egjOThM"> [video]</a></h5>
+          <h5>- NSF's COVID <a
+              href="https://sites.google.com/tamu.edu/nets-covid/second-call-to-arms-workshop">workshop</a>: Role of
+            wireless & mobile systems</h5>
+          <h5>- <a href="https://synrg.csl.illinois.edu/">SyNRG</a> students win 2020 Qualcomm <a
+              href="https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/2020-north-america">Fellowship</a>
+          </h5>
+          <h5>- <a href="https://sheng-shen.github.io/">Sheng</a> joins Facebook Research (Reality Labs)</h5>
+          <div style="height:10px;font-size:1px;">&nbsp;</div>
+
+          <h5>- <a href="https://www.cs.umd.edu/~nirupam/">Nirupam</a> wins 2019 <a
+              href="https://csl.illinois.edu/news/former-csl-student%E2%80%99s-research-inaudible-acoustics-rewarded-phd-thesis-award">CSL
+              PhD Thesis Award</a></h5>
+          <h5>- <a href="https://www.cc.gatech.edu/~dhekne/">Ashutosh </a>joins CS, Georgia Tech as faculty
+            <h5>- Spending Fall 2019 at <a href="https://research.samsung.com/aicenter_cambridge">Samsung AI Center</a>,
+              Cambridge, UK</h5>
+            <div style="height:10px;font-size:1px;">&nbsp;</div>
+
+            <h5>- <a href="https://www.cs.umd.edu/~nirupam/">Nirupam</a> joins CS, Maryland, as faculty </h5>
+            <h5>- <a href="https://www.nae.edu/Activities/Projects/20730/wtop/195371.aspx">NAE </a> and <a
+                href="https://synrg.csl.illinois.edu/audios/mute_bbc.html">BBC radio</a> cover noise cancellation
+              research</h5>
+            <h5>- <a href="https://youtu.be/_FrKySibcb8 ">Video demo </a> on Amazon Alexa attack | Related <a
+                href="https://www.nytimes.com/2018/05/10/technology/alexa-siri-hidden-command-audio-attacks.html ">NYT
+                article</a></h5>
+            <div style="height:10px;font-size:1px;">&nbsp;</div>
+
+            <h5>- <a
+                href="https://spectrum.ieee.org/tech-talk/consumer-electronics/audiovideo/noisecanceling-techs-edge-is-faster-than-the-speed-of-sound">
+                IEEE Spectrum </a> reports on our noise suppression research</h5>
+            <h5>- Inaudible acoustics research in IEEE Spectrum <a
+                href="https://spectrum.ieee.org/semiconductors/devices/how-we-reverse-engineered-the-cuban-sonic-weapon-attack">article</a>
+            </h5>
+            <h5>- <a href="https://ieeexplore.ieee.org/document/8498086">Special Reports</a> from IEEE Signal Processing
+              Magazine</h5>
+            <h5>- CACM Technical Report: <a href="https://synrg.csl.illinois.edu/papers/cacm_wifi_sensor.pdf">Is Your
+                WiFi a Sensor</a></h5>
+            <div style="height:10px;font-size:1px;">&nbsp;</div>
+
+            <h5>- <a href="http://www.cse.psu.edu/~mkg31/">Mahanth</a> joins EECS, Penn State, as faculty </h5>
+            <h5>- Named Jerry Sanders III AMD <a
+                href="https://csl.illinois.edu/news/six-csl-professors-receive-ece-faculty-fellows-and-scholars-appointments">Scholar</a>
+              at UIUC</h5>
+            <h5>- Motion tracking work on the cover of <a
+                href="https://dl.acm.org/doi/abs/10.1145/3191789.3191793">GetMobile</a> magazine</h5>
+            <!-- <h5>- DroneNet: Runners up, ACM MobiCom SRC Competition</h5> -->
+            <div style="height:10px;font-size:1px;">&nbsp;</div>
+
+            <h5>- <a href="https://scholar.google.com/citations?user=sFIgGN0AAAAJ&hl=en">He Wang </a>joins CS, Purdue
+              University as faculty
+              <h5>- SyNRG team visiting Intel for summer 2016</h5>
+              <h5>- <a href="https://www.youtube.com/watch?v=vQwUWZ-7Qd0">Best demo award</a> for realtime AR, Hotmobile
+                2015</h5>
+              <div style="height:10px;font-size:1px;">&nbsp;</div>
+
+              <h5>- <a href="https://jain-puneet.github.io/">Puneet</a> joins HP Labs (now Google), 2015 </h5>
+              <h5>- 2013 UbiComp Best paper <a href="https://www.ubicomp.org/ubicomp2013/program.php">Honorable
+                  Mention</a></h5>
+              <h5>- <a href="https://www.hoffmann-krippner.com/">Hoffner Krippner</a> Award for Engineering Innovations
+              </h5>
+
+              <!-- <h5>- 2017 ACM MobiSys Best Paper <a href="https://www.sigmobile.org/mobisys/2017/program.php">Award</a> on inaudible sounds</h5> -->
+              <!-- <h5>- Winner of ACM MobiSys Best Poster</h5> -->
+              <!-- <h5>- Runner up for ACM MobiSys demo, 2011</h5> -->
+              <!-- <h5>- Runners Up of ACM MobiSys Demo Contest, 2011</h5> -->
+              <!-- <h5>- 2010 Winner of ACM MobiCom Student Research Competition</h5> -->
+              <!-- <h5>- Appointed Nortel Network Assistant Professor of ECE, 2009</h5> -->
+              <!-- <h5>- NSF CAREER Award 2007</h5> -->
+              <!-- <h5>- Joined Duke University, ECE and CS, as faculty</h5> -->
+              <div style="height:61px;font-size:1px;">&nbsp;</div>
+              <h2><a class="more" onClick="hide('more-students')">[Hide]</a></h2 </div>
+      </td>
+
+      <td id="more-bio" style="display:none; background-color: #EFE5D2; width: 480px;">
+        <div class="b">
+          <div style="height:10px;font-size:1px;">&nbsp;</div>
+          <h4> <span class="label label-success">Bio</span>
+            <!-- <a class="more" onClick="hide('more-tweets')">[Hide]</a> -->
+          </h4>
+          <h5>Romit Roy Choudhury is a Jerry Sanders Scholar and Professor of ECE and CS at the University of Illinois
+            at Urbana Champaign (UIUC).
+            His research interests are in wireless networking, embedded sensing, and applied signal processing.
+            Along with his students, he received a few research awards, including the ACM Sigmobile Rockstar Award, the
+            UIUC Distinguished Alumni Award, the 2017 MobiSys Best Paper Award, etc.
+            He was elevated to IEEE Fellow in 2018.
+            Visit Romit's Systems Networking Research Group (SyNRG) at http://synrg.csl.illinois.edu
+          </h5>
+          <div style="height:375px;font-size:1px;">&nbsp;</div>
+          <h2><a class="more" onClick="hide('more-bio')">[Hide]</a></h2 </div>
+      </td>
+
+    </tr>
+
+  </table>
+
+</body>
+
+</html>
+
+
+
+
+<!-- <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr> -->

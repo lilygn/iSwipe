@@ -1,0 +1,11 @@
+Carl Evans
+Education
+- Doctor of Philosophy, Computer Science, University of Illinois Urbana-Champaign, 2016
+Research Areas
+Recent Courses Taught
+- CS 173 - Discrete Structures
+- CS 199 225 - Supplementary Proj for CS 225
+- CS 199 225 - Supplementary proj. for CS-225
+- CS 225 - Data Structures
+- CS 296 25 - Honors Course
+- CS 340 - Intro to Computer Systems

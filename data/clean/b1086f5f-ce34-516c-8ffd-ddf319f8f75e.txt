@@ -1,0 +1,32 @@
+Downloads (Software and Dataset Traces)
+This is the code for the Eurosys 2025 paper on Faro ("A House United Within Itself: SLO-Awareness for On-Premises Containerized ML Inference Clusters via Faro"). Faro does allocation of multiple ML (DNN) jobs (with sub-second latency SLOs) that share a fixed-sized cluster. Faro is integrated with Ray Serve and Kubernetes. For more details see our Eurosys 2025 paper.
+This is the code for the ICDCS 2025 paper on Wainscot ("Wainscot: Tailoring Model Parallelism to Fit Device Memory Limits"). Wainscot augments our Baechi system (SoCC 2020) with memory balance. For more details see our ICDCS 2025 paper on Faro, and SoCC 2020 paper on Baechi.
+This is the code for the Withhold Scheduling of Data Flows from LEO Satellite Constellations to Ground Stations, published in Mobicom 2023. For more details see our Mobicom 2023 paper.
+Baechi is a placement/scheduling system for placing Deep Neural Network (DNN) graphs on collections of memory-constrained devices, via model parallelism. This is our implementation for PyTorch. For more details see our ACM SoCC 2020 paper and our Notion documentation.
+Baechi is a placement/scheduling system for placing Deep Neural Network (DNN) graphs on collections of memory-constrained devices, via model parallelism. This is our implementation for TensorFLow v1. For more details see our ACM SoCC 2020 paper.
+This is the code for the Churn-Tolerant Leader Election Protocol published in ICDCS 2023. For more details see our ICDCS 2023 paper.
+Medley is the first fully-decentralized membership and failure detection service for wireless IoT/ad-hoc networks. For more details see our Middleware 2020 paper.
+SafeHome is a system that provides notions of atomicity and serial equivalence for smart homes. For more details see our Eurosys 2021 paper and HotEdge 2019 paper.
+Getafix is a system that dynamically changes replication of data based on relative popularity of access in distributed interactive analytics engine. For more details see our Eurosys 2018 paper.
+OPTiC is a multi-tenant extension of Apache Giraph for opportunistic graph processing on Apache YARN multi-tenant clusters. For more details see our IEEE IC2E 2018 paper.
+PCAP-Riak is an adaptive extension of Basho Riak for meeting novel probabilistic consistency and latency SLAs for distributed key-value stores. For more details see our ACM TAAS 2017 paper.
+PCAP-Cassandra is an adaptive extension of Apache Cassandra for meeting novel probabilistic consistency and latency SLAs for distributed key-value stores. For more details see our ACM TAAS 2017 paper.
+Morphus is a system built on top of MongoDB which allows an user to change shard key for a collection. For more details see our IEEE TETC 2015 and ICAC 2015 papers.
+This is our distributed graph processing engine. For more details, see our ACM TRIOS paper.
+The source code is released under the CRAPL license(An academic-strength open source license). For more details see our papers in Springer Journal of Cluster Computing 2011, and IEEE Cluster 2010.
+Wasef is a system built on top of Cassandra which can be used to store metadata. The metadata is useful for data provenance, column dropping, etc. For more details see our IEEE Cloud 2015 paper.
+Our crawls of the PPLive streaming system yielded client population snapshots and captured the overlay graph among clients. These traces are included below, along with the crawler code.
+For more details, see our papers in TOMCCAP 2009, HPDC 2007, and QShine 2007.
+peerCounter is a system for estimating the online population size of a dynamic p2p system, i.e., number of online hosts. It can be run as a part of any distributed system. The Java implementation of peerCounter, along with an API and an application, are included below. For more details see our IEEE NCA 2005 paper.
+DSI is a unified framework of building blocks that are implementations of basic distributed algorithms. It includes implementations of Lamport clocks and distributed mutual exclusion, code for modularly adding distributed algorithms. In the works are blocks for snapshots, termination, and DHTs. The latest version for the DSI code is included below.
+Currently, DSI is only deployed in source code form. You may choose to download only the edu.uiuc.dsi.* namespace or download DSI with some examples ready to use and play with right 'out of the box'.
+MON is an on-demand instantaneous monitoring system intended for wide-area clusters. It is currently deployed on PlanetLab as a service and via a web interface. For more details see our papers in ACM SIGOPS OSR 2007, and Usenix WORLDS 2005.
+AVMON is a distributed availability-monitoring overlay meant to be robust to selfish and colluding hosts. For more details see our papers in IEEE TPDS 2009, and ICDCS 2007.
+Rappel is p2p delivery vehicle for RSS feeds. The source code is distributed under the BSD-like University of Illinois license. For more details see our Computer Networks 2009 paper.
+ISS (Intermediate Storage System) is a file system for intermediate data in Hadoop. The source code is distributed under the BSD-like University of Illinois license. For more details see our ACM SoCC 2010 paper.
+Added June 10, 2011.
+Updated March 16, 2012.
+Our UIM traces include joint Wifi/Bluetooth traces collected by 28 students, staff, and faculties in the University of Illinois campus from 03/01/2010 to 03/20/2010. Participants carried Android Google phones, which have Wifi and Bluetooth scanners to obtain MACs of Wifi access points and Bluetooth-enabled devices in the proximity of the phones. For more details see our MSWIM 2010 paper.
+The bug was that the LRU MapCache does not always guarantee to limit the cache size under the preset cache size maximum limit. This is the JIRA Entry for the issue.
+For all questions about support or bug reports, please email Indranil Gupta indy at cs dot uiuc dawt edu.
+[All Download Counters]

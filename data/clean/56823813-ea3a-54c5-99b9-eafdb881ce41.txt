@@ -1,0 +1,14 @@
+|
+Associate Professor Electrical and Computer Engineering University of Illinois at Urbana-Champaign Publications | Students | CV Request a meeting |
+My research interests are network security and online privacy. There is a natural overlap between these: privacy enhancing technologies can be used by attackers to evade detection, and privacy invasive technologies can be used by network defenders for situational awareness. As a result, the attackers and defenders frequently swap places depending on context, so I named my research group "hatswitch".
+Conferences that I am involved with:
+Associate Research Professor at the Coordinated Science Laboratory, and the Information Trust Institute.
+Affiliate at the Department of Computer Science.
+Member of the Advanced Digital Sciences Center.
+I received my Ph.D. and master's degrees from the Computer Science Division at UC Berkeley, advised by Prof. Eric Brewer. For my undergraduate degree, I attended University of Waterloo, where I got a B.Math in Computer Science and Pure Math. I've also spent some time at Microsoft Research and Entrust, Inc..
+460 Coordinated Science Laboratory, MC-228
+1308 West Main Street
+Urbana, IL 61801â2307
+Tel: +1 (217) 244â5385
+Fax: +1 (217) 244â5685
+Email: nikita@illinois.edu

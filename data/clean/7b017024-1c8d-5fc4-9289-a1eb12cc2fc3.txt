@@ -1,0 +1,4 @@
+CS 124 will teach you the basics of computer science and programming. Once you know these things, you can and will change the world.
+CS 124 online is an innovative, immersive, interactive online experience. Try experimenting with the code above to begin your journey in computer science! We offer CS 124 in both Kotlin and Java, and we'll teach you how to use AI coding agents.
+Our journey together begins now. Get excited!
+Ready to go? Start here.

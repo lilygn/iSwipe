@@ -1,0 +1,25 @@
+David Padua
+For More Information
+Biography
+David Padua has served as program committee member, program chair, or general chair to more than 70 conferences and workshops. He was the Editor-in-Chief of Springer‐Verlag’s Encyclopedia of Parallel Computing and is currently a member of the editorial board of the Communications of the ACM, the Journal of Parallel and Distributed Computing, and the International Journal of Parallel Programming. He has devoted much of his career to the study of languages, tools, and compilers for parallel computing. His PhD dissertation was one of the first studies on compiler techniques for multiprocessors. He has continued this work contributing with techniques for program analysis and program transformation as well as methodologies to evaluate the effectiveness of compilers. He pioneered the study of race detection techniques for shared-memory program. Padua has worked on autotuning, high level notations for parallel programming, compiler evaluation, and the efficient implementation of scripting languages. In the area of autotuning, he has worked on the development of compiler strategies, advanced notations, accurate performance models, and machine learning‐based search techniques. He led the development of the hierarchically tiled arrays notation whose goal is to facilitate the representation of parallelism and locality. His research group collaborated with IBM compiler writers in an influential evaluation of the effectiveness of vectorization. In the area of scripting languages, his research group developed techniques to improve the performance of MATLAB and R programs. Padua has supervised the dissertations of 30 PhD students. He has published more than 170 papers in programming languages, compilers, tools and parallel machine design. He received the 2015 IEEE Computer Society Harry H. Goode Award. In 2017, he awarded an honorary doctorate from the University of Valladolid in Spain. He is a Fellow of the ACM. the IEEE and the AAAS.
+Research Areas
+Articles in Conference Proceedings
+- Thiago S F X Teixeira, Corinne Ancourt, David Padua, William Gropp. Locus: a System and a Language for Program Optimization. CGO 2019
+- Zhangxiaowen Gong, Zhi Chen, Justin Josef Szaday, David C. Wong, Zehra Sura, Neftali Watkinson, Saeed Maleki, David A. Padua, Alexander V. Veidenbaum, Alexandru Nicolau, Josep Torrellas: An empirical study of the effect of source-level loop transformations on compiler stability. PACMPL 2(OOPSLA): 126:1-126:29 (2018)
+- Zhi Chen, Zhangxiaowen Gong, Justin Josef Szaday, David C. Wong, David A. Padua, Alexandru Nicolau, Alexander V. Veidenbaum, Neftali Watkinson, Zehra Sura, Saeed Maleki, Josep Torrellas, Gerald DeJong: LORE: A loop repository for the evaluation of compilers. IISWC 2017: 219-228
+- Saeed Maleki, Donald Nguyen, Andrew Lenharth, María Garzarán, David Padua, and Keshav Pingali. 2016. DSMR: A Parallel Algorithm for Single-Source Shortest Path Problem. In Proceedings of the 2016 International Conference on Supercomputing (ICS '16). ACM, New York, NY, USA, Article 32, 14 pages.
+- Haichuan Wang, David Padua, and Peng Wu. 2015. Vectorization of apply to reduce interpretation overhead of R. In Proceedings of the 2015 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2015). ACM, New York, NY, USA, 400-415.
+Professional Societies
+- Fellow. Association for Computing Machinery.
+- Fellow. IEEE Computer Society.
+Research Honors
+- Fellow American Association for the Advancement of Science. (January, 2022)
+- University of Valladolid (Spain) Doctor "Honoris Causa" (6/16/2017)
+- IEEE Computer Society Harry H. Goode Award (2015 )
+- Fellow, Association for Computing Machinery (6/2008)
+- Fellow. Institute of Electrical and Electronic Engineers (1/1/2000 )
+- Golden Core Member. IEEE Computer Society (1997)
+Recent Courses Taught
+- CS 296 33 - Honors Course
+- CS 420 (CSE 402, ECE 492) - Parallel Progrmg: Sci & Engrg
+- CS 591 ACT - Advanced Compiler Technology

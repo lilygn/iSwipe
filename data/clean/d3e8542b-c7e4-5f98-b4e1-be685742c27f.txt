@@ -1,0 +1,10 @@
+Assistant Professor of Computer Science
+Affiliate Professor of Electrical & Computer Engineering
+University of Illinois Urbana-Champaign
+I am an assistant professor of computer science in the Siebel School of Computing and Data Science at the University of Illinois Urbana-Champaign (UIUC), with an affiliate appointment in Electrical & Computer Engineering.
+I lead the Illinois Networked Systems and AI (NSAI) research group, where we build intelligent networked systems that are safe, robust, and performance-optimized â often through cautious and restrained integration of learning-based techniques, mindful of real-world deployment constraints. My past research has ranged from developing large-scale research platforms that lay the foundation for applying ML in systems and networking, to devising practically deployable ML algorithms.
+I am the creator of Puffer, a live TV service with over 400,000 real users, and a video research platform that has aided researchers in publishing multiple top-tier and award-winning papers.
+Before joining UIUC, I worked as a Senior Researcher at Microsoft Research Redmond in Victor Bahlâs group. Prior to that, I earned my Ph.D. in computer science from Stanford University, where I was advised by Keith Winstein and Philip Levis. I did my undergraduate studies at Tsinghua University (Yao Class) and MIT. My work has been recognized with an IRTF Applied Networking Research Prize, a USENIX NSDI Community Award, a USENIX NSDI Outstanding Paper Award, a USENIX ATC Best Paper Award, and an APNet Best Paper Award.
+Please visit my research page for more details.
+I am always looking for self-motivated masterâs and undergraduate students to join my group and work on exciting research projects! If you are interested, please email me your resume, (unofficial) transcript, and estimated time commitment. (I will recruit more Ph.D. students for Fall 2026.)
+Due to the high volume of messages, I apologize in advance that I will not respond to application emails by default. However, I do review each application and will reply if there is a good match with ongoing projects.

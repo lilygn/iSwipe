@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Edgar Solomonik</title>
+
+    <link href="bootstrap_files/css/bootstrap.min.css" rel="stylesheet">
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+        <div style="background:transparent !important" class="jumbotron">
+          <div class="media"> 
+            <div class ="media-body">
+              <h2 align="left">Edgar Solomonik</h2>
+              <p align="left">
+              Associate Professor<br/>
+              Siebel School of Computing and Data Science<br>
+              University of Illinois, Urbana-Champaign
+              </p>
+              <a class="media-left float-left" href="#">
+                <img class="media-object" src="img/RnD-2130-8-small.jpg" height=170 width=170/> <br>
+              </a>
+              <p align="left">
+              Research Group: <a href="http://lpna.cs.illinois.edu">Laboratory for Parallel Numerical Algorithms (LPNA)</a>
+              </p>
+              <a class="media-left middle" href="#">
+                <img class="media-object" src="img/lpna.png" height=50 width=400/>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3> Contact Information </h3> 
+            <p align="left">
+              solomon2@illinois.edu <br> 
+              4229 Thomas M. Siebel Center for Computer Science <br>
+              201 North Goodwin Avenue <br>
+              Urbana, IL 61801-2302  <br> 
+              217-300-4794 <br> <br>
+              I am on sabbatical Spring 2025 - Fall 2025, and am likely to decline new service requests during this period.
+            </p>
+        <h3>Teaching </h3>
+        <div class="media"> 
+          <a class="pull-left" href="#">
+            <img class="media-object" src="img/hornersrule.png" height=65 width=80/></a>
+          <div class ="media-body">
+            <br>
+            (<a href="https://relate.cs.illinois.edu/course/cs450-s24/">Spring 2024</a>,
+             <a href="https://relate.cs.illinois.edu/course/cs450-s23/">Spring 2023</a>,
+             <a href="https://relate.cs.illinois.edu/course/cs450-s21/">Spring 2021</a>,
+             <a href="https://relate.cs.illinois.edu/course/cs450-s18/">Spring 2018</a>,
+             <a href="https://relate.cs.illinois.edu/course/cs450-f18/">Fall 2018</a>) CS 450: Numerical Analysis<br>
+          </div>
+          <br>
+          <br>
+          <a class="pull-left" href="#">
+            <img class="media-object" src="img/peps.png" height=40 width=80/></a>
+          <div class ="media-body">
+            (<a href="https://relate.cs.illinois.edu/course/cs598-evs-s22/">Fall 2020, Spring 2022</a>) CS 598: Tensor Computations <br></a>
+          </div>
+          <br>
+          <br>
+          <a class="pull-left" href="#">
+            <img class="media-object" src="img/diamond.png" height=77 width=80/></a>
+          <div class ="media-body">
+            (<a href="https://relate.cs.illinois.edu/course/cs598evs-s20/">Spring 2020</a>) CS 598: Provably Efficient Algorithms for Numerical and Combinatorial Problems <br>
+          </div>
+          <br>
+          <br>
+          <a class="pull-left" href="#">
+            <img class="media-object" src="img/hss_2lvl3.png" height=75 width=75/></a>
+          <div class ="media-body">
+            <br>
+            (<a href="https://relate.cs.illinois.edu/course/cs554-f21/">Fall 2017, Fall 2019, Fall 2021</a>) CS 554: Parallel Numerical Algorithms<br>
+          </div>
+          <br>
+          <br>
+          <a class="pull-left" href="#">
+            <img class="media-object" src="img/diagonalize.png" height=80 width=80/></a>
+          <div class ="media-body">
+            <br>
+            (<a href="https://relate.cs.illinois.edu/course/cs357-s17/">Spring 2017</a>) CS 357: Numerical Methods<br>
+            ICES scores: <a href="teaching/ices/cs357_sp2017_ices.html">Spring 2017</a><br>
+          </div>
+          <br>
+          <br>
+          <a class="pull-left" href="#">
+            <img class="media-object" src="img/bitonic.png" height=80 width=80/></a>
+          <div class ="media-body">
+          <br>
+            (<a href="teaching/cs598_fall2016/index.html">Fall 2016</a>) CS 598: Communication Cost Analysis of Algorithms<br>
+            ICES scores: <a href="teaching/ices/cs598_fall2016_ices.html">Fall 2016</a><br>
+          </div>
+
+        </div>
+        </div>
+        <div class="col-lg-6">
+
+         <h3> Software </h3>
+        <div class="media"> 
+          <a class="pull-left" href="#">
+             <img class="media-object" src="img/cyclops.png" height=80 width=80/></a>
+          <div class ="media-body">
+            <a href="https://www.github.com/cyclops-community/ctf">Cyclops Tensor Framework</a> <br> algebraic parallel programming <br><br>
+          </div>
+        </div>
+        <div class="media"> 
+          <a class="pull-left" href="#">
+            <img class="media-object" src="img/25d_lu_2.png" height=80 width=80/></a>
+          <div class ="media-body">
+            <a href="https://www.github.com/solomonik/CANDMC">CANDMC</a><br>
+            distributed-memory matrix factorization algorithms
+          </div>
+        </div>
+        For more software efforts I am involved in, see <a href="https://github.com/cyclops-community">Cyclops community software</a> and <a href="https://github.com/solomonik">my github page</a>.
+ 
+        <h3> Research Interests </h3>  
+        <p  style="line-height:130%">
+          numerical linear algebra <br>
+          parallel algorithms <br>
+          tensor networks <br>
+          tensor decompositions <br>
+          communication-avoiding algorithms <br>
+          communication lower bounds <br>
+          high performance computing <br>
+          parallel programming systems <br>
+          computational quantum chemistry <br>
+          graph algorithms <br>
+          quantum algorithms <br>
+          bilinear algorithms
+        </p>
+ 
+        <h3> Fellowships and Awards </h3>  
+        <p  style="line-height:180%">
+          <a href="https://bidenwhitehouse.archives.gov/ostp/news-updates/2025/01/14/president-biden-honors-nearly-400-federally-funded-early-career-scientists/">Presidential Early Career (PECASE) Award</a> 2025 <br>
+          <a href="https://isc-hpc.com/jack-dongarra-award/">Jack Dongarra Early Career Award, 2024</a> 2024 <br>
+          <a href="https://cs.illinois.edu/about/awards/faculty-awards/university-illinois-awards">C.W. Gear Outstanding Junior Faculty Award</a> 2021 <br>
+          <a href="https://cs.illinois.edu/news/2021-faculty-college-campus-excellence-awards">Dean's Award For Excellence in Research</a> 2021 <br>
+          <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1942995">NSF CAREER Award</a> 2020 <br>
+          <a href="https://www.siam.org/prizes-recognition/activity-group-prizes/detail/siag-sc-early-career-prize">SIAM Activity Group on Supercomputing Early Career Prize</a> 2020 <br>
+          <a href="https://tc.computer.org/tchpc/home-page/page-of-awards/"> IEEE CS TCHPC Award for Excellence for Early Career Researchers in High Performance Computing</a> 2018 <br>
+          <a href="http://www.math.vt.edu/HHXX/before.html#section-prize"> Alston S. Householder Prize</a> 2017 <br>
+          <a href="https://www.ethz.ch/en/research/research-promotion/eth-internal-programmes/eth-fellowships.html">  ETH Zurich Postdoctoral Fellowship</a> 2014-2016 <br>
+          <a href="http://www.krellinst.org/csgf/community/fellows/profile?n=solomonik2010">DOE Computational Science Graduate Fellowship</a> 2010-2014 <br>
+          <a href="http://www.eecs.berkeley.edu/Students/Awards/#sakrison">David J. Sakrison Memorial Prize</a> 2014 <br>
+          <a href="http://www.nersc.gov/news-publications/news/nersc-center-news/2013/nersc-announces-winners-of-inaugural-hpc-achievement-awards/">NERSC Award for Innovative Use of High Performance Computing</a> 2013 <br>
+          <a href="http://awards.acm.org/award_winners/solomonik_3372354.cfm">ACM-IEEE George Michael HPC Fellowship</a> 2013 <br>
+        </p>
+
+        <h3> Previous Affiliations </h3>  
+          <p  style="line-height:165%">
+           Postdoctoral Researcher, ETH Zurich, 2014-2016</a><br>
+           PhD, University of California Berkeley, 2010-2014</a><br>
+           BS, University of Illinois at Urbana-Champaign, 2008-2010</a><br>
+           More information is available in my <a href="cv/Solomonik_CV.pdf">CV</a>
+          </p>
+
+
+        </div>
+
+    <div class="col-lg-12">
+
+    <h3> Publications / CV</h3>
+    For a pdf form of my list of publications, please refer to my <a href="cv/Solomonik_CV.pdf">CV</a>.
+    For publications lead by students in our group, please see the <a href="http://lpna.cs.illinois.edu">LPNA webpage</a>.
+    Selected publications are marked in red.
+
+<!-- vim command to convert from my cv tex to html
+s/\\item.*\[.*\]\ *\(.*\)\n\\href{\(.*\)}\n{\\it\ *\(.*\)\.}\n\(.*\)/<tr>\r<td>\r  <a href="\2" class="btn-sm btn-primary" href="#" role="button">article<\/a>\r<\/td>\r<td>\1\r<u>\3<\/u>\r\4\r<\/td>\r<\/tr>\r/g
+-->
+
+
+<table class="table">
+<tbody>
+<tr>
+<td>
+  <a href="https://quantum-journal.org/papers/q-2024-12-27-1580/" class="btn-sm btn-primary" href="#" role="button">article</a>
+</td>
+<td>Linjian Ma, Matthew Fishman, Edwin Miles Stoudenmire, and Edgar Solomonik.
+<u>Tensor rank and other multipartite entanglement measures of graph states</u>
+Quantum 8, 2024.
+</td>
+</tr>
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2209.06320" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+    Louis Schatzki, Linjian Ma, Edgar Solomonik, Eric Chitambar      
+      <u>Tensor rank and other multipartite entanglement measures of graph states</u>
+      Physical Review A 110.3, 2024.
+  </td>
+  </tr>
+
+
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2307.05740" class="btn-sm btn-primary" href="#" role="button">article</a>
+</td>
+<td>Raghavendra Kanakagiri and Edgar Solomonik
+<u>Minimum cost loop nests for contraction of a sparse tensor with a tensor network</u>
+ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), June 2024.
+</td>
+</tr>
+
+
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2311.03694" class="btn-sm btn-primary" href="#" role="button">article</a>
+</td>
+<td>Ping-Hsuan Tsai, Paul Fischer, and Edgar Solomonik
+<u>Accelerating the Galerkin reduced-order model with the tensor decomposition for turbulent flows</u>
+arXiv:2311.03694 [physics.flu-dyn], November 2023.
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2107.09834" class="btn-sm btn-primary" href="#" role="button">article</a>
+</td>
+<td>Caleb Ju, Yifan Zhang, and Edgar Solomonik
+<u>Communication lower bounds for nested bilinear algorithms</u>
+Foundations of Computational Mathematics (FoCM), 2023.
+</td>
+</tr>
+
+<tr>
+<td>
+  <a href="https://link.springer.com/chapter/10.1007/978-3-031-39698-4_48" class="btn-sm btn-primary" href="#" role="button">article</a>
+</td>
+<td>Andreas Irmler, Raghavendra Kanakagiri, Sebastian T. Ohlmann, Edgar Solomonik, and Andreas Grueneis 
+<u>Optimizing distributed tensor contractions using node-aware processor grids</u>
+Lecture Notes in Computer Science, Euro-Par, August 2023.
+</td>
+</tr>
+
+
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2307.03307" class="btn-sm btn-primary" href="#" role="button">article</a>
+</td>
+<td>Caleb Ju, Serif Yesil, Mengyuan Sun, Chandra Chekuri, and Edgar Solomonik
+<u>Efficient parallel implementation of the multiplicative weight update method for graph-based linear programs</u>
+arXiv:2307.03307 [cs.DC], July 2023.
+</td>
+</tr>
+
+
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2204.07208" class="btn-sm btn-danger" href="#" role="button">article</a>
+</td>
+<td>Navjot Singh and Edgar Solomonik.
+<u>Alternating Mahalanobis distance minimization for stable and accurate CP decomposition</u>
+SIAM Journal of Scientific Computing (SISC), 2023.
+</td>
+</tr>
+
+
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2210.10184" class="btn-sm btn-primary" href="#" role="button">article</a>
+</td>
+<td>Edward Hutter and Edgar Solomonik.
+<u>High-dimensional performance modeling via tensor completion</u>
+ACM/IEEE Supercomputing Conference (SC), November 2023.
+</td>
+</tr>
+
+
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2204.04599" class="btn-sm btn-primary" href="#" role="button">article</a>
+</td>
+<td>Wentao Yang, Vipul Harsh, and Edgar Solomonik.
+<u>Optimal round and sample-size complexity for partitioning in parallel sorting</u>
+ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), June 2023.
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+  <a href="https://dl.acm.org/doi/10.1145/3582016.3582064" class="btn-sm btn-primary" href="#" role="button">article</a>
+</td>
+<td>Toluwanimi O. Odemuyiwa, Hadi Asghari-Moghaddam, Michael Pellauer, Kartik Hegde, Po-An Tsai, Neal C. Crago, Aamer Jaleel, Edgar Solomonik, Joel S. Emer, and Christopher W. Fletcher 
+<u>Accelerating sparse data orchestration via dynamic reflexive tiling</u>
+ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), March 2023.
+</td>
+</tr>
+
+
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2007.08056" class="btn-sm btn-primary" href="#" role="button">article</a>
+</td>
+<td>Yang Gao, Phillip Helms, Garnet Kin-Lic Chan, and Edgar Solomonik.
+<u>Automatic transformation of irreducible representations for efficient contraction of tensors with cyclic group symmetry</u>
+SciPost Physics Codebases, September 2022.
+</td>
+</tr>
+
+
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2205.13163" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+      Linjian Ma and Edgar Solomonik
+      <u>Cost-efficient Gaussian tensor network embeddings for tensor-structured inputs</u>
+Conference on Neural Information Processing Systems (NeurIPS), 2022.
+  </td>
+  </tr>
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2106.07900" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Chaoqi Yang, Cheng Qian, Navjot Singh, Cao Xiao, Brandon Westover, Edgar Solomonik, Jimeng Sun
+<u>Augmented tensor decomposition with stochastic optimization</u>
+Conference on Neural Information Processing Systems (NeurIPS), 2022.
+<!--       <a href="bibtex/KS_arx_2020.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2104.12916" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Samah Karim and Edgar Solomonik
+<u>Efficient preconditioners for interior point methods via a new Schur-complement-based strategy</u>
+SIAM Journal on Matrix Analysis and Applications (SIMAX), 2022.
+<!--       <a href="bibtex/KS_arx_2020.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/1910.02371" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Navjot Singh, Zecheng Zhang, Xiaoxiao Wu, Naijing Zhang, Siyuan Zhang, and Edgar Solomonik
+<u>Distributed-memory tensor completion for generalized loss functions in Python using new sparse tensor kernels</u>
+      Journal of Parallel and Distributed Computing (JPDC), 2022.
+<!--       <a href="bibtex/ZWZZS_arx_2019.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/1811.10573" class="btn-sm btn-danger" href="#" role="button">article</a>
+  </td>
+  <td>
+      Linjian Ma and Edgar Solomonik
+      <u>Accelerating alternating least squares for tensor decomposition by pairwise perturbation</u>
+      Numerical Linear Algebra with Applications (NLAA), 2022.
+<!--       <a href="bibtex/MS_arx_2018.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2110.04865" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Tim Baer, Raghavendra Kanakagiri, and Edgar Solomonik
+<u>Parallel minimum spanning forest computation using sparse matrix kernels</u>
+SIAM Conference of Parallel Processing for Scientific Computing (SIAM PP), 2022.
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2107.09834" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Caleb Ju, Yifan Zhang, and Edgar Solomonik
+<u>Communication lower bounds for nested bilinear algorithms</u>
+arXiv:2107.09834 [cs.DC], July 2021.
+  </td>
+  </tr>
+
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2104.01101" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Linjian Ma and Edgar Solomonik
+<u>Fast and accurate randomized algorithms for low-rank tensor decompositions</u>
+Conference on Neural Information Processing Systems (NeurIPS), 2021.
+<!--       <a href="bibtex/MS_arx_2020.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2106.07135" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Chaoqi Yang, Navjot Singh, Cao Xiao, Cheng Qian, Edgar Solomonik, Jimeng Sun
+<u>MTC: Multiresolution tensor completion from partial and coarse observations</u>
+ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2021.
+<!--       <a href="bibtex/KS_arx_2020.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/1707.04618" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+  </td>
+  <td>
+      Edgar Solomonik, James Demmel, and Torsten Hoefler 
+      <u>Communication lower bounds of bilinear algorithms for symmetric tensor contractions</u>
+      SIAM Journal of Scientific Computing (SISC), 2021.
+<!--       <a href="bibtex/SDH_arx_2017.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2103.01304" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Edward Hutter and Edgar Solomonik
+<u>Confidence-based approximation for performance prediction using execution path analysis</u>
+IEEE International Parallel and Distributed Processing Symposium (IPDPS), May 2021.
+<!--       <a href="bibtex/HS_arx_2020.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2010.12056" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Linjian Ma and Edgar Solomonik
+<u>Efficient parallel CP decomposition with pairwise perturbation and multi-sweep dimension tree</u>
+IEEE International Parallel and Distributed Processing Symposium (IPDPS), May 2021.
+<!--       <a href="bibtex/LS_arx_2020.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2007.08056" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Yang Gao, Phillip Helms, Garnet Kin-Lic Chan, and Edgar Solomonik
+<u>Automatic transformation of irreducible representations for efficient contraction of tensors with cyclic group symmetry</u>
+arXiv:2007.08056 [physics.comp-ph], July 2020.
+<!--       <a href="bibtex/GHCS_arx_2020.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2007.05540" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Ryan Levy, Edgar Solomonik, and Bryan Clark
+<u>Distributed-memory DMRG via sparse and dense parallel tensor contractions</u>
+ACM/IEEE Supercomputing Conference (SC), Atlanta, GA, November 2020.
+<!--       <a href="bibtex/LSC_SC_2020.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2006.15234" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Yuchen Pang, Tianyi Hao, Annika Dugad, Yiqing Zhou, and Edgar Solomonik
+<u>Efficient 2D tensor network simulation of quantum systems</u>
+ACM/IEEE Supercomputing Conference (SC), Atlanta, GA, November 2020.
+<!--       <a href="bibtex/PHDZS_SC_2020.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2005.04540" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Linjian Ma, Jiayu Ye, and Edgar Solomonik
+<u>AutoHOOT: Automatic High-Order Optimization for Tensors</u>
+International Conference on Parallel Architectures and Compilation Techniques (PACT), October 2020.
+<!--       <a href="bibtex/MYS_arx_2020.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/1910.13367" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Caleb Ju and Edgar Solomonik
+<u>Derivation and analysis of fast bilinear algorithms for convolution</u>
+SIAM Review, 2020.
+<!--       <a href="bibtex/JS_arx_2019.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+<tr>
+<td>
+
+    <a href="https://www.degruyter.com/view/journals/cmam/ahead-of-print/article-10.1515-cmam-2019-0075/article-10.1515-cmam-2019-0075.xml" class="btn-sm btn-danger" href="#" role="button">article</a>
+
+</td>
+<td>
+    Edgar Solomonik and James Demmel 
+    <u>Fast bilinear algorithms for symmetric tensor contractions</u>
+    Computational Methods in Applied Mathematics (CMAM), 2020.
+    <a href="http://dx.doi.org/10.3929/ethz-a-010345741" class="btn-xs btn-success" href="#" role="button">report</a>
+<!--     <a href="bibtex/SD_ETHZ_2015.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/2001.01191" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Yifan Zhang and Edgar Solomonik
+<u>On stability of tensor networks and canonical forms</u>
+arXiv:2001.01191 [math.NA], January 2020.
+<!--       <a href="bibtex/ZS_arx_2020.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+      <a href="https://ieeexplore.ieee.org/abstract/document/9139876/" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+      Maciej Besta, Raghavendra Kanakagiri, Harun Mustafa, Mikhail Karasikov, Gunnar R&auml;tsch, Torsten Hoefler, and Edgar Solomonik
+      <u>Communication-efficient Jaccard similarity for high-performance distributed genome comparisons</u>
+IEEE International Parallel and Distributed Processing Symposium (IPDPS), May 2020.
+<!--       <a href="bibtex/BKMKRHS_ipdps_2020.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+ 
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/1910.12331" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Navjot Singh, Linjian Ma, Hongru Yang, and Edgar Solomonik
+<u>Comparison of accuracy and scalability of Gauss-Newton and alternating least squares for CP decomposition</u>
+SIAM Journal of Scientific Computing (SISC), October 2019.
+<!--       <a href="bibtex/SMYS_arx_2019.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+  <tr>
+  <td>
+      <a href="https://dl.acm.org/citation.cfm?id=3358275" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+Kartik Hegde, 
+        Hadi Asghari-Moghaddam,
+        Michael Pellauer,
+        Neal Crago,
+        Aamer Jaleel,
+        Edgar Solomonik,
+        Joel Emer,
+        and Christopher W. Fletcher
+<u>ExTensor: An accelerator for sparse tensor algebra</u>
+IEEE/ACM International Symposium on Microarchitecture (MICRO), October 2019.
+<!--       <a href="bibtex/HAPCJSEF_MICRO_2019.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+  <tr>
+  <td>
+      <a href="https://dl.acm.org/citation.cfm?id=3323184" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+      Vipul Harsh, Laxmikant Kale, and Edgar Solomonik
+      <u>Histogram sort with sampling</u>
+	    31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), ACM, Phoenix, AZ, USA, June 2019.
+<!--       <a href="bibtex/HKS_arx_2018.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/1710.08471" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+      Edward Hutter and Edgar Solomonik
+      <u>Communication-avoiding Cholesky-QR2 for rectangular matrices</u>
+	    IEEE International Parallel and Distributed Processing Symposium (IPDPS), 
+	    Rio de Jianero, Brazil, May, 2019.
+<!--       <a href="bibtex/HS_ipdps_2019.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+ 
+
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+      <a href="https://arxiv.org/abs/1710.05867" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+  </td>
+  <td>
+      Edwin Pednault, John A. Gunnels, Giacomo Nannicini, Lior Horesh, Thomas Magerlein, Edgar Solomonik, Erik Draeger, Eric Holland, and Robert Wisnieff
+      <u>Breaking the 49-qubit barrier in the simulation of quantum circuits</u>
+      arXiv:1710.05867 [quant-ph], October 2017.
+<!--       <a href="bibtex/PGNHMSW_arx_2017.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+  <tr>
+   <td>
+      <a href="https://dl.acm.org/citation.cfm?id=3126971" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+      Edgar Solomonik, Maciej Besta, Flavio Vella, and Torsten Hoefler 
+      <u>Scaling betweenness centrality using communication-efficient sparse matrix multiplication</u>
+      ACM/IEEE Supercomputing Conference (SC), Denver, Colorado, November 2017. 
+      <a href="https://arxiv.org/abs/1609.07008" class="btn-xs btn-success" href="#" role="button">report</a>
+	    <a href="erratas/SBVH_SC_2017_errata.pdf" class="btn-xs btn-danger" href="#" role="button">errata</a>
+<!--       <a href="bibtex/SBVH_SC_2017.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+  <tr>
+  <td>
+      <a href="https://dl.acm.org/citation.cfm?id=3087561" class="btn-sm btn-primary" href="#" role="button">article</a>
+  </td>
+  <td>
+      Edgar Solomonik, Grey Ballard, James Demmel, and Torsten Hoefler 
+      <u>A communication-avoiding parallel algorithm for the symmetric eigenvalue problem</u>
+	    29th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), ACM, New York, NY, USA, 111-121, July 2017.
+      <a href="https://arxiv.org/abs/1604.03703" class="btn-xs btn-success" href="#" role="button">report</a>
+<!--       <a href="bibtex/SBDT_ARXIV_2016.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <a href="https://dl.acm.org/citation.cfm?id=3078616" class="btn-sm btn-primary" href="#" role="button">article</a>
+    </td>
+  <td>
+      Maciej Besta, Michal Podstawski, Linus Groner, Edgar Solomonik, and Torsten Hoefler
+      <u>To push or to pull: on reducing communication and synchronization in graph computations</u>
+	    26th ACM Symposium on High Performance Parallel and Distributed Computing (HPDC), ACM, New York, NY, USA, 93-104, June 2017.
+      <a href="https://htor.inf.ethz.ch/publications/img/pushpull.pdf" class="btn-xs btn-success" href="#" role="button">report</a>
+<!--       <a href="bibtex/BPGSH_HPDC_2017.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="http://ieeexplore.ieee.org/abstract/document/7967158/" class="btn-sm btn-primary" href="#" role="button">article</a>
+    </td>
+    <td>
+      Tobias Wicky, Edgar Solomonik, and Torsten Hoefler
+      <u>Communication-avoiding parallel algorithms for solving triangular systems of linear equations</u>
+	    IEEE International Parallel and Distributed Processing Symposium (IPDPS), 
+	     Orlando, FL, June 2017, pp. 678-687.
+      <a href="https://arxiv.org/abs/1612.01855" class="btn-xs btn-success" href="#" role="button">report</a>
+<!--       <a href="bibtex/WSH_ARXIV_2016.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="http://ieeexplore.ieee.org/abstract/document/7967093/" class="btn-sm btn-primary" href="#" role="button">article</a>
+    </td>
+    <td>
+  Maciej Besta, Florian Marending, Edgar Solomonik and Torsten Hoefler. 
+  <u>SlimSell: A vectorizable graph representation for breadth-first search</u>
+  IEEE International Parallel and Distributed Processing Symposium (IPDPS), 
+	  Orlando, FL, June 2017, pp. 32-41.
+    <a href="https://htor.inf.ethz.ch/publications/img/slimsell.pdf" class="btn-xs btn-success" href="#" role="button">report</a>
+<!--     <a href="bibtex/BMSH_IPDPS_2017.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </tr>
+
+  <tr>
+    <td>
+      <a href="http://dl.acm.org/citation.cfm?id=2897188" class="btn-sm btn-danger" href="#" role="button">article</a>
+    </td>
+    <td>
+      Edgar Solomonik, Erin Carson, Nicholas Knight, and James Demmel 
+      <u>Trade-offs between synchronization, communication, and computation in parallel linear algebra computations</u>
+      ACM Transactions on Parallel Computing (TOPC), June 2016.	
+<!--       <a href="bibtex/SCKD_TOPC_2017.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a>  -->
+    </td>
+  <tr>
+
+<td>
+    <a href="http://arxiv.org/abs/1512.00066" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+
+
+<td>
+    Edgar Solomonik and Torsten Hoefler 
+    <u>Sparse tensor algebra as a parallel programming model</u>
+    arXiv:1512.00066 [cs.MS], November 2015.
+<!--     <a href="bibtex/ST_ARXIV_2015.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+<tr>
+<td>
+	  <a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-170.pdf" class="btn-sm btn-primary" href="#" role="button">thesis</a>
+
+</td>
+<td>
+     Edgar Solomonik 
+    <u>Provably efficient algorithms for numerical tensor algebra</u>
+	Dissertation, University of California, Berkeley, August 2014.
+<!-- 	<a href="bibtex/ES_dissertation_2014.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+<tr>
+<td>
+	<a href="http://dl.acm.org/citation.cfm?id=2612671" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+   Edgar Solomonik, Erin Carson, Nicholas Knight, and James Demmel 
+  <u>Tradeoffs between synchronization, communication, and work in parallel linear algebra computations</u>
+	26th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), Prague, Czech Republic, June 2014.
+	<a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-8.pdf" class="btn-xs btn-success" href="#" role="button">report</a>
+<!-- 	<a href="bibtex/SCKD_TECHREP_2014.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a>  -->
+  Superseded by extended
+	<a href="http://dl.acm.org/citation.cfm?id=2897188" class="btn-xs btn-primary" href="#" role="button">journal paper</a>
+</td>
+  <tr>
+  <td>
+      <a href="http://www.sciencedirect.com/science/article/pii/S074373151400104X" class="btn-sm btn-danger" href="#" role="button">article</a>
+
+
+  </td>
+  <td>
+       Edgar Solomonik, Devin Matthews, Jeff R. Hammond, John F. Stanton, and James Demmel 
+      <u>A massively parallel tensor contraction framework for coupled-cluster computations</u>
+      Journal of Parallel and Distributed Computing, June 2014.
+      <a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-143.pdf" class="btn-xs btn-success" href="#" role="button">report</a>
+<!--       <a href="bibtex/SMHSD_JPDC_2014.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+  </td>
+  </tr>
+
+</tr>
+
+<tr>
+<td>
+	  <a href="http://dl.acm.org/citation.cfm?id=2650535" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+   Grey Ballard, James Demmel, Laura Grigori, Mathias Jacquelin, Hong Diep Nguyen, and Edgar Solomonik
+    <u>Reconstructing Householder vectors from Tall-Skinny QR</u>
+	 IEEE International Parallel and Distributed Processing Symposium (IPDPS), 
+	  Phoenix, AZ, May 2014.  
+	<a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-175.pdf" class="btn-xs btn-success" href="#" role="button">report</a>
+<!-- 	<a href="bibtex/BDGJNS_IPDPS_2014.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+<tr>
+<td>
+	<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6569864" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+   Edgar Solomonik, Devin Matthews, Jeff Hammond, and James Demmel 
+    <u>Cyclops Tensor Framework: reducing communication and eliminating load imbalance in massively parallel contractions</u> 
+	 IEEE International Parallel and Distributed Processing Symposium (IPDPS), 
+	  Boston, MA, May 2013. 
+	<a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-11.pdf" class="btn-xs btn-success" href="#" role="button">report</a>
+<!-- 	<a href="bibtex/SMHD_IPDPS_2013.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+
+    
+<tr>
+<td>
+	<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6569841" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+  Edgar Solomonik, Aydin Buluc, and James Demmel <u>Minimizing communication in all-pairs shortest-paths</u> 
+	 IEEE International Parallel and Distributed Processing Symposium (IPDPS), 
+	  Boston, MA, May 2013.
+	<a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-10.pdf" class="btn-xs btn-success" href="#" role="button">report</a>
+<!-- 	<a href="bibtex/SBD_IPDPS_2013.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+
+<tr>
+<td>
+	<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6569886" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+  Michael Driscoll, Evangelos Georganas, Penporn Koanantakool, Edgar Solomonik, and Katherine Yelick  
+  <u>A communication-optimal n-body algorithm for direct interactions</u>
+	 IEEE International Parallel and Distributed Processing Symposium (IPDPS), 
+	  Boston, MA, May 2013.
+<!-- 	<a href="bibtex/DGKSY_IPDPS_2013.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+
+<tr>
+<td>
+	<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6468500" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+  Evangelos Georganas, Jorge Gonzalez-Dominguez, Edgar Solomonik, Yili Zheng, Juan Tourino and Katherine Yelick 
+	  <u>Communication avoiding and overlapping for numerical linear algebra</u>
+	ACM/IEEE Supercomputing Conference (SC), Salt Lake City, Utah, November 2012. 
+	<a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-65.pdf" class="btn-xs btn-success" href="#" role="button">report</a>
+<!-- 	<a href="bibtex/GGSZTY_SC_2012.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+
+<tr>
+<td>
+	<a href="http://link.springer.com/chapter/10.1007/978-3-642-38718-0_21" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+  Edgar Solomonik and James Demmel <u>Matrix multiplication on multidimensional torus networks</u> 
+	Springer Lecture Notes in Computer Science (LNCS), Proceedings of VECPAR, Kobe, Japan, July 2012.
+	<a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-28.pdf" class="btn-xs btn-success" href="#" role="button">report</a>
+<!-- 	<a href="bibtex/SD_VECPAR_2012.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+
+<tr>
+<td>
+	<a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-29.pdf" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+  Edgar Solomonik, Jeff Hammond, and James Demmel <u>A preliminary analysis of Cyclops Tensor Framework</u> 
+	EECS Department, University of California, Berkeley, March 2012.
+<!-- 	<a href="bibtex/SJD_TECHREP_2012.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+
+<tr>
+<td>
+	<a href="http://dl.acm.org/citation.cfm?id=2063487" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+  Edgar Solomonik, Abhinav Bhatele, and James Demmel <u>Improving 
+	communication performance in dense linear algebra via topology 
+	aware collectives</u> 
+	ACM/IEEE Supercomputing Conference (SC), Seattle, WA, November 2011. 
+	<a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2011/EECS-2011-92.pdf" class="btn-xs btn-success" href="#" role="button">report</a>
+<!-- 	<a href="bibtex/SBD_SC_2011.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+
+<tr>
+<td>
+	<a href="http://www.springerlink.com/content/q53147701642l4r2/" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+  Edgar Solomonik and James Demmel <u>Communication-optimal parallel 2.5D matrix 
+	multiplication and LU factorization algorithms</u> Lecture Notes in Computer Science,
+	Euro-Par, Bordeaux, France, August 2011. "Distinguished Paper"
+	<a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2011/EECS-2011-10.pdf" class="btn-xs btn-success" href="#" role="button">report</a>
+	<a href="erratas/SD_EuroPar_2011_errata.pdf" class="btn-xs btn-danger" href="#" role="button">errata</a>
+<!-- 	<a href="bibtex/SD_EUROPAR_2011.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+<tr>
+<td>
+
+	<a href="https://link.springer.com/referenceworkentry/10.1007%2F978-0-387-09766-4_503" class="btn-sm btn-primary" href="#" role="button">article</a>
+</td>
+<td>
+ Laxmikant Kale and Edgar Solomonik <u>Parallel sorting</u> 
+	 Encyclopedia of Parallel Computing (pp. 1855-1862), Springer, David Padua, Ed., 2011. 
+<!-- 	<a href="bibtex/KS_Enc_2011.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</tr>
+<tr>
+<td>
+	<a href="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5470406" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+ Edgar Solomonik and Laxmikant V. Kale <u>Highly scalable parallel sorting</u> 
+	 IEEE International Parallel and Distributed Processing Symposium (IPDPS), 
+	  Atlanta, GA, April 2010.
+<!-- 	<a href="bibtex/SK_IPDPS_2010.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+
+<tr>
+<td>
+  <a href="http://dl.acm.org/citation.cfm?id=1953621" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+  Vivek Kale and Edgar Solomonik <u>Parallel sorting pattern</u> Workshop on Parallel Programming Patterns 
+	 (ParaPLOP), March 2010. 
+<!-- 	<a href="bibtex/KS_PARAPLOP_2010.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+
+    
+<tr>
+<td>
+	<a href="http://hpc.sagepub.com/content/24/4/411.short" class="btn-sm btn-primary" href="#" role="button">article</a>
+
+</td>
+<td>
+ Abhinav Bhatele, Lukasz Wesolowski, Eric Bohm, Edgar Solomonik, and Laxmikant V. Kale 
+	 <u>Understanding application performance via micro-benchmarks on three large supercomputers: 
+	 Intrepid, Ranger and Jaguar</u> International Journal of High Performance 
+	 Computing Applications (IJHPCA), November 2010. 
+<!-- 	<a href="bibtex/SD_EUROPAR_2011.txt" class="btn-xs btn-info" href="#" role="button">bibtex</a> -->
+</td>
+</tr>
+
+  </tbody>
+  </table>
+
+
+  </tbody>
+  </table>
+  <h3> Talks </h3>
+<a href="talks/isc-2024.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> May 2024; ISC High Performance; Hamburg, Germany;
+High Performance Tensor Network Contraction and Decomposition Algorithms<br><br>
+<a href="talks/lehigh-2024.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> January 2024; Lehigh University; 
+Optimization Methods for Tensor Decomposition<br><br>
+<a href="talks/siamcse-2023.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> March 2023; SIAM CSE; Amsterdam, NL;
+Faster Accurate Sketching for Tensor Networks<br><br>
+  <a href="talks/icl-sep-2022.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> September 2022;Scaling Numerical Algorithms and Software via Improved Performance Modeling; ICL seminar, University of Tennessee<br><br>
+  <a href="talks/acda-sep-2022.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> September 2022; Efficient Algorithms via Inexact Linear Solvers and Randomized Sampling; SIAM ACDA Workshop
+CAES-CNRS <br><br>
+<a href="talks/cecam-may-2022.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> May 2022; CECAM Workshop on Quantum Chemistry Methods for Materials Science; Tensor Software and Algorithms for Quantum Chemistry  <br><br>
+<a href="talks/molssi-dec-2021.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> December 2021; MolSSI Workshop on HPC in Computational Chemistry and Materials Science;
+Tensor Algorithms and Libraries for Quantum Chemistry and Materials Science <br><br>
+<a href="talks/enla-oct-2021.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> October 2021; E-NLA seminar;
+Efficient Inexact Solvers in Numerical Optimization Methods <br><br>
+<a href="talks/siam-am-july-2021.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> July 2021; SIAM Annual Meeting;
+Communication Lower Bounds for Bilinear Algorithms <br><br>
+<a href="talks/imsi-may-2021.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> May 2021; Quantum Information for Mathematics, Economics, and Statistics; IMSI, IL USA;
+Tensor Optimization Libraries and Algorithms for Quantum Simulation <br><br>
+<a href="talks/siam-cse-mar-2021.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> March 2021; SIAM CSE;
+New Methods and Software for Tensor Computations <br><br>
+<a href="talks/MIT-Feb-2021.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> February 2021; Fast Code seminar;
+Scalable Algorithms for Tensor Computations <br><br>
+<a href="talks/spcl-eth-oct-2020.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> October 2020; SPCL_Bcast(COMM_WORLD) seminar;
+High Performance Tensor Computations <br><br>
+<a href="talks/iquist-jul-2020.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> July 2020; IQUIST seminar; UIUC
+Tensor Algorithms and Software on Quantum Simulation <br><br>
+<a href="talks/siam_pp_2020.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> February 2020; SIAM PP; Seattle WA, USA; 
+Scalable Algorithms for Tensor Computations<br><br>
+<a href="talks/utah_dec_2019.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> December 2019; University of Utah; Utah, USA;
+Scalable Algorithms for Tensor Computations<br><br>
+<a href="talks/siamcse-mar-2019.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> March 2019; SIAM CSE; Spokane WA, USA;
+Accelerating Alternating Least Squares for Tensor Decomposition by Pairwise Perturbation<br><br>
+<a href="talks/cambridge-cyclops-jan-2019.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> January 2019; Invited Workshop on Compiler Techniques for Sparse Tensor Algebra; Cambridge MA, USA;
+Scalable Tensor Computations with Cyclops and Faster Algorithms for Alternating Least Squares<br><br>
+<a href="talks/nsf-quantum-jan-2019.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> January 2019; Enabling Quantum Leap: Quantum algorithms for quantum chemistry and materials; Alexandria VA, USA; 
+Classical Computer Science and Quantum Computing: High Performance Computing and Quantum Simulation<br><br>
+<a href="talks/purdue_sparse_nov_2018.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> November 2018; Conference on Sparse Direct Solvers; Purdue; Lafayette IN, USA; Comunication-avoiding factorization algorithms <br><br>
+<a href="talks/pasc-2018.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> <a href="demos/Tensor_Decompositions_for_3D_Poisson_using_Cyclops.html" class="btn-sm btn-danger" href="#" role="button">demo</a> July 2018; PASC; Basel, Switzerland; Parallel Tensor Computations in Python or C++ Using Cyclops <br><br>
+<a href="talks/pmaa-keynote-2018.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> <a href="demos/Tensor_Decompositions_for_3D_Poisson_using_Cyclops.html" class="btn-sm btn-danger" href="#" role="button">demo</a> June 2018; PMAA keynote talk; Zurich, Switzerland; Scalable Tensor Algorithms for Scientific Computing <br><br>
+<a href="talks/acs-mar-2018.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> March 2018; American Chemical Society (ACS) Annual Meeting; New Orleans LA, USA;
+Scalable Quantum Chemistry with Cyclops<br><br>
+<a href="talks/sc-nov-2017.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Nov 2017; Supercomputing; Denver CO, USA;
+  Scaling betweenness centrality using communication-efficient sparse matrix multiplication<br><br>
+<a href="talks/argonne-oct-2017.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Oct 2017; Seminar; Argonne National Laboratory; Argonne IL, USA;
+  A massively parallel library for matrix and tensor algorithms<br><br>
+<a href="talks/theory_seminar_sep_2017.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Sep 2017; Theory Seminar; University of Illinois at Urbana-Champaign; Urbana IL, USA;
+  Strassen-like algorithms for symmetric tensor contractions<br><br>
+<a href="talks/simons-tensor-networks-sep-2017.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> <a href="demos/CTF_introductory_demo.html" class="btn-sm btn-danger" href="#" role="button">demo</a> Sep 2017; Simons CCQ Tensor Network Workshop; New York NY, USA;
+  Leveraging sparsity and symmetry in parallel tensor contractions<br><br>
+<a href="talks/spaa-jul-2017.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> July 2017; SPAA; Washington DC, USA;
+  A communication-avoiding parallel algorithm for the symmetric eigenvalue problem<br><br>
+<a href="talks/householder-pz-vtech-jun-2017.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> June 2017; Householder prize lecture; Blacksburg VA, USA;
+  Towards an algebraic formalism for scalable numerical algorithms<br><br>
+<a href="talks/householder-vtech-jun-2017.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> June 2017; Householder Symposium XX; Blacksburg VA, USA;
+  A communication-avoiding parallel algorithm for the symmetric eigenvalue problem<br><br>
+<a href="talks/datasci-uiuc-may-2017.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> May 2017; Illinois Data Science Fundamentals Summit; Urbana IL, USA;
+  Scalable numerical linear algebra for data science<br><br>
+<a href="talks/molssi-monterey-may-2017.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> May 2017; MolSSI Workshop on Core Software Blocks in Quantum Chemistry: Tensors and Integrals; Monterey Bay CA, USA;
+  An Overview of Cyclops Tensor Framework<br><br>
+<a href="talks/uchicago_apr_2017.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> April 2017; Scientific and Statistcal Computing Seminar; University of Chicago; Chicago IL, USA;
+  Strassen-like algorithms for symmetric tensor contractions<br><br>
+<a href="talks/theory_seminar_mar_2017.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> March 2017; Theory Seminar; University of Illinois at Urbana-Champaign; Urbana IL, USA;
+  Communication cost models and a few lower and upper bounds<br><br>
+<a href="talks/siamcse_feb27_2017.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> February 2017; SIAM CSE; Atlanta GA, USA;
+  A distributed memory library for sparse tensor functions and contractions <br><br>
+<a href="talks/istcp_jul22_2016.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> July 2016; ISTCP; Grand Forks ND, USA;
+  Developing scalable and portable electronic structure methods with Cyclops Tensor Framework<br><br>
+<a href="talks/charm_workshop_apr19_2016.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> April 2016; Charm++ Workshop; University of Illinois at Urbana-Champaign; Urbana IL, USA;
+  A parallel library for multidimensional array computations with runtime tuning<br><br>
+<a href="talks/siam_pp_apr14_2016.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> April 2016; SIAM PP; Paris, France;
+  Low rank bilinear algorithms for symmetric tensor contractions<br><br>
+<a href="talks/ucdavis_mar28.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> March 2016; University of California, Davis; Davis CA, USA;
+  Provably efficient algorithms for multilinear algebra<br><br>
+<a href="talks/utoronto_mar15.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> March 2016; University of Toronto; Toronto ON, Canada;
+  Algorithms as multilinear tensor equations<br><br>
+<a href="talks/uiuc_mar9.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> March 2016; University of Illinois at Urbana-Champaign; Urbana IL, USA;
+  Algorithms as multilinear tensor equations<br><br>
+<a href="talks/stony_brook_mar4.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> March 2016; Stony Brook University; Stony Brook NY, USA;
+  Algorithms as multilinear tensor equations<br><br>
+<a href="talks/caltech_feb29.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> February 2016; California Institute of Technology; Pasadena CA, USA;
+  Algorithms as multilinear tensor equations<br><br>
+<a href="talks/cu_boulder_feb23.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> February 2016; University of Colorado, Boulder; Boulder CO, USA;
+  Algorithms as multilinear tensor equations<br><br>
+<a href="talks/ga_tech_feb19.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> February 2016; Georgia Institute of Technology; Atlanta GA, USA;
+  Algorithms as multilinear tensor equations<br><br>
+<a href="talks/cornell_feb2.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> February 2016; Cornell University; Ithaca NY, USA;
+  Provably efficient algorithms as tensor equations<br><br>
+<a href="talks/tum_jan18.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> January 2016; TU M&uuml;nchen; Munich, Germany;
+  Algorithms as multilinear tensor equations<br><br>
+<a href="talks/dphpc-dec-2015.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> December 2015; Guest Lecture; Design of Parallel and High-Performance Computing;  ETH Zurich, Switzerland;
+  Distributed-memory models and algorithms<br><br>
+<a href="talks/epfl-nov-2015.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> November 2015; MATHICSE Institute Seminar; EPFL; Lausanne, Switzerland;
+  Provably efficient algorithms for tensor computations<br><br>
+<a href="talks/siamla_oct27_2015.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> October 2015; SIAM LA; Atlanta GA, USA;
+  Minimizing communication in tensor contraction algorithms<br><br>
+<a href="talks/dmml_oct24_2015.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> October 2015; DMML; Berkeley CA, USA;
+  Communication lower bounds for numerical tensor algebra<br><br>
+<a href="talks/qesc_icqc_jun20_2015.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> June 2015; QESC; Kobe, Japan;
+  Efficient tensor contraction algorithms for coupled cluster<br><br>
+<a href="talks/muelheim_feb13_2014.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> February 2015; Max-Planck-Institute for
+  Chemical Energy Conversion;  M&uuml;lheim, Germany; Efficient algorithms for tensor contractions in coupled-cluster<br><br>
+<a href="talks/dphpc_eth_dec8_2014.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> December 2014; Guest Lecture; Design of Parallel and High-Performance Computing;  ETH Zurich, Switzerland;
+  Distributed-memory models and algorithms<br><br>
+<a href="talks/dissertation_talk.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> August 2014; Dissertation talk; Berkeley CA, USA;
+  Provably efficient algorithms for numerical tensor algebra<br><br>
+<a href="talks/csgf-july-2014.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> July 2014; DOE CSGF Program Review; Washington DC, USA;
+  Minimizing communication in numerical linear algebra<br><br>
+<a href="talks/spaa-june-2014.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> June 2014; SPAA; Prague, Czech Republic;
+  Tradeoffs between synchronization, communication, and computation in parallel linear algebra computations<br><br>
+<a href="talks/eth-zurich-june-2014.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> June 2014; ETH Zurich, Switzerland;
+  Algorithms for contraction of tensors over a commutative ring<br><br>
+<a href="talks/householder-june-2014.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> June 2014; Householder Symposium XIX; Spa, Belgium;
+  Contracting symmetric tensors via fully-symmetric intermediates<br><br>
+<a href="talks/ctf-ExMatEx-mar-2014.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Feb 2014; LBNL, Berkeley, CA;
+  Cyclops Tensor Framework<br><br>
+<a href="talks/tradeoffs-siampp-feb-2014.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Feb 2014; SIAM PP; Portland, OR;
+  Tradeoffs between synchronization, communication, and work in parallel linear algebra computations<br><br>
+<a href="talks/tradeoffs-matseminar-feb-2014.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Feb 2014; Berkeley, CA;
+  Tradeoffs between synchronization, communication, and work in parallel schedules<br><br>
+<a href="talks/gilman-feb-2014.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Feb 2014; Berkeley, CA;
+  Fast tensor contraction algorithms for Coupled Cluster<br><br>
+<a href="talks/s2i2-dec-2013.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Dec 2013; Laguna Beach, CA;
+  A distributed-memory framework for tensor contractions<br><br>
+<a href="talks/cs294-lecture-dec-2013.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Dec 2013; Berkeley, USA;
+  A framework for mapping and redistribution of multidimensional distributed arrays<br><br>
+<a href="talks/matrix-seminar-oct-2013.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Oct 2013; Berkeley, USA;
+  Communication-avoiding algorithms for dense  matrix factorizations<br><br>
+<a href="talks/cs294-lecture-oct-2013.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Oct 2013; Berkeley, CA;
+  Efficient algorithms for symmetric tensor contractions<br><br>
+<a href="talks/eth-zurich-2013.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> June 2013; ETH Zurich; Switzerland; 
+  Communication-avoiding parallel algorithms for dense linear algebra<br><br>
+<a href="talks/cscs-lugano-2013.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> June 2013; Swiss National Supercomputing Center; Lugano, Switzerland; 
+  Communication-avoiding parallel numerical algorithms for dense matrices and tensors<br><br>
+<a href="talks/ipdps-ctf-2013.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> May 2013; IPDPS; Boston, USA;
+  Cyclops Tensor Framework: reducing communication and eliminating load imbalance in massively parallel contractions<br><br>
+<a href="talks/ipdps-apsp-2013.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> May 2013; IPDPS; Boston, USA;
+  Minimizing communication in all-pairs shortest paths<br><br> 
+<a href="talks/siam-cse-2013.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> March 2013; SIAM CSE; Boston, USA;
+  Scalable numerical algorithms for electronic structure calculations<br><br>
+<a href="talks/matrix-seminar-2013.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> February 2013; Berkeley, USA;
+  Communication-avoiding parallel algorithms for dense linear algebra and tensor computations<br><br>
+<a href="talks/usc-2012.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> January 2013; University of Southern California; LA, USA;
+  A parallel tensor framework for Coupled Cluster<br><br>
+<a href="talks/llnl-2012.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Sep. 2012; seminar; Lawrence Livermore National Laboratory; Livermore, CA;
+  Scalable numerical algorithms for electronic structure calculations<br><br>
+<a href="talks/univ-tokyo-2012.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> July 2012; University of Tokyo; Tokyo, Japan;
+  2.5D algorithms for distributed-memory computing<br><br>
+<a href="talks/vecpar-2012.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> July 2012; VECPAR; Kobe, Japan;
+  Matrix multiplication on multidimensional torus networks<br><br>
+<a href="talks/siam-ala-2012.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> June 2012; SIAM ALA; Valencia, Spain;
+  2.5D Algorithms for dense linear algebra <br><br>
+<a href="talks/siam-pp-2012.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Feb. 2012; SIAM PP; Savannah, GA;
+  Topology-aware parallel algorithms for symmetric tensor contractions <br><br>
+<a href="talks/sc-2011.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Nov. 2011; ACM/IEEE Supercomputing; Seattle, WA;
+  Improving communication performance in dense linear algebra via topology-aware collectives<br><br>
+<a href="talks/cs294-sep-2011.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Sep. 2011; CS 294 lecture; Berkeley, CA;
+  2.5D algorithms: from hardware to theory and back<br><br>
+<a href="talks/europar-sep-2011.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Sep. 2011; Bordeaux, France;
+  Communication-optimal parallel 2.5D matrix multiplication and LU factorization algorithms<br><br>
+<a href="talks/argn-aug-2011.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Aug. 2011; seminar; Argonne National Laboratory; Argonne, IL;
+  Reducing communication in dense matrix/tensor computations<br><br>
+<a href="https://charm.cs.illinois.edu/talks/SortingIPDPS10.pdf" class="btn-sm btn-primary" href="#" role="button">slides</a> Apr. 2010; IPDPS; Atlanta, GA;
+  Highly scalable parallel sorting<br>
+  <h3> Posters </h3>
+  <a href="posters/ctf-2013.pdf" class="btn-sm btn-primary" href="#" role="button">poster</a> Jul. 2013; CSGF conference; Arlington, VA;
+  Cyclops Tensor Framework.<br><br>
+<a href="posters/csgf-july-2011.pdf" class="btn-sm btn-primary" href="#" role="button">poster</a> Jul. 2011; CSGF conference; Arlington, VA;
+  2.5D algorithms for dense linear algebra<br><br>
+<a href="posters/sc-nov-2009.pdf" class="btn-sm btn-primary" href="#" role="button">poster</a> Nov. 2009; ACM/IEEE Supercomputing; Portland, OR
+  Performance comparison of Intrepid, Jaguar and Ranger using scientific applications<br><br>
+
+      </div>
+    </div>
+
+  </div> <!-- /container -->
+  </body>
+</html>

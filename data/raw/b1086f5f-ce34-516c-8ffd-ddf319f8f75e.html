@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DPRG Downloads</title>
+        <meta name="author" content="Shegufta Bakht Ahsan">
+        <meta charset="utf-8">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Shegufta Bakht Ahsan">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+<style>
+    .pageContent{
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size:large;
+    }
+</style>
+        <link rel="stylesheet" type="text/css" href="./css/download.css"/>
+    </head>
+
+
+    <body>
+        <div class="container">
+            <link rel="stylesheet" type="text/css" href="./css/navigation.css"/>
+
+
+
+<!--<nav class="navbar navbar-expand-sm bg-dark navbar-dark">-->
+<nav class="navbar navbar-expand-sm">
+    <!-- Brand -->
+<!--    <a class="navbar-brand" href="index.php">DPRG</a>-->
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li><a class="navbar-brand" href="index.php">DPRG</a></li>
+        
+        <li class="nav-item"><a id="homeNavItem" class="nav-link" href=index.php>Home</a></li>
+        <li class="nav-item"><a id="peopleNavItem" class="nav-link" href="people.php">People</a></li>
+
+        <!-- Dropdown -->
+        <li id="publicationsNavItem" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Publications
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="paper.php">Papers</a>
+                <a class="dropdown-item" href="PhDTheses.php">PhD Theses</a>
+                <a class="dropdown-item" href="MSTheses.php">MS Theses</a>
+            </div>
+        </li>
+        
+        <li id="newsNavItem" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardropNews" data-toggle="dropdown">
+                News
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="news_DPRG.php">DPRG News</a>
+                <a class="dropdown-item" href="news_MediaCoverage.php">Media Coverage</a>
+            </div>
+        </li>
+
+<!--        <li class="nav-item"><a id="newsNavItem" class="nav-link" href="news.php">News</a></li>-->
+        <li class="nav-item"><a id="downloadsNavItem" class="nav-link" href="downloads.php">Downloads</a></li>
+        <li class="nav-item"><a id="galleryNavItem" class="nav-link" href="gallery.php">Gallery</a></li>
+        <li class="nav-item"><a id="fundingNavItem" class="nav-link" href="funding.php">Funding</a></li>
+    </ul>
+</nav>
+
+
+<!--https://www.youtube.com/watch?v=5h-IySVpxk0-->
+
+<!--<nav class="navbar navbar-default fixed-top">-->
+<!--<nav class="navbar">
+    <div id="navigationBar">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.php">DPRG</a>
+        </div>
+
+        <ul class="nav navbar-nav">
+                    <li class="active"><a href=index.php>Home</a></li>
+            <li id="homeNavItem"><a href=index.php>Home</a></li>
+            <li id="peopleNavItem"><a href="people.php">People</a></li>
+
+            <li id="publicationsNavItem" class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+
+                <ul class="dropdown-menu">
+                    <li><a href="paper.php">Paper</a></li>
+                    <li><a href="PhDTheses.php">PhD Theses</a></li>
+                    <li><a href="MSTheses.php">MS Theses</a></li>
+                </ul>
+            </li>
+
+            <li id="downloadsNavItem"><a href="downloads.php">Downloads</a></li>
+            <li id="galleryNavItem"><a href="gallery.php">Gallery</a></li>
+            <li id="supportNavItem"><a href="support.php">Support</a></li>
+        </ul>
+    </div>
+</nav>-->
+
+
+<!--https://getbootstrap.com/docs/3.4/components/#navbar-->
+
+
+<!--<script>
+    $(function ()
+    {
+        setNavigation();
+    });
+
+    function setNavigation()
+    {
+        var path = window.location.pathname;
+        path = path.replace(/\/$/, "");
+        path = decodeURIComponent(path).trim();
+
+        var stringVal = "";
+
+        $(".nav a").each(function ()
+        {
+            var href = $(this).attr('href').trim();
+
+            //stringVal += href + "===";
+
+            //if (path.substring(0, href.length) === href)
+            if (-1 !== path.search(href))
+            {
+                $(this).closest('li').addClass('active');
+                //stringVal += "[ path  = " + path + " | href = " + href + " - true ]\n"
+            }
+            else
+            {
+                $(this).closest('li').removeClass('active');
+                //stringVal += "[ path  = " + path + " | href = " + href + " - false ]\n"
+            }
+        });
+
+    }
+</script>-->            <script>
+                $("#downloadsNavItem").addClass("active"); // hilight active menu
+            </script>
+
+            <div class="pageContent">
+                
+                <p class="downloadHeadingText">Downloads (Software and Dataset Traces)</p>
+                
+                <ul class="list-group" id="downloadList">
+                    
+                    <!-- COPY THIS TEMPLATE
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">ProjectTitle</text>
+                        <p class="downloadContentDescription">
+                            Add your download content description here.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=REPLACE_ME_WITH_THE_UNIQUE_ID">Source Code</a></li>
+                        </ul>
+                    </li>
+                    
+                    -->
+                    
+                    <!-- Paste the template *BELOW* this line, then add "ProjectTitle", "project description" and "Unique-ID" -->
+                    
+					<a class="additionalLink" target="_blank" href="./traces/download_details.php">[All Download Counters]</a>
+					
+					<li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Faro: SLOs in ML Inference Clusters</text>
+                        <p class="downloadContentDescription">
+                            This is the code for the Eurosys 2025 paper on Faro ("A House United Within Itself: SLO-Awareness for On-Premises  Containerized ML Inference Clusters via Faro"). Faro does allocation of multiple ML (DNN) jobs (with sub-second latency SLOs) that share a fixed-sized cluster. Faro is integrated with Ray Serve and Kubernetes. For more details see our <a href="http://dprg.cs.uiuc.edu/paper.php">Eurosys 2025 paper</a>.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=40">Source Code</a></li>
+                        </ul>
+                    </li>
+
+					<li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Wainscot</text>
+                        <p class="downloadContentDescription">
+                            This is the code for the ICDCS 2025 paper on Wainscot ("Wainscot: Tailoring Model Parallelism to Fit Device
+Memory Limits"). Wainscot augments our <a class="downloadURLLink" target="_blank" href="./traces/go.php?id=37">Baechi</a> system (SoCC 2020) with memory balance. For more details see our <a href="http://dprg.cs.uiuc.edu/paper.php">ICDCS 2025 paper on Faro, and SoCC 2020 paper on Baechi</a>.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=41">Source Code</a></li>
+                        </ul>
+                    </li>
+
+					<li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Umbra: Data Transfer LEO Sats to Ground Station</text>
+                        <p class="downloadContentDescription">
+                            This is the code for the Withhold Scheduling of Data Flows from LEO Satellite Constellations to Ground Stations, published in Mobicom 2023. For more details see our <a href="http://dprg.cs.uiuc.edu/paper.php">Mobicom 2023 paper</a>.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=39">Source Code</a></li>
+                        </ul>
+                    </li>
+
+					
+					<li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Baechi (PyTorch)</text>
+                        <p class="downloadContentDescription">
+                            Baechi is a placement/scheduling system for placing Deep Neural Network (DNN) graphs on collections of memory-constrained devices, via model parallelism. This is our implementation for PyTorch. For more details see our <a href="http://dprg.cs.uiuc.edu/data/files/2020/socc20-final352.pdf">ACM SoCC 2020 paper</a> and our <a href="https://scientific-goldfish-3af.notion.site/Baechi-PyTorch-8703ed020ce04f83b956231743b4e898">Notion documentation</a>.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=37">Source Code</a></li>
+                        </ul>
+                    </li>
+
+					<li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Baechi (TensorFlow)</text>
+                        <p class="downloadContentDescription">
+                            Baechi is a placement/scheduling system for placing Deep Neural Network (DNN) graphs on collections of memory-constrained devices, via model parallelism. This is our implementation for TensorFLow v1. For more details see our <a href="http://dprg.cs.uiuc.edu/data/files/2020/socc20-final352.pdf">ACM SoCC 2020 paper</a>.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=34">Source Code</a></li>
+                        </ul>
+                    </li>
+                    
+
+					<li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Churn-Tolerant Leader Election</text>
+                        <p class="downloadContentDescription">
+                            This is the code for the Churn-Tolerant Leader Election Protocol published in ICDCS 2023. For more details see our <a href="http://dprg.cs.uiuc.edu/paper.php">ICDCS 2023 paper</a>.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=38">Source Code</a></li>
+                        </ul>
+                    </li>
+
+					<li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Medley</text>
+                        <p class="downloadContentDescription">
+                            Medley is the first fully-decentralized membership and failure detection service for wireless IoT/ad-hoc networks. For more details see our Middleware 2020 paper.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=36">Source Code</a></li>
+                        </ul>
+                    </li>
+  
+					<li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">SafeHome</text>
+                        <p class="downloadContentDescription">
+                            SafeHome is a system that provides notions of atomicity and serial equivalence for smart homes. For more details see our Eurosys 2021 paper and HotEdge 2019 paper.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=35">Source Code</a></li>
+                        </ul>
+                    </li>
+                    
+					
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Getafix</text>
+                        <p class="downloadContentDescription">
+                            Getafix is a system that dynamically changes replication of data based on relative popularity of access in distributed interactive analytics engine. For more details see our Eurosys 2018 paper.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=28">Source Code</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">OPTiC</text>
+                        <p class="downloadContentDescription">
+                            OPTiC is a multi-tenant extension of Apache Giraph for opportunistic graph processing on Apache YARN multi-tenant clusters. For more details see our IEEE IC2E 2018 paper.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=24">Source Code</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">PCAP Riak</text>
+                        <p class="downloadContentDescription">
+                            PCAP-Riak is an adaptive extension of Basho Riak for meeting novel probabilistic consistency and latency SLAs for distributed key-value stores. For more details see our ACM TAAS 2017 paper. <!--For the detailed theory and system design for PCAP, please refer to <a href="http://arxiv.org/abs/1509.02464">tech-report</a>. -->
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=26">Source Code</a></li>
+                        </ul>
+                    </li>
+                   
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">PCAP Cassandra</text>
+                        <p class="downloadContentDescription">
+                            PCAP-Cassandra is an adaptive extension of Apache Cassandra for meeting novel probabilistic consistency and latency SLAs for distributed key-value stores. For more details see our ACM TAAS 2017 paper.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=25">Source Code</a></li>
+                        </ul>
+                    </li>
+                                        
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Morphus</text>
+                        <p class="downloadContentDescription">
+                            Morphus is a system built on top of MongoDB which allows an user to change shard key for a collection. For more details see our IEEE TETC 2015 and ICAC 2015 papers. 
+							<!-- For details, refer to our <a href="./traces/go.php?id=22">tech-report</a>. -->
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=21">Source Code</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">LFGraph</text>
+                        <p class="downloadContentDescription">
+                            This is our distributed graph processing engine. For more details, see our <a href="http://research.microsoft.com/en-us/events/trios/trios13-final19.pdf">ACM TRIOS paper</a>.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=19">Source Code</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Hadoop without barriers</text>
+                        <p class="downloadContentDescription">
+                            The source code is released under the <a href="http://matt.might.net/articles/crapl/">CRAPL license</a>(An academic-strength open source license). For more details see our papers in Springer Journal of Cluster Computing 2011, and IEEE Cluster 2010.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=18">Source Code</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Wasef</text>
+                        <p class="downloadContentDescription">
+                            Wasef is a system built on top of Cassandra which can be used to store metadata. The metadata is useful for data provenance, column dropping, etc. For more details see our IEEE Cloud 2015 paper.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=23">Source Code</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">PPLive</text>
+                        <p class="downloadContentDescription">
+                            Our crawls of the PPLive streaming system yielded client population snapshots and captured the overlay graph among clients. These traces are included below, along with the crawler code.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=3">Snapshot trace</a></li>
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=2">Partner trace</a></li>
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=4">Crawler code (v1.0)</a></li>
+                        </ul>
+                        <p class="downloadContentDescription">For more details, see our papers in TOMCCAP 2009, HPDC 2007, and QShine 2007.
+						<!--
+							More details and publications from the project can be found on the
+                            <a class="downloadURLLink" target="_blank" href="http://cairo.cs.uiuc.edu/~longvu2/pplive.html">PPLive crawler</a> project page.
+-->
+						</p>
+                    </li>
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">peerCounter</text>
+                        <p class="downloadContentDescription">
+                            peerCounter is a system for estimating the online population size of a dynamic
+                                p2p system, i.e., number of online hosts. It can be run as a part of any
+                                distributed system. The Java implementation of peerCounter, along with an API
+                                and an application, are included below. For more details see our IEEE NCA 2005 paper.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=5">peerCounter application (jar)</a></li>
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=6">peerCounter application (zip)</a></li>
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=7">peerCounter source code</a></li>
+                        </ul>
+						<!-- 
+                        <p class="downloadContentDescription">More details and publications from the project can be found on the
+                            <a class="downloadURLLink" target="_blank" href="http://kepler.cs.uiuc.edu/~psaltoul/peerCounter/">peerCounter</a> project page.</p>
+-->
+                    </li>
+
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">DSI</text>
+                        <p class="downloadContentDescription">
+                            DSI is a unified framework of building blocks that are implementations of basic
+                                distributed algorithms. It includes implementations of Lamport clocks and
+                                distributed mutual exclusion, code for modularly adding distributed algorithms.
+                                In the works are blocks for snapshots, termination, and DHTs. The latest
+                                version for the DSI code is included below.
+                        </p class="downloadContentDescription">
+                            Currently, DSI is only deployed in source code form. You may choose to download
+                                only the edu.uiuc.dsi.* namespace or download DSI with some examples ready to
+                                use and play with right 'out of the box'.
+                        <p>
+                            
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=8">DSI code (build #10)</a></li>
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=9">DSI code (build #10) with examples</a></li>
+                        </ul>
+                        
+						<!-- 
+                        <p class="downloadContentDescription">More details about the project can be found on the
+                            <a class="downloadURLLink" target="_blank" href="http://www.cs.uiuc.edu/homes/wfagen2/projects/dsi">DSI project page.</a></p>
+-->
+                        
+                    </li>
+
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">MON</text>
+                        <p class="downloadContentDescription">
+                            MON is an on-demand instantaneous monitoring system intended for wide-area
+                                clusters. It is currently deployed on PlanetLab as a service and via a web
+                                interface. For more details see our papers in ACM SIGOPS OSR 2007, and Usenix WORLDS 2005.</p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=10">MON code</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">AVMON</text>
+                        <p class="downloadContentDescription">
+                            AVMON is a distributed availability-monitoring overlay meant to be robust to
+                                selfish and colluding hosts. For more details see our papers in IEEE TPDS 2009, and ICDCS 2007. 
+							<!-- More details and publications from the project can
+                                be found at
+                                <a class="downloadURLLink" target="_blank" href="http://dprg.cs.uiuc.edu/~rvmorale/avmon">AVMON</a>'s site. The code for
+                                <a class="downloadURLLink" target="_blank" href="http://dprg.cs.uiuc.edu/~rvmorale/avmon">AVMON</a> is currently available via
+                                <a class="downloadURLLink" target="_blank" href="http://sf.net/projects/avmon">http://sf.net/projects/avmon</a> and it is distributed under the
+                                <a class="downloadURLLink" target="_blank" href="http://www.gnu.org/licenses/lgpl.html">LGPL</a>.  
+-->
+                        </p>
+                    </li>
+                   
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Rappel</text>
+                        <p class="downloadContentDescription">
+                            Rappel is p2p delivery vehicle for RSS feeds. The source code is distributed under the BSD-like
+                            <a class="downloadURLLink" target="_blank" href="http://www.opensource.org/licenses/UoI-NCSA.php">University of Illinois</a> license. For more details see our Computer Networks 2009 paper.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=12">Rappel source code (v0.1)</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">ISS</text>
+                        <p class="downloadContentDescription">
+                            ISS (Intermediate Storage System) is a file system for intermediate data in Hadoop. The source code is distributed under the BSD-like
+                            <a class="downloadURLLink" target="_blank" href="http://www.opensource.org/licenses/UoI-NCSA.php">University of Illinois</a> license. For more details see our ACM SoCC 2010 paper.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=13">ISS source code (v0.1)</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">UIM</text>
+                        <p class="downloadContentDescription">
+                            Added  June 10, 2011. <br/>
+                            Updated  March 16, 2012.
+                        </p>
+                        
+                        <p class="downloadContentDescription">
+                            Our UIM traces include joint Wifi/Bluetooth traces collected by 28
+                                students, staff, and faculties in the University of Illinois campus
+                                from 03/01/2010 to 03/20/2010. Participants carried Android Google
+                                phones, which have Wifi and Bluetooth scanners to obtain MACs of Wifi
+                                access points and Bluetooth-enabled devices in the proximity of the
+                                phones. For more details see our MSWIM 2010 paper.
+                        </p>
+                        
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=15">Traces</a></li>
+                        </ul>
+                        
+                        <p class="downloadContentDescription">For more information please contact
+                            <a class="downloadURLLink" target="_blank" href="http://xuanmai.cs.uiuc.edu/longvu2/">Long Vu</a>
+                            (<a class="downloadURLLink" target="_blank" href="http://illinois.academia.edu/LongVu">alternate</a>).</p>
+                    </li>
+ 
+                    
+                    <li class="list-group-item" id="downloadListItem">
+                        <text class="downloadTitleText">Open Source Patches<br/>Druid LRU MapCache (Sept 2016)</text>
+                        <p class="downloadContentDescription">
+                            The bug was that the LRU MapCache does not always guarantee to limit the cache size under the preset cache size maximum limit.
+                            This is the <a class="downloadURLLink" target="_blank" href="https://github.com/druid-io/druid/issues/3507">JIRA Entry</a> for the issue.
+                        </p>
+                        <ul class="downloadURLlist">
+                            <li class="downloadURLListItem"><a class="downloadURLLink" target="_blank" href="./traces/go.php?id=27">Patch</a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+
+
+                </ul>
+                
+                
+                <text class="additionalSeperator">-------------------------------------</text>
+                
+                <p class="additionalText">For all questions about support or bug reports, please email Indranil Gupta indy at cs dot uiuc dawt edu.</p>
+                <a class="additionalLink" target="_blank" href="./traces/download_details.php">[All Download Counters]</a>
+                <br/><br/><br/><br/><br/>
+<!--                <p class="additionalText">Last Updated: October, 2019.</p>-->
+
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="Author" content="Kris Hauser">
+  <meta name="KeyWords" content="Kris Hauser, UIUC, Illinois, Duke, Pratt, Indiana, Informatics, Computer Science, Squiresoft, Berkeley, Stanford, Latombe, locomotion, planning, motion planning, robot, robotics, robot learning, optimal control, shared control, teleoperation, robot construction, medical robotics, Asimo, LEMUR, ATHLETE, HRP-2, HRP, LittleDog, TRINA, multi-modal, multi-step, modal analysis, robotic surgery, steerable needles, PVK">
+  <meta name="Description" content="Intelligent Motion Laboratory">
+  <title>Intelligent Motion Laboratory at UIUC</title>
+  <link rel="stylesheet" type="text/css" href="pagestyle.css">  
+</head>
+<body>
+
+<script>
+//test for touch events support and if not supported, attach .no-touch class to the HTML tag.
+ 
+if ("ontouchstart" in document.documentElement) {
+document.documentElement.className += " touch";
+}
+</script>
+
+
+
+<div class="main">
+	<div>
+    <!-- the banner row-->
+	<div class="banner">
+		<div style="width:734px; height:100%;  float:left;">
+	     <img src="images/banner2.gif" width="734" height="72" border="0" alt="">
+		</div>
+		<div id="fillHex"></div>
+		<div style="position:absolute;bottom:-1px;width:100%;text-align:center;">
+			<div style="display:inline-block;">
+			<ul id="mainmenu">
+<li><a href="../index.html">Home</a></li>
+<li><a href="../people.html">People</a></li>
+<li><a href="../research.html">Research</a></li>
+<li><a href="../publications.html">Publications</a></li>
+<li><a href="../software.html">Software</a></li>
+<li><a href="../contact.html">Contact</a></li>
+</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+	
+
+     <!-- the main area columns -->
+	<div style="width:100%;display:table;">
+		<div class="center">
+		   <style type="text/css">
+  <!--
+  div.proj { border: solid 0px #C2C2C2; padding:0.5em; margin:0em; position:relative; overflow:hidden; width:47%; display:inline-block; vertical-align:top; min-width:250px;}
+  div.proj:hover { background-color:#fff0f0; }
+  /* on touch screens highlight the touchability of each project div*/
+  .touch div.proj { border: solid 1px #C2C2C2; padding:0.2em; margin:0.3em; position:relative; overflow:hidden; background-color:#fff7f7; }
+
+  div.projtext { }
+  img.proj {  }
+  div.projimg { text-align:left; width:80px; display: table-cell; float:left; }
+  div.projcontent { display: table-cell; padding:0em; margin:0em; }
+  p.projtitle { font-size:90%; font-weight:bold; text-align:left; margin:0px; color:#996667; }
+  p.projtext { font-size:80%; padding:0; margin:0; }
+
+  div.keywords { font-size:80%; font-style:italic; }
+  div.keywords:before { font-weight:bold; color:#4d3c43; font-style:normal; content:"Keywords: "; }
+  div.sponsors { font-size:80%; margin:0; padding:0; }
+  div.sponsors:before { font-weight:bold; color:#4d3c43; content:"Sponsors: "; }
+
+
+  a.project-link {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	text-decoration:none; /* Makes sure the link   doesn't get underlined */
+	z-index:10; /* raises anchor tag above everything else in div */
+       /*workaround for IE 7/8*/
+        background-image:url("images/empty.gif");
+  }
+
+  /*other suggestions for workarounds to make clickable in IE */
+  /*
+	background-color:white; 
+	opacity: 0;
+	filter: alpha(opacity=1); 
+  */
+ * html div a { width: 1%; }
+
+   .more { display:none;  }
+   div.abstract { font-size:80%; padding-bottom:0.5em;}
+   a.abstract-show { font-size:80%; font-weight:bold; color:#4d3c43; font-style:normal; position:relative; z-index:11; }
+   a.abstract-show:hover { color:#996667; }
+   a.about-show { font-size:100%; font-weight:bold; color:#4d3c43; font-style:normal;  }
+
+   .touch a.abstract-show { font-size:80%; font-weight:bold; color:#4d3c43; font-style:normal; position:relative; z-index:11; border:solid 1px #C2C2C2; background-color:#fff0f0; }
+  -->
+</style>
+
+<script language="javascript" type="text/javascript">
+var curEntity = -1;
+
+function addEntity() {
+}
+
+function setCurEntity(id) {
+}
+
+function setEntityName(name) {
+}
+
+function setEntityType(type) {
+}
+
+function setEntityOrder(order) {
+}
+
+function setEntityController(order) {
+}
+
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID).style.display != 'block') {
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
+
+<div class="main1">
+<h3>About</h3>
+<p>The Intelligent Motion Lab is a "full stack" robotics lab that studies strategies for integrating planning, perception, and learning to enable autonomous and semi-autonomous operation in challenging tasks.  The research conducted in the lab spans basic research on component algorithms up to application-driven projects on integrated robot systems.  A key tenet of our research philosophy is that the <i>fundamental ingredients of robotic intelligence are universal</i> across embodiments and tasks, although their <i>optimal instantiations may be specific</i>. Applications of our research have been wide ranging, including agriculture, construction, intelligent vehicles, robot manipulation, legged locomotion, human-robot interaction, robot- and computer-assisted medicine.</p>
+<p>IML is directed by Prof. <a href="https://kkhauser.web.illinois.edu">Kris Hauser</a> and is part of
+the University of Illinois <a href="https://grainger.illinois.edu/">Grainger College of Engineering</a>.</p>
+<div class="separator"></div>
+<p>IML is NOT accepting applications for new PhD students.  Please see the <a href="https://robotics.illinois.edu/people/">UIUC Robotics Group</a> website for more potential advisors.</p>
+<!--<p>IML is currently accepting applications for new PhD students.  Candidates should apply to the UIUC CS or ECE departments for consideration.</p>-->
+</div>
+
+<div class="main2">
+<h3>Research Spotlight</h3>
+<!-- 
+<p>Autonomous ladder climbing with the DRC-Hubo robot.</p>
+<iframe width="400" height="230" src="http://www.youtube.com/embed/ZEUVQRrKfjo" frameborder="0" allowfullscreen></iframe>
+-->
+<!--
+<p>First tele-nursing experiments with TRINA 1.0</p>
+<iframe width="360" height="260" src="https://www.youtube.com/embed/Ms0iTdDAL20?rel=0" frameborder="0" allowfullscreen></iframe>
+-->
+<!--
+<p>TRINA personnel protective equipment (PPE) and self-doffing</p>
+   <video width="560"  height="315" controls autoplay poster="https://i.ytimg.com/vi/mWBN3uU7qL8/maxresdefault.jpg"
+      <source src="https://drive.google.com/uc?export=preview&id=1188qSXh8ga4t2bpwXN4HAlUA0Qzg0tEI" type="video/mp4">
+   </video>
+-->
+<!--
+<p>Automated Heart and Lung Auscultation</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/COFgX5UKhUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
+
+<p>EYESIGHT: a robot-stabilized retinal imaging system</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rEbIW6mDWiA?si=LZhEdoX9LMNkNk6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+<div class="separator"></div>
+<h3>Selected Projects</h3>
+
+<div class="proj">
+<a class="project-link" href="stuff/index.html"> </a>
+<div class="projimg"><img class="proj" src="stuff/vsf_meta_learning_icon.gif" style="width: 70px; height: 35px;" /></div>
+<div class="projcontent">
+<p class="projtitle">Modeling and reasoning about "stuff"</p>
+<a class="abstract-show" href="#" onclick="showHide('stuff');return false;">Summary (click to show)</a>
+<div class="abstract more" id="stuff">Prevailing models in robotics reason about the world as a collection of rigid objects, but this is an inappropriate abstraction for manipulating cloth, ropes, piles of objects, plants, and natural terrain.  We are investigating novel representations of "stuff" that are built <i>de novo</i> from visual and tactile perception data, whose properties are learned continuously through interaction.  Volumetric Stiffness Fields, Graph Neural Networks, Neural Dynamics, and 3D metric-semantic maps are examples of models being investigated in this research.  Applications are being studied in agriculture, construction, and household object manipulation.</div>
+<div class="keywords">deformable objects, graph neural networks, tactile sensing, agricultural robotics, construction robotics</div>
+<div class="sponsors">NSF Foundational Robotics Research, USDA/NIFA AIFARMS AI Institute</div>
+</div>
+</div>
+
+
+<div class="proj">
+<a class="project-link" href="nursing/index.html"> </a>
+<div class="projimg"><img class="proj" src="images/icons/telenursing-icon-small.jpg"></div>
+<div class="projcontent">
+<p class="projtitle">Tele-nursing robots</p>
+<a class="abstract-show" href="#" onclick="showHide('telenursing');return false;">Summary (click to show)</a>
+<div class="abstract more" id="telenursing">
+Our lab is developing the Tele-Robotic Intelligent Nursing Assistant (TRINA), a remote-controlled robot to perform common nursing duties inside hazardous clinical
+areas, which could reduce infection risk to healthcare workers by minimizing exposure to contagions and other biohazards.  They could also reduce infection risk to immunocompromise patients.  Apart from the engineering challenge, we are addressing scientific questions regarding human-robot interfaces, haptics, and semi-autonomous control and planning algorithms.
+</div>
+<div class="keywords">tele-nursing, assisted teleoperation, real-time planning, human-robot interaction</div>
+<div class="sponsors">NSF NRI, NSF CAREER, NSF RAPID</div>
+</div>
+</div>
+
+
+<div class="proj">
+<a class="project-link" href="knowledge/index.html"></a>
+<div class="projimg"><img class="proj" src="images/icons/knowledge-icon-small.jpg"></div>
+<div class="projcontent">
+<p class="projtitle">Knowledge- and structure-driven motion planning</p>
+<a class="abstract-show" href="#" onclick="showHide('knowledge');return false;">Summary (click to show)</a>
+<div class="abstract more" id="knowledge">
+The large motion planning problems that arise in robotics, CAD/CAM, animation of virtual characters, and surgical planning are very challenging: they require searching high-dimensional state spaces with complex geometric constraints, nonlinear dynamics, often with contact and impact, and long time horizons.
+Prior approaches to these problems either exploit problem structure and/or embed a great deal of domain knowledge by hand into a planner.  But this process is tedious, error-prone, and does not scale well to harder problems whose structure is non-obvious. This project will investigate automated strategies for planning systems to automatically discover common solution structures from past experience and to reuse this knowledge in new problems.
+</div>
+<div class="keywords">theory, hybrid motion planning, optimal planning, locomotion</div>
+<div class="sponsors">NSF Robust Intelligence Program</div>
+</div>
+</div>
+
+<p>For a complete list, please see the <a href="research.html">research</a> page. </p>
+
+		</div>
+
+		<div class="sidebar">
+		  <div class="news">
+		  <div class="newsheading">News</div>		
+		  <div class="newscontent">
+		  <script type="text/javascript" src="news.js">
+		  </script>
+		  </div>
+		  </div>
+		  <div class="news">
+<div class="newsheading">Links</div>
+<div class="newscontent">
+<ul class="news">
+<li><a href="https://kkhauser.web.illinois.edu/">Kris Hauser's personal page</a></li>
+<li><a href="https://hauserlabwiki.web.illinois.edu/">IML Wiki</a> (internal)</li>
+<!-- <li><a href="https://wiki.illinois.edu/wiki/display/IML">Old IML Wiki</a> (internal)</li> -->
+
+</ul>
+</div>
+</div>
+
+<p><a href="https://www.youtube.com/channel/UCXIw-uK4A6jusMdHbyot1SQ/videos?view_as=subscriber"><img src="http://s.ytimg.com/yt/img/creators_corner/YouTube/youtube_32x32.png" alt="Subscribe to me on YouTube" style="vertical-align: middle"/></a><img src="//www.youtube-nocookie.com/gen_204?feature=creators_cornier-//s.ytimg.com/yt/img/creators_corner/YouTube/youtube_32x32.png" style="display: none;"/> <a href="https://www.youtube.com/channel/UCXIw-uK4A6jusMdHbyot1SQ/videos?view_as=subscriber">IML YouTube channel</a></p>
+
+<div class="news">
+<div class="newsheading">Affiliations</div>
+<div class="newscontent">
+<ul class="news">
+<li><a href="http://robotics.illinois.edu/">Illinois Robotics Group</a></li>
+<li><a href="http://cs.illinois.edu/">UIUC Computer Science</a></li>
+<li><a href="https://autonomy.illinois.edu/">UIUC Center for Autonomy</a></li>
+<li><a href="https://csl.illinois.edu/">UIUC Coordinated Systems Laboratory</a></li>
+<li><a href="http://grainger.illinois.edu/">UIUC Grainger College of Engineering</a></li>
+</ul>
+</div>
+</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="copyright">Part of the <a href="http://www.illinois.edu/">University Illinois at Urbana-Champaign</a> <a href="http://grainger.illinois.edu/">Grainger College of Engineering</a></div>
+	    	<div class="update">Last updated on Aug 04, 2025</div>
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+Rakesh Kumar
+208 Coordinated Science Laboratory
+1308 West Main Street
+Urbana, IL 61801
+Phone:217-333-5955
+FAX:217-244-5685
+Email: rakeshk@illinois.edu
+Rakesh Kumar is a Professor and John Bardeen Faculty Scholar in the Electrical and Computer Engineering Department at the University of Illinois at Urbana Champaign with research and teaching interests in computer architecture and system-level design automation.
+His research has been recognized through an ISCA Influential Paper Award, a MICRO Test-of-Time Award, an ICCAD Ten Year Retrospective Most Influential Paper Award, an ASPDAC 10 Year Retrospective Most Influential Paper (MIP) Award, three selections to ISCA-50 Retrospective, several best paper awards and best paper award nominations (IEEE MICRO Top Picks - 5x, ISCA, ASPLOS, HPCA, CASES, SELSE, IEEE CAL), IIT Kharagpur Young Alumni Achiever Award,
+ARO Young Investigator Award, and UCSD CSE Best Dissertation Award.
+His teaching and advising have been recognized through Stanley H Pierce Faculty Award and
+Ronald W Pratt Faculty Outstanding Teaching Award.
+He often writes about issues at the intersection of technology, policy, and society (some sample articles here)
+and has commented on semiconductor issues for The New York Times, The Wall Street Journal, BBC, CNN, The Guardian, and Fortune, among others. His book Reluctant Technophiles (Sage Select:2021; Atlantic:2023) was one of "GQ's Best Indian Non-fiction Books of 2021". His work on plastic chips was chosen among the three "biggest semiconductor headlines of 2022" by IEEE Spectrum.
+Rakesh has a BS from IIT Kharagpur and a PhD from University of California at San Diego.
+Current Research
+Flexible Computer Systems (DATE23, ISCA22, DATE21, MICRO20, ISCA20)
+Waferscale Computing (ICCAD25, ISCA24, ECTC21, DAC21, HPCA19, HPCA18)
+Immersive Computing (ISCA23_a, ISCA23_b, ISCA22)
+In-Space Computing (HPCA25, MICRO23)
+Select Publications
+Waferscale Silicon Photonics Systems: A Cost-Benefit Analysis and Optimization, ICCAD, 2025 (PDF).
+Architecting Space Microdatacenters: A System-level Approach, HPCA, 2025 (PDF).
+Waferscale Network Switches, ISCA, 2024 (PDF).[IEEE Spectrum](IEEE Micro Top Pick).
+Space Microdatacenters, MICRO, 2023 (PDF).(IEEE Micro Top Picks Honorable Mention).
+Hardware Acceleration of Neural Graphics, ISCA, 2023 (PDF).
+Programmable Olfactory Computing, ISCA, 2023 (PDF). (Nominated for Best Paper Award)(IEEE Micro Top Pick).
+Exploiting Short Application Lifetimes for Low Cost Hardware Encryption in Flexible Electronics, DATE, 2023, (PDF).
+Rethinking Programmable Earable Processors, ISCA, 2022, (PDF).
+FlexiCores: Low Footprint, High Yield, Field-Reprogrammable Flexible Microprocessors, ISCA, 2022, (PDF).[IEEE Spectrum][Tom's Hardware][Slashdot][TechRadar][More](chosen among three "biggest semiconductor headline of 2022" by IEEE Spectrum)
+I/O Architecture, Substrate Design, and Bonding Process for a Heterogeneous Dielet-Assembly based Waferscale Processor, ECTC, 2021, (PDF).[The Next Platform]
+Property-driven Automatic Generation of Reduced-ISA Hardware, DAC, 2021, (PDF).
+Designing a 2048-Chiplet, 14336-Core Waferscale Processor, DAC, 2021, (PDF).[HPCWire][Tom's Hardware][EENewsEurope]
+Printed Stochastic Computing Neural Networks, DATE, 2021, (PDF).
+Printed Machine Learning Classifiers, MICRO, 2020, (PDF). (IEEE Micro Top Picks- Honorable Mention).
+Printed Microprocessors, ISCA, 2020, (PDF).
+(selected for retrospective of the years 1996 through 2020 on the 50th anniversary of ISCA)
+Hardware Acceleration of Graph Neural Networks, DAC, 2020, (PDF).
+Design Space Exploration for Chiplet Assembly Based Processors, TVLSI, 2020, (PDF).
+Architecting a waferscale processor - a GPU case study, HPCA, 2019, (PDF). [IEEE Spectrum][Fortune][Next Platform][ExtremeTech][Tom's Hardware][TechSpot][Hexus]
+(also of interest: IEEE Spectrum, NYT)
+Bespoke Processors for Applications with Ultra-low Area and Power Constraints, IEEE MICRO, 2018 (link).
+Guaranteeing Local Differential Privacy on Ultra-low-power Systems, ISCA, 2018, (PDF).
+A Case for Packageless Processors, HPCA, 2018, (PDF). [Semiconductor Engineering]
+Software-based Gate-level Information Flow Security for IoT Systems, MICRO, 2017, (PDF).
+Bespoke Processors for Applications with Ultra-low Area and Power Constraints, ISCA, 2017, (PDF). (IEEE Micro Top Picks).
+[IEEE Spectrum][Semiconductor Engineering][Hackaday][CircleID]
+Determining Application-specific Peak Power and Energy Requirements for Ultra-low-power Processors, ASPLOS, 2017, (PDF). (Best Paper Award).
+Enabling Effective Module-oblivious Power Gating for Embedded Processors, HPCA, 2017, (PDF)
+Understanding and Optimizing Power Consumption in Memory Networks, HPCA, 2017, (PDF)
+Bit Serializing a Microprocessor for Ultra-Low-Power, ISLPED, 2016, (PDF)
+Rescuing Uncorrectable Fault Patterns in On-Chip Memories Through Error Pattern Transformation, ISCA, 2016, (PDF)
+(an earlier version selected as a Best Paper at SRC TECHCON 2015).
+Exploiting Dynamic Timing Slack for Energy Efficiency in Ultra-Low-Power Embedded Systems, ISCA, 2016, (PDF)
+Approximate Bitcoin Mining, DAC, 2016, (PDF)[ZDNet][Slashdot][EE Times][Hacker News][Security Affairs][Coin Report][CryptoCoinNews][Coin Telegraph][Brave New Coin][NewsBTC][More]
+Parity Helix: Efficient Protection for Single-Dimensional Faults in
+Multi-dimensional Memory Systems, HPCA 2016, (PDF).
+Correction Prediction: Reducing Error Correction Latency for On-Chip Memories, HPCA 2015, (PDF).
+(an earlier version selected as a Best Paper at SRC TECHCON 2014).
+ECC Parity: A Technique for Efficient Memory Error Resilience for Multi-Channel Memory Systems, SC 2014, (PDF).
+Software Canaries: Software-based Path Delay Fault Testing for Variation-aware Energy-efficient Design, ISLPED 2014, (PDF).
+Markov Chain Algorithms: A Template for Building Future Robust Low Power Systems, Asilomar 2013, (PDF).
+Low Power, Low Storage Overhead Chipkill Correct via Multi-Line Error Correction (Multi-ECC), SC 2013, (PDF)
+(an earlier version selected as the Best of IEEE Computer Architecture Letters 2013).
+On Reconfiguration-Oriented Approximate Adder Design and Its Application,ICCAD 2013, (PDF).(ICCAD Ten Year Retrospective Most Influential Paper Award).
+An Algorithmic Approach to Error Localization and Partial Recomputation for Low-Overhead Fault Tolerance on Parallel Systems, DSN 2013, (PDF).
+Adaptive Reliability Chipkill Correct (ARCC), HPCA 2013, (PDF).
+On Logic Synthesis for Timing Speculation, ICCAD 2012, (PDF).
+Algorithmic Approaches to Low Overhead Fault Detection for Sparse Linear Algebra, DSN 2012, (PDF)
+(an earlier version selected as a Best Paper at SRC TECHCON 2011).
+Compiling for Energy Efficiency on Timing Speculative Processors, DAC 2012, (PDF).
+On Software Design for Stochastic Processors, DAC 2012, (PDF). (invited)
+Power-Balanced Pipelines, HPCA 2012, (PDF).
+(Nominated for Best Paper Award).
+Architecting Processors to Allow Voltage/Reliability Tradeoffs. CASES 2011. (PDF). (Best Paper Award).
+On the Efficacy of NBTI Mitigation Techniques, DATE 2011, (PDF).
+MOPED: Orchestrating Interprocess Message Data on CMPs, HPCA 2011, (PDF).
+A Numerical Optimization-based Methodology for Application Robustification: Transforming Applications for Error Tolerance, DSN 2010, (PDF).[BBC]][HPCWire][IEEE Spectrum][Engineering&Technology][Slashdot]
+[PhysOrg][DNA] [More]
+Recovery-driven Design: A Methodology for Power Minimization for Error Tolerant Processor Modules, DAC 2010, (PDF).
+Stochastic Computation, DAC 2010, (PDF) (invited).
+Scalable Stochastic Processors", DATE 2010, (PDF).
+Designing Processors from the Ground Up to Allow Voltage/Reliability Tradeoffs, HPCA 2010, (PDF).
+Slack Redistribution for Graceful Degradation Under Voltage Overscaling. ASPDAC 2010, (PDF). (10-year ASPDAC Retrospective Most Influential Paper Award, 2020).
+Reducing Peak Power with a Table-Driven Adaptive Processor Core, MICRO 2009, (PDF).
+(more)

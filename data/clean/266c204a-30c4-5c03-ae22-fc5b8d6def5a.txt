@@ -1,0 +1,1110 @@
+Alex's research is centered around machine learning and computer vision. He is particularly interested in algorithms for prediction with and learning of non-linear (deep nets), multivariate and structured distributions, and their application in numerous tasks, e.g., for 3D scene understanding from a single image.
+Here are some of the recent research projects that I was working on with an amazing set of students. We conduct reproducible and open research and release code whenever possible.
+Amodal Video Object Segmentation
+We want to understand objects in their entirety despite occlusions. Check out our new dataset. More...
+×
+Amodal Video Object Segmentation
+Delineating (i.e., segmenting) objects as a whole (i.e., amodal segmentation) is a challenging task. How can we see the unseen, i.e., how can we segment occluded parts? We think this is only possible if algorithms understand objects as a whole rather than algorithms assessing whether a pixel belongs to an object. Moreover, we think temporal information, i.e., understanding how objects move, is important. However, there was no dataset which delineates objects as a whole for every frame of a video. To facilitate this we collected the 'semantic a-modal instance level video object segmentation' (SAILVOS) dataset. We hope this dataset will enable new research in the direction of amodal instance-level segmentation. Please feel free to reach out with questions and suggestions. Check out our website for more.
+Stable Generative Modeling
+We develop and study generative modeling techniques and their stability. More...
+×
+Stable Generative Modeling
+Training generative adversarial nets (GANs) used to be challenging. In a sequence of papers we studied the reasons. Specifically, in 'Dualing GANs' we used the mathematical concept of duality to reformulate the original GAN min-max objective (saddle point) into a minimization. This yielded exciting relations between GANs and moment matching but wasn't easy to scale.
+Subsequently, we showed in 'Sliced Wasserstein GAN' that duality (Kantorovich-Rubinstein) can be removed from the Wasserstein GAN objective by using projections onto many one-dimensional spaces. To reduce the number of one-dimensional spaces we subsequently introduced the 'Max-Sliced Distance' which we found to be very easy to train.
+In our research on image inpainting we found back-propagation through GANs to the latent space to be challenging . We studied the reasons in our work on 'annealed importance sampling with Hamilton Monte Carlo for GANs' .
+We develop algorithms that enable multiple agents to collaborate in visual environments. More...
+×
+Collaborative Embodied Agents
+In collaboration with AI2 we develop algorithms and environments for collaborative and visual multi-agent reinforcement learning. It seems implausible to develop a single agent which can address all tasks on its own. Adressing tasks in collaboration seems much more feasible. Yet understanding collaborative visual reinforcement learning with communication is at its infancy. We are interested in changing this.
+In our recent 'Two Body Problem' work we showed that communicative agents can solve a challenging task much faster.
+Learning to Anticipate
+We develop algorithms to better anticipate what may happen in a scene a few seconds from the given observation. More...
+×
+Learning to Anticipate
+We recently started to develop algorithms which can anticipate what the current observation will look like a few seconds from now. Following the vision of neuroscientist Kenneth Craik we agree that 'a creature must anticipate the outcome of a movement to navigate safely' (1943). In a first project on 'Diverse Generation for multi-agent sports games' we looked at team-sports data and showed how to anticipate future movement of players and how to answer counterfactual questions related to what would have happened if the ball trajectory was modified.
+In subsequent work on 'Chirality Nets' we studied human pose forecasting with structured representations. Check out our website for more.
+Structured Prediction
+We devise novel algorithms and models which learn and exploit correlations when jointly predicting multiple variables. More...
+×
+Structured Prediction
+Structured prediction is an area that I have worked on for many years, already during my PhD and PostDoc. For instance, jointly with my advisors and collaborators we developed deep structured models , algorithms for globally convergent maximum a-posteriori (MAP) inference , asynchronous MAP inference , and distributed MAP inference . We continue to develop more efficient algorithms for inference in structured models and more expressive models. For example, in recent work we introduced 'NLStruct' which is able to capture non-linear correlations. A shortcoming of 'NLStruct' is its saddlepoint objective which makes it challenging to optimize. Therefore, more recently we developed 'GSPEN' which is more expressive and easier to optimize. Check out our code for more.
+Supervised & Unsupervised Video Object Segmentation
+We develop fast supervised and unsupervised video object segmentation methods. More...
+×
+Supervised & Unsupervised Video Object Segmentation
+We are interested in developing algorithms for weakly-supervised and unsupervised video object segmentation. Given segmentation annotations for the first frame, classical methods require an expensive finetuning step. This limits scalability of those methods. We address this concern in 'VideoMatch' . Specifically, instead of a classification problem we propose to formulate the task of instance level video segmentation as a matching. Consequently, finetuning is no longer require to obtain good results. In addition, in our 'MaskRNN' work we exploit temporal correlations for accurate instance level video object segmentation. We also study unsupervised video object segmentation .
+Diversity in Vision-Language Models
+We think there is no single best description. How can we adequately capture and model ambiguity in vision-language models? More...
+×
+Diversity in Vision-Language Models
+Describing an image is an important task. Classical methods only provide a single description for an image. We argue that this does not live up the standard: we want to provide many equally suitable descriptions. In other words, we aim to better capture the ambiguity in vision-language tasks. In this direction we first looked at 'Creativity' using generative models (variational auto-encoders). To include controlability we then extended this to conditional models and also studied its ability to form a meaningful dialog . We later found in 'ConvCap' that convolutional models are not as overly confident as classical long-short-term-memory based techniques, which helps to better capture ambiguity. Moreover, convolutional models can be conditional as well . More recently, we studied how language models can anticipate/forecast how a sentence will be completed by using more fine-grained latent spaces . We found this technique to significantly boost the ability to better capture ambiguity.
+We also study diversity aspects for visual question answering via attention models and factual visual question answering. For the latter we developed techniques to include information from knowledge basis either directly into prediction or via graph neural nets .
+We also developed optimization techniques for supervised visual grounding and its unsupervised counterpart .
+We develop algorithms for efficient practical multi-agent reinforcement learning. More...
+×
+Multi-agent Reinforcement Learning
+We are interested in developing efficient practical multi-agent reinforecement learning algorithms. Classical techniques use a critic which has to learn from data that an environment should be assessed identically if the agents are permuted. This makes multi-agent reinforcement learning even more sample inefficient. To address this concern we recently introduced the permutation invariant critic (PIC) . As the name suggests, PIC guarantees that an environment is assessed identically, irrespective of the agent permutation. We found this to significantly improve scalability.
+Y.-C. Cheng, K.K. Singh, J.S. Yoon, A.G. Schwing, L.-Y. Gui, M. Gadelha, P. Guerrero, N. Zhao; 3D-Fixup: Advancing Photo Editing with 3D Priors; SIGGRAPH; 2025
+@inproceedings{ChengSIGGRAPH2025,
+author = {Y.-C. Cheng and K.~K. Singh and J.~S. Yoon and A.~G. Schwing and L.-Y. Gui and M. Gadelha and P. Guerrero and N. Zhao},
+title = {{3D-Fixup: Advancing Photo Editing with 3D Priors}},
+booktitle = {Proc. SIGGRAPH},
+year = {2025},
+}
+P. Guo, A.G. Schwing; Variational Rectified Flow Matching; Int.'l Conf. on Machine Learning (ICML); 2025
+@inproceedings{GuoICML2025,
+author = {P. Guo and A.~G. Schwing},
+title = {{Variational Rectified Flow Matching}},
+booktitle = {Proc. ICML},
+year = {2025},
+}
+Z. Tang, Y. Fan, D. Wang, H. Xu, R. Ranjan, A.G. Schwing, Z. Yan; MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2025
+(oral)
+@inproceedings{TangCVPR2025,
+author = {Z. Tang and Y. Fan and D. Wang and H. Xu and R. Ranjan and A.~G. Schwing and Z. Yan},
+title = {{MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds}},
+booktitle = {Proc. CVPR},
+year = {2025},
+}
+H.K. Cheng, M. Ishii, A. Hayakawa, T. Shibuya, A.G. Schwing, Y. Mitsufuji; MMAudio: Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2025
+@inproceedings{ChengCVPR2025,
+author = {H.~K. Cheng and M. Ishii and A. Hayakawa and T. Shibuya and A.~G. Schwing and Y. Mitsufuji},
+title = {{MMAudio: Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis}},
+booktitle = {Proc. CVPR},
+year = {2025},
+}
+S. Khosla, Sethuraman T V, A.G. Schwing, D. Hoiem; RELOCATE: A Simple Training-Free Baseline for Visual Query Localization Using Region-Based Representations; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2025
+@inproceedings{KoshlaCVPR2025,
+author = {S. Khosla and Sethuraman~T~V and A.G. Schwing and D. Hoiem},
+title = {{RELOCATE: A Simple Training-Free Baseline for Visual Query Localization Using Region-Based Representations}},
+booktitle = {Proc. CVPR},
+year = {2025},
+}
+Y. Zhang, Y. Yan, A.G. Schwing, Z. Zhao; Towards Hierarchical Rectified Flow; Int.'l Conf. on Learning Representations (ICLR); 2025
+@inproceedings{ZhangICLR2025,
+author = {Y. Zhang and Y. Yan and A.~G. Schwing and Z. Zhao},
+title = {{Towards Hierarchical Rectified Flow}},
+booktitle = {Proc. ICLR},
+year = {2025},
+}
+J. Wen, A.G. Schwing, S. Wang; LIFe-GoM: Generalizable Human Rendering with Learned Iterative Feedback Over Multi-Resolution Gaussians-on-Mesh; Int.'l Conf. on Learning Representations (ICLR); 2025
+@inproceedings{WenICLR2025,
+author = {J. Wen and A.G. Schwing and S. Wang},
+title = {{LIFe-GoM: Generalizable Human Rendering with Learned Iterative Feedback Over Multi-Resolution Gaussians-on-Mesh}},
+booktitle = {Proc. ICLR},
+year = {2025},
+}
+K. Yan, A.G. Schwing, Y. Wang; Reinforcement Learning Gradients as Vitamin for Online Finetuning Decision Transformers; Neural Information Processing Systems (NeurIPS); 2024
+(spotlight)
+@inproceedings{YanNEURIPS2024,
+author = {K. Yan and A.~G. Schwing and Y. Wang},
+title = {{Reinforcement Learning Gradients as Vitamin for Online Finetuning Decision Transformers}},
+booktitle = {Proc. NeurIPS},
+year = {2024},
+}
+A. Choudhuri, G. Chowdhary, A.G. Schwing; OW-VISCapTor: Abstractors for Open-World Video Instance Segmentation and Captioning; Neural Information Processing Systems (NeurIPS); 2024
+@inproceedings{ChoudhuriNEURIPS2024,
+author = {A. Choudhuri and G. Chowdhary and A.~G. Schwing},
+title = {{OW-VISCapTor: Abstractors for Open-World Video Instance Segmentation and Captioning}},
+booktitle = {Proc. NeurIPS},
+year = {2024},
+}
+K. Yan, A.G. Schwing, Y. Wang; Offline Imitation from Observation via Primal Wasserstein State Occupancy Matching; Int.'l Conf. on Machine Learning (ICML); 2024
+@inproceedings{YanICML2024,
+author = {K. Yan and A.~G. Schwing and Y. Wang},
+title = {{Offline Imitation from Observation via Primal Wasserstein State Occupancy Matching}},
+booktitle = {Proc. ICML},
+year = {2024},
+}
+H.K. Cheng, S.W. Oh, B.L. Price, J.-Y. Lee, A.G. Schwing; Putting the Object Back Into Video Object Segmentation; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2024
+@inproceedings{ChengCVPR2024,
+author = {H.~K. Cheng and S.~W. Oh and B.~L. Price and J.-Y. Lee and A.~G. Schwing},
+title = {{Putting the Object Back Into Video Object Segmentation}},
+booktitle = {Proc. CVPR},
+year = {2024},
+}
+Z. Tang, Z. Ren, X. Zhao, B. Wen, J. Tremblay, S. Birchfield, A.G. Schwing; NeRFDeformer: NeRF Transformation from a Single View via 3D Scene Flows; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2024
+@inproceedings{TangCVPR2024,
+author = {Z. Tang and Z. Ren and X. Zhao and B. Wen and J. Tremblay and S. Birchfield and A.~G. Schwing},
+title = {{NeRFDeformer: NeRF Transformation from a Single View via 3D Scene Flows}},
+booktitle = {Proc. CVPR},
+year = {2024},
+}
+J. Wen, X. Zhao, Z. Ren, A.G. Schwing, S. Wang; GoMAvatar: Efficient Animatable Human Modeling from Monocular Video Using Gaussians-on-Mesh; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2024
+@inproceedings{WenCVPR2024,
+author = {J. Wen and X. Zhao and Z. Ren and A.~G. Schwing and S. Wang},
+title = {{GoMAvatar: Efficient Animatable Human Modeling from Monocular Video Using Gaussians-on-Mesh}},
+booktitle = {Proc. CVPR},
+year = {2024},
+}
+X. Zhao, A. Colburn, F. Ma, M.A. Bautista, J.M. Susskind, A.G. Schwing; Pseudo-Generalized Dynamic View synthesis from a Video; Int.'l Conf. on Learning Representations (ICLR); 2024
+@inproceedings{XiaomingICLR2024,
+author = {X. Zhao and A. Colburn and F. Ma and M.~A. Bautista and J.~M. Susskind and A.~G. Schwing},
+title = {{Pseudo-Generalized Dynamic View synthesis from a Video}},
+booktitle = {Proc. ICLR},
+year = {2024},
+}
+S. Ghaffari, E. Saleh, A.G. Schwing, Y. Wang, M.D. Burke, S. Sinha; Robust Model-Based Optimization for Challenging Fitness Landscapes; Int.'l Conf. on Learning Representations (ICLR); 2024
+@inproceedings{GhaffariICLR2024,
+author = {S. Ghaffari and E. Saleh and A.G. Schwing and Y. Wang and M.D. Burke and S. Sinha},
+title = {{Robust Model-Based Optimization for Challenging Fitness Landscapes}},
+booktitle = {Proc. ICLR},
+year = {2024},
+}
+G. Lorberbom, I. Gat, Y. Adi, A.G. Schwing, T. Hazan; Layer Collaboration in the Forward-Forward Algorithm; AAAI; 2024
+@inproceedings{LorberbomAAAI2024,
+author = {G. Lorberbom and I. Gat and Y. Adi and A.~G. Schwing and T. Hazan},
+title = {{Layer Collaboration in the Forward-Forward Algorithm}},
+booktitle = {Proc. AAAI},
+year = {2024},
+}
+K. Yan, A.G. Schwing, Y. Wang; A Simple Solution for Offline Imitation from Observations and Examples with Possibly Incomplete Trajectories; Neural Information Processing Systems (NeurIPS); 2023
+@inproceedings{YanNEURIPS2023,
+author = {K. Yan and A.~G. Schwing and Y. Wang},
+title = {{A Simple Solution for Offline Imitation from Observations and Examples with Possibly Incomplete Trajectories}},
+booktitle = {Proc. NeurIPS},
+year = {2023},
+}
+H.K. Cheng, S.W. Oh, B. Price, A.G. Schwing, J.-Y. Lee; Tracking Anything with Decoupled Video Segmentation; Int.'l Conf. on Computer Vision (ICCV); 2023
+@inproceedings{ChengICCV2023,
+author = {H.~K. Cheng and S.~W. Oh and B. Price and A.~G. Schwing and J.-Y. Lee},
+title = {{Tracking Anything with Decoupled Video Segmentation}},
+booktitle = {Proc. ICCV},
+year = {2023},
+}
+Y.-T. Hu, A.G. Schwing, R.A. Yeh; Surface Snapping Optimization Layer for Single Image Object Shape Reconstruction; Int.'l Conf. on Machine Learning (ICML); 2023
+@inproceedings{HuICML2023,
+author = {Y.-T. Hu and A.~G. Schwing and R.~A. Yeh},
+title = {{Surface Snapping Optimization Layer for Single Image Object Shape Reconstruction}},
+booktitle = {Proc. ICML},
+year = {2023},
+}
+Y.-C. Cheng, H.-Y. Lee, S. Tulyakov, A.G. Schwing, L. Gui; SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2023
+@inproceedings{ChengCVPR2023,
+author = {Y.-C. Cheng and H.-Y. Lee and S. Tulyakov and A.G. Schwing and L. Gui},
+title = {{SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation}},
+booktitle = {Proc. CVPR},
+year = {2023},
+}
+A. Choudhuri, G. Chowdhary, A.G. Schwing; Context-Aware Relative Object Queries to Unify Video Instance and Panoptic Segmentation; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2023
+@inproceedings{ChoudhuriCVPR2023,
+author = {A. Choudhuri and G. Chowdhary and A.~G. Schwing},
+title = {{Context-Aware Relative Object Queries to Unify Video Instance and Panoptic Segmentation}},
+booktitle = {Proc. CVPR},
+year = {2023},
+}
+C. Ziwen, K. Patnaik, S. Zhai, A. Wan, Z. Ren, A.~G. Schwing, A. Colburn, L. Fuxin; AutoFocusFormer: Image Segmentation off the Grid; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2023
+@inproceedings{ZiwenCVPR2023,
+author = {C. Ziwen and K. Patnaik and S. Zhai and A. Wan and Z. Ren and A.G. Schwing and A. Colburn and L. Fuxin},
+title = {{AutoFocusFormer: Image Segmentation off the Grid}},
+booktitle = {Proc. CVPR},
+year = {2023},
+}
+F. Wang, M. Li, X. Lin, H. Lv, A.G. Schwing, H. Ji; Learning to Decompose Visual Features with Latent Textual Prompts; Int.'l Conf. on Learning Representations (ICLR); 2023
+@inproceedings{WangICLR2023,
+author = {F. Wang and M. Li and X. Lin and H. Lv and A.~G. Schwing and H. Ji},
+title = {{Learning to Decompose Visual Features with Latent Textual Prompts}},
+booktitle = {Proc. ICLR},
+year = {2023},
+}
+P. Zhuang, S. Abnar, J. Gu, A.G. Schwing, J.M. Susskind, M.A. Bautista; Diffusion Probabilistic Fields; Int.'l Conf. on Learning Representations (ICLR); 2023
+@inproceedings{ZhuangICLR2023,
+author = {P. Zhuang and S. Abnar and J. Gu and A.~G. Schwing and J.M. Susskind and M.A. Bautista},
+title = {{Diffusion Probabilistic Fields}},
+booktitle = {Proc. ICLR},
+year = {2023},
+}
+X. Zhao, Y.-T. Hu, Z. Ren, A.G. Schwing; Occupancy Planes for Single-view RGB-D Human Reconstruction; AAAI; 2023
+@inproceedings{ZhaoAAAI2023,
+author = {X. Zhao and Y.-T. Hu and Z. Ren and A.~G. Schwing},
+title = {{Occupancy Planes for Single-view RGB-D Human Reconstruction}},
+booktitle = {Proc. AAAI},
+year = {2023},
+}
+T. Fang, R. Sun, A.G. Schwing; DigGAN: Discriminator gradIent Gap Regularization for GAN Training with Limited Data; Neural Information Processing Systems (NeurIPS); 2022
+@inproceedings{FangNEURIPS2022,
+author = {T. Fang and R. Sun and A.~G. Schwing},
+title = {{DigGAN: Discriminator gradIent Gap Regularization for GAN Training with Limited Data}},
+booktitle = {Proc. NeurIPS},
+year = {2022},
+}
+K. Yan, A.G. Schwing, Y. Wang; CEIP: Combining Explicit and Implicit Priors for Reinforcement Learning with Demonstrations; Neural Information Processing Systems (NeurIPS); 2022
+@inproceedings{YanNEURIPS2022,
+author = {K. Yan and A.~G. Schwing and Y. Wang},
+title = {{CEIP: Combining Explicit and Implicit Priors for Reinforcement Learning with Demonstrations}},
+booktitle = {Proc. NeurIPS},
+year = {2022},
+}
+I. Gat, Y. Adi, A.G. Schwing, T. Hazan; On the Importance of Gradient Norm in PAC-Bayesian Bounds; Neural Information Processing Systems (NeurIPS); 2022
+@inproceedings{GatNEURIPS2022,
+author = {I. Gat and Y. Adi and A.~G. Schwing and T. Hazan},
+title = {{On the Importance of Gradient Norm in PAC-Bayesian Bounds}},
+booktitle = {Proc. NeurIPS},
+year = {2022},
+}
+R.A.R. Gomez, T.-Y. Lim, A.G. Schwing, M. Do, R. Yeh; Learnable Polyphase Sampling for Shift Invariant and Equivariant Convolutional Networks; Neural Information Processing Systems (NeurIPS); 2022
+@inproceedings{GomezNEURIPS2022,
+author = {R.~A.~R. Gomez and T.-Y. Lim and A.~G. Schwing and M. Do and R. Yeh},
+title = {{Learnable Polyphase Sampling for Shift Invariant and Equivariant Convolutional Networks}},
+booktitle = {Proc. NeurIPS},
+year = {2022},
+}
+X. Zhao, F. Ma, D. Güera, Z. Ren, A.G. Schwing, A. Colburn; Generative Multiplane Images: Making a 2D GAN 3D-Aware; European Conference on Computer Vision (ECCV); 2022
+(oral)
+@inproceedings{ZhaoECCV2022a,
+author = {X. Zhao and F. Ma and D. G\"{u}era and Z. Ren and A.~G. Schwing and A. Colburn},
+title = {{Generative Multiplane Images: Making a 2D GAN 3D-Aware}},
+booktitle = {Proc. ECCV},
+year = {2022},
+}
+H.K. Cheng and A.G. Schwing; XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model; European Conference on Computer Vision (ECCV); 2022
+@inproceedings{ChengECCV2022,
+author = {H.~K. Cheng and A.~G. Schwing},
+title = {{XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model}},
+booktitle = {Proc. ECCV},
+year = {2022},
+}
+X. Zhao, Z. Zhao and A.G. Schwing; Initialization and Alignment for Adversarial Texture Optimization; European Conference on Computer Vision (ECCV); 2022
+@inproceedings{ZhaoECCV2022b,
+author = {X. Zhao and Z. Zhao and A.G. Schwing},
+title = {{Initialization and Alignment for Adversarial Texture Optimization}},
+booktitle = {Proc. ECCV},
+year = {2022},
+}
+I.-J. Liu*, X. Yuan*, M.-A. Côté*, P.-Y. Oudeyer, A.G. Schwing; Asking for Knowledge (AFK): Training RL Agents to Query External Knowledge Using Language; Int.'l Conf. on Machine Learning (ICML); 2022
+(*equal contribution)
+@inproceedings{LiuICML2022,
+author = {I.-J. Liu$^\ast$ and X. Yuan$^\ast$ and M.-A. C\^{o}t\'{e}$^\ast$ and P.-Y. Oudeyer and A.~G. Schwing},
+title = {{Asking for Knowledge (AFK): Training RL Agents to Query External Knowledge Using Language}},
+booktitle = {Proc. ICML},
+year = {2022},
+note = {$^\ast$ equal contribution},
+}
+C. Graber, C. Jazra, W. Luo, L. Gui, A.G. Schwing; Joint Forecasting of Panoptic Segmentations with Difference Attention; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2022
+(oral)
+@inproceedings{GraberCVPR2022,
+author = {C. Graber and C. Jazra and W. Luo and L. Gui and A.~G. Schwing},
+title = {{Joint Forecasting of Panoptic Segmentations with Difference Attention}},
+booktitle = {Proc. CVPR},
+year = {2022},
+}
+B. Cheng, I. Misra, A.G. Schwing, A. Kirillov, R. Girdhar; Masked-attention Mask Transformer for Universal Image Segmentation; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2022
+@inproceedings{ChengCVPR2022,
+author = {B. Cheng and I. Misra and A.~G. Schwing and A. Kirillov and R. Girdhar},
+title = {{Masked-attention Mask Transformer for Universal Image Segmentation}},
+booktitle = {Proc. CVPR},
+year = {2022},
+}
+Z. Ren, A. Agarwala, B. Russell, A.G. Schwing, O. Wang; Neural Volumetric Object Selection; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2022
+@inproceedings{RenCVPR2022,
+author = {Z. Ren and A. Agarwala and B. Russell and A.~G. Schwing and O. Wang},
+title = {{Neural Volumetric Object Selection}},
+booktitle = {Proc. CVPR},
+year = {2022},
+}
+R. Yeh, Y.-T. Hu, Z. Ren, A.G. Schwing; Total Variation Optimization Layers for Computer Vision; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2022
+@inproceedings{YehCVPR2022,
+author = {R. Yeh and Y.-T. Hu and Z. Ren and A.~G. Schwing},
+title = {{Total Variation Optimization Layers for Computer Vision}},
+booktitle = {Proc. CVPR},
+year = {2022},
+}
+R. Yeh, Y.-T. Hu, M. Hasegawa-Johnson, A.G. Schwing; Equivariance Discovery by Learned Parameter-Sharing; Int.'l Conf. on Artificial Intelligence and Statistics (AISTATS); 2022
+@inproceedings{YehAISTATS2022,
+author = {R. Yeh and Y.-T. Hu and M. Hasegawa-Johnson and A.~G. Schwing},
+title = {{Equivariance Discovery by Learned Parameter-Sharing}},
+booktitle = {Proc. AISTATS},
+year = {2022},
+}
+R.G. Reddy, X. Rui, M. Li, X. Li, H. Wen, J. Cho, L. Huang, M. Bansal, A. Sil, S.-F. Chang, A.~G. Schwing, H. Ji; MuMuQA: Multimedia Multi-Hop News Question Answering via Cross-Media Knowledge Extraction and Grounding; AAAI; 2022
+@inproceedings{ReddyAAAI2022,
+author = {R.~G. Reddy and X. Rui and M. Li and X. Li and H. Wen and J. Cho and L. Huang and M. Bansal and A. Sil and S.-F. Chang and A.~G. Schwing and H. Ji},
+title = {{MuMuQA: Multimedia Multi-Hop News Question Answering via Cross-Media Knowledge Extraction and Grounding}},
+booktitle = {Proc. AAAI},
+year = {2022},
+}
+B. Cheng, A.G. Schwing, A. Kirillov; Per-pixel Segmentation is NOT all you need for Semantic Segmentation; Neural Information Processing Systems (NeurIPS); 2021
+(spotlight)
+@inproceedings{ChengNEURIPS2021,
+author = {B. Cheng and A.~G. Schwing and A. Kirillov},
+title = {{Per-pixel Segmentation is NOT all you need for Semantic Segmentation}},
+booktitle = {Proc. NeurIPS},
+year = {2021},
+}
+Z. Ren*, X. Zhao*, A.G. Schwing; Class-agnostic Reconstruction of Dynamic Objects From Videos; Neural Information Processing Systems (NeurIPS); 2021
+(*equal contribution)
+@inproceedings{RenZhaoNEURIPS2021,
+author = {Z. Ren$^\ast$ and X. Zhao$^\ast$ and A.~G. Schwing},
+title = {{Class-agnostic Reconstruction of Dynamic Objects From Videos}},
+booktitle = {Proc. NeurIPS},
+year = {2021},
+note = {$^\ast$ equal contribution},
+}
+I. Gat, I. Schwartz, A.G. Schwing; Perceptual Score: What Data Modalities does your Model Perceive?; Neural Information Processing Systems (NeurIPS); 2021
+@inproceedings{GatNEURIPS2021,
+author = {I. Gat and I. Schwartz and A.~G. Schwing},
+title = {{Perceptual Score: What Data Modalities does your Model Perceive?}},
+booktitle = {Proc. NeurIPS},
+year = {2021},
+}
+J. Aneja, A.G. Schwing, J. Kautz, A. Vahdat; A Contrastive Learning Approach for Training Variational Autoencoder Priors; Neural Information Processing Systems (NeurIPS); 2021
+@inproceedings{AnejaNEURIPS2021,
+author = {J. Aneja and A.~G. Schwing and J. Kautz and A. Vahdat},
+title = {{A Contrastive Learning Approach for Training Variational Autoencoder Priors}},
+booktitle = {Proc. NeurIPS},
+year = {2021},
+}
+L. Weihs*, U. Jain*, I.-J. Liu, J. Salvador, S. Lazebnik, A. Kembhavi, A.G. Schwing; Bridging the Imitation Gap by Adaptive Insubordination; Neural Information Processing Systems (NeurIPS); 2021
+(*equal contribution)
+@inproceedings{WeihsJainNEURIPS2021,
+author = {L. Weihs$^\ast$ and U. Jain$^\ast$ and I.-J. Liu and J. Salvador and S. Lazebnik and A. Kembhavi and A.~G. Schwing},
+title = {{Bridging the Imitation Gap by Adaptive Insubordination}},
+booktitle = {Proc. NeurIPS},
+year = {2021},
+note = {$^\ast$ equal contribution},
+}
+A. Choudhuri, G. Chowdhary, A.G. Schwing; Assignment-Space-Based Multi-Object Tracking and Segmentation; Int.'l Conf. on Computer Vision (ICCV); 2021
+@inproceedings{ChoudhuriICCV2021,
+author = {A. Choudhuri and G. Chowdhary and A.~G. Schwing},
+title = {{Assignment-Space-Based Multi-Object Tracking and Segmentation}},
+booktitle = {Proc. ICCV},
+year = {2021},
+}
+X. Zhao, H. Agrawal, D. Batra, A.G. Schwing; The Surprising Effectiveness of Visual Odometry Techniques for Embodied PointGoal Navigation; Int.'l Conf. on Computer Vision (ICCV); 2021
+@inproceedings{XiaomingICCV2021,
+author = {X. Zhao and H. Agrawal and D. Batra and A.~G. Schwing},
+title = {{The Surprising Effectiveness of Visual Odometry Techniques for Embodied PointGoal Navigation}},
+booktitle = {Proc. ICCV},
+year = {2021},
+}
+U. Jain, I.-J. Liu, S. Lazebnik, A. Kembhavi, L. Weihs, A.G. Schwing; GridToPix: Training Embodied Agents With Minimal Supervision; Int.'l Conf. on Computer Vision (ICCV); 2021
+@inproceedings{JainICCV2021,
+author = {U. Jain and I.-J. Liu and S. Lazebnik and A. Kembhavi and L. Weihs and A.~G. Schwing},
+title = {{GridToPix: Training Embodied Agents With Minimal Supervision}},
+booktitle = {Proc. ICCV},
+year = {2021},
+}
+S. Patel*, S. Wani*, U. Jain*, A.G. Schwing, S. Lazebnik, M. Savva, A.X. Chang; Interpretation of Emergent Communication in Heterogeneous Collaborative Embodied Agents; Int.'l Conf. on Computer Vision (ICCV); 2021
+(*equal contribution)
+@inproceedings{PatelICCV2021,
+author = {S. Patel$^\ast$ and S. Wani$^\ast$ and U. Jain$^\ast$ and A.~G. Schwing and S. Lazebnik and M. Savva and A.~X. Chang},
+title = {{Interpretation of Emergent Communication in Heterogeneous Collaborative Embodied Agents}},
+booktitle = {Proc. ICCV},
+year = {2021},
+note = {$^\ast$ equal contribution},
+}
+I.-J. Liu, Z. Ren, R. Yeh, A.G. Schwing; Semantic Tracklets: An Object-Centric Representation for Visual Multi-Agent Reinforcement Learning; IEEE/RSJ Int.'l Conf. on Intelligent Robots and Systems (IROS); 2021
+@inproceedings{LiuIROS2021,
+author = {I.-J. Liu and Z. Ren and R. Yeh and A.~G. Schwing},
+title = {{Semantic Tracklets: An Object-Centric Representation for Visual Multi-Agent Reinforcement Learning}},
+booktitle = {Proc. IROS},
+year = {2021},
+}
+I.-J. Liu, U. Jain, R. Yeh, A.G. Schwing; Cooperative Exploration for Multi-Agent Deep Reinforcement Learning; Int.'l Conf. on Machine Learning (ICML); 2021
+@inproceedings{LiuICML2021,
+author = {I.-J. Liu and U. Jain and R. Yeh and A.~G. Schwing},
+title = {{Cooperative Exploration for Multi-Agent Deep Reinforcement Learning}},
+booktitle = {Proc. ICML},
+year = {2021},
+}
+Y.-T. Hu, J. Wang, R.A. Yeh, A.G. Schwing; SAIL-VOS 3D: A Synthetic Dataset and Baselines for Object Detection and 3D Mesh Reconstruction from Video Data; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2021
+(oral)
+@inproceedings{HuCVPR2021,
+author = {Y.-T. Hu and J. Wang and R.~A. Yeh and A.~G. Schwing},
+title = {{SAIL-VOS 3D: A Synthetic Dataset and Baselines for Object Detection and 3D Mesh Reconstruction from Video Data}},
+booktitle = {Proc. CVPR},
+year = {2021},
+}
+C. Graber, G. Tsai, M. Firman, G. Brostow, A.G. Schwing; Panoptic Segmentation Forecasting; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2021
+@inproceedings{GraberCVPR2021,
+author = {C. Graber and G. Tsai and M. Firman and G. Brostow and A.G. Schwing},
+title = {{Panoptic Segmentation Forecasting}},
+booktitle = {Proc. CVPR},
+year = {2021},
+}
+Z. Ren, I. Misra, A.G. Schwing, R. Girdhar; 3D Spatial Recognition without Spatially Labeled 3D; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2021
+@inproceedings{RenCVPR2021,
+author = {Z. Ren and I. Misra and A.~G. Schwing and R. Girdhar},
+title = {{3D Spatial Recognition without Spatially Labeled 3D}},
+booktitle = {Proc. CVPR},
+year = {2021},
+}
+S. Messaoud, I. Lourentzou, A. Boughoula, M. Zehni, Z. Zhao, C. Zhai, A.G. Schwing; DeepQAMVS: Query-Aware Hierarchical Pointer Networks for Multi-Video Summarization; ACM SIGIR; 2021
+@inproceedings{MessaoudSIGIR2021,
+author = {S. Messaoud and I. Lourentzou and A. Boughoula and M. Zehni and Z. Zhao and C. Zhai and A.~G. Schwing},
+title = {{DeepQAMVS: Query-Aware Hierarchical Pointer Networks for Multi-Video Summarization}},
+booktitle = {Proc. SIGIR},
+year = {2021},
+}
+P. Zhuang, O. Koyejo, A.G. Schwing; Enjoy Your Editing: Controllable GANs for Image Editing via Latent Space Navigation; Int.'l Conf. on Learning Representations (ICLR); 2021
+@inproceedings{ZhuangICLR2021,
+author = {P. Zhuang and O. Koyejo and A.~G. Schwing},
+title = {{Enjoy Your Editing: Controllable GANs for Image Editing via Latent Space Navigation}},
+booktitle = {Proc. ICLR},
+year = {2021},
+}
+R. Sun, T. Fang, A.G. Schwing; Towards a Better Global Loss Landscape of GANs; Neural Information Processing Systems (NeurIPS); 2020
+(oral)
+@inproceedings{SunNEURIPS2020,
+author = {R. Sun and T. Fang and A.~G. Schwing},
+title = {{Towards a Better Global Loss Landscape of GANs}},
+booktitle = {Proc. NeurIPS},
+year = {2020},
+}
+Z. Ren*, R. Yeh*, A.G. Schwing; Not All Unlabeled Data are Equal: Learning to Weight Data in Semi-supervised Learning; Neural Information Processing Systems (NeurIPS); 2020
+(*equal contribution)
+@inproceedings{RenYehNEURIPS2020,
+author = {Z. Ren$^\ast$ and R. Yeh$^\ast$ and A.~G. Schwing},
+title = {{Not All Unlabeled Data are Equal: Learning to Weight Data in Semi-supervised Learning}},
+booktitle = {Proc. NeurIPS},
+year = {2020},
+note = {$^\ast$ equal contribution},
+}
+I.-J. Liu, R. Yeh, A.G. Schwing; High-Throughput Synchronous Deep RL; Neural Information Processing Systems (NeurIPS); 2020
+@inproceedings{LiuNEURIPS2020,
+author = {I.-J. Liu and R. Yeh and A.~G. Schwing},
+title = {{High-Throughput Synchronous Deep RL}},
+booktitle = {Proc. NeurIPS},
+year = {2020},
+}
+I. Gat, I. Schwartz, A.G. Schwing, T. Hazan; Removing Bias in Multi-modal Classifiers: Regularization by Maximizing Functional Entropies; Neural Information Processing Systems (NeurIPS); 2020
+@inproceedings{GatNEURIPS2020,
+author = {I. Gat and I. Schwartz and A.~G. Schwing and T. Hazan},
+title = {{Removing Bias in Multi-modal Classifiers: Regularization by Maximizing Functional Entropies}},
+booktitle = {Proc. NeurIPS},
+year = {2020},
+}
+U. Jain*, L. Weihs*, E. Kolve, A. Farhadi, S. Lazebnik, A. Kembhavi and A.G. Schwing; A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks; European Conference on Computer Vision (ECCV); 2020
+(*equal contribution)(spotlight)
+@inproceedings{JainECCV2020,
+author = {U. Jain$^\ast$ and L. Weihs$^\ast$ and E. Kolve and A. Farhadi and S. Lazebnik and A. Kembhavi and A.~G. Schwing},
+title = {{A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks}},
+booktitle = {Proc. ECCV},
+year = {2020},
+note = {$^\ast$ equal contribution},
+}
+Y.-T. Hu, H. Wang, N. Ballas, K. Grauman and A.G. Schwing; Proposal-based Video Completion; European Conference on Computer Vision (ECCV); 2020
+@inproceedings{HuECCV2020,
+author = {Y.-T. Hu and H. Wang and N. Ballas and K. Grauman and A.~G. Schwing},
+title = {{Proposal-based Video Completion}},
+booktitle = {Proc. ECCV},
+year = {2020},
+}
+Z. Ren, Z. Yu, X. Yang, M.-Y. Liu, A.G. Schwing and J. Kautz; UFO$^2$: A Unified Framework Towards Omni-supervised Object Detection; European Conference on Computer Vision (ECCV); 2020
+@inproceedings{RenECCV2020,
+author = {Z. Ren and Z. Yu and X. Yang and M.-Y. Liu and A.~G. Schwing and J. Kautz},
+title = {{UFO$^2$: A Unified Framework Towards Omni-supervised Object Detection}},
+booktitle = {Proc. ECCV},
+year = {2020},
+}
+Y. Kant, D. Batra, P. Anderson, A.G. Schwing, D. Parikh, J. Lu and H. Agrawal; Spatially Aware Multimodal Transformers for TextVQA; European Conference on Computer Vision (ECCV); 2020
+@inproceedings{KantECCV2020,
+author = {Y. Kant and D. Batra and P. Anderson and A.~G. Schwing and D. Parikh and J. Lu and H. Agrawal},
+title = {{Spatially Aware Multimodal Transformers for TextVQA}},
+booktitle = {Proc. ECCV},
+year = {2020},
+}
+S. Messaoud, M. Kumar and A.G. Schwing; Can We Learn Heuristics for Graphical Model Inference Using Reinforcement Learning?; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2020
+(oral)
+@inproceedings{MessaoudCVPR2020,
+author = {S. Messaoud and M. Kumar and A.~G. Schwing},
+title = {{Can We Learn Heuristics for Graphical Model Inference Using Reinforcement Learning?}},
+booktitle = {Proc. CVPR},
+year = {2020},
+}
+C. Graber and A.G. Schwing; Dynamic Neural Relational Inference; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2020
+@inproceedings{GraberCVPR2020,
+author = {C. Graber and A.~G. Schwing},
+title = {{Dynamic Neural Relational Inference}},
+booktitle = {Proc. CVPR},
+year = {2020},
+}
+Z. Ren, Z. Yu, X. Yang, M.-Y. Liu, Y.J. Lee, A.G. Schwing and J. Kautz; Instance-Aware, Context-Focused, and Memory-Efficient Weakly Supervised Object Detection; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2020
+@inproceedings{RenCVPR2020,
+author = {Z. Ren and Z. Yu and X. Yang and M.-Y. Liu and Y.~J. Lee and A.~G. Schwing and J. Kautz},
+title = {{Instance-Aware, Context-Focused, and Memory-Efficient Weakly Supervised Object Detection}},
+booktitle = {Proc. CVPR},
+year = {2020},
+}
+M.T. Chiu, X. Xu, Y. Wei, Z. Huang, A.G. Schwing, R. Brunner, H. Khachatrian, H. Karapetyan, I. Dozier, G. Rose, D. Wilson, A. Tudor, N. Hovakimyan, T.S. Huang and H. Shi; Agriculture-Vision: A Large Aerial Image Database for Agricultural Pattern Analysis; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2020
+@inproceedings{ChiuCVPR2020,
+author = {M.~T. Chiu and X. Xu and Y. Wei and Z. Huang and A.~G. Schwing and R. Brunner and H. Khachatrian and H. Karapetyan and I. Dozier and G. Rose and D. Wilson and A. Tudor and N. Hovakimyan and T.~S. Huang and H. Shi},
+title = {{Agriculture-Vision: A Large Aerial Image Database for Agricultural Pattern Analysis}},
+booktitle = {Proc. CVPR},
+year = {2020},
+}
+C. Graber and A.G. Schwing; Graph Structured Prediction Energy Networks; Neural Information Processing Systems (NeurIPS); 2019
+@inproceedings{GraberNeurIPS2019,
+author = {C. Graber and A.~G. Schwing},
+title = {{Graph Structured Prediction Energy Networks}},
+booktitle = {Proc. NeurIPS},
+year = {2019},
+}
+T. Fang and A.G. Schwing; Co-Generation with GANs using AIS based HMC; Neural Information Processing Systems (NeurIPS); 2019
+@inproceedings{FangNeurIPS2019,
+author = {T. Fang and A.~G. Schwing},
+title = {{Co-Generation with GANs using AIS based HMC}},
+booktitle = {Proc. NeurIPS},
+year = {2019},
+}
+R.A. Yeh*, Y.-T. Hu* and A.G. Schwing; Chirality Nets for Human Pose Regression; Neural Information Processing Systems (NeurIPS); 2019
+(*equal contribution)
+@inproceedings{YehHuNeurIPS2019,
+author = {R.~A. Yeh$^\ast$ and Y.-T. Hu$^\ast$ and A.~G. Schwing},
+title = {{Chirality Nets for Human Pose Regression}},
+booktitle = {Proc. NeurIPS},
+year = {2019},
+note = {$^\ast$ equal contribution},
+}
+J. Lin, U. Jain and A.G. Schwing; TAB-VCR: Tags and Attributes based VCR Baselines; Neural Information Processing Systems (NeurIPS); 2019
+@inproceedings{LinNeurIPS2019,
+author = {J. Lin and U. Jain and A.~G. Schwing},
+title = {{TAB-VCR: Tags and Attributes based VCR Baselines}},
+booktitle = {Proc. NeurIPS},
+year = {2019},
+}
+J. Aneja*, H. Agrawal*, D. Batra and A.G. Schwing; Sequential Latent Spaces for Modeling the Intention During Diverse Image Captioning; Int.'l Conf. on Computer Vision (ICCV); 2019
+(*equal contribution)
+@inproceedings{AnejaICCV2019,
+author = {J. Aneja$^\ast$ and H. Agrawal$^\ast$ and D. Batra and A.~G. Schwing},
+title = {{Sequential Latent Spaces for Modeling the Intention During Diverse Image Captioning}},
+booktitle = {Proc. ICCV},
+year = {2019},
+note = {$^\ast$ equal contribution},
+}
+T. Gupta, A.G. Schwing and D. Hoiem; ViCo: Word Embeddings from Visual Co-occurrences; Int.'l Conf. on Computer Vision (ICCV); 2019
+@inproceedings{GuptaICCV2019A,
+author = {T. Gupta and A.~G. Schwing and D. Hoiem},
+title = {{ViCo: Word Embeddings from Visual Co-occurrences}},
+booktitle = {Proc. ICCV},
+year = {2019},
+}
+T. Gupta, A.G. Schwing and D. Hoiem; No-Frills Human-Object Interaction Detection: Factorization, Layout Encodings, and Training Techniques; Int.'l Conf. on Computer Vision (ICCV); 2019
+@inproceedings{GuptaICCV2019B,
+author = {T. Gupta and A.~G. Schwing and D. Hoiem},
+title = {{No-Frills Human-Object Interaction Detection: Factorization, Layout Encodings, and Training Techniques}},
+booktitle = {Proc. ICCV},
+year = {2019},
+}
+I.-J. Liu*, R. Yeh* and A.G. Schwing; PIC: Permutation Invariant Critic for Multi-Agent Deep Reinforcement Learning; Conf. on Robot Learning (CORL); 2019
+(*equal contribution)
+@inproceedings{LiuCORL2019,
+author = {I.-J. Liu$^\ast$ and R. Yeh$^\ast$ and A.~G. Schwing},
+title = {{PIC: Permutation Invariant Critic for Multi-Agent Deep Reinforcement Learning}},
+booktitle = {Proc. CORL},
+year = {2019},
+note = {$^\ast$ equal contribution},
+}
+I. Deshpande, Y.-T. Hu, R. Sun, A. Pyrros, N. Siddiqui, S. Koyejo, Z. Zhao, D. Forsyth and A.G. Schwing; Max-Sliced Wasserstein Distance and its use for GANs; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2019
+(oral)
+@inproceedings{IDeshpandeCVPR2019,
+author = {I. Deshpande and Y.-T. Hu and R. Sun and A. Pyrros and N. Siddiqui and S. Koyejo and Z. Zhao and D. Forsyth and A.~G. Schwing},
+title = {{Max-Sliced Wasserstein Distance and its use for GANs}},
+booktitle = {Proc. CVPR},
+year = {2019},
+}
+U. Jain*, L. Weihs*, E. Kolve, M. Rastegrari, S. Lazebnik, A. Farhadi, A.G. Schwing and A. Kembhavi; Two Body Problem: Collaborative Visual Task Completion; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2019
+(*equal contribution)(oral)
+@inproceedings{JainCVPR2019,
+author = {U. Jain$^\ast$ and L. Weihs$^\ast$ and E. Kolve and M. Rastegrari and S. Lazebnik and A. Farhadi and A.~G. Schwing and A. Kembhavi},
+title = {{Two Body Problem: Collaborative Visual Task Completion}},
+booktitle = {Proc. CVPR},
+year = {2019},
+note = {$^\ast$ equal contribution},
+}
+R. Yeh, A.G. Schwing, J. Huang and K. Murphy; Diverse Generation for Multi-agent Sports Games; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2019
+@inproceedings{YehCVPR2019,
+author = {R. Yeh and A.~G. Schwing and J. Huang and K. Murphy},
+title = {{Diverse Generation for Multi-agent Sports Games}},
+booktitle = {Proc. CVPR},
+year = {2019},
+}
+A. Deshpande*, J. Aneja*, L. Wang, A.G. Schwing and D. Forsyth; Fast, Diverse and Accurate Image Captioning Guided By Part-of-Speech; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2019
+(*equal contribution)(oral)
+@inproceedings{ADeshpandeCVPR2019,
+author = {A. Deshpande$^\ast$ and J. Aneja$^\ast$ and L. Wang and A.~G. Schwing and D. Forsyth},
+title = {{Fast, Diverse and Accurate Image Captioning Guided By Part-of-Speech}},
+booktitle = {Proc. CVPR},
+year = {2019},
+note = {$^\ast$ equal contribution},
+}
+Y.-T. Hu, H.-S. Chen, K. Hui, J.-B. Huang and A.G. Schwing; SAIL-VOS: Semantic Amodal Instance Level Video Object Segmentation - A Synthetic Dataset and Baselines; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2019
+@inproceedings{HuCVPR2019,
+author = {Y.-T. Hu and H.-S. Chen and K. Hui and J.-B. Huang and A.~G. Schwing},
+title = {{SAIL-VOS: Semantic Amodal Instance Level Video Object Segmentation - A Synthetic Dataset and Baselines}},
+booktitle = {Proc. CVPR},
+year = {2019},
+}
+I. Schwartz, S. Yu, T. Hazan and A.G. Schwing; Factor Graph Attention; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2019
+@inproceedings{SchwartzCVPR2019a,
+author = {I. Schwartz and S. Yu and T. Hazan and A.~G. Schwing},
+title = {{Factor Graph Attention}},
+booktitle = {Proc. CVPR},
+year = {2019},
+}
+I. Schwartz, A.G. Schwing and T. Hazan; A Simple Baseline for Audio-Visual Scene-Aware Dialog; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2019
+@inproceedings{SchwartzCVPR2019b,
+author = {I. Schwartz and A.~G. Schwing and T. Hazan},
+title = {{A Simple Baseline for Audio-Visual Scene-Aware Dialog}},
+booktitle = {Proc. CVPR},
+year = {2019},
+}
+I.-J. Liu, J. Peng and A.G. Schwing; Knowledge Flow: Improve Upon your Teachers; Int.'l Conf. on Learning Representations (ICLR); 2019
+@inproceedings{LiuICLR2019,
+author = {I.-J. Liu and J. Peng and A.~G. Schwing},
+title = {{Knowledge Flow: Improve Upon your Teachers}},
+booktitle = {Proc. ICLR},
+year = {2019},
+}
+Y. Li, I.-J. Liu, D. Chen, A.G. Schwing and J. Huang; Accelerating Distributed Reinforcement Learning with In-Switch Computing; Int.'l Symposium on Computer Architecture (ISCA); 2019
+@inproceedings{LiISCA2019,
+author = {Y. Li and I.-J. Liu and D. Chen and A.~G. Schwing and J. Huang},
+title = {{Accelerating Distributed Reinforcement Learning with In-Switch Computing}},
+booktitle = {Proc. ISCA},
+year = {2019},
+}
+P. Zhuang, A.G. Schwing and S. Kojeyo; fMRI Data Augmentation via Synthesis; IEEE Int.'l Symposium on Biomedical Imaging (ISBI); 2019
+@inproceedings{ZhuangISBI2019,
+author = {P. Zhuang and A.~G. Schwing and S. Kojeyo},
+title = {{fMRI Data Augmentation via Synthesis}},
+booktitle = {Proc. ISBI},
+year = {2019},
+}
+C. Graber, O. Meshi and A.G. Schwing; Deep Structured Prediction with Nonlinear Output Transformations; Neural Information Processing Systems (NeurIPS); 2018
+@inproceedings{GraberNIPS2018,
+author = {C. Graber and O. Meshi and A.~G. Schwing},
+title = {{Deep Structured Prediction with Nonlinear Output Transformations}},
+booktitle = {Proc. NeurIPS},
+year = {2018},
+}
+M. Narasimhan, S. Lazebnik and A.G. Schwing; Out of the Box: Reasoning with Graph Convolution Nets for Factual Visual Question Answering; Neural Information Processing Systems (NeurIPS); 2018
+@inproceedings{NarasimhanNeurIPS2018,
+author = {M. Narasimhan and S. Lazebnik and A.~G. Schwing},
+title = {{Out of the Box: Reasoning with Graph Convolution Nets for Factual Visual Question Answering}},
+booktitle = {Proc. NeurIPS},
+year = {2018},
+}
+Y. Li, M. Yu, S. Li, S. Avestimehr, N.S. Kim and A.G. Schwing; Pipe-SGD: A Decentralized Pipelined SGD Framework for Distributed Deep Net Training; Neural Information Processing Systems (NeurIPS); 2018
+@inproceedings{LiNIPS2018,
+author = {Y. Li and M. Yu and S. Li and S. Avestimehr and N.~S. Kim and A.~G. Schwing},
+title = {{Pipe-SGD: A Decentralized Pipelined SGD Framework for Distributed Deep Net Training}},
+booktitle = {Proc. NeurIPS},
+year = {2018},
+}
+M. Yu, Z. Lin, K. Narra, S. Li, Y. Li, N.S. Kim, A.G. Schwing, M. Annavaram and S. Avestimehr; GradiVeQ: Vector Quantization for Bandwidth-Efficient Gradient Aggregation in Distributed CNN Training; Neural Information Processing Systems (NeurIPS); 2018
+@inproceedings{YuNIPS2018,
+author = {M. Yu and Z. Lin and K. Narra and S. Li and Y. Li and N.~S. Kim and A.~G. Schwing and M. Annavaram and S. Avestimehr},
+title = {{GradiVeQ: Vector Quantization for Bandwidth-Efficient Gradient Aggregation in Distributed CNN Training}},
+booktitle = {Proc. NeurIPS},
+year = {2018},
+}
+Y. Li, J. Park, M. Alian, Y. Yuan, Q. Zheng, P. Pan, R. Wang, A.G. Schwing, H. Esmaeilzadeh and N.S. Kim; A network-centric hardware/algorithm co-design to accelerate distributed training of deep neural networks; IEEE/ACM Int.'l Symposium on Microarchitecture (MICRO); 2018
+@inproceedings{LiMICRO2018,
+author = {Y. Li and J. Park and M. Alian and Y. Yuan and Q. Zheng and P. Pan and R. Wang and A.G. Schwing and H. Esmaeilzadeh and N.S. Kim},
+title = {{A network-centric hardware/algorithm co-design to accelerate distributed training of deep neural networks}},
+booktitle = {Proc. MICRO},
+year = {2018},
+}
+M. Narasimhan and A.G. Schwing; Straight to the Facts: Learning Knowledge Base Retrieval for Factual Visual Question Answering; European Conference on Computer Vision (ECCV); 2018
+@inproceedings{NarasimhanECCV2018,
+author = {M. Narasimhan and A.~G. Schwing},
+title = {{Straight to the Facts: Learning Knowledge Base Retrieval for Factual Visual Question Answering}},
+booktitle = {Proc. ECCV},
+year = {2018},
+}
+M. Chatterjee and A.G. Schwing; Diverse and Coherent Paragraph Generation from Images; European Conference on Computer Vision (ECCV); 2018
+@inproceedings{ChatterjeeECCV2018,
+author = {M. Chatterjee and A.~G. Schwing},
+title = {{Diverse and Coherent Paragraph Generation from Images}},
+booktitle = {Proc. ECCV},
+year = {2018},
+}
+Y.-T. Hu, J.-B. Huang and A.G. Schwing; VideoMatch: Matching based Video Object Segmentation; European Conference on Computer Vision (ECCV); 2018
+@inproceedings{HuECCV2018a,
+author = {Y.-T. Hu and J.-B. Huang and A.~G. Schwing},
+title = {{VideoMatch: Matching based Video Object Segmentation}},
+booktitle = {Proc. ECCV},
+year = {2018},
+}
+Y.-T. Hu, J.-B. Huang and A.G. Schwing; Unsupervised Video Object Segmentation using Motion Saliency-Guided Spatio-Temporal Propagation; European Conference on Computer Vision (ECCV); 2018
+@inproceedings{HuECCV2018b,
+author = {Y.-T. Hu and J.-B. Huang and A.~G. Schwing},
+title = {{Unsupervised Video Object Segmentation using Motion Saliency-Guided Spatio-Temporal Propagation}},
+booktitle = {Proc. ECCV},
+year = {2018},
+}
+S. Messaoud, D. Forsyth and A.G. Schwing; Structural Consistency and Controllability for Diverse Colorization; European Conference on Computer Vision (ECCV); 2018
+@inproceedings{MessaoudECCV2018,
+author = {S. Messaoud and D. Forsyth and A.~G. Schwing},
+title = {{Structural Consistency and Controllability for Diverse Colorization}},
+booktitle = {Proc. ECCV},
+year = {2018},
+}
+I. Deshpande, Z. Zhang and A.G. Schwing; Generative Modeling using the Sliced Wasserstein Distance; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2018
+@inproceedings{DeshpandeCVPR2018,
+author = {I. Deshpande and Z. Zhang and A.~G. Schwing},
+title = {{Generative Modeling using the Sliced Wasserstein Distance}},
+booktitle = {Proc. CVPR},
+year = {2018},
+}
+J. Aneja, A. Deshpande and A.G. Schwing; Convolutional Image Captioning; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2018
+@inproceedings{AnejaCVPR2018,
+author = {J. Aneja and A. Deshpande and A.~G. Schwing},
+title = {{Convolutional Image Captioning}},
+booktitle = {Proc. CVPR},
+year = {2018},
+}
+U. Jain, S. Lazebnik and A.G. Schwing; Two can play this Game: Visual Dialog with Discriminative Question Generation and Answering; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2018
+@inproceedings{JainCVPR2018,
+author = {U. Jain and S. Lazebnik and A.~G. Schwing},
+title = {{Two can play this Game: Visual Dialog with Discriminative Question Generation and Answering}},
+booktitle = {Proc. CVPR},
+year = {2018},
+}
+R.A. Yeh, M. Do and A.G. Schwing; Unsupervised Textual Grounding: Linking Words to Image Concepts; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2018
+(spotlight)
+@inproceedings{YehCVPR2018,
+author = {R.~A. Yeh and M. Do and A.~G. Schwing},
+title = {{Unsupervised Textual Grounding: Linking Words to Image Concepts}},
+booktitle = {Proc. CVPR},
+year = {2018},
+}
+R.A. Yeh, J. Xiong, W.-M. Hwu, M. Do and A.G. Schwing; Interpretable and Globally Optimal Prediction for Textual Grounding using Image Concepts; Neural Information Processing Systems (NIPS); 2017
+(oral)
+@inproceedings{YehNIPS2017,
+author = {R.~A. Yeh and J. Xiong and W.-M. Hwu and M. Do and A.~G. Schwing},
+title = {{Interpretable and Globally Optimal Prediction for Textual Grounding using Image Concepts}},
+booktitle = {Proc. NIPS},
+year = {2017},
+}
+Y.-T. Hu, J.-B. Huang and A.G. Schwing; MaskRNN: Instance Level Video Object Segmentation; Neural Information Processing Systems (NIPS); 2017
+@inproceedings{HuNIPS2017,
+author = {Y.-T. Hu and J.-B. Huang and A.~G. Schwing},
+title = {{MaskRNN: Instance Level Video Object Segmentation}},
+booktitle = {Proc. NIPS},
+year = {2017},
+}
+Y. Li, A.G. Schwing, K.-C. Wang and R. Zemel; Dualing GANs; Neural Information Processing Systems (NIPS); 2017
+@inproceedings{LiNIPS2017,
+author = {Y. Li and A.~G. Schwing and K.-C. Wang and R. Zemel},
+title = {{Dualing GANs}},
+booktitle = {Proc. NIPS},
+year = {2017},
+}
+O. Meshi and A.G. Schwing; Asynchronous Parallel Coordinate Minimization for MAP Inference; Neural Information Processing Systems (NIPS); 2017
+@inproceedings{MeshiNIPS2017,
+author = {O. Meshi and A.~G. Schwing},
+title = {{Asynchronous Parallel Coordinate Minimization for MAP Inference}},
+booktitle = {Proc. NIPS},
+year = {2017},
+}
+L. Wang, A.G. Schwing, and S. Lazebnik; Diverse and Accurate Image Description Using a Variational Auto-Encoder with an Additive Gaussian Encoding Space; Neural Information Processing Systems (NIPS); 2017
+@inproceedings{WangNIPS2017,
+author = {L. Wang and A.~G. Schwing and S. Lazebnik},
+title = {{Diverse and Accurate Image Description Using a Variational Auto-Encoder with an Additive Gaussian Encoding Space}},
+booktitle = {Proc. NIPS},
+year = {2017},
+}
+I. Schwartz, A.G. Schwing and T. Hazan; High-Order Attention Models for Visual Question Answering; Neural Information Processing Systems (NIPS); 2017
+@inproceedings{SchwartzNIPS2017,
+author = {I. Schwartz and A.~G. Schwing and T. Hazan},
+title = {{High-Order Attention Models for Visual Question Answering}},
+booktitle = {Proc. NIPS},
+year = {2017},
+}
+Y.-T. Hu and A.G. Schwing; An Elevator Pitch on Deep Learning; ACM GetMobile; 2017
+@inproceedings{HuGetMobile2017,
+author = {Y.-T. Hu and A.~G. Schwing},
+title = {{An Elevator Pitch on Deep Learning}},
+booktitle = {ACM GetMobile},
+year = {2017},
+}
+U. Jain*, Z. Zhang* and A.G. Schwing; Creativity: Generating Diverse Questions using Variational Autoencoders; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2017
+(*equal contribution)(spotlight)
+@inproceedings{JainZhangCVPR2017,
+author = {U. Jain$^\ast$ and Z. Zhang$^\ast$ and A.~G. Schwing},
+title = {{Creativity: Generating Diverse Questions using Variational Autoencoders}},
+booktitle = {Proc. CVPR},
+year = {2017},
+note = {$^\ast$ equal contribution},
+}
+R.A. Yeh*, C. Chen*, T.Y. Lim, A.G. Schwing, M. Hasegawa-Johnson, M.N. Do; Semantic Image Inpainting with Deep Generative Models; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2017
+(*equal contribution)
+@inproceedings{YehChenCVPR2017,
+author = {R.~A. Yeh$^\ast$ and C. Chen$^\ast$ and T.~Y. Lim and A.~G. Schwing and M. Hasegawa-Johnson and M.~N. Do},
+title = {{Semantic Image Inpainting with Deep Generative Models}},
+booktitle = {Proc. CVPR},
+year = {2017},
+note = {$^\ast$ equal contribution},
+}
+T. Käser, S. Klingler, A.G. Schwing and M. Gross; Dynamic Bayesian Networks for Student Modeling; Trans. on Learning Technologies; 2017
+@article{KaeserTLT2017,
+author = {T. K\"{a}ser and S. Klingler and A.~G. Schwing and M. Gross},
+title = {{Dynamic Bayesian Networks for Student Modeling}},
+journal = {Trans. Learning Technologies},
+year = {2017},
+}
+F.S. He, Y. Liu, A.G. Schwing and J. Peng; Learning to Play in a Day: Faster Deep Reinforcement Learning by Optimality Tightening; Int.'l Conf. on Learning Representations (ICLR); 2017
+@inproceedings{HeICLR2017,
+author = {F.~S. He, Y. Liu, A.~G. Schwing and J. Peng},
+title = {{Learning to Play in a Day: Faster Deep Reinforcement Learning by Optimality Tightening}},
+booktitle = {Proc. ICLR},
+year = {2017},
+}
+B. London* and A.G. Schwing*; Generative Adversarial Structured Networks; Neural Information Processing Systems (NIPS) Workshop on nAdversarial Training; 2016
+(*equal contribution)
+@inproceedings{LondonNIPS2016,
+author = {B. London$^\ast$ and A.~G. Schwing$^\ast$},
+title = {{Generative Adversarial Structured Networks}},
+booktitle = {Proc. NIPS Workshop on Adversarial Training},
+year = {2016},
+note = {$^\ast$ equal contribution},
+}
+Y. Tenzer, A.G. Schwing, K. Gimpel and T. Hazan; Constraints Based Convex Belief Propagation; Neural Information Processing Systems (NIPS); 2016
+@inproceedings{TenzerNIPS2016,
+author = {Y. Tenzer and A.~G. Schwing and K. Gimpel and T. Hazan},
+title = {{Constraints Based Convex Belief Propagation}},
+booktitle = {Proc. NIPS},
+year = {2016},
+}
+R. Liao, A.G. Schwing, R. Zemel and R. Urtasun; Learning Deep Parsimonious Representations; Neural Information Processing Systems (NIPS); 2016
+@inproceedings{LiaoNIPS2016,
+author = {R. Liao and A.~G. Schwing and R. Zemel and R. Urtasun},
+title = {{Learning Deep Parsimonious Representations}},
+booktitle = {Proc. NIPS},
+year = {2016},
+}
+B. Franke, J.-F. Plante, R. Roscher, E.A. Lee, C. Smyth, A. Hatefi, F. Chen, E. Gil, A.G. Schwing, A. Selvitella, M.M. Hoffman, R. Grosse, D. Hendricks and N. Reid; Statistical Inference, Learning and Models in Big Data; Int.'l Statistical Review; 2016
+@article{FrankeStatRev2016,
+author = {B. Franke and J.-F. Plante and R. Roscher and E.A. Lee and C. Smyth and A. Hatefi and F. Chen and E. Gil and A.G. Schwing and A. Selvitella and M.M. Hoffman and R. Grosse and D. Hendricks and N. Reid},
+title = {{Statistical Inference, Learning and Models in Big Data}},
+journal = {International Statistical Review},
+year = {2016},
+}
+Y. Song, A.G. Schwing, R. Zemel and R. Urtasun; Training Deep Neural Networks via Direct Loss Minimization; Int.'l Conf. on Machine Learning (ICML); 2016
+@inproceedings{SongICML2016,
+author = {Y. Song and A.~G. Schwing and R. Zemel and R. Urtasun},
+title = {{Training Deep Neural Networks via Direct Loss Minimization}},
+booktitle = {Proc. ICML},
+year = {2016},
+}
+W. Luo, A.G. Schwing and R. Urtasun; Efficient Deep Learning for Stereo Matching; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2016
+@inproceedings{LuoCVPR2016,
+author = {W. Luo and A.~G. Schwing and R. Urtasun},
+title = {{Efficient Deep Learning for Stereo Matching}},
+booktitle = {Proc. CVPR},
+year = {2016},
+}
+A.G. Schwing, T. Hazan, M. Pollefeys and R. Urtasun; Distributed Algorithms for Large Scale Learning and Inference in Graphical Models; Trans. on Pattern Analysis and Machine Intelligence (PAMI); accepted for publication;
+@inproceedings{SchwingPAMI,
+author = {A.~G. Schwing and T. Hazan and M. Pollefeys and R. Urtasun},
+title = {{Distributed Algorithms for Large Scale Learning and Inference in Graphical Models}},
+booktitle = {PAMI},
+year = {},
+}
+O. Meshi, M. Mahdavi and A.G. Schwing; Smooth and Strong: MAP Inference with Linear Convergence; Neural Information Processing Systems (NIPS); 2015
+@inproceedings{MeshiNIPS2015,
+author = {O. Meshi and M. Mahdavi and A.~G. Schwing},
+title = {{Smooth and Strong: MAP Inference with Linear Convergence}},
+booktitle = {Proc. NIPS},
+year = {2015},
+}
+Z. Zhang*, A.G. Schwing*, S. Fidler and R. Urtasun; Monocular Object Instance Segmentation and Depth Ordering with CNNs; Int.'l Conf. on Computer Vision (ICCV); 2015
+(*equal contribution)
+@inproceedings{ZhangSchwingICCV2015,
+author = {Z. Zhang$^\ast$ and A.~G. Schwing$^\ast$ and S. Fidler and R. Urtasun},
+title = {{Monocular Object Instance Segmentation and Depth Ordering with CNNs}},
+booktitle = {Proc. ICCV},
+year = {2015},
+note = {$^\ast$ equal contribution},
+}
+L.-C. Chen*, A.G. Schwing*, A.L. Yuille and R. Urtasun; Learning Deep Structured Models; Int.'l Conf. on Machine Learning (ICML); 2015
+(*equal contribution)
+@inproceedings{ChenSchwingICML2015,
+author = {L.-C. Chen$^\ast$ and A.~G. Schwing$^\ast$ and A.~L. Yuille and R. Urtasun},
+title = {{Learning Deep Structured Models}},
+booktitle = {Proc. ICML},
+year = {2015},
+note = {$^\ast$ equal contribution},
+}
+C. Liu*, A.G. Schwing*, K. Kundu, R. Urtasun and S. Fidler; Rent3D: Floor-Plan Priors for Monocular Layout Estimation; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2015
+(*equal contribution)
+@inproceedings{LiuSchwingCVPR2015,
+author = {C. Liu$^\ast$ and A.~G. Schwing$^\ast$ and K. Kundu and R. Urtasun and S. Fidler},
+title = {{Rent3D: Floor-Plan Priors for Monocular Layout Estimation}},
+booktitle = {Proc. CVPR},
+year = {2015},
+note = {$^\ast$ equal contribution},
+}
+J. Xu, A.G. Schwing and R. Urtasun; Learning to Segment under Various Forms of Weak Supervision; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2015
+@inproceedings{XuCVPR2015,
+author = {J. Xu and A.~G. Schwing and R. Urtasun},
+title = {{Learning to Segment under Various Forms of Weak Supervision}},
+booktitle = {Proc. CVPR},
+year = {2015},
+}
+S. Wang, A.G. Schwing and R. Urtasun; Efficient Inference of Continuous Markov Random Fields with Polynomial Potentials; Neural Information Processing Systems (NIPS); 2014
+@inproceedings{WangNIPS2014,
+author = {S. Wang and A.~G. Schwing and R. Urtasun},
+title = {{Efficient Inference of Continuous Markov Random Fields with Polynomial Potentials}},
+booktitle = {Proc. NIPS},
+year = {2014},
+}
+J. Zhang, A.G. Schwing and R. Urtasun; Message Passing Inference for Large Scale Graphical Models with High Order Potentials; Neural Information Processing Systems (NIPS); 2014
+@inproceedings{ZhangNIPS2014,
+author = {J. Zhang and A.~G. Schwing and R. Urtasun},
+title = {{Message Passing Inference for Large Scale Graphical Models with High Order Potentials}},
+booktitle = {Proc. NIPS},
+year = {2014},
+}
+F. Srajer, A.G. Schwing, M. Pollefeys and T. Pajdla; MatchBox: Indoor Image Matching via Box-like Scene Estimation; Int.'l Conf. on 3D Vision (3DV); 2014
+@inproceedings{Srajer3DV2014,
+author = {F. Srajer and A.~G. Schwing and M. Pollefeys and T. Pajdla},
+title = {{MatchBox: Indoor Image Matching via Box-like Scene Estimation}},
+booktitle = {Proc. 3DV},
+year = {2014},
+}
+A.G. Schwing, T. Hazan, M. Pollefeys and R. Urtasun; Globally Convergent Parallel MAP LP Relaxation Solver using the Frank-Wolfe Algorithm; Int.'l Conf. on Machine Learning (ICML); 2014
+@inproceedings{SchwingICML2014,
+author = {A.~G. Schwing and T. Hazan and M. Pollefeys and R. Urtasun},
+title = {{Globally Convergent Parallel MAP LP Relaxation Solver using the Frank-Wolfe Algorithm}},
+booktitle = {Proc. ICML},
+year = {2014},
+}
+A. Cohen, A.G. Schwing and M. Pollefeys; Efficient Structured Parsing of Facades Using Dynamic Programming; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2014
+@inproceedings{CohenCVPR2014,
+author = {A. Cohen and A.~G. Schwing and M. Pollefeys},
+title = {{Efficient Structured Parsing of Facades Using Dynamic Programming}},
+booktitle = {Proc. CVPR},
+year = {2014},
+}
+J. Xu, A.G. Schwing and R. Urtasun; Tell Me What You See and I will Show You Where It Is; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2014
+@inproceedings{XuCVPR2014,
+author = {J. Xu and A.~G. Schwing and R. Urtasun},
+title = {{Tell Me What You See and I will Show You Where It Is}},
+booktitle = {Proc. CVPR},
+year = {2014},
+}
+T. Käser, S. Klingler, A.G. Schwing and M. Gross; Beyond Knowledge Tracing: Modeling Skill Topologies with Bayesian Networks; Int.'l Conf. on Intelligent Tutoring Systems (ITS); 2014
+(Best paper award)
+@inproceedings{KaeserITS2014,
+author = {T. K\"{a}ser and S. Klingler and A.~G. Schwing and M. Gross},
+title = {{Beyond Knowledge Tracing: Modeling Skill Topologies with Bayesian Networks}},
+booktitle = {Proc. ITS},
+year = {2014},
+}
+T. Käser, A.G. Schwing, T. Hazan and M. Gross; Computational Education using Latent Structured Prediction; Int.'l Conf. on Artificial Intelligence and Statistics (AISTATS); 2014
+@inproceedings{KaeserAISTATS2014,
+author = {T. K\"{a}ser and A.~G. Schwing and T. Hazan and M. Gross},
+title = {{Computational Education using Latent Structured Prediction}},
+booktitle = {Proc. AISTATS},
+year = {2014},
+}
+A.G. Schwing and Y. Zheng; Reliable Extraction of the Mid-Sagittal Plane in 3D Brain MRI via Hierarchical Landmark Detection; IEEE Int.'l Symposium on Biomedical Imaging (ISBI); 2014
+@inproceedings{SchwingZhengISBI2014,
+author = {A.~G. Schwing and Y. Zheng},
+title = {{Reliable Extraction of the Mid-Sagittal Plane in 3D Brain MRI via Hierarchical Landmark Detection}},
+booktitle = {Proc. ISBI},
+year = {2014},
+}
+W. Luo, A.G. Schwing and R. Urtasun; Latent Structured Active Learning; Neural Information Processing Systems (NIPS); 2013
+@inproceedings{LuoNIPS2013,
+author = {W. Luo and A.~G. Schwing and R. Urtasun},
+title = {{Latent Structured Active Learning}},
+booktitle = {Proc. NIPS},
+year = {2013},
+}
+J. Zhang, C. Kan, A.G. Schwing and R. Urtasun; Estimating the 3D Layout of Indoor Scenes and its Clutter from Depth Sensors; Int.'l Conf. on Computer Vision (ICCV); 2013
+@inproceedings{ZhangICCV2013,
+author = {J. Zhang and K. Chen and A.~G. Schwing and R. Urtasun},
+title = {{Estimating the 3D Layout of Indoor Scenes and its Clutter from Depth Sensors}},
+booktitle = {Proc. ICCV},
+year = {2013},
+}
+A.G. Schwing, S. Fidler, M. Pollefeys and R. Urtasun; Box In the Box: Joint 3D Layout and Object Reasoning from Single Images; Int.'l Conf. on Computer Vision (ICCV); 2013
+@inproceedings{SchwingICCV2013,
+author = {A.~G. Schwing and S. Fidler and M. Pollefeys and R. Urtasun},
+title = {{Box In the Box: Joint 3D Layout and Object Reasoning from Single Images}},
+booktitle = {Proc. ICCV},
+year = {2013},
+}
+A.G. Schwing, T. Hazan, M. Pollefeys and R. Urtasun; Globally Convergent Dual MAP LP Relaxation Solvers using Fenchel-Young Margins; Neural Information Processing Systems (NIPS); 2012
+@inproceedings{SchwingNIPS2012,
+author = {A.~G. Schwing and T. Hazan and M. Pollefeys and R. Urtasun},
+title = {{Globally Convergent Dual MAP LP Relaxation Solvers using Fenchel-Young Margins}},
+booktitle = {Proc. NIPS},
+year = {2012},
+}
+A.G. Schwing and R. Urtasun; Efficient Exact Inference for 3D Indoor Scene Understanding; European Conference on Computer Vision (ECCV); 2012
+@inproceedings{SchwingECCV2012,
+author = {A.~G. Schwing and R. Urtasun},
+title = {{Efficient Exact Inference for 3D Indoor Scene Understanding}},
+booktitle = {Proc. ECCV},
+year = {2012},
+}
+A.G. Schwing, T. Hazan, M. Pollefeys and R. Urtasun; Distributed Structured Prediction for Big Data; Neural Information Processing Systems (NIPS) Workshop on Big Learning; 2012
+@inproceedings{SchwingNIPSBigLearnWS2012,
+author = {A.~G. Schwing and T. Hazan and M. Pollefeys and R. Urtasun},
+title = {{Distributed Structured Prediction for Big Data}},
+booktitle = {Proc. NIPS Workshop on Big Learning},
+year = {2012},
+}
+A.G. Schwing, T. Hazan, M. Pollefeys and R. Urtasun; Efficient Structured Prediction with Latent Variables for General Graphical Models; Int.'l Conf. on Machine Learning (ICML); 2012
+@inproceedings{SchwingICML2012,
+author = {A.~G. Schwing and T. Hazan and M. Pollefeys and R. Urtasun},
+title = {{Efficient Structured Prediction with Latent Variables for General Graphical Models}},
+booktitle = {Proc. ICML},
+year = {2012},
+}
+A.G. Schwing, T. Hazan, M. Pollefeys and R. Urtasun; Large Scale Structured Prediction with Hidden Variables; Snowbird Workshop; 2011
+@inproceedings{SchwingSnowbird2011,
+author = {A.~G. Schwing and T. Hazan and M. Pollefeys and R. Urtasun},
+title = {{Large Scale Structured Prediction with Hidden Variables}},
+booktitle = {Snowbird Workshop},
+year = {2011},
+}
+A.G. Schwing, T. Hazan, M. Pollefeys and R. Urtasun; Efficient Structured Prediction for 3D Indoor Scene Understanding; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2012
+@inproceedings{SchwingCVPR2012,
+author = {A.~G. Schwing and T. Hazan and M. Pollefeys and R. Urtasun},
+title = {{Efficient Structured Prediction for 3D Indoor Scene Understanding}},
+booktitle = {Proc. CVPR},
+year = {2012},
+}
+A.G. Schwing, T. Hazan, M. Pollefeys and R. Urtasun; Distributed Message Passing for Large Scale Graphical Models; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2011
+@inproceedings{SchwingCVPR2011a,
+author = {A.~G. Schwing and T. Hazan and M. Pollefeys and R. Urtasun},
+title = {{Distributed Message Passing for Large Scale Graphical Models}},
+booktitle = {Proc. CVPR},
+year = {2011},
+}
+A.G. Schwing, C. Zach, Y. Zheng and M. Pollefeys; Adaptive Random Forest - How many ``experts'' to ask before making a decision?; IEEE Conf. on Computer Vision and Pattern Recognition (CVPR); 2011
+@inproceedings{SchwingCVPR2011b,
+author = {A.~G. Schwing and C. Zach and Y. Zheng and M. Pollefeys},
+title = {{Adaptive Random Forest - How many ``experts'' to ask before making a decision?}},
+booktitle = {Proc. CVPR},
+year = {2011},
+}
+M. Koch, A.G. Schwing, D. Comaniciu and M. Pollefeys; Fully Automatic Segmentation of Wrist Bones for Arthritis Patients; IEEE Int.'l Symposium on Biomedical Imaging (ISBI); 2011
+@inproceedings{SchwingISBI2011,
+author = {M. Koch and A.~G. Schwing and D. Comaniciu and M. Pollefeys},
+title = {{Fully Automatic Segmentation of Wrist Bones for Arthritis Patients}},
+booktitle = {Proc. ISBI},
+year = {2011},
+}
+M. Sarkis, K. Diepold and A.G. Schwing; Enhancing the Motion Estimate in Bundle Adjustment Using Projective Newton-type Optimization on the Manifold; IS&T/SPIE Electronic Imaging - Image Processing: Machine Vision Applications II; 2009
+@inproceedings{SarkisSPIE2009,
+author = {M. Sarkis and K. Diepold and A.~G. Schwing},
+title = {{Enhancing the Motion Estimate in Bundle Adjustment Using Projective Newton-type Optimization on the Manifold}},
+booktitle = {Proc. SPIE},
+year = {2009},
+}
+R. Hunger, D. Schmidt, M. Joham, A.G. Schwing, and W. Utschick; Design of Single-Group Multicasting-Beamformers; IEEE Int.'l Conf. on Communications (ICC); 2007
+@inproceedings{HungerICC2007,
+author = {R. Hunger and D. Schmidt and M. Joham and A.~G. Schwing and W. Utschick},
+title = {{Design of Single-Group Multicasting-Beamformers}},
+booktitle = {Proc. ICC},
+year = {2007},
+}
+Patent Applications
+A. Tsymbal, M. Kelm, M.J. Costa, S.K. Zhou, D. Comaniciu, Y. Zheng and A.G. Schwing; Image Processing Using Random Forest Classifiers; USPA 20120321174; Assignee: Siemens Corp.
+A.G. Schwing, Y. Zheng, M. Harder, and D. Comaniciu; Method and System for Anatomic Landmark Detection Using Constrained Marginal Space Learning and Geometric Inference; USPA 20100119137; Assignee: Siemens Corp.

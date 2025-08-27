@@ -1,0 +1,20 @@
+| Robust physical-world attacks on deep learning visual classification K Eykholt, I Evtimov, E Fernandes, B Li, A Rahmati, C Xiao, A Prakash, ... Proceedings of the IEEE Conference on Computer Vision and Pattern …, 2018 | 3601* | 2018 |
+| Robust physical-world attacks on deep learning visual classification K Eykholt, I Evtimov, E Fernandes, B Li, A Rahmati, C Xiao, A Prakash, ... Proceedings of the IEEE conference on computer vision and pattern …, 2018 | 3036 | 2018 |
+| Targeted backdoor attacks on deep learning systems using data poisoning X Chen, C Liu, B Li, K Lu, D Song arXiv preprint arXiv:1712.05526, 2017 | 2437 | 2017 |
+| Generating adversarial examples with adversarial networks C Xiao, B Li, JY Zhu, W He, M Liu, D Song arXiv preprint arXiv:1801.02610, 2018 | 1204 | 2018 |
+| Manipulating machine learning: Poisoning attacks and countermeasures for regression learning M Jagielski, A Oprea, B Biggio, C Liu, C Nita-Rotaru, B Li 2018 IEEE Symposium on Security and Privacy (SP), 19-35, 2018 | 1171 | 2018 |
+| DBA: Distributed Backdoor Attacks against Federated Learning C Xie, K Huang, PY Chen, B Li International Conference on Learning Representations, 2019 | 986 | 2019 |
+| Characterizing adversarial subspaces using local intrinsic dimensionality X Ma, B Li, Y Wang, SM Erfani, S Wijewickrema, G Schoenebeck, D Song, ... arXiv preprint arXiv:1801.02613, 2018 | 938 | 2018 |
+| Textbugger: Generating adversarial text against real-world applications J Li, S Ji, T Du, B Li, T Wang arXiv preprint arXiv:1812.05271, 2018 | 934 | 2018 |
+| Deepgauge: Multi-granularity testing criteria for deep learning systems L Ma, F Juefei-Xu, F Zhang, J Sun, M Xue, B Li, C Chen, T Su, L Li, Y Liu, ... Proceedings of the 33rd ACM/IEEE International Conference on Automated …, 2018 | 849 | 2018 |
+| Spatially transformed adversarial examples C Xiao, JY Zhu, B Li, W He, M Liu, D Song arXiv preprint arXiv:1801.02612, 2018 | 675 | 2018 |
+| The secret revealer: generative model-inversion attacks against deep neural networks Y Zhang, R Jia, H Pei, W Wang, B Li, D Song Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2020 | 657 | 2020 |
+| Physical adversarial examples for object detectors D Song, K Eykholt, I Evtimov, E Fernandes, B Li, A Rahmati, F Tramer, ... 12th {USENIX} Workshop on Offensive Technologies ({WOOT} 18), 2018 | 636 | 2018 |
+| Towards efficient data valuation based on the shapley value R Jia, D Dao, B Wang, FA Hubis, N Hynes, NM Gürel, B Li, C Zhang, ... The 22nd International Conference on Artificial Intelligence and Statistics …, 2019 | 615 | 2019 |
+| Neural Attention Distillation: Erasing Backdoor Triggers from Deep Neural Networks Y Li, X Lyu, N Koren, L Lyu, B Li, X Ma arXiv preprint arXiv:2101.05930, 2021 | 598 | 2021 |
+| DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models. B Wang, W Chen, H Pei, C Xie, M Kang, C Zhang, C Xu, Z Xiong, R Dutta, ... NeurIPS, 2023 | 570 | 2023 |
+| Deephunter: A coverage-guided fuzz testing framework for deep neural networks X Xie, L Ma, F Juefei-Xu, M Xue, H Chen, Y Liu, J Zhao, B Li, J Yin, S See Proceedings of the 28th ACM SIGSOFT International Symposium on Software …, 2019 | 521 | 2019 |
+| Deepmutation: Mutation testing of deep learning systems L Ma, F Zhang, J Sun, M Xue, B Li, F Juefei-Xu, C Xie, L Li, Y Liu, J Zhao, ... 2018 IEEE 29th International Symposium on Software Reliability Engineering …, 2018 | 463 | 2018 |
+| Data poisoning attacks on factorization-based collaborative filtering B Li, Y Wang, A Singh, Y Vorobeychik Advances in neural information processing systems 29, 2016 | 458 | 2016 |
+| Data Poisoning Attacks on Factorization-based Collaborative Filtering B Li, Y Wang, A Singh, Y Vorobeychik In Proceedings of the Neural Information Processing Systems (NIPS), 2016 | 458 | 2016 |
+| Harmbench: A standardized evaluation framework for automated red teaming and robust refusal M Mazeika, L Phan, X Yin, A Zou, Z Wang, N Mu, E Sakhaee, N Li, ... arXiv preprint arXiv:2402.04249, 2024 | 439 | 2024 |

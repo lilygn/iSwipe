@@ -1,0 +1,15 @@
+We are a research group in the Siebel School of Computing and Data Science at the University of Illinois Urbana-Champaign. The ConvAI@UIUC Lab was co-founded by Prof. Dilek Hakkani-Tür and Prof. Gokhan Tur in 2024, when they joined academia after 20+ years of research in industry. Our team currently includes 9 PhD students, 1 postdoctoral researcher, 2 undergraduate researchers and 1 MSc students. Our work focuses on conversational agents, large language models, reasoning, evaluation, and persuasion.
+Our work has been funded by DARPA, IARPA, Department of Education, Amazon and Microsoft.
+Prof. Hakkani-Tür is also an Amazon Scholar. She has over 100 granted patents and over 60 applications in progress. She published over 400 papers and an h-index of 77 according to Google Scholar. She received several best paper awards, including from IEEE Signal Processing Society and Speech Communication Journal. She is an IEEE Distinguished Industry Speaker (2020) and served as the Editor-in-Cheif of IEEE Transactions on Audio, Speech, and Language Processing. Currently, she is editor-in-chief of Transactions of ACL and president of SIGdial. She was honored as IEEE fellow and ISCA fellow in 2014.
+Prof. Gokhan Tur is a leading artificial intelligence (AI) expert, especially on conversational AI systems. He has been involved with Apple Siri, Microsoft Cortana, Google Assistant, and Amazon Alexa systems. He co-authored more than 250 papers published in journals or books and presented at conferences. He is the editor of the book entitled “Spoken Language Understanding” by Wiley in 2011. Prof. Tur is a Fellow of IEEE, and member of ACL and ISCA. He was a member of IEEE Speech and Language Technical Committee (SLTC) (2006-2008), member of the IEEE SPS Industrial Relations Committee (2013-2014) and an associate editor for the IEEE Transactions on Audio, Speech, and Language Processing (2010-2014), and Multimedia Processing (2014-2016) journals. He has helped organization of countless speech and language processing conferences in various capacities, most recently as senior area chair of EMNLP 2024 and NAACL 2024.
+We are part of the bigger UIUC NLP community.
+23rd Sept 2024
+Elated to share our ConvAI contributions to IEEE SLT2024 - congratulations to Yi-Jyun (Jenny), Suvodip, Taaha, Sizhe. Hope to see you in Macao!
+23rd Sept 2024
+Honored to share our ConvAI contributions to EMNLP2024! Congrats to Ishika Agarwal, Sagnik Mukherjee, Sumuk Shashidar, and Abhinav Chinta - we’ll see you in Miami 🌴☀️
+26 Aug 2024
+Heartiest welcome to Emre, Janvijay, Beyza, Sagnik, Suvodip, Shuhaib, and Takyoung to the lab.
+16 Jan 2024
+Dilek and Gokhan officially joined the Computer Science department at UIUC in the spring of 2024.
+27 Sep 2023
+Dilek and Gokhan hired as a faculty in the Computer Science department at UIUC. See announcement here!

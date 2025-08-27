@@ -1,0 +1,15 @@
+Autonomous Vehicles
+Autonomous Mission-critical Systems
+Developing the foundations for intelligent mission-critical software to make transportation safer, faster, smarter, and more sustainable.
+ï»¿
+Exploration of the computer science frontier at the intersection of logical, physical, and social realms.
+Cyber-Physical Computing
+A versatile collection of research directions are investigated in this group, ranging from social sensing to the Internet of Things and from signal processing to edge AI, with applications from autonomous cars to future defense systems. These avenues of investigation share one fundamental goal: empower computing systems that are better integrated with the physical and social environment. Such integration has reprecussions on time, space, energy, and performance dimensions. New theory, design tools, development paradigms, and run-time services are needed to understand, optimize, and deploy these systems, leading to a broad set of research challenges, a rich source of inspiration, and great opportunities for societal impact.
+Sensing, Computing, Intelligence, and Effects in Physical and Social Spaces
+Autonomous Mission-critical Systems
+Developing the foundations for intelligent mission-critical software to make transportation safer, faster, smarter, and more sustainable.
+Real-time scheduling for machine intelligence
+Scheduling algorithms, models, and theory for intelligent real-time and cyber-physical systems.
+Social Networks as Measurement Instruments
+Mitigating information disorder by developing the signal processing algorithms for social media.
+Join us in shaping tomorrow

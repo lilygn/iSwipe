@@ -1,0 +1,273 @@
+WAFR 2024
+The 16th International Workshop on the Algorithmic Foundations of Robotics.
+Chicago, USA, October 7-9 2024.
+Learning to Guide Sampling-Based Planners
+Our group proposed one of the earliest approaches that use learning to guide the sampling-based exploration of the motion planning space. Instead of applying the same planning strategy across the problem, we dynamically adapt sampling parameters such as the region being explored, the planner used, the number of samples to use, and the connection strategies.
+Robot Task and Motion Planning
+Motion planning has applications in robotics, games/virtual reality, computer-aided design/virtual prototyping, and bioinformatics. Our research is focused on developing motion planning algorithms and applying them to a wide range of problems.
+Human Robot Interaction
+We present several projects that enable users to interact with robots in a natural and intuitive way.
+NeuronPRM
+A framework for constructing a 3D model of a cortical network. Our objective is to build a large-scale directed graph that encodes pathways of the cortical networs. Through L-systems we 'grow' neurons with based on statistics from real neurons
+Computational Geometry
+Computational geometry, the study of algorithms operating on geometric inputs, is widely used in motion planning and graphics. We develop novel CG algorithms for applications in robotics as well as algorithms of independednt interest.
+K-ARC: Adaptive Robot Coordination for Multi-Robot Kinodynamic Planning, Mike Qin, Irving Solis, James Motes, Marco Morales, Nancy M. Amato, ArXiv, Jan 2025. DOI: https://doi.org/10.48550/arXiv.2501.01559 @article{qin2025karc, This work presents Kinodynamic Adaptive Robot Coordination (K-ARC), a novel algorithm for multi-robot kinodynamic planning. Our experimental results show the capability of K-ARC to plan for up to 32 planar mobile robots, while achieving up to an order of magnitude of speed-up compared to previous methods in various scenarios. K-ARC is able to achieve this due to its two main properties. First, K-ARC constructs its solution iteratively by planning in segments, where initial kinodynamic paths are found through optimization-based approaches and the inter-robot conflicts are resolved through sampling-based approaches. The interleaving use of sampling-based and optimization-based approaches allows K-ARC to leverage the strengths of both approaches in different sections of the planning process where one is more suited than the other, while previous methods tend to emphasize on one over the other. Second, K-ARC builds on a previously proposed multi-robot motion planning framework, Adaptive Robot Coordination (ARC), and inherits its strength of focusing on coordination between robots only when needed, saving computation efforts. We show how the combination of these two properties allows K-ARC to achieve overall better performance in our simulated experiments with increasing numbers of robots, increasing degrees of problem difficulties, and increasing complexities of robot dynamics.
+Keywords: Multi-Agent Systems, Sampling-Based Motion Planning
+Links : [ArXiv] BibTex
+title={K-ARC: Adaptive Robot Coordination for Multi-Robot Kinodynamic Planning},
+author={Mike Qin and Irving Solis and James Motes and Marco Morales and Nancy M. Amato},
+journal={arXiv preprint arXiv:2501.01559},
+year={2025}
+}
+Abstract
+Experience-based Subproblem Planning for Multi-Robot Motion Planning, Irving Solis, James Motes, Mike Qin, Marco Morales, Nancy M. Amato, ArXiv, Nov 2024. DOI: https://doi.org/10.48550/arXiv.2411.08851 @misc{solis2024experiencebasedsubproblemplanningmultirobot, Multi-robot systems enhance efficiency and productivity across various applications, from manufacturing to surveillance. While single-robot motion planning has improved by using databases of prior solutions, extending this approach to multi-robot motion planning (MRMP) presents challenges due to the increased complexity and diversity of tasks and configurations. Recent discrete methods have attempted to address this by focusing on relevant lower-dimensional subproblems, but they are inadequate for complex scenarios like those involving manipulator robots. To overcome this, we propose a novel approach that %leverages experience-based planning by constructs and utilizes databases of solutions for smaller sub-problems. By focusing on interactions between fewer robots, our method reduces the need for exhaustive database growth, allowing for efficient handling of more complex MRMP scenarios. We validate our approach with experiments involving both mobile and manipulator robots, demonstrating significant improvements over existing methods in scalability and planning efficiency. Our contributions include a rapidly constructed database for low-dimensional MRMP problems, a framework for applying these solutions to larger problems, and experimental validation with up to 32 mobile and 16 manipulator robots.
+Keywords: Adaptive Algorithm, Multi-Agent Systems, Sampling-Based Motion Planning
+Links : [ArXiv] BibTex
+title = {Experience-based Subproblem Planning for Multi-Robot Motion Planning},
+author = {Irving Solis and James Motes and Mike Qin and Marco Morales and Nancy M. Amato},
+year = 2024,
+eprint = {2411.08851},
+archivePrefix= {arXiv},
+primaryClass = {cs.RO},
+url = {https://arxiv.org/abs/2411.08851},
+}
+Abstract
+Lazy-DaSH: Lazy Approach for Hypergraph-based Multi-robot Task and Motion Planning, Seongwon Lee, James Motes, Isaac Ngui, Marco Morales, Nancy M. Amato, ICRA@40, Oct 2024. DOI: Unpublished Unpublished We introduce Lazy-DaSH, a variant of the multi-robot task and motion planning method DaSH, which scales to more than double the number of robots and objects compared to the original method and achieves three orders of magnitude faster planning time when applied to the multi-manipulator object rearrangement problem.
+We achieve this improvement by lazily validating motions proposed by a new task planning layer while DaSH instead computes motion feasibility of all possible actions, most of which are irrelevant to the task.
+Our proposed method uses a high-level task query phase to identify the necessary planning spaces for task completion and lazily computes motion feasibility only within these spaces.
+This approach creates a hierarchical structure between the task planning layer and motion planning layer, connected by a constraint feedback mechanism that informs the feasibility of both tasks and motions.
+Our strategy reduces both the time required to construct state space representations and the query time by keeping the representation smaller.
+We demonstrate our method in four different scenarios to highlight the scalability of an increasing number of robots and objects and the constraint feedback mechanism for conflict adaptations.
+Keywords: Motion Planning, Multi-Agent Systems, Task Planning
+Links : BibTex
+Abstract
+Extended Reality System for Robotic Learning from Human Demonstration, Isaac Ngui, Courtney McBeth, Grace He, André Corrêa Santos, Luciano Soares, Marco Morales, Nancy M. Amato, ArXiv Preprint, Sep 2024. @misc{ngui2024extendedrealityroboticlearning, Many real-world tasks are intuitive for a human to perform, but difficult to encode algorithmically when utilizing a robot to perform the tasks. In these scenarios, robotic systems can benefit from expert demonstrations to learn how to perform each task. In many settings, it may be difficult or unsafe to use a physical robot to provide these demonstrations, for example, considering cooking tasks such as slicing with a knife. Extended reality provides a natural setting for demonstrating robotic trajectories while bypassing safety concerns and providing a broader range of interaction modalities. We propose the Robot Action Demonstration in Extended Reality (RADER) system, a generic extended reality interface for learning from demonstration. We additionally present its application to an existing state-of-the-art learning from demonstration approach and show comparable results between demonstrations given on a physical robot and those given using our extended reality system.
+Keywords: Extended Reality, Learning from Demonstration, Robotics
+Links : [ArXiv] BibTex
+title={Extended Reality System for Robotic Learning from Human Demonstration},
+author={Isaac Ngui and Courtney McBeth and Grace He and André Corrêa Santos and Luciano Soares and Marco Morales and Nancy M. Amato},
+year={2024},
+eprint={2409.12862},
+archivePrefix={arXiv},
+primaryClass={cs.RO},
+url={https://arxiv.org/abs/2409.12862},
+}Abstract
+Scalable Multi-Robot Motion Planning Using Guidance-Informed Hypergraphs, Courtney McBeth, James Motes, Isaac Ngui, Marco Morales, Nancy M. Amato, ArXiv Preprint, Jun 2024. @misc{mcbeth2024scalablemultirobotmotionplanning, In this work, we present a multi-robot planning framework that leverages guidance about the problem to efficiently search the planning space. This guidance captures when coordination between robots is necessary, allowing us to decompose the intractably large multi-robot search space while limiting risk of inter-robot conflicts by composing relevant robot groups together while planning. Our framework additionally supports planning with kinodynamic constraints through our conflict resolution structure. This structure also improves the scalability of our approach by eliminating unnecessary work during the construction of motion solutions. We also provide an application of this framework to multiple mobile robot motion planning in congested environments using topological guidance. Our previous work has explored using topological guidance, which utilizes information about the robots' environment, in these multi-robot settings where a high degree of coordination is required of the full robot group. In real-world scenarios, this high level of coordination is not always necessary and results in excessive computational overhead. Here, we leverage our novel framework to achieve a significant improvement in scalability and show that our method efficiently finds paths for robot teams up to an order of magnitude larger than existing state-of-the-art methods in congested settings with narrow passages in the environment.
+Keywords: Motion Planning, Multi-Agent, Workspace Topology
+Links : [ArXiv] BibTex
+title={Scalable Multi-Robot Motion Planning Using Guidance-Informed Hypergraphs},
+author={Courtney McBeth and James Motes and Isaac Ngui and Marco Morales and Nancy M. Amato},
+year={2024},
+eprint={2311.10176},
+archivePrefix={arXiv},
+primaryClass={cs.RO},
+url={https://arxiv.org/abs/2311.10176},
+}Abstract
+Adaptive Robot Coordination: A Subproblem-based Approach for Hybrid Multi-Robot Motion Planning, Irving Solis, James Motes, Mike Qin, Marco Morales, Nancy M. Amato, IEEE Robotics and Automation Letters, Vol: 9, Issue: 8, pp. 7238-7245, Jun 2024. DOI: 10.1109/LRA.2024.3420548 @ARTICLE{10577245, This work presents Adaptive Robot Coordination (ARC), a novel hybrid framework for multi-robot motion planning (MRMP) that employs local subproblems to resolve inter-robot conflicts. ARC creates subproblems centered around conflicts, and the solutions represent the robot motions required to resolve these conflicts. The use of subproblems enables an innovative, cost-effective hybrid exploration of the multi-robot planning space by dynamically coupling and decoupling necessary subsets of robots only when required and in specific physical locations. This allows ARC to adapt the levels of coordination efficiently by planning in decoupled spaces, where robots can operate independently, and in coupled spaces, where coordination is essential. ARC is probabilistically complete, can be used for any robot, and produces cost-efficient solutions in reduced planning times. Through extensive evaluation across representative scenarios with different robots requiring various levels of coordination, ARC demonstrates its ability to provide simultaneous scalability and precise coordination. ARC is the only method capable of solving all the scenarios and is competitive with coupled, decoupled, and hybrid baselines.
+Keywords: Motion Planning, Multi-Agent Systems, Sampling-Based Motion Planning
+Links : [Published] [ArXiv] [Video] BibTex
+author={Solis, Irving and Motes, James and Qin, Mike and Morales, Marco and Amato, Nancy M.},
+journal={IEEE Robotics and Automation Letters},
+title={Adaptive Robot Coordination: A Subproblem-Based Approach for Hybrid Multi-Robot Motion Planning},
+year={2024},
+volume={9},
+number={8},
+pages={7238-7245},
+keywords={Robots;Robot kinematics;Planning;Space exploration;Probabilistic logic;Mobile robots;Collision avoidance;Path planning for multiple mobile robots or agents;multi-robot systems;motion and path planning},
+doi={10.1109/LRA.2024.3420548}}
+Abstract
+A Hierarchical Approach to Workstation-based Task Allocation and Motion Planning, Isaac Ngui, Seongwon Lee, James Motes, Marco Morales, Nancy M. Amato, IROS 2023, May 2024. DOI: Unpublished Unpublished This paper introduces a hierarchical approach to workstation-based task allocation and motion planning problems for on-demand and reconfigurable factory environments.
+This problem is composed of two sub-problems: workstation task planning and payload transportation.
+This hierarchical approach abstracts away workstation details during payload transportation and payload transportation details away during workstation task planning, enabling scalable planning for large numbers of robots and workstations.
+This hierarchical approach is expected to offer adaptable solutions for various workstation-based factory scenarios, promoting high throughput while maintaining flexibility.
+Keywords: Multi-Agent Systems, Path Planning, Task Planning
+Links : BibTex
+Abstract
+Hierarchical Annotated Skeleton-Guided Tree-based Motion Planning, Diane Uwacu, Ananya Yammanuru, Keerthana Nallamotu, Vasu Chalasani, Marco Morales, Nancy M. Amato, arXiv Preprint, Sep 2023. @misc{uwacu2023hierarchical, We present a hierarchical tree-based motion planning strategy, HAS-RRT, guided by the workspace skeleton to solve motion planning problems in robotics and computational biology. Relying on the information about the connectivity of the workspace and the ranking of available paths in the workspace, the strategy prioritizes paths indicated by the workspace guidance to find a valid motion plan for the moving object efficiently. In instances of suboptimal guidance, the strategy adapts its reliance on the guidance by hierarchically reverting to local exploration of the planning space. We offer an extensive comparative analysis against other tree-based planning strategies and demonstrate that HAS-RRT reliably and efficiently finds low-cost paths. In contrast to methods prone to inconsistent performance across different environments or reliance on specific parameters, HAS-RRT is robust to workspace variability.
+Keywords: Lazy Planning, Motion Planning, Workspace Topology
+Links : [ArXiv] BibTex
+title={Hierarchical Annotated Skeleton-Guided Tree-based Motion Planning},
+author={Diane Uwacu and Ananya Yammanuru and Keerthana Nallamotu and Vasu Chalasani and Marco Morales and Nancy M. Amato},
+year={2023},
+eprint={2309.10801},
+archivePrefix={arXiv},
+primaryClass={cs.RO}
+}Abstract
+Scalable Multi-robot Motion Planning for Congested Environments With Topological Guidance, Courtney McBeth, James Motes, Diane Uwacu, Marco Morales, Nancy M. Amato, In IEEE Robotics and Automation Letters, Aug 2023. DOI: 10.1109/LRA.2023.3312980 @ARTICLE{10243143, Multi-robot motion planning (MRMP) is the problem of finding collision-free paths for a set of robots in a continuous state space. The difficulty of MRMP increases with the number of robots and is exacerbated in environments with narrow passages that robots must pass through, like warehouse aisles where coordination between robots is required. In single-robot settings, topology-guided motion planning methods have shown improved performance in these constricted environments. In this work, we extend an existing topology-guided single-robot motion planning method to the multi-robot domain to leverage the improved efficiency provided by topological guidance. We demonstrate our method's ability to efficiently plan paths in complex environments with many narrow passages, scaling to robot teams of size up to 25 times larger than existing methods in this class of problems. By leveraging knowledge of the topology of the environment, we also find higher-quality solutions than other methods.
+Keywords: Motion Planning, Multi-Agent, Workspace Topology
+Links : [Published] [ArXiv] [Video] BibTex
+author={McBeth, Courtney and Motes, James and Uwacu, Diane and Morales, Marco and Amato, Nancy M.},
+journal={IEEE Robotics and Automation Letters},
+title={Scalable Multi-robot Motion Planning for Congested Environments With Topological Guidance},
+year={2023},
+volume={},
+number={},
+pages={1-8},
+doi={10.1109/LRA.2023.3312980}}Abstract
+Hypergraph-Based Multi-robot Task and Motion Planning, James Motes, Tan Chen, Timothy Bretl, Marco Morales, Nancy M. Amato, IEEE Transactions on Robotics (TRO), Aug 2023. DOI: 10.1109/TRO.2023.3297011 @article{lee2021parallel, In this article, we present a multi-robot task and motion planning method that, when applied to the rearrangement of objects by manipulators, results in solution times up to three orders of magnitude faster than the existing methods and successfully plans for problems with up to 20 objects, more than three times as many objects as comparable methods. We achieve this improvement by decomposing the planning space to consider manipulators alone, objects, and manipulators holding objects. We represent this decomposition with a hypergraph where vertices are decomposed elements of the planning spaces and hyperarcs are transitions between elements. The existing methods use graph-based representations where vertices are full composite spaces and edges are transitions between these. Using the hypergraph reduces the representation size of the planning space for multimanipulator object rearrangement, the number of hypergraph vertices scales linearly with the number of either robots or objects, while the number of hyperarcs scales quadratically with the number of robots and linearly with the number of objects. In contrast, the number of vertices and edges in graph-based representations scales exponentially in the number of robots and objects. We show that similar gains can be achieved for other multi-robot task and motion planning problems.
+Keywords: Multi-Agent, Task Planning
+Links : [Published] [Manuscript] [Video] BibTex
+title={Parallel hierarchical composition conflict-based search for optimal multi-agent pathfinding},
+author={Lee, Hannah and Motes, James and Morales, Marco and Amato, Nancy M},
+journal={IEEE Robotics and Automation Letters},
+volume={6},
+number={4},
+pages={7001--7008},
+year={2021},
+publisher={IEEE}
+}Abstract
+Discrete State-Action Abstraction via the Successor Representation, Amnon Attali, Pedro Cisneros-Velarde, Marco Morales, Nancy M. Amato, arXiv preprint, May 2023. @article{attali2022discrete, While the difficulty of reinforcement learning problems is typically related to the complexity of their state spaces, Abstraction proposes that solutions often lie in simpler underlying latent spaces. Prior works have focused on learning either a continuous or dense abstraction, or require a human to provide one. Information-dense representations capture features irrelevant for solving tasks, and continuous spaces can struggle to represent discrete objects. In this work we automatically learn a sparse discrete abstraction of the underlying environment. We do so using a simple end-to-end trainable model based on the successor representation and max-entropy regularization. We describe an algorithm to apply our model, named Discrete State-Action Abstraction (DSAA), which computes an action abstraction in the form of temporally extended actions, i.e., Options, to transition between discrete abstract states. Empirically, we demonstrate the effects of different exploration schemes on our resulting abstraction, and show that it is efficient for solving downstream tasks.
+Keywords: Abstraction
+Links : [ArXiv] BibTex
+title={Discrete State-Action Abstraction via the Successor Representation},
+author={Attali, Amnon and Cisneros-Velarde, Pedro and Morales, Marco and Amato, Nancy M},
+journal={arXiv preprint arXiv:2206.03467},
+year={2022}
+}Abstract
+Hierarchical Planning With Annotated Skeleton Guidance, Diane Uwacu, Ananya Yammanuru, Marco Morales, Nancy M. Amato, IEEE Robotics and Automation Letters (RA-L), Vol: 7, Issue: 4, pp. 11055-11061, Oct 2022. DOI: 10.1109/LRA.2022.3196885 @ARTICLE{9851528, We present a hierarchical skeleton-guided motion planning algorithm to guide mobile robots. A good skeleton maps the connectivity of the subspace of c-space containing significant degrees of freedom and is able to guide the planner to find the desired solutions fast. However, sometimes the skeleton does not closely represent the free c-space, which often misleads current skeleton-guided planners. The hierarchical skeleton-guided planning strategy gradually relaxes its reliance on the workspace skeleton as C-space is sampled, thereby incrementally returning a sub-optimal path, a feature that is not guaranteed in the standard skeleton-guided algorithm. Experimental comparisons to the standard skeleton guided planners and other lazy planning strategies show significant improvement in roadmap construction run time while maintaining path quality for multi-query problems in cluttered environments.
+Keywords: Lazy Evaluation, Motion Planning, Workspace Topology
+Links : [Published] [Manuscript] [Video] BibTex
+author={Uwacu, Diane and Yammanuru, Ananya and Morales, Marco and Amato, Nancy M.},
+journal={IEEE Robotics and Automation Letters},
+title={Hierarchical Planning With Annotated Skeleton Guidance},
+year={2022},
+volume={7},
+number={4},
+pages={11055-11061},
+doi={10.1109/LRA.2022.3196885}}Abstract
+Evaluating Guiding Spaces for Motion Planning, Amnon Attali, Stav Ashur, Isaac Burton Love, Courtney McBeth, James Motes, Diane Uwacu, Marco Morales, Nancy M. Amato, IROS 2022, Workshop for Evaluating Motion Planning Performance, Kyoto, Japan, Oct 2022. @misc{https://doi.org/10.48550/arxiv.2210.08640, Randomized sampling based algorithms are widely used in robot motion planning due to the problem's intractability, and are experimentally effective on a wide range of problem instances. Most variants do not sample uniformly at random, and instead bias their sampling using various heuristics for determining which samples will provide more information, or are more likely to participate in the final solution. In this work, we define the motion planning guiding space, which encapsulates many seemingly distinct prior works under the same framework. In addition, we suggest an information theoretic method to evaluate guided planning which places the focus on the quality of the resulting biased sampling. Finally, we analyze several motion planning algorithms in order to demonstrate the applicability of our definition and its evaluation.
+Keywords: Algorithms, Guidance
+Links : [ArXiv] BibTex
+doi = {10.48550/ARXIV.2210.08640},
+url = {https://arxiv.org/abs/2210.08640},
+author = {Attali, Amnon and Ashur, Stav and Love, Isaac Burton and McBeth, Courtney and Motes, James and Uwacu, Diane and Morales, Marco and Amato, Nancy M.},
+keywords = {Robotics (cs.RO), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+title = {Evaluating Guiding Spaces for Motion Planning},
+publisher = {arXiv},
+year = {2022},
+copyright = {Creative Commons Attribution 4.0 International}
+}
+Abstract
+Insights from an Industrial Collaborative Assembly Project: Lessons in Research and Collaboration, Tan Chen, Zhe Huang, James Motes, Junyi Geng, Quang Minh Ta, Holly Dinkel, Hameed Abdul-Rashid, Jessica Myers, Ye-Ji Mun, Wei-che Lin, Yuan-yung Huang, Sizhe Liu, Marco Morales, Nancy M Amato, Katherine Driggs-Campbell, Timothy Bretl, ICRA 2022 WORKSHOP ON COLLABORATIVE ROBOTS AND THE WORK OF THE FUTURE, Philadelphia, PA, USA, May 2022. @article{chen2022insights, Significant progress in robotics reveals new opportunities to advance manufacturing. Next-generation industrial automation will require both integration of distinct robotic technologies and their application to challenging industrial environments. This paper presents lessons from a collaborative assembly project between three academic research groups and an industry partner. The goal of the project is to develop a flexible, safe, and productive manufacturing cell for sub-centimeter precision assembly. Solving this problem in a high-mix, low-volume production line motivates multiple research thrusts in robotics. This work identifies new directions in collaborative robotics for industrial applications and offers insight toward strengthening collaborations between institutions in academia and industry on the development of new technologies.
+Keywords: Assembly, Industrial Applications, Interaction
+Links : [ArXiv] BibTex
+title={Insights from an Industrial Collaborative Assembly Project: Lessons in Research and Collaboration},
+author={Chen, Tan and Huang, Zhe and Motes, James and Geng, Junyi and Ta, Quang Minh and Dinkel, Holly and Abdul-Rashid, Hameed and Myers, Jessica and Mun, Ye-Ji and Lin, Wei-che and others},
+journal={arXiv preprint arXiv:2205.14340},
+year={2022}
+}Abstract
+Parallel Hierarchical Composition Conflict-Based Search, Hannah Lee, James Motes, Marco Morales, Nancy M. Amato, IEEE/RSJ International Conference on Intelligent Robots and Systems, Vol: 6, Issue: 4, pp. 7001-7008, Prague, Czech Republic, Jul 2021. DOI: 10.1109/LRA.2021.3096476. @article{lee2021parallel, In this letter, we present the following optimal multi-agent pathfinding (MAPF) algorithms: Hierarchical Composition Conflict-Based Search, Parallel Hierarchical Composition Conflict-Based Search, and Dynamic Parallel Hierarchical Composition Conflict-Based Search. MAPF is the task of finding an optimal set of valid path plans for a set of agents such that no agents collide with present obstacles or each other. The presented algorithms are an extension of Conflict-Based Search (CBS), where the MAPF problem is solved by composing and merging smaller, more easily manageable subproblems. Using the information from these subproblems, the presented algorithms can more efficiently find an optimal solution. Our three presented algorithms demonstrate improved performance for optimally solving MAPF problems consisting of many agents in crowded areas while examining fewer states when compared with CBS and its variant Improved Conflict-Based Search.
+Keywords: Multi-Agent, Parallel Planning, Path Planning
+Links : [Published] BibTex
+title={Parallel Hierarchical Composition Conflict-Based Search for Optimal Multi-Agent Pathfinding},
+author={Lee, Hannah and Motes, James and Morales, Marco and Amato, Nancy M},
+journal={IEEE Robotics and Automation Letters},
+volume={6},
+number={4},
+pages={7001--7008},
+year={2021},
+publisher={IEEE}
+}Abstract
+Motion Planning using Hierarchical Aggregation of Workspace Obstacles, Mukulika Ghosh, Shawna Thomas, Marco Morales, Sam Rodriguez, and Nancy M. Amato, In Proc. IEEE/RSJ Int. Conf. on Intelligent Robots and Systems (IROS), pp. 5716-5721, Daejeon, Korea, Oct 2016. DOI: 10.1109/IROS.2016.7759841 @inproceedings{ghosh2016motion, Sampling-based motion planning is the state-of-the-art technique for solving challenging motion planning problems in a wide variety of domains. While generally successful, their performance suffers from increasing problem complexity. In many cases, the full problem complexity is not needed for the entire solution. We present a hierarchical aggregation framework that groups and models sets of obstacles based on the currently needed level of detail. The hierarchy enables sampling to be performed using the simplest and most conservative representation of the environment possible in that region. Our results show that this scheme improves planner performance irrespective of the underlying sampling method and input problem. In many cases, improvement is significant, with running times often less than 60% of the original planning time.
+Keywords: Motion Planning, Workspace Topology
+Links : [Published] BibTex
+title={Motion planning using hierarchical aggregation of workspace obstacles},
+author={Ghosh, Mukulika and Thomas, Shawna and Morales, Marco and Rodriguez, Sam and Amato, Nancy M},
+booktitle={2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+pages={5716--5721},
+year={2016},
+organization={IEEE}
+}Abstract
+Planning Motions for Shape-Memory Alloy Sheets, Mukulika Ghosh, Daniel Tomkins, Jory Denny, Sam Rodriguez, Marco Morales Aguirre, Nancy M. Amato, Origami, Vol: 6, Issue: 6, pp. 501-511, Dec 2015. DOI: 10.1090/MBK/095.2/13 @inproceedings{Ghosh2015PlanningMF, Shape Memory Alloys (SMAs) are smart materials that can remember predefined shapes. A deformed SMA can transition to a trained shape by applying temperature changes to portions of the material. This reconfigurable property allows SMAs to be used in aeronautics, medicine, and other fields where dynamic re-engineering or actuation of components is required. In this work, we plan the motion of an SMA robot modeled as inflexible regions connected by flexible joints. In this work, we adapt an existing state-of-the-art motion planning algorithm to model the folding of an SMA robot from an unfolded flat state to a folded shape under feasibility constraints such as collision free motion and gravitational stability. Our results validate our model and algorithm by folding interesting 3D shapes using gravitationally stable motions, show flexibility in modeling various planning problems and significantly improved motions in comparable time to not using stability constraints.
+Keywords: Computational Geometry, Motion Planning
+Links : [Published] BibTex
+title={Planning motions for shape-memory alloy sheets},
+author={Mukulika Ghosh and D. Tomkins and J. Denny and S. Rodr{\'i}guez and M. Morales and N. Amato},
+year={2015}
+}Abstract
+Adapting RRT Growth for Heterogeneous Environments, Jory Denny, Marco Morales, Samuel Rodriguez, Nancy M. Amato, In. Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Tokyo, Japan, Nov 2013. DOI: 10.1109/IROS.2013.6696589 @INPROCEEDINGS{6696589, author={J. {Denny} and M. {Morales} and S. {Rodriguez} and N. M. {Amato}}, booktitle={2013 IEEE/RSJ International Conference on Intelligent Robots and Systems}, title={Adapting RRT growth for heterogeneous environments}, year={2013}, volume={}, number={}, pages={1772-1778}, doi={10.1109/IROS.2013.6696589}} Rapidly-exploring Random Trees (RRTs) are effective for a wide range of applications ranging from kinodynamic planning to motion planning under uncertainty. However, RRTs are not as efficient when exploring heterogeneous environments and do not adapt to the space. For example, in difficult areas an expensive RRT growth method might be appropriate, while in open areas inexpensive growth methods should be chosen. In this paper, we present a novel algorithm, Adaptive RRT, that adapts RRT growth to the current exploration area using a two level growth selection mechanism. At the first level, we select groups of expansion methods according to the visibility of the node being expanded. Second, we use a cost-sensitive learning approach to select a sampler from the group of expansion methods chosen. Also, we propose a novel definition of visibility for RRT nodes which can be computed in an online manner and used by Adaptive RRT to select an appropriate expansion method. We present the algorithm and experimental analysis on a broad range of problems showing not only its adaptability, but efficiency gains achieved by adapting exploration methods appropriately.
+Keywords: Adaptive Algorithm, Rapidly-exploring Random Tree (RRT), Sampling-Based Motion Planning
+Links : [Published] BibTex
+Abstract
+Incremental Map Generation (IMG), Dawen Xie, Marco Morales, Roger Pearce, Shawna Thomas, Jyh-Ming Lien, Nancy M. Amato, Algorithmic Foundation of Robotics VII, N/A, Jan 2008. DOI: 10.1007/978-3-540-68405-3_4 @Inbook{Xie2008, Probabilistic roadmap methods (prms) have been highly successful in solving many high degree of freedom motion planning problems arising in diverse application domains such as traditional robotics, computer-aided design, and computational biology and chemistry. One important practical issue with prms is that they do not provide an automated mechanism to determine how large a roadmap is needed for a given problem. Instead, users typically determine this by trial and error and as a consequence often construct larger roadmaps than are needed. In this paper, we propose a new prm-based framework called Incremental Map Generation (img) to address this problem. Our strategy is to break the map generation into several processes, each of which generates samples and connections, and to continue adding the next increment of samples and connections to the evolving roadmap until it stops improving. In particular, the process continues until a set of evaluation criteria determine that the planning strategy is no longer effective at improving the roadmap. We propose some general evaluation criteria and show how to apply them to construct different types of roadmaps, e.g., roadmaps that coarsely or more finely map the space. In addition, we show how img can be integrated with previously proposed adaptive strategies for selecting sampling methods. We provide results illustrating the power of img.
+Keywords: Machine Learning, Sampling-Based Motion Planning
+Links : [Published] BibTex
+author="Xie, Dawen
+and Morales, Marco
+and Pearce, Roger
+and Thomas, Shawna
+and Lien, Jyh-Ming
+and Amato, Nancy M.",
+editor="Akella, Srinivas
+and Amato, Nancy M.
+and Huang, Wesley H.
+and Mishra, Bud",
+title="Incremental Map Generation (IMG)",
+bookTitle="Algorithmic Foundation of Robotics VII: Selected Contributions of the Seventh International Workshop on the Algorithmic Foundations of Robotics",
+year="2008",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="53--68",
+isbn="978-3-540-68405-3",
+doi="10.1007/978-3-540-68405-3_4",
+url="https://doi.org/10.1007/978-3-540-68405-3_4"
+}Abstract
+Analysis of the Evolution of C-Space Models Built through Incremental Exploration, Marco Morales, Roger Pearce, Nancy M. Amato, in Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), pp. 1029-1034, Rome, Italy, Apr 2007. DOI: 10.1109/ROBOT.2007.363120 @INPROCEEDINGS{4209224, Many sampling methods for motion planning explore the robot's configuration space (C-space) starting from a set of configuration(s) and incrementally explore surrounding areas to produce a growing model of the space. Although there is a common understanding of the strengths and weaknesses of these techniques, metrics for analyzing the incremental exploration process and for evaluating the performance of incremental samplers have been lacking. We propose the use of local metrics that provide insight into the complexity of the different regions in the model and global metrics that describe the process as a whole. These metrics only require local information and can be efficiently computed. We illustrate the use of our proposed metrics to analyze representative incremental strategies including the rapidly-exploring random trees, expansive space trees, and the original randomized path planner. We show how these metrics model the efficiency of C-space exploration and help to identify different modeling stages. In addition, these metrics are ideal for adapting space exploration to improve performance.
+Keywords: Mobile Robots, Motion Planning, Sampling-Based Motion Planning
+Links : [Published] BibTex
+author={Morales, Marco and Pearce, Roger and Amato, Nancy M.},
+booktitle={Proceedings 2007 IEEE International Conference on Robotics and Automation},
+title={Analysis of the Evolution of C-Space Models built through Incremental Exploration},
+year={2007},
+volume={},
+number={},
+pages={1029-1034},
+doi={10.1109/ROBOT.2007.363120}}Abstract
+Biasing Samplers to Improve Motion Planning Performance, Shawna Thomas, Marco Morales, Xinyu Tang, Nancy M. Amato, In Proc. IEEE International Conference on Robotics and Automation (ICRA), Roma, Italy, Apr 2007. DOI: 10.1109/ROBOT.2007.363556 @INPROCEEDINGS{4209320, With the success of randomized sampling-based motion planners such as probabilistic roadmap methods, much work has been done to design new sampling techniques and distributions. To date, there is no sampling technique that outperforms all other techniques for all motion planning problems. Instead, each proposed technique has different strengths and weaknesses. However, little work has been done to combine these techniques to create new distributions. In this paper, we propose to bias one sampling distribution with another such that the resulting distribution out-performs either of its parent distributions. We present a general framework for biasing samplers that is easily extendable to new distributions and can handle an arbitrary number of parent distributions by chaining them together. Our experimental results show that by combining distributions, we can out-perform existing planners. Our results also indicate that not one single distribution combination performs the best in all problems, and we identify which perform better for the specific application domains studied.
+Keywords: Machine Learning, Sampling-Based Motion Planning
+Links : [Published] BibTex
+author={S. {Thomas} and M. {Morales} and X. {Tang} and N. M. {Amato}},
+booktitle={Proceedings 2007 IEEE International Conference on Robotics and Automation},
+title={Biasing Samplers to Improve Motion Planning Performance},
+year={2007},
+volume={},
+number={},
+pages={1625-1630},
+doi={10.1109/ROBOT.2007.363556}}
+Abstract
+A Machine Learning Approach for Feature-Sensitive Motion Planning, Marco Morales, Lydia Tapia, Roger Pearce, Samuel Rodriguez, Nancy M. Amato, In Proc. Int. Wkshp. on Alg. Found. of Rob. (WAFR), pp. 361-376, Utrecht/Zeist, The Netherlands, Jul 2004. DOI: 10.1007/10991541_25 @INPROCEEDINGS{10.1007/10991541_25, Although there are many motion planning techniques, there is no method that outperforms all others for all problem instances. Rather, each technique has different strengths and weaknesses which makes it best-suited for certain types of problems. Moreover, since an environment can contain vastly different regions, there may not be a single planner that will perform well in all its regions. Ideally, one would use a suite of planners in concert and would solve the problem by applying the best-suited planner in each region. In this paper, we propose an automated framework for feature-sensitive motion planning. We use a machine learning approach to characterize and partition C-space into regions that are well suited to one of the methods in our library of roadmap-based motion planners. After the best-suited method is applied in each region, the resulting region roadmaps are combined to form a roadmap of the entire planning space. Over a range of problems, we demonstrate that our simple prototype system reliably outperforms any of the planners on their own.
+Keywords: Machine Learning, Sampling-Based Motion Planning
+Links : [Published] BibTex
+author={Marco {Morales}, Lydia {Tapia}, Roger {Pearce}, Samuel {Rodriguez}, Nancy M. {Amato}},
+booktitle={In Proc. Int. Wkshp. on Alg. Found. of Rob. (WAFR)},
+title={A Machine Learning Approach for Feature-Sensitive Motion Planning},
+year={2004},
+volume={}, number={}, pages={361--376},
+doi={10.1007/10991541_25}
+}Abstract
+Improving the Connectivitiy of PRM Roadmaps, Marco Morales, Samuel Rodriguez, Nancy M. Amato, In Proc. IEEE Int. Conf. Robot. Autom. (ICRA), Vol: 3, pp. 4427-4432, Taipei, Taiwan, Sep 2003. DOI: 10.1109/ROBOT.2003.1242286 @INPROCEEDINGS{1242286, In this paper we investigate how the coverage and connectedness of PRM roadmaps can be improved by adding a connected component (CC) connection step to the general PRM framework. We provide experimental results establishing that significant roadmap improvements can be obtained relatively efficiently by utilizing a suite of CC connection methods, which include variants of existing methods such as RRT and a new ray tracing based method. The coordinated application of these techniques is enabled by methods for selecting and scheduling pairs of nodes in different CCs for connection attempts. In addition to identifying important and/or promising regions of C-space for exploration, these methods also provide a mechanism for controlling the cost of the connection attempts. In our experiments, the time required by the improvement phase was on the same order as the time used to generate the initial roadmap.
+Keywords: Sampling-Based Motion Planning
+Links : [Published] BibTex
+author={M. {Morales} and S. {Rodriguez} and N. M. {Amato}},
+booktitle={2003 IEEE International Conference on Robotics and Automation (Cat. No.03CH37422)}, title={Improving the connectivity of PRM roadmaps},
+year={2003},
+volume={3},
+number={},
+pages={4427-4432 vol.3},
+doi={10.1109/ROBOT.2003.1242286}}Abstract
+Neuron PRM: A Framework for Constructing Cortical Networks, Jyh-Ming Lien, Marco Morales, Nancy M. Amato, Neurocomputing, Vol: 54, pp. 191-197, Jun 2003. DOI: 10.1016/S0925-2312(02)00728-2 @article{LIEN2003191, The brain's extraordinary computational power to represent and interpret complex natural environments is essentially determined by the topology and geometry of the brain's architectures. We present a framework to construct cortical networks which borrows from probabilistic roadmap methods developed for robotic motion planning. We abstract the network as a large-scale directed graph, and use L-systems and statistical data to ÃÂ¢ÃÂÃÂgrowÃÂ¢ÃÂÃÂ neurons that are morphologically indistinguishable from real neurons. We detect connections (synapses) between neurons using geometric proximity tests.
+Keywords: Machine Learning, Sampling-Based Motion Planning
+Links : [Published] BibTex
+title = "Neuron PRM: a framework for constructing cortical networks",
+journal = "Neurocomputing",
+volume = "52-54",
+pages = "191 - 197",
+year = "2003",
+note = "Computational Neuroscience: Trends in Research 2003",
+issn = "0925-2312",
+doi = "https://doi.org/10.1016/S0925-2312(02)00728-2",
+url = "http://www.sciencedirect.com/science/article/pii/S0925231202007282",
+author = "Jyh-Ming Lien and Marco Morales and Nancy M. Amato",
+keywords = "Cortical networks, PRM, BTS, L-system, Rectangle tree",
+abstract = "The brain's extraordinary computational power to represent and interpret complex natural environments is essentially determined by the topology and geometry of the brain's architectures. We present a framework to construct cortical networks which borrows from probabilistic roadmap methods developed for robotic motion planning. We abstract the network as a large-scale directed graph, and use L-systems and statistical data to ‘grow’ neurons that are morphologically indistinguishable from real neurons. We detect connections (synapses) between neurons using geometric proximity tests."
+}Abstract

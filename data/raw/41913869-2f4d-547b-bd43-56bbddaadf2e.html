@@ -1,0 +1,1959 @@
+<!DOCTYPE HTML
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<!-- <style>
+    .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  img {
+    max-width: 100%;
+    max-height:100%;
+  }
+  
+  .text {
+    font-size: 10px;
+    padding-left: 5px;
+  } -->
+<!-- </style> -->
+<style>
+a {
+  text-decoration: none;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  /* display: inline-grid !important; */
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+
+<script>
+
+  function clickHandle(evt, CategoryName) {
+    let i, tabcontent, tablinks;
+  
+    // This is to clear the previous clicked content.
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+  
+    // Set the tab to be "active".
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+  
+    // Display the clicked tab and set it to active.
+    document.getElementById(CategoryName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+
+<head>
+  <div class="navbar">
+    <a href="./index.html">
+      <font size="+1">Home</font>
+    </a>
+    <a href="https://supercomputing-system-ai-lab.github.io/">
+      <font size="+1">Group</font>
+    </a>
+    <a href="./publication.html">
+      <font size="+1">Publications</font>
+    </a>
+    <a href="./teaching.html">
+      <font size="+1">Teaching</font>
+    </a>
+    <!-- <a href="./students.html">
+      <font size="+1">Students</font>
+    </a> -->
+    <a href="./award.html">
+      <font size="+1">Awards</font>
+    </a>
+    <!-- <a href="./misc.html">
+      <font size="+1">Misc</font>
+    </a> -->
+  </div>
+  <title>Minjia Zhang</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body style="color: rgba(0, 0, 0, 0.938);margin:0;padding:0">
+  <div id="wrapper">
+    <div id="content-wrap">
+      <div id="content">
+        <div id="main">
+          <tr>
+            <p style="padding-right:30px;"> <img id="headshot" "float-right" align="right" alt="MinjiaZhang"
+                src="Minjia_headshot_a.jpg" width="170" height="256" /></p>
+
+            <p>
+              <font size="+3"><strong>&nbsp;Minjia Zhang</strong></font>
+            </p>
+            <p>
+              <font size="+1"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(he/him/his)</strong></font>
+            </p>
+            <p></p>
+            <p style="line-height:90%">
+              <font size="3"><a href="https://cs.illinois.edu/about/people/faculty/minjiaz"
+                  style="color:#9B0145;">&nbsp;&nbsp;Assistant Professor, Department of Computer Science</a></font>
+            </p>
+            <p style="line-height:90%">
+              <font size="3"><a href="https://ece.illinois.edu/about/directory/faculty/minjiaz"
+                  style="color:#9B0145;">&nbsp;&nbsp;Affiliate Professor, Department of ECE</a></font>
+            </p>
+            <p style="line-height:90%">
+              <font size="3"><a href="https://ai.ncsa.illinois.edu/directory/center-affiliates/"
+                  style="color:#9B0145;">&nbsp;&nbsp;Affiliate Professor, Center for Artificial Intelligence Innovation (CAII) at National Center for Supercomputing Applications (NCSA)</a></font>
+            </p>
+            <p style="line-height:90%">
+              <font size="3"><a href="https://illinois.edu/" style="color:#9B0145;">&nbsp;&nbsp;University of Illinois
+                  Urbana-Champaign</a></font>
+            </p>
+            <p style="line-height:90%">
+              <font size="3"><strong>&nbsp;&nbsp;Address:</strong> Thomas M. Siebel Center for Computer Science 4106,
+                201 North Goodwin Avenue MC 258 Urbana, IL 61801</font>
+            </p>
+            <p style="line-height:90%">
+              <font size="3"><strong>&nbsp;&nbsp;Email:</strong> minjiaz|at|illinois|dot|edu</font>
+            </p>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://scholar.google.com/citations?hl=en&user=98vX7S8AAAAJ"><i
+                class="ai ai-google-scholar ai-2x" style="font-size:26px; color:#9B0145">&nbsp;</i></a>
+            <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <a href="https://www.linkedin.com/in/minjia-zhang-05857226/"><i class="fa fa-linkedin"
+                style="font-size:26px; color:#9B0145">&nbsp;</i></a>
+            <a href="https://x.com/zhangninja"><i class="fa fa-twitter"
+                style="font-size:26px; color:#9B0145">&nbsp;</i></a>
+            <a href="https://www.semanticscholar.org/author/Minjia-Zhang/67016465"><i class="ai ai-semantic-scholar ai-2x"
+                style="font-size:26px; color:#9B0145">&nbsp;</i></a>
+            <a href="https://dblp.org/pid/58/9033.html"><i class="fa fa-th-list"
+                style="font-size:26px; color:#9B0145">&nbsp;</i></a>
+            <a href="https://orcid.org/0000-0002-8165-166X"><i class="fa fa-id-card-o"
+                style="font-size:26px; color:#9B0145">&nbsp;</i></a>
+            <a href="./docs/Minjia_Zhang_Resume_063025.pdf"><i class="fa fa-file-text-o"
+                style="font-size:26px; color:#9B0145">&nbsp;</i></a>
+            <!-- <p></p> -->
+
+          </tr>
+
+          <hr style="color:rgb(218, 218, 218);">
+
+          <p>&#128293; <a style="color:#d93b3b;"><b>Prospective students</b></a>: </p>
+          <b>Prospective PhD Students</b>: I am actively looking for outstanding and highly-motivated students who are
+          intersted in the following research directions:
+
+          <p></p>
+          <ul>
+            <li> Efficient machine learning systems (training/inference on parallel/distributed/heterogeneous hardware)</li>
+            <li> Effective efficiency algorithms (post-training, reasoning model, model compression, etc.)</li>
+            <li> Large-scale DL/AI applications (Agentic AI, VLM, image/video generation/understanding, etc)</li>
+          </ul>          
+          If you are interested, please send me an email with you CV and apply to the UIUC <a href="https://cs.illinois.edu/admissions/graduate">graduate program</a>.</p>
+          <p><b>Master and Undergraduate Students</b>: I am open to act as a thesis advisor for master students and
+            internship advisor for undergraduate students. If this interests you, please send me your CV, along with the
+            following details: your current year of study, your anticipated graduation date, and project interests if
+            any. </p>
+
+          <h1><a name="biography" ; style="color:#40A6FF;">About Me</a></h1>
+          <p> I am an assistant professor (tenure-track) at the <a href="https://cs.illinois.edu/">Grainger College of
+              Engineering Computer Science</a> of the <a href="https://illinois.edu/">University of Illinois
+              Urbana-Champaign</a>. I am affiliated with the <a href="https://ece.illinois.edu/">Department of
+              Electrical and Computer Engineering</a> and <a href="https://ai.ncsa.illinois.edu/">NCSA</a> at UIUC. 
+              I lead the <a href="https://supercomputing-system-ai-lab.github.io/">Supercomputing System and AI Lab (SSAIL)</a>, and I have been very fortunate to work with students who poses exceptional motivation and skills in systems and AI.
+              <!-- I also hold a Visiting Researcher position with Microsoft.  -->
+              My group builds highly efficient systems for large-scale machine learning and develops systems like <a href="https://supercomputing-system-ai-lab.github.io/projects/ucp/">Universal Checkpointing</a>, <a href="https://supercomputing-system-ai-lab.github.io/projects/superoffload/">SuperOffload</a>, <a href="https://supercomputing-system-ai-lab.github.io/projects/xmoe/">X-MoE</a>, <a href="https://supercomputing-system-ai-lab.github.io/projects/milo/">MiLo</a>, <a href="https://supercomputing-system-ai-lab.github.io/projects/minikv/">MiniKV</a>, <a href="https://supercomputing-system-ai-lab.github.io/projects/vecflow/">VecFlow</a>, which have been published at top system and ML venues like ASPLOS, SC, USENIX ATC, MLSys, SIGMOD, ICLR, NeurIPS, ICML. Some of our technques have also been integrated into widely used open-source frameworks, such as DeepSpeed and have been adopted in both academia and industry. I'm particularly excited about building next-generation AI systems for scalable and efficient intelligence, enabling new system and modeling capabilities via deep innovations, and making the technology available to everyone. 
+              <p></p>
+              Prior to my appointment at UIUC, I had wonderful seven
+            years at Microsoft Research Redmond and WebXT division as a Principal Researcher and technical lead. I have
+            had all sorts of fun of developing highly efficient and cost-effective systems and algorithms, including but
+            not limited to: enabling and accelerating large-scale deep learning training on
+            parallel/distributed/heterogeneous hardware (e.g., <a href="https://arxiv.org/pdf/2201.05596">DeepSpeed-MoE</a>, <a href="https://arxiv.org/pdf/2309.14509">DeepSpeed-Ulysses</a>, <a href="https://www.usenix.org/system/files/atc21-ren-jie.pdf">ZeRO-Offload</a>), building ultra-fast inference engine (e.g., <a href="https://arxiv.org/pdf/2207.00032">DeepSpeed-Inference</a>, <a href="https://dl.acm.org/doi/10.5555/3277355.3277446">DeepCPU</a>), model
+            compression (e.g., <a href="https://arxiv.org/pdf/2206.01861">ZeroQuant</a>, <a href="https://arxiv.org/pdf/2206.01859">XTC</a>, <a href="https://arxiv.org/pdf/2310.01801">FastGen</a>), large-scale vector database (e.g., <a href="https://dl.acm.org/doi/abs/10.5555/3495724.3496619">HM-ANN</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3572848.3577527">iQAN</a>, <a href="https://www.cs.purdue.edu/homes/csjgwang/pubs/SIGMOD24_Vexless.pdf">Vexless</a>). Several of my work has been applied to Microsoft systems
+            and products, such as Bing, Ads, Azure SQL, Windows, etc., leading to significant latency improvement and
+            cost reduction.
+          <p></p>
+          At Microsoft, I was an early member of <a href="https://github.com/microsoft/DeepSpeed">DeepSpeed</a>, an
+          open-source deep learning optimization library that makes training and inference DL models easy, efficient,
+          and effective. DeepSpeed has enabled the training of some of the largest language models in the world, such as
+          Megatron-Turing 530B. It has been widely adopted by both the industry and academia and has become a common
+          backend for various popular DL frameworks such as HuggingFace, PyTorch Lightning, Fairscale, etc. I was also
+          the <a
+            href="https://docs.google.com/document/d/1ZThn1Tz_LA0Z2ayCfVyym9sCyedzgrUMAl0c1wMSgHc/edit">co-chair</a> of
+          the engineering/scaling group of the <a href="https://bigscience.huggingface.co/">BigScience</a> project,
+          contributing to the training of the BLOOM 176B model, which was the world's largest open multilingual language
+          model. Before DeepSpeed, I drove the <a
+            href="https://www.microsoft.com/en-us/research/publication/deepcpu-serving-rnn-based-deep-learning-models-10x-faster/">DeepCPU</a>
+          project at Microsoft, a DL inference optimization library that brought order-of-magnitude latency and cost
+          reduction to mission-critical production DL models.
+          <p></p>
+          Before joining Microsoft, I finished my Ph.D. from the Computer Science Department at <a
+            href="https://cse.osu.edu/">Ohio State University</a> in May 2016, where I was a member of the <a
+            href="https://mdbond.github.io/plass.html">PLaSS</a> group working on building efficient and scalable
+          systems with strong semantics for parallel programs and advised by <a href="https://mdbond.github.io/">Prof.
+            Michael D. Bond</a>. Along the way, I spent the summer/fall of 2015, the summer of 2016 at <a
+            href="https://www.microsoft.com/en-us/research/">Microsoft Research Redmond</a>, working with <a href="https://www.cs.utexas.edu/~mckinley/">Kathryn McKinley</a>, <a href="https://www.microsoft.com/en-us/research/people/samehe/">Sameh Elnikety</a>, and <a href="https://www.linkedin.com/in/yuxiong-he-75432112/">Yuxiong He</a>.
+          <p></p>
+          I have been serving as area chair of NeurIPS and ICLR, program committee member for ASPLOS, USENIX ATC, SIGCOMM, MLSys, IPDPS, AAAI, and reviewers for ICLR, ICML, CVPR, ICCV, ECCV, ECAI, VLDB, etc. I co-organize tutorials and workshops, such as "Mixture-of-Experts in the Era of LLMs: A New Odyssey", at ICML 2024. I have received several awards including the Distinguished Paper Award and Distinguished Artifact Award in OOPSLA 2015, Microsoft Excellence Awards, the Honorable Mention of the ICLR 2024 Outstanding Paper Award, NSF CAREER Award, and Google ML and Systems Junior Faculty Award 2025 for building highly efficient ML systems. 
+
+
+          <dl style="background-color:rgba(230, 199, 243, 0.13)">
+            <p></p>
+            <a style="color:#6c3a3af2; font-size:18px"><b>&nbsp;&nbsp;Recent News</b></a>
+            <div class="myBox" , style="overflow:scroll;height:200px">
+              <ul>
+                <li> [8/20/2025] Both LACING (effectie VLM training) and Chain-of-Cache (VLM cascading) have been accepted at EMNLP Main Conference 2025! Congratulations, everyone! </li>
+                <li> [8/16/2025] I will serve as Area Chair of ICLR 2026.</li>
+                <li> [8/14/2025] Gave an invited talk to AMD on MegaFold, our system optimization library for accelerating AlphaFold3 training.</li>
+                <li> [7/31/2025] Gave two talks on MoE and AlphaFold3 training at TPC 2025.</li>
+                <li> [7/14/2025] The work "NetZIP: Algorithm/Hardware Co-design of In-network Lossless Compression for Distributed Large Model Training" has been accepted at MICRO'25. 120 of 597 submissions accepted. Congratulations, Jinghan and Nam Sung!</li>
+                <li> [7/9/2025] I'm invited to give two talks at Trillion Parameter Consortium (TPC)'25 about system-level optimizations for accelerating protein structure prediction models and emerging MoEs.</li>
+                <li> [7/4/2025] SSAIL Lab's work FlexGaussian, which enables flexible and efficient compression of 3D Gaussian Splatting models, has been accepted at ACM MM 2025 (Oral). Congratulations, Boyuan, Eddie, Jacob, and Xiaotong!</li>
+                <li> [6/30/2025] Will serve as the Sponsorship Chair of HPCA'26. Thanks, Leon, for the invitation! </li>
+                <li> [6/26/2025] SSAIL Lab's work X-MoE, which enables efficient and cross-platform training of emerging expert-specialized MoE models such as DeepSeek-MoE, has been accepted at SC 2025. Only 136 of 643 submissions were accepted. Congratulations, Yueming, Ahan, Jianping, Sajal, and Feiyi!</li>
+                <li> [6/25/2025] SSAIL Lab's work SuperOffload, which enables efficient and cost-effective training of LLMs on Superchips, has been accepted at ASPLOS 2026. Only 20 of 208 submissions were accepted. Congratulations, Xinyu, Masahiro, and Tunji!</li>
+                <li> [6/25/2025] SSAIL Lab's work, InstantEdit, which enables efficient text-guided image editing, has been accepted at ICCV 2025. Congratulations, Nick and Zhen!</li>
+                <li> [6/20/2025] I'm honored to be selected to recevie the <a href="https://blog.google/products/google-cloud/ml-systems-junior-faculty-awards/">inaugural 2025 Google ML and Systems Junior Faculty Award</a>. Thank you, Google! </li>
+                <li> [6/5/2025] Will serve as the PC of SoCC'25. Thanks, Ryan and Ram, for the invitation! </li>
+                <li> [5/23/2025] SSAIL lab's work VecFlow has been accepted at SIGMOD 2025! Congratulations, Jingyi, Chenghao, and Ben! </li>
+                <li> [5/15/2025] Both MiniKV and MedCite have been accepted at ACL Finding 2025! Congratulations, everyone! </li>
+                <li> [5/10/2025] Will serve as the PC of the 4th Workshop on Practical Adoption Challenges of ML for Systems (PACMI'25). Thanks, Francis, for the invitation! </li>
+                <li> [4/25/2025] Our work on universal checkpointing for large-scale reconfigurable parallelism has been accepted at USENIX ATC 2025. 100 out of 634 submissions were accepted. Congratulations, Xinyu, Masahiro, Sam, Lev, Stas, and Tunji!</li>
+                <li> [4/10/2025] Gave a lighting talk at IIDAI Annual Meeting on long context extension of hybrid models.</li>
+                <li> [3/1/2025] Will serve as the session chair of the large language model track at PPoPP 2025.</li> </li>
+                <li> [2/26/2025] The work "Toward Sensor-In-the-Loop LLM Agent: Benchmarks and Implications" has been accepted at SenSys 2025!</li> </li>
+                <li> [2/17/2025] Will serve as the Area Chair of NeurIPS'2025. </li>
+                <li> [2/12/2025] Gave a talk on ``Towards Efficient and Scalable Systems for Training Large-Scale AI-based Scientific Models" at AMD-Xilinx Heterogeneous Compute Cluster (HACC) Seminar.</li>
+                <li> [2/11/2025] SSAIL Lab's work on compressing MoE models, including DeepSeek-MoE, has been accepted at MLSys 2025. Congratulations, Beichen, Yueming, and Zelei!</li>
+                <li> [2/3/2025] DeepSpeed has officially become a <a href="https://lfaidata.foundation/blog/2025/02/03/lf-ai-data-welcomes-deepspeed-advancing-deep-learning-optimization/">Linux Foundation AI & Data</a> project! Let's advance open-source AI together!</li>
+                <li> [2/3/2025] SSAIL member Xinyu Lian received the Amazon PhD Fellowship! Congratulations, Xinyu, and thank you, Amazon!</li>
+                <li> [12/31/2024] Honored to receive the NSF CAREER award, which will support our work on powering the next-generation AI models!</li>
+                <li> [11/2/2024] Two papers have been accepted at HPCA 2025! Buffalo is a system that enables large-scale GNN training through efficient bucketization, and VQ-LLM enables high-performance vector quantization for LLM inference! </li>
+                <li> [9/26/2024] Our work "UltraEdit: Instruction-based Fine-Grained Image Editing at Scale" has been accepted at NeurIPS D&B Track 2024!</li>
+                <li> [9/11/2024] Our work on "Improving Retrieval-Augmented Generation in Medicine with Iterative Follow-up Questions" has been accepted at the Pacific Synposium on Biocomputing 2025. Congratulations everyone!</li>
+                <li> [9/10/2024] I am honored to serve as both the PC and Artifact Evaluation Chair for MLSys'2025.</li>
+                <li> [8/13/2024] Will serve as the reviewer of ICLR'2025. </li>
+                <li> [8/11/2024] Will serve as the PC of IPDPS'2025. </li>
+                <li> [8/5/2024] Will serve as the ERC of PPoPP'2025. </li>
+                <li> [7/22/2024] Gave a tutorial and served as the panelist of "Mixture-of-Experts in the Era of LLMs A New Odyssey" at ICML'2024 in Vienna, Austria. </li>
+                <li> [7/5/2024] Our paper "<a href="https://arxiv.org/abs/2310.09690">Large Language Models as Configuration Validators</a>" has been accepted at ICSE 2025. Congratulations to Xinyu, Yinfang, and Tianyin! </li>
+                <li> [7/3/2024] Will serve as the program committee for the 1st Unlearning and Model Editing (<a href="https://sites.google.com/view/u-and-me-workshop">U&Me'24</a>) workshop at ECCV 2024. </li>
+                <li> [7/1/2024] <a href="https://github.com/microsoft/DeepSpeed/blob/master/blogs/deepspeed-ucp/README.md">Universal Checkpointing</a> has been released in DeepSpeed! <a href="https://github.com/microsoft/DeepSpeed/blob/master/blogs/deepspeed-ucp/chinese/README.md">[中文]</a> <a href="https://github.com/microsoft/DeepSpeed/blob/master/blogs/deepspeed-ucp/japanese/README.md">[日本語]</a></li>
+                <li> [6/30/2024] Will be serving as a TPC member of MLSys 2025. </li>
+                <li> [6/21/2024] Gave a talk on "Towards Efficient System and Algorithm for Large-Scale Scientific Discovery" at the European Trillion Parameter Consortium (TPC) Kickoff workshop in Barcelona. </li>
+                <li> [6/10/2024] Will be serving as Program Committee for AAAI 2025.</li>
+                <li> [5/7/2024] The "Model Tells You What to Discard" paper received the honorable mention of the ICLR 2024 Outstanding Paper Awards.</li>
+                <li> [5/5/2024] Our work on enabling training of massive sequence transformer models has been accepted at the 43rd ACM Symposium on Principles of Distributed Computing (PODC 2024)!</li>
+                <li> [4/29/2024] I am invited to give a talk on large-scale training at the European Trillion Parameter Consortium (TPC) Kickoff workshop in Barcelona in June. </li>
+                <li> [4/5/2024] Our tutorial of "Mixture-of-Experts in the Era of LLMs: A New Odyssey" has been accepted by ICML 2024! </li>
+                <li> [3/27/2024] Will be serving as the area chair for NeurIPS 2024. </li>
+                <li> [3/10/2024] Our work on serving vector database with serverless functions has been accepted at
+                  SIGMOD 2024! </li>
+                <li> [2/29/2024] OpenFold has been accepted in principle at Nature Methods! </li>
+                <li> [2/13/2024] Will be serving as the reviewer of the first Conference on Language Modeling
+                  (CoLM).</i>
+                <li> [2/2/2024] Will be serving in the Review Board for PVLDB from April 2024 through March 2025.</i>
+                <li> [1/17/2024] Will be serving as a reviewer for ECCV 2024.</i>
+                <li> [1/16/2024] Our paper on enabling profiling-based adaptive KV cache optimization for LLM inference
+                  has been accepted as at ICLR 2024 for oral presentation! The acceptance rate for oral this year is
+                  1.2%.</li>
+                <li> [12/27/2023] Will be serving as a PC for USENIX ATC 2024.</i>
+                <li> [12/16/2023] I will be serving as a penalist at the 3rd Efficient Natural Language and Speech
+                  Processing (ENLSP) workshop at NeurIPS 2023, New Orleans. Thank you Yu, Yue, Medhi, and Soheila for
+                  the invitation!</i>
+                <li> [12/9/2023] Our paper on enabling efficient DNN training via data efficient optimizations has been
+                  accepted at AAAI 2024!</i>
+                <li> [12/7/2023] Our paper on enabling efficient DNN training on preemptible instances has been accepted
+                  at NSDI 2024! Congrats everyone!</a>
+                <li> [12/27/2023] Will be serving as a reviewer for ICML 2024.</i>
+                <li> [10/30/2023] Will be serving as a reviewer for CVPR 2024.</i>
+                <li> [9/8/2023] Will be serving as a reviewer for MLSys 2024.</i>
+                <li> [8/24/2023] Will be serving as a reviewer for ICLR 2024.</i>
+                <li> [8/15/2023] Our paper on cost-effective on-device continual learning has been accepted at MobiCom
+                  2023!</a>
+                <li> [7/15/2023] Our paper on adversarial fine-tuning efficiency optimizations has been accepted at ECAI
+                  2023!</a>
+                <li> [3/21/2023] Will be serving as a PC for ASPLOS 2024.</i>
+                <li> [2/6/2023] Will be serving as a reviewer for ICCV 2023.</i>
+                <li> [1/21/2023] Our paper on compressed communication for large-scale training 0/1 Adam has been
+                  accepted at ICLR 2023!</a>
+                <li> [11/7/2022] Our paper on fast and accurate vector search via intra-query parallelism has been
+                  accepted at PPoPP 2023!</a>
+                <li> [9/20/2022] Our paper on large-scale GNN training on a single-node machine has been accepted at
+                  ASPLOS 2023!</li>
+                <li> [9/14/2022] Three papers have been accepted at NeurIPS 2022! 2665 out of 10411 submissions are
+                  accepted.</li>
+                <li> [7/8/2022] Our paper on large-scale DNN training on spot instances has been accepted at NSDI 2023!
+                  50 out of 272 submissions are accepted.</li>
+                <li> [6/13/2022] Our paper on large-scale inference for Transformer models has been accepted at SC 2022!
+                  81 out of 320 submissions are accepted.</li>
+                <li> [5/18/2022] Will be serving as a reviewer for ECAI 2023.</i>
+                <li> [05/5/2022] Our paper on advancing the next generation of AI via Mixture-of-Experts has been
+                  accepted at ICML 2022! 1117 out of 5630 submissions are accepted.</li>
+                <li> [2/24/2022] Our paper on continual learning has been accepted at DAC 2022!</li>
+                <li> [12/1/2021] Our paper on adversarial data augmentation for knowledge distillation has been accepted
+                  at AAAI 2022! 1349 out of 9251 submissions are accepted.</li>
+                <li> [10/11/2021] Our paper on graph sampling and pruning for nearest neighbor search has been accepted
+                  at WSDM 2022! 159 out of 786 submissions are accepted.</li>
+                <li> [9/28/2021] Our paper on semi-structured sparsity for compressing Transformer networks has been
+                  accepted at NeurIPS 2021.</li>
+              </ul>
+            </div>
+          </dl>
+
+          <!-- <p></p>
+    <h1><a name="group"; style="color:#40A6FF;">Research Group</h1>
+    <a></a> 
+    <h3>Masters/Undergrad</h2>
+    <ul>
+         <li> Joshua Wong (MS)</li>
+         <li> Alex Cheng (MS)</li>
+         <li> Akshat Sharma (MS)</li>
+         <li> Xiao Wang (MS)</li>
+         <li> Xinyu Lian (MS)</li>
+    </ul>
+    <h3>Student Visitors/Interns</h2>
+      <ul>
+           <li> Yuning Xia (MS, Cornell)</li>
+           <li> Zheng Wang (MS, Georgia Tech)</li>
+      </ul> -->
+
+
+          <p></p>
+          <h1><a name="publications" ; style="color:#40A6FF;">Research Interests and Selected Publications</h1>
+          <a></a>
+          <table border="0">
+            <tbody>
+              <tr>
+                <td width="140"><img src="figs/ucp.png" width="200"
+                      hight="200"></td>
+                <td width="20"></td>
+                <td valign="middle" width="800">
+                  <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2406.18820"> Universal Checkpointing: A Flexible and Efficient Distributed Checkpointing System for Large-Scale DNN Training with Reconfigurable Parallelism</a> </strong></p>
+                  <p class="author"> Xinyu Lian, Sam Ade Jacobs, Lev Kurilenko, Masahiro Tanaka, Stas Bekman, Olatunji Ruwase, <b>Minjia Zhang</b></p>
+                  <p class="content">
+                  <p class="caption-2"> <strong> USENIX ATC 2025 </strong>
+                  <a href="https://supercomputing-system-ai-lab.github.io/projects/ucp/">[Project Page]</a>
+                  <p><strong><font color="red">Adopted by Microsoft Phi-3.5-MoE-42B, BigScience BLOOM-176B, and many more for resilient training</font></strong> </p>
+              </tr>
+            </tbody>
+          </table>
+          </tbody>
+          </table>
+          <table border="0">
+            <tbody>
+              <tr>
+                <td width="140"><img src="figs/x-moe.png" width="200"
+                      hight="200"></td>
+                <td width="20"></td>
+                <td valign="middle" width="800">
+                  <p class="caption-1 "><strong><a href=""> X-MoE: Enabling Scalable Training for Emerging Mixture-of-Experts Architectures on HPC Platforms</a> </strong></p>
+                  <p class="author"> Yueming Yuan, Ahan Gupta, Jianping Li, Sajal Dash, Feiyi Wang, <b>Minjia Zhang</b></p>
+                  <p class="content">
+                  <p class="caption-2"> <strong> SC 2025 </strong>
+                  <a href="https://supercomputing-system-ai-lab.github.io/projects/xmoe/">[Project Page]</a>                      
+                  <p><strong><font color="red">Eanbled DeepSeek-style MoEs training with up to 545 billion parameters across
+                    1024 AMD GPUs, 10x larger than the largest trainable model with existing methods under the same hardware budget, while maintaining
+                    high training throughput. </font></strong> </p>
+                    <p><strong><font color="red">Best Student Paper Award Nomination</font></strong> </p>
+              </tr>
+            </tbody>
+          </table>
+          </tbody>
+          </table>
+          <table border="0">
+            <tbody>
+              <tr>
+                <td width="140"><img src="figs/superoffload.png" width="200"
+                      hight="200"></td>
+                <td width="20"></td>
+                <td valign="middle" width="800">
+                  <p class="caption-1 "><strong><a href=""> SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips</a> </strong></p>
+                  <p class="author"> Xinyu Lian, Masahiro Tanaka, Olatunji, Ruwase, <b>Minjia Zhang</b></b></p>
+                  <p class="content">
+                  <p class="caption-2"> <strong> ASPLOS 2026 </strong>
+                  <a href="https://supercomputing-system-ai-lab.github.io/projects/superoffload/">[Project Page]</a>                      
+                  <p><strong><font color="red">Eanbled 2.5X throughput improvement over SoTA, up to 25B model on a single GH200, and 1 million sequence length training on 8 GH200 while achieving 55% MFU.</font></strong> </p>
+              </tr>
+            </tbody>
+          </table>
+          </tbody>
+          </table>
+          <table border="0">
+            <tbody>
+              <tr>
+                <td width="140"><img src="figs/milo.png" width="200"
+                      hight="200"></td>
+                <td width="20"></td>
+                <td valign="middle" width="800">
+                  <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2504.02658"> MiLo: Efficient Quantized MoE Inference with Mixture of Low-Rank Compensators
+                      </a> </strong></p>
+                  <p class="author"> Beichen Huang*, Yueming Yuan*, Zelei Shao*, <b>Minjia Zhang</b> (*Equal contribution)</p>
+                  <p class="content">
+                  <p class="caption-2"> <strong> MLSys 2025 </strong>
+                    <a href="https://supercomputing-system-ai-lab.github.io/projects/milo/">[Project Page]</a>
+                    <p><strong><font color="red">An end-to-end solution for efficient and accurate 3-bit MoE inference, including DeepSeek-MoE </font></strong> </p>
+              </tr>
+            </tbody>
+          </table>
+          </tbody>
+          </table>
+          <table border="0">
+            <tbody>
+              <tr>
+                <td width="140"><img src="figs/vecflow.png" width="200"
+                      hight="200"></td>
+                <td width="20"></td>
+                <td valign="middle" width="800">
+                  <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2506.00812"> VecFlow: A High-Performance Vector Data Management System for Filtered-Search on GPUs
+                      </a> </strong></p>
+                  <p class="author"> Jingyi Xi*, Chenghao Mo*, Ben Karsin, Artem Chirkin, Mingqin Li, <b>Minjia Zhang</b></p>
+                  <p class="content">
+                  <p class="caption-2"> <strong> SIGMOD 2026 </strong>
+                    <a href="https://supercomputing-system-ai-lab.github.io/projects/vecflow/">[Project Page]</a>
+                    <p><strong><font color="red">The first GPU-accelerated filter-based vector search system, delivering up to 100X higher throughput than state-of-the-arts CPU-based solutions! VecFlow received a mention in NVIDIA's GTC 2025 talk on GPU-accelerated vector search. </font></strong> </p>
+              </tr>
+            </tbody>
+          </table>
+          </tbody>
+          </table>
+          <!-- <table border="0">
+            <tbody>
+              <tr>
+                <td width="140"><img src="figs/fastgen.jpg" width="200"
+                      hight="200"></td>
+                <td width="20"></td>
+                <td valign="middle" width="800">
+                  <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2310.01801.pdf"> Model Tells You What to Discard: Adaptive KV Cache Compression for
+                    LLMs
+                      </a> </strong></p>
+                  <p class="author"> Suyu Ge, Yunan Zhang, Liyuan Liu, <b>Minjia Zhang</b>, Jiawei Han, Jianfeng Gao</p>
+                  <p class="content">
+                  <p class="caption-2"> <strong> ICLR 2024 </strong></p>
+                    <strong><font color="red">Oral, Honorable Mention of the Outstanding Paper Awards</font></strong>
+              </tr>
+            </tbody>
+          </table>
+          </tbody>
+          </table> -->
+          <!-- <table border="0">
+            <tbody>
+              <tr>
+                <td width="140"><img src="figs/ds-moe.jpg" width="200"
+                      hight="200"></td>
+                <td width="20"></td>
+                <td valign="middle" width="800">
+                  <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2201.05596.pdf"> Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI
+                    Scale
+                      </a> </strong></p>
+                  <p class="author"> Samyam Rajbhandari, Conglong Li, Zhewei Yao, <b>Minjia Zhang</b>, Reza Yazdani Aminabadi,
+                    Ammar Ahmad Awan, Jeff Rasley, Yuxiong He</p>
+                  <p class="content">
+                  <p class="caption-2"> <strong> ICML 2022 </strong>
+              </tr>
+            </tbody>
+          </table>
+          </tbody>
+          </table> -->
+          <!-- <table border="0">
+            <tbody>
+              <tr>
+                <td width="140"><img src="figs/XTC-BERT.png" width="200"
+                      hight="200"></td>
+                <td width="20"></td>
+                <td valign="middle" width="800">
+                  <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2206.01859.pdf"> Extreme Compression for Pre-trained Transformers Made Simple and
+                    Efficient
+                      </a> </strong></p>
+                  <p class="author"> Xiaoxia Wu*, Zhewei Yao*, <b>Minjia Zhang*</b>, Conglong Li, Yuxiong He</p>
+                  <p class="content">
+                  <p class="caption-2"> <strong> NeurIPS 2022 <font color="red">(Oral)</font> </strong>
+              </tr>
+            </tbody>
+          </table>
+          </tbody>
+          </table> -->
+          <!-- <table border="0">
+            <tbody>
+              <tr>
+                <td width="140"><img src="figs/zero-offload.jpg" width="200"
+                      hight="200"></td>
+                <td width="20"></td>
+                <td valign="middle" width="800">
+                  <p class="caption-1 "><strong><a href="https://www.usenix.org/system/files/atc21-ren-jie.pdf"> ZeRO-Offload: Democratizing Billion-Scale Model Training
+                      </a> </strong></p>
+                  <p class="author"> Jie Ren,
+                    Samyam Rajbhandari, Reza Yazdani Aminabadi, Olatunji Ruwase, Shuangyan Yang, <b>Minjia Zhang</b>, Dong Li,
+                    Yuxiong He</p>
+                  <p class="content">
+                  <p class="caption-2"> <strong> USENIX ATC 2021 </strong>                    
+              </tr>
+            </tbody>
+          </table>
+          </tbody>
+          </table> -->
+          <div class="tab">
+            <button class="tablinks" onclick="clickHandle(event, 'Training')"><b>AI Training at Scale and Speed</b>: Breaking the Memory Wall and Beyond</button>
+            <button class="tablinks" onclick="clickHandle(event, 'Inference')"><b>Ultra-Fast Inference</b>: We Feel the Need -- The Need for Speed!</button>
+            <button class="tablinks" onclick="clickHandle(event, 'Compression')"><b>Model Compression</b>: The Fast and the Compressed</button>
+            <button class="tablinks" onclick="clickHandle(event, 'GenAI')"><b>Next-Gen Generative AI</b>: Agents, Reasoning, Multi-Modal, and Beyond</button>
+            <button class="tablinks" onclick="clickHandle(event, 'AI4Science')"><b>AI4Science</b>: Towards Efficiently Intelligent AI for Scientific Discovery</button>
+            <button class="tablinks" onclick="clickHandle(event, 'ANN')"><b>AI Vector Database</b>: High-Performance Vector Database Systems Built for Scale</button>
+            <!-- <button class="tablinks" onclick="clickHandle(event, 'EdgeAI')"><b>Bringing AI to Edge</b>: Running Powerful AI Programs on Resource-Constrainted Mobile/Edge Devices</button> -->
+            <button class="tablinks" onclick="clickHandle(event, 'Parallel')">Parallel Programming and Scalable Runtime</button>
+          </div>
+          <div id="Training" class="tabcontent">
+            <h2>AI Training at Scale and Speed: Breaking the Memory Wall and Beyond</h2>
+            <ul>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/superoffload.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href=""> SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips</a> </strong></p>
+                      <p class="author"> Xinyu Lian, Masahiro Tanaka, Olatunji, Ruwase, <b>Minjia Zhang</b></b></p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> ASPLOS 2026 </strong>
+                      <a href="https://supercomputing-system-ai-lab.github.io/projects/superoffload/">[Project Page]</a>                      
+                      <p><strong><font color="red">Eanbled 2.5X throughput improvement over SoTA, up to 25B model on a single GH200, and 1 million sequence length training on 8 GH200 while achieving 55% MFU.</font></strong> </p>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/x-moe.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href=""> X-MoE: Enabling Scalable Training for Emerging Mixture-of-Experts Architectures on HPC Platforms</a> </strong></p>
+                      <p class="author"> Yueming Yuan, Ahan Gupta, Jianping Li, Sajal Dash, Feiyi Wang, <b>Minjia Zhang</b></p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> SC 2025 </strong>
+                      <a href="https://supercomputing-system-ai-lab.github.io/projects/xmoe/">[Project Page]</a>                      
+                      <p><strong><font color="red">Eanbled DeepSeek-style MoEs training with up to 545 billion parameters across
+                        1024 AMD GPUs, 10x larger than the largest trainable model with existing methods under the same hardware budget, while maintaining
+                        high training throughput. </font></strong> </p>
+                        <p><strong><font color="red">Best Student Paper Award Nomination</font></strong> </p>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/ucp.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2406.18820"> Universal Checkpointing: A Flexible and Efficient Distributed Checkpointing System for Large-Scale DNN Training with Reconfigurable Parallelism</a> </strong></p>
+                      <p class="author"> Xinyu Lian, Sam Ade Jacobs, Lev Kurilenko, Masahiro Tanaka, Stas Bekman, Olatunji Ruwase, <b>Minjia Zhang</b></p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> USENIX ATC 2025 </strong>
+                      <a href="https://supercomputing-system-ai-lab.github.io/projects/ucp/">[Project Page]</a>
+                      <p><strong><font color="red">Adopted by Microsoft Phi-3.5-MoE-42B, BigScience BLOOM-176B, and many more for resilient training</font></strong> </p>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/netzip.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href=""> NetZIP: Algorithm/Hardware Co-design of In-network Lossless Compression for Distributed Large Model Training</a> </strong></p>
+                      <p class="author"> Jinghan Huang, Hyungyo Kim, Nachuan Wang,Jaeyoung Kang, Hrishi Shah, Eun Kyung Lee, <b>Minjia Zhang</b>, Fan Lai, Nam Sung Kim</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> MICRO 2025 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/buffalo.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://ieeexplore.ieee.org/document/10946779"> Buffalo: Enabling Large-Scale GNN Training via Memory-Efficient Bucketization
+                          </a> </strong></p>
+                      <p class="author"> Shuangyan Yang, <b>Minjia Zhang</b>, Dong Li</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> HPCA 2025 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/ds-ulysses.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2309.14509">DeepSpeed-Ulysses: System Optimizations for Enabling Training of Extreme Long Sequence Transformer Models</a> </strong></p>
+                      <p class="author"> Sam Ade Jacobs, Masahiro Tanaka, Chengming Zhang, <b>Minjia Zhang</b>, Reza Yazdani Aminabadi, Shuaiwen Leon Song, Samyam Rajbhandari, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> PODC 2024 </strong>                      
+                      <p><strong><font color="red">Adopted by <a href="https://samforeman.me/posts/auroragpt/long-sequences/">ANL</a> for LLM training with massive sequence lengths</font></strong> </p>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/parcae.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/abs/2403.14097"> Parcae: Proactive, Liveput-Optimized DNN Training on Preemptible Instances
+                          </a> </strong></p>
+                      <p class="author"> Jiangfei Duan, Ziang Song, Xupeng Miao, Xiaoli Xi, Dahua Lin, Harry Xu, <b>Minjia Zhang</b>, Zhihao Jia</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> NSDI 2024 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/ds-data-efficiency.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29810/31404"> DeepSpeed Data Efficiency: Improving Deep Learning Model Quality and Training Efficiency via Efficient Data Sampling and Routing
+                          </a> </strong></p>
+                      <p class="author"> Conglong Li, Zhewei Yao, Xiaoxia Wu, <b>Minjia
+                        Zhang</b>, Connor Holmes, Cheng Li, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> AAAI 2024 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/scala.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://ebooks.iospress.nl/doi/10.3233/FAIA230619"> Revisiting the Efficiency-Accuracy Tradeoff in Adapting Transformer Models via
+                        Adversarial Fine-Tuning
+                          </a> </strong></p>
+                      <p class="author"> <b>Minjia Zhang</b>, Niranjan Uma Naresh, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> ECAI 2023 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/01adam.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2202.06009.pdf"> Maximizing Communication Efficiency for Large-scale Training via 0/1 Adam
+                          </a> </strong></p>
+                      <p class="author"> Yucheng Lu, Conglong Li, <b>Minjia Zhang</b>, Christopher De Sa, Yuxiong He</li></p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> ICLR 2023 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/betty.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://dl.acm.org/doi/pdf/10.1145/3575693.3575725"> Betty: Enabling Large-Scale GNN Training with Batch-Level Graph
+                        Partitioning
+                          </a> </strong></p>
+                      <p class="author"> Shuangyan Yang, <b>Minjia Zhang</b>, Wenqian Dong, Dong Li</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> ASPLOS 2023 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/bamboo.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/abs/2204.12013"> Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large
+                        DNNs
+                          </a> </strong></p>
+                      <p class="author"> John Thorpe, Pengzhan Zhao, Jonathan Eyolfson, Yifan Qiao, Zhihao Jia, <b>Minjia Zhang</b>,
+                        Ravi Netravali, Guoqing Harry Xu</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> NSDI 2023 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/miro.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://dl.acm.org/doi/10.1145/3570361.3613297"> Cost-effective On-device Continual Learning over Memory Hierarchy with
+                        Miro
+                          </a> </strong></p>
+                      <p class="author">Xinyue Ma, Suyeon Jeong, <b>Minjia Zhang</b>, Di Wang, Jonghyun Choi, Myeonjae Jeon</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> MobiCom 2023 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/carm.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://dl.acm.org/doi/10.1145/3489517.3530587"> CarM: Hierarchical Episodic Memory for Continual Learning
+                          </a> </strong></p>
+                      <p class="author">Soobee Lee,
+                        Minindu Weerakoon, Jonghyun Choi, <b>Minjia Zhang</b>, Di Wang, Myeongjae Jeon</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> DAC 2022 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/ds-moe.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2201.05596.pdf"> Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI
+                        Scale
+                          </a> </strong></p>
+                      <p class="author"> Samyam Rajbhandari, Conglong Li, Zhewei Yao, <b>Minjia Zhang</b>, Reza Yazdani Aminabadi,
+                        Ammar Ahmad Awan, Jeff Rasley, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> ICML 2022 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/bloom176b.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2211.05100.pdf"> BLOOM: A 176B-Parameter Open-Access Multilingual Language Model
+                          </a> </strong></p>
+                      <p class="author"> BigScience Team</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> ACL 2022 BigScience Workshop </strong>
+                        <p><strong><font color="red">The first 176B open-access language model designed and built through the <a href="https://huggingface.co/papers/2211.05100">BigScience</a> initiative.</font></strong> </p>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/curriculum.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2108.06084.pdf"> The Stability-Efficiency Dilemma: Investigating Sequence Length
+                        Warmup for Training GPT Models
+                          </a> </strong></p>
+                      <p class="author"> Conglong Li, <b>Minjia Zhang</b>, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> NeurIPS 2022 <font color="red">(Spotlight)</font> </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/zero-offload.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://www.usenix.org/system/files/atc21-ren-jie.pdf"> ZeRO-Offload: Democratizing Billion-Scale Model Training
+                          </a> </strong></p>
+                      <p class="author"> Jie Ren,
+                        Samyam Rajbhandari, Reza Yazdani Aminabadi, Olatunji Ruwase, Shuangyan Yang, <b>Minjia Zhang</b>, Dong Li,
+                        Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> USENIX ATC 2021 </strong>
+                        <p><strong><font color="red">You can EASILY train 10x bigger models on your GPU with ZeRO-Offload!</font></strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/sentinel.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://ieeexplore.ieee.org/document/9407112"> Efficient Tensor Migration and Allocation on Heterogeneous Memory Systems for
+                        Deep Learning
+                          </a> </strong></p>
+                      <p class="author"> Jie Ren, Jiaolin Luo, Kai Wu, <b>Minjia Zhang</b>, Hyeran Jeon, Dong Li</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> HPCA 2021 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/pld.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2010.13369.pdf"> Accelerating Training of Transformer-Based Language Models with Progressive
+                        Layer Dropping
+                          </a> </strong></p>
+                      <p class="author"> <b>Minjia Zhang</b>, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> NeurIPS 2020 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+            </ul>
+          </div>
+        
+          <div id="Inference" class="tabcontent">
+            <h2>Ultra-Fast Inference: We Feel the Need -- The Need for Speed </h2>
+            <ul>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/vq-llm.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2503.02236"> VQ-LLM: High-performance Code Generation for Vector Quantization Augmented LLM Inference
+                          </a> </strong></p>
+                      <p class="author"> Zihan Liu, Xinhao Luo, Junxian Guo, Wentao Ni,Yangjie Zhou,Yue Guan, Cong Guo, Weihao Cui, Yu Feng, Minyi Guo, Yuhao Zhu, <b>Minjia Zhang</b>, Jingwen Leng, Chen Jin</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> HPCA 2025 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/ds-inference.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2207.00032.pdf"> DeepSpeed-Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale
+                          </a> </strong></p>
+                      <p class="author"> Reza Yazdani Aminabadi, Samyam Rajbhandari, <b>Minjia Zhang</b>, Ammar Ahmad Awan, Cheng Li, Du Li, Elton
+                        Zheng, Olatunji Ruwase, Shaden Smith, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> SC 2022 </strong>
+                        <p><strong><font color="red">Comprehensive system optimizations for LLM inference.</font></strong> </p>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/multi-tenant.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2203.09040.pdf"> A Survey of Multi-Tenant Deep Learning Inference on GPU
+                          </a> </strong></p>
+                      <p class="author"> Fuxun Yu,
+                        Di Wang, Longfei Shangguan, <b>Minjia Zhang</b>, Chenchen Liu, Xiang Chen</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> MLSys Workshop 2022 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/sharp.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/1911.01258.pdf"> SHARP: An Adaptable, Energy-Efficient Accelerator for Recurrent Neural
+                        Network
+                          </a> </strong></p>
+                      <p class="author"> Reza Yazdani, Olatunji Ruwase, <b>Minjia Zhang</b>, Yuxiong He, Jose-Maria Arnau, Antonio
+                        Gonzalez</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> TECS 2022 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/dynatune.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://openreview.net/pdf?id=GTGb3M_KcUl"> DynaTune: Dynamic Tensor Program Optimization in Deep Neural Network
+                        Compilation
+                          </a> </strong></p>
+                      <p class="author"> <b>Minjia Zhang</b>*, Menghao Li*, Chi Wang, Minqin Li</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> ICLR 2021 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/duet1.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://ieeexplore.ieee.org/document/9460468"> DUET: Compiler-Aware Subgraph Scheduling for Tensor Programs on a Coupled CPU-GPU
+                        Architecture
+                          </a> </strong></p>
+                      <p class="author"> <b>Minjia Zhang</b>*, Zehua Hu*, Minqin Li. *Equal contribution</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> IPDPS 2021 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/adatune.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://proceedings.neurips.cc/paper/2020/file/a9b7ba70783b617e9998dc4dd82eb3c5-Paper.pdf"> AdaTune: Adaptive Tensor Program Compilation Made Efficient
+                          </a> </strong></p>
+                      <p class="author"> Menghao Li*,
+                        <b>Minjia Zhang</b>*, Chi Wang, Minqin Li. *Equal contribution</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> NeurIPS 2020 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/deepcpu-ms.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://www.usenix.org/conference/opml19/presentation/zhang-minjia"> Accelerating Large Scale Deep Learning Inference through DeepCPU at
+                        Microsoft
+                          </a> </strong></p>
+                      <p class="author"> <b>Minjia Zhang</b>, Samyam Rajbandari, Wenhan Wang, Elton Zheng, Olatunji Ruwase, Jeff
+                        Rasley, Jason Li, Junhua Wang, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> USENIX OpML 2019 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/deepcpu.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://dl.acm.org/doi/10.5555/3277355.3277446"> DeepCPU: Serving RNN-based Deep Learning Models 10x Faster
+                          </a> </strong></p>
+                      <p class="author"> <b>Minjia
+                        Zhang</b>*, Samyam Rajbhandari*, Wenhan Wang, Yuxiong He. *Equal contribution.</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> USENIX ATC 2018 </strong>
+                        <p><strong><font color="red">Ship DL models in Microsoft with great latency/cost reduction.</font></strong> </p>
+                        <p><strong><font color="red">Selected for Microsoft CTO Kevin Scott's one of the three ``Cool Tech" Showcase 2017.</font></strong> </p>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+            </ul>
+          </div>
+        
+          <div id="Compression" class="tabcontent">
+            <h2>Model Compression: The Fast and the Compressed</h2>
+            <ul>
+               <table border="0">
+                <table border="0">
+                  <tbody>
+                    <tr>
+                      <td width="140"><img src="figs/minikv.png" width="200"
+                            hight="200"></td>
+                      <td width="20"></td>
+                      <td valign="middle" width="800">
+                        <p class="caption-1 "><strong><a href="https://aclanthology.org/2025.findings-acl.952/"> MiniKV: Pushing the Limits of 2-Bit KV Cache via Compression and System Co-Design for Efficient Long Context Inference
+                            </a> </strong></p>
+                        <p class="author"> Akshat Sharma, Hangliang Ding, Jianping Li, Neel Dani, <b>Minjia Zhang</b></p>
+                        <p class="content">
+                        <p class="caption-2"> <strong> ACL Finding 2025 </strong>
+                          <a href="https://supercomputing-system-ai-lab.github.io/projects/minikv/">[Project Page]</a>                          
+                    </tr>
+                  </tbody>
+                </table>
+                </tbody>
+              </table>
+              <table border="0">
+                  <table border="0">
+                    <tbody>
+                      <tr>
+                        <td width="140"><img src="figs/milo.png" width="200"
+                              hight="200"></td>
+                        <td width="20"></td>
+                        <td valign="middle" width="800">
+                          <p class="caption-1 "><strong><a href="https://beichenhuang.github.io/assets/file/MiLo_effective_MoE_quantization.pdf"> MiLo: Efficient Quantized MoE Inference with Mixture of Low-Rank Compensators
+                              </a> </strong></p>
+                          <p class="author"> Beichen Huang*, Yueming Yuan*, Zelei Shao*, <b>Minjia Zhang</b> (*Equal contribution)</p>
+                          <p class="content">
+                          <p class="caption-2"> <strong> MLSys 2025 </strong>
+                            <a href="https://supercomputing-system-ai-lab.github.io/projects/milo/">[Project Page]</a>
+                            <p><strong><font color="red">An end-to-end solution for efficient and accurate 3-bit MoE inference, including DeepSeek-MoE </font></strong> </p>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/kvmerger.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/abs/2407.08454"> Model Tells You Where to Merge: Adaptive KV Cache Merging for LLMs on Long-Context Tasks
+                          </a> </strong></p>
+                      <p class="author"> Zheng Wang, Boxiao Jin, Zhongzhi Yu, <b>Minjia Zhang</b></p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> Preprint </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/fastgen.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2310.01801.pdf"> Model Tells You What to Discard: Adaptive KV Cache Compression for
+                        LLMs
+                          </a> </strong></p>
+                      <p class="author"> Suyu Ge, Yunan Zhang, Liyuan Liu, <b>Minjia Zhang</b>, Jiawei Han, Jianfeng Gao</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> ICLR 2024 </strong>
+                        <strong><font color="red">Oral, Honorable Mention of the Outstanding Paper Awards</font></strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/XTC-BERT.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2206.01859.pdf"> Extreme Compression for Pre-trained Transformers Made Simple and
+                        Efficient
+                          </a> </strong></p>
+                      <p class="author"> Xiaoxia Wu*, Zhewei Yao*, <b>Minjia Zhang*</b>, Conglong Li, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> NeurIPS 2022 <font color="red">(Oral)</font> </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/zeroquant.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2206.01861.pdf"> ZeroQuant: Efficient and Affordable Post-Training Quantization for
+                        Large-Scale Transformers
+                          </a> </strong></p>
+                      <p class="author"> Zhewei Yao, Reza Yazdani Aminabadi, <b>Minjia Zhang</b>, Xiaoxia Wu,
+                        Conglong Li, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> NeurIPS 2022 <font color="red">(Spotlight)</font> </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/ad2.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://ojs.aaai.org/index.php/AAAI/article/view/21423"> Adversarial Data Augmentation for Task-Specific Knowledge Distillation of
+                        Pre-Trained Transformers
+                          </a> </strong></p>
+                      <p class="author"> <b>Minjia Zhang</b>, Niranjan Uma Naresh, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> AAAI 2022 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/nxmformer.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://proceedings.neurips.cc/paper/2021/file/0e4f5cc9f4f3f7f1651a6b9f9214e5b1-Paper.pdf"> NxMTransformer: Semi-Structured Sparsification for Natural Language
+                        Understanding via ADMM
+                          </a> </strong></p>
+                      <p class="author"> Connor Holmes, <b>Minjia Zhang</b>, Yuxiong He, Bo Wu</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> NeurIPS 2021 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/fgd.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://papers.nips.cc/paper_files/paper/2018/file/366f0bc7bd1d4bf414073cabbadfdfcd-Paper.pdf"> Navigating with Graph Representations for Fast and Scalable Decoding of Neural
+                        Language Models
+                          </a> </strong></p>
+                      <p class="author"> <b>Minjia Zhang</b>, Xiaodong Liu, Wenhan Wang, Jianfeng Gao, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> NeurIPS 2018 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/iss.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/1709.05027.pdf"> Learning Intrinsic Sparse Structures within Long Short-Term Memory
+                          </a> </strong></p>
+                      <p class="author"> Wei Wen,
+                        Yuxiong He, Samyam Rajbhandari, <b>Minjia Zhang</b>, Wenhan Wang, Fang Liu, Bin Hu, Yiran Chen, Hai Li</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> ICLR 2018 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+            </ul>
+          </div>
+
+          <div id="AI4Science" class="tabcontent">
+            <h2>AI4Science: Towards Efficiently Intelligent AI for Scientific Discovery</h2>
+            <ul>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/megafold.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/abs/2506.20686"> MegaFold: System-Level Optimizations for Accelerating Protein Structure Prediction Models</a> </strong></p>
+                      <p class="author">Hoa La*, Ahan Gupta*, Alex Morehead, Jianlin Cheng, <b>Minjia Zhang</b> (*Equal contribution)</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> Arxiv 2025 </strong>
+                        <a href="https://supercomputing-system-ai-lab.github.io/projects/megafold/">[Project Page]</a> 
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <table border="0">
+                  <tbody>
+                    <tr>
+                      <td width="140"><img src="figs/medcite.png" width="200"
+                            hight="200"></td>
+                      <td width="20"></td>
+                      <td valign="middle" width="800">
+                        <p class="caption-1 "><strong><a href="https://aclanthology.org/2025.findings-acl.967/"> MedCite: Can Language Models Generate Verifiable Text for Medicine?
+                            </a> </strong></p>
+                        <p class="author"> Xiao Wang, Mengjue Tan, Qiao Jin, Guangzhi Xiong, Yu Hu, Aidong Zhang, Zhiyong Lu, <b>Minjia Zhang</b></p>
+                        <p class="content">
+                        <p class="caption-2"> <strong> ACL Finding 2025 </strong>
+                          <a href="https://supercomputing-system-ai-lab.github.io/projects/medcite/">[Project Page]</a>                          
+                    </tr>
+                  </tbody>
+                </table>
+                </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/iMedRAG.jpg" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2408.00727"> Improving Retrieval-Augmented Generation in Medicine with Iterative Follow-up Questions
+                          </a> </strong></p>
+                      <p class="author"> Guangzhi Xiong*, Qiao Jin*, Xiao Wang, <b>Minjia Zhang</b>, Zhiyong Lu, Aidong Zhang</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> Pacific Symposium on Biocomputing 2024 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                  <tbody>
+                    <tr>
+                      <td width="140"><img src="figs/openfold.png" width="200"
+                            hight="200"></td>
+                      <td width="20"></td>
+                      <td valign="middle" width="800">
+                        <p class="caption-1 "><strong><a href="https://www.nature.com/articles/s41592-024-02272-z"> OpenFold: Retraining AlphaFold2 yields new insights into its learning
+                          mechanisms and capacity for generalization
+                            </a> </strong></p>
+                        <p class="author"> Gustaf Ahdritz, Nazim Bouatta, Christina Floristean, Sachin Kadyan, Qinghui Xia, William Gerecke, Timothy J. O’Donnell, Daniel Berenberg, Ian Fisk, Niccolò Zanichelli, Bo Zhang, Arkadiusz Nowaczynski, Bei Wang, Marta M. Stepniewska-Dziubinska, Shang Zhang, Adegoke Ojewole, Murat Efe Guney, Stella Biderman, Andrew M. Watkins, Stephen Ra, Pablo Ribalta Lorenzo, Lucas Nivon, Brian Weitzner, Yih-En Andrew Ban, Shiyang Chen, <b>Minjia Zhang</b>, Conglong Li, Shuaiwen Leon Song, Yuxiong He, Peter K. Sorger, Emad Mostaque, Zhao Zhang, Richard Bonneau & Mohammed AlQuraishi</p>
+                        <p class="content">
+                        <p class="caption-2"> <strong> Nature Methods 2024 </strong>
+                    </tr>
+                  </tbody>
+                </table>
+                </tbody>
+                </table>
+                <table border="0">
+                  <tbody>
+                    <tr>
+                      <td width="140"><img src="figs/ds4science.png" width="200"
+                            hight="200"></td>
+                      <td width="20"></td>
+                      <td valign="middle" width="800">
+                        <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2310.04610.pdf"> DeepSpeed4Science Initiative: Enabling Large-Scale Scientific
+                          Discovery through Sophisticated AI System Technologies
+                            </a> </strong></p>
+                        <p class="author"> Shuaiwen Leon Song, Bonnie Kruft,
+                          <b>Minjia Zhang</b>, Conglong Li, Shiyang Chen, Chengming Zhang, and all</p>
+                        <p class="content">
+                        <p class="caption-2"> <strong> NeurIPS AI4Science Workshop 2023 </strong>
+                    </tr>
+                  </tbody>
+                </table>
+                </tbody>
+                </table>
+            </ul>
+          </div>
+
+          <div id="GenAI" class="tabcontent">
+            <h2>Next-Gen Generative AI: Agents, Reasoning, Multi-Modal, and Beyond</h2>
+            <ul>
+              <table border="0">
+                <table border="0">
+                  <tbody>
+                    <tr>
+                      <td width="140"><img src="figs/lacing.png" width="200"
+                            hight="200"></td>
+                      <td width="20"></td>
+                      <td valign="middle" width="800">
+                        <p class="caption-1 "><strong><a href=""> Looking Beyond Text: Reducing Language bias in Large Vision-Language
+                            Models via Multimodal Dual-Attention and Soft-Image Guidance</a> </strong></p>
+                        <p class="author"> Haozhe Zhao, Shuzheng Si, Liang Chen, Yichi Zhang, Maosong Sun, Baobao Chang, <b>Minjia Zhang</b></p>
+                        <p class="content">
+                        <p class="caption-2"> <strong> EMNLP 2025 </strong>
+                          <a href="https://lacing-lvlm.github.io/">[Project Page]</a>                          
+                    </tr>
+                  </tbody>
+                </table>
+                </tbody>
+              </table>
+              <table border="0">
+                <table border="0">
+                  <tbody>
+                    <tr>
+                      <td width="140"><img src="figs/cache-of-thoughts.png" width="200"
+                            hight="200"></td>
+                      <td width="20"></td>
+                      <td valign="middle" width="800">
+                        <p class="caption-1 "><strong><a href=""> Cache-of-Thought: Master-Apprentice Framework for Cost-Effective Vision Language Model Inference</a> </strong></p>
+                        <p class="author"> Mingyuan Wu, Jize Jiang, Haozhen Zheng, Meitang Li, Zhaoheng Li, Beitong Tian, Bo Chen, Yongjoo Park, <b>Minjia Zhang</b>, ChengXiang Zhai, Klara Nahrstedt</p>
+                        <p class="content">
+                        <p class="caption-2"> <strong> EMNLP 2025 </strong>
+                          <!-- <a href="https://supercomputing-system-ai-lab.github.io/projects/flexgaussian/">[Project Page]</a>                           -->
+                    </tr>
+                  </tbody>
+                </table>
+                </tbody>
+              </table>
+              <table border="0">
+                <table border="0">
+                  <tbody>
+                    <tr>
+                      <td width="140"><img src="figs/flexgaussian.jpg" width="200"
+                            hight="200"></td>
+                      <td width="20"></td>
+                      <td valign="middle" width="800">
+                        <p class="caption-1 "><strong><a href="https://arxiv.org/abs/2507.06671"> FlexGaussian: Flexible and Cost-Effective Training-Free Compression for 3D Gaussian Splatting
+                            </a> </strong></p>
+                        <p class="author"> Boyuan Tian, Qizhe Gao, Siran Xianyu, Xiaotong Cui, <b>Minjia Zhang</b></p>
+                        <p class="content">
+                        <p class="caption-2"> <strong> ACM MM 2025  <font color="red">(Oral)</font> </strong>
+                          <a href="https://supercomputing-system-ai-lab.github.io/projects/flexgaussian/">[Project Page]</a>                          
+                    </tr>
+                  </tbody>
+                </table>
+                </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/instantEdit.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/abs/2508.06033"> InstantEdit: Text-Guided Few-Step Image Editing with Piecewise Rectified Flow
+                          </a> </strong></p>
+                      <p class="author">Nick Gong, Zhen Zhu, <b>Minjia Zhang</b></p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> ICCV 2025 </strong>
+                        <a href="https://supercomputing-system-ai-lab.github.io/projects/instantedit/">[Project Page]</a>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/WellMax.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://dl.acm.org/doi/10.1145/3715014.3722082"> Toward Sensor-In-the-Loop LLM Agent: Benchmarks and Implications
+                          </a> </strong></p>
+                      <p class="author">Zhiwei Ren, Junbo Li, <b>Minjia Zhang</b>, Di Wang, Xiaoran Fan, Longfei Shangguan</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> SenSys 2025 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/ciri.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/abs/2310.09690"> Large Language Models as Configuration Validators</a> </strong></p>
+                      <p class="author">Xinyu Lian, Yinfang Chen, Runxiang Cheng, Jie Huang, Parth Thakkar, <b>Minjia Zhang</b>, Tianyin Xu</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> ICSE 2025 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/diffusion-survey.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2309.00810"> RenAIssance: A Survey into AI Text-to-Image Generation in the Era of Large
+                        Model
+                          </a> </strong></p>
+                      <p class="author"> Fengxiang Bie, Yibo Yang, Zhongzhu Zhou, Adam Ghanem, <b>Minjia Zhang</b>, Zhewei Yao,
+                        Xiaoxia Wu, Connor Holmes, Pareesa Golnari, David A. Clifton, Yuxiong He, Dacheng Tao, Shuaiwen Leon Song</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> IEEE Transactions on Pattern Analysis and Machine Intelligence 2025 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/ultraedit.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/abs/2407.05282"> UltraEdit: Instruction-based Fine-Grained Image Editing at Scale</a> </strong></p>
+                      <p class="author">Haozhe Zhao, Xiaojian Ma, Liang Chen, Shuzheng Si, Rujie Wu, Kaikai An, Peiyu Yu, <b>Minjia Zhang</b>, Qing Li, Baobao Chang</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> NeurIPS 2024 D&B </strong>
+                      <a href="https://huggingface.co/spaces/jeasinema/UltraEdit-SD3">[Project Page (w. Demo)]</a>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/ds-chat.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2308.01320"> DeepSpeed-Chat: Easy, Fast and Affordable RLHF Training of ChatGPT-like Models at
+                        All Scales
+                          </a> </strong></p>
+                      <p class="author">Zhewei Yao, Reza Yazdani Aminabadi, Olatunji Ruwase, Samyam Rajbhandari, Xiaoxia Wu,
+                        Ammar Ahmad Awan, Jeff Rasley, <b>Minjia Zhang</b>, Conglong Li, Connor Holmes, Zhongzhu Zhou, Michael
+                        Wyatt, Molly Smith, Lev Kurilenko, Heyang Qin, Masahiro Tanaka, Shuai Che, Shuaiwen Leon Song, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> Preprint </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/ds-vchat.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://arxiv.org/abs/2309.14327"> DeepSpeed-VisualChat: Multi-Round Multi-Image Interleave Chat via Multi-Modal
+                        Causal Attention
+                          </a> </strong></p>
+                      <p class="author">Zhewei Yao, Xiaoxia Wu, Conglong Li, <b>Minjia Zhang</b>, Heyang Qi, Olatunji
+                        Ruwase, Ammar Ahmad Awan, Samyam Rajbhandari, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> Preprint </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+            </ul>    
+          </div>
+
+          <div id="ANN" class="tabcontent">
+                      <!-- <h2>Efficient Nearest Neighbor Methods and Their Applications in Large-Scale Vector Search</h2> -->
+          <h2> High-Performance Vector Database Systems Built for Speed and Scale</h2>
+          <ul>
+            <table border="0">
+              <tbody>
+                <tr>
+                  <td width="140"><img src="figs/vecflow.png" width="200"
+                        hight="200"></td>
+                  <td width="20"></td>
+                  <td valign="middle" width="800">
+                    <p class="caption-1 "><strong><a href="https://arxiv.org/pdf/2506.00812"> VecFlow: A High-Performance Vector Data Management System for Filtered-Search on GPUs
+                        </a> </strong></p>
+                    <p class="author"> Jingyi Xi*, Chenghao Mo*, Ben Karsin, Artem Chirkin, Mingqin Li, <b>Minjia Zhang</b></p>
+                    <p class="content">
+                    <p class="caption-2"> <strong> SIGMOD 2026 </strong>
+                      <a href="https://supercomputing-system-ai-lab.github.io/projects/vecflow/">[Project Page]</a>
+                      <p><strong><font color="red">The first GPU-accelerated filter-based vector search system, delivering up to 100X higher throughput than state-of-the-arts CPU-based solutions! VecFlow received a mention in NVIDIA's GTC 2025 talk on GPU-accelerated vector search. </font></strong> </p>
+                </tr>
+              </tbody>
+            </table>
+            </tbody>
+            </table>
+            <table border="0">
+              <tbody>
+                <tr>
+                  <td width="140"><img src="figs/vexless.png" width="200"
+                        hight="200"></td>
+                  <td width="20"></td>
+                  <td valign="middle" width="800">
+                    <p class="caption-1 "><strong><a href="https://www.cs.purdue.edu/homes/csjgwang/pubs/SIGMOD24_Vexless.pdf"> Vexless: A Serverless Vector Data Management System Using Cloud Functions
+                        </a> </strong></p>
+                    <p class="author"> Yongye Su, Yinqi Sun, <b>Minjia Zhag</b>, Jianguo Wang</p>
+                    <p class="content">
+                    <p class="caption-2"> <strong> SIGMOD 2024 </strong>
+                </tr>
+              </tbody>
+            </table>
+            </tbody>
+            </table>
+            <!-- <li><b>IEEE Data Engineering Bulletin 2023</b> "<em>Exploiting Modern Hardware Architectures for
+                High-Dimensional Vector Search at Speed and Scale</em>", <b>Minjia Zhang</b>, Jie Ren, Zhen Peng,
+              Ruoming Jin, Dong Li, and Bin Ren</li> -->
+            <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/iqan.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://dl.acm.org/doi/pdf/10.1145/3572848.3577527"> iQAN: Fast and Accurate Vector Search with Efficient Intra-Query Parallelism on
+                        Multi-Core Architectures
+                          </a> </strong></p>
+                      <p class="author"> Zhen Peng, <b>Minjia Zhang</b>, Kai Li, Ruoming Jin, Bin Ren</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> PPoPP 2023 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/grasp.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://dl.acm.org/doi/10.1145/3488560.3498425"> GraSP: Optimizing Graph-based Nearest Neighbor Search with Subgraph Sampling and
+                        Pruning
+                          </a> </strong></p>
+                      <p class="author"> <b>Minjia Zhang</b>, Wenhan Wang, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> WSDM 2022 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/hmann.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://dl.acm.org/doi/abs/10.5555/3495724.3496619"> HM-ANN: Efficient Billion-Point Nearest Neighbor Search on Heterogeneous
+                        Memory
+                          </a> </strong></p>
+                      <p class="author"> Jie Ren, <b>Minjia Zhang</b>, Dong Li</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> NeurIPS 2020 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/l2s.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://dl.acm.org/doi/10.1145/3318464.3380600"> Improving Approximate Nearest Neighbor Search through Learned Adaptive Early
+                        Termination
+                          </a> </strong></p>
+                      <p class="author"> Conglong Li, <b>Minjia Zhang</b>, Yuxiong He, David Anderson</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> SIGMOD 2020 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/zoom.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://dl.acm.org/doi/10.1145/3357384.3357938"> GRIP: Multi-Store Capacity-Optimized High-Performance Nearest Neighbor Search for
+                        Vector Search Engine
+                          </a> </strong></p>
+                      <p class="author"> <b>Minjia Zhang</b>, Yuxiong He</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> CIKM 2019 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+            </ul>
+          </div>
+
+          <!-- <div id="EdgeAI" class="tabcontent">
+            <h2>Bringing AI to Edge: Running Powerful AI Programs on Resource-Constrainted Mobile/Edge Devices</h2>
+            <ul>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/miro.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://dl.acm.org/doi/10.1145/3570361.3613297"> Cost-effective On-device Continual Learning over Memory Hierarchy with
+                        Miro
+                          </a> </strong></p>
+                      <p class="author">Xinyue Ma, Suyeon Jeong, <b>Minjia Zhang</b>, Di Wang, Jonghyun Choi, Myeonjae Jeon</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> MobiCom 2023 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="140"><img src="figs/carm.png" width="200"
+                          hight="200"></td>
+                    <td width="20"></td>
+                    <td valign="middle" width="800">
+                      <p class="caption-1 "><strong><a href="https://dl.acm.org/doi/10.1145/3489517.3530587"> CarM: Hierarchical Episodic Memory for Continual Learning
+                          </a> </strong></p>
+                      <p class="author">Soobee Lee,
+                        Minindu Weerakoon, Jonghyun Choi, <b>Minjia Zhang</b>, Di Wang, Myeongjae Jeon</p>
+                      <p class="content">
+                      <p class="caption-2"> <strong> DAC 2022 </strong>
+                  </tr>
+                </tbody>
+              </table>
+              </tbody>
+              </table>
+            </ul>
+          </div> -->
+
+          <div id="Parallel" class="tabcontent">
+              <h2>Parallel Computing and Scalable Runtime</h2>
+              <ul>
+                <li><b>TOPC 2017</b> "<em>Hybridizing and Relaxing Dependence Tracking for Efficient Parallel Runtime
+                    Support</em>", Man Cao, <b>Minjia Zhang</b>, Aritra Sengupta, Swarnendu Biswas, and Michael D. Bond, In
+                  ACM Transactions on Parallel Computing.
+                <li><b>ISMM 2017</b> "<em>Avoiding Consistency Exceptions Under Strong Memory Consistency Models</em>",
+                  <b>Minjia Zhang</b>, Swarnendu Biswas, Michael D. Bond, in the 2017 ACM SIGPLAN International Symposium on
+                  Memory Management.
+                <li><b>CC 2017</b> "<em>Lightweight Data Race Detection for Production Runs</em>", Swarnendu Biswas, Man
+                  Cao, <b>Minjia Zhang</b>, Michael D. Bond, and Benjamin P. Wood, in the 26th International Conference on
+                  Compiler Construction.
+                <li><b>PPoPP 2017</b> "<em>On the Problem of Consistency Exceptions in the Context of Strong Memory
+                    Models</em>", <b>Minjia Zhang</b>, Swarnendu Biswas, Michael D. Bond, in the 22th ACM SIGPLAN Symposium
+                  on Principles and Practice of Parallel Programming.
+                <li><b>CC 2016</b> "<em>Relaxed Dependence Tracking for Parallel Runtime Support</em>", <b>Minjia Zhang</b>,
+                  Swarnendu Biswas, Michael D. Bond, in the 25th International Conference on Compiler Construction.
+                <li><b>PPoPP 2016</b> "<em>Drinking from Both Glasses: Combining Pessimistic and Optimistic Tracking of
+                    Cross-Thread Dependences</em>", Man Cao, <b>Minjia Zhang</b>, Aritra Sengupta, and Michael Bond, in the
+                  21th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming.
+                <li><b>OOPSLA 2015</b> "<em>Valor: Efficient, Software-Only Region Conflict Exceptions</em>"(Distinguished
+                  Artifact Award, Distinguished Paper Award), Swarnendu Biswas, <b>Minjia Zhang</b>, Michael D. Bond, and
+                  Brandon Lucia, in the 2015 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems,
+                  Languages, and Applications.
+                <li><b>PPoPP 2015</b> "<em>Low-Overhead Software Transactional Memory with Progress Guarantees and Strong
+                    Semantics</em>", <b>Minjia Zhang</b>, Jipeng Huang, Man Cao, and Michael D. Bond, in the 20th ACM
+                  SIGPLAN Symposium on Principles and Practice of Parallel Programming.
+                <li><b>ASPLOS 2015</b> "<em>Hybrid Static-Dynamic Analysis for Statically Bounded Region
+                    Serializability</em>", Aritra Sengupta, Swarnendu Biswas, <b>Minjia Zhang</b>, Michael D. Bond, and
+                  Milind Kulkarni, in the 20th International Conference on Architectural Support for Programming Languages
+                  and Operating Systems.
+                <li><b>SPLASH 2015 Companion</b> "<em>SIRe: An Efficient Snapshot Isolation ­based Memory Model for
+                    Detecting and Tolerating Region Conflicts</em>", <b>Minjia Zhang</b>, in 2015 ACM SIGPLAN International
+                  Conference on Systems, Programming, Languages and Applications: Software for Humanity.
+                <li><b>WoDet 2014</b> "<em>Drinking from Both Glasses: Adaptively Combining Pessimistic and Optimistic
+                    Synchronization for Efficient Parallel Runtime Support</em>", Man Cao, <b>Minjia Zhang</b>, and Michael
+                  D. Bond, in the 5th Workshop on Determinism and Correctness in Parallel Programming.
+                <li><b>OOPSLA 2013</b> "<em>Octet: Capturing and Controlling Cross-Thread Dependences Efficiently</em>",
+                  Michael D. Bond, Milind Kulkarni, Man Cao, <b>Minjia Zhang</b>, Meisam Fathi Salmi, Swarnendu Biswas,
+                  Aritra Sengupta, and Jipeng Huang, in the 2013 ACM SIGPLAN Conference on Object-Oriented Programming,
+                  Systems, Languages, and Applications.
+                <li><b>ICPP 2011</b> "<em>Memcached Design on High Performance RDMA Capable Interconnects</em>", J. Jose, H.
+                  Subramoni, M. Luo, M. Zhang, J. Huang, M. W. Rahman, N. S. Islam, X. Ouyang, S. Sur and D. K. Panda, in
+                  the 40th International Conference on Parallel Processing.
+                <li><b>ICPADS 2010</b> "<em>VirtCFT: A Transparent VM-level Fault-Tolerant System for Virtual
+                    Clusters</em>", <b>Minjia Zhang</b>,Hai Jin,Song Wu,Xuanhua Shi, in IEEE 16th International Conference
+                  on Parallel and Distributed Systems.
+              </ul>
+          </div>
+      
+          <p></p>
+          <h1><a name="patents" ; style="color:#40A6FF;">Patents</h1>
+          <a></a>
+          <ul>
+            <li> <b>Minjia Zhang</b>, Yuxiong He, "Multi-Layer Semantic Search", U.S. Patent, MS# 406007-US-NP, 2019
+            </li>
+            <li> <b>Minjia Zhang</b>, Xiaodong Liu, Wenhan Wang, Jianfeng Gao, Yuxiong He, “Graph Representations for
+              Identifying a Next Word”, US 2019 / 0377792 A1</li>
+            <li> <b>Minjia Zhang</b>, Samyam Rajbhandari, Wenhan Wang, Yuxiong He, “Deep Learning Model Scheduling”, US
+              2019 / 0311245 A1</li>
+          </ul>
+
+          <dl style="background-color:white">
+            <p></p>
+            <h1><a name="talks" ; style="color:#40A6FF;">Talks</a></h1>
+            <div class="myBox" , style="overflow:scroll;height:200px">
+              <ul>
+                <li> Invited talk on ``MegaFold: System-Level Optimizations for Accelerating Protein Structure Prediction Models" by AMD</a>, August 14 2025.</li>
+                <li> Invited talk on ``System-Level Optimizations for Accelerating Protein Structure Prediction Models" by the <a href="https://tpc25.org/agenda/sessions/">Trillion Parameter Consortium (TPC'25)</a>, July 31 2025.</li>
+                <li> Invited talk on ``Towards Efficient and Scalable Systems for Training Large-Scale AI-based Scientific Models" by Deming Chen at AMD-Xilinx Heterogeneous Compute Cluster (HACC) Seminar, February 12th 2025.</li>
+                <li> Invited lecture on ``Mixture-of-Experts in the Era of LLMs" by Arvind Krishnamurthy at University of Washington, November 28th 2024.</li>
+                <li> Invited talk on ``Efficient and Scalable Machine Learning Systems for Training Large-Scale DL Models on Parallel and Distributed Hardware" at Meta Monetization AI Speaker Series, September 25th 2024.</li>
+                <li> Tutorial and panel speaker at "<a href="https://icml.cc/media/icml-2024/Slides/35222_1r94S59.pdf">Mixture-of-Experts in the Era of LLMs: A New Odyssey</a>" at ICML'2024</li>
+                <li> Invited talk on "Towards Efficient System and Algorithm for Large-Scale Scientific Discovery" at the <a href="https://tpc.dev/tpc-european-kick-off-workshop/tpc-european-kick-off-workshop-breakout-abstracts/">European Trillion Parameter Consortium (TPC) Kickoff workshop</a> in Barcelona in June 2024</li>
+                <li> Invited panel speaker at the Efficient Natural Language and Speech Processing (<a
+                    href="https://neurips2023-enlsp.github.io/">ENLSP-III</a>) workshop at NeurIPS 2023</li>
+                <li> Presented work on "Efficient System and Algorithm Design for Deep Learning Training and Inference",
+                  University of Illinois at Urbana-Champaign, Purdue University, University of Virginia, Univeresity of
+                  Minnesota, Indiana University Bloomington, Colorado School of Mines, Stevens Institute of Technology </li>
+                <li> Presented work on "XTC: Extreme model compression made simple and efficient" at NeurIPS 2022 </li>
+                <li> Invited talk on "Extreme Compression for Pre-trained Transformers Made Simple and Efficient" at Intel
+                  AI Group, July 28th 2022</li>
+                <li> Invited talk by Zhihao Jia on "DeepSpeed: The library to accelerate training and inference of DNN at
+                  scale" at CMU, April 18th 2022</li>
+                <li> Invited talk on "DeepSpeed: The library to accelerate training and inference of DNN at scale" at the
+                  Efficient Large-Scale AI Workshop as a part of MSR Project Green</li>
+                <li> Invited talk by Myeongjae Jeon on "DeepSpeed: The library to accelerate training and inference of DNN
+                  at scale" at UNIST, April 13th 2022</li>
+                <li> Invited lecture on "New algorithms for Approximate Nearest Neighbor Search Systems at Scale" at Kent
+                  State University, October 20, 2022</li>
+                <li> Presented work on graph sampling and pruning for nearest neighbor search at WSDM 2022</li>
+                <li> Invited talk on "DL Inference and Training Optimization Towards Speed and Scale" at Tsinghua AIR 2021
+                </li>
+                <li> Invited keynote speech on "DL Inference and Training Optimization Towards Speed and Scale" at EMDC 2021
+                </li>
+                <li> Presented work on DL inference through heterogeneous devices at IPDPS 2021</li>
+                <li> Presented work on "DynaTune: Dynamic Tensor Program Optimization in Deep Neural Network Compilation" at
+                  ICLR 2021</li>
+                <li> Invited keynote speech on "DL Inference and Training Optimization Towards Speed and Scale" at EMDC 2021
+                </li>
+                <li> Presented work on "Accelerating Training of Transformer-Based Language Models with Progressive Layer
+                  Dropping" at NeurIPS 2020</li>
+                <li> Presented work on "AdaTune: Adaptive Tensor Program Compilation Made Efficient" at NeurIPS 2020</li>
+                <li> Invited talk on "<a
+                    href="https://www.youtube.com/watch?v=WDo-k0syZi4&feature=youtu.be&list=PLTPQEx-31JXjA2ZmvYT5s0RqDXFXTSjyL&t=3547">TVM@Microsoft</a>"
+                  at the TVM and Deep Learning Compilation Conference 2019, Seattle, Washington, US</li>
+                <li> Presented work on "GRIP: Multi-Store Capacity-Optimized High-Performance Nearest Neighbor Search for
+                  Vector Search Engine" at CIKM 2019, Beijing, China</li>
+                <li> Presented work on "Accelerating Large Scale Deep Learning Inference through DeepCPU at Microsoft" at
+                  2019 USENIX OpML, May 2019, Santa Clara, CA, USA</li>
+                <li> Presented work on "DeepCPU: Serving RNN-based Deep Learning Models 10x Faster" at 2018 USENIX Annual
+                  Technical Conference, July 2018, Boston, MA, USA</li>
+                <li> Invited talk on "DeepCPU: Deep Learning Serving Optimizations on CPUs" at the Deep Learning workshop at
+                  Microsoft TechFest 2018, March 2018, Redmond, WA, USA</li>
+                <li> Invited talk on "DeepCPU: Deep Learning Serving Optimizations on CPUs" at Microsoft Research Talk
+                  Series, February 2018, Redmond, WA, USA</li>
+                <li> Presented work on "DeepCPU: Deep Learning Serving Optimizations on CPUs" at Machine Learning, AI & Data
+                  Science Conference (MLADS) December 2017, Redmond, WA, USA</li>
+                <li> Presented work on detecting and tolerating region conflicts to support region snapshot isolation at ACM
+                  Student Research Competition, OOPSLA 2015, Pittsburg, PA, USA</li>
+                <li> Presented work on low-overhead and scalable software transactional memory with strong progress
+                  guarantees at the 20st ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, PPoPP
+                  2015, San Francisco, CA, USA</li>
+              </ul>
+            </div>
+          </dl>
+
+          <p></p>
+          <h1><a name="activities" ; style="color:#40A6FF;">Professional Service and Membership</h1>
+          <a></a>
+          <ul>
+            <li> <b>Membership</b>:
+              <ul>
+                <li>ACM member</li>
+                <li>IEEE member</li>
+                <li>SIGOPS member</li>
+                <li>SIGHPC member</li>
+                <li>Sigma Xi member</li>
+              </ul>
+            </li>
+
+            <li> <b>Organizer</b>:
+              <ul>
+                <li>Organizer of <a href="https://moe-tutorial.github.io/">ICML'24 Tutorial: "Mixture-of-Experts in the Era of LLMs: A New Odyssey"</a></li>
+              </ul>
+            <li> <b>Area/Session Chair</b>: ICLR 2026 Area Chair, HPCA 2026 Sponsorship Chair, APSys 2025 Publicity Chair, PPoPP 2025 Session Chair, NeurIPS 2024 Area Chair, ASPLOS 2019 Machine Learning Track Session Chair, Publicity Co-Chair of  PLDI 2019
+            <li> <b>Program Committee</b>: PACMI 2025, USENIX ATC 2025, PPoPP 2025, AAAI 2025, USENIX ATC 2024, MLSys 2024,  ASPLOS 2023, ICDE 2023 Industry and Applications Track,
+              MLSys 2023, IPDPS 2023, IPDPS 2021, IPDPS 2020, IPDPS 2019, IPDPS 2018, ASPLOS 2018 Shadow PC, PLDI 2017
+              Artifact Evaluation, SPLASH 2015 Artifact Evaluation, PLDI 2015 Artifact Evaluation</li>
+            <li> <b>Conference Reviewer</b>: VLDB 2024, ECCV 2024, ICML 2024, ICLR 2024, CVPR 2024, AAAI 2024, ICLR 2023, AAAI 2023, CVPR 2023, ICCV 2023, ECAI 2023, ICLR
+              2022, AAAI 2022, CVPR 2022,
+              USENIX ATC 2022, ICML 2022, ECCV 2022, NeurIPS 2022, ASPLOS 2021, AAAI 2021, ICLR 2021, CVPR 2021, ICCV
+              2021, ICML 2021, NeurIPS 2021, NeurIPS 2020, ICLR 2020, NeurIPS 2019, NeurIPS 2019 Reproducibility
+              Challenge, PLDI 2019, ASPLOS 2019, Middleware 2018 subreviewer, ICAC 2018 subreviewer, IEEE Cloud 2018
+              subreviewer, HiPC 2017 subreviewer, ICAC 2017 subreviewer, WTTM 2015 subreviewer. </li>
+            <li> <b>Journal Reviewer</b>: ACM Transactions on Database Systems (2024), Transactions on Machine Learning Research (2022-2023), Journal of Systems and
+              Software (2020), IEEE Transaction on Cloud Computing (2019-2020), ACM Transaction on Privacy and Security
+              (2019), Journal of Computer Science (2017-2018), Concurrency and Computation: Practice and Experience
+              (2016-2017)</li>            
+          </ul>
+
+          <p></p>
+          <h1><a name="collaborators" ; style="color:#40A6FF;">Past and Current Collaborators</h1>
+          <style>
+            .column {
+              float: left;
+              width: 25%;
+            }
+
+            /* Clearfix (clear floats) */
+            .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+          </style>
+          <div class="row">
+            <!-- <div class="column">
+          <img src="collaborators/MSFT.jpg" alt="MSFT" style="width:100%">
+        </div> -->
+            <div class="column">
+              <img src="collaborators/MSR.jpg" alt="MSR" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="collaborators/ANL.png" alt="ANL" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="collaborators/ORNL.jpg" alt="ORNL" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="collaborators/NVIDIA.jpg" alt="NVIDIA" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="collaborators/IBM.jpg" alt="IBM" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="collaborators/NIH.jpg" alt="NIH" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="collaborators/CMU.jpg" alt="CMU" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="collaborators/UCLA-1.jpg" alt="UCLA" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="collaborators/Purdue.jpg" alt="UCMerced" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="collaborators/UCMerced.jpg" alt="UCMerced" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="collaborators/WM.jpg" alt="UCMerced" style="width:100%">
+            </div>
+          </div>
+
+          <!-- <hr style="color:rgb(218, 218, 218);"> -->
+          <!-- <div style="text-align: center; font-size: 18px;"><small>Last update: 2/2024</small>
+          </div> -->
+          <!-- <br> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

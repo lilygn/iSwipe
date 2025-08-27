@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    Charith Mendis
+  
+</title>
+<meta name="author" content="Charith Mendis">
+<meta name="description" content="Charith Mendis / ADAPT Lab
+">
+
+  <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+
+
+
+
+
+
+
+
+<!--- my includes ---->
+
+<link rel="stylesheet" href="https://charithmendis.com/assets/css/nice-formats.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<!-- <link rel="stylesheet" href="/assets/css/mdb.min.css?62a43d1430ddb46fc4886f9d0e3b49b8"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+<!-- Bootstrap Table -->
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="https://charithmendis.com/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?a5ca4084d3b81624bcfa01156dae2b8e"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+<!-- GeoJSON support via Leaflet -->
+
+
+<!-- diff2html -->
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/">about
+              
+                <span class="sr-only">(current)</span>
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/publications/">publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/teaching/">teaching
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/service/">service
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/awards/">awards
+                    
+                  </a>
+                </li>
+              
+            
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+        Charith Mendis
+      
+    </h1>
+    <p class="desc"></p>
+  </header>
+
+  <article>
+    
+      <div class="profile float-right">
+        
+          
+          
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/prof_pic.jpg?766757bec3226fcdd1301b9938560b88" class="img-fluid z-depth-1
+      rounded" width="100%" height="auto" alt="prof_pic.jpg" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+        
+          <div class="more-info"></div>
+        
+      </div>
+    
+
+    <div class="clearfix">
+<p>I lead the <a href="http://adapt.cs.illinois.edu" rel="external nofollow noopener" target="_blank">ADAPT lab</a> at UIUC. Check out our current work there including our latest projects and publications.</p>
+
+<h2 id="bio">Bio</h2>
+
+<p>Charith Mendis is an Assistant Professor in the <a href="https://cs.illinois.edu" rel="external nofollow noopener" target="_blank">Siebel School of Computing and Data Science</a> at the <a href="https://illinois.edu" rel="external nofollow noopener" target="_blank">University of Illinois at Urbana-Champaign</a>. His broad research interests are at the intersection of compilers, program optimization and machine learning. He received his Ph.D. and Master’s from the Massachusetts Institute of Technology and his B.Sc. from the University of Moratuwa. He is the recipient of <b>a <a href="https://www.darpa.mil/sites/default/files/attachment/2025-02/yfa-young-faculty-award-recipients.pdf" rel="external nofollow noopener" target="_blank">DARPA Young Faculty Award</a>, an <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2338739&amp;HistoricalAwards=false" rel="external nofollow noopener" target="_blank">NSF CAREER Award</a></b>, the William A. Martin outstanding master’s thesis award at MIT and the university gold medal for his B.Sc. He has won numerous paper awards including a <a href="https://popl25.sigplan.org/details/POPL-2025-popl-research-papers/29/TensorRight-Automated-Verification-of-Tensor-Graph-Rewrites" rel="external nofollow noopener" target="_blank">Distinguished Paper Award at POPL</a>, a Best Student Paper Award at the IEEE BigData conference, an <a href="https://sigmod.org/sigmod-awards/sigmod-best-artifact-award/" rel="external nofollow noopener" target="_blank">honorable mention for the Best Artifact Award at SIGMOD</a>, a Best Paper Award at ML for Systems workshop at ISCA and an IEEE Top Picks Honorable Mention.</p>
+
+<p><b>Office:</b> 4118, Siebel Center for Computer Science<br>
+201 N. Goodwin Ave., Urbana IL 61801 <br>
+<b>Email:</b> charithm (at) illinois.edu</p>
+
+<p><span style="color: red">New!</span> <b>I am hiring a postdoc</b> to work on projects related to both correctness and performance of tensor compilers and heterogeneous systems. If this sounds interesting, please drop me an email with the title, “Prospective Postdoc (ADAPT)”.</p>
+
+<p><span style="color: red">New!</span> Check out our new course on <a href="https://sites.google.com/illinois.edu/cs521-sp25-mlcompilers/" rel="external nofollow noopener" target="_blank">CS521: ML and compilers</a></p>
+
+<h2 id="research-opportunities">Research Opportunities</h2>
+
+<p><a href="http://adapt.cs.illinois.edu" rel="external nofollow noopener" target="_blank">ADAPT lab</a> has opportunities for undergraduate and graduate students. If you are a student who is passionate about building high performance ML optimization or compilation techniques or is passionate about automated compiler construction techniques using either machine learning or formal methods, please be in touch with me.</p>
+
+<details>
+  <summary>Click to read instructions before contacting me.</summary>
+<p>
+<br> 
+<b>Undergraduates or Master's students at UIUC:</b>
+Please include a CV, an up-to-date transcript, and your programming experience. The subject line should contain the word "prospective undergraduate/master's researcher" to indicate these instructions have been read. Please note that, since we are doing systems work at least 2 semesters worth of commitment is required to get fruitful results (e.g. a publication) out of your experience. Also, I <b>will not</b> agree to supervise any final year Master's students.
+<br><br>
+
+<b>Prospective PhD students:</b>
+ First, you must apply and gain admission to the graduate program in <a href="https://cs.illinois.edu/admissions/graduate/applications-process-requirements" rel="external nofollow noopener" target="_blank">Computer Science</a> at UIUC. You should mention me as a potential advisor in your application as well as in your personal statement. Once you apply, you can optionally send me an email with subject "prospective PhD student". If you are admitted, then I'm happy to discuss supervision. 
+<br><br>
+</p>
+</details>
+
+<p></p>
+
+</div>
+
+    <!-- News -->
+    
+      <h2>
+        <a href="/news/" style="color: inherit">News</a>
+      </h2>
+      <div class="news">
+  
+    
+    <div class="table-responsive" style="max-height: 60vw">
+      <table class="table table-sm table-borderless">
+        
+        
+        
+          <tr>
+            <th scope="row" style="width: 20%">Aug 12, 2025</th>
+            <td>
+              
+                
+                  <span style="color: red">New!</span> Our work on a language and a compiler for optimizing GNNs was accepted at <a href="https://2025.splashcon.org/track/OOPSLA" rel="external nofollow noopener" target="_blank">OOPSLA 2025</a>. Altogether, ADAPT group will be presenting <b>3 papers</b> at OOPSLA 2025 (including R1) in October!
+
+                
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">Jul 21, 2025</th>
+            <td>
+              
+                
+                  <span style="color: red">New!</span> Our work on optimizing GNNs using different sparse and dense matrix primitive compositions was accepted at <a href="https://2026.cgo.org" rel="external nofollow noopener" target="_blank">CGO 2026</a>
+
+                
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">Jul 14, 2025</th>
+            <td>
+              
+                
+                  <span style="color: red">New!</span> Our work on standardizing and formalizing the semantics for tensor accelerator ISAs accepted at <a href="https://microarch.org/micro58/" rel="external nofollow noopener" target="_blank">MICRO 2025</a>! Congratulations team!
+
+                
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">Jun 23, 2025</th>
+            <td>
+              
+                
+                  <span style="color: red">New!</span> Received the inaugural 2025 <a href="https://siebelschool.illinois.edu/news/google-jr-faculty-award" rel="external nofollow noopener" target="_blank">Google ML and Systems Junior Faculty Award</a> for our work on ML Compiler Optimization. Thank you, Google!
+
+                
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">May 01, 2025</th>
+            <td>
+              
+                
+                  Our work on ML-based cost models for emerging sparse accelerators accepted at <a href="https://icml.cc" rel="external nofollow noopener" target="_blank">ICML 2025</a>!
+
+                
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">Mar 30, 2025</th>
+            <td>
+              
+                
+                  1 paper accepted at <a href="https://pldi25.sigplan.org" rel="external nofollow noopener" target="_blank">PLDI 2025</a>!
+
+                
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">Mar 15, 2025</th>
+            <td>
+              
+                
+                  <b><a href="https://dl.acm.org/doi/10.1145/3639313" rel="external nofollow noopener" target="_blank">Dias</a> receives an honorable mention for the Best Artifact Award at <a href="https://2025.sigmod.org/" rel="external nofollow noopener" target="_blank">SIGMOD 2025</a>!</b>
+
+                
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">Jan 31, 2025</th>
+            <td>
+              
+                
+                  Our paper on Approximate Query Processing, PilotDB, has been accepted at <a href="https://2025.sigmod.org/" rel="external nofollow noopener" target="_blank">SIGMOD 2025</a>.
+
+                
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">Jan 14, 2025</th>
+            <td>
+              
+                
+                  <b>TensorRight receives a <a href="https://popl25.sigplan.org/details/POPL-2025-popl-research-papers/29/TensorRight-Automated-Verification-of-Tensor-Graph-Rewrites" rel="external nofollow noopener" target="_blank">distinguished paper award</a> at POPL 2025!</b>
+
+                
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">Dec 18, 2024</th>
+            <td>
+              
+                
+                  2 papers accepted at <a href="https://2025.splashcon.org/track/OOPSLA" rel="external nofollow noopener" target="_blank">OOPSLA 2025</a>!
+
+                
+              
+            </td>
+          </tr>
+        
+      </table>
+    </div>
+  
+</div>
+
+    
+
+    <!-- funding --->
+
+    
+      <h2>
+        Funding
+      </h2>
+      I am truly thankful for the sponsors of our research at the ADAPT lab. In particular, we are partially funded by the <a href="https://acecenter.grainger.illinois.edu" rel="external nofollow noopener" target="_blank">ACE center</a>, one of the seven centers in JUMP 2.0, a Semiconductor Research Corporation (SRC) program sponsored by DARPA, by National Science Foundation (NSF), by DARPA, by <a href="https://discoveryacceleratorinstitute.grainger.illinois.edu" rel="external nofollow noopener" target="_blank">IIDAI</a> and through generous gifts and cloud computing resources from Google, Intel, Amazon and Qualcomm.
+
+<p>
+<figure>
+  <div style="text-align: center;">
+  <img src="/assets/img/funding.png" alt="Funding" style="width:70%">
+  </div>
+  <figcaption> </figcaption>
+</figure>
+</p>
+
+<p></p>
+
+    
+
+    <!-- Latest posts -->
+    
+
+    <!-- Selected papers -->
+    
+
+    <!-- Social -->
+    
+      <div class="social">
+        <div class="contact-icons">
+  <a href="mailto:%63%68%61%72%69%74%68%6D@%69%6C%6C%69%6E%6F%69%73.%65%64%75" title="email"><i class="fa-solid fa-envelope"></i></a>
+
+
+
+
+
+  <a href="https://scholar.google.com/citations?user=utZ3JYUAAAAJ&amp;hl=en" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
+
+
+
+
+
+
+
+
+  <a href="https://github.com/CharithYMendis" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+
+  <a href="https://www.linkedin.com/in/charith-mendis-36650728" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+
+  <a href="https://twitter.com/charith_mendis" title="X" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+        <div class="contact-note"></div>
+      </div>
+    
+  </article>
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      © Copyright 2025
+      Charith
+      
+      Mendis. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+
+      
+      
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="/assets/js/mdb.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+<!-- Bootstrap Table -->
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?5d75c11f89cd96294bf5e6dd1ee1bb30"></script>
+<script defer src="/assets/js/common.js?fcfacfb8c6281f5e68d5a7d348186eb1"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+    
+  <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams',
+      },
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+
+
+    
+
+
+    
+  <!-- Scrolling Progress Bar -->
+  <script type="text/javascript">
+    /*
+     * This JavaScript code has been adapted from the article
+     * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar,
+     * published on the website https://css-tricks.com on the 7th of May, 2014.
+     * Couple of changes were made to the original code to make it compatible
+     * with the `al-foio` theme.
+     */
+    const progressBar = $('#progress');
+    /*
+     * We set up the bar after all elements are done loading.
+     * In some cases, if the images in the page are larger than the intended
+     * size they'll have on the page, they'll be resized via CSS to accomodate
+     * the desired size. This mistake, however, breaks the computations as the
+     * scroll size is computed as soon as the elements finish loading.
+     * To account for this, a minimal delay was introduced before computing the
+     * values.
+     */
+    window.onload = function () {
+      setTimeout(progressBarSetup, 50);
+    };
+    /*
+     * We set up the bar according to the browser.
+     * If the browser supports the progress element we use that.
+     * Otherwise, we resize the bar thru CSS styling
+     */
+    function progressBarSetup() {
+      if ('max' in document.createElement('progress')) {
+        initializeProgressElement();
+        $(document).on('scroll', function () {
+          progressBar.attr({ value: getCurrentScrollPosition() });
+        });
+        $(window).on('resize', initializeProgressElement);
+      } else {
+        resizeProgressBar();
+        $(document).on('scroll', resizeProgressBar);
+        $(window).on('resize', resizeProgressBar);
+      }
+    }
+    /*
+     * The vertical scroll position is the same as the number of pixels that
+     * are hidden from view above the scrollable area. Thus, a value > 0 is
+     * how much the user has scrolled from the top
+     */
+    function getCurrentScrollPosition() {
+      return $(window).scrollTop();
+    }
+
+    function initializeProgressElement() {
+      let navbarHeight = $('#navbar').outerHeight(true);
+      $('body').css({ 'padding-top': navbarHeight });
+      $('progress-container').css({ 'padding-top': navbarHeight });
+      progressBar.css({ top: navbarHeight });
+      progressBar.attr({
+        max: getDistanceToScroll(),
+        value: getCurrentScrollPosition(),
+      });
+    }
+    /*
+     * The offset between the html document height and the browser viewport
+     * height will be greater than zero if vertical scroll is possible.
+     * This is the distance the user can scroll
+     */
+    function getDistanceToScroll() {
+      return $(document).height() - $(window).height();
+    }
+
+    function resizeProgressBar() {
+      progressBar.css({ width: getWidthPercentage() + '%' });
+    }
+    // The scroll ratio equals the percentage to resize the bar
+    function getWidthPercentage() {
+      return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+    }
+  </script>
+
+
+    
+
+    
+
+  </body>
+</html>

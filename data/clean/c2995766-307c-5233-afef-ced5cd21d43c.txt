@@ -1,0 +1,11 @@
+About
+The Intelligent Motion Lab is a "full stack" robotics lab that studies strategies for integrating planning, perception, and learning to enable autonomous and semi-autonomous operation in challenging tasks. The research conducted in the lab spans basic research on component algorithms up to application-driven projects on integrated robot systems. A key tenet of our research philosophy is that the fundamental ingredients of robotic intelligence are universal across embodiments and tasks, although their optimal instantiations may be specific. Applications of our research have been wide ranging, including agriculture, construction, intelligent vehicles, robot manipulation, legged locomotion, human-robot interaction, robot- and computer-assisted medicine.
+IML is directed by Prof. Kris Hauser and is part of the University of Illinois Grainger College of Engineering.
+IML is NOT accepting applications for new PhD students. Please see the UIUC Robotics Group website for more potential advisors.
+Research Spotlight
+EYESIGHT: a robot-stabilized retinal imaging system
+Selected Projects
+Modeling and reasoning about "stuff"
+Summary (click to show)Tele-nursing robots
+Summary (click to show)Knowledge- and structure-driven motion planning
+Summary (click to show)For a complete list, please see the research page.

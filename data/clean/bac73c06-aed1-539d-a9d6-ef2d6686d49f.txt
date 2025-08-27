@@ -1,0 +1,52 @@
+I work on the theoretical foundations of cryptography and its interactions with quantum information. I am broadly interested in theoretical computer science.
+You will also find an overview of my research on this page, and my CV here.
+I am lucky to be able to work with a wonderful set of students and postdocs! Please send me an email if you are interested in working with me.
+You will also find an overview of my research on this page, and my CV here.
+I am lucky to be able to work with a wonderful set of students and postdocs! Please send me an email if you are interested in working with me.
+TEACHING
+Fall 2023: Introduction to Quantum Computing (CS 498QC)
+Spring 2023: Topics in Cryptography - Foundations of Proofs (CS 507)*
+Fall 2022: Cryptography (ECE/CS407)*
+Spring 2022: Quantum Cryptography (CS598 CTO)
+Fall 2021: Algorithms and Models of Computation (CS374)
+Spring 2021: Special Topics in Cryptography - Lattice-Based Cryptosystems (CS598DK)*
+Fall 2020: Cryptography (CS/ECE 498AC)
+Fall 2019: Special Topics in Cryptography - Cryptographic Protocols (CS598DK)*
+*On the list of Teachers Ranked as Excellent
+Fall 2023: Introduction to Quantum Computing (CS 498QC)
+Spring 2023: Topics in Cryptography - Foundations of Proofs (CS 507)*
+Fall 2022: Cryptography (ECE/CS407)*
+Spring 2022: Quantum Cryptography (CS598 CTO)
+Fall 2021: Algorithms and Models of Computation (CS374)
+Spring 2021: Special Topics in Cryptography - Lattice-Based Cryptosystems (CS598DK)*
+Fall 2020: Cryptography (CS/ECE 498AC)
+Fall 2019: Special Topics in Cryptography - Cryptographic Protocols (CS598DK)*
+*On the list of Teachers Ranked as Excellent
+Selected Publications/preprints. See here for a list of publications, and here for an overview by area.
+- Founding Quantum Cryptography on Quantum Advantage (or, Towards Cryptography from #P-Hardness)
+with Kabir Tomer (STOC 2025, QIP 2025, Invited to the SICOMP Special Issue for STOC 2025, Quanta) - Commitments from Quantum One-wayness
+with Kabir Tomer (STOC 2024, QIP 2024, Quanta) - Cryptography with Certified Deletion
+with James Bartusek. (CRYPTO 2023, QIP 2023, Invited tutorial at QCrypt 2023) - SNARGs for Bounded Depth Computations and PPAD Hardness from Sub-Exponential LWE
+with Ruta Jawale, Yael Kalai and Rachel Zhang. (STOC 2021)
+Merge of [JK20] and [KZ20]. - One-way Functions imply Secure Computation in a Quantum World
+with James Bartusek, Andrea Coladangelo and Fermi Ma. (CRYPTO 2021. Long Plenary Talk at QIP 2021, Invited Talk at QCrypt 2021, both joint with GLSV) - Weak Zero-Knowledge Beyond the Black-Box Barrier
+with Nir Bitansky and Omer Paneth. (STOC 2019, SICOMP Special Issue for STOC, 2022) - How to Achieve Non-Malleability in One or Two Rounds
+with Amit Sahai. (FOCS 2017, Invited to the SICOMP Special Issue for FOCS 2017) - Distinguisher-Dependent Simulation in 2 Rounds and Applications
+with Abhishek Jain, Yael Kalai and Ron Rothblum. (CRYPTO 2017)
+PhD Students
+Kabir Tomer, Ruta Jawale, James Hulett, Amit Agarwal (now a Senior Research Scientist at Category Labs)
+Memorial website in loving memory of Nishant Kumar, who was taken away too soon (Dec 2, 1994 - Apr 10, 2022). We will always miss you!
+Postdocs
+Mehrdad Tahmasbi, Naresh Goud Boddu (now Applied Research Lead at JPMorgan Chase)
+Kabir Tomer, Ruta Jawale, James Hulett, Amit Agarwal (now a Senior Research Scientist at Category Labs)
+Memorial website in loving memory of Nishant Kumar, who was taken away too soon (Dec 2, 1994 - Apr 10, 2022). We will always miss you!
+Postdocs
+Mehrdad Tahmasbi, Naresh Goud Boddu (now Applied Research Lead at JPMorgan Chase)
+Service
+QCrypt (Steering Committee), CRYPTO 2025 (Area Chair), Quantum Cryptography Workshop at Asiacrypt 2022 (PC Co-Chair).
+Program Committees: STOC (2025, 2024, 2022, 2020), CRYPTO (2024), TCC (2024, 2022, 2020), QCrypt 2024, ITCS (2023, ITCS 2020), Indocrypt 2020, Eurocrypt 2019.
+QCrypt (Steering Committee), CRYPTO 2025 (Area Chair), Quantum Cryptography Workshop at Asiacrypt 2022 (PC Co-Chair).
+Program Committees: STOC (2025, 2024, 2022, 2020), CRYPTO (2024), TCC (2024, 2022, 2020), QCrypt 2024, ITCS (2023, ITCS 2020), Indocrypt 2020, Eurocrypt 2019.
+Navigation pane photograph taken at Milford Sound.
+Background attribution: https://www.flickr.com/photos/chiaralily/7880154722
+Background attribution: https://www.flickr.com/photos/chiaralily/7880154722

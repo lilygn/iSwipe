@@ -1,0 +1,65 @@
+|
+# Doctors
+Xudong Sun, PhD 2025 (dissertation),
+awarded Yunni and Maxine Pao Memorial Fellowship,
+Mavis Future Faculty Fellow → University of Toronto (assistant professor)
+Jinghao Jia, PhD 2025 (dissertation),
+co-advised by Dan Williams,
+awarded Richard T. Cheng Fellowship,
+Outstanding TA Award → Meta
+Wenyu Wang, PhD 2022 (dissertation), co-advised by Tao Xie, awarded 3M Foundation Fellowship → Meta → Stellar Cyber → Meta
+# Maesters
+Zhen Tang, MCS 2024 → University of Texas at Austin (PhD)
+Manvik Nanda, MCS 2024 → University of Utah (PhD)
+Anna Mazhar, MS 2024 (thesis) → Cornell University (PhD)
+Xinyu (Alex) Lian, MS 2024 (thesis), co-advised by Darko Marinov → UIUC (PhD)
+Pratik Rajesh Sampat, MS 2024 (thesis), co-advised by Saugata Ghose → AMD Research
+Jiyuan Zhang, MS 2024 (thesis) → UIUC (PhD)
+Ruowen Qin, MCS 2023 → Red Hat
+Wenqing Luo, MS 2023 (thesis), co-advised by Aishwarya Ganesan and Ramnatthan Alagappan → Apple (Cloud Infra)
+Parth Thakkar, MS 2023 (thesis) → Meta (Dev Infra)
+Kai-Hsun (Kevin) Chen, M.Eng 2022 → Databricks → Anyscale
+Alan Andrade, MCS 2022 → Oracle → University of Texas at Austin (PhD)
+Jack Chen, MS 2021 (thesis) → Trend Micro
+Andrew B. Yoo, MS 2021 (thesis), co-advised by Shuai Mu, awarded Siebel Scholar → Whova (Infra)
+Qingrong Chen, MS 2020 (thesis), awarded Siebel Scholar → Facebook (AI Infra) → ByteDance (ML Infra) → OpenAI
+Zhanghao Chen, MCS 2020 (project) → ByteDance (Stream Computing Infra)
+Elaine Ang, MS 2019 (thesis) → Google (Spanner) → Columbia University (PhD)
+# Bachelors
+Jiaqi Pan (Tsinghua), Spring+Summer 2025 → Tsinghua University (PhD)
+Minh Phan, BS, Spring 2025 → University of Texas at Austin (PhD)
+Zhixing (Mark) Zhang, BS, Spring 2024 → Pathlit (CTO)
+Shurang Wu (USTC), UIUC+ SUR in SE, Fall 2024 → University of Texas at Austin (PhD)
+Linkai Song (USTC), UIUC+ SUR in SE, Fall 2024 → HKUST (PhD)
+Mustafa Ashfaq (LUMS), UIUC+ SUR in SE, Summer 2024 → University of Michigan (MS)
+Tingxu Ren (Zhejiang University), UIUC+ SUR in SE, Summer 2024 → Tsinghua University (MS)
+Saad Sher Alam (LUMS), UIUC+ SUR in SE, 2023-2024 → UIUC (MS)
+Peizhe Liu, BE 2024 → UIUC (MS)
+Hao (Tony) Wang (Peking U.), UIUC+ SUR in SE, Summer 2023 co-hosted by Darko Marinov → University of California Berkeley (PhD)
+Fan Chung (UIUC/NYCU), 2023-2024 → EPFL (PhD)
+Cheng Ding (USTC), UIUC+ SUR in SE, Fall 2023, co-advised by Owolabi Legunsen → University of Texas at Austin (PhD)
+Zicheng Ma, BE, 2023-2024 awarded
+University Honor → Harvard University (MS) → NVIDIA (Triton Server)
+Peizhe Liu, BE, 2023 → UIUC (MS)
+Yuxuan (Matt) Jiang, BE 2023 → University of Michigan (PhD)
+Feiran (Alex) Qin, (ShanghaiTech/UIUC), Fall 2022 → North Carolina State University (PhD)
+Kunle Li, BE 2023 → CMU (MS) → Snowflake
+Muhammad Taha (LUMS), UIUC+ SUR in SE, 2022 → Purdue University (MS)
+Wentao Zhang (SJTU), UIUC+ SUR in SE, 2022 → UIUC (PhD)
+Xinyu (Alex) Lian, BE 2022 → UIUC (MS) → UIUC (PhD)
+Yicheng Lu, BE 2022 → UIUC (MS)
+Kele Huang (CAS), UIUC+ SUR in SE, 2021 → Columbia University (PhD)
+Wen Fan (USTC), UIUC+ SUR in SE, 2021 → Purdue University (PhD)
+YiFei Zhu, BE 2021,
+awarded
+Highest Honor and
+University Honor → Google (kernel)
+Kaiyuan Zhang (UT Dallas), Summer 2020 co-advised by Tao Xie → Purdue University (PhD)
+Yiming Mao (Nanjing University), Summer 2020 → UC San Diego (MS) → TikTok
+# Scholars
+Cody Rivera, Visiting PhD Student, 2024--2025 → University of Wisconsin-Madison (PhD)
+Wenjie Ma, Research Scholar, 2023--2024 → University of California Berkeley (PhD)
+Hao Lin, Visiting PhD Student (Tsinghua), 2023--2024 ↔ Tsinghua University → Infinigence AI
+Chaitanya B. Bhandari, Research Scholar, 2021--2022 → UIUC (MS) → TigerBeetle
+Yuanliang Zhang (NUDT), Visiting PhD Student (NUDT), 2019--2020 → Assistant Professor at NUDT
+|

@@ -1,0 +1,13 @@
+About ME
+I am passionate about teaching and building data-driven, AI-powered systems for improving teaching and learning. The aim of my research is 1) to understand how students learn database programming, 2) to develop technologies that help instructors teach and interact with students in large classrooms, and 3) to build tools to help students receive a personalized, student-centered learning experience.
+Research Interests
+-Data(base) Management Systems
+-AI in Education
+-Educational Data Mining
+- Honored to receive the A3E Education Innovation Fellowship September 4, 2022
+- Organizing the 2022 Illinois CS Teaching Summer Workshop April 19, 2022
+- Gave a Talk at Teaching and Learning with MongoDB Event January 4, 2022
+- Fareedah Alsaad, my first Ph.D. student, successfully defended her Ph.D. dissertation. November 28, 2021
+- Joined the program committee of DataEd November 26, 2021
+Biography
+Abdussalam Alawini is a Teaching Associate Professor in the Department of Computer Science at the University of Illinois at Urbana-Champaign. His educational journey started with a bachelor's degree in Computer Science from the University of Tripoli in 2002. He then worked in the industry for over six years as a database administrator, lead software developer, and IT Manager. In 2011, he returned to academia and received a master's in Computer Science and another master's degree in Engineering and Technology Management from Portland State University. He then received a doctoral degree in Computer Science from Portland State in 2016. In his Ph.D., he built systems to help scientists manage their file-based datasets by predicting relationships among spreadsheet documents. Passionate about a career in academia, Dr. Alawini joined the University of Pennsylvania in 2016 as a postdoctoral researcher. As a postdoc, he developed data citation and data provenance systems for scientists. Dr. Alawini's research interests are broadly in databases, applied machine learning, and education. He is particularly interested in applying machine learning methods to improve classroom experience and education in general. He is also interested in building next-generation data management systems, including data provenance, citation, and scientific management systems.

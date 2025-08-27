@@ -1,0 +1,35 @@
+Billy Moses
+Education
+- PhD in Electrical Engineering and Computer Science, MIT (2023)
+- MEng in Electrical Engineering and Computer Science, MIT (2017)
+- S.B in Electrical Engineering and Computer Science, MIT (2017)
+- S.B in Physics, MIT (2017)
+Academic Positions
+- Assistant Professor, University of Illinois Urbana-Champaign, Computer Science, 2024 – present
+- Affiliate Faculty, University of Illinois Urbana-Champaign, Electrical and Computer Engineering (by courtesy), 2024 – present
+- Affiliate Faculty, University of Illinois Urbana-Champaign, Coordinated Science Library, 2024 – present
+Research Areas
+Articles in Conference Proceedings
+- Online Adaptive Frequency Hopping Moses, William and Robertson, Andrew and Dell, John. TJHSST â€™14.
+- Extreme Multi-Resolution Visualization: A Challenge on Many Levels Balme, Joanna and Brown-Dymkoski, Eric and Guerrero, Victor and Jones, Stephen and Kessler, Andre and Lichtl, Adam and Lung, Kevin and Moses, William and Museth, Ken and Roberson, Nathan and others. SCVis â€™15.
+- Computational Complexity of Arranging Music Demaine, Erik D. and Moses, William S.. MOVES â€™15.
+- Embedding Fork-Join Parallelism into LLVM IR Moses, William S. and Schardl, Tao B. and Leiserson, Charles E.. CQC â€™16.
+- Tapir: Embedding Fork-Join Parallelism into LLVMâ€™s Intermediate Representation Schardl, Tao B. and Moses, William S. and Leiserson, Charles E.. PPoPP â€™17.
+- OpenMPIR: Implementing OpenMP Tasks with Tapir Stelle, George and Moses, William S. and Olivier, Stephen L. and McCormick, Patrick. LLVM-HPCâ€™17.
+- Tapir: Embedding Recursive Fork-Join Parallelism into LLVMâ€™s Intermediate Representation Schardl, Tao B. and Moses, William S. and Leiserson, Charles E.. PPoPP â€™17.
+- LiTM: A Lightweight Deterministic Software Transactional Memory System Xia, Yu and Yu, Xiangyao and Moses, William and Shun, Julian and Devadas, Srinivas. PPoPP PMAMM â€™19.
+- The Next 700 Accelerated Layers: From Mathematical Expressions of Network Computation Graphs to Accelerated GPU Kernels, Automatically Vasilache, Nicolas and Zinenko, Oleksandr and Theodoridis, Theodoros and Goyal, Priya and Devito, Zachary and Moses, William S. and Verdoolaege, Sven and Adams, Andrew and Cohen, Albert. TACO.
+- Extracting Incentives from Black-Box Decisions Shavit, Yonadav and Moses, William S.. NeurIPS AI in FS.
+- Autophase: Compiler phase-ordering for HLS with deep reinforcement learning Huang, Qijing and Haj-Ali, Ameer and Moses, William and Xiang, John and Stoica, Ion and Asanovic, Krste and Wawrzynek, John. FCCM â€™19.
+- Instead of Rewriting Foreign Code for Machine Learning, Automatically Synthesize Fast Gradients Moses, William and Churavy, Valentin. NeurIPS â€™20.
+- Polygeist: Affine C in MLIR Moses, William S. and Chelini, Lorenzo and Zhao, Ruizhe and Zinenko, Oleksandr. IMPACT â€™21.
+- Polygeist: Raising C to Polyhedral MLIR Moses, William S. and Chelini, Lorenzo and Zhao, Ruizhe and Zinenko, Oleksandr. PACT â€™21.
+- Reverse-Mode Automatic Differentiation and Optimization of GPU Kernels via Enzyme Moses, William S and Churavy, Valentin and Paehler, Ludger and HÃ¼ckelheim, Jan and Hari Krishna Narayanan, Sri and Schanen, Michel and Doerfert, Johannes. SC â€™21.
+- Scalable Automatic Differentiation of Multiple Parallel Paradigms through Compiler Augmentation Moses, William S and Hari Krishna Narayanan, Sri and Paehler, Ludger and Churavy, Valentinand HÃ¼ckelheim, Jan and Schanen, Michel and Doerfert, Johannes and Hovland, Paul. SC â€™22.
+- Enabling Transformers to Understand Low-Level Programs Guo, Zifan and Moses, William S.. HPEC â€™22.
+- Transparent Checkpointing for Automatic Differentiation of Program Loops Through Expression Transformations Schanen, Michel and Narayanan, Sri Hari Krishna and Williamson, Sarah and Churavy, Valentin and Moses, William S. and Paehler, Ludger. ICCP â€™23.
+- High-Performance GPU-to-CPU Transpilation and Optimization via High-Level Parallel Constructs Moses, William S. and Ivanov, Ivan R. and Domke, Jens and Endo, Toshio and Doerfert, Johannes and Zinenko, Oleksandr. PPoPP ’23.
+- Retargeting and Respecializing GPU Workloads for Performance Portability Ivanov, Ivan R. and Zinenko, Oleksandr and Domke, Jens and Endo, Toshio and Moses, William S.. CGO’24.
+- The MLIR Transform Dialect. Your compiler is more powerful than you think Lücke, Martin Paul and Zinenko, Oleksandr and Moses, William S. and Steuwer, Michel and Cohen, Albert. CGO’25.
+Recent Courses Taught
+- CS 598 APE - Advanced Perform Engineering

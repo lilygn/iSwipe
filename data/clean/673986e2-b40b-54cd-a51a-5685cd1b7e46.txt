@@ -1,0 +1,99 @@
+Associate Professor
+Siebel School of Computing and Data Science
+University of Illinois, Urbana-Champaign
+Research Group: Laboratory for Parallel Numerical Algorithms (LPNA)
+solomon2@illinois.edu
+4229 Thomas M. Siebel Center for Computer Science
+201 North Goodwin Avenue
+Urbana, IL 61801-2302
+217-300-4794
+I am on sabbatical Spring 2025 - Fall 2025, and am likely to decline new service requests during this period.
+numerical linear algebra
+parallel algorithms
+tensor networks
+tensor decompositions
+communication-avoiding algorithms
+communication lower bounds
+high performance computing
+parallel programming systems
+computational quantum chemistry
+graph algorithms
+quantum algorithms
+bilinear algorithms
+Presidential Early Career (PECASE) Award 2025
+Jack Dongarra Early Career Award, 2024 2024
+C.W. Gear Outstanding Junior Faculty Award 2021
+Dean's Award For Excellence in Research 2021
+NSF CAREER Award 2020
+SIAM Activity Group on Supercomputing Early Career Prize 2020
+IEEE CS TCHPC Award for Excellence for Early Career Researchers in High Performance Computing 2018
+Alston S. Householder Prize 2017
+ETH Zurich Postdoctoral Fellowship 2014-2016
+DOE Computational Science Graduate Fellowship 2010-2014
+David J. Sakrison Memorial Prize 2014
+NERSC Award for Innovative Use of High Performance Computing 2013
+ACM-IEEE George Michael HPC Fellowship 2013
+Postdoctoral Researcher, ETH Zurich, 2014-2016
+PhD, University of California Berkeley, 2010-2014
+BS, University of Illinois at Urbana-Champaign, 2008-2010
+More information is available in my CV
+| article | Linjian Ma, Matthew Fishman, Edwin Miles Stoudenmire, and Edgar Solomonik. Tensor rank and other multipartite entanglement measures of graph states Quantum 8, 2024. |
+| article | Louis Schatzki, Linjian Ma, Edgar Solomonik, Eric Chitambar Tensor rank and other multipartite entanglement measures of graph states Physical Review A 110.3, 2024. |
+| article | Raghavendra Kanakagiri and Edgar Solomonik Minimum cost loop nests for contraction of a sparse tensor with a tensor network ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), June 2024. |
+| article | Ping-Hsuan Tsai, Paul Fischer, and Edgar Solomonik Accelerating the Galerkin reduced-order model with the tensor decomposition for turbulent flows arXiv:2311.03694 [physics.flu-dyn], November 2023. |
+| article | Caleb Ju, Yifan Zhang, and Edgar Solomonik Communication lower bounds for nested bilinear algorithms Foundations of Computational Mathematics (FoCM), 2023. |
+| article | Andreas Irmler, Raghavendra Kanakagiri, Sebastian T. Ohlmann, Edgar Solomonik, and Andreas Grueneis Optimizing distributed tensor contractions using node-aware processor grids Lecture Notes in Computer Science, Euro-Par, August 2023. |
+| article | Caleb Ju, Serif Yesil, Mengyuan Sun, Chandra Chekuri, and Edgar Solomonik Efficient parallel implementation of the multiplicative weight update method for graph-based linear programs arXiv:2307.03307 [cs.DC], July 2023. |
+| article | Navjot Singh and Edgar Solomonik. Alternating Mahalanobis distance minimization for stable and accurate CP decomposition SIAM Journal of Scientific Computing (SISC), 2023. |
+| article | Edward Hutter and Edgar Solomonik. High-dimensional performance modeling via tensor completion ACM/IEEE Supercomputing Conference (SC), November 2023. |
+| article | Wentao Yang, Vipul Harsh, and Edgar Solomonik. Optimal round and sample-size complexity for partitioning in parallel sorting ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), June 2023. |
+| article | Toluwanimi O. Odemuyiwa, Hadi Asghari-Moghaddam, Michael Pellauer, Kartik Hegde, Po-An Tsai, Neal C. Crago, Aamer Jaleel, Edgar Solomonik, Joel S. Emer, and Christopher W. Fletcher Accelerating sparse data orchestration via dynamic reflexive tiling ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), March 2023. |
+| article | Yang Gao, Phillip Helms, Garnet Kin-Lic Chan, and Edgar Solomonik. Automatic transformation of irreducible representations for efficient contraction of tensors with cyclic group symmetry SciPost Physics Codebases, September 2022. |
+| article | Linjian Ma and Edgar Solomonik Cost-efficient Gaussian tensor network embeddings for tensor-structured inputs Conference on Neural Information Processing Systems (NeurIPS), 2022. |
+| article | Chaoqi Yang, Cheng Qian, Navjot Singh, Cao Xiao, Brandon Westover, Edgar Solomonik, Jimeng Sun Augmented tensor decomposition with stochastic optimization Conference on Neural Information Processing Systems (NeurIPS), 2022. |
+| article | Samah Karim and Edgar Solomonik Efficient preconditioners for interior point methods via a new Schur-complement-based strategy SIAM Journal on Matrix Analysis and Applications (SIMAX), 2022. |
+| article | Navjot Singh, Zecheng Zhang, Xiaoxiao Wu, Naijing Zhang, Siyuan Zhang, and Edgar Solomonik Distributed-memory tensor completion for generalized loss functions in Python using new sparse tensor kernels Journal of Parallel and Distributed Computing (JPDC), 2022. |
+| article | Linjian Ma and Edgar Solomonik Accelerating alternating least squares for tensor decomposition by pairwise perturbation Numerical Linear Algebra with Applications (NLAA), 2022. |
+| article | Tim Baer, Raghavendra Kanakagiri, and Edgar Solomonik Parallel minimum spanning forest computation using sparse matrix kernels SIAM Conference of Parallel Processing for Scientific Computing (SIAM PP), 2022. |
+| article | Caleb Ju, Yifan Zhang, and Edgar Solomonik Communication lower bounds for nested bilinear algorithms arXiv:2107.09834 [cs.DC], July 2021. |
+| article | Linjian Ma and Edgar Solomonik Fast and accurate randomized algorithms for low-rank tensor decompositions Conference on Neural Information Processing Systems (NeurIPS), 2021. |
+| article | Chaoqi Yang, Navjot Singh, Cao Xiao, Cheng Qian, Edgar Solomonik, Jimeng Sun MTC: Multiresolution tensor completion from partial and coarse observations ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2021. |
+| article | Edgar Solomonik, James Demmel, and Torsten Hoefler Communication lower bounds of bilinear algorithms for symmetric tensor contractions SIAM Journal of Scientific Computing (SISC), 2021. |
+| article | Edward Hutter and Edgar Solomonik Confidence-based approximation for performance prediction using execution path analysis IEEE International Parallel and Distributed Processing Symposium (IPDPS), May 2021. |
+| article | Linjian Ma and Edgar Solomonik Efficient parallel CP decomposition with pairwise perturbation and multi-sweep dimension tree IEEE International Parallel and Distributed Processing Symposium (IPDPS), May 2021. |
+| article | Yang Gao, Phillip Helms, Garnet Kin-Lic Chan, and Edgar Solomonik Automatic transformation of irreducible representations for efficient contraction of tensors with cyclic group symmetry arXiv:2007.08056 [physics.comp-ph], July 2020. |
+| article | Ryan Levy, Edgar Solomonik, and Bryan Clark Distributed-memory DMRG via sparse and dense parallel tensor contractions ACM/IEEE Supercomputing Conference (SC), Atlanta, GA, November 2020. |
+| article | Yuchen Pang, Tianyi Hao, Annika Dugad, Yiqing Zhou, and Edgar Solomonik Efficient 2D tensor network simulation of quantum systems ACM/IEEE Supercomputing Conference (SC), Atlanta, GA, November 2020. |
+| article | Linjian Ma, Jiayu Ye, and Edgar Solomonik AutoHOOT: Automatic High-Order Optimization for Tensors International Conference on Parallel Architectures and Compilation Techniques (PACT), October 2020. |
+| article | Caleb Ju and Edgar Solomonik Derivation and analysis of fast bilinear algorithms for convolution SIAM Review, 2020. |
+| article | Edgar Solomonik and James Demmel Fast bilinear algorithms for symmetric tensor contractions Computational Methods in Applied Mathematics (CMAM), 2020. report |
+| article | Yifan Zhang and Edgar Solomonik On stability of tensor networks and canonical forms arXiv:2001.01191 [math.NA], January 2020. |
+| article | Maciej Besta, Raghavendra Kanakagiri, Harun Mustafa, Mikhail Karasikov, Gunnar Rätsch, Torsten Hoefler, and Edgar Solomonik Communication-efficient Jaccard similarity for high-performance distributed genome comparisons IEEE International Parallel and Distributed Processing Symposium (IPDPS), May 2020. |
+| article | Navjot Singh, Linjian Ma, Hongru Yang, and Edgar Solomonik Comparison of accuracy and scalability of Gauss-Newton and alternating least squares for CP decomposition SIAM Journal of Scientific Computing (SISC), October 2019. |
+| article | Kartik Hegde, Hadi Asghari-Moghaddam, Michael Pellauer, Neal Crago, Aamer Jaleel, Edgar Solomonik, Joel Emer, and Christopher W. Fletcher ExTensor: An accelerator for sparse tensor algebra IEEE/ACM International Symposium on Microarchitecture (MICRO), October 2019. |
+| article | Vipul Harsh, Laxmikant Kale, and Edgar Solomonik Histogram sort with sampling 31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), ACM, Phoenix, AZ, USA, June 2019. |
+| article | Edward Hutter and Edgar Solomonik Communication-avoiding Cholesky-QR2 for rectangular matrices IEEE International Parallel and Distributed Processing Symposium (IPDPS), Rio de Jianero, Brazil, May, 2019. |
+| article | Edwin Pednault, John A. Gunnels, Giacomo Nannicini, Lior Horesh, Thomas Magerlein, Edgar Solomonik, Erik Draeger, Eric Holland, and Robert Wisnieff Breaking the 49-qubit barrier in the simulation of quantum circuits arXiv:1710.05867 [quant-ph], October 2017. |
+| article | Edgar Solomonik, Maciej Besta, Flavio Vella, and Torsten Hoefler Scaling betweenness centrality using communication-efficient sparse matrix multiplication ACM/IEEE Supercomputing Conference (SC), Denver, Colorado, November 2017. report errata |
+| article | Edgar Solomonik, Grey Ballard, James Demmel, and Torsten Hoefler A communication-avoiding parallel algorithm for the symmetric eigenvalue problem 29th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), ACM, New York, NY, USA, 111-121, July 2017. report |
+| article | Maciej Besta, Michal Podstawski, Linus Groner, Edgar Solomonik, and Torsten Hoefler To push or to pull: on reducing communication and synchronization in graph computations 26th ACM Symposium on High Performance Parallel and Distributed Computing (HPDC), ACM, New York, NY, USA, 93-104, June 2017. report |
+| article | Tobias Wicky, Edgar Solomonik, and Torsten Hoefler Communication-avoiding parallel algorithms for solving triangular systems of linear equations IEEE International Parallel and Distributed Processing Symposium (IPDPS), Orlando, FL, June 2017, pp. 678-687. report |
+| article | Maciej Besta, Florian Marending, Edgar Solomonik and Torsten Hoefler. SlimSell: A vectorizable graph representation for breadth-first search IEEE International Parallel and Distributed Processing Symposium (IPDPS), Orlando, FL, June 2017, pp. 32-41. report |
+| article | Edgar Solomonik, Erin Carson, Nicholas Knight, and James Demmel Trade-offs between synchronization, communication, and computation in parallel linear algebra computations ACM Transactions on Parallel Computing (TOPC), June 2016. |
+| article | Edgar Solomonik and Torsten Hoefler Sparse tensor algebra as a parallel programming model arXiv:1512.00066 [cs.MS], November 2015. |
+| thesis | Edgar Solomonik Provably efficient algorithms for numerical tensor algebra Dissertation, University of California, Berkeley, August 2014. |
+| article | Edgar Solomonik, Erin Carson, Nicholas Knight, and James Demmel Tradeoffs between synchronization, communication, and work in parallel linear algebra computations 26th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), Prague, Czech Republic, June 2014. report Superseded by extended journal paper |
+| article | Edgar Solomonik, Devin Matthews, Jeff R. Hammond, John F. Stanton, and James Demmel A massively parallel tensor contraction framework for coupled-cluster computations Journal of Parallel and Distributed Computing, June 2014. report |
+| article | Grey Ballard, James Demmel, Laura Grigori, Mathias Jacquelin, Hong Diep Nguyen, and Edgar Solomonik Reconstructing Householder vectors from Tall-Skinny QR IEEE International Parallel and Distributed Processing Symposium (IPDPS), Phoenix, AZ, May 2014. report |
+| article | Edgar Solomonik, Devin Matthews, Jeff Hammond, and James Demmel Cyclops Tensor Framework: reducing communication and eliminating load imbalance in massively parallel contractions IEEE International Parallel and Distributed Processing Symposium (IPDPS), Boston, MA, May 2013. report |
+| article | Edgar Solomonik, Aydin Buluc, and James Demmel Minimizing communication in all-pairs shortest-paths IEEE International Parallel and Distributed Processing Symposium (IPDPS), Boston, MA, May 2013. report |
+| article | Michael Driscoll, Evangelos Georganas, Penporn Koanantakool, Edgar Solomonik, and Katherine Yelick A communication-optimal n-body algorithm for direct interactions IEEE International Parallel and Distributed Processing Symposium (IPDPS), Boston, MA, May 2013. |
+| article | Evangelos Georganas, Jorge Gonzalez-Dominguez, Edgar Solomonik, Yili Zheng, Juan Tourino and Katherine Yelick Communication avoiding and overlapping for numerical linear algebra ACM/IEEE Supercomputing Conference (SC), Salt Lake City, Utah, November 2012. report |
+| article | Edgar Solomonik and James Demmel Matrix multiplication on multidimensional torus networks Springer Lecture Notes in Computer Science (LNCS), Proceedings of VECPAR, Kobe, Japan, July 2012. report |
+| article | Edgar Solomonik, Jeff Hammond, and James Demmel A preliminary analysis of Cyclops Tensor Framework EECS Department, University of California, Berkeley, March 2012. |
+| article | Edgar Solomonik, Abhinav Bhatele, and James Demmel Improving communication performance in dense linear algebra via topology aware collectives ACM/IEEE Supercomputing Conference (SC), Seattle, WA, November 2011. report |
+| article | Edgar Solomonik and James Demmel Communication-optimal parallel 2.5D matrix multiplication and LU factorization algorithms Lecture Notes in Computer Science, Euro-Par, Bordeaux, France, August 2011. "Distinguished Paper" report errata |
+| article | Laxmikant Kale and Edgar Solomonik Parallel sorting Encyclopedia of Parallel Computing (pp. 1855-1862), Springer, David Padua, Ed., 2011. |
+| article | Edgar Solomonik and Laxmikant V. Kale Highly scalable parallel sorting IEEE International Parallel and Distributed Processing Symposium (IPDPS), Atlanta, GA, April 2010. |
+| article | Vivek Kale and Edgar Solomonik Parallel sorting pattern Workshop on Parallel Programming Patterns (ParaPLOP), March 2010. |
+| article | Abhinav Bhatele, Lukasz Wesolowski, Eric Bohm, Edgar Solomonik, and Laxmikant V. Kale Understanding application performance via micro-benchmarks on three large supercomputers: Intrepid, Ranger and Jaguar International Journal of High Performance Computing Applications (IJHPCA), November 2010. |

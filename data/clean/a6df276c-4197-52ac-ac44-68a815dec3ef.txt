@@ -1,0 +1,174 @@
+default search action
+Ruta Mehta
+Person information
+- affiliation: University of Illinois at Urbana-Champaig, IL, USA
+SPARQL queries
+Refine list
+refinements active!
+zoomed in on ?? of ?? records
+view refined list in
+export refined list as
+2020 – today
+- 2025
+- [j14]Hannaneh Akrami, Noga Alon, Bhaskar Ray Chaudhury, Jugal Garg, Kurt Mehlhorn, Ruta Mehta:
+EFX: A Simpler Approach and an (Almost) Optimal Guarantee via Rainbow Cycle Number. Oper. Res. 73(2): 738-751 (2025) - [c58]Jinghan A. Zeng, Ruta Mehta:
+On the Structure of EFX Orientations on Graphs. AAMAS 2025: 2309-2316 - [c57]Pooja Kulkarni, Ruta Mehta, Parnian Shahkar:
+Online Fair Division: Towards Ex-Post Constant MMS Guarantees. EC 2025: 638 - [c56]Vasilis Livanos, Ruta Mehta:
+Minimization I.I.D. Prophet Inequality via Extreme Value Theory: A Unified Approach. EC 2025: 1157-1179 - [c55]Eleni Batziou, John Fearnley, Spencer Gordon, Ruta Mehta, Rahul Savani:
+Monotone Contractions. STOC 2025: 507-517 - [i48]Pooja Kulkarni, Ruta Mehta, Parnian Shahkar:
+Online Fair Division: Towards Ex-Post Constant MMS Guarantees. CoRR abs/2503.02088 (2025) - 2024
+- [j13]Bhaskar Ray Chaudhury, Jugal Garg, Kurt Mehlhorn, Ruta Mehta, Pranabendu Misra:
+Improving Envy Freeness up to Any Good Guarantees Through Rainbow Cycle Number. Math. Oper. Res. 49(4): 2323-2340 (2024) - [c54]Chandra Chekuri, Pooja Kulkarni, Rucha Kulkarni, Ruta Mehta:
+1/2-Approximate MMS Allocation for Separable Piecewise Linear Concave Valuations. AAAI 2024: 9590-9597 - [c53]Pooja Kulkarni, Rucha Kulkarni, Ruta Mehta:
+Approximating APS Under Submodular and XOS Valuations with Binary Marginals. AAMAS 2024: 1057-1065 - [c52]Maya Viswanathan, Ruta Mehta:
+On the existence of EFX under picky or non-differentiative agents. AAMAS 2024: 2534-2536 - [c51]Bhaskar Ray Chaudhury, Aniket Murhekar, Zhuowen Yuan, Bo Li, Ruta Mehta, Ariel D. Procaccia:
+Fair Federated Learning via the Proportional Veto Core. ICML 2024 - [c50]Bhaskar Ray Chaudhury, Christian Kroer, Ruta Mehta, Tianlong Nan:
+Competitive Equilibrium for Chores: from Dual Eisenberg-Gale to a Fast, Greedy, LP-based Algorithm. EC 2024: 40 - [c49]Vasilis Livanos, Ruta Mehta:
+Minimization is Harder in the Prophet World. SODA 2024: 424-461 - [i47]Bhaskar Ray Chaudhury, Christian Kroer, Ruta Mehta, Tianlong Nan:
+Competitive Equilibrium for Chores: from Dual Eisenberg-Gale to a Fast, Greedy, LP-based Algorithm. CoRR abs/2402.10439 (2024) - [i46]Jinghan A. Zeng, Ruta Mehta:
+On the structure of envy-free orientations on graphs. CoRR abs/2404.13527 (2024) - [i45]Eleni Batziou, John Fearnley, Spencer Gordon, Ruta Mehta, Rahul Savani:
+Monotone Contractions. CoRR abs/2411.10107 (2024) - [i44]Vasilis Livanos, Ruta Mehta:
+Minimization I.I.D. Prophet Inequality via Extreme Value Theory: A Unified Approach. CoRR abs/2411.19851 (2024) - [i43]Evangelos Markakis, Ruta Mehta, Yair Zick:
+Fair Division: Algorithms, Solution Concepts, and Applications (Dagstuhl Seminar 24401). Dagstuhl Reports 14(9): 145-166 (2024) - 2023
+- [j12]Bhaskar Ray Chaudhury, Jugal Garg, Peter McGlaughlin, Ruta Mehta:
+A Complementary Pivot Algorithm for Competitive Allocation of a Mixed Manna. Math. Oper. Res. 48(3): 1630-1656 (2023) - [c48]Pooja Kulkarni, Rucha Kulkarni, Ruta Mehta:
+Maximin Share Allocations for Assignment Valuations. AAMAS 2023: 2875-2876 - [c47]Hannaneh Akrami, Bhaskar Ray Chaudhury, Jugal Garg, Kurt Mehlhorn, Ruta Mehta:
+Fair and Efficient Allocation of Indivisible Chores with Surplus. IJCAI 2023: 2494-2502 - [c46]Aniket Murhekar, Zhuowen Yuan, Bhaskar Ray Chaudhury, Bo Li, Ruta Mehta:
+Incentives in Federated Learning: Equilibria, Dynamics, and Mechanisms for Welfare Maximization. NeurIPS 2023 - [c45]Hannaneh Akrami, Noga Alon, Bhaskar Ray Chaudhury, Jugal Garg, Kurt Mehlhorn, Ruta Mehta:
+EFX: A Simpler Approach and an (Almost) Optimal Guarantee via Rainbow Cycle Number. EC 2023: 61 - [i42]Hannaneh Akrami, Bhaskar Ray Chaudhury, Jugal Garg, Kurt Mehlhorn, Ruta Mehta:
+Fair and Efficient Allocation of Indivisible Chores with Surplus. CoRR abs/2305.04788 (2023) - [i41]Chandra Chekuri, Pooja Kulkarni, Rucha Kulkarni, Ruta Mehta:
+1/2 Approximate MMS Allocation for Separable Piecewise Linear Concave Valuations. CoRR abs/2312.08504 (2023) - [i40]Pooja Kulkarni, Rucha Kulkarni, Ruta Mehta:
+Approximating APS under Submodular and XOS valuations with Binary Marginals. CoRR abs/2312.08509 (2023) - 2022
+- [j11]Shant Boodaghians, Federico Fusco, Stefano Leonardi, Yishay Mansour, Ruta Mehta:
+Online revenue maximization for server pricing. Auton. Agents Multi Agent Syst. 36(1): 11 (2022) - [j10]Simina Brânzei, Vasilis Gkatzelis, Ruta Mehta:
+Nash Social Welfare Approximation for Strategic Agents. Oper. Res. 70(1): 402-415 (2022) - [j9]Martin Hoefer, Xujin Chen, Nikolai Gravin, Ruta Mehta:
+Introduction to the Special Issue on WINE'20: Part 1. ACM Trans. Economics and Comput. 10(2): 6:1 (2022) - [c44]Vasilis Livanos, Ruta Mehta, Aniket Murhekar:
+(Almost) Envy-Free, Proportional and Efficient Allocations of an Indivisible Mixed Manna. AAMAS 2022: 1678-1680 - [c43]Bhaskar Ray Chaudhury, Jugal Garg, Peter McGlaughlin, Ruta Mehta:
+On the Existence of Competitive Equilibrium with Chores. ITCS 2022: 41:1-41:13 - [c42]Bhaskar Ray Chaudhury, Linyi Li, Mintong Kang, Bo Li, Ruta Mehta:
+Fairness in Federated Learning via Core-Stability. NeurIPS 2022 - [c41]Bhaskar Ray Chaudhury, Jugal Garg, Peter McGlaughlin, Ruta Mehta:
+Competitive Equilibrium with Chores: Combinatorial Algorithm and Hardness. EC 2022: 1106-1107 - [c40]Shant Boodaghians, Bhaskar Ray Chaudhury, Ruta Mehta:
+Polynomial Time Algorithms to Find an Approximate Competitive Equilibrium for Chores. SODA 2022: 2285-2302 - [i39]Vasilis Livanos, Ruta Mehta, Aniket Murhekar:
+(Almost) Envy-Free, Proportional and Efficient Allocations of an Indivisible Mixed Manna. CoRR abs/2202.02672 (2022) - [i38]Hannaneh Akrami, Bhaskar Ray Chaudhury, Jugal Garg, Kurt Mehlhorn, Ruta Mehta:
+EFX Allocations: Simplifications and Improvements. CoRR abs/2205.07638 (2022) - [i37]Bhaskar Ray Chaudhury, Jugal Garg, Peter McGlaughlin, Ruta Mehta:
+Competitive Equilibrium with Chores: Combinatorial Algorithm and Hardness. CoRR abs/2205.11363 (2022) - [i36]Vasilis Livanos, Ruta Mehta:
+Prophet Inequalities for Cost Minimization. CoRR abs/2209.07988 (2022) - [i35]Bhaskar Ray Chaudhury, Linyi Li, Mintong Kang, Bo Li, Ruta Mehta:
+Fairness in Federated Learning via Core-Stability. CoRR abs/2211.02091 (2022) - [i34]Lang Yin, Ruta Mehta:
+On the Envy-free Allocation of Chores. CoRR abs/2211.15836 (2022) - 2021
+- [j8]Bharat Adsul, Jugal Garg, Ruta Mehta, Milind A. Sohoni, Bernhard von Stengel:
+Fast Algorithms for Rank-1 Bimatrix Games. Oper. Res. 69(2): 613-631 (2021) - [c39]Bhaskar Ray Chaudhury, Jugal Garg, Ruta Mehta:
+Fair and Efficient Allocations under Subadditive Valuations. AAAI 2021: 5269-5276 - [c38]Rucha Kulkarni, Ruta Mehta, Setareh Taki:
+On the PTAS for Maximin Shares in an Indivisible Mixed Manna. AAAI 2021: 5523-5530 - [c37]Bhaskar Ray Chaudhury, Jugal Garg, Kurt Mehlhorn, Ruta Mehta, Pranabendu Misra:
+Improving EFX Guarantees through Rainbow Cycle Number. EC 2021: 310-311 - [c36]Rucha Kulkarni, Ruta Mehta, Setareh Taki:
+Indivisible Mixed Manna: On the Computability of MMS+PO Allocations. EC 2021: 683-684 - [c35]Bhaskar Ray Chaudhury, Jugal Garg, Peter McGlaughlin, Ruta Mehta:
+Competitive Allocation of a Mixed Manna. SODA 2021: 1405-1424 - [i33]Bhaskar Ray Chaudhury, Jugal Garg, Kurt Mehlhorn, Ruta Mehta, Pranabendu Misra:
+Improving EFX Guarantees through Rainbow Cycle Number. CoRR abs/2103.01628 (2021) - [i32]Shant Boodaghians, Bhaskar Ray Chaudhury, Ruta Mehta:
+Polynomial Time Algorithms to Find an Approximate Competitive Equilibrium for Chores. CoRR abs/2107.06649 (2021) - 2020
+- [j7]John Fearnley, Spencer Gordon, Ruta Mehta, Rahul Savani:
+Unique end of potential line. J. Comput. Syst. Sci. 114: 1-35 (2020) - [j6]Ruta Mehta, Vijay V. Vazirani:
+An incentive compatible, efficient market for air traffic flow management. Theor. Comput. Sci. 818: 41-50 (2020) - [c34]Aniket Murhekar, Ruta Mehta:
+Approximate Nash Equilibria of Imitation Games: Algorithms and Complexity. AAMAS 2020: 887-894 - [c33]Shant Boodaghians, Federico Fusco, Stefano Leonardi, Yishay Mansour, Ruta Mehta:
+Online Revenue Maximization for Server Pricing. IJCAI 2020: 4106-4112 - [c32]Shant Boodaghians, Rucha Kulkarni, Ruta Mehta:
+Smoothed Efficient Algorithms and Reductions for Network Coordination Games. ITCS 2020: 73:1-73:15 - [e1]Xujin Chen, Nikolai Gravin, Martin Hoefer, Ruta Mehta:
+Web and Internet Economics - 16th International Conference, WINE 2020, Beijing, China, December 7-11, 2020, Proceedings. Lecture Notes in Computer Science 12495, Springer 2020, ISBN 978-3-030-64945-6 [contents] - [i31]Bhaskar Ray Chaudhury, Jugal Garg, Ruta Mehta:
+Fair and Efficient Allocations under Subadditive Valuations. CoRR abs/2005.06511 (2020) - [i30]Rucha Kulkarni, Ruta Mehta, Setareh Taki:
+Approximating Maximin Shares with Mixed Manna. CoRR abs/2007.09133 (2020) - [i29]Bhaskar Ray Chaudhury, Jugal Garg, Peter McGlaughlin, Ruta Mehta:
+Dividing Bads is Harder than Dividing Goods: On the Complexity of Fair and Efficient Division of Chores. CoRR abs/2008.00285 (2020) - [i28]Bhaskar Ray Chaudhury, Jugal Garg, Peter McGlaughlin, Ruta Mehta:
+Competitive Allocation of a Mixed Manna. CoRR abs/2008.02753 (2020)
+2010 – 2019
+- 2019
+- [c31]Gaurush Hiranandani, Shant Boodaghians, Ruta Mehta, Oluwasanmi Koyejo:
+Performance Metric Elicitation from Pairwise Classifier Comparisons. AISTATS 2019: 371-379 - [c30]John Fearnley, Spencer Gordon, Ruta Mehta, Rahul Savani:
+Unique End of Potential Line. ICALP 2019: 56:1-56:15 - [c29]Gaurush Hiranandani, Shant Boodaghians, Ruta Mehta, Oluwasanmi Koyejo:
+Multiclass Performance Metric Elicitation. NeurIPS 2019: 9351-9360 - [i27]Shant Boodaghians, Federico Fusco, Stefano Leonardi, Yishay Mansour, Ruta Mehta:
+Online Revenue Maximization for Server Pricing. CoRR abs/1906.09880 (2019) - 2018
+- [j5]Jugal Garg, Ruta Mehta, Vijay V. Vazirani:
+Substitution with Satiation: A New Class of Utility Functions and a Complementary Pivot Algorithm. Math. Oper. Res. 43(3): 996-1024 (2018) - [j4]Ruta Mehta:
+Constant Rank Two-Player Games are PPAD-hard. SIAM J. Comput. 47(5): 1858-1887 (2018) - [j3]Jugal Garg, Ruta Mehta, Vijay V. Vazirani, Sadra Yazdanbod:
+∃R-Completeness for Decision Versions of Multi-Player (Symmetric) Nash Equilibria. ACM Trans. Economics and Comput. 6(1): 1:1-1:23 (2018) - [c28]Shivam Gupta, Ruta Mehta:
+Nash Equilibrium Computation in Resource Allocation Games. AAMAS 2018: 1953-1955 - [c27]Anupam Gupta, Ruta Mehta, Marco Molinaro:
+Maximizing Profit with Convex Costs in the Random-order Model. ICALP 2018: 71:1-71:14 - [c26]Simina Brânzei, Ruta Mehta, Noam Nisan:
+Universal Growth in Production Economies. NeurIPS 2018: 1975 - [c25]Nikhil R. Devanur, Jugal Garg, Ruta Mehta, Vijay V. Vazirani, Sadra Yazdanbod:
+A New Class of Combinatorial Markets with Covering Constraints: Algorithms and Applications. SODA 2018: 2311-2325 - [c24]Pravesh K. Kothari, Ruta Mehta:
+Sum-of-squares meets nash: lower bounds for finding any equilibrium. STOC 2018: 1241-1248 - [c23]Ziwei Ji, Ruta Mehta, Matus Telgarsky:
+Social Welfare and Profit Maximization from Revealed Preferences. WINE 2018: 264-281 - [i26]Simina Brânzei, Ruta Mehta, Noam Nisan:
+Universal Growth in Production Economies. CoRR abs/1802.07385 (2018) - [i25]John Fearnley, Spencer Gordon, Ruta Mehta, Rahul Savani:
+End of Potential Line. CoRR abs/1804.03450 (2018) - [i24]Anupam Gupta, Ruta Mehta, Marco Molinaro:
+Maximizing Profit with Convex Costs in the Random-order Model. CoRR abs/1804.08172 (2018) - [i23]Gaurush Hiranandani, Shant Boodaghians, Ruta Mehta, Oluwasanmi Koyejo:
+Eliciting Binary Performance Metrics. CoRR abs/1806.01827 (2018) - [i22]Pravesh K. Kothari, Ruta Mehta:
+Sum-of-Squares meets Nash: Optimal Lower Bounds for Finding any Equilibrium. CoRR abs/1806.09426 (2018) - [i21]Wei-Chun Lee, Vasilis Livanos, Ruta Mehta, Hari Sundaram:
+Resource Allocation Game on Social Networks: Best Response Dynamics and Convergence. CoRR abs/1808.08260 (2018) - [i20]Shant Boodaghians, Rucha Kulkarni, Ruta Mehta:
+Nash Equilibrium in Smoothed Polynomial Time for Network Coordination Games. CoRR abs/1809.02280 (2018) - [i19]John Fearnley, Spencer Gordon, Ruta Mehta, Rahul Savani:
+Unique End of Potential Line. CoRR abs/1811.03841 (2018) - [i18]Bharat Adsul, Jugal Garg, Ruta Mehta, Milind A. Sohoni, Bernhard von Stengel:
+Fast Algorithms for Rank-1 Bimatrix Games. CoRR abs/1812.04611 (2018) - [i17]Pravesh Kothari, Ruta Mehta:
+Sum-of-Squares meets Nash: Optimal Lower Bounds for Finding any Equilibrium. Electron. Colloquium Comput. Complex. TR18 (2018) - 2017
+- [c22]Ruta Mehta, Vijay V. Vazirani:
+An Incentive Compatible, Efficient Market for Air Traffic Flow Management. COCOON 2017: 407-419 - [c21]Ruta Mehta, Ioannis Panageas, Georgios Piliouras, Prasad Tetali, Vijay V. Vazirani:
+Mutation, Sexual Reproduction and Survival in Dynamic Environments. ITCS 2017: 16:1-16:29 - [c20]Simina Brânzei, Vasilis Gkatzelis, Ruta Mehta:
+Nash Social Welfare Approximation for Strategic Agents. EC 2017: 611-628 - [c19]Jugal Garg, Ruta Mehta, Vijay V. Vazirani, Sadra Yazdanbod:
+Settling the complexity of Leontief and PLC exchange markets under exact and approximate equilibria. STOC 2017: 890-901 - [i16]John Fearnley, Spencer Gordon, Ruta Mehta, Rahul Savani:
+CLS: New Problems and Completeness. CoRR abs/1702.06017 (2017) - [i15]Ziwei Ji, Ruta Mehta, Matus Telgarsky:
+Social Welfare and Profit Maximization from Revealed Preferences. CoRR abs/1711.02211 (2017) - 2016
+- [j2]Jugal Garg, Ruta Mehta, Vijay V. Vazirani:
+Dichotomies in Equilibrium Computation and Membership of PLC Markets in FIXP. Theory Comput. 12(1): 1-25 (2016) - [c18]Aaron Schlenker, Matthew Brown, Arunesh Sinha, Milind Tambe, Ruta Mehta:
+Get Me to My GATE on Time: Efficiently Solving General-Sum Bayesian Threat Screening Games. ECAI 2016: 1476-1484 - [c17]Ruta Mehta, Ioannis Panageas, Georgios Piliouras, Sadra Yazdanbod:
+The Computational Complexity of Genetic Diversity. ESA 2016: 65:1-65:17 - [c16]Simina Brânzei, Yuezhou Lv, Ruta Mehta:
+To Give or Not to Give: Fair Division for Single Minded Valuations. IJCAI 2016: 123-129 - [c15]Hau Chan, Albert Xin Jiang, Kevin Leyton-Brown, Ruta Mehta:
+Multilinear Games. WINE 2016: 44-58 - [i14]Simina Brânzei, Yuezhou Lv, Ruta Mehta:
+To Give or not to Give: Fair Division for Strict Preferences. CoRR abs/1602.09088 (2016) - [i13]Simina Brânzei, Vasilis Gkatzelis, Ruta Mehta:
+Nash Social Welfare Approximation for Strategic Agents. CoRR abs/1607.01569 (2016) - 2015
+- [j1]Jugal Garg, Ruta Mehta, Milind A. Sohoni, Vijay V. Vazirani:
+A Complementary Pivot Algorithm for Market Equilibrium under Separable, Piecewise-Linear Concave Utilities. SIAM J. Comput. 44(6): 1820-1847 (2015) - [c14]Jugal Garg, Ruta Mehta, Vijay V. Vazirani, Sadra Yazdanbod:
+ETR-Completeness for Decision Versions of Multi-player (Symmetric) Nash Equilibria. ICALP (1) 2015: 554-566 - [c13]Ruta Mehta, Ioannis Panageas, Georgios Piliouras:
+Natural Selection as an Inhibitor of Genetic Diversity: Multiplicative Weights Updates Algorithm and a Conjecture of Haploid Genetics [Working Paper Abstract]. ITCS 2015: 73 - [c12]Ruta Mehta, Vijay V. Vazirani, Sadra Yazdanbod:
+Settling Some Open Problems on 2-Player Symmetric Nash Equilibria. SAGT 2015: 272-284 - [i12]Ruta Mehta, Ioannis Panageas, Georgios Piliouras, Prasad Tetali, Vijay V. Vazirani:
+The game of survival: Sexual evolution in dynamic environments. CoRR abs/1511.01409 (2015) - [i11]Nikhil R. Devanur, Jugal Garg, Ruta Mehta, Vijay V. Vazirani, Sadra Yazdanbod:
+A Market for Scheduling, with Applications to Cloud Computing. CoRR abs/1511.08748 (2015) - 2014
+- [c11]Jugal Garg, Ruta Mehta, Vijay V. Vazirani:
+Dichotomies in equilibrium computation, and complementary pivot algorithms for a new class of non-separable utility functions. STOC 2014: 525-534 - [c10]Ruta Mehta:
+Constant rank bimatrix games are PPAD-hard. STOC 2014: 545-554 - [c9]Ruta Mehta, Nithum Thain, László A. Végh, Adrian Vetta:
+To Save Or Not To Save: The Fisher Game. WINE 2014: 294-307 - [c8]Maria-Florina Balcan, Amit Daniely, Ruta Mehta, Ruth Urner, Vijay V. Vazirani:
+Learning Economic Parameters from Revealed Preferences. WINE 2014: 338-353 - [i10]Ruta Mehta:
+Constant Rank Bimatrix Games are PPAD-hard. CoRR abs/1402.3350 (2014) - [i9]Maria-Florina Balcan, Amit Daniely, Ruta Mehta, Ruth Urner, Vijay V. Vazirani:
+Learning Economic Parameters from Revealed Preferences. CoRR abs/1407.7937 (2014) - [i8]Ruta Mehta, Ioannis Panageas, Georgios Piliouras:
+Natural Selection as an Inhibitor of Genetic Diversity: Multiplicative Weights Updates Algorithm and a Conjecture of Haploid Genetics. CoRR abs/1408.6270 (2014) - [i7]Jugal Garg, Ruta Mehta, Vijay V. Vazirani, Sadra Yazdanbod:
+Leontief Exchange Markets Can Solve Multivariate Polynomial Equations, Yielding FIXP and ETR Hardness. CoRR abs/1411.5060 (2014) - [i6]Ruta Mehta, Ioannis Panageas, Georgios Piliouras, Sadra Yazdanbod:
+The Complexity of Genetic Diversity: Sex with Two Chromosomes is Advantageous but Unpredictable. CoRR abs/1411.6322 (2014) - [i5]Ruta Mehta, Vijay V. Vazirani, Sadra Yazdanbod:
+Settling Some Open Problems on 2-Player Symmetric Nash Equilibria. CoRR abs/1412.0969 (2014) - 2013
+- [c7]Jugal Garg, Ruta Mehta, Milind A. Sohoni, Nisheeth K. Vishnoi:
+Towards Polynomial Simplex-Like Algorithms for Market Equlibria. SODA 2013: 1226-1242 - [c6]Ruta Mehta, Milind A. Sohoni:
+Exchange Markets: Strategy Meets Supply-Awareness - (Abstract). WINE 2013: 361-362 - [i4]Ruta Mehta, Vijay V. Vazirani:
+An Incentive Compatible, Efficient Market for Air Traffic Flow Management. CoRR abs/1305.3241 (2013) - 2012
+- [c5]Jugal Garg, Ruta Mehta, Milind A. Sohoni, Vijay V. Vazirani:
+A complementary pivot algorithm for markets under separable, piecewise-linear concave utilities. STOC 2012: 1003-1016 - 2011
+- [c4]Bharat Adsul, Jugal Garg, Ruta Mehta, Milind A. Sohoni:
+Rank-1 bimatrix games: a homeomorphism and a polynomial time algorithm. STOC 2011: 195-204 - [c3]Jugal Garg, Albert Xin Jiang, Ruta Mehta:
+Bilinear Games: Polynomial Time Algorithms for Rank Based Subclasses. WINE 2011: 399-407 - [i3]Jugal Garg, Albert Xin Jiang, Ruta Mehta:
+Bilinear Games: Polynomial Time Algorithms for Rank Based Subclasses. CoRR abs/1109.6182 (2011) - 2010
+- [c2]Bharat Adsul, Ch. Sobhan Babu, Jugal Garg, Ruta Mehta, Milind A. Sohoni:
+A Simplex-Like Algorithm for Fisher Markets. SAGT 2010: 18-29 - [c1]Bharat Adsul, Ch. Sobhan Babu, Jugal Garg, Ruta Mehta, Milind A. Sohoni:
+Nash Equilibria in Fisher Market. SAGT 2010: 30-41 - [i2]Bharat Adsul, Ch. Sobhan Babu, Jugal Garg, Ruta Mehta, Milind A. Sohoni:
+Nash equilibria in Fisher market. CoRR abs/1002.4832 (2010) - [i1]Bharat Adsul, Jugal Garg, Ruta Mehta, Milind A. Sohoni:
+Rank-1 Bi-matrix Games: A Homeomorphism and a Polynomial Time Algorithm. CoRR abs/1010.3083 (2010)
+Coauthor Index
+manage site settings
+To protect your privacy, all features that rely on external API calls from your browser are turned off by default. You need to opt-in for them to become active. All settings here will be stored as cookies with your web browser. For more information see our F.A.Q.
+Unpaywalled article links
+Add open access links from to the list of external document links (if available).
+Privacy notice: By enabling the option above, your browser will contact the API of unpaywall.org to load hyperlinks to open access articles. Although we do not have any reason to believe that your call will be tracked, we do not have any control over how the remote server uses your data. So please proceed with care and consider checking the Unpaywall privacy policy.
+Archived links via Wayback Machine
+For web page which are no longer available, try to retrieve content from the of the Internet Archive (if available).
+Privacy notice: By enabling the option above, your browser will contact the API of archive.org to check for archived content of web pages that are no longer available. Although we do not have any reason to believe that your call will be tracked, we do not have any control over how the remote server uses your data. So please proceed with care and consider checking the Internet Archive privacy policy.
+Reference lists
+Add a list of references from , , and to record detail pages.
+load references from crossref.org and opencitations.net
+Privacy notice: By enabling the option above, your browser will contact the APIs of crossref.org, opencitations.net, and semanticscholar.org to load article reference information. Although we do not have any reason to believe that your call will be tracked, we do not have any control over how the remote server uses your data. So please proceed with care and consider checking the Crossref privacy policy and the OpenCitations privacy policy, as well as the AI2 Privacy Policy covering Semantic Scholar.
+Citation data
+Add a list of citing articles from and to record detail pages.
+load citations from opencitations.net
+Privacy notice: By enabling the option above, your browser will contact the API of opencitations.net and semanticscholar.org to load citation information. Although we do not have any reason to believe that your call will be tracked, we do not have any control over how the remote server uses your data. So please proceed with care and consider checking the OpenCitations privacy policy as well as the AI2 Privacy Policy covering Semantic Scholar.
+OpenAlex data
+Load additional information about publications from .
+Privacy notice: By enabling the option above, your browser will contact the API of openalex.org to load additional information. Although we do not have any reason to believe that your call will be tracked, we do not have any control over how the remote server uses your data. So please proceed with care and consider checking the information given by OpenAlex.
+last updated on 2025-08-10 21:16 CEST by the dblp team
+all metadata released as open data under CC0 1.0 license
+see also: Terms of Use | Privacy Policy | Imprint

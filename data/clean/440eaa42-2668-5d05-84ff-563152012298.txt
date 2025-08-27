@@ -1,0 +1,6 @@
+Renoir: Luncheon of the Boating Party
+The Statistical Speech Technology group was created in 1999 at the University of Illinois. Our research is motivated by poetry, mathematics and empowerment.
+Poetry lives in the rhythm and rhyming of monologue and dialogue, the halting beauty of apraxia and dysarthria and aphasia and stutter, the fluent dancing silences of sign, the singing and cooing of parents and children, the interplay between first language and second language and third language in a code-switched conversation.
+Mathematics is the art of expressing truth as precisely as possible. Information-theoretic models of speech make it possible to diagnose and treat human disabilities and translate text. Signal processing models permit us to separate the linguistic and nonlinguistic components of speech, understand them, synthesize them, and bring computers into the conversation.
+Empowerment of every human is the purpose of artificial intelligence.
+We are people who work together on projects and publications, create datasets, teach courses, and speak to the press. We sometimes have parties (this activity has become more frequent since the end of the pandemic).

@@ -1,0 +1,75 @@
+Girish Chowdhary
+For More Information
+Education
+- Ph.D., Georgia Institute of Technology, 2010, Atlanta, GA
+- M.S., Georgia Institute of Technology, 2008, Atlanta, GA
+- BEng, Royal Melbourne Institute of Technology, 2003, Melbourne, Australia
+Academic Positions
+- Postdoctoral associate, Massachusetts Institute of Technology, Laboratory for Information and Decision Systems, 2011-2013
+- Assistant Professor, Oklahoma State University Mechanical and Aerospace Engineering, 2013-2016
+- Assistant Professor, Agricultural and Biological Engineering, University of Illinois Urbana-Champaign, 2016-2020
+- Associate Professor, Agricultural and Biological Engineering and Computer Science (Joint Appointment), University of Illinois Urbana-Champaign, 2020 - current
+Other Professional Employment
+- Research Engineer, German Aerospace Center, Braunschweig, Germany, 2004-2006
+Major Consulting Activities
+- EarthSense Inc., co-founder
+- IMS consulting, expert witness for patent litigation,
+Other Professional Activities
+- Girish's ongoing research interest is in theoretical insights and practical algorithms for adaptive autonomy, with a particular application focus on field-robotics and Unmanned Aerial Systems (UAS). He has authored over 90 peer reviewed publications in adaptive and fault tolerant control, sequential decision making and mission planning, aircraft system identification, distributed sensing and inference, Bayesian nonparametric learning for control, and vision aided navigation and control. His recent research is focused on the immediate need to create software capable of adapting and learning from experience in various domains where distributed operation is essential, including agriculture, road-networks, energy, and defense.
+- On the practical side, Girish has led the development and flight-testing of over 10 research UAS platform. UAS autopilots based on Girish’s work have been designed and flight-tested on six UASs, including by independent international institutions. Girish is a Primary Investigator on NSF, AFOSR, NASA, and DOE grants. He is the winner of the Air Force Young Investigator Award, and the Aerospace Guidance and Controls Systems Committee Dave Ward Memorial award.
+Research Interests
+- Machine Learning for machine vision
+- Adaptive Control and Reinforcement Learning
+- Autonomy
+- Robotics
+Research Areas
+Chapters in Books
+- Nonlinear flight control techniques for unmanned aerial vehicles Girish, C. V., Emilio, F., Jonathan, H. P. & Hugh, L. Jan 1 2015 Handbook of Unmanned Aerial Vehicles. Springer Netherlands, p. 577-612 36 p.
+- Linear flight control techniques for unmanned aerial vehicles How, J. P., Frazzoli, E. & Chowdhary, G. V. Jan 1 2015 Handbook of Unmanned Aerial Vehicles. Springer Netherlands, p. 529-576 48 p.
+- Adaptive control of unmanned aerial vehicles: Theory and flight tests Kannan, S. K., Chowdhary, G. V. & Johnson, E. N. Jan 1 2015 Handbook of Unmanned Aerial Vehicles. Springer Netherlands, p. 613-673 61 p.
+Selected Articles in Journals
+- McAllister, W., Osipychev, D., Davis, A., & Chowdhary, G. (2019). Agbots: Weeding a field with a team of autonomous robots. Computers and Electronics in Agriculture, 163, 104827.
+- Higuti Vitor A. H., Velasquez A. E. B., Magalhaes D. V., Becker M., Chowdhary G., Under canopy light detection and ranging-based autonomous navigation, Journal of Field Robotics (JFR), Vol. 36, no. 3, pp. 547-567, May 2019.
+- Online Regression for Data With Changepoints Using Gaussian Processes and Reusable Models Grande, R. C., Walsh, T. J., Chowdhary, G., Ferguson, S. & How, J. P. Jun 14 2016 In : IEEE Transactions on Neural Networks and Learning Systems.
+- Bayesian nonparametric adaptive control using Gaussian processes Chowdhary, G., Kingravi, H. A., How, J. P. & Vela, P. A. Mar 1 2015 In : IEEE Transactions on Neural Networks and Learning Systems. 26, 3, p. 537-550 14 p., 6823109
+- An automated battery management system to enable persistent missions with multiple aerial vehicles Ure, N. K., Chowdhary, G., Toksoz, T., How, J. P., Vavrina, M. A. & Vian, J. 2015 In : IEEE/ASME Transactions on Mechatronics. 20, 1, p. 275-286 12 p., 6701199
+- Concurrent learning adaptive control for systems with unknown sign of control effectiveness Reish, B. & Chowdhary, G. 2014 In : Proceedings of the IEEE Conference on Decision and Control. 2015-February, February, p. 4131-4136 6 p., 7040032
+- Distributed learning for planning under uncertainty problems with heterogeneous teams: Scaling up the multiagent planning with distributed learning and approximate representations Ure, N. K., Chowdhary, G., Chen, Y. F., How, J. P. & Vian, J. Apr 2014 In : Journal of Intelligent and Robotic Systems: Theory and Applications. 74, 1-2, p. 529-544 16 p.
+- Geramifard A., Walsh T. J., Tellex S., Chowdhary G., Roy N., How J. P., A Tutorial on Linear Function Approximators for Dynamic Programming and Reinforcement Learning, Foundations and Trends in Machine Learning (FTML), vol. 6, No. 4, December 2013.
+- Chowdhary G., MÃ¼hlegg M., Johnson E., Exponential Stability Guarantees for Adaptive Systems using Online Recorded Data, Internatinal Jounral of Control (IJC), Vol 87, No. 8,pp 1583-1603, Dec 2013.
+- Chowdhary G., Johnson E., Magree D., Wu D., Shein A., GPS-Denied Indoor and Outdoor Monocular Vision Aided Navigation and Control of Unmanned Aircraft, Journal of Field Robotics (JFR), Vol 30, No. 3, pp 415-438, March 2013.
+- Chowdhary G., Jategaonkar R.., Parameter Estimation from Flight Data Applying Extended and Unscented Kalman Filter, Aerospace Science and Technology (AST), Vol. 14, no. 2, pp. 106-117, March 2010.
+Articles in Conference Proceedings
+- Kayacan E., Zhongzhong Z., Chowdhary G., Embedded High Precision Control and Corn Stand Counting Algorithms for an Ultra-Compact 3D Printed Field Robot, Robotics Science and Systems (RSS), Pittsburg, PA, June 2018, acceptance rate 31%. Winner of best systems paper award.
+- Whitman J., Chowdhary G., Learning Dynamics Across Similar Spatiotemporally Evolving Systems, Conference on Robot Learning (CORL), San Jose, CA, Nov 2017, accepted for long-talk, long-talk acceptance rate 10%.
+- Kingravi H., Maske H., Chowdhary G., Kernel Observers: Systems-Theoretic Modeling and Inference of Spatiotemporally Varying Processes, Neural Information Processing Systems (NIPS), Barcelona, Spain Dec 2016, acceptance rate 22.5%.
+- Ãœre N. K., Geramifard A., Chowdhary G., How J., Adaptive Planning for Markov Decision Processes with Uncertain Transition Models via Incremental Feature Dependency Discovery, European Conference on Machine Learning (ECML), Bristol, UK 2012. Acceptance rate < 25%.
+- Joshi G., Chowdhary G., Deep Model Reference Adaptive Control, IEEE Conference on Decision and Control (CDC), Nice FR, Dec 2018.
+- Madhusudhan. M., Chowdhary G., Deep SRGM, Sequence Classification and Ranking in Indian Classical Music via Deep Learning, International Society of Music Information Retrieval (ISMIR), Delft, Nethelands, Sept 2019.
+- Joshi G., Chowdhary G., Adaptive Control using Gaussian-Process with Model Reference Generative Network, IEEE Conference on Decision and Control (CDC), Miami, FL, Dec 2018.
+Journal Editorships
+- IEEE Transactions of Neural Networks and Learning Systems, Associate Editor
+Professional Societies
+- ASABE, Member
+- AIAA, Associate Fellow
+- IEEE, Senior Member
+Honors
+- Best paper award at the 2018 Robotics Science and Systems conference under the best systems paper category (2018)
+- Air Force Office of Scientific Research (AFOSR) Young Investigator Research Program (YIP) award (AFOSRâ€™s most prestigious young faculty grant) (2015)
+- Dave Ward Memorial award by Aerospace Control Guidance and Systems Group (ACGSC) for outstanding contributions to Aerospace GNC (2015)
+- Best paper award at the 2012 AIAA Guidance Navigation and Control Conference, out of over 600 papers (2012)
+Research Honors
+- ACES Paul Funk Award for Excellence in Research, ACES (March 2021)
+- Deans award for excellence in research, Grainger College of Engineering (April 2020)
+Recent Courses Taught
+- ABE 424 (ABE 426) - Prnpl Mobile Robotics
+- ABE 526 - Autonomous Systems and Robots
+- ABE 594 (TSM 594) - Graduate Seminar
+- CS 498 GC1 (CS 498 GC2, CS 498 GC3, CS 498 GCG, CS 498 GCU) - Mobile Robotics for CS
+- CS 598 GC - Robotics
+- ECE 498 GR - Principles of Mobile Robotics
+News Notes
+- 2/17/2025
+Communications Biology journal has accepted a paper from a team led by ABE and CS professor Girish Chowdhary. The paper, "Breaking the field phenotyping bottleneck in maize with autonomous robots" features high throughput Phenotyping in commercial crop R&D plots with ground robots.
+- 7/22/2024
+CS PhD students Arun Narenthiran Sivakumar and Mateus Gasparino's paper "Demonstrating CropFollow++: Robust Under-Canopy Navigation with Keypoints" was selected as a finalist for the best demo-track paper at Robotics: Science and Systems 2024 in Delft, Netherlands. Sivakumar's advisor, CS professor Girish Chowdhary, and PhD student M. Ugur Akcal are co-authors.

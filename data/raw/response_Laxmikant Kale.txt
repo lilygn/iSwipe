@@ -1,0 +1,223 @@
+<html>
+<head>
+<title>Sanjay Kale's web page</title>
+<meta  http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_showHideLayers() { //v2.0
+  var i, visStr, args, theObj;
+  args = MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) { //with arg triples (objNS,objIE,visStr)
+    visStr   = args[i+2];
+    if (navigator.appName == 'Netscape' && document.layers != null) {
+      theObj = eval(args[i]);
+      if (theObj) theObj.visibility = visStr;
+    } else if (document.all != null) { //IE
+      if (visStr == 'show') visStr = 'visible'; //convert vals
+      if (visStr == 'hide') visStr = 'hidden';
+      theObj = eval(args[i+1]);
+      if (theObj) theObj.style.visibility = visStr;
+  } }
+}
+//-->
+</script>
+<! -- information updated 9-15-2014 by desouzas; updated 9-15-2014 by desouzas -->
+</head>
+
+<body bgcolor="#FFFFFF" vlink="#800000" alink="#800000" >
+
+<div id="Layer1" style="position:absolute; width:697px; height:56px; z-index:1; top: 10px; left: 24px"> 
+  <p><a href="#" onMouseOver="MM_showHideLayers('document.layers[\'roltitle\']','document.all[\'roltitle\']','show')" onMouseOut="MM_showHideLayers('document.layers[\'roltitle\']','document.all[\'roltitle\']','hide')"><img src="buttup.JPG" width="688" hei
+ght="37" usemap="#teaching" name="Image1" border="0"></a></p>
+  <p>&nbsp; </p>
+</div>
+<div id="Layer2" style="position:absolute; left: 24px; top: 60px"><img src="kaleweb.png" width="170"></div>
+<div id="Layer3" style="position:absolute; width:154px; height:174px; z-index:3; left: 24px; top: 280px"> 
+  <div align="right"> 
+    <div align="left"> 
+      <div align="right"> 
+        <pre><b><font face="Times New Roman, Times, serif"><b><font size="3" color="#000080">Contact Information</font></b></font></pre>
+      </div>
+    </div>
+  </div>
+  <p align="right"><font size="3"><b><font face="Times New Roman, Times, serif">
+    <A href="mailto:kale@illinois.edu"> kale@illinois.edu
+    </a>
+(217) 244-0094<br>
+4212 Siebel Center<br> 
+<a href="http://webmail.illinois.edu/owa/calendar/kale@illinois.edu/Calendar/calendar.html">View availability</a><br>
+(or <a href="http://webmail.illinois.edu/owa/calendar/kale@illinois.edu/Calendar/calendar.ics">Mobile view via subscription</a>) 
+ </p></font>
+
+
+ <p align="right"><b><font face="Times New
+    Roman,Times, serif"><i>Support Staff</i>: <br>Jennifer Dixon</b><br>
+<A href="mailto:jbdixson@illinois.edu">jbdixson@illinois.edu</a><br>
+(217) 300-1205<br>4301 Siebel Center</p>
+
+<!-- TA INFO currently commented out
+ <p align="right"><b><font face="Times New
+    Roman,Times, serif"><i>Teaching Assistants</i>: <br>Aparna Sasidharan</b><br>
+<A href="mailto:sasidha2@illinois.edu">sasidha2@illinois.edu</a>
+<br>4103 Siebel Center<br>OH: Sat. 10am-12pm<br>
+<br>Patrick Crain<br>
+<a href="mailto:pcrain2@illinois.edu">pcrain2@illinois.edu</a><br>0207 Siebel Center<br>OH: Wed. 2-3pm, Fri. 11am-12pm</p>
+-->
+
+  <p align="right">
+    <a href="http://www.crcpress.com/product/isbn/9781466504127"><img src="book-cover.jpg"></a><br><br>
+    <b>!! The Charm++ Approach !! &nbsp;</b>
+  </p>
+</div>
+<div id="Layer4" style="position:absolute; width:424px; height:115px; z-index:4; left: 211px; top: 75px"> 
+  <p><img src="lvkale.jpg" width="250" height="25"><br>
+    <br>
+    <font color="#0000A0"><font size="4"><b> Paul and Cynthia Saylor Professor<br><font size="3"> Department of Computer Science,<br>
+    </b></font></font><b><font size="3"><font color="#0000A0">University of Illinois at Urbana-Champaign</font></font> 
+    </b> </p>
+</div>
+<div id="Layer5" style="position:absolute; width:570px; height:446px; z-index:5; left: 214px; top: 175px; overflow: visible"> 
+
+<!--
+  <p align="left"><font face="Times New Roman, Times, serif" size="4"><b><font color="#0000A0" size="3">Sample 
+    Publications:</font></b></font><br>
+    <a href="http://charm.cs.illinois.edu/papers"><font color="#800000"><font face="Times New Roman, 
+    Times, serif" size="3">Links 
+    to the papers</font></font></a></p>
+-->
+<br>
+<p align="left"><b><font color="#0000A0" size="3">
+<a name="Bio"> 
+</a></font></b>
+<a href="bioAndVitae.html">Vitae, Research Accomplishments, Research
+Statement etc. </a>
+</p>
+
+<p align="left"><b><font color="#0000A0" size="3">
+<a name="Bio"> 
+</a></font></b>
+<a href="bio.html">Brief Biodata </a>
+</p>
+
+  <p align="left"><b><font face="Times New Roman, Times, serif" size="3" color="#0000A0"> 
+Research: 
+</font></b>
+<ul>
+<font face="Times New Roman" size="3">
+My research spans the broad area of
+parallel computing and its applications. 
+There is a lot more information about my research available on 
+the web page of my research group, the
+    <a href="http://charm.cs.illinois.edu/"><font
+    color="#800000"> Parallel Programming Laboratory.</font></a>
+</font>
+</ul>
+</p>
+<!-- Web pages for individual projects can be accessed via
+    <a href="http://charm.cs.illinois.edu/research"><font
+    color="#800000"> Research Pages.</font></a>
+JUNK
+-->
+
+
+  <p align="left"><font face="Times New Roman, Times, serif" size="4"><b><font color="#0000A0" size="3">
+    Publications:</font></b></font>
+    <a href="http://charm.cs.uiuc.edu/papers"><font color="#800000"><font face="Times New Roman, 
+    Times, serif" size="3">Links to the papers</font></font></a></p>
+
+<p align="left"><b><font color="#0000A0" size="3">
+<a name="TeachingSec"> Teaching: Spring 2018 MOOC course prep</a></font></b>
+<font face="Times New Roman" size="3">
+
+<ul>
+<!--Fall 2015 .comment out at end of semester
+  <p> We/Fr: 11:00 am - 12:30 pm</p>
+  <p> CS 420 : <a href="https://wiki.cites.illinois.edu/wiki/display/cs420fa15/CS420+Fall+2015+Home">Introduction to Parallel Programming for Scientists and Engineers</a> </p>
+-->
+
+<!--Fall 2017 .comment out at end of semester   
+  <p> Fall 2017</p>
+  <p> Tu/Th: 9:30 am - 10:45 am</p> -->
+<!--  <p> CS 484 : <a href="https://cs.illinois.edu/courses/profile/CS484-120178">Parallel Programming</a> </p> -->
+<!--  <p> CS 484 : <a href="https://wiki.illinois.edu/wiki/display/cs484fa17/CS+484+Fall+2017+Home">Parallel Programming</a> </p>
+-->
+
+<!--NOTICE ABOUT ENROLLMENT RESTRICTIONS FOR THIS CLASS
+<h2>Registration Update: The cap for enrollment for this course has been increased. Please proceed with registering. If you are unable to register, please email Prof. Kale a <a href="mailto:kale@illinois.edu">kale@illinois.edu</a>.</h2>
+  <p> CS 598lvk : <a href="https://wiki.illinois.edu/wiki/display/cs598lvk/Home">Parallel Programming with Migratable Objects</a> </p>
+-->
+
+<!--Spring 2017 .comment out at end of semester 
+  <p> We/Fr: 12:30 pm - 1:45 pm</p>
+  <p> CS 484 : <a href="https://wiki.illinois.edu/wiki/display/cs484sp17/CS+484+%28Parallel+Programming%29+Spring+2017+Home">Parallel Programming</a> </p>
+-->
+
+</font>
+</p>
+  
+<!-- OFFICE HOURS INFO currenlty commented out
+  <p align="left"><b><font color="#0000A0" size="3">
+<a name="OfficeSec"> Office Hours:</a></font></b>
+
+<font face="Times New Roman" size="3">
+<p>Tu: 1:00 pm - 2:00 pm</p>
+<ul>Exceptions:
+<li>Nov. 7</li>
+<li>Nov. 14</li>
+<li>Nov. 21</li>
+</ul>
+
+-->
+<!--<p>Tu: 10:00 am - 11:00 am</p>
+<ul>Exceptions:
+<li>Mar. 8th</li>
+-->
+<!--
+<li>Sep. 17 11:00 am - 12:00 pm</li>
+<li>Nov. 19 - SC'15</li>
+<li>Nov. 26 - Thanksgiving Holiday</li>
+<li>Dec. 3 - Conf.</li>
+</ul>
+</p>
+-->
+
+</ul>
+
+<p align="left"><b><font color="#0000A0" size="3">
+<a name="FundedProjects"> 
+Current Funded Projects
+</a></font></b><br>
+<ul>
+<font face="Times New Roman" size="3">
+<!--<li> NSF: Contagion
+<li> NSF: HECURA
+<li> DOE: FASTOS: Colony II
+<li> DOE: Climate Modeling
+<li> MITRE: Parallel Operations Research
+<li> NIH: Resource for Macromolecular Modeling (Molecular Dynamics)
+<li> NSF: CHANGA: Evolution of the High Redshift Galaxy and AGN Populations
+<li> DOE: ARGO: An Exascale Operating System and Runtime
+-->
+<li> NIH: NAMD: Center for Macromolecular Modeling and Bioinformatics
+<li> NSF: OPEN ATOM: Scalable, Extensible, and Open Framework for Ground and Excited State Properties of Complex System
+<li> NSF: ParaTreet: Parallel Software for Spatial Trees in Simulation and Analysis
+<li> DOE: XPACC: Center for Exascale Simulation of Plasma-Coupled Combustion
+<li> NCSA: Blue Waters Petascale Application Improvement Discovery
+<!--
+<li> MITRE: Parallel Computing Techniques for Aircraft Execution Management
+-->
+</ul>
+
+ <p align="left"><b><font color="#0000A0" size="3">
+<map name="teaching">
+  <area shape="rect" coords="503,0,670,26" href="#TeachingSec" alt="Teaching">
+  <area shape="rect" coords="336,1,502,28" href="http://charm.cs.illinois.edu/papers/" alt="Publication">
+  <area shape="rect" coords="167,0,335,28" href="http://charm.cs.illinois.edu/research" alt="Projects">
+  <area shape="rect" coords="1,1,167,29" href="http://charm.cs.illinois.edu/" alt="Research">
+</map> 
+<div id="roltitle" style="position:absolute; width:696px; height:45px; z-index:6; left: 23px; top: 76px; visibility: hidden"><img src="roltitle.JPG" width="576" height="43"></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

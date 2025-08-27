@@ -1,0 +1,15 @@
+Kathryn “Katie” Cunningham studies the way novices learn to program, and invents new methods for teaching computing.
+Using human-centered computing methods in the context of computer science education, her research improves learners’ motivation and cognition while learning programming, with a long-term goal of broadening pathways to computing education.
+Dr. Cunningham’s current focus is on understanding and supporting novice learners with diverse goals, and developing new software-supported scaffolding that allows learners to focus on code’s purpose.
+Education
+University of Michigan | Ann Arbor, MI
+Ph.D. in Information | December 2020
+Georgia Institute of Technology | Atlanta, GA
+M.S. in Computer Science (HCC) | August 2018
+University of Arizona | Tucson, AZ
+B.S. in Computer Science & MCB | May 2013
+Experience
+University of Illinois Urbana-Champaign | Assistant Prof | July 2022 - Present
+Northwestern University | Postdoc | January 2021 - July 2022
+TERC | Independent Contractor - Research | May 2017 - August 2017
+Cal State Monterey Bay | CS Ed Coordinator | July 2013 - June 2016

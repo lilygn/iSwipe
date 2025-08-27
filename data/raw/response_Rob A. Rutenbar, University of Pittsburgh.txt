@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+<script type="text/javascript">
+(function(){
+window.gIp=!!window.gIp;try{(function(){(function iS(){var I=!1;function l(I){for(var l=0;I--;)l+=z(document.documentElement,null);return l}function z(I,l){var s="vi";l=l||new Z;return IS(I,function(I){I.setAttribute("data-"+s,l.o1());return z(I,l)},null)}function Z(){this.jo=1;this.oL=0;this.lI=this.jo;this.IJ=null;this.o1=function(){this.IJ=this.oL+this.lI;if(!isFinite(this.IJ))return this.reset(),this.o1();this.oL=this.lI;this.lI=this.IJ;this.IJ=null;return this.lI};this.reset=function(){this.jo++;this.oL=0;this.lI=this.jo}}var s=!1;
+function SS(I,l){var z=document.createElement(I);l=l||document.body;l.appendChild(z);z&&z.style&&(z.style.display="none")}function _S(l,z){z=z||l;var Z="|";function SS(I){I=I.split(Z);var l=[];for(var z=0;z<I.length;++z){var s="",_S=I[z].split(",");for(var JS=0;JS<_S.length;++JS)s+=_S[JS][JS];l.push(s)}return l}var _S=0,IS="datalist,details,embed,figure,hrimg,strong,article,formaddress|audio,blockquote,area,source,input|canvas,form,link,tbase,option,details,article";IS.split(Z);IS=SS(IS);IS=new RegExp(IS.join(Z),
+"g");while(IS.exec(l))IS=new RegExp((""+new Date)[8],"g"),I&&(s=!0),++_S;return z(_S&&1)}function IS(I,l,z){(z=z||s)&&SS("div",I);I=I.children;var Z=0;for(var _S in I){z=I[_S];try{z instanceof HTMLElement&&(l(z),++Z)}catch(IS){}}return Z}_S(iS,l)})();var jS=78;try{var lS,oS,ZS=_(801)?0:1,S_=_(922)?0:1,I_=_(635)?0:1;for(var j_=(_(637),0);j_<oS;++j_)ZS+=_(64)?2:1,S_+=(_(585),2),I_+=_(229)?3:2;lS=ZS+S_+I_;window.JI===lS&&(window.JI=++lS)}catch(o_){window.JI=lS}var z_=!0;
+function J(S,I){S+=I;return S.toString(36)}function Z_(S){var I=63;!S||document[L(I,181,168,178,168,161,168,171,168,179,184,146,179,160,179,164)]&&document[L(I,181,168,178,168,161,168,171,168,179,184,146,179,160,179,164)]!==O(I,181,168,178,168,161,171,164)||(z_=!1);return z_}function O(S){var I=arguments.length,l=[];for(var z=1;z<I;++z)l.push(arguments[z]-S);return String.fromCharCode.apply(String,l)}function Si(){}Z_(window[Si[J(1086776,jS)]]===Si);Z_(typeof ie9rgb4!==J(1242178186121,jS));
+Z_(RegExp("\x3c")[J(1372127,jS)](function(){return"\x3c"})&!RegExp(O(jS,198,129,178))[O(jS,194,179,193,194)](function(){return"'x3'+'d';"}));
+var _i=window[L(jS,175,194,194,175,177,182,147,196,179,188,194)]||RegExp(O(jS,187,189,176,183,202,175,188,178,192,189,183,178),J(-60,jS))[J(1372127,jS)](window["\x6e\x61vi\x67a\x74\x6f\x72"]["\x75\x73e\x72A\x67\x65\x6et"]),Ii=+new Date+(_(859)?350515:6E5),Ji,li,zi,Zi=window[O(jS,193,179,194,162,183,187,179,189,195,194)],_I=_i?_(695)?42589:3E4:_(297)?6E3:5188;
+document[L(jS,175,178,178,147,196,179,188,194,154,183,193,194,179,188,179,192)]&&document[O(jS,175,178,178,147,196,179,188,194,154,183,193,194,179,188,179,192)](O(jS,196,183,193,183,176,183,186,183,194,199,177,182,175,188,181,179),function(S){var I=96;document[L(I,214,201,211,201,194,201,204,201,212,217,179,212,193,212,197)]&&(document[O(I,214,201,211,201,194,201,204,201,212,217,179,212,193,212,197)]===J(1058781887,I)&&S[L(I,201,211,180,210,213,211,212,197,196)]?zi=!0:document[O(I,214,201,211,201,
+194,201,204,201,212,217,179,212,193,212,197)]===J(68616527570,I)&&(Ji=+new Date,zi=!1,II()))});function II(){if(!document[O(60,173,177,161,174,181,143,161,168,161,159,176,171,174)])return!0;var S=+new Date;if(S>Ii&&(_(391)?6E5:817474)>S-Ji)return Z_(!1);var I=Z_(li&&!zi&&Ji+_I<S);Ji=S;li||(li=!0,Zi(function(){li=!1},_(945)?0:1));return I}II();var jI=[_(639)?9984440:17795081,_(852)?2147483647:27611931586,_(885)?1783394754:1558153217];
+function L(S){var I=arguments.length,l=[],z=1;while(z<I)l[z-1]=arguments[z++]-S;return String.fromCharCode.apply(String,l)}function lI(S){var I=68;S=typeof S===J(1743045608,I)?S:S[L(I,184,179,151,184,182,173,178,171)](_(838)?42:36);var l=window[S];if(!l||!l[L(I,184,179,151,184,182,173,178,171)])return;var z=""+l;window[S]=function(S,I){li=!1;return l(S,I)};window[S][O(I,184,179,151,184,182,173,178,171)]=function(){return z}}for(var LI=(_(731),0);LI<jI[J(1294399127,jS)];++LI)lI(jI[LI]);
+Z_(!1!==window[L(jS,181,151,190)]);window.oi=window.oi||{};window.oi.So="08112f418a194000ae02c4b1085e9a771985b520c5c49310f3246f5e560807932c750611b6fb32f94ca317921cdd76af4a6f06788e23212c63ce481c2c963970286a576a7ef7d602";function oI(S){var I=+new Date,l;!document[L(20,133,137,121,134,141,103,121,128,121,119,136,131,134,85,128,128)]||I>Ii&&(_(483)?6E5:523060)>I-Ji?l=Z_(!1):(l=Z_(li&&!zi&&Ji+_I<I),Ji=I,li||(li=!0,Zi(function(){li=!1},_(984)?0:1)));return!(arguments[S]^l)}function _(S){return 496>S}(function zI(I){return I?0:zI(I)*zI(I)})(!0);})();}catch(x){}finally{ie9rgb4=void(0);};function ie9rgb4(a,b){return a>>b>>0};
+
+})();
+
+</script>
+
+<script type="text/javascript" src="/TSPD/0812be273cab20009fc759e00f71a813f1f7b6f3a33e3c3994094dda884941a603f6de9f8d1002f0?type=9"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="msapplication-TileColor" content="#2b5797"/>
+<meta name="msapplication-config" content="/sites/default/files/favicons/browserconfig.xml"/>
+<meta name="theme-color" content="#1c2957"/>
+<meta name="description" content="The University of Pittsburgh is among the nation&#039;s most distinguished comprehensive universities, with a wide variety of high-quality programs in both the arts and sciences and professional fields." />
+<meta name="keywords" content="University, Pittsburgh, Pitt, College, Learning, Research, Students, Undergraduate, Graduate" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.rutenbar.pitt.edu/" />
+<link rel="shortlink" href="https://www.rutenbar.pitt.edu/" />
+  <title>Rob A. Rutenbar | University of Pittsburgh</title>
+  <style>
+@import url("/modules/system/system.base.css?rukb5t");
+</style>
+<style media="screen">
+@import url("/sites/all/libraries/owl-carousel/owl.carousel.css?rukb5t");
+@import url("/sites/all/libraries/owl-carousel/owl.theme.css?rukb5t");
+@import url("/sites/all/libraries/owl-carousel/owl.transitions.css?rukb5t");
+</style>
+<style>
+@import url("/sites/all/modules/entity/ldap/ldap_user/ldap_user.css?rukb5t");
+@import url("/sites/all/modules/calendar/css/calendar_multiday.css?rukb5t");
+@import url("/sites/all/modules/date/date_api/date.css?rukb5t");
+@import url("/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?rukb5t");
+@import url("/sites/all/modules/fences/field.css?rukb5t");
+@import url("/sites/all/modules/google_cse/google_cse.css?rukb5t");
+@import url("/modules/node/node.css?rukb5t");
+@import url("/sites/all/modules/siteimprove/css/siteimprove.css?rukb5t");
+@import url("/sites/all/modules/entity/views/css/views.css?rukb5t");
+@import url("/sites/all/modules/ckeditor/css/ckeditor.css?rukb5t");
+</style>
+<style>
+@import url("/sites/all/modules/ctools/css/ctools.css?rukb5t");
+@import url("/sites/all/libraries/fancybox/source/jquery.fancybox.css?rukb5t");
+@import url("/sites/all/modules/entity/ldap/ldap_servers/ldap_servers.admin.css?rukb5t");
+@import url("/sites/all/modules/flexslider/assets/css/flexslider_img.css?rukb5t");
+@import url("/sites/all/libraries/flexslider/flexslider.css?rukb5t");
+</style>
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.css" media="all" />
+<style>
+@import url("/sites/all/themes/bootstrap/css/3.3.7/overrides.min.css?rukb5t");
+@import url("/sites/all/themes/pitt_theme_spirit/fonts/css/all.css?rukb5t");
+@import url("/sites/all/themes/pitt_theme_spirit/fonts/css/light.min.css?rukb5t");
+@import url("/sites/all/themes/pitt_theme_spirit/fonts/css/brands.min.css?rukb5t");
+@import url("/sites/all/themes/pitt_theme_spirit/fonts/cooper.css?rukb5t");
+@import url("/sites/default/files/less/pJQZ_TqmJlg4V1GGTFrB_7z7sHpiLPcQkoLCbLEAhGg/sites/all/themes/pitt_theme_spirit/less/style.XcVzbo5GbrB4v7QVES377fts6uudS0o0YbaMpBamvPg.css?rukb5t");
+</style>
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.9/jquery.js'>\x3C/script>")</script>
+<script src="/misc/jquery-extend-3.4.0.js?v=1.9.1"></script>
+<script src="/misc/jquery.once.js?v=1.2"></script>
+<script src="/misc/drupal.js?rukb5t"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.js"></script>
+<script src="/sites/all/modules/google_cse/google_cse.js?rukb5t"></script>
+<script src="//pitt.edu/webtrends/webtrends.load.js"></script>
+<script src="/sites/all/libraries/jquery-actual/jquery.actual.min.js?rukb5t"></script>
+<script src="/sites/all/modules/fancybox/fancybox.js?rukb5t"></script>
+<script src="/sites/all/libraries/fancybox/source/jquery.fancybox.pack.js?rukb5t"></script>
+<script src="/sites/all/libraries/fancybox/lib/jquery.mousewheel.pack.js?rukb5t"></script>
+<script src="/sites/all/modules/jcaption/jcaption.js?rukb5t"></script>
+<script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js?rukb5t"></script>
+<script src="/sites/all/modules/google_analytics/googleanalytics.js?rukb5t"></script>
+<script src="https://www.googletagmanager.com/gtag/js?id=G-VWJDJ623BP"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-VWJDJ623BP", {"groups":"default","anonymize_ip":true});</script>
+<script src="/sites/all/themes/pitt_theme_spirit/bootstrap/js/affix.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/bootstrap/js/alert.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/bootstrap/js/button.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/bootstrap/js/carousel.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/bootstrap/js/collapse.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/bootstrap/js/dropdown.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/bootstrap/js/modal.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/bootstrap/js/tooltip.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/bootstrap/js/popover.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/bootstrap/js/scrollspy.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/bootstrap/js/tab.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/bootstrap/js/transition.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/js/script.js?rukb5t"></script>
+<script src="/sites/all/themes/pitt_theme_spirit/js/search.js?rukb5t"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"pitt_theme_spirit","theme_token":"kCoAvC3YNRtKrtIEiBFal7GF4nBUwZPqSKoT5-WwQrA","js":{"sites\/all\/libraries\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/modules\/owlcarousel\/includes\/js\/owlcarousel.settings.js":1,"sites\/all\/modules\/flexslider\/assets\/js\/flexslider.load.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"\/\/code.jquery.com\/jquery-1.9.1.js":1,"0":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.7\/js\/bootstrap.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"\/\/pitt.edu\/webtrends\/webtrends.load.js":1,"sites\/all\/libraries\/jquery-actual\/jquery.actual.min.js":1,"sites\/all\/modules\/fancybox\/fancybox.js":1,"sites\/all\/libraries\/fancybox\/source\/jquery.fancybox.pack.js":1,"sites\/all\/libraries\/fancybox\/lib\/jquery.mousewheel.pack.js":1,"sites\/all\/modules\/jcaption\/jcaption.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-VWJDJ623BP":1,"1":1,"sites\/all\/themes\/pitt_theme_spirit\/bootstrap\/js\/affix.js":1,"sites\/all\/themes\/pitt_theme_spirit\/bootstrap\/js\/alert.js":1,"sites\/all\/themes\/pitt_theme_spirit\/bootstrap\/js\/button.js":1,"sites\/all\/themes\/pitt_theme_spirit\/bootstrap\/js\/carousel.js":1,"sites\/all\/themes\/pitt_theme_spirit\/bootstrap\/js\/collapse.js":1,"sites\/all\/themes\/pitt_theme_spirit\/bootstrap\/js\/dropdown.js":1,"sites\/all\/themes\/pitt_theme_spirit\/bootstrap\/js\/modal.js":1,"sites\/all\/themes\/pitt_theme_spirit\/bootstrap\/js\/tooltip.js":1,"sites\/all\/themes\/pitt_theme_spirit\/bootstrap\/js\/popover.js":1,"sites\/all\/themes\/pitt_theme_spirit\/bootstrap\/js\/scrollspy.js":1,"sites\/all\/themes\/pitt_theme_spirit\/bootstrap\/js\/tab.js":1,"sites\/all\/themes\/pitt_theme_spirit\/bootstrap\/js\/transition.js":1,"sites\/all\/themes\/pitt_theme_spirit\/js\/script.js":1,"sites\/all\/themes\/pitt_theme_spirit\/js\/search.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/libraries\/owl-carousel\/owl.carousel.css":1,"sites\/all\/libraries\/owl-carousel\/owl.theme.css":1,"sites\/all\/libraries\/owl-carousel\/owl.transitions.css":1,"sites\/all\/modules\/entity\/ldap\/ldap_user\/ldap_user.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/siteimprove\/css\/siteimprove.css":1,"sites\/all\/modules\/entity\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/fancybox\/source\/jquery.fancybox.css":1,"sites\/all\/modules\/entity\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"sites\/all\/modules\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.7\/css\/bootstrap.css":1,"sites\/all\/themes\/bootstrap\/css\/3.3.7\/overrides.min.css":1,"sites\/all\/themes\/pitt_theme_spirit\/fonts\/css\/fontawsome.min.css":1,"sites\/all\/themes\/pitt_theme_spirit\/fonts\/css\/all.css":1,"sites\/all\/themes\/pitt_theme_spirit\/fonts\/css\/light.min.css":1,"sites\/all\/themes\/pitt_theme_spirit\/fonts\/css\/brands.min.css":1,"sites\/all\/themes\/pitt_theme_spirit\/fonts\/cooper.css":1,"sites\/all\/themes\/pitt_theme_spirit\/less\/style.less":1}},"fancybox":{"selectors":["a.fancybox"]},"googleCSE":{"cx":"","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":1},"jcaption":{"jcaption_selectors":[".region-content article img"],"jcaption_alt_title":"title","jcaption_requireText":1,"jcaption_copyStyle":1,"jcaption_removeStyle":1,"jcaption_removeClass":0,"jcaption_removeAlign":1,"jcaption_copyAlignmentToClass":0,"jcaption_copyFloatToClass":1,"jcaption_copyClassToClass":0,"jcaption_autoWidth":1,"jcaption_keepLink":0,"jcaption_styleMarkup":"","jcaption_animate":0,"jcaption_showDuration":"200","jcaption_hideDuration":"200"},"owlcarousel":{"owlcarousel-fields-266":{"settings":{"items":5,"itemsDesktop":["1199",4],"itemsDesktopSmall":["979",3],"itemsTablet":["768",2],"itemsTabletSmall":["0",0],"itemsMobile":["479",1],"singleItem":true,"itemsScaleUp":false,"slideSpeed":200,"paginationSpeed":800,"rewindSpeed":1000,"autoPlay":"5000","stopOnHover":true,"navigation":true,"navigationText":["prev","next"],"rewindNav":true,"scrollPerPage":false,"pagination":false,"paginationNumbers":false,"responsive":true,"responsiveRefreshRate":200,"baseClass":"owl-carousel","theme":"owl-theme","lazyLoad":false,"lazyFollow":true,"lazyEffect":"fadeIn","autoHeight":true,"jsonPath":false,"jsonSuccess":false,"dragBeforeAnimFinish":true,"mouseDrag":false,"touchDrag":false,"addClassActive":true,"transitionStyle":"ease"},"views":{"ajax_pagination":0}}},"flexslider":{"optionsets":{"feature_image":{"namespace":"flex-","selector":".slides \u003E li","easing":"swing","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":0,"controlsContainer":".flex-control","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"fade","slideshow":true,"slideshowSpeed":"7000","directionNav":false,"controlNav":true,"prevText":"Previous","nextText":"Next","pausePlay":false,"pauseText":"Pause","playText":"Play","randomize":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":true,"manualControls":""}},"instances":{"flexslider-1":"feature_image"}},"better_exposed_filters":{"views":{"feature_image_story":{"displays":{"block_4":{"filters":[]}}},"news_story":{"displays":{"home_block":{"filters":[]}}},"publications":{"displays":{"block_1":{"filters":[]}}},"home_page_news_and_events":{"displays":{"block_1":{"filters":[]}}},"title_block":{"displays":{"footer_title_block":{"filters":[]}}},"social_media_icons":{"displays":{"footer_social_block":{"filters":[]}}}}},"googleanalytics":{"account":["G-VWJDJ623BP"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+
+</head>
+
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-233 node-type-page pitt_dark" >
+  <div id="skip-link" role="navigation">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+    
+
+<div class="header_wrapper">
+  
+<div class="container hd">
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-7 logo_space">
+      <div class="pitt_shield">
+        <a href="http://www.pitt.edu">    
+          <img src="/sites/all/themes/pitt_theme_spirit/img/pitt_shield_white.png" width="261" alt="University of Pittsburgh logo" />
+        </a>
+      </div>
+      <div class="site_title_wrapper">
+                  <span class="site_logo site-info__title">
+            <a class="name" href="/" title="Home">
+                            Rob A. Rutenbar            </a>
+          </span>
+          
+      </div><!--title_wrapper -->
+    </div>
+    
+    <div class="col-xs-12 col-sm-5 header_links">
+          
+      
+           <div role="navigation" aria-label="primary"  id="primary-links" class="container-fluid">
+            <div class="navbar container navbar-default">
+                            <div class="navbar-collapse collapse navbar primary-links primary-links__navbar">
+                  <div class="region region-navigation">
+    <section aria-label="" id="block-menu-block-1" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first expanded menu-mlid-8161"><a href="/about-rob-rutenbar">About</a><ul class="menu nav"><li class="first leaf menu-mlid-8174"><a href="/about-rob-rutenbar" title="">About Rob Rutenbar</a></li>
+<li class="leaf menu-mlid-8179"><a href="/about/group">Group</a></li>
+<li class="leaf menu-mlid-8173"><a href="https://www.rutenbar.pitt.edu/about/numbers" title="">Numbers</a></li>
+<li class="last leaf menu-mlid-8181"><a href="/about/personal">Personal</a></li>
+</ul></li>
+<li class="expanded menu-mlid-8162"><a href="/research">Work</a><ul class="menu nav"><li class="first leaf menu-mlid-8177"><a href="/research" title="">Research</a></li>
+<li class="leaf menu-mlid-8220"><a href="/work/publications">Publications</a></li>
+<li class="leaf menu-mlid-8180"><a href="/work/teaching">Teaching</a></li>
+<li class="leaf menu-mlid-8219"><a href="/work/service">Service</a></li>
+<li class="last leaf menu-mlid-8178"><a href="/work/talks">Talks</a></li>
+</ul></li>
+<li class="leaf menu-mlid-5865"><a href="/news" title="">News</a></li>
+<li class="last leaf menu-mlid-8176"><a href="/contact">Contact</a></li>
+</ul></div>
+
+</section>
+  </div>
+                </div>
+                        </div>
+        </div> <!-- /#primary-links -->
+   
+    </div>
+   
+
+
+  </div>
+</div>
+
+<div class="nav_wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="navbar-header site-info__navbar-toggle">
+      			<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".primary-links">
+      				<span class="sr-only">Toggle navigation</span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      			</button>
+  		    </div>
+      </div>
+    </div>        
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+  <div role="banner" id="header" class="container-fluid">
+      <div class="row">  <div class="region region-header">
+    <section aria-label="" id="block-views-feature-image-story-block-4" class="block block-views block__feature-image--left-aligned clearfix">
+
+      
+  <div class="view view-feature-image-story view-id-feature_image_story view-display-id-block_4 view--feature-image--left-aligned view-dom-id-7170b8da7f8f8b72f5935a5d07b12bb8">
+        
+  
+  
+      <div class="view-content">
+      <div  id="flexslider-1" class="flexslider optionset-feature-image">
+  <ul class="slides"><li>  
+  <div class="views-field views-field-field-feature-left-image feature-image feature__image">        <div class="field-content"><div class="owlcarousel-fields-266 disabled"><div class="item-0 item-odd"><img typeof="foaf:Image" class="img-responsive" src="https://www.rutenbar.pitt.edu/sites/default/files/feature-image-large/headerall.jpg" width="2630" height="625" alt="" title="" /></div></div>
+<div class="feature-caption feature__caption">
+<div class="container no-gutter">
+<div class="feature-info feature__info">
+    <div class="feature-title"><h2 class="feature__title"><span>
+  <div class="field-subtitle">
+     Senior Vice Chancellor for Research  </div>
+</span><a href="/">Rob A. Rutenbar</a></h2></div>
+    <div class="feature-body feature__body"> </div>
+</div>
+</div>
+</div></div>  </div></li>
+</ul></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+<section aria-label="" id="block-nodesinblock-11" class="block block-nodesinblock clearfix">
+
+      
+  <div class="nodesinblock first last odd" id="nodesinblock-320"><div class="container">
+  <div class="no-row">
+    <div id="node-320" class="node node-home-display-text node-promoted clearfix" about="/content/about-rob-rutenbar" typeof="sioc:Item foaf:Document">
+            <div class="col-xs-12">
+          <h3 class="block-title">About Rob A. Rutenbar </h3>
+        </div>
+          
+              <div class="display--img">
+          <div class="col-xs-12 col-sm-8">
+            
+  <div class="field-body">
+    <p class="bbtn">Rob A. Rutenbar is Senior Vice Chancellor for Research at the University of Pittsburgh, where he has responsibility for Pitt’s research and innovation infrastructure. He was previously on the faculty at the University of Illinois and at Carnegie Mellon, and holds appointments in CS and ECE at Pitt.</p>
+
+<p class="bbtn">His research focuses on tools for chip design and hardware for AI. He has mentored 50+ graduate students, received numerous awards for his work, and launched two successful tech startups.</p>
+
+<p class="bbtn"><a class="btn" href="/about-rob-rutenbar">Read Full Bio </a></p>
+  </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            
+  <div class="field-display-text-image">
+    <img typeof="foaf:Image" class="img-responsive" src="https://www.rutenbar.pitt.edu/sites/default/files/home-display-img/rutenbar-pic1-lowres.jpg" width="680" height="517" alt="Rob A. Rutenbar" />  </div>
+          </div>
+        </div>
+          
+        
+        </div>
+  </div>
+</div></div>
+</section>
+  </div>
+</div>
+  </div> <!-- /#header -->
+
+
+    <div class="container-fluid main-top">
+        <div class="container">
+            <div class="row">
+                <section name="Main Top" class="col-sm-12">  <div class="region region-main-top">
+    <section aria-label="" id="block-nodesinblock-4" class="block block-nodesinblock clearfix">
+
+      
+  <div class="nodesinblock first last odd" id="nodesinblock-317">  
+
+<div class="links-grid__wrapper">
+    
+    		        
+    
+    <div id="node-317" class="node node-links node-promoted
+  style-c clearfix" about="/content/highlights" typeof="sioc:Item foaf:Document">
+    <div>
+            <h3 class="block-title">Highlights</h3>
+        <span property="dc:title" content="Highlights" class="rdf-meta element-hidden"></span>  </div>
+
+    		
+
+
+<div class="links-grid links-grid--style-c">
+
+
+  
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+    
+            <div class="links-grid__column">
+
+                <div class="links-grid__image">
+                  <a href="https://www.rutenbar.pitt.edu/research">  
+                  
+  <div class="field-link-image-wide">
+    <img typeof="foaf:Image" class="img-responsive" src="https://www.rutenbar.pitt.edu/sites/default/files/link-img/research_highlights_box.jpg" width="680" height="300" alt="Computer code " />  </div>
+                  <span class="links-grid__title">Research</span>
+                  </a>
+                </div>
+
+              </div>
+
+    
+
+    
+            <div class="links-grid__column">
+
+                <div class="links-grid__image">
+                  <a href="https://www.rutenbar.pitt.edu/work/teaching">  
+                  
+  <div class="field-link-image-wide">
+    <img typeof="foaf:Image" class="img-responsive" src="https://www.rutenbar.pitt.edu/sites/default/files/link-img/teaching_highlights_box.jpg" width="680" height="300" alt="Notebook with pen" />  </div>
+                  <span class="links-grid__title">Teaching</span>
+                  </a>
+                </div>
+
+              </div>
+
+    
+
+    
+            <div class="links-grid__column">
+
+                <div class="links-grid__image">
+                  <a href="https://www.rutenbar.pitt.edu/work/service">  
+                  
+  <div class="field-link-image-wide">
+    <img typeof="foaf:Image" class="img-responsive" src="https://www.rutenbar.pitt.edu/sites/default/files/link-img/service_highlights_box.png" width="680" height="300" alt="Photo of Rob Rutenbar" />  </div>
+                  <span class="links-grid__title">Service</span>
+                  </a>
+                </div>
+
+              </div>
+
+    
+
+    
+            <div class="links-grid__column">
+
+                <div class="links-grid__image">
+                  <a href="https://www.rutenbar.pitt.edu/about/numbers">  
+                  
+  <div class="field-link-image-wide">
+    <img typeof="foaf:Image" class="img-responsive" src="https://www.rutenbar.pitt.edu/sites/default/files/link-img/numbers_highlights_box.jpg" width="680" height="300" alt="Distorted geometric pattern of light" />  </div>
+                  <span class="links-grid__title">Numbers</span>
+                  </a>
+                </div>
+
+              </div>
+
+    
+
+    
+            <div class="links-grid__column">
+
+                <div class="links-grid__image">
+                  <a href="https://www.rutenbar.pitt.edu/about/personal">  
+                  
+  <div class="field-link-image-wide">
+    <img typeof="foaf:Image" class="img-responsive" src="https://www.rutenbar.pitt.edu/sites/default/files/link-img/personal_highlights_box.jpg" width="680" height="300" alt="Photo of Rob Rutenbar sitting on a boulder overlooking a canyon" />  </div>
+                  <span class="links-grid__title">Personal</span>
+                  </a>
+                </div>
+
+              </div>
+
+    
+
+    
+            <div class="links-grid__column">
+
+                <div class="links-grid__image">
+                  <a href="https://www.rutenbar.pitt.edu/work/publications">  
+                  
+  <div class="field-link-image-wide">
+    <img typeof="foaf:Image" class="img-responsive" src="https://www.rutenbar.pitt.edu/sites/default/files/link-img/book-shelves-book-stack-bookcase-books-207662.jpg" width="680" height="300" alt="Book shelves " />  </div>
+                  <span class="links-grid__title">Publications</span>
+                  </a>
+                </div>
+
+              </div>
+
+    
+
+  
+</div>
+
+    </div></div>
+</section>
+  </div>
+</section>
+            </div>
+        </div>
+    </div>
+
+<a id="main-content"></a>
+
+<div class="main-container container-fluid">
+    <div class="container" id="content-wrapper">
+        <div class="row">
+            
+            <section class="col-sm-12 content" name="Highlights">
+
+                
+
+                
+                                    <h1 class="page-header">Home</h1>
+                    
+                  
+                
+                
+                
+                                                    
+                
+                
+                  <div class="region region-content">
+    <section aria-label="" id="block-system-main" class="block block-system clearfix">
+
+      
+  <div id="node-233" class="node node-page clearfix" about="/home" typeof="foaf:Document">
+    <div>
+            <span property="dc:title" content="Home" class="rdf-meta element-hidden"></span>      </div>
+     </div>
+
+</section>
+<section aria-label="" id="block-views-77680d04baf0fe112348352ce8366894" class="block block-views news-events clearfix">
+
+      
+  <div class="view view-home-page-news-and-events view-id-home_page_news_and_events view-display-id-block_1 one-column view-dom-id-8ba01f33715b2399cdb51281a89d7b78">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-php">        <div class="field-content view__news">    <h2 class="block-title">In the News</h2>
+    <div class="view view-news-story view-id-news_story view-display-id-home_block news-block view-dom-id-2caa07f5ce31d05cbc106f97c665f851">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-php">        <span class="field-content news-block__title"><a href="/news/rutenbar-gives-keynote-gen-ai-university-illinois-chicago-ai-ecosystem-symposium">Rutenbar Gives Keynote on Gen-AI at University of Illinois Chicago AI Ecosystem Symposium</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-php">        <span class="field-content news-block__title"><a href="/news/rutenbar-named-chair-elect-aplu-council-research">Rutenbar Named Chair-Elect for APLU Council on Research</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-php">        <span class="field-content news-block__title"><a href="/news/rutenbar-speaks-nsf-workshop-imagenets-eda-nyu">Rutenbar Speaks at NSF Workshop on “ImageNets” for EDA at NYU</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-php">        <span class="field-content news-block__title"><a href="/news/rutenbar-attends-pitt-bioforge-beam-topping-celebration">Rutenbar Attends Pitt BioForge Beam Topping Celebration</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-php">        <span class="field-content news-block__title"><a href="/news/rutenbar-attends-cmu-robotics-center-celebration">Rutenbar Attends CMU Robotics Center Celebration </a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/news" class="more-link btn">View All News</a>    </div>
+  
+  
+</div></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+  </div>
+
+                            </section>
+
+            
+        </div>
+    </div><!-- /#content-wrapper -->
+</div><!-- /.main-container -->
+
+
+
+
+  <footer class="footer container-fluid">
+    <div class="container">
+      <div class="site_title">
+        <div class="footer-logo footer__logo">
+             <img src="/sites/all/themes/pitt_theme_spirit/img/pitt_shield_white.png" width="261" alt="University of Pittsburgh logo" />
+                              <span class="footer-site_name footer__title">
+                  <a class="name" href="/" title="Home">
+                    Rob A. Rutenbar                  </a>
+                </span>
+                
+
+        </div>
+      </div>
+      
+                  <div class="region region-footer">
+    <section aria-label="" id="block-views-title-block-footer-title-block" class="block block-views block__address-block clearfix">
+
+      
+  <div class="view view-title-block view-id-title_block view-display-id-footer_title_block footer--title-block view-dom-id-6b80f6294c03c10e6f0655f2b9847b57">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+          
+  <div class="field-contact-info">
+    <p>Senior Vice Chancellor for Research<br />
+710 Cathedral of Learning<br />
+4200 Fifth Avenue<br />
+Pittsburgh, PA, 15260</p>
+
+<p>412-624-9019</p>
+
+<p><a href="mailto:research@pitt.edu">research@pitt.edu</a></p>
+  </div>
+    
+              </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+<section aria-label="" id="block-views-7991932e043137b92876af32e9d227ec" class="block block-views block__social-media clearfix">
+
+      
+  <div class="view view-social-media-icons view-id-social_media_icons view-display-id-footer_social_block social-block footer--social-block view-dom-id-d0fa09b4384ff3d4709ad9cb27c54beb">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="mailto:research@pitt.edu" target="_blank" title="Email Us"><span aria-label="Email Us" class="fa fa-envelope" aria-hidden="true"></span></a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://www.linkedin.com/pub/rob-a-rutenbar/9/13a/488" target="_blank" title="Follow Rob Rutenbar on LinkedIn"><span aria-label="Follow Rob Rutenbar on LinkedIn" class="fab fa-linkedin" aria-hidden="true"></span></a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="https://twitter.com/robrutenbar" target="_blank" title="Follow Rob Rutenbar on Twitter"><span aria-label="Follow Rob Rutenbar on Twitter" class="fab fa-twitter" aria-hidden="true"></span></a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+  </div>
+      
+          <div id="copyright" class="container-fluid footer__copyright">
+          <div class="region region-copyright">
+    <section aria-label="" id="block-block-1" class="block block-block clearfix">
+
+      
+  
+<span>Revised 06/26/25</span><span>Copyright 2025</span>
+</section>
+  </div>
+      </div>
+      </div>
+
+</footer>  <script src="/sites/all/libraries/owl-carousel/owl.carousel.min.js?rukb5t"></script>
+<script src="/sites/all/modules/owlcarousel/includes/js/owlcarousel.settings.js?rukb5t"></script>
+<script src="/sites/all/modules/flexslider/assets/js/flexslider.load.js?rukb5t"></script>
+<script src="/sites/all/themes/bootstrap/js/bootstrap.js?rukb5t"></script>
+</body>
+</html>

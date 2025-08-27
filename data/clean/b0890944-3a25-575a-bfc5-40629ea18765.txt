@@ -1,0 +1,40 @@
+About Me
+I am an assistant professor in the
+Siebel School of Computing and Data Science
+at the
+University of Illinois Urbana-Champaign,
+working broadly in the area of
+computer architecture.
+I hold affiliate appointments in the
+Coordinated Science Laboratory and in the
+Department of Electrical and Computer Engineering at Illinois.
+I lead the
+ARCANA Research Group
+(),
+where we explore several aspects of designing data-centric computer
+architectures and systems.
+I am particularly interested in
+processing-in-memory,
+introducing interactions
+between different levels of the compute stack that allow the levels to
+cooperate with each other,
+and architectures for emerging platforms and application domains.
+Prior to joining Illinois, I was a postdoc and then a systems scientist in
+the Department of Electrical and Computer Engineering at CMU, working in the
+SAFARI Research Group.
+Before moving to CMU, I was a graduate student in the
+M3 Architecture Group,
+which is part of the
+Computer
+Systems Laboratory at Cornell University. At Cornell, I designed
+efficient, high-performance memory systems for multicore architectures.
+Research Interests
+- Data-centric computing / processing-in-memory
+- Memory and storage systems
+- New interfaces between compute stack layers
+- Architectures for emerging platforms/domains
+Office
+4120 Siebel Center for Computer Science
+Spring 2025: Tu 3:15 PM - 3:45 PM, Th 2:15 PM - 3 PM
+201 N. Goodwin Ave., MC-258, Urbana IL 61801
+(217) 333-1893

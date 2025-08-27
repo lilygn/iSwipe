@@ -1,0 +1,3 @@
+The Process, Interaction, and Creativity Lab (PICL) is part of the Interactive Computing Group at the University of Illinois Urbana-Champaign. We seek to understand, support, and re-envision how computational tools relate to creative process. To do so, we build and study computational creativity support tools, perform qualitative research, and deploy new tools in the real world.
+For Prospective Students
+If you are a prospective graduate student interested in HCI, creativity, or education, apply to UIUC Computer Science and mention Dr. Sterman in your application.

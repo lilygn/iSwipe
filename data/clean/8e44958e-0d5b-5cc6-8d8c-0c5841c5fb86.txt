@@ -1,0 +1,12 @@
+David M Dalpiaz
+Recent Courses Taught
+- CS 307 - Model & Learning in Data Sci
+- CS 441 - Applied Machine Learning
+- CS 498 DD3 (CS 498 DDG, CS 498 DDU) - End-to-End Data Science
+- STAT 385 - Statistics Programming Methods
+- STAT 432 (ASRM 451) - Basics of Statistical Learning
+- STAT 510 - Mathematical Statistics
+- STAT 510 - Mathematical Statistics I
+News Notes
+- 4/9/2025
+CS professors Lawrence Angrave, David M. Dalpiaz, Hongye Liu, and lead author Pablo D. Robles Granda received a second-place award for the paper "Beyond Descriptive Statistics: Analysis of Time Series of Student Interactions in Engineering Courses Through the Lens of Modern Mathematical Methods” in the ASEE New Engineering Educators division. It is under consideration for a Best Paper Award.

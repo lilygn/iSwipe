@@ -1,0 +1,7 @@
+News
+[10.2023] We were finalists for best paper award for our work on using behavior primitives for complex manipulation tasks at the Conference on Robot Learning!
+[08.2023] We received the George N. Saridis Best Transactions Paper Award for our work in planning for autonomous vehicles in Transactions on Intelligent Vehicles!
+[05.2023] Awarded the IEEE Robotics and Automation Society’s Early Academic Career Award!
+[03.2023] Named the Bruning Family Faculty Fellow in ECE!
+[12.2022] We received best paper award for our work on explainability for autonomous driving at the NeurIPS Workshop on Progress and Challenges in Building Trustworthy Embodied AI!
+[2022++] News archive coming soon…

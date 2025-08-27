@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="assets/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/glide/glide.core.min.css">
+    <link rel="stylesheet" href="assets/glide/glide.theme.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/papers.js" defer></script>
+    <script src="assets/js/script_publications.js" defer></script>
+
+    <script src="assets/js/people.js" defer></script>
+    <script src="assets/js/script_people.js" defer></script>
+
+
+
+    <title>PICL</title>
+
+</head>
+<body>
+	<div class='section'>
+		<div class="banner" id="lab">
+			<a class='logo-container' href="#lab"><img class="logo" src="assets/images/logo.png"></a>
+			<div class="name">Process, Interaction, and Creativity Lab</div>	
+
+			<div class="keywords">
+				Human-Computer Interaction * Creativity Support Tools * Education 
+			</div>
+			<div class="nav">
+				<a href="#publications">Research</a>
+				<a href="#people">People</a>
+			</div>
+		</div>
+
+		<div>
+			<h1> About the Lab </h1>
+			<div class="blurb indented">
+				<p>
+					The Process, Interaction, and Creativity Lab (PICL) is part of the <a href="https://cs.illinois.edu/research/areas/interactive-computing">Interactive Computing Group</a> at the <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a>.  <b>We seek to understand, support, and re-envision how computational tools relate to creative process.</b>  To do so, we build and study computational creativity support tools, perform qualitative research, and deploy new tools in the real world. 
+			    </p>
+
+			    <p><b> For Prospective Students </b></p>
+			   <i> <p>
+					If you are a prospective graduate student interested in HCI, creativity, or education, apply to UIUC Computer Science and mention Dr. Sterman in your application.
+				</p></i>
+
+			 </div>
+
+		</div>
+	</div> <!-- End About -->
+
+	
+	
+
+	<div id="publications" class='section'>
+		<h1>Research Areas</h1>
+
+			<h2> Process-Sensitive Writing Tools </h2>
+				<div class="research-area-blurb"> Word processors and writing interfaces are a ubiquitous part of how we interact with computers, express ourselves, and communicate. Yet writing is a complex and deeply individual process. How can our writing tools support diverse writing processes, leverage new technology for self-expression, and expand the boundaries of what writing can be? 
+				</div>
+
+				<h3> Selected Publications </h3>
+				<table class="research-table" id="paper-group-writing-tools">
+				</table>
+
+				<h2> Creative Process </h2>
+				<div class="research-area-blurb"> 
+					Creative work happens in all corners of our lives and can be a lifelong endeavor.  How do we structure our creative work?  How do we reflect, improve, and integrate creative process in our lives?  How do our tools, physical and digital, change what we can do and how we do it? 
+				</div>
+
+				<h3> Selected Publications </h3>
+				<table class="research-table" id="paper-group-creative-process">
+				</table>
+
+				<h2> Reflective Learning </h2>
+				<div class="research-area-blurb"> Reflection is a powerful tool for improving our teaching and learning.  How can documentation tools, curricula, programming interfaces, and new media support reflection in HCI, design, and programming education? How can we help students and teachers reflect on their processes, strategies, and metacognitive approaches to learning? 
+				</div>
+
+				<h3> Selected Publications </h3>
+				<table class="research-table" id="paper-group-reflective-learning">
+				</table>
+	</div>
+	
+	<div id="people" class='section'>
+        <h1> People </h1>
+        <div class="grid indented" id="current-people">
+
+        </div> <!-- End Grid -->
+
+        <h2 class="project-group"> Past Students </h2>
+        <div>
+        	<ul id="past-people">
+        	</ul>
+        </div> 
+     	<h2> Lab Fun </h2>
+			<div class="glide">
+			  <div class="glide__track" data-glide-el="track">
+			    <ul class="glide__slides">
+			      <li class="glide__slide"> 
+			        		<img src="assets/images/labfun/fun1.jpeg" class="gallery_img"/>
+			      </li>
+			      <li class="glide__slide"> 
+			        		<img src="assets/images/labfun/fun3.jpeg" class="gallery_img"/>
+			      </li>
+			      <li class="glide__slide"> 
+			      	  	<img src="assets/images/labfun/fun4.jpeg" class="gallery_img"/>
+			      </li>
+			      <li class="glide__slide"> 
+			        		<img src="assets/images/labfun/fun2.jpeg" class="gallery_img"/>
+			      </li>
+			    </ul>
+			  </div>
+				<div class="glide__bullets" data-glide-el="controls[nav]">
+					<button class="glide__bullet" data-glide-dir="=0"></button>
+					<button class="glide__bullet" data-glide-dir="=1"></button>
+					<button class="glide__bullet" data-glide-dir="=2"></button>
+					<button class="glide__bullet" data-glide-dir="=3"></button>
+				</div>
+
+			</div>
+	</div> <!-- End People -->
+
+
+	<script src="assets/glide/glide.min.js"></script>
+
+	<script>
+	  new Glide('.glide', {
+	  	  type: 'carousel',
+		  startAt: 0,
+		  breakpoints: {
+					  	600: {
+						    perView: 1
+						  }
+		  },
+		  perView: 3,
+		  autoplay: 3000
+		})
+	  .mount()
+	</script>
+</body>
+
+
+
+</html>
+

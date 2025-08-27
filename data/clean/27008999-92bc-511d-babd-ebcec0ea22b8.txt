@@ -1,0 +1,66 @@
+I am an assistant professor of CS in the Siebel School of Computing and Data Science at the University of Illinois Urbana-Champaign.
+My research is in theoretical computer science (TCS). I have been investigating problems mainly involving the following areas:
+Email: granha[at]illinois[dot]edu
+CS 498: Introduction to Quantum Computing (Spring 2025)
+CS 598: Expansion, Codes, and Optimization both Classical and Quantum (Fall 2024)
+Pseudorandomness of Expander Walks via Fourier Analysis on Groups
+(with Tushant Mittal and Sourya Roy)
+Explicit Codes approaching Generalized Singleton Bound using Expanders
+(with Tushant Mittal, Shashank Srivastava and Madhur Tulsiani) - STOC 2025 (invited to special issue)
+List Decoding Explicit Binary Codes Near Capacity at (semi-)Structured Centroids
+(Fernando Granha Jeronimo)
+Coherence in Property Testing: Quantum-Classical Collapses and Separations
+(with Nir Magrafta, Joseph Slote and Pei Wu) - QIP 2025
+Higher-order Delsarte Dual LPs: Lifting, Constructions and Completeness
+(with Leonardo Nagami Coregliano, Chris Jones, Nati Linial and Elyassaf Loyfer)
+List Decodable Quantum LDPC Codes
+(with T. Bergamaschi, T. Mittal, S. Srivastava and M. Tulsiani) - QIP 2025 (poster)
+Pseudorandom and Pseudoentangled States from Subset States
+(with Nir Magrafta and Pei Wu) - TQC 2024 (poster)
+Dimension Independent Disentanglers from Unentanglement and Applications
+(with Pei Wu) - CCC 2024
+List Decoding of Tanner and Expander Amplified Codes from Distance Certificates
+(with Shashank Srivastava and Madhur Tulsiani) - FOCS 2023
+The Power of Unentangled Quantum Proofs with Non-negative Amplitudes
+(with Pei Wu) - STOC 2023 (QIP 2024)
+[video @STOC'23]
+Fast Decoding of Explicit almost Optimal \(\epsilon\)-balanced \(q\)-ary Codes and
+              Fast Approximation of Expanding \(k\)-CSPs
+(Fernando Granha Jeronimo) - RANDOM 2023
+Exact Completeness of LP Hierarchies for Linear Codes
+(with Leonardo Nagami Coregliano and Chris Jones) - ITCS 2023
+[video @ITCS]
+Almost Ramanujan Expanders from Arbitrary Expanders via Operator Amplification
+(with Tushant Mittal, Sourya Roy and Avi Wigderson) - FOCS 2022 (invited to special issue)
+[video @IAS] [video @Princeton]
+A Complete Linear Programming Hierarchy for Linear Codes
+(with Leonardo Nagami Coregliano and Chris Jones) - ITCS 2022
+[video @IAS]
+Explicit Abelian Lifts and Quantum LDPC Codes
+(with Tushant Mittal, Ryan O’Donnell, Pedro Paredes and Madhur Tulsiani) - ITCS 2022
+[video @IAS]
+Near-linear Time Decoding of Ta-Shma's Codes via Splittable Regularity
+(with Shashank Srivastava and Madhur Tulsiani) - STOC 2021
+[video @STOC'21]
+[slides @STOC'21]
+[video @JTW'20]
+[slides @Junior Theorists Workshop'20]
+Unique Decoding of Explicit \(\epsilon\)-balanced Codes Near the Gilbert-Varshamov Bound
+(with Dylan Quintana, Shashank Srivastava and Madhur Tulsiani) - FOCS 2020 (invited to special issue)
+[longer video @FOCS20] [longer slides @FOCS20] [slides general CS audience]
+Sum-of-Squares Lower Bounds for Sherrington-Kirkpatrick via Planted Affine Planes
+(with Mrinalkanti Ghosh, Chris Jones, Aaron Potechin and Goutham Rajendran) - FOCS 2020
+Tighter Bounds on the Independence Number of the Birkhoff Graph
+(with Leonardo Nagami Coregliano) - European J. of Combinatorics
+List Decoding of Direct Sum Codes
+(with Vedat Levi Alev, Dylan Quintana, Shashank Srivastava and Madhur Tulsiani) - SODA 2020
+[slides @SODA20]
+Approximating Constraint Satisfaction Problems on High-Dimensional Expanders
+(with Vedat Levi Alev and Madhur Tulsiani) - FOCS 2019
+A Constrained Random Walk Through Coding Theory
+(Fernando Granha Jeronimo) - Dissertation
+Prior to UIUC, I was a Simons-Berkeley fellow kindly hosted in Venkatesan Guruswami's group, and thankfully supported in part as a Google Research Fellow. I had a wonderful experience as a postdoc in Avi Wigderson's group at the Institute for Advanced Study (IAS). I obtained my PhD from UChicago. I received a B.Sc. and M.Sc. degrees from Unicamp Brazil (my home country) and also received an engineering degree from Telecom Paris (France) as part of a double degree program.
+I was a TA 14 times for various courses during my PhD receiving two (annual) TA prizes from the CS department.
+2025 Fernando Granha Jeronimo
+Template design by
+Andreas Viklund

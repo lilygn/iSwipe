@@ -1,0 +1,22 @@
+Mission Statement and Current Objectives
+My career mission statement is to create systemic change in engineering and computers science education. To achieve this mission, I am currently working to build my capacity as an education researcher while coordinating and leading innovation efforts at the University of Illinois at Urbana-Champaign.
+About Me
+I earned my PhD in Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign while conducting engineering education research. I was co-advised by Michael Loui and Craig Zilles to develop an understanding of how students learn topics in computer engineering and then develop a learning assessment tool called the digital logic concept inventory.
+I completed two postdocs: one with the Illinois Foundry for Innovation in Engineering Education at the University of Illinois (iFoundry) and one at Purdue’s School of Engineering Education. With iFoundry I piloted reform projects that centered on improving students’ intrinsic motivation to learn engineering. At Purdue, I worked with Ruth Streveler (in partnership with Shane Brown at Oregon State University and Holly Matusovich at Virginia Tech) to develop a theory of “hot cognition” in engineering – a theory which argues that cognition can be fully understood only by understanding how cognition is directed by motivation.
+As a faculty member in Computer Science, I work with the Academy for Excellence in Engineering Education and the Department of Curriculum & Instruction to catalyze change in engineering and computer science education at the University of Illinois. I help lead core college-based change initiatives while continuing my research in students’ conceptual understanding and change about engineering concepts. A list of my project are below.
+Contact Info
+Severns Teaching Associate Professor, Computer Science
+Provost Fellow for Teaching Evaluation
+University of Illinois at Urbana-Champaign
+3213 Siebel Center
+201 N. Goodwin Ave.
+Urbana, IL 61801
+Contact E-mail
+Research Interests
+- Sustainable education reform
+- Students’ conceptual change in computing and engineering
+- Measurement and assessment
+Projects
+| Innovation in Engineering and STEM Education |
+How Students Learn Engineering and Computer Science |
+| Designing Educational Assessment Tools |

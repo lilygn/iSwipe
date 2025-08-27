@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>David Heath</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">David Heath</h1>
+</header>
+<style>
+header {
+    margin-bottom: 4em;
+    text-align: left;
+}
+body {
+  font-family: helvetica;
+  line-height: 1.5em;
+  background-color: #fdf6e3;
+  <!-- color: #657b83; -->
+  color: #212529;
+}
+a:link {
+  font-style:italic;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+* {
+  border-color: #839496;
+}
+a {
+  color: #268bd2;
+}
+a:visited {
+  color: #6c71c4;
+}
+body {
+}
+html {
+  background-color: #fdf6e3;
+}
+input,
+textarea {
+  background-color: #eee8d5;
+  color: #657b83;
+}
+blockquote,
+pre {
+  background-color: #eee8d5;
+  color: #657b83;
+}
+img {
+  border-radius: 50%;
+}
+</style>
+<p><img src="heath-david-02-2023-square.jpeg" alt="photo" width="200"/></p>
+<p><a href="mailto:daheath@illinois.edu"
+class="email">daheath@illinois.edu</a></p>
+<p>Siebel Center for Computer Science, Room 4322</p>
+<h2 id="about-me">About Me</h2>
+<p>I am a cryptographer and an assistant professor at the University of
+Illinois Urbana-Champaign. My research focuses on <a
+href="https://en.wikipedia.org/wiki/Secure_multi-party_computation">Secure
+Multiparty Computation (MPC)</a>, <a
+href="https://en.wikipedia.org/wiki/Zero-knowledge_proof">Zero Knowledge
+proofs</a>, and <a
+href="https://en.wikipedia.org/wiki/Oblivious_data_structure">Oblivious
+Data Structures</a>. I am broadly interested in algorithmic techniques
+for reducing the cost of powerful cryptographic methods.</p>
+<p>To learn more about my research, you can peruse my work below or have
+a look at <a href="./cv.pdf">my CV</a>.</p>
+<h2 id="advisees">Advisees</h2>
+<h3 id="phd-advisees">PhD Advisees</h3>
+<ul>
+<li>Cruz Barnum. Fall 2022 â Present.</li>
+<li>Ananya Appan (co-advised by Ling Ren). Fall 2023 â Present.</li>
+<li>Anwesh Bhattacharya. Fall 2023 â Present.</li>
+<li>Ziling Yang. Fall 2023 â Present.</li>
+</ul>
+<h3 id="ms-advisees">MS Advisees</h3>
+<p>Zexiang Chen. 2023. Masters Thesis: â3PC Honest-Majority PRAM
+Computation with Perfect Security and Low Overheadâ.</p>
+<h3 id="undergraduate-advisees">Undergraduate Advisees</h3>
+<p>Pranav Rajpal. Spring 2024 â Spring 2025.</p>
+<h2 id="teaching">Teaching</h2>
+<ul>
+<li>Fall 2025. CS 507, Topic in Cryptography.</li>
+<li>Spring 2025. 407/ECE 407, Cryptography. Ranked as Excellent by
+Students.</li>
+<li>Spring 2024. CS 598 DH, Special Topics in Secure Computation. <a
+href="https://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2024-spring.pdf">Ranked
+as Excellent by Students</a>.</li>
+<li>Fall 2023. CS 407/ECE 407, Cryptography. <a
+href="https://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2023-fall.pdf">Ranked
+as Excellent by Students</a>.</li>
+<li>Spring 2023. CS 598 DH, Special Topics in Secure Computation. <a
+href="https://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2023-spring.pdf">Ranked
+as Excellent by Students</a>.</li>
+<li>Fall 2022. CS 598 DH, Special Topics in Secure Computation.</li>
+</ul>
+<h2 id="conference-publications">Conference Publications</h2>
+<h3 id="section">2025</h3>
+<ul>
+<li>David Heath, Vladimir Kolesnikov, Varun Narayanan, Rafail Ostrovsky,
+and Akash Shah. <a href="https://eprint.iacr.org/2025/444">Multiparty
+Garbling from OT with Linear Scaling and RAM Support</a>. CRYPTO
+2025.</li>
+</ul>
+<h3 id="section-1">2024</h3>
+<ul>
+<li>Carmit Hazay, David Heath, Vladimir Kolesnikov, Muthuramakrishnan
+Venkitasubramaniam, and Yibin Yang. <a
+href="https://eprint.iacr.org/2024/1427">LogRobin++: Optimizing proofs
+of disjunctive statements in VOLE-based ZK</a>. Asiacrypt 2024.</li>
+<li>Ananya Appan, David Heath, and Ling Ren. <a
+href="https://eprint.iacr.org/2024/1029">Oblivious single access
+machines - A new model for oblivious computation</a>. CCS 2024.</li>
+<li>Yibin Yang, David Heath, Carmit Hazay, Vladimir Kolesnikov, and
+Muthuramakrishnan Venkitasubramaniam. <a
+href="https://eprint.iacr.org/2024/456">Tight ZK CPU: Batched ZK
+branching with cost proportional to evaluated instruction</a>. CCS
+2024.</li>
+<li>David Heath. <a href="https://eprint.iacr.org/2024/139">Efficient
+Arithmetic in Garbled Circuits</a>. Eurocrypt 2024. <a
+href="https://www.youtube.com/watch?v=605P6rVmIOE">Conference
+Talk</a>.</li>
+<li>Yunang Chen, David Heath, Rahul Chatterjee, and Earlence Fernandes.
+<a
+href="https://petsymposium.org/popets/2024/popets-2024-0135.pdf">Scalable
+metadata-hiding for privacy-preserving IoT systems.</a> PETS 2024.</li>
+<li>David Heath, Vladimir Kolesnikov, and Lucien Ng. Garbled circuit
+lookup tables with logarithmic number of ciphertexts. Eurocrypt 2024. <a
+href="https://www.youtube.com/watch?v=605P6rVmIOE">Conference
+Talk</a>.</li>
+<li>David Heath and Yibin Yang. <a
+href="https://eprint.iacr.org/2023/1115">Two Shuffles Make a RAM:
+Improved Constant Overhead Zero Knowledge RAM</a>. USENIX 2024. <a
+href="https://www.youtube.com/watch?v=jVdFnHjBurQ">Conference
+Talk</a>.</li>
+</ul>
+<h3 id="section-2">2023</h3>
+<ul>
+<li>Yibin Yang, David Heath, Carmit Hazay, Vladimir Kolesnikov, and
+Muthu Venkitasubramaniam. <a
+href="https://eprint.iacr.org/2023/1257">Batchman and Robin: Batched and
+non-batched branching for interactive ZK</a>. CCS 2023.
+<strong><em>Distinguished Paper Award</em></strong>.</li>
+<li>David Heath, Stanislav Peceny, and Yibin Yang. <a
+href="https://eprint.iacr.org/2023/953">Towards Generic MPC Compilers
+via Variable Instruction Set Architectures (VISAs)</a>. CCS 2023.</li>
+<li>David Heath, Vladimir Kolesnikov, and Rafail Ostrovsky. <a
+href="https://eprint.iacr.org/2023/455">Tri-State Circuits: A Circuit
+Model that Captures RAM</a>. CRYPTO 2023. <a
+href="https://www.youtube.com/watch?v=DTzRYTqVxHw">Conference
+Talk</a>.</li>
+</ul>
+<h3 id="section-3">2022</h3>
+<ul>
+<li>David Heath, Vladimir Kolesnikov, and Rafail Ostrovsky. <a
+href="https://eprint.iacr.org/2021/1519">Practical Garbled RAM</a>.
+Eurocrypt 2022. <strong><em>Best Paper Award</em></strong>. <a
+href="https://www.youtube.com/watch?v=kgeHG-jIKCM&amp;list=PLeeS-3Ml-rpo46w2onH4CGzlHZ8uwa1w5&amp;index=1">Conference
+Talk</a>.</li>
+<li>Abida Haque, David Heath, Vladimir Kolesnikov, Steve Lu, Rafail
+Ostrovsky, and Akash Shah. <a
+href="https://eprint.iacr.org/2022/797">GCWise: Garbled Circuits With
+Sublinear Evaluator</a>. Eurocrypt 2022. <a
+href="https://www.youtube.com/watch?v=2aMeluc44Fc&amp;list=PLeeS-3Ml-rpo46w2onH4CGzlHZ8uwa1w5&amp;index=2">Conference
+Talk</a>.</li>
+<li>Yibin Yang, David Heath,Vladimir Kolesnikov,and David Devecsery. <a
+href="https://eprint.iacr.org/2022/811">EZEE: Epoch Parallel Zero
+Knowledge for ANSI C</a>. EuroS&amp;P 2022.</li>
+</ul>
+<h3 id="section-4">2021</h3>
+<ul>
+<li>David Heath and Vladimir Kolesnikov. <a
+href="https://eprint.iacr.org/2022/798">One Hot Garbling</a>. CCS 2021.
+<a
+href="https://iframe.videodelivery.net/eyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkZjYyMzE3MTMzZjM0Nzk2NTg4Yjk0ZjRjZjg1OTFlNiIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjU2MDE2ODIwfQ.dVmhuvSBa9_2Yf0raXuo3yVBs7n7U_wrVCiSvIlEUt2HUiGbTTktKdpnm6iXZM8GM2OQaBWn8xZvITAyjCK-HHYTDMeRjRcktdzn9NMsG_hmZOMnaQKzzOniYLPNzkRXBwii0GbBIJhpk4qWhskOjdEpRQlsP5gI64zCFY6LGoPFvTo_3Y6NDGtCq53gdSgS00owsjAp3ca3B84-K6dTCvEaZS2vWzQhN1ghmYgEd1vs_sLz9u6jW9wlY0GUA5UaNiMXvzbf_mFAKXX-r8-Qx5yOqzb4RHhGH9YKWY5NSgal4P657v8PEOvUPs0WXB3gNdscDGwS8tfoCQ94CIZN3A?poster=https%3A%2F%2Fvideodelivery.net%2FeyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkZjYyMzE3MTMzZjM0Nzk2NTg4Yjk0ZjRjZjg1OTFlNiIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjU2MDE2ODIwfQ.dVmhuvSBa9_2Yf0raXuo3yVBs7n7U_wrVCiSvIlEUt2HUiGbTTktKdpnm6iXZM8GM2OQaBWn8xZvITAyjCK-HHYTDMeRjRcktdzn9NMsG_hmZOMnaQKzzOniYLPNzkRXBwii0GbBIJhpk4qWhskOjdEpRQlsP5gI64zCFY6LGoPFvTo_3Y6NDGtCq53gdSgS00owsjAp3ca3B84-K6dTCvEaZS2vWzQhN1ghmYgEd1vs_sLz9u6jW9wlY0GUA5UaNiMXvzbf_mFAKXX-r8-Qx5yOqzb4RHhGH9YKWY5NSgal4P657v8PEOvUPs0WXB3gNdscDGwS8tfoCQ94CIZN3A%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D10.0s">Conference
+Talk</a>.</li>
+<li>David Heath and Vladimir Kolesnikov. <a
+href="https://eprint.iacr.org/2021/587">PrORAM: Fast O(log n) Private
+Coin ZK ORAM</a>. Asiacrypt 2021. <a
+href="https://www.youtube.com/watch?v=oJ_30plLyZo">Conference
+Talk</a>.</li>
+<li>David Heath, Vladimir Kolesnikov, and Stanislav Peceny. <a
+href="https://eprint.iacr.org/2021/1590">Garbling, Stacked and
+Staggered</a>. Asiacrypt 2021. <a
+href="https://www.youtube.com/watch?v=QnVanTjaP8o">Conference
+Talk</a>.</li>
+<li>David Heath and Vladimir Kolesnikov. <a
+href="https://eprint.iacr.org/2021/531">LogStack: Stacked Garbling with
+O(b log b) Computation</a>. Eurocrypt 2021. <a
+href="https://www.youtube.com/watch?v=fNrZhfNQ_fQ">Conference
+Talk</a>.</li>
+<li>David Heath, Yibin Yang, David Devecsery, and Vladimir Kolesnikov.
+<a href="https://eprint.iacr.org/2022/810">Zero Knowledge for Everything
+and Everyone: Fast ZK Processor with Cached ORAM for ANSI C
+programs</a>. S&amp;P 2021. <a
+href="https://www.youtube.com/watch?v=JS-xpz1BIL4">Conference
+Talk</a>.</li>
+<li>David Heath, Vladimir Kolesnikov, and Stanislav Peceny. <a
+href="https://eprint.iacr.org/2021/604">Masked Triples - Amortizing
+Multiplication Triples Across Conditionals</a>. PKC 2021. <a
+href="https://www.youtube.com/watch?v=mZm2tMas-yc">Conference
+Talk</a>.</li>
+<li>David Heath, Vladimir Kolesnikov, and Jiahui Lu. <a
+href="https://eprint.iacr.org/2022/795">Efficient Generic Arithmetic for
+KKW: Practical Linear MPC-in-the-Head NIZK on Commodity Hardware without
+Trusted Setup</a>. CSCML 2021.</li>
+</ul>
+<h3 id="section-5">2020</h3>
+<ul>
+<li>David Heath, Vladimir Kolesnikov, and Stanislav Peceny. <a
+href="https://eprint.iacr.org/2020/1175">MOTIF: (almost) Free Branching
+in GMW via Vector-Scalar Multiplication</a>. Asiacrypt 2020. <a
+href="https://www.youtube.com/watch?v=nRIQclqfAAQ">Conference
+Talk</a>.</li>
+<li>David Heath and Vladimir Kolesnikov. <a
+href="https://eprint.iacr.org/2022/809">A 2.1 KHz Zero-Knowledge
+Processor with BubbleRAM</a>. CCS 2020. <a
+href="https://iframe.videodelivery.net/eyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIzNzQ0ZjMwZGI4NWE0Mzk3NTUwNTAzMGU1MzEwMTlhZSIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjU2MDE4MzExfQ.rF5seqWsMq1tGNdY6o6xYzwqYkhumD4q0n3OFUfVJAZqjieycX7E15adVEZzJq3mtTdLQrM2x65xYmlXzJi5gsxAPemL9jyNb5o8FhX_pk2ijDWXN_57oQjKtk1HB5-gGfOr5ZcyS1LL-ptc1NPje7Df1V9ZHPXD_OqwrJlAnwUp36jR55mrojV6YrVoCsncHlI5hfjmqc7JLwk-eFjUT_GhENldxFjCOStsNe8VJ6_igvI5iC9L3RmhdDLEGrPviiDysjazvZbeb9U9NZemQHNBZvzldBIH5fekDoj9DhFscmuCvExIkP4Zg283tuaMdVi06L5IEQ-w29zhGOh2FA?poster=https%3A%2F%2Fvideodelivery.net%2FeyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIzNzQ0ZjMwZGI4NWE0Mzk3NTUwNTAzMGU1MzEwMTlhZSIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjU2MDE4MzExfQ.rF5seqWsMq1tGNdY6o6xYzwqYkhumD4q0n3OFUfVJAZqjieycX7E15adVEZzJq3mtTdLQrM2x65xYmlXzJi5gsxAPemL9jyNb5o8FhX_pk2ijDWXN_57oQjKtk1HB5-gGfOr5ZcyS1LL-ptc1NPje7Df1V9ZHPXD_OqwrJlAnwUp36jR55mrojV6YrVoCsncHlI5hfjmqc7JLwk-eFjUT_GhENldxFjCOStsNe8VJ6_igvI5iC9L3RmhdDLEGrPviiDysjazvZbeb9U9NZemQHNBZvzldBIH5fekDoj9DhFscmuCvExIkP4Zg283tuaMdVi06L5IEQ-w29zhGOh2FA%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D10.0s">Conference
+Talk</a>.</li>
+<li>David Heath and Vladimir Kolesnikov. <a
+href="https://eprint.iacr.org/2020/973">Stacked Garbling - Garbled
+Circuit Proportional to Longest Execution Path</a>. CRYPTO 2020. <a
+href="https://www.youtube.com/watch?v=ii13QRHU2Ss">Conference
+Talk</a>.</li>
+<li>David Heath and Vladimir Kolesnikov. <a
+href="https://eprint.iacr.org/2020/136">Stacked Garbling for Disjunctive
+Zero-Knowledge Proofs</a>. Eurocrypt 2020. <a
+href="https://www.youtube.com/watch?v=O_kWpyIzqY4">Conference
+Talk</a>.</li>
+</ul>
+<h3 id="section-6">2019</h3>
+<ul>
+<li>Qi Zhou, David Heath, and William Harris. <a
+href="https://arxiv.org/abs/1907.03997">Relational verification via
+invariant-guided synchronization</a>. EPTCS 2019.</li>
+</ul>
+<h3 id="section-7">2018</h3>
+<ul>
+<li>Qi Zhou, David Heath, and William Harris. <a
+href="https://arxiv.org/abs/1705.03167">Solving constrained horn clauses
+using dependence-disjoint expansions</a> EPTCS 2018.</li>
+</ul>
+<h2 id="unpublished-manuscripts">Unpublished Manuscripts</h2>
+<ul>
+<li>Anwesh Bhattacharya and David Heath. One Hot Encodings Generalize
+Multiplication Triples. 2024.</li>
+<li>Cruz Barnum, David Heath, Vladimir Kolesnikov, and Rafail Ostrovsky.
+<a href="https://eprint.iacr.org/2023/1527">Adaptive Garbled Circuits
+and Garbled RAM from Non-Programmable Random Oracles</a>. 2024.</li>
+<li>David Heath. <a href="https://arxiv.org/pdf/2309.05133.pdf">Parallel
+RAM from Cyclic Circuits</a>. 2023.</li>
+</ul>
+<h2 id="talks">Talks</h2>
+<ul>
+<li>Improving Garbled Circuits with Switch Systems. Invited Speaker at
+Forbidden City Crypto Day. June, 2024.</li>
+<li>Garbled RAM from Tri-State circuits. Invited Speaker at MongoDB
+Inc.Â Cryptography Research Group Seminars, February 2024.</li>
+<li>Garbled RAM from Tri-State circuits. Invited Speaker at AlgoCRYPT
+Seminars, January 2024.</li>
+<li>Garbled RAM from Tri-State Circuits. Invited Speaker at Midwest
+Crypto Day, April 2023.</li>
+<li>Stacked Garbling and MPC with Improved Conditional Branching.
+Invited Speaker at NY Crypto Day, October 2022.</li>
+<li><a href="https://www.youtube.com/watch?v=jOiTfpiLUkA">New Directions
+in Garbled Circuits</a>. Invited Speaker at TPMPC, June 2022.</li>
+<li>EpiGRAM: Practical Garbled RAM. Invited Speaker at Charles River
+Crypto Day, March 2022.</li>
+<li><a href="https://www.youtube.com/watch?v=Rg91tBQjkyk">Practical
+Garbled RAM</a>. CMU Reading Group, December 2021.</li>
+<li>Practical Garbled RAM. Berkeley Reading Group, December 2021.</li>
+<li>Practical Garbled RAM. UMD Reading Group, December 2021.</li>
+<li>Practical Garbled RAM. Stanford Security Seminar, November
+2021.</li>
+<li>Logstack: Stacked Garbling with O(b log b) Computation. TCC 2021
+Special in-person Workshop, November 2021.</li>
+<li><a
+href="https://crypto.stanford.edu/seclab/sem-20-21/heath.html">Logstack:
+Stacked Garbling with O(b log b) Computation</a>. Stanford Security
+Seminar, May 2021.</li>
+<li><a
+href="https://scp.cc.gatech.edu/2021/02/05/zero-knowledge-for-everything-and-everyone/">Zero-knowledge
+for Everything and Everyone</a>. Georgia Tech Cybersecurity Lecture
+Series, February 2021.</li>
+<li>Stacked garbling: Garbled circuit proportional to longest execution
+path. Stanford Security Seminar, September 2020</li>
+<li><a
+href="https://mediaspace.gatech.edu/media/David+Heath+-+Efficiently+Computing+with+Private+Data/1_8qvvz08r">Efficiently
+Computing with Private Data</a>. Georgia Tech Cybersecurity Lecture
+Series, September 2019.</li>
+</ul>
+<h2 id="service-to-research-community">Service to Research
+Community</h2>
+<ul>
+<li>S&amp;P 2026. Program Committee Member.</li>
+<li>PETS 2026. Program Committee Member.</li>
+<li>S&amp;P 2025. <strong><em>Student Travel Grant
+Chair</em></strong>.</li>
+<li>Crypto 2025. Program Committee Member.</li>
+<li>Eurocrypt 2025. Program Committee Member.</li>
+<li>STOC 2025. Invited Subreviewer.</li>
+<li>FOCS 2025. Invited Subreviewer.</li>
+<li>Eurocrypt 2024. Program Committee Member.</li>
+<li>CANS 2023. Program Committee Member.</li>
+<li>Crypto 2023. Program Committee Member.</li>
+<li>PKC 2023. Program Committee Member.</li>
+<li>Eurocrypt 2023. Invited Subreviewer.</li>
+<li>Asiacrypt 2022. Program Committee Member.</li>
+<li>CSCML 2022. Program Committee Member.</li>
+<li>CCS 2021. Program Committee Member.</li>
+<li>CSCML 2021. Program Committee Member.</li>
+<li>CSCML 2020. Program Committee Member.</li>
+</ul>
+</body>
+</html>

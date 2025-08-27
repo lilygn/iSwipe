@@ -1,0 +1,4 @@
+I am an Assistant Professor in the Department of Computer Science at the University of Illinois Urbana-Champaign (UIUC). Prior to UIUC, I worked at Systems Research@Google and Meta AI, focusing on practical systems for GenAI.
+Research Interests: Machine Learning & Systems, Cloud Computing, and Networked Systems
+Our research brings together ML, systems, and computer networking to develop practical systems for efficient ML and data analytics, from the cloud to the planetary scale. Our systems have been adopted by big companies including Google, Meta, LinkedIn, and Cisco. Our current topics of interests include:
+I am very fortunate to work with many wonderful students (incomplete list):

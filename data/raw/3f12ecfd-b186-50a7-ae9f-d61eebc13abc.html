@@ -1,0 +1,80 @@
+<html>
+<head><meta charset="us-ascii">
+</head>
+<body></body>
+<br />
+<link href="orchid-style.css" rel="stylesheet" /></html>
+<title>ORCHID @ Illinois</title>
+<table id="mobile-navigation-container">
+	<tbody>
+		<tr>
+			<td id="mobile-navigation-container-cell"><a href="javascript:void(0);" onclick="menuToggleFunction(); return false;"><img id="mobile-navgation-icon" src="menu-24px.svg" /></a></td>
+			<td id="mobile-navigation-title">HCI Research</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="mobile-navigation-menu" id="mobile-navigation-menu-id">
+<div class="mobile-navigation-menu-link"><a class="mobile-navigation-link" href="http://orchid.cs.illinois.edu">Home</a></div>
+
+<div class="mobile-navigation-menu-link"><a class="mobile-navigation-link" href="http://orchid.cs.illinois.edu/publications/index.html">Publications</a></div>
+
+<div class="mobile-navigation-menu-link"><a class="mobile-navigation-link" href="http://orchid.cs.illinois.edu/people/index.html">Members</a></div>
+
+<div class="mobile-navigation-menu-link"><a class="mobile-navigation-link" href="http://orchid.cs.illinois.edu/about/index.html">About</a></div>
+
+<div class="mobile-navigation-menu-last-link"><a class="mobile-navigation-link" href="https://forms.gle/s4HP1PLoC2KMi8fX9">Join</a></div>
+</div>
+
+<div style="float: right"></div>
+
+<table id="desktop-navigation-container">
+	<tbody>
+		<tr>
+			<td style="padding-left: 30px"><a href="http://orchid.cs.illinois.edu"><img src="orchid-logo.jpg" /></a></td>
+			<td width="100%&quot;"></td>
+			<td class="navigation-link-container"><a class="navigation-link" href="http://orchid.cs.illinois.edu/publications/index.html">Publications</a></td>
+			<td class="navigation-link-container"><a class="navigation-link" href="http://orchid.cs.illinois.edu/people/index.html">Members</a></td>
+			<td class="navigation-link-container"><a class="navigation-link" href="http://orchid.cs.illinois.edu/about/index.html">About</a></td>
+			<td class="navigation-link-container"><a class="navigation-link" href="https://forms.gle/s4HP1PLoC2KMi8fX9" id="call-to-join" target="_blank">Join</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="main-body-content">
+<p>We are computer science researchers passionate about building and studying technologies that influence design, creativity, and innovation processes. We meet in-person on Wednesdays, 2-3 p.m. in Siebel 4102. Please contact Prof. Brian Bailey&nbsp;(bpbailey@illinois.edu)&nbsp;for further information.</p>
+
+<p><b>News</b></p>
+
+<ul>
+	<li>Several new papers about how to best incorporate AI into online group discussions accepted to CSCW 2023.</li>
+	<li>Congratulations to Patrick Crain and Emily Hastings for successfully defending their doctoral research in 2023!</li>
+	<p></p>
+	</li>
+</ul>
+
+<p></p>
+</div>
+<script>
+// Defining event listener function
+function windowSizeChanged(){
+    // Get width and height of the window excluding scrollbars
+    var w = document.documentElement.clientWidth;
+    if (w >= 780) {
+        var x = document.getElementById("mobile-navigation-menu-id");
+        x.style.display = "none";
+    }
+}
+    
+// Attaching the event listener function to window's resize event
+window.addEventListener("resize", windowSizeChanged);
+
+function menuToggleFunction() {
+  var x = document.getElementById("mobile-navigation-menu-id");
+ if (x.style.display !== "block") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>

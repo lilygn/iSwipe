@@ -1,0 +1,9 @@
+|
+I am an assistant professor at the University of Illinois Urbana-Champaign, in Electrical and Computer Engineering and Computer Science (affiliate).
+My research is in the area of cybersecurity and applied cryptography. Recently, I am working on zero-knowledge proofs, secure multiparty computations and their applications in blockchain and machine learning to enhance privacy, fairness and scalability.
+My research has been generously supported by the NSF CAREER award, Air Force Research Lab, DARPA, Facebook Research Award and Latticex Foundation.
+Before joining UIUC, I spent 4 great years at the Computer Science and Engineering department of Texas A&M University. I was a postdoctoral researcher at UC Berkeley hosted by Dawn Song. I obtained my PhD from
+University of Maryland and my advisors are Charalampos Papamanthou and Jonathan Katz.
+I co-taught a Massive Open Online Course (MOOC) on Zero-Knowledge Proofs in Spring 2023. Please check zk-learning.org if you are interested!
+I'm always looking for motivated students, please send me an email with your CV.
+|

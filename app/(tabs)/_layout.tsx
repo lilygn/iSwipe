@@ -14,32 +14,60 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         headerShown: false,
+        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         tabBarButton: HapticTab,
         tabBarBackground: TabBarBackground,
         tabBarStyle: Platform.select({
-          ios: {
-            // Use a transparent background on iOS to show the blur effect
-            position: 'absolute',
-          },
-          default: {},
+          ios: { backgroundColor: Colors[colorScheme ?? 'light'].background, borderTopWidth: 0, height: 60, paddingBottom: 8, paddingTop: 6 },
+          default: { height: 60 },
         }),
-      }}>
+        tabBarLabelStyle: { fontSize: 11, fontWeight: '600' },
+      }}
+    >
+      {/* 1) Home */}
       <Tabs.Screen
-        name="index"
+        name="home"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={22} name="house.fill" color={color} />,
         }}
       />
+
+      {/* 2) Explore */}
       <Tabs.Screen
-        name="explore"
+        name="ExploreScreen"
         options={{
           title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={22} name="magnifyingglass.circle.fill" color={color} />,
         }}
       />
+
+      {/* 3) Saved */}
+      <Tabs.Screen
+        name="Saved" // or rename to "saved/index" later
+        options={{
+          title: 'Saved',
+          tabBarIcon: ({ color }) => <IconSymbol size={22} name="heart.fill" color={color} />,
+        }}
+      />
+
+      {/* 4) Profile */}
+      <Tabs.Screen
+        name="Profile" 
+        options={{
+          title: 'Profile',
+          tabBarIcon: ({ color }) => <IconSymbol size={22} name="person.crop.circle.fill" color={color} />,
+        }}
+      />
+
+      {/* --- Hide the rest from the tab bar --- */}
+      <Tabs.Screen name="index" options={{ href: null , tabBarStyle: {display: 'none'}}} />
+      <Tabs.Screen name="Interests" options={{ href: null }} />
+      <Tabs.Screen name="ProfileWelcome" options={{ href: null }} />
+
+      <Tabs.Screen name="Lab" options={{ href: null }} />
+      
     </Tabs>
   );
 }

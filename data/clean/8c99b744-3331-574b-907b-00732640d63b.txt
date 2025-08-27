@@ -1,0 +1,7 @@
+Liangyan Gui
+Research Areas
+Articles in Conference Proceedings
+- Shengcao Cao, Jiuxiang Gu, Jason Kuen, Hao Tan, Ruiyi Zhang, Handong Zhao, Ani Nenkova, Liang-Yan Gui, Tong Sun, Yu-Xiong Wang, "SOHES: Self-supervised Open-world Hierarchical Entity Segmentation," in International Conference on Learning Representations (ICLR), 2024 (31.12% acceptance rate)
+Recent Courses Taught
+- CS 446 (ECE 449) - Machine Learning
+- CS 598 GUI - Efficient & Predictive Vision

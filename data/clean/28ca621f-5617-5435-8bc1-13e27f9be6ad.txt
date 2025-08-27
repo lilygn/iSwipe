@@ -1,0 +1,8 @@
+I am an Assistant Professor in the Department of Computer Science and Electrical and Computer Engineering at the University of Illinois Urbana-Champaign. Previously, I was a postdoctoral researcher at Carnegie Mellon University in CyLab working with Anthony Rowe. I received my PhD from the University of Virginia in 2019 working with my advisor Kamin Whitehouse. I also received my M.S. in computer engineering from Sharif University of Technology in 2013.
+My research interests span the areas of wireless sensing and networking with applications in Cyber-Physical Systems, and Internet of Things. I create the next generation of intelligent wireless systems that are faster, lower power, pervasive, and can even sense the physical environment. You can learn more about my Ph.D research here.
+My recent work seeks to build a foundation for joint communication and sensing in wireless embedded systems of the future by applying signal processing and machine learning techniques to low-level RF signals.
+PhD Students: Saif Ur Rahman, Mingyue Tang, Luke Jacobs, Anton Dmitriev, Parham Chavoshian
+Masters Students: Avery Plote, Arnav Shah, Hanbo Guo, Benhao Lu, Ed Wolski
+Undergraduate Students: Jizheng (Daniel) He, Ansley Tsai, Sam Hurh, Anant Matta, Navid Tajkhoeshid, Alex Shaffer
+High School Students: Joseph Torrellas
+If you are interested in joining our research group, please find more information here!

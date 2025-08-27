@@ -1,0 +1,45 @@
+About Me
+I am an associate professor in the
+Department of Electrical
+and Computer Engineering
+at the
+University of Illinois
+at Urbana-Champaign,
+an affiliate faculty of
+Computer Science,
+and faculty of the
+Advanced Digital Sciences Center.
+I am a member of
+the
+Coordinated Science Laboratory
+and the
+Information Trust Institute.
+I joined the University of Illinois in August 2005;
+previously I was a Postdoctoral Researcher at the
+University of California, Berkeley
+under
+Doug Tygar.
+I received my Ph.D. in 2003 from the
+Computer Science Department
+at
+Carnegie Mellon University
+while I was a Visiting Graduate Student in the
+Computer Science Department
+at
+Rice University;
+my advisor throughout graduate school was
+Dave Johnson.
+I received my B.S.
+Magna Cum Laude in 1997 in
+Computer Science and
+Mathematics
+from the
+University of Washington.
+My current research interests are in network security and wireless networks.
+My general research interests are in security and systems,
+with emphasis on the areas of secure systems and mobile communications.
+I have published papers in the areas of secure Internet routing, DDoS-resilient forwarding,
+secure routing in wireless ad hoc networks, security and anonymity in peer-to-peer networks,
+efficient cryptographic mechanisms for routing security,
+and the design and evaluation of multihop wireless network routing protocols,
+including Quality-of-Service mechanisms for ad hoc networks.

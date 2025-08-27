@@ -1,75 +1,261 @@
-import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import {
+  View,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  StyleSheet,
+  Alert,
+  SafeAreaView,
+  KeyboardAvoidingView,
+  Platform,
+} from 'react-native';
+import { signInWithEmailAndPassword, createUserWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth';
+import { auth } from './firebase';
+import { useNavigation } from '@react-navigation/native';
 
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+export default function LoginScreen() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [focus, setFocus] = useState<'email' | 'password' | null>(null);
+  const navigation = useNavigation();
 
-export default function HomeScreen() {
+  const handleLogin = () => {
+    signInWithEmailAndPassword(auth, email, password)
+      .then(userCredential => {
+        const user = userCredential.user;
+        console.log('Logged in as:', user.email);
+        Alert.alert('Login successful!');
+        navigation.replace('(tabs)');
+      })
+      .catch(error => {
+        console.error(error);
+        Alert.alert('Login failed', error.message);
+      });
+  };
+
+  const handleSignUp = () => {
+    createUserWithEmailAndPassword(auth, email, password)
+      .then(userCredential => {
+        const user = userCredential.user;
+        console.log('Registered as:', user.email);
+        Alert.alert('Account created successfully!');
+      })
+      .catch(error => {
+        console.error(error);
+        Alert.alert('Signup failed', error.message);
+      });
+  };
+
+  useEffect(() => {
+    const unsub = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        console.log('User is logged in:', user.email);
+        navigation.replace('home');
+      }
+    });
+    return unsub;
+  }, []);
+
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-      headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
-        />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12',
-            })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-        <ThemedText>
-          {`Tap the Explore tab to learn more about what's included in this starter app.`}
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
-    </ParallaxScrollView>
+    <SafeAreaView style={styles.safe}>
+      <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+        {/* Background */}
+        <View style={styles.bg}>
+          <View style={[styles.gradientLayer, styles.layerTop]} />
+          <View style={[styles.gradientLayer, styles.layerBottom]} />
+        </View>
+
+        {/* Content */}
+        <View style={styles.container}>
+          <View style={styles.card}>
+            <View style={styles.header}>
+              <Text style={styles.title}>Sign in</Text>
+              <Text style={styles.subtitle}>Welcome back. Enter your details to continue.</Text>
+            </View>
+
+            <View style={styles.field}>
+              <Text style={styles.label}>Email</Text>
+              <TextInput
+                value={email}
+                onChangeText={setEmail}
+                placeholder="you@illinois.edu"
+                autoCapitalize="none"
+                keyboardType="email-address"
+                onFocus={() => setFocus('email')}
+                onBlur={() => setFocus(null)}
+                placeholderTextColor="#8A93A4"
+                style={[styles.input, focus === 'email' && styles.inputFocused]}
+              />
+            </View>
+
+            <View style={styles.field}>
+              <Text style={styles.label}>Password</Text>
+              <TextInput
+                value={password}
+                onChangeText={setPassword}
+                placeholder="Enter your password"
+                secureTextEntry
+                onFocus={() => setFocus('password')}
+                onBlur={() => setFocus(null)}
+                placeholderTextColor="#8A93A4"
+                style={[styles.input, focus === 'password' && styles.inputFocused]}
+              />
+            </View>
+
+            <TouchableOpacity style={styles.primaryButton} onPress={handleLogin} activeOpacity={0.92}>
+              <Text style={styles.primaryText}>Sign In</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={styles.secondaryButton} onPress={handleSignUp} activeOpacity={0.92}>
+              <Text style={styles.secondaryText}>Create Account</Text>
+            </TouchableOpacity>
+          </View>
+
+          <Text style={styles.footnote}>© {new Date().getFullYear()} Swipe</Text>
+        </View>
+      </KeyboardAvoidingView>
+    </SafeAreaView>
   );
 }
 
+const COLORS = {
+  bg: '#0B111C',
+  glass: 'rgba(255,255,255,0.08)',     // card background
+  glassStroke: 'rgba(255,255,255,0.18)',
+  input: 'rgba(255,255,255,0.06)',     // input background
+  inputStroke: 'rgba(255,255,255,0.14)',
+  white: '#FFFFFF',
+  textPrimary: '#E6E9EE',
+  textSecondary: '#9AA4B2',
+  accent: '#FF5F05',                   // UIUC orange
+};
+
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
+  safe: { flex: 1, backgroundColor: COLORS.bg },
+
+  bg: {
+    ...StyleSheet.absoluteFillObject,
   },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
-  },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
+  gradientLayer: {
     position: 'absolute',
+    width: '120%',
+    height: 280,
+    left: '-10%',
+    right: '-10%',
+    borderRadius: 24,
+    opacity: 0.55,
+    // Simulated gradient via layered translucent views
+    backgroundColor: 'rgba(255,95,5,0.18)',
+  },
+  layerTop: {
+    top: -40,
+    transform: [{ rotate: '-6deg' }],
+  },
+  layerBottom: {
+    bottom: -60,
+    backgroundColor: 'rgba(88,155,255,0.14)',
+    transform: [{ rotate: '5deg' }],
+  },
+
+  container: {
+    flex: 1,
+    paddingHorizontal: 22,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
+  card: {
+    width: '100%',
+    maxWidth: 460,
+    backgroundColor: COLORS.glass,
+    borderRadius: 20,
+    padding: 22,
+    borderWidth: 1,
+    borderColor: COLORS.glassStroke,
+    // subtle depth
+    shadowColor: '#000',
+    shadowOpacity: 0.22,
+    shadowRadius: 24,
+    shadowOffset: { width: 0, height: 14 },
+    elevation: 14,
+  },
+
+  header: {
+    marginBottom: 16,
+  },
+  title: {
+    color: COLORS.textPrimary,
+    fontSize: 26,
+    fontWeight: '800',
+    letterSpacing: 0.2,
+  },
+  subtitle: {
+    marginTop: 6,
+    color: COLORS.textSecondary,
+    fontSize: 14,
+  },
+
+  field: { marginTop: 14 },
+  label: {
+    color: COLORS.textSecondary,
+    fontSize: 12,
+    marginBottom: 8,
+    letterSpacing: 0.3,
+  },
+  input: {
+    backgroundColor: COLORS.input,
+    borderWidth: 1,
+    borderColor: COLORS.inputStroke,
+    borderRadius: 14,
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    fontSize: 16,
+    color: COLORS.textPrimary,
+  },
+  inputFocused: {
+    borderColor: COLORS.accent,
+    shadowColor: COLORS.accent,
+    shadowOpacity: 0.18,
+    shadowRadius: 12,
+    shadowOffset: { width: 0, height: 8 },
+  },
+
+  primaryButton: {
+    backgroundColor: COLORS.accent,
+    marginTop: 20,
+    paddingVertical: 15,
+    borderRadius: 14,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  primaryText: {
+    color: COLORS.white,
+    fontWeight: '700',
+    fontSize: 16,
+    letterSpacing: 0.3,
+  },
+
+  secondaryButton: {
+    marginTop: 12,
+    paddingVertical: 15,
+    borderRadius: 14,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: COLORS.inputStroke,
+    backgroundColor: 'transparent',
+  },
+  secondaryText: {
+    color: COLORS.textPrimary,
+    fontWeight: '700',
+    fontSize: 16,
+    letterSpacing: 0.2,
+  },
+
+  footnote: {
+    color: COLORS.textSecondary,
+    fontSize: 12,
+    marginTop: 16,
   },
 });

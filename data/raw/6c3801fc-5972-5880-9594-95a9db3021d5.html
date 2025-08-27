@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Georgia, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #00cccc;
+} 
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #00b3b3;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #008080;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .text{
+      color: blue;
+  }
+  }
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    float: left;
+}
+.text {
+    float: left;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">About Me</a>
+  <a href="teaching.html">Teaching</a>
+  <a href="projects.html">Projects</a>
+  <a href="publications.html">Publications</a>
+  <a href="service.html">Service</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:32px; padding-right:32px" class = "text">
+    <h1 style = "color:#0059b3">Yael Gertner</h1>
+
+<!--<h2 style = "color:#0059b3">About Me</h2>-->
+
+<div class="container">
+    <div class="image">
+        <img src="photo.png" height="220px">
+    </div>
+    <div class="text">
+    </div>
+</div>
+
+
+<p style ="margin-left:200px;">Hi! My name is Yael Gertner. I am a Teaching Assistant Professor in Computer Science at the University of Illinois at Urbana-Champaign. I am passionate about teaching and broadening participation in computing.  You can contact me at: &#121;&#103;&#101;&#114;&#116;&#110;&#101;&#114;&#64;
+             &#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115; 
+             &#46;&#101;&#100;&#117;</p>
+<h4 style = "margin-left:200px; color:#0059b3">Short Bio</h4>
+<p style ="margin-left:200px;">I received my BS and MEng in Electrical Engineering and Computer Science from MIT (1997), with a masters thesis under the direction of Shafi Goldwasser in Cryptography. I received my PhD in Computer and Information Science at the University of Pennsylvania (2003) under the direction of Sampath Kannan in the area of Cryptography. I then did postdoctoral training with Cynthia Fisher in Psychology at the University of Illinois Urbana-Champaign (2003-2006) and was a Beckman Fellow from 2006 to 2009. I joined the University of Illinois at Urbana-Champaign as a Teaching Assistant Professor in 2020. Since its inception, I have been developing materials and teaching for the <a href="https://siebelschool.illinois.edu/academics/graduate/ican">iCAN program</a> , a new graduate certificate program for broadening participation in Computer Science. My research focuses on computer science education, designing tools and interventions for theory of computer science courses, and designing curricula and programs for K-12 students with the goal of broadening participation in computing. </p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

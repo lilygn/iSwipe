@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home Page of Deming Chen</title> 
+<!-- Uncomment this if you want to add a description and keywords that will be shown when this site is searched for on Google
+<meta name="description" content="Add site description here">
+<meta name="keywords" content="Add keywords here">
+-->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+</head>
+
+
+<body>
+<div id="wrapper">
+	
+	<div id="bannertop">
+	
+			<div class="content"><img class="bg" src="images/page_bg_orange-wave.png" width="980" height="100" alt="" /></div>
+			<!-- Replace the following link with homepage url -->
+			<div><a href="homepage.html"><img class="logo-overlay" src="images/escad_logo_big_transparent_blue.png" width="288" height="70"></a></div>
+			<div><a href="http://www.illinois.edu/"><img class="logo-overlay-right" src="images/UIUC_logo.png" width="30" height="39"></a></div>
+			<div><a href="http://www.ece.illinois.edu/"><img class="logo-overlay-right2" src="images/ECEILLINOIS-web-bl.png" width="330" height="54"></a></div>
+			<!--Banner shadow-->
+			<div><img class="shadow" src="images/img03.png" width="1000" height="40" alt="" /></div>
+			
+	</div>
+	
+	<div id="header-wrapper" class="container">
+		<div id="header" class="container">
+				
+			<div id="menu">
+			<!-- Menu -->
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="bio.html">Brief Bio</a></li>
+					<li><a href="research.html">Research & Awards</a></li>
+					<li><a href="service.html">Service & Teaching</a></li>
+					<li><a href="publications.html">Publications</a></li>
+					<li><a href="tools.html">Software Release</a></li>
+					<li><a href="people.html">People</a></li>
+					<li><a href="DemingChen_CV.pdf">CV</a></li>
+					<li class="last"><a href="album.html">Photo Album</a></li>
+				</ul>
+			</div>
+		</div>
+			<!--Menu shadow -->
+		 	<div><img src="images/img03.png" width="1000" height="40" alt="" /></div> 
+	</div>
+
+	<div id="page">
+		<div id="contenthome"> <!--"contenthome" instead of "content" because using "content" will cause the text to be placed underneath the picture and not to the side-->
+			<div class="post">
+				<h2 class="title"></h2>		
+				<div class="entry">
+				<div class="bio">
+					<img src="DC-2025.png" width="260" class="left">
+						<!--Contact info-->
+						<p><h1>Deming Chen</h1></p>
+						<p><b><a href="https://ece.illinois.edu/directory/profile/dchen">Abel Bliss Professor of Engineering</a></b></p>
+						<!--<p><b><a href="http://www.ece.illinois.edu/newsroom/article/11139">Donald Willett Faculty Scholar</a></b></p>-->
+					
+						<p><b>Co-Director, <a href="https://discoveryacceleratorinstitute.grainger.illinois.edu/">IIDAI Institute</a></b><br>
+						<b>Director, <a href="https://xilinx-center.csl.illinois.edu/">AMD Center of Excellence</a></b></p>
+						<p><a href="https://ece.illinois.edu/">Electrical and Computer Engineering</a><br>
+						<a href="https://engineering.illinois.edu/">Grainger College of Engineering</a><br>
+						<a href="http://www.uiuc.edu/">Univ of Illinois, Urbana-Champaign</a></p>
+					
+						Office: 250 <a href= "https://csl.illinois.edu/">CSL</a><br>
+						1308 W Main St<br>
+						Urbana, Illinois 61801<br>
+						217-244-3922 (office)<br>
+						email: dchen (at) illinois (dot) edu</p>
+				</div>
+				</div>
+			</div>
+			<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #contenthome -->
+		<div id="sidebar">
+			<ul>
+				<li> 
+					<h2>News</h2>
+					<!--To add more news, use the following template:
+					
+					<li><a href="News url here">News Title Here</a></li>
+					
+					-->
+					
+				<ul>	
+<li><a href="https://discoveryacceleratorinstitute.grainger.illinois.edu/news/deming-chen-is-new-co-director-of-ibm-iidai">Deming Chen is the new Co-Director</a></li>
+<li><a href="https://grainger.illinois.edu/news/i2cloud">i2Cloud: a new open-source hybrid cloud</a></li>
+<li><a href="https://csl.illinois.edu/news/illinois-named-xilinx-center-excellence">Illinois Named Xilinx Center of Excellence</a></li>
+<!---<li><a href=" https://www.c3sr.com/post/2020/20200104_vlsidaward/">Best Paper Award from VLSID'20</a></li> -->
+<li><a href="https://www.c3sr.com/post/2019/20190605_sdcawards">Double Championships at DAC 2019!</a></li>
+<li><a href="https://ece.illinois.edu/newsroom/article/29157">Chen Named EiC of ACM TRETS</a></li>
+<li><a href="https://ece.illinois.edu/newsroom/article/29123">Chen Elevated as IEEE Fellow</a></li>
+<!--<li><a href="https://ece.illinois.edu/newsroom/article/27542">SDH for DARDA Project</a></li>
+<li><a href="ICCAD18.html">ICCAD'18 Best Paper Award</a></li> -->
+<!--<li><a href="https://www.prnewswire.com/news-releases/inspirit-iot-awarded-phase-ii-nsf-sbir-grant-to-support-development-of-dnn-architect-300720038.html">Inspirit IoT Received SBIR Award</a></li> -->
+<li><a href="research.html">More... </a></li>
+				</ul>	
+				</li> 
+			</ul>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	
+		<div id="contentr">
+		<!--	Research statement -->
+		
+			<div class="post"> 
+				<div class="entry"> 
+				<p>Dr. Deming Chen has published more than 290 journal and conference papers, and book or book chapters in the areas of hybrid cloud systems, machine learning and AI, security and confidential computing, reconfigurable and heterogeneous computing, and system-level design methodologies. He has served as PI/Co-PI on more than 40 research grants administered by US Federal agencies as well as the industry. In addition, he has been a seconded faculty member for the Illinois ARCS (formerly ADSC) center in Singapore since March 2010. He has received ten Best Paper Awards, an ACM/SIGDA TCFPGA Hall-of-Fame Paper Award, and numerous other research, design competition, and service related awards.</p>
+
+<p>He obtained his BS in computer science from University of Pittsburgh, Pennsylvania in 1995, and his MS and PhD in computer science from University of California at Los Angeles in 2001 and 2005 respectively. He worked as a software engineer between 1995-1999 and 2001-2002. He joined the ECE department of University of Illinois at Urbana-Champaign in 2005 and has been a full professor in the same department since 2015. He is a research professor in the Coordinated Science Laboratory and an affiliate professor in the CS department.</p>
+
+					<p>He had led the successful <b><a href="http://dchen.ece.illinois.edu/tools.html">FCUDA</a></b> open-source project during 2008-2016 that used CUDA language to program FPGAs, offering opportunity to map existing CUDA kernels to FPGAs for low-energy and high-performance computing. The vision and development of such a true parallel-language to FPGA compilation flow was 5-6 years earlier than similar commercial tool flows, such as the OpenCL-to-FPGA flows offered from Intel and AMD-Xilinx. <!--Another signature project was a new DNA error correction tool, called BLESS, that became one of the best error-correction tools targeting large DNA data, but only consumed 40X smaller memory compared to many other tools. <b><a href="https://sourceforge.net/p/bless-ec/wiki/Home/">BLESS</a></b> has been downloaded for thousands of times from researchers and users around the world. -->The most recent representative open-source packages from his lab include: <b><a href="https://github.com/UIUC-ChenLab/rip">RIP</a></b>, which consists of fast software modeling (320x faster than Gem5), fast hardware modeling (2000x faster than baseline), and near-optimal automated hardware/software partitioning for complex SoC designs; <b><a href="https://github.com/microideax/Open-Dnn.git">Cloud-DNN</a></b>, which is an open-source framework that maps DNN (deep neural network) models to FPGAs in the cloud for inference acceleration; <b><a href="https://github.com/IBM/AccDNN">DNNBuilder</a></b>, which represents the best FPGA implementation of DNNs for both edge and cloud computing use cases; <b><a href="https://github.com/TomG008/SkyNet">SkyNet</a></b>, which is a novel DNN model that won double championships in 2019's DAC System Design Contest for challenging image-based object-detection tasks developed through a new DNN/Accelerator co-design/co-search/co-generation method; and <b><a href="https://github.com/UIUC-ChenLab/scalehls">ScaleHLS</a></b> + <b><a href="https://github.com/UIUC-ChenLab/ScaleHLS-HIDA">HIDA</a></b>, which are next-generation new HLS flows that directly compile PyTorch models to customized AI accelerators (so far, ScaleHLS & HIDA have been viewed for >60k times and downloaded for ~4000 times). Several such open-source solutions have been adopted by the industry. </p> 
+					
+					<p>Another exemplar project is <b><a href="https://arxiv.org/abs/2401.10774">Medusa</a></b>, which has been incorporated into several commercial flows, including Nvidia's TensorRT-LLM for parallel token generation to improve the speed of LLM (large language model) execution by 1.9-3.6x. Nvidia engineerers wrote a blog: <b><a href="https://developer.nvidia.com/blog/low-latency-inference-chapter-1-up-to-1-9x-higher-llama-3-1-performance-with-medusa-on-nvidia-hgx-h200-with-nvlink-switch">Medusa improves Llama 3.1 Performance by 1.9x on Nvidia HGX H200 with NVLink Switch.</a></b></p>
+
+					<p>Dr. Chen was involved in several startup companies. He implemented his published algorithm on CPLD technology mapping when he was a software engineer in Aplus Design Technologies, Inc. in 2001, and the software was exclusively licensed by Altera and distributed to many customers of Altera worldwide. He is one of the inventors of the xPilot High-level Synthesis package developed at UCLA, which was licensed to AutoESL Design Technologies, Inc. Aplus was acquired by Magma in 2003, and AutoESL was acquired by Xilinx in 2011. Currently, he is the Chairman of the Board for a new startup <b><a href="https://inspirit-iot.com/">Inspirit IoT, Inc.</a></b>, headquartered in the Research Park at Champaign, IL. </p>
+					
+					<p>Dr. Chen is an <b>IEEE Fellow</b> and the former <b>Editor-in-Chief</b> of ACM Transactions on Reconfigurable Technology and Systems (TRETS). Under his leadership, the impact factor of ACM TRETS has jumped by 3.8x. He is also the Director of AMD-Xilinx Center of Excellence at UIUC and the Co-lead for the Hybrid Cloud & AI thrust in the IBM-Illinois Discovery Accelerator Institute (IIDAI).
+					
+				</div>
+			</div>  
+		<!--	end research statement -->
+		</div> 
+		<!-- end #content -->
+		<div style="clear: both;">&nbsp;</div> 
+	</div>	
+		<!--Entry shadow-->
+		<div class="container"><img src="images/img03.png" width="1000" height="40" alt="" /></div>
+</div>
+
+	<div id="footer-content"></div>
+	<div id="footer">
+				
+				<p>Â© 2014-25 Deming Chen. All rights reserved.<br>
+				Last updated 1/1/2025.</p>
+				<p>Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.</p>
+				
+	</div>
+	
+		
+	
+	
+	
+</body>
+</html>

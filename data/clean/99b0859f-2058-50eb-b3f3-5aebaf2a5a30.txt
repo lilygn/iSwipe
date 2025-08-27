@@ -1,0 +1,12 @@
+Contact
+Office: 211 CSL (Mail Code: 228),
+1308 W. Main Street
+Urbana, IL 61801
+Phone: 217 333 9218
+Email: sjp @ illinois.edu
+Research Interests
+The intersection of Computer Architecture, Sensors, and Machine Learning. Digital Systems for Societal Good.
+Biosketch
+Sanjay J. Patel is a Professor of Electrical and Computer Engineering and Computer Science at the University of Illinois at Urbana-Champaign. He holds a PhD from University of Michigan, Ann Arbor in Computer Science and Engineering (1999). He is a world reknowned technologist, author, and entrepreneur who has been involved in multiple high-impact projects. Sanjay’s research has focused on computer architecture, and massively parallel chip design, with a focus on emerging use cases. Sanjay has recieved the National Science Foundation CAREER Award, an IBM Faculty Partnership Award, and multiple best paper awards.
+He is currently co-director of the IBM-Illinois Center for Cognitive Computing Systems Research, Senior Technology Advisor on the Rokwire Initiative, and Director of the Alchemy Foundry. For the past 15 years, he’s been involved in numerous startup activities, including as CTO of Ageia Technologies (acquired by Nvidia) and as CEO and co-founder of Personify, Inc (acquired by Foxconn), and more recently, as advisor to ROKMETRO, Trova AI, DigitalGemini, and EarthSense.
+He is co-author, with Prof. Yale N. Patt, on the widely-adopted textbook Introduction to Computing Systems: From Bits and Gates to C/C++ and Beyond.

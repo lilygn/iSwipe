@@ -1,0 +1,9 @@
+The Computational Imaging Science Laboratory (CISL) performs research in computational and theoretical image science and pursues the advancement of emerging imaging methods.
+Our current projects include:
+- Computational inverse problems in imaging
+- Development of tomographic image reconstruction methods
+- Deep learning for objective image quality assessment
+- Development of machine learning methods for imaging applications
+Research in the CISL is conducted within the Grainger College of Engineering at University of Illinois Urbana-Champaign (UIUC). Students in the CISL come from various departments including Bioenginering, Electrical and Computer Engineering, and Computer Science.
+The CISL is directed by Professor Mark Anastasio and funded by the National Institute of Health an the National Science Foundation.
+Follow us on Twitter @AnastasioLab

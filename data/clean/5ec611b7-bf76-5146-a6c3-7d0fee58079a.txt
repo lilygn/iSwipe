@@ -1,0 +1,548 @@
+I am an Associate Professor in the Siebel School of Computing and Data Science at the University of Illinois at Urbana-Champaign. I received my PhD from MIT in Summer 2015.
+My research interests include programming languages, compilers, and software engineering, with an emphasis on improving performance, energy efficiency, and resilience in the face of software errors and approximation opportunities. Read More >>
+New: StructuredLLM Project emerges: papers accepted at ICLR'25, ICML'25, TMLR'25, and COLM'25.
+Jacob completed his PhD dissertation in Fall 2024. He will continue as an Assistant Professor at Georgia Tech.
+Zixin completed her PhD dissertation in Spring 2024. Next destination: NVIDIA.
+Keyur completed his PhD dissertation in Spring 2024. Next destination: Google.
+Papers accepted to ISSRE'24, ASPLOS'24, ICLR'24, ICST'24, IEEE IoT Journal, and STTT Journal.
+Papers accepted to OOPSLA'23, ATVA'23, UAI'23, PLDI'23, MLSYS'23, ICLR'23, ICSE'23, DATE'23.
+Jacob Laurel is on the academic job market this year!
+Saikat completed his PhD dissertation in Summer 2023. He will continue as an Assistant Professor at Cornell.
+Sasa has been promoted to Associate Professor with Tenure.
+Vimuth completed his PhD dissertation in Summer 2022.
+Papers accepted to POPL'22, ICST'22, FASE'22, EMSOFT'22, and OOPSLA'22 (x2).
+Papers accepted to DAC'21, HPCA'21, PPOPP'21, ATVA'21, FSE'21, ISSTA'21, and RV'21.
+ApproxTuner and ApproxHPVM are avaliable as a part of HPVM release.
+Papers accepted to POPL'20, CGO'20, ESOP'20, ICS'20, ISSTA'20, and OOPSLA'20.
+Two papers accepted to OOPSLA'19, and one to FSE'19.
+Received the NSF CAREER award.
+The source code of AxProf is now available at axprof.org.
+Two papers accepted to ASPLOS'19, one to ICSE'19, and one to ICST'19.
+The source code of ProbFuzz is now available at probfuzz.com.
+Our paper on ProbFuzz, "Testing probabilistic programming systems" has been accepted to FSE 2018.
+PSense: Automatic Sensitivity Analysis for Probabilistic Programs has been accepted to ATVA 2018.
+Bayonet: Probabilistic Inference for Networks has been accepted to PLDI 2018.
+The source code of PSI probabilistic solver is now available at psisolver.org
+Our review article on verifying quantiative reliability in Rely appears in the Communications of the ACM.
+Chisel wins a Best Paper Award at OOPSLA '14 and appears on Gizmodo, Reddit, and MITNews.
+Rely wins a Best Paper Award at OOPSLA '13 and gets recognized as a SIGPLAN Research Highlight.
+Bolt appears on Slashdot, Ars Technica, and MITnews.
+Loop Perforation makes Dr Dobb's Journal and MITNews.
+Topics in Programming Languages: ML & Compilers – CS 521 (Spring 2025)
+Programming Languages and Compilers – CS 421 (Fall 2024)
+Topics in Programming Languages: Approximate and probabilistic programming systems – CS 521 (Spring 2024)
+Compiler Construction – CS 426 (Fall 2023)
+Topics in Programming Languages: Approximate and probabilistic programming systems – CS 521 (Spring 2022)
+Formal Software Development Methods – CS 477 (Fall 2021)
+Advanced Compiler Construction – CS 526 (Spring 2021)
+Approximate and probabilistic computing across the system stack – CS 598sm (Fall 2020)
+Advanced Compiler Construction – CS 526 (Spring 2020)
+Approximate and probabilistic computing across the system stack – CS 598sm (Fall 2019) (previous offering)
+Advanced Compiler Construction – CS 526 (Spring 2019)
+Programming Languages and Compilers – CS 421 (Fall 2018)
+Programming Languages and Compilers – CS 421 (Fall 2017)
+Advanced Compiler Construction – CS 526 (Spring 2017)
+Approximate and probabilistic computing across the system stack – CS 598sm (Fall 2016)
+Current PhD students:
+Yifan Zhao (Fall 2019-now; co-advised with Prof. Vikram Adve)
+Shubham Ugare (Fall 2020-now; co-advised with Prof. Gagandeep Singh).
+Jiayou He (Fall 2024-now)
+Egan Johnson (Fall 2024-now)
+Adharsh Kamath (Fall 2024-now)
+Pai Li (Fall 2024-now)
+Graduated PhD students:
+Dr. Jacob Laurel (Fall 2018-Fall 2024; PhD Thesis; next position: Assistant Professor at Georgia Institute of Technology)
+Dr. Zixin Huang (Fall 2018-Spring 2024; PhD Thesis; next position: Deep Compiler Engineer at NVIDIA)
+Dr. Keyur Joshi (Fall 2017-Spring 2024; PhD Thesis; next position: Software Engineer at Google)
+Dr. Saikat Dutta (Fall 2017-Summer 2023; PhD Thesis; next position: Assistant Professor at Cornell University)
+Dr. Vimuth Fernando (Fall 2016-Summer 2022; PhD Thesis; next position: Applied Researcher at Amazon AWS).
+Current Master students:
+Madhav Kanda (MS CS; Fall 2024-now)
+Hao Ren (MS ECE; Spring 2025-now)
+Graduated Master-level students: Eric Zhou (MEng; Spring 2022-Spring 2023; next position: PhD student at UCLA)
+Previous Postdocs: Dr. Hashim Sharif (co-advised with Vikram Adve; Summer 2021-Summer 2022; next position: Researcher at AMD Research).
+Current undergraduates: Tarun Suresh (Spring 2023-now), Yuchen Yang (Fall 2023-now), Rohan Gumaste (Spring 2024-now).
+Previous undergraduates:
+○ Hangoo Kang (Spring 2023-Summer 2024)
+○ Rem Yang (Spring 2020-Spring 2023)
+○ Tommaso Bassetto (Fall 2020-Winter 2021; Fall 2022-Fall 2023)
+○ Robert Nagel (Fall 2021-Summer 2022)
+○ Enguang Fan (Summer 2020-Fall 2020)
+○ Jeeva Selvam (Summer 2020-Winter 2020)
+○ Atharva Sehgal (Spring 2020-Winter 2020)
+○ Ziang Wan (Spring 2019-Spring 2020)
+○ Aryaman Jain (Winter 2019-Summer 2020)
+○ Zhekun Zhang (Fall 2019)
+○ Wenxian Zhang (Spring 2018-Spring 2019)
+○ Hakan Tekgul (Fall 2018-Spring 2019)
+○ Otto Piramuthu (Fall 2018)
+○ Zixin Huang (Summer 2017-Spring 2018)
+○ Zhenbang Wang (Summer 2017-Fall 2017)
+○ Khalique Ahmed (Spring 2017)
+○ Nitesh Nath (Spring 2017).
+AURA: Precise Abstract Interpretation of Probabilistic Programs with Interval Data Uncertainty
+Zixin Huang, Jacob Laurel, Saikat Dutta, Sasa Misailovic
+32nd Static Analysis Symposium
+(
+Byte-level Tokenizers Unavoidably Enable LLMs to Generate Ill-formed UTF-8
+Preston Firestone, Shubham Ugare, Gagandeep Singh, Sasa Misailovic
+2nd Conference on Language Modeling
+(
+Safety and Trust in Artificial Intelligence with Abstract Interpretation
+Gagandeep Singh, Jacob Laurel, Sasa Misailovic, Debangshu Banerjee, Avaljot Singh, Changming Xu, Shubham Ugare, Huan Zhang
+Foundations and Trends in Programming Languages, Volume 8, Issue 3-4
+(
+abstractÂ
+Â
+Programming Systems for Improving the Performance of Deep Learning-Intensive Applications
+Yifan Zhao, Vikram Adve, Sasa Misailovic
+Workshop on Practical Adoption Challenges of Machine Learning for Systems. Collocated with SOSP 2024
+(
+paper Â
+Â
+GAS: Generating Fast and Accurate Surrogate Models for Simulations of Autonomous Vehicle Systems
+Keyur Joshi, Chiao Hsieh, Sayan Mitra, Sasa Misailovic
+35th IEEE International Symposium on Software Reliability Engineering
+(
+paper Â
+Â
+Felix: Optimizing Tensor Programs with Gradient Descent
+Yifan Zhao, Hashim Sharif, Vikram Adve, Sasa Misailovic
+29th International Conference on Architectural Support for Programming Languages and Operating Systems
+(
+abstract Â Â
+full text Â
+Â code
+Is Watermarking LLM-Generated Code Robust?
+Tarun Suresh, Shubham Ugare, Gagandeep Singh, Sasa Misailovic
+Tiny Papers Track at 12th International Conference on Learning Representations
+(
+preprint Â
+Â
+Debugging Convergence Problems in Probabilistic Programs via Program Representation Learning with SixthSense
+Zixin Huang, Saikat Dutta, Sasa Misailovic
+The International Journal on Software Tools for Technology Transfer
+(
+abstract Â
+Â full text
+Quantizing Large-Language Models for Predicting Flaky Tests
+Shanto Rahman, Abdelrahman Baz, Sasa Misailovic, August Shi
+17th IEEE International Conference on Software Testing, Verification and Validation.
+(
+abstract Â
+Â full text Â
+Synthesizing Precise Static Analyzers for Automatic Differentiation
+Jacob Laurel, Siyuan Brant Qian, Gagandeep Singh, Sasa Misailovic
+38th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications
+(
+full text Â
+Â code
+AquaSense: Automated Sensitivity Analysis of Probabilistic Programs via Quantized Inference
+Zitong Zhou, Zixin Huang, Sasa Misailovic
+21st International Symposium on Automated Technology for Verification and Analysis
+(
+full text Â
+Â code
+Toward Continuous Verification of DNNs
+Shubham Ugare, Debangshu Banerjee, Tarun Suresh, Sasa Misailovic, Gagandeep Singh
+2nd Workshop on Formal Verification of Machine Learning
+(
+full text Â
+Â
+ApproxCaliper: A Programmable Framework for Application-aware Neural Network Optimization
+Yifan Zhao, Hashim Sharif, Peter Pao-Huang, Vatsin Shah, Arun Narenthiran Sivakumar, Mateus Valverde Gasparino, Abdulrahman Mahmoud, Nathan Zhao, Sarita Adve, Girish Chowdhary, Sasa Misailovic, Vikram Adve
+6th Conference on Machine Learning and Systems
+(
+full text Â
+Â
+FASER: Balancing Effectiveness and Flakiness of Non-Deterministic Machine Learning Tests
+Chunqiu Steven Xia, Saikat Dutta, Sasa Misailovic, Darko Marinov, Lingming Zhang
+45th IEEE/ACM International Conference on Software Engineering
+(
+abstract Â
+Â full text Â
+Â
+A General Construction for Abstract Interpretation of Higher-Order Automatic Differentiation
+Jacob Laurel, Rem Yang, Shubham Ugare, Robert Nagel, Gagandeep Singh, Sasa Misailovic
+37th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications
+(
+abstract Â
+Â full text Â
+Â code
+Proof Transfer for Fast Certification of Multiple Approximate Neural Networks
+Shubham Ugare, Gagandeep Singh, Sasa Misailovic
+37th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications
+(
+abstract Â
+Â full text Â
+Â code
+Verifying Controllers with Vision-based Perception using Safe Approximate Abstractions
+Chiao Hsieh, Yangge Li, Dawei Sun, Keyur Joshi, Sasa Misailovic, Sayan Mitra
+International Conference on Embedded Software
+(
+abstract Â
+Â full text Â
+HPVM: Hardware-Agnostic Programming for Heterogeneous Parallel Systems
+Adel Ejjeh, Aaron Councilman, Akash Kothari, Maria Kotsifakou, Leon Medvinsky, Abdul Rafae Noor, Hashim Sharif, Yifan Zhao, Sarita Adve, Sasa Misailovic, Vikram Adve
+IEEE Micro Journal
+(
+abstract Â
+Â full text Â
+To Seed or Not to Seed? An Empirical Analysis of Usage of Seeds for Testing in Machine Learning Projects
+Saikat Dutta, Anshul Arunachalam, Sasa Misailovic
+15th IEEE International Conference on Software Testing, Verification and Validation
+(
+abstract Â
+Â full text
+SixthSense: Debugging Convergence Problems in Probabilistic Programs via Program Representation Learning
+Saikat Dutta, Zixin Huang, Sasa Misailovic
+25th International Conference on Fundamental Approaches to Software Engineering
+(
+abstract Â
+Â full text
+Automated Quantized Inference for Probabilistic Programs with AQUA
+Zixin Huang, Saikat Dutta, Sasa Misailovic
+Innovations in Systems and Software Engineering: A NASA Journal
+(
+abstract Â
+Â full text
+AQUA: Automated Quantized Inference for Probabilistic Programs
+Zixin Huang, Saikat Dutta, Sasa Misailovic
+19th International Symposium on Automated Technology for Verification and Analysis
+(
+abstract Â
+Â full text Â (the extended version invited to NASA ISSE journal) Â
+FLEX: Fixing Flaky Tests in Machine Learning Projects by Updating Assertion Bounds
+Saikat Dutta, August Shi, Sasa Misailovic
+29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+(
+abstract Â
+Â full text Â
+TERA: Optimizing Stochastic Regression Tests in Machine Learning Projects
+Saikat Dutta, Jeeva Selvam, Aryaman Jain, Sasa Misailovic
+30th ACM SIGSOFT International Symposium on Software Testing and Analysis
+(
+abstract Â
+Â full text Â
+ApproxTuner: A Compiler and Runtime System for Adaptive Approximations
+Hashim Sharif, Yifan Zhao, Maria Kotsifakou, Akash Kothari, Benjamin Schreiber, Elizabeth Wang, Yasmin Sarita, Nathan Zhao, Keyur Joshi, Vikram Adve, Sasa Misailovic, Sarita Adve
+26th ACM SIGPLAN Annual Symposium Principles and Practice of Parallel Programming
+(
+abstract Â
+Â full text Â
+WiDir: A Wireless-Enabled Directory Cache Coherence Protocol
+Antonio Franques, Apostolos Kokolis, Sergi Abadal, Vimuth Fernando, Sasa Misailovic, Josep Torrellas
+27th IEEE International Symposium on High-Performance Computer Architecture
+(
+abstract Â
+Â full text Â
+Secure and Resilient SoCs for Autonomous Vehicles
+Pradip Bose, Augusto Vega, Sarita Adve, Vikram Adve, Sasa Misailovic, Luca Carloni, Ken Shepard, David Brooks, Vijay Janapa Reddi, Gu-Yeon Wei
+3rd International Workshop on Domain Specific System Architecture
+(
+abstract Â
+Â full text Â
+Koord: A Language For Programming And Verifying Distributed Robotics Applications
+Ritwika Ghosh, Chiao Hsieh, Sasa Misailovic, Sayan Mitra
+35th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications
+(
+abstract Â
+Â full text Â
+Â code
+Detecting Flaky Tests in Probabilistic and Machine Learning Applications
+Saikat Dutta, August Shi, Rutvik Choudhary, Zhekun Zhang, Aryaman Jain, Sasa Misailovic
+29th ACM SIGSOFT International Symposium on Software Testing and Analysis
+(
+abstract Â
+Â full text Â
+Â code
+Speeding-up Iterative Graph Processing on a Shared-Memory Platform with Vertex Merging
+Azin Heidarshenas, Serif Yesil, Dimitrios Skarlatos, Sasa Misailovic, Adam Morrison, Josep Torrellas
+34th International Conference on Supercomputing
+(
+abstract Â
+Â full text Â
+Exploiting Errors for Efficiency: A Survey from Circuits to Applications
+Phillip Stanley-Marbell, Armin Alaghi, Michael Carbin, Eva Darulova, Lara Dolecek, Andreas Gerstlauer, Ghayoor Gillani, Djordje Jevdjic, Thierry Moreau, Mattia Cacciotti, Alexandros Daglis, Natalie Enright Jerger, Babak Falsafi, Sasa Misailovic, Adrian Sampson, Damien Zufferey
+(
+abstract Â
+Â full text Â
+preprint (Copyright 2020 by ACM, Inc.) Â
+Predictive Constraint Solving and Analysis
+Alyas Almaawi, Nima Dini, Cagdas Yelen, Milos Gligoric, Sasa Misailovic, Sarfraz Khurshid
+41st International Conference on Software Engineering, New Ideas and Emerging Results Track
+(
+abstract Â
+Â full text Â
+Aloe: Verifying Reliability of Approximate Programs in the Presence of Recovery Mechanisms
+Keyur Joshi, Vimuth Fernando, Sasa Misailovic
+18th International Symposium on Code Generation and Optimization
+(
+abstract Â
+Â full text Â
+Â appendix
+Augmented Example-based Synthesis using Relational Perturbation Properties
+Shengwei An, Rishabh Singh, Sasa Misailovic, Roopsha Samanta
+47th ACM SIGPLAN Symposium on Principles of Programming Languages
+(
+abstract Â
+Â full text
+Verifying Safety and Accuracy of Approximate Parallel Programs via Canonical Sequentialization
+Vimuth Fernando, Keyur Joshi, Sasa Misailovic
+34th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications
+(
+abstract Â
+Â full text Â
+Â appendix
+ApproxHPVM: A Portable Compiler IR for Accuracy-aware Optimizations
+Hashim Sharif, Prakalp Srivastava, Muhammad Huzaifa, Maria Kotsifakou, Keyur Joshi, Yasmin Sarita, Nathan Zhao, Vikram Adve, Sasa Misailovic, Sarita Adve
+34th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications
+(
+abstract Â
+Â full text Â
+Â
+Storm: Program Reduction for Testing and Debugging Probabilistic Programming Systems
+Saikat Dutta, Wenxian Zhang, Zixin Huang, Sasa Misailovic
+27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+(
+abstract
+Â full text Â
+Â source
+gem5-Approxilyzer: an Open Source Tool for Application-level Soft Error Analysis
+Radha Venkatagiri, Khalique Ahmed, Abdulrahman Mahmoud, Sasa Misailovic, Darko Marinov, Christopher Fletcher, Sarita V. Adve
+The 49th IEEE/IFIP International Conference on Dependable Systems and Networks
+(
+abstract Â
+Â full text Â
+Replica: A Wireless Manycore for Communication-Intensive and Approximate Data
+Vimuth Fernando, Antonio Franques, Sergi Abadal, Sasa Misailovic, Josep Torrellas
+24th International Conference on Architectural Support for Programming Languages and Operating Systems
+(
+abstract Â
+Â full text Â
+Â
+Minotaur: Adapting Software Testing Techniques for Hardware
+Errors
+Abdulrahman Mahmoud, Radha Venkatagiri, Khalique Ahmed, Sasa Misailovic, Darko Marinov, Christopher Fletcher, Sarita Adve
+24th International Conference on Architectural Support for Programming Languages and Operating Systems
+(
+abstract Â
+Â full text Â
+Â
+Testing Probabilistic Programming Systems
+Saikat Dutta, Owolabi Legunsen, Zixin Huang, Sasa Misailovic
+26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+(
+abstract Â
+Â full text Â
+Â source
+VideoChef: Efficient Approximation for Streaming Video Processing Pipelines
+Ran Xu, Jinkyu Koo, Rakesh Kumar, Peter Bai, Subrata Mitra, Sasa Misailovic, Saurabh Bagchi
+2018 USENIX Annual Technical Conference
+(
+abstract Â
+Â full text
+Bayonet: Probabilistic Inference for Networks
+Timon Gehr, Sasa Misailovic, Petar Tsankov, Laurent Vanbever, Pascal Wiesman, Martin Vechev
+39th ACM SIGPLAN Conference on Programming Language Design and Implementation
+(
+abstract Â
+Â full text
+Approximate Transformations as Mutation Operators
+Farah Hariri, August Shi, Owolabi Legunsen, Milos Gligoric, Sarfraz Khurshid, Sasa Misailovic
+11th IEEE Conference on Software Testing, Validation, and Verification
+(
+abstract Â
+Â full text
+Language Semantics Driven Design and Formal Analysis for Distributed Cyber-Physical Systems
+Ritwika Ghosh, Sasa Misailovic, Sayan Mitra
+Workshop on Advanced Tools, Programming Languages, and Platforms for Implementing and Evaluating Agorithms for Distributed Systems (Collocated with PODC 2018)
+(
+abstract Â
+Â full text
+Mutation Testing Meets Approximate Computing
+Milos Gligoric, Sarfraz Khurshid, Sasa Misailovic, August Shi
+38th International Conference on Software Engineering, New Ideas and Emerging Results Track
+(
+full
+text Â Â
+Leveraging Software Testing to Explore Input Dependence for Approximate Computing
+Abdulrahman Mahmoud, Radha Venkatagiri, Khalique Ahmed, Sarita V. Adve, Darko Marinov, Sasa Misailovic
+Workshop on Approximate Computing Across the Stack (Collocated with ASPLOS 2017)
+(
+full
+text Â Â
+Control Strategies for Self-Adaptive Software Systems
+Antonio Filieri, Martina Maggio, Konstantinos Angelopoulos, Nicolas D'Ippolito, Ilias Gerostathopoulos, Andreas Hempel, Henry Hoffmann, Pooyan Jamshidi, Evangelia Kalyvianaki, Cristian Klein, Filip Krikava, Sasa Misailovic, Alessandro Papadopoulos, Suprio Ray, Amir Molzam Sharifloo, Stepan Shevtsov, Mateusz Ujma, Thomas Vogel.
+ACM Transactions on Autonomous and Adaptive Systems, Volume 11(4)
+(
+abstract Â
+Â full text (Copyright 2017 by ACM, Inc.)
+Verifying Quantitative Reliability for Programs that Execute on Unreliable Hardware
+Michael Carbin, Sasa Misailovic, Martin C. Rinard
+Communications of the ACM, Volume 59 Number 8.
+(
+abstract Â Â full text Â Â introduction by Todd Millstein Â Â
+(Copyright 2016 by ACM, Inc.)
+Accuracy-Aware Optimization of Approximate Programs
+Sasa Misailovic
+International Conference on Compilers, Architecture and Synthesis for Embedded Systems
+(
+full
+text Â Â
+Accuracy-Aware Optimization of Approximate Programs
+Sasa Misailovic
+PhD Thesis, August 2015.
+full text
+Software Engineering Meets Control Theory
+Antonio Filieri, Martina Maggio, Konstantinos Angelopoulos, Nicolas D'Ippolito, Ilias Gerostathopoulos, Andreas Hempel, Henry Hoffmann, Pooyan Jamshidi, Evangelia Kalyvianaki, Cristian Klein, Filip Krikava, Sasa Misailovic, Alessandro Papadopoulos, Suprio Ray, Amir Molzam Sharifloo, Stepan Shevtsov, Mateusz Ujma, Thomas Vogel.
+10th International Symposium on Software Engineering for Adaptive and Self-Managing Systems
+(
+Test-of-Time award at SEAMS 2015
+abstract Â
+Â full text
+Chisel: Reliability- and Accuracy-Aware Optimization of Approximate Computational Kernels
+Sasa Misailovic, Michael Carbin, Sara Achour, Zichao Qi, Martin C. Rinard
+29th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications
+(
+(Best Paper Award)
+abstract Â
+Â full text
+Accuracy-Aware Program Transformations
+Sasa Misailovic
+First SIGPLAN Workshop on Probabilistic and Approximate Computing (Collocated with PLDI 2014)
+(
+full
+text Â Â
+Synthesis of Randomized Accuracy-Aware Map-Fold Programs
+Sasa Misailovic, Martin C. Rinard
+Workshop on Approximate Computing Across the System Stack (Collocated with ASPLOS 2014)
+(
+full
+text Â Â
+Verifying Quantitative Reliability for Programs that Execute on Unreliable Hardware
+Michael Carbin, Sasa Misailovic, Martin C. Rinard
+28th ACM SIGPLAN Conference on Object-Oriented Programming,
+Systems, Languages and Applications
+(
+(Best Paper Award)
+abstract Â
+Â full text Â Â MIT News article Â Â Slashdot article
+Parallelizing Sequential Programs With Statistical Accuracy Tests
+Sasa Misailovic, Deokhwan Kim, Martin C. Rinard
+ACM Transactions on Embedded Computing Systems - Special Section on Probabilistic Embedded Computing.
+(
+abstract Â Â full text Â Â
+(Copyright 2013 by ACM, Inc.)
+Verified Integrity Properties for Safe Approximate Program Transformations
+Michael Carbin, Deokhwan Kim, Sasa Misailovic, Martin C. Rinard
+Workshop on Partial Evaluation and Program Manipulation (Collocated with POPL 2013)
+(
+full
+text Â Â
+Bolt: On-Demand Infinite Loop Escape in Unmodified Binaries
+Michael Kling, Sasa Misailovic, Michael Carbin, Martin C. Rinard
+27th ACM SIGPLAN Conference on Object-Oriented Programming,
+Systems, Languages and Applications
+(
+abstract Â Â full text Â Â
+Dancing With Uncertainty
+Sasa Misailovic, Stelios Sidiroglou, Martin C. Rinard
+ACM Workshop on Relaxing Synchronization for Multicore and Manycore Scalability (Collocated with OOPSLA 2012)
+(
+abstract Â Â full
+text Â Â
+Proving Acceptability Properties of Relaxed Nondeterministic Approximate Programs
+Michael Carbin, Deokhwan Kim, Sasa Misailovic, Martin C. Rinard
+33rd ACM SIGPLAN Conference on Programming Language Design and Implementation
+(
+abstract Â Â full text Â Â MIT News Article
+Randomized Accuracy-Aware Program Transformations for Efficient Approximate Computations
+Zeyuan Allen Zhu, Sasa Misailovic, Jonathan Kelner, Martin C. Rinard
+39th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages.
+(
+abstract Â Â full text
+Managing Performance vs. Accuracy Trade-offs With Loop Perforation
+Stelios Sidiroglou, Sasa Misailovic, Henry Hoffmann, Martin C. Rinard
+8th joint meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering
+(
+abstract Â Â full text Â Â
+Detecting and Escaping Infinite Loops with Jolt
+Michael Carbin, Sasa Misailovic, Michael Kling, Martin C. Rinard
+25th European Conference on Object-Oriented Programming.
+(
+abstract Â Â full text Â Â MIT News article Â Â Slashdot article
+Dynamic Knobs for Responsive Power-Aware Computing
+Henry Hoffmann, Stelios Sidiroglou, Michael Carbin, Sasa Misailovic, Anant Agarwal, Martin C. Rinard
+15th International Conference on Architectural Support for Programming Languages and Operating Systems.
+(
+abstract Â Â full text Â Â
+Patterns and Statistical Analysis for Understanding Reduced Resource Computing
+Martin C. Rinard, Henry Hoffmann, Sasa Misailovic, Stelios Sidiroglou
+Onward! 2010 Conference
+(
+abstract Â Â full text Â Â
+Quality of Service Profiling
+Sasa Misailovic, Stelios Sidiroglou, Henry Hoffmann, Martin C. Rinard
+32nd International Conference on Software Engineering
+(
+abstract Â Â full text Â Â MIT News article
+Parallel Test Generation and Execution with Korat
+Sasa Misailovic, Aleksandar Milicevic, Nemanja Petrovic, Sarfraz Khurshid, Darko Marinov
+6th joint meeting of the European Software Engineering Conference and
+the ACM SIGSOFT Symposium on the Foundations of Software Engineering
+(
+abstract Â Â full text Â Â
+Generating Test Inputs for Fault-Tree Analyzers using Imperative Predicates
+Sasa Misailovic, Aleksandar Milicevic, Sarfraz Khurshid, Darko Marinov
+Workshop on Advances and Innovations in Systems Testing
+(
+full
+text Â Â
+Korat: A Tool for Generating Structurally Complex Test Inputs
+Aleksandar Milicevic, Sasa Misailovic, Darko Marinov, Sarfraz Khurshid
+Formal research demonstration at the 29th International Conference on
+Software Engineering
+(
+abstract Â Â full
+text Â Â
+Exploiting Errors for Efficiency: A Survey from Circuits to Algorithms
+Phillip Stanley-Marbell, Armin Alaghi, Michael Carbin, Eva Darulova, Lara Dolecek, Andreas Gerstlauer, Ghayoor Gillani, Djordje Jevdjic, Thierry Moreau, Mattia Cacciotti, Alexandros Daglis, Natalie Enright Jerger, Babak Falsafi, Sasa Misailovic, Adrian Sampson, Damien Zufferey
+ArXiv Preprint arXiv:1809.05859, September 2018.
+full text
+Approximate and Probabilistic Computing: Design, Coding, Verification
+Antonio Filieri, Marta Kwiatkowska, Sasa Misailovic, Todd Mytkowicz
+Dagstuhl Seminar Report 15491, Jaunary 2016.
+full text
+Reliability-Aware Optimization of Approximate Computational Kernels with Rely
+Sasa Misailovic, Michael Carbin, Sara Achour, Zichao Qi, Martin Rinard
+MIT-CSAIL-TR-2014-001, January 2014.
+full text
+Synthesis of Randomized Accuracy-Aware Map-Fold Programs
+Sasa Misailovic, Martin C. Rinard
+MIT-CSAIL-TR-2013-031, December 2013.
+full text
+Verifying Quantitative Reliability of Programs That Execute on Unreliable Hardware
+Michael Carbin, Sasa Misailovic, Martin C. Rinard
+MIT-CSAIL-TR-2013-014, June 2013.
+full text
+Reasoning about Relaxed Programs
+Michael Carbin, Deokhwan Kim, Sasa Misailovic, Martin C. Rinard
+MIT-CSAIL-TR-2011-050, December 2011.
+full text
+Probabilistic and Statistical Analysis of Perforated Patterns
+Sasa Misailovic, Daniel M. Roy, Martin C. Rinard
+MIT-CSAIL-TR-2011-003, January 2011.
+full text
+Parallelizing Sequential Programs With Statistical Accuracy Tests
+Sasa Misailovic, Deokhwan Kim, Martin C. Rinard
+MIT-CSAIL-TR-2010-038, August 2010.
+full text
+Using Code Perforation to Improve Performance, Reduce Energy Consumption, and Respond to Failures
+Henry Hoffmann, Sasa Misailovic, Stelios Sidiroglou, Anant Agarwal, Martin C. Rinard
+MIT-CSAIL-TR-2009-042, September 2009
+full text
+Sentiment Analysis of Movie Review Comments
+Kuat Yessenov, Sasa Misailovic
+MIT CS 6.863 Project, May 2009
+full text

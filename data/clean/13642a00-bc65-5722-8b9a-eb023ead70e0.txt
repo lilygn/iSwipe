@@ -1,0 +1,50 @@
+"Basics of Data Science with Python" provides a strong introduction of the field of Data Science. You will understand best practices in designing good, great, and ideal experiments, use Python to load data into DataFrame, and manipulate DataFrames in Python to explore subsets of data.
+1-01
+Â» What is Data Science?1-02
+Â» Python for Data Science: Introduction to DataFrames1-03
+Â» Row Selection with DataFrames1-04
+Â» Types of Data1-05
+Â» DataFrames with Conditionals1-06
+Â» Experimental Design and Blocking1-07
+Â» Observational Studies, Confounders, and Stratification1-08
+Â» Lists and Functions in Python"Exploratory Data Analysis" teaches about the tools and techniques to begin to do exploratory data analysis on real-world datasets. You will learn several methods of analyzing statistical properties of the data and how to calculate and apply these properties using Python. Finally, you will create simple data visualizations showing an overview of the data.
+2-01
+Â» Exploratory Data Analysis Overview2-02
+Â» Descriptive Statistics2-03
+Â» Adding Rows and Columns to a DataFrame2-04
+Â» Grouping Data in Python2-05
+Â» Histograms2-06
+Â» Quartiles and Box Plots2-07
+Â» Basic Data Visualization in Python"Simulation and Distributions" provides an exploration into the world of computer simulations. Beginning with simulating simple events, like rolling a dice where the expected outcome is known, you gradually build increasingly complex simulations. You will find many simulations result in common distributions, such as the Normal Distribution, which you will learn has many interesting properties all its own.
+3-01
+Â» Overview of Simulation3-02
+Â» Random Numbers in Python3-03
+Â» For-Loops in Python3-04
+Â» Simple Simulations in Python3-05
+Â» Sample Space3-06
+Â» Conditionals in Python3-07
+Â» Functions in Python3-08
+Â» Normal Distribution3-09
+Â» Law of Large Numbers"Prediction and Probability" begins with a deep-dive into probability and using probabilities to make informed predictions on future events. You will complete dozens of problems on basic probability, explore how to describe dependent probabilistic events, and use Python to make predictions under uncertainty.
+4-01
+Â» Probability Introduction4-02
+Â» Multi-event Probability: Multiplication Rule4-03
+Â» Complements and Special Cases4-04
+Â» Multi-event Probability: Addition Rule4-05
+Â» Conditional Probability4-06
+Â» Bayes' Theorem"Towards Machine Learning" applies all of the foundational knowledge applied in the previous modules to using modern techniques to help computers discover common similarities in data and to predict future outcomes based on previously-seen events. Completion of this and all other modules provides you with the ability to advance to dedicated machine learning courses.
+5-01
+Â» Overview of Machine Learning5-02
+Â» Correlation5-03
+Â» Simple Linear Regression5-04
+Â» Linear Regression in Python (sk-learn)5-05
+Â» Test/Train Split5-07
+Â» Clustering"Polling, Confidence Intervals, and the Normal Distribution" starts with an exploration of different sampling techniques. You will learn how bias and sampling variability can affect the results of surveys. From that, you know how to use expectation and inference as a way to make predictions and decisions under uncertainty.
+6-01
+Â» Random Variables6-02
+Â» Bernoulli & Binomial Random Variables6-03
+Â» Python Functions for Random Distributions6-04
+Â» Central Limit Theorem6-05
+Â» Polling and Sampling6-06
+Â» Confidence Intervals6-07
+Â» Hypothesis Testing

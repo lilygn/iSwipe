@@ -1,0 +1,3 @@
+I am an Assistant Professor in the Department of Computer Science at the University of Illinois Urbana-Champaign. I am a computer systems researcher. My work spans storage, memory, and distributed systems. I am often interested in improving the reliability and performance of these systems.
+I co-lead the Distributed And Storage Systems Laboratory (DASSL) at UIUC CS.
+I am always looking for self-motivated, hardworking, and creative PhD students. If you are interested in systems (OS, memory, storage, distributed systems), please apply to the UIUC CS PhD program and mention my name in the application.

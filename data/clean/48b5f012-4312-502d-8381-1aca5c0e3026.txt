@@ -1,0 +1,31 @@
+Craig is an Assistant Professor of Electrical and Computer Engineering at the University of Illinois College of Engineering and co-founder of Fluid Reality. He specializes in interactive embedded systems and haptic actuation. His work has won 6 best paper awards and nominations at premiere ACM and IEEE venues and has been featured in venues such as NBC Nightly News with Lester Holt, TechCrunch, and Engadget. He is an IEEE Technical Commitee on Haptics Early Career Award Winner.
+Before UIUC and Fluid Reality, Craig finished his post-doc at the Future Interfaces Group at the Human-Computer Interaction Institute, and was the VP of Research and Development at Tanvas, where he developed novel electroadhesive touchscreens based on his work in surface haptics at Northwestern University's Center for Robotics and Biosystems.
+I invent, build, and evaluate novel interaction technologies that open the door to wholly new computing experiences, with a particular focus on tactile interfaces. The sense of touch remains underutilized when it comes to how we interact with computers. I believe the primary reason for this is the lack of sophisticated and functional haptic displays and the underdevelopment of haptic design practice and science needed to successfully implement and proliferate them.
+I pioneer such haptic technologies using an inherently interdisciplinary approach, pulling from domains of psychophysics and electrical, mechanical, and computer engineering to prototype functional hardware platforms. I also use ideation and exploration techniques from human-computer interaction (HCI) research to evaluate use cases in contemporary computing contexts, such as IoT, physical computing, VR/XR, mobile devices, and wearables.
+I mature especially promising technologies using a scientific engineering approach, which involves diving deeply into the physical operating principles of the device and its perceptual effects on users in order to refine core capabilities and enable new functionality. The long term goal of my research is to elevate haptic rendering to the sophistication level of graphics and audio systems through the development of practical, tactile hardware and software systems capable of rendering complex haptic signals relevant to perception and user experience.
+8/6/2025 - Dynabuttons YouTube Video just crossed the 600k views mark :)
+7/11/2025 - Accepted the TCH Early Career Award at World Haptics 2025. Invited talk on Spatial Haptic Interfaces
+7/8/2025 - Gave 2 invited workshop talks Emerging Challenges in Wearables, and Shape Displays: Challenges in Actuators/Sensors for Tangible Interactions
+7/7/2025 - Gave invited talk at KAIST HCI on Spatial Haptic Interfaces. Thanks Sang Ho Yoon for hosting!
+6/28/2025 - Had a great time discussing Haptics and the Future on the Internet of Senses Podcast. Thanks Yulia!
+6/4/2025 - Invited to give talk at Northwestern's Designing Product Interactions Final Expo - Plasma to Pressure: The Past, Present, and Future of Sensational Interfaces
+3/24/2025 - Awarded a Sony Faculty Innovation Award for Finger Mounted Haptic Displays (FMDs) for Haptically Augmented Spatial Computing
+1/28/2025 - First day teaching Interactive Haptic Systems
+1/19/2024 - Second son born, welcome Maxwell James Shultz!
+1/16/2024 - Officially Joined University of Illinois Urbana-Champaign! Close to home as an Illini!
+11/10/2023 - Invited on the Haptics Club Podcast to talk about the Future of Haptics and Fluid Reality. Thanks Eric!
+Published at IEEE HAPTICS 2024
+Published at ACM UIST 2023
+Published at ACM CHI 2023
+Best Paper Nomination (top 5% of papers)
+Published at ACM CHI 2022
+Best Paper (top 1% of papers)
+Published at ACM CHI 2022
+Best Paper (top of entire conference)
+Published at IEEE Haptics Symposium 2022
+Best Application Paper (top paper of the year)
+Published in IEEE Transactions on Haptics 2018
+Best Paper (top of entire conference)
+Published in IEEE Haptics Symposium 2018
+Best Paper Nomination (top 5% of papers)
+Published at ACM CHI 2014

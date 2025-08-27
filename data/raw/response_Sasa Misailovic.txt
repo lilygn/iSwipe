@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sasa Misailovic Homepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Homepage">
+<meta name="author" content="Sasa Misailovic">
+
+
+
+<!-- Le styles -->
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+
+
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<style type="text/css">
+body {
+    margin: 0 0 9px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Open Sans";
+    #font-family: sans-serif;`
+    font-size: 16px;
+    #font-weight: 200;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 32px;
+}
+
+.hide {
+  display: none;
+}
+
+
+p {
+    margin: 0 0 9px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Open Sans";
+    #font-family: sans-serif;
+    font-size: 16px;
+    #font-weight: 200;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 32px;
+}
+
+
+
+
+.hero-unit {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;    
+    background-color: #FFFFFF;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.shadow {
+-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+confname{
+    color: #000000;
+    font-style:bold;
+}
+
+h1 {
+    color: navy;
+}
+
+h2 {
+    #color: #800000;
+    color: navy;
+    border-bottom: 1px solid navy;
+}
+
+h3 { 
+    #border-bottom: 1px solid navy;
+    color: navy;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul
+{
+    list-style-type: circle;
+    font-size: 100%; 
+    padding-right: 5px;
+    line-height: 20em;
+}
+tinyyr {
+  font-size: 0.6em; 
+}
+
+
+
+
+</style>
+
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+<link href="assets/css/docs.css" rel="stylesheet">
+<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+<!--
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+-->
+
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+</head>
+
+
+
+<body>
+
+
+<!--
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar">
+                <span class="icon-bar">
+                <span class="icon-bar">
+            </a>
+            <a class="brand" href="#home">Sasa Misailovic</a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li ><a href="#home">Home</a></li>
+                    <li><a href="#news" class="anchorLink">News</a></li>
+                    <li><a href="#projects" class="anchorLink">Projects</a></li>
+                    <li><a href="#confpapers" class="anchorLink">Papers</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<br>
+<div class="container">
+    <!-- Main hero unit for a primary marketing message or call to action -->
+    <!--<div class="hero-unit">-->
+        <div class="row">	
+            <div class="span3">
+                <div class="hero-unit">
+                <img src="assets/img/sasa.jpg" width="300">
+ 
+                    <br>
+                   <br><!--
+                    <p>&nbsp;<a href="mailto:misailo@inf.ethz.ch">misailo@inf.ethz.ch</a> </br>-->	    <p>&nbsp;<a href="mailto:misailo@illinois.edu">misailo@illinois.edu</a> </p>
+
+                    <br>
+	
+		 
+                    &nbsp;Associate Professor<br>
+		            &nbsp;<a href="http://cs.illinois.edu" target="_blank">Siebel School of Computing<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;and Data Science</a><br>
+                    &nbsp;<a href="http://illinois.edu" target="_blank">University of Illinois</a><br>   
+                    &nbsp;4110 Siebel Center<br>
+					&nbsp;201 N Goodwin Avenue<br>
+					&nbsp;Urbana, IL 61801, USA<br><br>
+
+
+                    &nbsp;<a href="http://scholar.google.com/citations?user=3qJQjIYAAAAJ&hl=en"
+                    title="Google Scholar"
+                    target="_blank"><img src="assets/img/google-scholar-16.png"style="vertical-align:middle"
+                    border="0">&nbsp;Scholar</a>&nbsp;&nbsp; <span style="white-space: nowrap">&nbsp;<a href="http://www.linkedin.com/pub/sasa-misailovic/4/b33/281"
+                    style="text-decoration:none;" title="LinkedIn"
+                    target="_blank"><img src="assets/img/btn_in_20x15.png"
+                    width="20" height="15" alt="LinkedIn" style="vertical-align:middle"
+                    border="0">LinkedIn</a></span>
+		    <br>
+		    &nbsp;<a href="https://dblp.org/pid/00/4734.html"
+                    title="DBLP"
+                    target="_blank"><img src="assets/img/dblp-logo.png"style="vertical-align:middle"
+                    width="20" height="20"
+                    border="0">&nbsp;DBLP</a>&nbsp;&nbsp;&nbsp;&nbsp; <span style="white-space: nowrap">&nbsp;<a href="https://www.facebook.com/sasa.misailovic"
+                    style="text-decoration:none;" title="Facebook"
+                    target="_blank"><img src="assets/img/fb-icon.png"
+                    width="16" height="16" alt="Facebook" style="vertical-align:middle"
+                    border="0">&nbsp;Facebook</a></span></p>
+		    
+		<p>&nbsp;</p>
+        <!--    
+		&nbsp;<b>Quick Links:</b> &nbsp;&nbsp;&nbsp;&nbsp;<br>
+		  &nbsp;<a href="#teaching" class="anchorLink">Teaching</a>&nbsp;&nbsp;
+		  &nbsp;<a href="#research" class="anchorLink">Research</a>&nbsp;&nbsp;
+                  &nbsp;<a href="#confpapers" class="anchorLink">Papers</a>
+-->
+        &nbsp;<b>Publications:</b> &nbsp;&nbsp;&nbsp;&nbsp;<br>
+
+        &nbsp;<a href="#y25" class="anchorLink">2025</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        &nbsp;<a href="#y24" class="anchorLink">2024</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;<a href="#y23" class="anchorLink">2023</a><br/>
+        &nbsp;<a href="#y22" class="anchorLink">2022</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;<a href="#y21" class="anchorLink">2021</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;<a href="#y20" class="anchorLink">2020</a><br/>
+        &nbsp;<a href="#y19" class="anchorLink">2019</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;<a href="#y18" class="anchorLink">2018</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;<a href="#y17" class="anchorLink">2017</a><br/>
+        &nbsp;<a href="#y16" class="anchorLink">2016</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;<a href="#y15" class="anchorLink">2015</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;<a href="#y14" class="anchorLink">2014</a><br/>
+        &nbsp;<a href="#y13" class="anchorLink">before</a><br/>
+
+
+        <p>&nbsp;</p>
+        &nbsp;<b>Software:</b> &nbsp;&nbsp;&nbsp;&nbsp;<br>
+        &nbsp;<a href="software.html">Repositories</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+		<p>&nbsp;</p>
+		&nbsp;
+        <!--
+        <br/>
+        <img src="assets/img/wordcloud.png" width="300">
+        <br/>
+        -->
+
+
+
+<!--
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+-->
+		</div>
+            </div>
+
+
+        <div class="span9">
+	      <a name="home" id="home"></a>
+	       
+                <!--<h2 style="color:#800000">Sasa Misailovic</h2>-->
+                <h1>Sasa Misailovic</h1> Pronunciation: /<i>Sa-sha Mee-sail-oveech</i>/
+
+                <p style="margin-bottom:1em"> </p>
+
+
+	       <p style="margin-bottom:1em">I am an Associate Professor in the <a href="http://cs.illinois.edu/" target="_blank">Siebel School of Computing and Data Science</a>
+			at the <a href="http://illinois.edu/" target="_blank">University of
+			Illinois at Urbana-Champaign</a>. I&nbsp;received my PhD from <a href="http://eecs.mit.edu/" target="_blank">MIT</a> in Summer 2015. 
+
+	       <p style="margin-bottom:1em"> My research interests include programming
+	       languages, compilers, and software engineering,
+	       with an emphasis on improving performance, energy
+	       efficiency, and resilience in the face of software
+	       errors and approximation opportunities. <a href="research.html">Read More >></a> </p>  
+           
+            <!--<p style="margin-bottom:3em">My CV is <a href="assets/misailovic-cv.pdf">available here</a>.</p>-->
+           
+ 
+            <h2>News&nbsp;&nbsp;<a name="news" id="news"
+                    style="position:relative;">&nbsp;</a><a href="#home"
+                    class="anchorLink"><img src="assets/img/up.jpg"style="vertical-align:middle"
+                    width="15" height="15" border="0"></a></h2>
+            
+            <p>
+
+
+			<ul>
+                <!--<li> <p><b><font color="red">New: </font></b>I am looking for talented PhD students interested in the next-generation compilers and programming systems (including languages, testing, and verification) for ML and beyond. <a href="https://grad.illinois.edu/admissions/apply">Apply here</a> and mention my name.</p></li> -->
+              <li> <p><b><font color="red">New: </font></b><a href="https://structuredllm.com">StructuredLLM Project</a> emerges: papers accepted at ICLR'25, ICML'25, TMLR'25, and COLM'25. </p></li>
+
+              <li> <p>Jacob completed his <a href="papers/jacob-laurel-phd-thesis.pdf">PhD  dissertation</a> in Fall 2024. He will continue as an Assistant Professor at Georgia Tech.</p></li>
+
+              <li> <p>Preprints available on Arxiv: <a href="https://arxiv.org/abs/2403.01632">Syncode</a>, <a href="https://arxiv.org/abs/2410.07295">Itergen</a>, <a href="https://arxiv.org/abs/2410.24214">ARQ</a>.</p></li>
+
+              <li> <p>Zixin completed her <a href="papers/zixin-huang-phd-thesis.pdf">PhD  dissertation</a> in Spring 2024. Next destination: NVIDIA. 
+
+              <li> <p>Keyur completed his <a href="papers/keyur-joshi-phd-thesis.pdf">PhD  dissertation </a> in Spring 2024. Next destination: Google. 
+
+
+
+
+<!--              <li> <p><b><font color="red">New: </font></b>I am looking for talented graduate students excited about compilers and analysis frameworks for probabilistic and approximate programs. To apply, see <a href="http://www.grad.illinois.edu/admissions/apply" target="_blank">here</a>.</p> </li> -->
+
+        </ul>
+              <a class="read-more-show hide" href="#">&nbsp; &nbsp;Previous News</a> <span class="read-more-content"> 
+                <ul>  
+
+              <li> <p>Papers accepted to ISSRE'24, ASPLOS'24, ICLR'24, ICST'24, IEEE IoT Journal, and STTT Journal. </p></li>
+
+              <li> <p>Papers accepted to OOPSLA'23, ATVA'23, UAI'23, PLDI'23, MLSYS'23, ICLR'23, ICSE'23, DATE'23.</p></li>
+                    
+              <li> <p><a href="https://jsl1994.github.io/">Jacob Laurel</a> is on the academic job market this year! 
+
+              <li> <p>Saikat completed his <a href="papers/saikat-dutta-phd-thesis.pdf">PhD  dissertation</a> in Summer 2023. He will continue as an Assistant Professor at Cornell.</p></li>
+
+              <li> <p>Sasa has been promoted to Associate Professor with Tenure. </p></li>
+
+              <li> <p>Vimuth completed <a href="papers/vimuth-fernando-phd-thesis.pdf">his PhD dissertation</a> in Summer 2022.</p></li>
+
+              <li> <p>Papers accepted to POPL'22, ICST'22, FASE'22, EMSOFT'22, and OOPSLA'22 (x2). </p></li>
+
+              <li> <p>Papers accepted to DAC'21, HPCA'21, PPOPP'21, ATVA'21, FSE'21, ISSTA'21, and RV'21. </p></li>
+
+              <li> <p>ApproxTuner and ApproxHPVM are avaliable as a part of <a href="https://publish.illinois.edu/hpvm-project/release/" target="_blank">HPVM release.</a></p></li>
+
+              <li> <p>Papers accepted to POPL'20, CGO'20, ESOP'20, ICS'20, ISSTA'20, and OOPSLA'20. </p></li>
+
+              <li> <p>Two papers accepted to OOPSLA'19, and one to FSE'19. </p></li>
+
+              <li> <p>Received the NSF CAREER award. </p></li>
+
+              <li> <p>The source code of AxProf is now available at <a href="http://axprof.org" target="_blank">axprof.org</a>. </p></li>
+
+              <li> <p>Two papers accepted to ASPLOS'19, one to ICSE'19, and one to ICST'19. </p></li>
+
+              <li> <p>The source code of ProbFuzz is now available at <a href="http://probfuzz.com" target="_blank">probfuzz.com</a>. </p></li>
+
+                <li> <p>Our paper on ProbFuzz, "Testing probabilistic programming systems" has been accepted to FSE 2018.</p> </li>
+                <li> <p>PSense: Automatic Sensitivity Analysis for Probabilistic Programs has been accepted to ATVA 2018.</p> </li>                    
+                <li> <p>Bayonet: Probabilistic Inference for Networks has been accepted to PLDI 2018.</p> </li>
+                <li> <p>The source code of PSI probabilistic solver is now available at <a href="http://psisolver.org" target="_blank">psisolver.org </a> </p></li>
+                <li> <p>Our review article on verifying quantiative reliability in Rely appears in the <a href="http://cacm.acm.org/magazines/2016/8/205040-verifying-quantitative-reliability-for-programs-that-execute-on-unreliable-hardware/fulltext" target="_blank">Communications of the ACM</a>. </p></li> 
+                <li> <p>Chisel wins a Best Paper Award at OOPSLA '14 and appears
+                on <a href="http://gizmodo.com/smaller-chips-make-more-mistakes-but-that-could-be-a-g-1655365515" target="_blank">Gizmodo</a>, <a href="http://redd.it/2l2eef" target="_blank">Reddit</a>, and <a href="http://newsoffice.mit.edu/2014/programming-error-for-energy-savings-1030" target="_blank">MITNews</a>.</p></li>
+                <li> <p>Rely makes <a href="http://bit.ly/JpvfQK" target="_blank">Slashdot</a> and <a href="http://bit.ly/1bSbkEQ" target="_blank">MITNews</a>.</li> 
+                <li> <p>Rely wins a Best Paper Award at OOPSLA '13 and gets recognized as a <a href="http://www.sigplan.org/Newsletters/CACM/Papers/" target="_blank">SIGPLAN Research Highlight</a>. </li>
+                <li> <p>Bolt appears on <a href="http://developers.slashdot.org/story/11/08/02/2031215/Escaping-Infinite-Loops">Slashdot</a>, <a href="http://arstechnica.com/science/news/2011/08/jolt-framework-lets-users-force-some-hung-programs-to-recover.ars">Ars Technica</a>, and <a href="http://web.mit.edu/newsoffice/2011/infinite-loops-interrupt-0802.html">MITnews</a>.</li>
+                <li> <p>Loop Perforation makes <a href="http://www.drdobbs.com/architecture-and-design/code-perforation-trading-accuracy-for-sp/224701785?cid=twitter_DDJ_All">Dr Dobb's Journal</a> and <a href="http://web.mit.edu/newsoffice/2010/situationally-award-0513">MITNews</a>.</li>
+            </ul> <a class="read-more-hide hide" href="#">&#x21A9</a></span>
+ 
+        <br>
+        </p>
+
+	 <h2>Teaching&nbsp;<a name="teaching" id="teaching" style="position:relative; top: -50px;">&nbsp;</a><a href="#home"
+                    class="anchorLink"><img src="assets/img/up.jpg"style="vertical-align:middle"
+                    width="15" height="15" border="0"></a></h2>
+
+            <p>
+
+            <ul>
+
+                <li><p>Topics in Programming Languages: ML & Compilers &ndash; <a href="https://courses.grainger.illinois.edu/cs521/sp2025/mlcompiler/" target="_blank">CS 521 (Spring 2025)</a> </p></li>
+
+                <li><p>Programming Languages and Compilers  &ndash; <a href="https://courses.engr.illinois.edu/cs421/fa2024/CS421D/index.php">CS 421 (Fall 2024)</a></p></li>
+
+              <li><p>Topics in Programming Languages: Approximate and probabilistic programming systems &ndash; <a href="http://misailo.web.engr.illinois.edu/courses/521-sp24" target="_blank">CS 521 (Spring 2024)</a> </p></li>
+
+              <li><p>Compiler Construction &ndash; <a href="http://misailo.web.engr.illinois.edu/courses/426-fa23" target="_blank">CS 426 (Fall 2023)</a> </p></li>
+ 
+            </ul>
+            <a class="read-more-show hide" href="#">&nbsp; &nbsp;Previous Courses</a> <span class="read-more-content"> 
+            <ul>  
+
+              <li><p>Topics in Programming Languages: Approximate and probabilistic programming systems &ndash; <a href="http://misailo.web.engr.illinois.edu/courses/521-sp22" target="_blank">CS 521 (Spring 2022)</a> </p></li>
+
+             <li><p>Formal Software Development Methods &ndash; <a href="http://misailo.web.engr.illinois.edu/courses/477-fa21/">CS 477 (Fall 2021)</a></p></li>
+              
+            <li><p>Advanced Compiler Construction  &ndash; <a href="http://misailo.web.engr.illinois.edu/courses/526-sp21/">CS 526 (Spring 2021)</a></p></li>
+
+            <li><p>Approximate and probabilistic computing across the system stack  &ndash; <a href="http://misailo.web.engr.illinois.edu/courses/598sm-fa20/" target="_blank">CS 598sm (Fall 2020)</a></p></li>
+
+             <li><p>Advanced Compiler Construction  &ndash; <a href="http://misailo.web.engr.illinois.edu/courses/526-sp20/">CS 526 (Spring 2020)</a></p></li>
+             <li><p>Approximate and probabilistic computing across the system stack  &ndash; <a href="http://misailo.web.engr.illinois.edu/courses/598sm-fa19/" target="_blank">CS 598sm (Fall 2019)</a> (<a href="http://misailo.web.engr.illinois.edu/courses/598sm-fa16/">previous offering</a>)</p></li>
+            <li><p>Advanced Compiler Construction  &ndash; <a href="http://misailo.web.engr.illinois.edu/courses/526-sp19/">CS 526 (Spring 2019)</a></p></li>
+            <li><p>Programming Languages and Compilers  &ndash; <a href="https://courses.engr.illinois.edu/cs421/fa2018/CS421A/index.php">CS 421 (Fall 2018)</a></p></li>
+            <li><p>Programming Languages and Compilers  &ndash; <a href="https://courses.engr.illinois.edu/cs421/fa2017/CS421A/index.php">CS 421 (Fall 2017)</a></p></li>
+ 			<li><p>Advanced Compiler Construction  &ndash; <a href="http://misailo.web.engr.illinois.edu/courses/526-sp17/">CS 526 (Spring 2017)</a></p></li>
+			<li><p>Approximate and probabilistic computing across the system stack  &ndash; <a href="http://misailo.web.engr.illinois.edu/courses/598sm-fa16/" target="_blank">CS 598sm (Fall 2016)</a></p></li>
+            </ul> <a class="read-more-hide hide" href="#">&#x21A9</a></span>
+            <br>
+        </p>
+
+    
+        <h2>Students&nbsp;<a name="students" id="students" style="position:relative; top: -50px;">&nbsp;</a><a href="#home"
+                    class="anchorLink"><img src="assets/img/up.jpg"style="vertical-align:middle"
+                    width="15" height="15" border="0"></a></h2>
+
+            <p>
+            
+            <p><font color="navy"><b>Current PhD students:</b></font> </p>
+
+            <p><ul>
+                <li><p><a href="http://evzh.net/">Yifan Zhao</a> (Fall 2019-now; co-advised with Prof. Vikram Adve)</p></li>
+                <li><p><a href="https://shubhamugare.github.io">Shubham Ugare</a> (Fall 2020-now; co-advised with Prof. Gagandeep Singh).</p></li>  
+                <li><p>Jiayou He (Fall 2024-now)</p></li>
+                <li><p>Egan Johnson (Fall 2024-now)</p></li>
+                <li><p><a href="https://adharshkamath.github.io/">Adharsh Kamath</a> (Fall 2024-now)</p></li>
+                <li><p>Pai Li (Fall 2024-now)</p></li>                 
+            </ul>
+            <p><font color="navy"><b>Graduated PhD students:</b></font> </p>
+             <ul>
+                <li><p><a href="https://jsl1994.github.io/">Dr. Jacob Laurel</a> (Fall 2018-Fall 2024; <a href="papers/jacob-laurel-phd-thesis.pdf">PhD Thesis</a>; next position: Assistant Professor at Georgia Institute of Technology)</p></li>
+                <li><p><a href="https://yekerr.github.io/">Dr. Zixin&nbsp;Huang</a> (Fall 2018-Spring 2024; <a href="papers/zixin-huang-phd-thesis.pdf">PhD Thesis</a>; next position: Deep Compiler Engineer at NVIDIA)</p></li>
+                <li><p><a href="https://kpjoshi.github.io/">Dr. Keyur Joshi</a> (Fall 2017-Spring 2024; <a href="papers/keyur-joshi-phd-thesis.pdf">PhD Thesis</a>; next position: Software Engineer at Google)</p></li>
+                <li><p><a href="https://www.cs.cornell.edu/~saikatd/">Dr. Saikat Dutta</a> (Fall 2017-Summer 2023; <a href="papers/saikat-dutta-phd-thesis.pdf">PhD Thesis</a>; next position: Assistant Professor at Cornell University)</p></li>
+                <li><p><a href="https://vimuth.github.io/">Dr. Vimuth Fernando</a> (Fall 2016-Summer 2022; <a href="papers/vimuth-fernando-phd-thesis.pdf">PhD Thesis</a>; next position: Applied Researcher at Amazon AWS).</p></li>
+            </ul>
+
+
+            <p><font color="navy"><b>Current Master students:</b></font> </p>
+
+                    <p><ul>
+                        <li><p>Madhav Kanda (MS CS; Fall 2024-now)</p></li>
+                        <li><p>Hao Ren (MS ECE; Spring 2025-now)</p></li>
+                    </ul>
+
+            <p><font color="navy"><b>Graduated Master-level students:</b></font> Eric Zhou (<a href="https://ece.illinois.edu/academics/grad/meng-manual/meng">MEng</a>; Spring 2022-Spring 2023; next position: PhD student at UCLA)</p>
+
+            <p><font color="navy"><b>Previous Postdocs:</b></font> <a href="https://www.hashimsharif.com/">Dr. Hashim Sharif</a> (co-advised with Vikram Adve; Summer 2021-Summer 2022; next position: Researcher at AMD Research).   
+
+            <p><font color="navy"><b>Current undergraduates:</b></font> Tarun Suresh (Spring 2023-now), Yuchen Yang (Fall 2023-now), Rohan Gumaste (Spring 2024-now). </p>
+
+            <p><font color="navy"><b>Previous undergraduates:</b></font> <a class="read-more-show hide" href="#">Expand</a> <span class="read-more-content">
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Hangoo Kang (Spring 2023-Summer 2024)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; <a href="https://remyang55.github.io/">Rem Yang</a> (Spring 2020-Spring 2023)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Tommaso Bassetto (Fall 2020-Winter 2021; Fall 2022-Fall 2023)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Robert Nagel (Fall 2021-Summer 2022)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Enguang Fan (Summer 2020-Fall 2020)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Jeeva Selvam (Summer 2020-Winter 2020)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Atharva Sehgal (Spring 2020-Winter 2020)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Ziang Wan (Spring 2019-Spring 2020)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Aryaman Jain (Winter 2019-Summer 2020)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Zhekun Zhang (Fall 2019)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Wenxian Zhang (Spring 2018-Spring 2019)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Hakan Tekgul (Fall 2018-Spring 2019)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Otto Piramuthu (Fall 2018)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Zixin Huang (Summer 2017-Spring 2018)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Zhenbang Wang (Summer 2017-Fall 2017)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Khalique Ahmed (Spring 2017)
+                <br>&nbsp;&nbsp;&nbsp;&cir;&nbsp; Nitesh Nath (Spring 2017).
+                <br> <a class="read-more-hide hide" href="#">&#x21A9</a></span></p></li>
+
+        </p>
+        <!--</div>
+ <div class="row"> <div class="span3"> &nbsp; </div>
+        <div class="span9">-->
+                <a name="confpapers" id="confpapers" style="position:relative; top: -50px;">&nbsp;</a>
+                <h2> Publications&nbsp;&nbsp;<a href="#home"
+                    class="anchorLink"><img src="assets/img/up.jpg"style="vertical-align:middle"
+                    width="15" height="15" border="0"></a></h2>
+
+                <br>
+                <a name="y25" id="y25" style="position:relative;"></a>
+                <h3>2025</h3>
+
+                <ol reversed>   
+
+                <li><dl><p><b>AURA: Precise Abstract Interpretation of Probabilistic Programs with Interval Data Uncertainty</b><br>
+                  Zixin Huang, Jacob Laurel, Saikat Dutta, <u>Sasa Misailovic</u><br>
+                  <i>32nd Static Analysis Symposium</i><br>
+                  (<a href="https://2025.splashcon.org/home/sas-2025" target="_blank" style="text-decoration: none;"><b><confname>SAS 2025</confname></b></a>), Singapore, Singapore, October 2025.<br>                  
+                  <!--<a href="" target="_blank">preprint</a>Â 
+ Â               &nbsp; &nbsp;
+                    <br>--></p>
+                </dl></li> 
+
+
+                <li><dl><p><b>Byte-level Tokenizers Unavoidably Enable LLMs to Generate Ill-formed UTF-8</b><br>
+                  Preston Firestone, Shubham Ugare, Gagandeep Singh, <u>Sasa Misailovic</u><br>
+                  <i>2nd Conference on Language Modeling</i><br>
+                  (<a href="https://colmweb.org/" target="_blank" style="text-decoration: none;"><b><confname>COLM 2025</confname></b></a>), Montreal, QC, Canada, October 2025. (Preliminary version at TokShop Workshop at ICML 2025)<br>                  
+                  <!--<a href="" target="_blank">preprint</a>Â 
+ Â               &nbsp; &nbsp;
+                    <br>--></p>
+                </dl></li>   
+
+
+                <li><dl><p><b>SynCode: LLM Generation with Grammar Augmentation</b><br>
+                  Shubham Ugare, Tarun Suresh, Hangoo Kang, <u>Sasa Misailovic</u>, Gagandeep Singh<br>
+                  <i>Transactions on Machine Learning Research</i><br>
+                  (<a href="https://jmlr.org/tmlr/" target="_blank" style="text-decoration: none;"><b><confname>TMLR 2025</confname></b></a>), June 2025.<br>                  
+                  <a href="https://arxiv.org/pdf/2403.01632" target="_blank">preprint</a>Â 
+ Â               &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>   
+
+                <li><dl><p><b>Safety and Trust in Artificial Intelligence with Abstract Interpretation</b><br>
+                  Gagandeep Singh, Jacob Laurel, <u>Sasa Misailovic</u>, Debangshu Banerjee, Avaljot Singh, Changming Xu, Shubham Ugare, Huan Zhang<br>
+                  <i>Foundations and Trends in Programming Languages, Volume 8, Issue 3-4</i><br>
+                  (<a href="https://www.nowpublishers.com/pgl" target="_blank" style="text-decoration: none;"><b><confname>PGL 2025</confname></b></a>), Now Publishers, June 2025.<br>                  
+                  <a href="https://www.nowpublishers.com/article/Details/PGL-062" target="_blank">abstract</a>Â 
+ Â               &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+
+                <li><dl><p><b>CRANE: Reasoning with Constrained LLM Generation</b><br>
+                  Debangshu Banerjee, Tarun Suresh, Shubham Ugare, <u>Sasa Misailovic</u>, Gagandeep Singh<br>
+                  <i>42nd International Conference on Machine Learning</i><br>
+                  (<a href="https://icml.cc/" target="_blank" style="text-decoration: none;"><b><confname>ICML 2025</confname></b></a>), Vancouver, BC, Canada, July 2025. (Preliminary version at VerifAI Workshop at ICLR 2025)<br>                  
+                  <a href="https://arxiv.org/abs/2502.09061" target="_blank">preprint</a>Â 
+ Â               &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>   
+
+
+                <li><dl><p><b>IterGen: Iterative Semantic-aware Structured LLM Generation with Backtracking</b><br>
+                  Shubham Ugare, Rohan Gumaste, Tarun Suresh, Gagandeep Singh, <u>Sasa Misailovic</u><br>
+                  <i>13th International Conference on Learning Representations</i><br>
+                  (<a href="https://iclr.cc/Conferences/2025" target="_blank" style="text-decoration: none;"><b><confname>ICLR 2025</confname></b></a>), Singapore, Singapore, April 2025. Acceptance Rate 32%.<br>                  
+                  <a href="https://arxiv.org/abs/2410.07295" target="_blank">preprint</a> Â 
+ Â               &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>   
+
+
+                <li><dl><p><b>FastFlip: Compositional SDC Resiliency Analysis</b><br>
+                Keyur Joshi, Rahul Singh, Tommaso Bassetto, Sarita Adve, Darko Marinov, <u>Sasa Misailovic</u><br>
+                  <i>21st ACM/IEEE International Symposium on Code Generation and Optimization</i><br>
+                  (<a href="" target="_blank" style="text-decoration: none;"><b><confname>CGO 2025</confname></b></a>), Las Vegas, NV, February 2025. Acceptance Rate 33%<br>
+                <a href="papers/fastflip-cgo25.pdf" target="_blank">abstract</a> Â  Â 
+              <a href="papers/fastflip-cgo25.pdf" target="_blank">paper</a> Â 
+ Â                &nbsp; &nbsp; 
+                    <br>
+                    </p>
+                </dl></li>  
+
+                </ol>
+
+
+
+                <a name="y24" id="y24" style="position:relative;"></a>
+                <h3>2024</h3>
+                <ol reversed>   
+
+ 
+                <li><dl><p><b>Programming Systems for Improving the Performance of Deep Learning-Intensive Applications</b><br>
+                Yifan Zhao, Vikram Adve, <u>Sasa Misailovic</u><br>
+                  <i>Workshop on Practical Adoption Challenges of Machine Learning for Systems.</i> Collocated with SOSP 2024<br>
+                  (<a href="https://sites.google.com/view/pacmi/home" target="_blank" style="text-decoration: none;"><b><confname>PACMI 2024</confname></b></a>), Austin, TX, November 2024.<br>
+                  <a href="papers/pacmi24.pdf" target="_blank">paper</a> Â 
+ Â                &nbsp; &nbsp; 
+                    <br>
+                    </p>
+                </dl></li>  
+
+
+                <li><dl><p><b>GAS: Generating Fast and Accurate Surrogate Models for Simulations of Autonomous Vehicle Systems</b><br>
+                Keyur Joshi, Chiao Hsieh, Sayan Mitra, <u>Sasa Misailovic</u><br>
+                  <i>35th IEEE International Symposium on Software Reliability Engineering </i><br>
+                  (<a href="https://issre.github.io/2024/" target="_blank" style="text-decoration: none;"><b><confname>ISSRE 2024</confname></b></a>), Tsukuba, Japan, October 2024. Acceptance Rate 26%. <br>
+                <!--<a href="" target="_blank">abstract</a> Â  Â -->
+              <a href="papers/issre24-gas.pdf" target="_blank">paper</a> Â 
+ Â                &nbsp; &nbsp; 
+                    <br></p>
+                </dl></li>  
+
+                <li><dl><p><b>Felix: Optimizing Tensor Programs with Gradient Descent</b><br>
+                Yifan Zhao, Hashim Sharif, Vikram Adve, <u>Sasa Misailovic</u><br>
+                  <i>29th International Conference on Architectural Support for Programming Languages and Operating Systems </i><br>
+                  (<a href="https://www.asplos-conference.org/asplos2024/index.html" target="_blank" style="text-decoration: none;"><b><confname>ASPLOS 2024</confname></b></a>), San Diego, USA, April 2024.<br>
+                <a href="https://dl.acm.org/doi/10.1145/3620666.3651348" target="_blank">abstract</a> Â  Â 
+                <a href="papers/felix-asplos24.pdf" target="_blank">full text</a> Â 
+ Â          <a href="https://github.com/uiuc-arc/felix" target="_blank">code</a>       &nbsp; &nbsp; 
+                    <br></p>
+                </dl></li>  
+
+                <li><dl><p><b>Mobiprox: Supporting Dynamic Approximate Computing on Mobiles</b><br>
+                  Matevz Fabjancic, Octavian Machidon, Hashim Sharif, Yifan Zhao, <u>Sasa Misailovic</u>, Veljko Pejovic<br>
+                  <i>IEEE Internet of Things Journal</i><br>
+                  (<a href="https://ieee-iotj.org/" target="_blank" style="text-decoration: none;"><b><confname>IEEE IoT</confname></b></a>), IEEE 2024<br>                  
+                  <a href="https://arxiv.org/abs/2303.11291" target="_blank">preprint</a> Â 
+ Â               &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>
+
+
+                <li><dl><p><b>Incremental Randomized Smoothing Certification</b><br>
+                  Shubham Ugare, Tarun Suresh, Debangshu Banerjee, Gagandeep Singh, <u>Sasa Misailovic</u><br>
+                  <i>12th International Conference on Learning Representations</i><br>
+                  (<a href="https://iclr.cc/Conferences/2024" target="_blank" style="text-decoration: none;"><b><confname>ICLR 2024</confname></b></a>), Vienna, Austria, May 2024. Acceptance Rate 31%<br>                  
+                  <a href="https://arxiv.org/abs/2305.19521" target="_blank">preprint</a> Â 
+ Â               &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>   
+
+                <li><dl><p><b>Is Watermarking LLM-Generated Code Robust?</b><br>
+                  Tarun Suresh, Shubham Ugare, Gagandeep Singh, <u>Sasa Misailovic</u><br>
+                  <i>Tiny Papers Track at 12th International Conference on Learning Representations</i><br>
+                  (<a href="https://iclr.cc/Conferences/2024" target="_blank" style="text-decoration: none;"><b><confname>TinyPapers@ICLR 2024</confname></b></a>), Vienna, Austria, May 2024. (Recognized as Notable)<br>                  
+                  <a href="https://arxiv.org/abs/2403.17983" target="_blank">preprint</a> Â 
+ Â               &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>   
+
+
+                <li><dl><p><b>Debugging Convergence Problems in Probabilistic Programs via Program Representation Learning with SixthSense</b><br>
+                  Zixin Huang, Saikat Dutta, <u>Sasa Misailovic</u><br>
+                  <i>The International Journal on Software Tools for Technology Transfer</i><br>
+                  (<a href="https://www.springer.com/journal/10009" target="_blank" style="text-decoration: none;"><b><confname>STTT</confname></b></a>). Springer, 2024. Extended version of the FASE 2022 paper. <br>
+                 <a href="https://link.springer.com/article/10.1007/s10009-024-00737-2" target="_blank">abstract</a> Â 
+ Â               <a href="https://link.springer.com/article/10.1007/s10009-024-00737-2" target="_blank">full text</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+ 
+
+                <li><dl><p><b>Quantizing Large-Language Models for Predicting Flaky Tests</b><br>
+                  Shanto Rahman, Abdelrahman Baz, <u>Sasa Misailovic</u>, August Shi<br>
+                  <i>17th IEEE International Conference on Software Testing, Verification and Validation. </i><br>
+                  (<a href="https://conf.researchr.org/home/icst-2024" target="_blank" style="text-decoration: none;"><b><confname>ICST 2024</confname></b></a>), Toronto, ON, Canada, May 2024. Acceptance Rate 25% (28/112)<br>                  
+                <a href="https://ieeexplore.ieee.org/document/10638609/" target="_blank">abstract</a> Â  
+ Â               <a href="papers/flakyq-icst24.pdf" target="_blank">full text</a> Â 
+ <!--Â               <a href="" target="_blank">code</a> -->     &nbsp; &nbsp;
+                    <br>
+                </p>
+                </dl></li> 
+
+
+
+                <li><dl><p><b>Abstract Interpretation for Automatic Differentiation</b><br>
+                  Jacob Laurel, Siyuan Brant Qian, Gagandeep Singh, <u>Sasa Misailovic</u><br>
+                  <i>10th Workshop on Languages for Inference.</i> Collocated with POPL 2024<br>
+                  (<a href="https://popl24.sigplan.org/home/lafi-2024" target="_blank" style="text-decoration: none;"><b><confname>LAFI 2024</confname></b></a>), London, UK, January 2024.<br>                  
+                <a href="papers/lafi24.pdf" target="_blank">full text</a> Â 
+                    <br>
+                </p>
+                </dl></li> 
+                </ol>
+
+
+                <a name="y23" id="y23" style="position:relative;"></a>
+                <h3>2023</h3>
+                <ol reversed>   
+
+
+                <li><dl><p><b>Synthesizing Precise Static Analyzers for Automatic Differentiation</b><br>
+                  Jacob Laurel, Siyuan Brant Qian, Gagandeep Singh, <u>Sasa Misailovic</u><br>
+                  <i>38th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications</i><br>
+                  (<a href="https://2023.splashcon.org/track/splash-2023-oopsla" target="_blank" style="text-decoration: none;"><b><confname>OOPSLA/SPLASH 2023</confname></b></a>), Cascais, Portugal, October 2023. Acceptance Rate 36% (111/305)<br>                  
+                <!-- <a href="" target="_blank">abstract</a> Â  
+ Â   -->            <a href="papers/pasado-oopsla23.pdf" target="_blank">full text</a> Â 
+ Â               <a href="https://github.com/uiuc-arc/Pasado" target="_blank">code</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li> 
+
+
+                <li><dl><p><b>AquaSense: Automated Sensitivity Analysis of Probabilistic Programs via Quantized Inference</b><br>
+                  Zitong Zhou, Zixin Huang, <u>Sasa Misailovic</u><br>
+                  <i>21st International Symposium on Automated Technology for Verification and Analysis</i><br>
+                  (<a href="https://atva-conference.org/2023/" target="_blank" style="text-decoration: none;"><b><confname>ATVA 2023</confname></b></a>), Singapore, Singapore, October 2023. Acceptance Rate 32% (37/115 papers)<br>                  
+                <!-- <a href="" target="_blank">abstract</a> Â 
+ Â           -->    <a href="papers/aqua_sense-ATVA23.pdf" target="_blank">full text</a> Â 
+ Â               <a href="https://github.com/uiuc-arc/aquasense" target="_blank">code</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li> 
+
+                  <li><dl><p><b>Dynamic Monitoring of Uncertainty for Distributed Asynchronous Programs with Diamont</b><br>
+                  Vimuth Fernando, Keyur Joshi, Jacob Laurel, <u>Sasa Misailovic</u><br>
+                  <i>The International Journal on Software Tools for Technology Transfer</i><br>
+                  (<a href="https://www.springer.com/journal/10009" target="_blank" style="text-decoration: none;"><b><confname>STTT 2023</confname></b></a>). Springer, August 2023. Extended Version of the RV 2021 paper. <br>
+                  <!--<a href="https://link.springer.com/chapter/10.1007/978-3-030-88494-9_10" target="_blank">abstract</a> Â 
+ Â   -->              <a href="papers/sttt23-diamont.pdf" target="_blank">full text</a> Â &nbsp; &nbsp;
+                    <br></p>
+                  </dl></li>  
+
+
+                <li><dl><p><b>Toward Continuous Verification of DNNs</b><br>
+                  Shubham Ugare, Debangshu Banerjee, Tarun Suresh, <u>Sasa Misailovic</u>, Gagandeep Singh<br>
+                  <i>2nd Workshop on Formal Verification of Machine Learning</i><br>
+                  (<a href="https://www.ml-verification.com/" target="_blank" style="text-decoration: none;"><b><confname>WFVML 2023</confname></b></a>), Honolulu, Hawaii, USA, July 2023. Collocated with ICML 2023<br>                  
+                  <a href="papers/icml-workshop-23-incver.pdf" target="_blank">full text</a> Â 
+ Â               &nbsp; &nbsp;
+                    <br></p>
+                </dl></li> 
+
+                <li><dl><p><b>ASTRA: Understanding the Practical Impact of Robustness for Probabilistic Programs</b><br>
+                  Zixin Huang, Saikat Dutta, <u>Sasa Misailovic</u><br>
+                  <i>39th Conference on Uncertainty in Artificial Intelligence</i><br>
+                  (<a href="https://www.auai.org/uai2023/" target="_blank" style="text-decoration: none;"><b><confname>UAI 2023</confname></b></a>), Pittsburgh, PA, August 2023. Acceptance Rate 31% (243/778 papers)<br>                  
+                 <a href="https://proceedings.mlr.press/v216/huang23a.html" target="_blank">abstract</a> Â 
+ Â               <a href="https://proceedings.mlr.press/v216/huang23a/huang23a.pdf" target="_blank">full text</a> Â 
+ Â               <a href="https://github.com/uiuc-arc/astra" target="_blank">code</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li> 
+
+                <li><dl><p><b>Incremental Verification of Neural Networks</b><br>
+                  Shubham Ugare, Debangshu Banerjee, <u>Sasa Misailovic</u>, Gagandeep Singh<br>
+                  <i>39th ACM SIGPLAN Conference on Programming Language Design and Implementation</i><br>
+                  (<a href="https://pldi23.sigplan.org/" target="_blank" style="text-decoration: none;"><b><confname>PLDI 2023</confname></b></a>), Orlando, FL, June 2023. Acceptance Rate 31% (84/269 papers)<br>                  
+                <a href="https://dl.acm.org/doi/10.1145/3591299" target="_blank">abstract</a> Â 
+ Â               <a href="https://arxiv.org/abs/2304.01874" target="_blank">full text</a> Â 
+ Â               <a href="https://github.com/uiuc-focal-lab/IVAN" target="_blank">code</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>                
+
+                <li><dl><p><b>ApproxCaliper: A Programmable Framework for Application-aware Neural Network Optimization</b><br>
+                  Yifan Zhao, Hashim Sharif, Peter Pao-Huang, Vatsin Shah, Arun Narenthiran Sivakumar, Mateus Valverde Gasparino, Abdulrahman Mahmoud, Nathan Zhao, Sarita Adve, Girish Chowdhary, <u>Sasa Misailovic</u>, Vikram Adve<br>
+                  <i>6th Conference on Machine Learning and Systems</i><br>
+                  (<a href="https://mlsys.org/" target="_blank" style="text-decoration: none;"><b><confname>MLSYS 2023</confname></b></a>), Miami, FL, June 2023. Acceptance Rate 22% (45/207 papers)<br>                  
+                <!-- <a href="" target="_blank">abstract</a> Â 
+ Â -->              <a href="papers/ApproxCaliper-mlsys23.pdf" target="_blank">full text</a> Â 
+ Â  <!--            <a href="" target="_blank">code</a>      &nbsp; &nbsp;
+                    <br>--></p>
+                </dl></li>                      
+                <li><dl><p><b>Provable Defense Against Geometric Transformations</b><br>
+                  Rem Yang, Jacob Laurel, <u>Sasa Misailovic</u>, Gagandeep Singh<br>
+                  <i>11th International Conference on Learning Representations</i><br>
+                  (<a href="https://iclr.cc/" target="_blank" style="text-decoration: none;"><b><confname>ICLR 2023</confname></b></a>), Kigali, Rwanda, May 2023. Acceptance Rate 32%<br> <b>(Selected as Spotlight: notable top 25% of accepted papers)</b><br>
+                  <a href="https://arxiv.org/abs/2207.11177" target="_blank">preprint</a>
+                <!-- <a href="" target="_blank">abstract</a> Â 
+ Â               <a href="" target="_blank">full text</a> Â 
+ Â               <a href="" target="_blank">code</a>      &nbsp; &nbsp;
+                    <br>--></p>
+                </dl></li>  
+
+
+                <li><dl><p><b>FASER: Balancing Effectiveness and Flakiness of Non-Deterministic Machine Learning Tests</b><br>
+                  Chunqiu Steven Xia, Saikat Dutta, <u>Sasa Misailovic</u>, Darko Marinov, Lingming Zhang<br>
+                  <i>45th IEEE/ACM International Conference on Software Engineering</i><br>
+                  (<a href="https://conf.researchr.org/track/icse-2023/icse-2023-technical-track target="_blank" style="text-decoration: none;"><b><confname>ICSE 2023</confname></b></a>), Melbourne, Australia, May 2023. Acceptance Rate 26% (208/796 papers)<br>
+                 <a href="papers/icse23.pdf" target="_blank">abstract</a> Â 
+ Â               <a href="papers/icse23.pdf" target="_blank">full text</a> Â 
+ Â               <!--<a href="" target="_blank">code</a> -->     &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>                      
+
+                <li><dl><p><b>ViX: Analysis-driven Compiler for Efficient Low-Precision Differentiable Inference </b><br>
+                  Ashitabh Misra, Jacob Laurel, <u>Sasa Misailovic</u><br>
+                  <i>26th Design, Automation and Test in Europe Conference</i><br>
+                  (<a href="https://date23.date-conference.com/" target="_blank" style="text-decoration: none;"><b><confname>DATE 2023</confname></b></a>), Antwerp, Belgium, April 2023. Acceptance Rate 25%<br>
+                  <a href="papers/DATE2023.pdf" target="_blank">abstract</a> Â 
+ Â               <a href="papers/DATE2023.pdf" target="_blank">full text</a> Â 
+ Â               <!--<a href="" target="_blank">code</a>-->      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+                </ol>
+
+                <a name="y22" id="y22" style="position:relative;"></a>
+                <h3>2022</h3>
+                <ol reversed>    
+
+                 <li><dl><p><b>A General Construction for Abstract Interpretation of Higher-Order Automatic Differentiation</b><br>
+                  Jacob Laurel, Rem Yang, Shubham Ugare, Robert Nagel, Gagandeep Singh, <u>Sasa Misailovic</u><br>
+                  <i>37th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications</i><br>
+                  (<a href="https://2022.splashcon.org/track/splash-2022-oopsla" target="_blank" style="text-decoration: none;"><b><confname>OOPSLA/SPLASH 2022</confname></b></a>), Auckland, New Zealand, December 2022. Acceptance Rate 31% (92/294 papers)<br>
+                <a href="papers/diff_oopsla22.pdf" target="_blank">abstract</a> Â 
+ Â               <a href="papers/diff_oopsla22.pdf" target="_blank">full text</a> Â 
+ Â               <a href="https://github.com/uiuc-arc/AbstractAD" target="_blank">code</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+
+                 <li><dl><p><b>Proof Transfer for Fast Certification of Multiple Approximate Neural Networks</b><br>
+                  Shubham Ugare, Gagandeep Singh, <u>Sasa Misailovic</u><br>
+                  <i>37th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications</i><br>
+                  (<a href="https://2022.splashcon.org/track/splash-2022-oopsla" target="_blank" style="text-decoration: none;"><b><confname>OOPSLA/SPLASH 2022</confname></b></a>), Auckland, New Zealand, December 2022. Acceptance Rate 31% (92/294 papers)<br>
+                <a href="papers/fanc_oopsla22.pdf" target="_blank">abstract</a> Â 
+ Â               <a href="papers/fanc_oopsla22.pdf" target="_blank">full text</a> Â 
+ Â               <a href="https://github.com/uiuc-arc/fanc" target="_blank">code</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+
+                <li><dl><p><b>Verifying Controllers with Vision-based Perception using Safe Approximate Abstractions</b><br>
+                  Chiao Hsieh, Yangge Li, Dawei Sun, Keyur Joshi, <u>Sasa Misailovic</u>, Sayan Mitra<br>
+                  <i>International Conference on Embedded Software</i><br>
+                  (<a href="https://esweek.org/emsoft/" target="_blank" style="text-decoration: none;"><b><confname>EMSOFT 2022</confname></b></a>), Shanghai, China, October 2022. <!--Acceptance Rate TBD--><br>
+                <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9852797" target="_blank">abstract</a> Â 
+ Â               <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9852797" target="_blank">full text</a> Â  &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+
+                <li><dl><p><b>HPVM: Hardware-Agnostic Programming for Heterogeneous Parallel Systems</b><br>
+                  Adel Ejjeh, Aaron Councilman, Akash Kothari, Maria Kotsifakou, Leon Medvinsky, Abdul Rafae Noor, Hashim Sharif, Yifan Zhao, Sarita Adve, <u>Sasa Misailovic</u>, Vikram Adve<br>
+                  <i>IEEE Micro Journal</i><br>
+                  (<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=40" target="_blank" style="text-decoration: none;"><b><confname>IEEE Micro</confname></b></a>), IEEE, September-October 2022. <br>
+                <a href="https://ieeexplore.ieee.org/document/9807370" target="_blank">abstract</a> Â 
+ Â               <a href="https://publish.illinois.edu/hpvm-project/files/2022/07/22-IEEE_Micro-HPVM_Capstone.pdf" target="_blank">full text</a> Â  &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+
+                  <li><dl><p><b>Accuracy-Aware Compilers</b><br>
+                  <u>Sasa Misailovic</u><br>
+                  Book Chapter in <i>Approximate Computing Techniques From Component- to Application-Level</i><br>
+                  (<a href="https://link.springer.com/book/10.1007/978-3-030-94705-7" target="_blank" style="text-decoration: none;"><b><confname>ACT</confname></b></a>), Springer Nature Switzerland AG, June 2022. <br>
+                <a href="https://link.springer.com/chapter/10.1007/978-3-030-94705-7_7" target="_blank">abstract</a> Â 
+ Â               <a href="https://link.springer.com/chapter/10.1007/978-3-030-94705-7_7" target="_blank">full text</a> Â  &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+
+                <li><dl><p><b>To Seed or Not to Seed? An Empirical Analysis of Usage of Seeds for Testing in Machine Learning Projects</b><br>
+                  Saikat Dutta, Anshul Arunachalam, <u>Sasa Misailovic</u><br>
+                  <i>15th IEEE International Conference on Software Testing, Verification and Validation</i><br>
+                  (<a href="https://icst2022.vrain.upv.es/" target="_blank" style="text-decoration: none;"><b><confname>ICST 2022</confname></b></a>). Valencia, Spain, April 2022. Acceptance Rate 29% (25/85 papers)<br> 
+                  <a href="papers/icst2022.pdf" target="_blank">abstract</a> Â 
+ Â                 <a href="papers/icst22.pdf" target="_blank">full text</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+                <li><dl><p><b>SixthSense: Debugging Convergence Problems in Probabilistic Programs via Program Representation Learning</b><br>
+                  Saikat Dutta, Zixin Huang, <u>Sasa Misailovic</u><br>
+                  <i>25th International Conference on Fundamental Approaches to Software Engineering</i><br>
+                  (<a href="https://etaps.org/2022/fase" target="_blank" style="text-decoration: none;"><b><confname>FASE 2022</confname></b></a>). Munich, Germany, April 2022. Acceptance Rate 27% (17/62 papers)<br> <!--Â &nbsp; &nbsp;-->
+                  <a href="papers/fase22.pdf" target="_blank">abstract</a> Â 
+ Â               <a href="papers/fase22.pdf" target="_blank">full text</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+                <li><dl><p><b>Automated Quantized Inference for Probabilistic Programs with AQUA</b><br>
+                  Zixin Huang, Saikat Dutta, <u>Sasa Misailovic</u><br>
+                  <i>Innovations in Systems and Software Engineering: A NASA Journal</i><br>
+                  (<a href="https://www.springer.com/journal/11334" target="_blank" style="text-decoration: none;"><b><confname>ISSE NASA</confname></b></a>). Extended version of the <a href="papers/aqua-atva21.pdf" target="_blank">ATVA 2021 paper</a>.<br> <!-- Â &nbsp; &nbsp;
+                    <br>-->
+                    <a href="https://link.springer.com/article/10.1007/s11334-021-00433-3" target="_blank">abstract</a> Â 
+ Â               <a href="papers/isse22.pdf" target="_blank">full text</a>      &nbsp; &nbsp;
+                    <br></p> 
+                </dl></li>  
+
+                <li><dl><p><b>A Dual Number Abstraction for Static Analysis of Clarke Jacobians</b><br>
+                  Jacob Laurel, Rem Yang, Gagandeep Singh, <u>Sasa Misailovic</u><br>
+                  <i>49th ACM SIGPLAN Symposium on Principles of Programming Languages </i><br>
+                  (<a href="https://popl22.sigplan.org/" target="_blank" style="text-decoration: none;"><b><confname>POPL 2022</confname></b></a>), Philadelphia, PA, USA, January 2022. Acceptance rate 23% (65/286 papers)<br>
+                <a href="papers/DeepJ-popl22.pdf" target="_blank">abstract</a> Â 
+ Â               <a href="papers/DeepJ-popl22.pdf" target="_blank">full text</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+                </ol>
+
+                <a name="y21" id="y21" style="position:relative;"></a>
+                <h3>2021</h3>
+                <ol reversed>
+
+                  <li><dl><p><b>Diamont: Dynamic Monitoring of Uncertainty for Distributed Asynchronous Programs</b><br>
+                  Vimuth Fernando, Keyur Joshi, Jacob Laurel, <u>Sasa Misailovic</u><br>
+                  <i>21st International Conference on Runtime Verification</i><br>
+                  (<a href="https://uva-mcps-lab.github.io/RV21/" target="_blank" style="text-decoration: none;"><b><confname>RV 2021</confname></b></a>), Los Angeles, October 2021. Acceptance Rate 38% <br>
+                  <a href="https://link.springer.com/chapter/10.1007/978-3-030-88494-9_10" target="_blank">abstract</a> Â 
+ Â                 <a href="https://vimuth.github.io/papers/diamont.pdf" target="_blank">full text</a> Â &nbsp; &nbsp;
+                    <br></p>
+                  </dl></li>  
+
+                  <li><dl><p><b>AQUA: Automated Quantized Inference for Probabilistic Programs</b><br>
+                  Zixin Huang, Saikat Dutta, <u>Sasa Misailovic</u><br>
+                  <i>19th International Symposium on Automated Technology for Verification and Analysis</i><br>
+                  (<a href="https://formal-analysis.com/atva/2021/" target="_blank" style="text-decoration: none;"><b><confname>ATVA 2021</confname></b></a>), Gold Coast, Australia, October 2021. Acceptance Rate 27% (19/71 papers)<br>
+                  <a href="https://link.springer.com/chapter/10.1007/978-3-030-88885-5_16" target="_blank">abstract</a> Â 
+ Â                 <a href="papers/aqua-atva21.pdf" target="_blank">full text</a> Â (the extended version invited to NASA ISSE journal) Â &nbsp; &nbsp;
+                    <br></p>
+                  </dl></li>  
+
+                  <li><dl><p><b>FLEX: Fixing Flaky Tests in Machine Learning Projects by Updating Assertion Bounds</b><br>
+                  Saikat Dutta, August Shi, <u>Sasa Misailovic</u><br>
+                  <i>29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering</i><br>
+                  (<a href="https://2021.esec-fse.org/" target="_blank" style="text-decoration: none;"><b><confname>ESEC/FSE 2021</confname></b></a>), Athens, Greece, August 2021. Acceptance rate 24% (97/396 papers)<br>
+                  <a href="https://dl.acm.org/doi/10.1145/3468264.3468615" target="_blank">abstract</a> Â 
+ Â                 <a href="papers/flex-fse21.pdf" target="_blank">full text</a> Â &nbsp; &nbsp;
+                    <br></p>
+                  </dl></li>  
+
+                  <li><dl><p><b>TERA: Optimizing Stochastic Regression Tests in Machine Learning Projects</b><br>
+                  Saikat Dutta, Jeeva Selvam, Aryaman Jain, <u>Sasa Misailovic</u><br>
+                  <i>30th ACM SIGSOFT International Symposium on Software Testing and Analysis</i><br>
+                  (<a href="https://conf.researchr.org/home/issta-2021" target="_blank" style="text-decoration: none;"><b><confname>ISSTA 2021</confname></b></a>), Aarhus, Denmark, July 2021. Acceptance rate 22% (51/233 papers)<br>
+                  <a href="https://dl.acm.org/doi/10.1145/3460319.3464844" target="_blank">abstract</a> Â 
+ Â                 <a href="papers/tera-issta21.pdf" target="_blank">full text</a> Â &nbsp; &nbsp;
+                    <br></p>
+                  </dl></li>  
+
+                  <li><dl><p><b>Statheros: A Compiler for Efficient Low-Precision Probabilistic Programming</b><br>
+                  Jacob Laurel, Rem Yang, Atharva Sehgal, Shubham Ugare, <u>Sasa Misailovic</u><br>
+                  <i>58th Design Automation Conference</i><br>
+                  (<a href="https://www.dac.com/Conference/" target="_blank" style="text-decoration: none;"><b><confname>DAC 2021</confname></b></a>), San Francisco, CA, USA, July (December) 2021. Acceptance rate 23%<br>
+                  <a href="papers/statheros-dac21.pdf" target="_blank">abstract</a> Â 
+ Â                 <a href="papers/statheros-dac21.pdf" target="_blank">full text</a> Â &nbsp; &nbsp;
+                    <br></p>
+
+                </dl></li>  
+
+                  <li><dl><p><b>ApproxTuner: A Compiler and Runtime System for Adaptive Approximations</b><br>
+                  Hashim Sharif, Yifan Zhao, Maria Kotsifakou, Akash Kothari, Benjamin Schreiber, Elizabeth Wang, Yasmin Sarita, Nathan Zhao, Keyur Joshi, Vikram Adve, <u>Sasa Misailovic</u>, Sarita Adve<br>
+                  <i>26th ACM SIGPLAN Annual Symposium Principles and Practice of Parallel Programming</i><br>
+                  (<a href="https://ppopp21.sigplan.org/" target="_blank" style="text-decoration: none;"><b><confname>PPOPP 2021</confname></b></a>), Seoul, South Korea, February 2021. Acceptance rate 21% (31/150 papers)<br>
+                <a href="https://dl.acm.org/doi/10.1145/3437801.3446108" target="_blank">abstract</a> Â 
+ Â               <a href="papers/approxtuner.pdf" target="_blank">full text</a> Â &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+
+                  <li><dl><p><b>WiDir: A Wireless-Enabled Directory Cache Coherence Protocol</b><br>
+                  Antonio Franques, Apostolos Kokolis, Sergi Abadal, Vimuth Fernando, <u>Sasa Misailovic</u>, Josep Torrellas<br>
+                  <i>27th IEEE International Symposium on High-Performance Computer Architecture</i><br>
+                  (<a href="https://hpca-conf.org/2021/" target="_blank" style="text-decoration: none;"><b><confname>HPCA 2021</confname></b></a>), Seoul, South Korea, February 2021. Acceptance rate 24% (63/258 papers)<br>
+                <a href="https://ieeexplore.ieee.org/document/9407196" target="_blank">abstract</a> Â 
+ Â               <a href="https://iacoma.cs.uiuc.edu/iacoma-papers/hpca21.pdf" target="_blank">full text</a> Â &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>   
+
+
+                  <li><dl><p><b>Secure and Resilient SoCs for Autonomous Vehicles</b><br>
+                  Pradip Bose, Augusto Vega, Sarita Adve, Vikram Adve, <u>Sasa Misailovic</u>, Luca Carloni, Ken Shepard, David Brooks, Vijay Janapa Reddi, Gu-Yeon Wei<br>
+                  <i>3rd International Workshop on Domain Specific System Architecture</i><br>
+                  (<a href="http://prism.sejong.ac.kr/dossa-3/" target="_blank" style="text-decoration: none;"><b><confname>DOSSA 2021</confname></b></a>), Seoul, South Korea, February 2021. <br>
+                  <a href="http://prism.sejong.ac.kr/dossa-3/dossa_paper/bose_paper.pdf" target="_blank">abstract</a> Â 
+ Â                 <a href="papers/dossa2021.pdf" target="_blank">full text</a> Â &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+
+
+
+                </ol>
+
+                <a name="y20" id="y20" style="position:relative;"></a>
+                <h3>2020</h3>
+                <ol reversed>
+
+
+                  <li><dl><p><b>Koord: A Language For Programming And Verifying Distributed Robotics Applications</b><br>
+                  Ritwika Ghosh, Chiao Hsieh, <u>Sasa Misailovic</u>, Sayan Mitra<br>
+                  <i>35th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications</i><br>
+                  (<a href="https://2020.splashcon.org/track/splash-2020-oopsla" target="_blank" style="text-decoration: none;"><b><confname>OOPSLA/SPLASH 2020</confname></b></a>), Chicago, IL, USA, November 2020. Acceptance Rate 36% (109/302 papers)<br>
+                <a href="https://dl.acm.org/doi/10.1145/3428300" target="_blank">abstract</a> Â 
+ Â               <a href="https://cyphyhouse.github.io/assets/docs/koord-OOPSLA2020-preprint.pdf" target="_blank">full text</a> Â 
+ Â               <a href="https://github.com/cyphyhouse/KoordLanguage" target="_blank">code</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+
+                  <li><dl><p><b>Detecting Flaky Tests in Probabilistic and Machine Learning Applications</b><br>
+                  Saikat Dutta, August Shi, Rutvik Choudhary, Zhekun Zhang, Aryaman Jain, <u>Sasa Misailovic</u><br>
+                  <i>29th ACM SIGSOFT International Symposium on Software Testing and Analysis</i><br>
+                  (<a href="https://conf.researchr.org/home/issta-2020" target="_blank" style="text-decoration: none;"><b><confname>ISSTA 2020</confname></b></a>), Los Angeles, CA, USA, July 2020. Acceptance rate 26% (43/162 papers)<br>
+                <a href="https://dl.acm.org/doi/10.1145/3395363.3397366" target="_blank">abstract</a> Â 
+ Â               <a href="https://www.saikatdutta.web.illinois.edu/papers/flash-issta20.pdf" target="_blank">full text</a> Â 
+ Â               <a href="https://github.com/uiuc-arc/flash" target="_blank">code</a>     &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+
+                  <li><dl><p><b>Speeding-up Iterative Graph Processing on a Shared-Memory Platform with Vertex Merging</b><br>
+                  Azin Heidarshenas, Serif Yesil, Dimitrios Skarlatos, <u>Sasa Misailovic</u>, Adam Morrison, Josep Torrellas<br>
+                  <i>34th International Conference on Supercomputing</i><br>
+                  (<a href="https://ics2020.bsc.es/" target="_blank" style="text-decoration: none;"><b><confname>ICS 2020</confname></b></a>), Barcelona, Spain, June 2020. Acceptance rate 30% (40/132 papers)<br>
+                <a href="https://dl.acm.org/doi/10.1145/3392717.3392739" target="_blank">abstract</a> Â 
+ Â               <a href="http://iacoma.cs.uiuc.edu/iacoma-papers/ics20_2.pdf" target="_blank">full text</a> Â  &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+                  <li><dl><p><b>Continualization of Probabilistic Programs With Correction</b><br>
+                  Jacob Laurel, <u>Sasa Misailovic</u><br>
+                  <i>29th European Symposium on Programming</i><br>
+                  (<a href="https://www.etaps.org/2020/esop" target="_blank" style="text-decoration: none;"><b><confname>ESOP 2020</confname></b></a>), Dublin, Ireland, April 2020. Acceptance rate 31% (27/87 papers)<br>
+                <a href="https://link.springer.com/chapter/10.1007/978-3-030-44914-8_14" target="_blank">abstract</a> Â 
+ Â               <a href="https://link.springer.com/content/pdf/10.1007%2F978-3-030-44914-8_14.pdf" target="_blank">full text</a> Â  &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+                  <li><dl><p><b>Programming Unreliable Hardware</b><br>
+                  Michael Carbin, <u>Sasa Misailovic</u><br>
+                  Book Chapter in <i>Foundations of Probabilistic Programming</i><br>
+                  (<a href="" target="_blank" style="text-decoration: none;"><b><confname>FOPP</confname></b></a>), Cambridge University Press, November 2020. <br>
+                <a href="https://www.cambridge.org/core/books/foundations-of-probabilistic-programming/programming-unreliable-hardware/A6854C9FF19C431AD04B3C98A57687E8" target="_blank">abstract</a> Â 
+ Â               <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A6854C9FF19C431AD04B3C98A57687E8/9781108488518c15_533-568.pdf/programming_unreliable_hardware.pdf" target="_blank">full text</a> Â  &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+               <li><dl><p><b>Exploiting Errors for Efficiency: A Survey from Circuits to Applications</b> <br>
+               Phillip Stanley-Marbell, Armin Alaghi, Michael Carbin, Eva Darulova, Lara Dolecek, Andreas Gerstlauer, Ghayoor Gillani, Djordje Jevdjic, Thierry Moreau, Mattia Cacciotti, Alexandros Daglis, Natalie Enright Jerger, Babak Falsafi, <u>Sasa Misailovic</u>, Adrian Sampson, Damien Zufferey <br>
+               (<a href="https://dl.acm.org/journal/csur" target="_blank" style="text-decoration: none;"><b><confname>ACM CSUR</confname></b></a>) <i>ACM Computing Surveys Journal</i>, July 2020 (Submitted June 2018)<br>
+                <a href="https://dl.acm.org/doi/abs/10.1145/3394898" target="_blank">abstract</a> Â 
+ Â               <a href="papers/csur-exploiting-errors-for-efficiency-2020.pdf" target="_blank">full text</a> Â 
+                <a href="https://arxiv.org/pdf/1809.05859" target="_blank">preprint</a>       &nbsp; &nbsp;  (Copyright 2020 by ACM, Inc.) Â      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+                  <li><dl><p><b>Predictive Constraint Solving and Analysis</b><br>
+                  Alyas Almaawi, Nima Dini, Cagdas Yelen, Milos Gligoric, <u>Sasa Misailovic</u>, Sarfraz Khurshid<br>
+                  <i>41st International Conference on Software Engineering, New Ideas and Emerging Results Track</i><br>
+                  (<a href="https://conf.researchr.org/track/icse-2020/icse-2020-New-Ideas-and-Emerging-Results?track=ICSE%20New%20Ideas%20and%20Emerging%20Results#program" target="_blank" style="text-decoration: none;"><b><confname>ICSE NIER 2020</confname></b></a>), 
+                  Seoul, South Korea, July 2020. <b>(Distinguished Paper Award)</b> <br>
+                <a href="https://dl.acm.org/doi/10.1145/3377816.3381740" target="_blank">abstract</a> Â 
+ Â               <a href="http://users.ece.utexas.edu/~gligoric/papers/AlmaawiETAL20PredictiveConstraintSolvingAndAnalysis.pdf" target="_blank">full text</a> Â      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+
+                <li><dl><p><b>Aloe: Verifying Reliability of Approximate Programs in the Presence of Recovery Mechanisms</b><br>
+                  Keyur Joshi, Vimuth Fernando, <u>Sasa Misailovic</u><br>
+                  <i>18th International Symposium on Code Generation and Optimization</i><br>
+                  (<a href="https://cgo-conference.github.io/cgo2020/" target="_blank" style="text-decoration: none;"><b><confname>CGO 2020</confname></b></a>), San Diego, CA, USA, February 2020. Acceptance rate 29% (26/89 papers)<br>
+                <a href="https://dl.acm.org/doi/abs/10.1145/3368826.3377924" target="_blank">abstract</a> Â 
+ Â               <a href="https://kpjoshi.com/papers/CGO2020.pdf" target="_blank">full text</a> Â 
+ Â               <a href="https://kpjoshi.com/papers/CGO2020_appendix.pdf" target="_blank">appendix</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+                <li><dl><p><b>Augmented Example-based Synthesis using Relational Perturbation Properties</b><br>
+                  Shengwei An, Rishabh Singh, <u>Sasa Misailovic</u>, Roopsha Samanta<br>
+                  <i>47th ACM SIGPLAN Symposium on Principles of Programming Languages </i><br>
+                  (<a href="https://popl20.sigplan.org/" target="_blank" style="text-decoration: none;"><b><confname>POPL 2020</confname></b></a>), New Orleans, LA, USA, January 2020. Acceptance rate 27% (68/247 papers)<br>
+                <a href="https://dl.acm.org/doi/10.1145/3371124" target="_blank">abstract</a> Â 
+ Â               <a href="https://www.cs.purdue.edu/homes/roopsha/papers/sketchax_popl20.pdf" target="_blank">full text</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+        </ol>
+
+                <a name="y19" id="y19" style="position:relative;"></a>
+                <h3>2019</h3>
+        <ol reversed>
+                <li><dl><p><b>Verifying Safety and Accuracy of Approximate Parallel Programs via Canonical Sequentialization</b><br>
+                  Vimuth Fernando, Keyur Joshi, <u>Sasa Misailovic</u><br>
+                  <i>34th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications</i><br>
+                  (<a href="https://conf.researchr.org/track/splash-2019/splash-2019-oopsla" target="_blank" style="text-decoration: none;"><b><confname>OOPSLA/SPLASH 2019</confname></b></a>), Athens, Greece, October 2019. Acceptance rate 36% (73/201 papers) <br>
+                <a href="papers/Parallely-OOPSLA19.pdf" target="_blank">abstract</a> Â 
+ Â               <a href="papers/Parallely-OOPSLA19.pdf" target="_blank">full text</a> Â 
+ Â               <a href="papers/Parallely-appendix.pdf" target="_blank">appendix</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+                <li><dl><p><b>ApproxHPVM: A Portable Compiler IR for Accuracy-aware Optimizations</b><br>
+                  Hashim Sharif, Prakalp Srivastava, Muhammad Huzaifa, Maria Kotsifakou, Keyur Joshi, Yasmin Sarita, Nathan Zhao, Vikram Adve, <u>Sasa Misailovic</u>, Sarita Adve<br>
+                  <i>34th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications</i><br>
+                  (<a href="https://conf.researchr.org/track/splash-2019/splash-2019-oopsla" target="_blank" style="text-decoration: none;"><b><confname>OOPSLA/SPLASH 2019</confname></b></a>), Athens, Greece, October 2019. Acceptance rate 36% (73/201 papers)<br> 
+                <a href="papers/ApproxHPVM-OOPSLA19.pdf" target="_blank">abstract</a> Â 
+ Â               <a href="papers/ApproxHPVM-OOPSLA19.pdf" target="_blank">full text</a> Â 
+ Â               <!--<a href="" target="_blank">source</a>-->      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+               <li><dl><p><b>Quantifying the Exploration of an Imperative Constraint Solver</b><br>
+                    Alyas Almaawi, Hayes Converse, Milos Gligoric, <u>Sasa Misailovic</u>, Sarfraz Khurshid<br>
+                    <i>Java PathFinder Workshop 2019 (Collocated with ASE 2019)</i><br> 
+                    (<a href="https://2019.ase-conferences.org/home/jpf-2019"
+                    target="_blank"  style="text-decoration: none;"><b><confname>JPF 2019</confname></b></a>), San Diego, CA, USA, November 2019. <br>
+                <a href="papers/jpf19-koratcount.pdf" target="_blank">abstract</a> Â 
+                <a target="_blank" href="papers/jpf19-koratcount.pdf">full
+                    text</a></p>
+                </dl></li>  
+
+                <li><dl><p><b>Storm: Program Reduction for Testing and Debugging Probabilistic Programming Systems</b><br>
+                Saikat Dutta, Wenxian Zhang, Zixin Huang, <u>Sasa Misailovic</u><br>
+                  <i>27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering</i><br>
+                  (<a href="https://esec-fse19.ut.ee/" target="_blank" style="text-decoration: none;"><b><confname>ESEC/FSE 2019</confname></b></a>), Talin, Estonia, August 2019. Acceptance rate 24% (74/303 papers)<br>
+                <a href="https://dl.acm.org/citation.cfm?id=3338972" target="_blank">abstract</a>
+ Â               <a href="papers/storm-fse19.pdf" target="_blank">full text</a> Â 
+ Â               <a href="https://github.com/uiuc-arc/Storm" target="_blank">source</a>      &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+        	    <li><dl><p><b>Identifying Optimal Parameters for Randomized Approximate Algorithms</b><br>
+                  Vimuth Fernando, Keyur Joshi, Darko Marinov, <u>Sasa Misailovic</u><br>
+                  <i>Workshop on Approximate Computing Across the Stack (Collocated with PLDI 2019)</i><br>
+                  (<a href="http://approximate.computer/wax2019/" target="_blank" style="text-decoration: none;"><b><confname>WAX 2019</confname></b></a>), Phoenix, AZ, June 2019.<br>
+                <a href="http://approximate.computer/wax2019/program.html" target="_blank">abstract</a> Â 
+ Â               <a href="http://approximate.computer/wax2019/papers/fernando.pdf" target="_blank">full text</a> Â  &nbsp; &nbsp;
+                    <br></p>
+                </dl></li> 
+
+        	    <li><dl><p><b>gem5-Approxilyzer: an Open Source Tool for Application-level Soft Error Analysis</b><br>
+                  Radha Venkatagiri, Khalique Ahmed, Abdulrahman Mahmoud, <u>Sasa Misailovic</u>, Darko Marinov, Christopher Fletcher, Sarita V. Adve <br>
+                  <i>The 49th IEEE/IFIP International Conference on Dependable Systems and Networks</i><br>
+                  (<a href="http://2019.dsn.org/" target="_blank" style="text-decoration: none;"><b><confname>DSN 2019</confname></b></a>), Portland, OR, June 2019. (Tool Paper)<br>
+                <a href="gem5-Approxilyzer: an Open Source Tool for Application-level Soft Error Analysis" target="_blank">abstract</a> Â 
+ Â               <a href="http://rsim.cs.illinois.edu/Pubs/19-DSN-gem5Approxilyzer.pdf" target="_blank">full text</a> Â       &nbsp; &nbsp;
+                    <br></p>
+                </dl></li> 
+
+        	    <li><dl><p><b>Does Approximation Make Testing Harder (or Easier)?</b><br>
+                  R. Iris Bahar, Ulya Karpuzcu, <u>Sasa Misailovic</u><br>
+                  <i>IEEE VLSI Test Symposium 2019 (Special Session on Approximate Computing)</i><br>
+                  (<a href="http://tttc-vts.org/public_html/new/2019/" target="_blank" style="text-decoration: none;"><b><confname>VTS 2019</confname></b></a>), Monterey, CA, April 2019. (Invited paper)<br>
+                <a href="https://ieeexplore.ieee.org/abstract/document/8758649" target="_blank">abstract</a> Â 
+ Â               <a href="https://ieeexplore.ieee.org/abstract/document/8758649" target="_blank">full text</a> Â  &nbsp; &nbsp; 
+                    <br></p>
+                </dl></li> 
+
+        	    <li><dl><p><b>Statistical Algorithmic Profiling for Randomized Approximate Programs</b><br>
+                  Keyur Joshi, Vimuth Fernando, <u>Sasa Misailovic</u><br>
+                  <i>41st ACM/IEEE International Conference on Software Engineering</i><br>
+                  (<a href="https://conf.researchr.org/home/icse-2019/" target="_blank" style="text-decoration: none;"><b><confname>ICSE 2019</confname></b></a>), Montreal, Canada, May 2019. Acceptance rate 21% (109/529 papers)<br>
+                <a href="https://dl.acm.org/citation.cfm?id=3339505.3339584" target="_blank">abstract</a> Â 
+ Â               <a href="papers/axprof-icse19.pdf" target="_blank">full text</a> Â 
+ Â               <a href="http://axprof.org" target="_blank">source</a>      &nbsp; &nbsp; 
+                    <br></p>
+                </dl></li> 
+
+        	    <li><dl><p><b>Resurgence of Regression Test Selection for C++</b><br>
+                  Ben Fu, <u>Sasa Misailovic</u>, Milos Gligoric <br>
+                  <i>12th IEEE Conference on Software Testing, Validation, and Verification</i><br>
+                  (<a href="http://icst2019.xjtu.edu.cn/" target="_blank" style="text-decoration: none;"><b><confname>ICST 2019</confname></b></a>), Xi'an, China, April 2019. Acceptance rate 28% (31/110 papers)<br>
+                <a href="https://ieeexplore.ieee.org/document/8730161" target="_blank">abstract</a> Â 
+ Â               <a href="http://users.ece.utexas.edu/~gligoric/papers/FuETAL19RTS++.pdf" target="_blank">full text</a> Â 
+                 &nbsp; &nbsp; 
+                    <br></p>
+                </dl></li> 
+
+                <li><dl><p><b>Replica: A Wireless Manycore for Communication-Intensive and Approximate Data</b><br>
+                Vimuth Fernando, Antonio Franques, Sergi Abadal, <u>Sasa Misailovic</u>, Josep Torrellas<br>
+                  <i>24th International Conference on Architectural Support for Programming Languages and Operating Systems </i><br>
+                  (<a href="https://asplos-conference.org/" target="_blank" style="text-decoration: none;"><b><confname>ASPLOS 2019</confname></b></a>), Providence, RI, USA, April 2019. Acceptance rate 21% (74/350 papers)<br>
+                <a href="https://dl.acm.org/citation.cfm?id=3304033" target="_blank">abstract</a> Â 
+ Â               <a href="papers/replica-asplos19.pdf" target="_blank">full text</a> Â 
+ Â                &nbsp; &nbsp; 
+                    <br></p>
+                </dl></li>  
+
+                <li><dl><p><b>Minotaur: Adapting Software Testing Techniques for Hardware
+              Errors</b><br>
+                Abdulrahman Mahmoud, Radha Venkatagiri, Khalique Ahmed, <u>Sasa Misailovic</u>, Darko Marinov, Christopher Fletcher, Sarita Adve<br>
+                  <i>24th International Conference on Architectural Support for Programming Languages and Operating Systems </i><br>
+                  (<a href="https://asplos-conference.org/" target="_blank" style="text-decoration: none;"><b><confname>ASPLOS 2019</confname></b></a>), Providence, RI, USA, April 2019. Acceptance rate 21% (74/350 papers)<br>
+                <a href="https://dl.acm.org/citation.cfm?id=3304050" target="_blank">abstract</a> Â 
+ Â               <a href="http://rsim.cs.illinois.edu/Pubs/19-ASPLOS-Minotaur.pdf" target="_blank">full text</a> Â 
+ Â                &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+        </ol>
+
+                <a name="y18" id="y18" style="position:relative;"></a>
+                <h3>2018</h3> 
+		<ol reversed>
+                <li><dl><p><b>Testing Probabilistic Programming Systems</b><br>
+                Saikat Dutta, Owolabi Legunsen, Zixin Huang, <u>Sasa Misailovic</u><br>
+                  <i>26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering</i><br>
+                  (<a href="https://conf.researchr.org/home/fse-2018" target="_blank" style="text-decoration: none;"><b><confname>ESEC/FSE 2018</confname></b></a>), Lake Buena Vista, FL, USA, November 2018. Acceptance rate 21%  (61/289 papers)<br>
+                <a href="https://dl.acm.org/citation.cfm?id=3236057" target="_blank">abstract</a> Â 
+ Â               <a href="papers/probfuzz-fse18.pdf" target="_blank">full text</a> Â 
+ Â               <a href="http://www.probfuzz.com/" target="_blank">source</a>      &nbsp; &nbsp; 
+                    <br></p>
+                </dl></li>  
+                <li><dl><p><b>A Progress Bar for the JPF Search Using Program Executions </b><br>
+                    Kaiyuan Wang, Hayes Converse, Milos Gligoric, <u>Sasa Misailovic</u>, Sarfraz Khurshid<br>
+                    <i>Java PathFinder Workshop 2018 (Collocated with ESEC/FSE 2018)</i><br> 
+                    (<a href="https://github.com/javapathfinder/jpf-core/wiki/JPF-Workshop-2018"
+                    target="_blank"  style="text-decoration: none;"><b><confname>JPF 2018</confname></b></a>), Lake Buena Vista, FL, USA, November 2018.<br>
+                    <a href="https://dl.acm.org/citation.cfm?id=3302419" target="_blank">abstract</a> Â 
+ Â                   <a href="http://users.ece.utexas.edu/~gligoric/papers/WangETAL18JPFBar.pdf" target="_blank">full text</a> Â Â  Â </p>
+
+                </dl></li>  
+                <li><dl><p><b>PSense: Automatic Sensitivity Analysis for Probabilistic Programs</b><br>
+                Zixin Huang, Zhenbang Wang, <u>Sasa Misailovic</u><br>
+                  <i>16th International Symposium on Automated Technology for Verification and Analysis</i><br>
+                  (<a href="http://atva-conference.org/" target="_blank" style="text-decoration: none;"><b><confname>ATVA 2018</confname></b></a>), Los Angeles, CA, USA, October 2018.<br>
+                <a href="" target="_blank">abstract</a> Â 
+ Â               <a href="papers/psense-atva18.pdf" target="_blank">full text</a> Â 
+ Â               <a href="http://psense.info/" target="_blank">source</a>    &nbsp; &nbsp;
+                    <br></p>
+                </dl></li>  
+
+                <li><dl><p><b>VideoChef: Efficient Approximation for Streaming Video Processing Pipelines</b><br>
+                Ran Xu, Jinkyu Koo, Rakesh Kumar, Peter Bai, Subrata Mitra, <u>Sasa Misailovic</u>, Saurabh Bagchi<br>
+                  <i>2018 USENIX Annual Technical Conference</i><br>
+                  (<a href="https://www.usenix.org/conference/atc18" target="_blank" style="text-decoration: none;"><b><confname>USENIX ATC 2018</confname></b></a>), Boston, MA, USA, July 2018. Acceptance rate 20%  (76/378 papers)<br>
+                <a href="https://www.usenix.org/conference/atc18/presentation/xu-ran" target="_blank">abstract</a> Â 
+ Â               <a href="https://engineering.purdue.edu/dcsl/publications/papers/2018/final_videochef_usenixatc18_cameraready.pdf" target="_blank">full text</a>  &nbsp; &nbsp; 
+                    <br></p>
+                </dl></li>  
+
+                <li><dl><p><b>Bayonet: Probabilistic Inference for Networks</b><br>
+                Timon Gehr, <u>Sasa Misailovic</u>, Petar Tsankov, Laurent Vanbever, Pascal Wiesman, Martin Vechev<br>
+                  <i>39th ACM SIGPLAN Conference on Programming Language Design and Implementation</i><br>
+                  (<a href="https://pldi18.sigplan.org/" target="_blank" style="text-decoration: none;"><b><confname>PLDI 2018</confname></b></a>), Philadelphia, PA, USA, June 2018. Acceptance rate 22%  (55/245 papers)<br>
+                <a href="https://dl.acm.org/citation.cfm?id=3192400" target="_blank">abstract</a> Â 
+ Â               <a href="papers/bayonet-pldi18.pdf" target="_blank">full text</a>  &nbsp; &nbsp; 
+                    <br></p>
+                </dl></li>  
+
+
+                <li><dl><p><b>Approximate Transformations as Mutation Operators</b><br>
+                Farah Hariri, August Shi, Owolabi Legunsen, Milos Gligoric, Sarfraz Khurshid, <u>Sasa Misailovic</u><br>
+                  <i>11th IEEE Conference on Software Testing, Validation, and Verification</i><br>
+                  (<a href="http://www.es.mdh.se/icst2018/" target="_blank" style="text-decoration: none;"><b><confname>ICST 2018</confname></b></a>), Vasteras, Sweden, April 2018. Acceptance rate 25%  (30/119 papers)<br>
+                <a href="https://ieeexplore.ieee.org/abstract/document/8367056/" target="_blank">abstract</a> Â 
+ Â               <a href="http://users.ece.utexas.edu/~gligoric/papers/HaririETAL18ApproximateTransformationsAsMutationOperators.pdf" target="_blank">full text</a>  &nbsp; &nbsp; 
+                    <br></p>
+                </dl></li>  
+
+
+                <li><dl><p><b>Language Semantics Driven Design and Formal Analysis for Distributed Cyber-Physical Systems</b><br>
+                Ritwika Ghosh, <u>Sasa Misailovic</u>, Sayan Mitra<br>
+                  <i>Workshop on Advanced Tools, Programming Languages, and Platforms for Implementing and Evaluating Agorithms for Distributed Systems (Collocated with PODC 2018)</i><br>
+                  (<a href="http://www.cse.chalmers.se/~elad/ApPLIED2018/" target="_blank" style="text-decoration: none;"><b><confname>APPLIED 2018</confname></b></a>), Royal Holloway, United Kingdom<br>
+                <a href="https://dl.acm.org/doi/10.1145/3231104.3231958" target="_blank">abstract</a> Â 
+ Â               <a href="https://dl.acm.org/doi/10.1145/3231104.3231958" target="_blank">full text</a>  &nbsp; &nbsp; 
+                    <br></p>
+                </dl></li>  
+
+            </ol>
+            <a name="y17" id="y17" style="position:relative;"></a>
+            <h3>2017</h3>
+            <ol reversed>
+
+                <li><p><b>Mutation Testing Meets Approximate Computing</b><br>
+                    Milos Gligoric, Sarfraz Khurshid, <u>Sasa Misailovic</u>, August Shi<br>
+                    <i>38th International Conference on Software Engineering, New Ideas and Emerging Results Track</i><br> 
+                    (<a href="http://icse2017.gatech.edu/?q=nier"
+                    target="_blank"  style="text-decoration: none;"><b><confname>ICSE NIER 2017</confname></b></a>), Buenos Aires, Argentina, May 2017. Acceptance rate 16% (14/85 papers)<br>
+                <a target="_blank" href="http://mir.cs.illinois.edu/awshi2/publications/ICSENIER2017.pdf">full
+                    text</a> Â  Â </p>
+                </li>
+
+                <li><p><b>Leveraging Software Testing to Explore Input Dependence for Approximate Computing</b><br>
+                    Abdulrahman Mahmoud, Radha Venkatagiri, Khalique Ahmed, Sarita V. Adve, Darko Marinov, <u>Sasa Misailovic</u><br>
+                    <i>Workshop on Approximate Computing Across the Stack</i> (Collocated with ASPLOS 2017)<br> 
+                    (<a href="http://approximate.computer/wax2017/"
+                    target="_blank"  style="text-decoration: none;"><b><confname>WAX 2017</confname></b></a>), Xi'an, China, April 2017<br>
+                     <a target="_blank"
+                    href="http://rsim.cs.illinois.edu/~amahmou2/pdf/WAX17.pdf">full
+                    text</a> Â  Â </p>
+                </li>
+
+                <li><dl><p><b>Phase-Aware Optimization in Approximate Computing</b><br>
+                Subrata Mitra, Manish Gupta, <u>Sasa Misailovic</u>, Saurabh Bagchi<br>
+                  <i>15th International Symposium on Code Generation and Optimization</i><br>
+                  (<a href="http://cgo.org/cgo2017/" target="_blank" style="text-decoration: none;"><b><confname>CGO 2017</confname></b></a>), Austin, Texas, USA, February 2017. Acceptance rate 23%  (26/114 papers)<br>
+		        <a href="https://dl.acm.org/citation.cfm?id=3049853" target="_blank">abstract</a> Â 
+ Â 		        <a href="http://misailo.cs.illinois.edu/papers/cgo_paper2017.pdf" target="_blank">full text</a>  &nbsp; &nbsp; 
+                    <br></p>
+                </dl></li>  
+
+
+                <li><dl><p><b>Control Strategies for Self-Adaptive Software Systems</b><br>
+                Antonio Filieri, Martina Maggio, Konstantinos Angelopoulos, Nicolas D'Ippolito, Ilias Gerostathopoulos, Andreas Hempel, Henry Hoffmann, Pooyan Jamshidi, Evangelia Kalyvianaki, Cristian Klein, Filip Krikava, <u>Sasa Misailovic</u>, Alessandro Papadopoulos, Suprio Ray, Amir Molzam Sharifloo, Stepan Shevtsov, Mateusz Ujma, Thomas Vogel. <br>
+                  <i>ACM Transactions on Autonomous and Adaptive Systems, Volume 11(4)</i><br>
+                  (<a href="http://taas.acm.org/" target="_blank"  style="text-decoration: none;"><b><confname>ACM TAAS</confname></b></a>), February 2017. Submitted September 2015.<br>
+          <a href="http://dl.acm.org/citation.cfm?id=3024188" target="_blank">abstract</a> Â 
+ Â         <a href="https://spiral.imperial.ac.uk/bitstream/10044/1/48188/2/paper.pdf" target="_blank">full text</a>  &nbsp; &nbsp; (Copyright 2017 by ACM, Inc.)
+                    <br>
+                    </p>
+                </dl></li>  
+
+            </ol>
+            <a name="y16" id="y16" style="position:relative;"></a>
+            <h3>2016</h3>
+            <ol reversed>
+
+                <li><dl><p><b>Verifying Quantitative Reliability for Programs that Execute on Unreliable Hardware</b><br>
+                Michael Carbin, <u>Sasa Misailovic</u>, Martin C. Rinard<br>
+                <i>Communications of the ACM, Volume 59 Number 8</i>. <br>
+                  (<a href="http://cacm.acm.org/" target="_blank"  style="text-decoration: none;"><b><confname>CACM</confname></b></a>), August 2016. Submitted July 2015. Invited Research Highlight.<br>
+                    <a href="http://dl.acm.org/citation.cfm?id=2975594.2958738"
+                    target="_blank">abstract</a> Â  Â <a
+                    href="http://cacm.acm.org/magazines/2016/8/205040-verifying-quantitative-reliability-for-programs-that-execute-on-unreliable-hardware/fulltext"
+                    target="_blank">full text</a> Â  Â <a
+                    href="http://cacm.acm.org/magazines/2016/8/205042-technical-perspective-toward-reliable-programming-for-unreliable-hardware/fulltext"
+                    target="_blank">introduction by Todd Millstein</a> Â  Â 
+                    (Copyright 2016 by ACM, Inc.)</p>
+                </dl></li>
+
+                <li><dl><p><b>PSI: Exact Symbolic Inference for Probabilistic Programs</b><br>
+                Timon Gehr, <u>Sasa Misailovic</u>, Martin Vechev<br>
+                  <i>28th International Conference on Computer Aided Verification</i><br>
+                  (<a href="http://i-cav.org/2016/" target="_blank"  style="text-decoration: none;"><b><confname>CAV 2016</confname></b></a>), Toronto, Ontario, Canada, July 2016. Acceptance rate 28%  (46/165 papers)<br>
+		  <a href="http://link.springer.com/chapter/10.1007/978-3-319-41528-4_4" target="_blank">abstract</a> Â 
+ Â 		  <a href="papers/psi-cav16.pdf" target="_blank">full text</a> Â 
+ Â 		  <a href="http://psisolver.org/" target="_blank">source</a>  &nbsp; &nbsp; 
+                    <br>
+                    </p>
+                </dl></li>  
+
+
+            </ol>
+            <a name="y15" id="y15" style="position:relative;"></a>
+            <h3>2015</h3>
+            <ol reversed>
+
+                <li><p><b>Accuracy-Aware Optimization of Approximate Programs</b><br>
+                    <u>Sasa Misailovic</u><br>
+                    <i>International Conference on Compilers, Architecture and Synthesis for Embedded Systems</i><br> 
+                    (<a href="http://esweek.acm.org/cases/"
+                    target="_blank"  style="text-decoration: none;"><b><confname>CASES 2015</confname></b></a>), Amsterdam, Netherlands, October 2015. Invited Extended Abstract<br>
+                    <a target="_blank"
+                       href="http://dl.acm.org/citation.cfm?id=2830696">full
+                    text</a> Â  Â </p>
+                </li>
+
+
+               <li><p><b>Accuracy-Aware Optimization of Approximate Programs</b> <br>
+               <u>Sasa Misailovic</u><br>
+               <i>PhD Thesis</i>, August 2015.<br>
+               <a href="papers/misailovic-accuracy-aware-optimization.pdf" target="_blank">full text</a>
+               </li>
+
+
+                <li><dl><p><b>Software Engineering Meets Control Theory</b><br>
+                Antonio Filieri, Martina Maggio, Konstantinos Angelopoulos, Nicolas D'Ippolito, Ilias Gerostathopoulos, Andreas Hempel, Henry Hoffmann, Pooyan Jamshidi, Evangelia Kalyvianaki, Cristian Klein, Filip Krikava, <u>Sasa Misailovic</u>, Alessandro Papadopoulos, Suprio Ray, Amir Molzam Sharifloo, Stepan Shevtsov, Mateusz Ujma, Thomas Vogel. <br>
+                  <i>10th International Symposium on Software Engineering for Adaptive and Self-Managing Systems</i><br>
+                  (<a href="http://www.disim.univaq.it/seams2015/" target="_blank"  style="text-decoration: none;"><b><confname>SEAMS 2015</confname></b></a>), Firenze, Italy, May 2015. Acceptance rate 29%  (16/55 papers)<br>
+                  <b>Test-of-Time award at SEAMS 2015</b><br>
+		  <a href="papers/2015-seams.pdf" target="_blank">abstract</a> Â 
+ Â 		  <a href="papers/2015-seams.pdf" target="_blank">full text</a>  &nbsp; &nbsp; 
+                    <br>
+                    </p>
+                </dl></li>  
+
+            </ol>
+            <a name="y14" id="y14" style="position:relative;"></a>
+            <h3>2014</h3>
+            <ol reversed>
+                <li><dl><p><b>Chisel: Reliability- and Accuracy-Aware Optimization of Approximate Computational Kernels</b><br>
+                <u>Sasa Misailovic</u>, Michael Carbin, Sara Achour, Zichao Qi, Martin C. Rinard<br>
+                  <i>29th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications</i><br>
+                  (<a href="http://splashcon.org/2014/" target="_blank"  style="text-decoration: none;"><b><confname>OOPSLA/SPLASH 2014</confname></b></a>), Portland, OR, USA, October 2014. Acceptance rate 28%  (52/185 papers)<br>
+                    <b>(Best Paper Award)</b>
+                    <br>
+		  <a href="http://dx.doi.org/10.1145/2660193.2660231" target="_blank">abstract</a> Â 
+ Â 		  <a href="http://people.csail.mit.edu/misailo/papers/oopsla14.pdf" target="_blank">full text</a>  &nbsp; &nbsp; 
+                    <br>
+                    </p>
+                </dl></li>  
+
+                <li><p><b>Accuracy-Aware Program Transformations</b><br>
+                    <u>Sasa Misailovic</u><br>
+                    <i>First SIGPLAN Workshop on Probabilistic and Approximate Computing</i> (Collocated with PLDI 2014)<br> 
+                    (<a href="http://approx2014.cs.umass.edu/"
+                    target="_blank"  style="text-decoration: none;"><b><confname>APPROX 2014</confname></b></a>), Edinburgh, UK, June 2014. Invited Position Paper<br>
+                     <a target="_blank"
+                    href="http://misailo.cs.illinois.edu/papers/approx14.pdf">full
+                    text</a> Â  Â </p>
+                </li>
+
+                 <li><p><b>Synthesis of Randomized Accuracy-Aware Map-Fold Programs</b><br>
+                    <u>Sasa Misailovic</u>, Martin C. Rinard <br>
+                    <i>Workshop on Approximate Computing Across the System Stack</i> (Collocated with ASPLOS 2014)<br>
+                    (<a href="http://http://sampa.cs.washington.edu/wacas14/"
+                    target="_blank"  style="text-decoration: none;"><b><confname>WACAS 2014</confname></b></a>), Salt Lake City, UT, February 2014<br>
+                    <a target="_blank"
+                    href="http://sampa.cs.washington.edu/wacas14/papers/misailovic.pdf">full
+                    text</a> Â  Â </p>
+                  </li>
+
+            </ol>
+            <a name="y13" id="y13" style="position:relative;"></a>
+            <h3>2013</h3>
+            <ol reversed>
+
+               <li><dl><p><b>Verifying Quantitative Reliability for Programs that Execute on Unreliable Hardware</b><br>
+               Michael Carbin, <u>Sasa Misailovic</u>, Martin C. Rinard<br>
+                <i>28th ACM SIGPLAN Conference on Object-Oriented Programming,
+            Systems, Languages and Applications</i><br>
+              (<a href="http://splashcon.org/2013/" target="_blank"  style="text-decoration: none;"><b><confname>OOPSLA/SPLASH 2013</confname></b></a>), Indianapolis, IN, USA, October 2013. Acceptance rate 26% (50/189 papers) <br>
+              <b>(Best Paper Award)</b>
+              <br>
+              <a href="http://dl.acm.org/citation.cfm?id=2509546" target="_blank">abstract</a> Â 
+             Â <a href="http://people.csail.mit.edu/misailo/papers/rely13.pdf" target="_blank">full text</a> Â  Â  <a href="http://web.mit.edu/newsoffice/2013/how-to-program-unreliable-chips-1104.html"
+                target="_blank">MIT News article</a> Â  Â  <a href="http://developers.slashdot.org/story/13/11/04/1254253/new-framework-for-programming-unreliable-chips"
+                target="_blank">Slashdot article</a>   
+                </p>
+               </dl></li>
+
+                <li><dl><p><b>Parallelizing Sequential Programs With Statistical Accuracy Tests</b><br>
+                <u>Sasa Misailovic</u>, Deokhwan Kim, Martin C. Rinard<br>
+                <i>ACM Transactions on Embedded Computing Systems - Special Section on Probabilistic Embedded Computing</i>. <br>
+                  (<a href="http://acmtecs.acm.org/si/11/pec.htm" target="_blank"  style="text-decoration: none;"><b><confname>ACM TECS PEC</confname></b></a>), May 2013. Submitted September 2011. Invited paper.<br>
+                    <a href="http://dl.acm.org/citation.cfm?id=2465790"
+                    target="_blank">abstract</a> Â  Â <a
+                    href="http://people.csail.mit.edu/rinard/paper/tecs13AccuracyTests.pdf"
+                    target="_blank">full text</a> Â  Â 
+                    (Copyright 2013 by ACM, Inc.)</p>
+                </dl></li>
+
+                  <li><p><b>Verified Integrity Properties for Safe Approximate Program Transformations</b><br>
+                    Michael Carbin, Deokhwan Kim, <u>Sasa Misailovic</u>, Martin C. Rinard <br>
+                    <i>Workshop on Partial Evaluation and Program Manipulation</i> (Collocated with POPL 2013)<br>
+                    (<a href="http://www.program-transformation.org/PEPM13"
+                    target="_blank"  style="text-decoration: none;"><b><confname>PEPM 2013</confname></b></a>), Rome, Italy, January 2013<br>
+                    <a target="_blank"
+                    href="http://people.csail.mit.edu/rinard/paper/pepm13.pdf">full
+                    text</a> Â  Â </p>
+                  </li>
+
+            </ol>
+            <a name="y12" id="y12" style="position:relative;"></a>
+            <h3>2012</h3>
+            <ol reversed>
+
+              <li><dl><p><b>Bolt: On-Demand Infinite Loop Escape in Unmodified Binaries</b><br>
+              Michael Kling, <u>Sasa Misailovic</u>, Michael Carbin,  Martin C. Rinard<br>
+              <i>27th ACM SIGPLAN Conference on Object-Oriented Programming,
+            Systems, Languages and Applications</i> <br>
+              (<a href="http://splashcon.org/2012/" target="_blank"  style="text-decoration: none;"><b><confname>OOPSLA/SPLASH 2012</confname></b></a>), Tucson, AZ, USA, October 2012. Acceptance rate 26%  (59/228 papers)
+            <br>
+              <a href="http://dx.doi.org/10.1145/2398857.2384648" target="_blank">abstract</a> Â  Â <a href="http://people.csail.mit.edu/rinard/paper/oopsla12.pdf" target="_blank">full text</a>  Â  Â  
+              </p>
+              </dl></li>  
+             
+                  <li><p><b>Dancing With Uncertainty</b><br>
+                    <u>Sasa Misailovic</u>, Stelios Sidiroglou, Martin C. Rinard <br>
+                    <i>ACM Workshop on Relaxing Synchronization for Multicore and Manycore Scalability</i> (Collocated with OOPSLA 2012)<br>
+                    (<a href="http://soft.vub.ac.be/races/"
+                    target="_blank"  style="text-decoration: none;"><b><confname>RACES 2012</confname></b></a>), Tucson, AZ, October 2012<br>
+                    <a href="http://dl.acm.org/citation.cfm?id=2414738&CFID=216881096&CFTOKEN=28411459" target="_blank">abstract</a> Â  Â <a target="_blank"
+                    href="https://people.csail.mit.edu/stelios/papers/races12.dubstep.pdf">full
+                    text</a> Â  Â </p> 
+                  </li>
+
+               <li><dl><p><b>Proving Acceptability Properties of Relaxed Nondeterministic Approximate Programs</b><br>
+               Michael Carbin, Deokhwan Kim, <u>Sasa Misailovic</u>, Martin C. Rinard<br>
+               <i>33rd ACM SIGPLAN Conference on Programming Language Design and Implementation</i> <br>
+              (<a href="http://pldi12.cs.purdue.edu/" target="_blank"  style="text-decoration: none;"><b><confname>PLDI 2012</confname></b></a>), Beijing, China, June 2012.  Acceptance rate 19% (48/255 papers)  
+            <br>
+              <a href="http://dl.acm.org/citation.cfm?id=2254086" target="_blank">abstract</a> Â  Â <a href="http://people.csail.mit.edu/rinard/paper/pldi12.relaxed.pdf" target="_blank">full text</a>  Â  Â  <a href="http://www.eecs.mit.edu/news-events/media/rinard-develops-new-framework-verify-programming-techniques"
+                target="_blank">MIT News Article</a>   
+                </p>
+               </dl></li>
+
+
+
+              <li><dl><p><b>Randomized Accuracy-Aware Program Transformations for Efficient Approximate Computations</b><br>
+              Zeyuan Allen Zhu, <u>Sasa Misailovic</u>, Jonathan Kelner, Martin C. Rinard<br>
+              <i>39th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages.</i> <br>
+              (<a href="http://www.cse.psu.edu/popl/12/" target="_blank"  style="text-decoration: none;"><b><confname>POPL 2012</confname></b></a>), Philadelphia, PA, USA, January 2012.  Acceptance rate 21% (44/205 papers)  
+            <br>
+              <a href="http://dl.acm.org/citation.cfm?id=2103656.2103710&coll=DL&dl=ACM&CFID=68766093&CFTOKEN=31301725" target="_blank">abstract</a> Â  Â <a
+                href="http://people.csail.mit.edu/misailo/papers/popl12.pdf"
+                target="_blank">full text</a>
+            </p>
+              </dl></li>  
+
+            </ol>
+            <a name="y11" id="y11" style="position:relative;"></a>
+            <h3>2011</h3>
+            <ol reversed>
+
+              <li><dl><p><b>Probabilistically Accurate Program Transformations</b><br>
+              <u>Sasa Misailovic</u>, Daniel M. Roy, Martin C. Rinard<br>
+              <i>18th International Static Analysis Symposium.</i> <br>
+              (<a href="http://sas2011.cs.technion.ac.il/" target="_blank"  style="text-decoration: none;"><b><confname>SAS 2011</confname></b></a>), Venice, Italy, September 2011.  Acceptance rate 33% (22/67 papers)  
+            <br>
+              <a href="http://www.springerlink.com/content/e17475252j86h20m/" target="_blank">abstract</a> Â  Â <a
+                href="http://people.csail.mit.edu/misailo/papers/sas2011.pdf"
+                target="_blank">full text</a><!-- Â  Â <a
+                href="http://people.csail.mit.edu/misailo/papers/misailovic-sas.ppsx"
+                target="_blank">slides</a> Â  Â -->
+            </p>
+              </dl></li>  
+
+
+              <li><dl><p><b>Managing Performance vs. Accuracy Trade-offs With Loop Perforation</b><br>
+              Stelios Sidiroglou, <u>Sasa Misailovic</u>, Henry Hoffmann, Martin C. Rinard<br>
+              <i>8th joint meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering<br></i>
+              (<a href="http://2011.esec-fse.org/" target="_blank" 
+                style="text-decoration: none;"><b><confname>ESEC/FSE 2011</confname></b></a>), Szeged, Hungary, September 2011. Acceptance rate  17% (34/203 papers)<br>
+              <a href="http://dl.acm.org/citation.cfm?id=2025133" target="_blank">abstract</a> Â  Â <a
+                href="http://people.csail.mit.edu/misailo/papers/fse2011.pdf"
+                target="_blank">full text</a> Â  Â 
+            </p>
+              </dl></li>
+
+
+              <li><dl><p><b>Detecting and Escaping Infinite Loops with Jolt</b><br>
+              Michael Carbin, <u>Sasa Misailovic</u>, Michael Kling, Martin C. Rinard<br>
+              <i>25th European Conference on Object-Oriented Programming.</i> <br>
+              (<a href="http://ecoop11.comp.lancs.ac.uk/" target="_blank"  style="text-decoration: none;"><b><confname>ECOOP 2011</confname></b></a>), Lancaster, UK, July 2011. Acceptance rate 26%  (26/100 papers)
+            <br>
+              <a href="http://www.springerlink.com/content/d6543323302v575q/" target="_blank">abstract</a> Â  Â <a
+                href="http://people.csail.mit.edu/rinard/paper/ecoop11.pdf"
+                target="_blank">full text</a> Â  Â  <a href="http://web.mit.edu/newsoffice/2011/infinite-loops-interrupt-0802.html"
+                target="_blank">MIT News article</a> Â  Â  <a href="http://developers.slashdot.org/story/11/08/02/2031215/Escaping-Infinite-Loops"
+                target="_blank">Slashdot article</a>    </p>
+            </p>
+
+              </dl></li>  
+
+
+              <li><dl><p><b>Dynamic Knobs for Responsive Power-Aware Computing</b><br>
+              Henry Hoffmann, Stelios Sidiroglou, Michael Carbin, <u>Sasa Misailovic</u>, Anant Agarwal, Martin C. Rinard<br>
+              <i>15th International Conference on Architectural Support for Programming Languages and Operating Systems.</i> <br>
+              (<a href="http://asplos11.cs.ucr.edu/" target="_blank"  style="text-decoration: none;"><b><confname>ASPLOS 2011</confname></b></a>), Newport Beach, CA, USA, March 2011. Acceptance rate 21% (32/152 papers) 
+            <br>
+                <a href="http://portal.acm.org/citation.cfm?id=1950390"
+                target="_blank">abstract</a> Â  Â <a
+                href="http://groups.csail.mit.edu/cag/codeperf/HoffmannETAL11DynamicKnobs.pdf"
+                target="_blank">full text</a> Â  Â 
+            </p>
+              </dl></li>  
+
+            </ol>
+            <a name="y10" id="y10" style="position:relative;"></a>
+            <h3>2010</h3>
+            <ol reversed>
+
+              <li><dl><p><b>Patterns and Statistical Analysis for Understanding Reduced Resource Computing</b><br>
+              Martin C. Rinard, Henry Hoffmann, <u>Sasa Misailovic</u>, Stelios Sidiroglou<br>
+              <i>Onward! 2010 Conference<br></i>
+              (<a href="http://www.onward-conference.org/" target="_blank" 
+                style="text-decoration: none;"><b><confname>Onward! 2010</confname></b></a>), Reno-Tahoe, NV, USA, October 2010. Acceptance rate 25% (9/36 papers)<br>
+                <a href="http://portal.acm.org/citation.cfm?id=1869459.1869525"
+                target="_blank">abstract</a> Â  Â <a
+                href="http://people.csail.mit.edu/stelios/papers/reduced_onward10.pdf"
+                target="_blank">full text</a> Â  Â 
+            </p>
+              </dl></li>
+
+              <li><dl><p><b>Quality of Service Profiling</b><br>
+              <u>Sasa Misailovic</u>, Stelios Sidiroglou, Henry Hoffmann, Martin C. Rinard<br>
+              <i>32nd International Conference on Software Engineering<br></i>
+              (<a href="http://www.sbs.co.za/ICSE2010/" target="_blank" 
+                style="text-decoration: none;"><b><confname>ICSE 2010</confname></b></a>), Cape Town, South Africa, May 2010. Acceptance rate 14% (54/380 papers)<br>
+                <a href="http://portal.acm.org/citation.cfm?id=1806808"
+                target="_blank">abstract</a> Â  Â <a
+                href="http://people.csail.mit.edu/misailo/papers/MisailovicETAL10QosProfiling.pdf"
+                target="_blank">full text</a> Â  Â   <a href="http://web.mit.edu/newsoffice/2010/situationally-award-0513"
+                target="_blank">MIT News article</a>    </p>
+              </dl></li>
+
+            </ol>
+            <a name="y07" id="y07" style="position:relative;"></a>
+            <h3>2007</h3>
+            <ol reversed>
+
+              <li><dl><p><b>Parallel Test Generation and Execution with Korat</b><br>
+              <u>Sasa Misailovic</u>, Aleksandar Milicevic, Nemanja Petrovic, Sarfraz Khurshid, Darko Marinov<br>
+                <i>6th joint meeting of the European Software Engineering Conference and
+                the ACM SIGSOFT Symposium on the Foundations of Software Engineering <br>
+                </i>(<a href="http://www.idt.mdh.se/esec-fse-2007/" target="_blank" 
+                style="text-decoration: none;"><b><confname>ESEC/FSE
+                2007</confname></b></a>), Dubrovnik, Croatia, September 2007.
+                Acceptance rate 17% (43/251 papers)<br>
+                <a href="http://portal.acm.org/citation.cfm?doid=1287624.1287645"
+                target="_blank">abstract</a> Â  Â <a
+                href="http://mir.cs.uiuc.edu/%7Emarinov/publications/MisailovicETAL07ParallelKorat.pdf"
+                target="_blank">full text</a> Â  Â </p>
+              </dl></li>
+
+                  <li><p><b>Generating Test Inputs for Fault-Tree Analyzers using Imperative Predicates</b><br>
+                    <u>Sasa Misailovic</u>, Aleksandar Milicevic, Sarfraz Khurshid, Darko Marinov <br>
+                    <i>Workshop on Advances and Innovations in Systems Testing</i><br>
+                    (<a href="http://www.cs.memphis.edu/%7Evrus/STEP/"
+                    target="_blank"  style="text-decoration: none;"><b><confname>STEP 2007</confname></b></a>),  Memphis, TN, May 2007. Invited paper<br>
+                    <a target="_blank"
+                    href="http://mir.cs.uiuc.edu/%7Emarinov/publications/MisailovicETAL07KoratFaultTrees.pdf">full
+                    text</a> Â  Â </p>
+                  </li>
+
+
+                  <li><p><b>Korat: A Tool for Generating Structurally Complex Test Inputs</b><br>
+                    Aleksandar Milicevic, <u>Sasa Misailovic</u>, Darko Marinov, Sarfraz Khurshid<br>
+                    Formal research demonstration at the <i>29th International Conference on
+                    Software Engineering</i> <br>
+                    (<a href="http://web4.cs.ucl.ac.uk/icse07/" target="_blank" 
+                    style="text-decoration: none;"><b><confname>ICSE Demo
+                    2007</confname></b></a>), Minneapolis, MN, May 2007. Acceptance rate:
+                    22% (12/56 papers)<br>
+                    <a
+                    href="http://portal.acm.org/citation.cfm?id=1248913&amp;coll=GUIDE&amp;dl=GUIDE&amp;CFID=36111031&amp;CFTOKEN=28957141"
+                    target="_blank">abstract</a> Â  <a
+                    href="http://mir.cs.uiuc.edu/%7Emarinov/publications/MilicevicETAL07KoratDemo.pdf">Â full
+                    text </a>Â  Â </p>
+                  </li>
+
+            </ol>    
+
+            <a name="techreports" id="techreports" style="position:relative; top: -50px;">&nbsp;</a>
+            <h2>Technical Reports&nbsp;&nbsp;<a href="#home"
+                    class="anchorLink"><img src="assets/img/up.jpg"style="vertical-align:middle"
+                    width="15" height="15" border="0"></a></h2>
+
+            <br>
+            <ol reversed>
+
+               <li><p><b>Exploiting Errors for Efficiency: A Survey from Circuits to Algorithms</b> <br>
+               Phillip Stanley-Marbell, Armin Alaghi, Michael Carbin, Eva Darulova, Lara Dolecek, Andreas Gerstlauer, Ghayoor Gillani, Djordje Jevdjic, Thierry Moreau, Mattia Cacciotti, Alexandros Daglis, Natalie Enright Jerger, Babak Falsafi, <u>Sasa Misailovic</u>, Adrian Sampson, Damien Zufferey <br>
+               <i>ArXiv Preprint arXiv:1809.05859</i>, September 2018.<br>
+               <a href="https://arxiv.org/pdf/1809.05859" target="_blank">full text</a>
+
+
+
+               <li><p><b>Approximate and Probabilistic Computing: Design, Coding, Verification </b> <br>
+               Antonio Filieri, Marta Kwiatkowska, <u>Sasa Misailovic</u>, Todd Mytkowicz<br>
+               <i>Dagstuhl Seminar Report 15491</i>, Jaunary 2016.<br>
+               <a href="http://drops.dagstuhl.de/opus/volltexte/2016/5800/" target="_blank">full text</a>
+
+               <li><p><b>Reliability-Aware Optimization of Approximate Computational Kernels with Rely</b> <br>
+               <u>Sasa Misailovic</u>, Michael Carbin, Sara Achour, Zichao Qi, Martin Rinard<br>
+               <i>MIT-CSAIL-TR-2014-001</i>, January 2014.<br>
+               <a href="http://dspace.mit.edu/handle/1721.1/83843" target="_blank">full text</a>
+
+               <li><p><b>Synthesis of Randomized Accuracy-Aware Map-Fold Programs</b><br>
+               <u>Sasa Misailovic</u>, Martin C. Rinard<br>
+               <i>MIT-CSAIL-TR-2013-031</i>, December 2013.<br>
+               <a href="http://dspace.mit.edu/handle/1721.1/83397" target="_blank">full text</a>
+
+               <li><p><b>Verifying Quantitative Reliability of Programs That Execute on Unreliable Hardware</b><br>
+               Michael Carbin, <u>Sasa Misailovic</u>, Martin C. Rinard<br>
+               <i>MIT-CSAIL-TR-2013-014</i>, June 2013.<br>
+               <a href="http://hdl.handle.net/1721.1/79355" target="_blank">full text</a>
+
+               <li><p><b>Reasoning about Relaxed Programs</b> <br>
+               Michael Carbin, Deokhwan Kim, <u>Sasa Misailovic</u>, Martin C. Rinard<br>
+               <i>MIT-CSAIL-TR-2011-050</i>, December 2011.<br>
+               <a href="http://hdl.handle.net/1721.1/67031" target="_blank">full text</a>
+
+              <li><p><b>Probabilistic and Statistical Analysis of Perforated Patterns</b> <br>
+              <u>Sasa Misailovic</u>, Daniel M. Roy, Martin C. Rinard<br>
+              <i>MIT-CSAIL-TR-2011-003</i>, January 2011.<br>
+              <a href="http://hdl.handle.net/1721.1/60675"
+                target="_blank">full text</a>
+              </li>
+
+              <li><p><b>Parallelizing Sequential Programs With Statistical Accuracy Tests</b><br>
+              <u>Sasa Misailovic</u>, Deokhwan Kim, Martin C. Rinard<br>
+              <i>MIT-CSAIL-TR-2010-038</i>, August 2010. <br>
+              <a href="http://hdl.handle.net/1721.1/57475"
+                target="_blank">full text</a>
+              </li>
+
+              <li><p><b>Using Code Perforation to Improve Performance, Reduce Energy Consumption, and Respond to Failures</b><br>
+              Henry Hoffmann, <u>Sasa Misailovic</u>, Stelios Sidiroglou, Anant Agarwal, Martin C. Rinard<br>
+              <i>MIT-CSAIL-TR-2009-042</i>, September 2009<br>
+              <a href="http://hdl.handle.net/1721.1/46709" target="_blank">full text</a>
+              </li>
+
+
+              <li><p><b>Sentiment Analysis of Movie Review Comments</b><br>
+              Kuat Yessenov, <u>Sasa Misailovic</u><br>
+              <i>MIT CS 6.863 Project</i>, May 2009<br>
+              <a href="https://people.csail.mit.edu/kuat/courses/6.863/report.pdf" target="_blank">full text</a>
+              </li>
+
+
+            </ol>
+
+
+
+            <!--
+            <h2>Biography</h2>
+
+            <p>Sasa Misailovic is a Ph. D. candidate in Electrical Engineering and Computer Science at MIT. His interests include the analysis and transformation of approximate computations. In particular, his research focuses on program transformations that change the semantic of the original programs to deliver profitable tradeoffs between the performance and the accuracy of the results. 
+            -->
+
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        <p>&copy; Sasa Misailovic, 2025</p>
+		<a href="http://www.statcounter.com/"
+		target="_blank"><img src="http://c33.statcounter.com/2973875/0/c1815966/0/"
+		alt="-" border="0"></a>
+    </footer>
+
+</div> <!-- /container -->
+
+<!-- Le javascript
+                                                                                                ================================================== -->
+
+
+
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.js"></script>
+<!-- <script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
+<script type="text/javascript" src="assets/js/jquery.anchor.js"
+	type="text/javascript"></script>
+<script type="text/javascript" src="assets/js/jquery.expander.min.js"
+	type="text/javascript"></script>
+<script>
+// Hide the extra content initially, using JS so that if JS is disabled, no problemo:
+$('.read-more-content').addClass('hide')
+$('.read-more-show, .read-more-hide').removeClass('hide')
+
+// Set up the toggle effect:
+$('.read-more-show').on('click', function(e) {
+  $(this).next('.read-more-content').removeClass('hide');
+  $(this).addClass('hide');
+  e.preventDefault();
+});
+
+// Changes contributed by @diego-rzg
+$('.read-more-hide').on('click', function(e) {
+  var p = $(this).parent('.read-more-content');
+  p.addClass('hide');
+  p.prev('.read-more-show').removeClass('hide'); // Hide only the preceding "Read More"
+  e.preventDefault();
+});
+</script>
+
+
+<script src="assets/js/bootstrap-transition.js"></script>
+<script src="assets/js/bootstrap-alert.js"></script>
+<script src="assets/js/bootstrap-modal.js"></script>
+<script src="assets/js/bootstrap-dropdown.js"></script>
+<script src="assets/js/bootstrap-scrollspy.js"></script>
+<script src="assets/js/bootstrap-tab.js"></script>
+<script src="assets/js/bootstrap-tooltip.js"></script>
+<script src="assets/js/bootstrap-popover.js"></script>
+<script src="assets/js/bootstrap-button.js"></script>
+<script src="assets/js/bootstrap-collapse.js"></script>
+<script src="assets/js/bootstrap-carousel.js"></script>
+<script src="assets/js/bootstrap-typeahead.js"></script>
+
+
+
+</body>
+</html>

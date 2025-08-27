@@ -1,0 +1,48 @@
+Yuxiong Wang's Homepage
+About Me
+Make things as simple as possible, but not simpler
+â Albert Einstein
+Welcome to my homepage. I am an Assistant Professor of Computer Science at the University of Illinois Urbana-Champaign (UIUC).
+My research lies in computer vision, machine learning, and robotics, with a specific focus on open-world perception, meta-learning, multi-modal learning, generative modeling, and agent learning.
+Before joining Illinois CS, I was a postdoctoral fellow in the Robotics Institute at Carnegie Mellon University, advised by Prof. Martial Hebert. I obtained my Ph.D. under the supervision of Prof. Martial Hebert in the Robotics Institute. I have also been closely working with Prof. Deva Ramanan and Prof. Ruslan Salakhutdinov. I receive the Best Paper Honorable Mention Award for streaming perception in ECCV 2020, and Best Paper Award Finalist in CVPR 2019, 2022. I am recognized as a Notable Area Chair in ICLR 2023, and an Expert Reviewer in TMLR. I am selected to participate in the National Academy of Engineeringâs (NAE) Frontiers of Engineering symposium.
+Please feel free to contact me if interested!
+- I am always seeking self-motivated Ph.D., M.S., and undergraduate students.Â
+- Our group also has openings for visiting students.
+Current Research Topics
+- Meta-learning and learning to learn
+- Open-world, multi-modal, few-shot, and self-supervised learning
+- 3D vision
+- Generative modeling, predictive learning
+- Human motion and human-object interaction modeling
+- Reinforcement learning, robot/agent learning
+- In-the-wild applications in robotics, autonomous driving, agriculture, materials science, chemistry, healthcare, etc.
+Dissertation
+Talks
+One of our primary research efforts focuses on bridging generative and discriminative learning, facilitating autonomous agents to perceive, interact, and act in the open world. For representative works, please refer to my two recent talks: the first talk, presented at the C3.ai Generative AI Workshop, elaborates on how we ground generative modeling in 3D and 4D; the second talk, given at the London Machine Learning Meetup, explores various techniques that leverage LLMs and generative visual models for perception and decision-making.
+-
+All-in-One: Unifying Generative and Discriminative AI in the 4D Open World
+-
+Yuxiong Wang: Bridging Generative & Discriminative Learning in the Open World
+Students
+PhD Students
+- Garvita Allabadi
+- Liuyu Bian
+- Shengcao Cao
+- Junkun Chen
+- Jiahua Dong
+- Ji Li
+- Yunze Man
+- Ziqi Pang
+- Michal Shlapentokh-Rothman
+- Kai Yan
+- Qianlan Yang
+- Sirui Xu
+- Zheyu Zhang
+Recent Publications
+RTDiff: Reverse Trajectory Synthesis via Diffusion for Offline Reinforcement Learning
+Qianlan Yang, Yu-Xiong Wang
+ICLR 2025
+Teaching
+- CS 598 LTL, Learning to Learn, UIUC [Fall 2020] [Fall 2022]
+- CS 598 ACV, Advanced Computer Vision, UIUC [Spring 2021]
+- CS 445, Computational Photography, UIUC [Fall 2021] [Spring 2022] [Spring 2023] [Spring 2024] [Fall 2024]

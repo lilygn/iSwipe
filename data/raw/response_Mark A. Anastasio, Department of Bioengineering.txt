@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	
+	<!-- OneTrust Cookies Consent Notice start for illinois.edu -->
+	<script>
+	function OptanonWrapper() { }
+	</script>
+	<!-- OneTrust Cookies Consent Notice end for illinois.edu -->
+
+	<title>Computational Imaging Science Laboratory</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//cdn.toolkit.illinois.edu' />
+<link rel='dns-prefetch' href='//publish.illinois.edu' />
+<link rel='dns-prefetch' href='//cdn.disability.illinois.edu' />
+<link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//kit.fontawesome.com' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//onetrust.techservices.illinois.edu' />
+<link rel="alternate" type="application/rss+xml" title="Computational Imaging Science Laboratory &raquo; Feed" href="https://anastasio.bioengineering.illinois.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Computational Imaging Science Laboratory &raquo; Comments Feed" href="https://anastasio.bioengineering.illinois.edu/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/anastasio.bioengineering.illinois.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<link rel='stylesheet' id='pt-cv-public-style-css' href='https://anastasio.bioengineering.illinois.edu/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.1' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://anastasio.bioengineering.illinois.edu/wp-includes/css/dist/block-library/style.min.css?ver=6.7.2' media='all' />
+<style id='uofi-uofi-video-feature-style-inline-css'>
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+#primary_secondary_wrapper .entry-content .wp-block-uofi-uofi-video-feature.alignfull {
+  max-width: 100% !important;
+  padding: 0px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
+</style>
+<style id='uofi-uofi-vertical-tab-panel-style-inline-css'>
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/*# sourceMappingURL=style-index.css.map*/
+</style>
+<style id='uofi-uofi-vertical-tab-style-inline-css'>
+
+
+</style>
+<style id='uofi-uofi-call-to-action-style-inline-css'>
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/*# sourceMappingURL=style-index.css.map*/
+</style>
+<style id='uofi-image-feature-block-style-inline-css'>
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/image-feature/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/*# sourceMappingURL=style-index.css.map*/
+</style>
+<link rel='stylesheet' id='block-styles-css' href='https://publish.illinois.edu/wp-content/themes/uofi-2020/block-styles.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='toolkit-css' href='https://cdn.toolkit.illinois.edu/2.16/toolkit.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='toolkit3-css' href='https://cdn.toolkit.illinois.edu/3/toolkit.css?ver=6.7.2' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #FFFFFF;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--il-cloud: #F8FAFC;--wp--preset--color--il-storm-95: #F4F4F4;--wp--preset--color--il-cloud-1: #E8E9EB;--wp--preset--color--il-cloud-2: #DDDEDE;--wp--preset--color--il-cloud-3: #D2D2D2;--wp--preset--color--il-orange: #FF5F05;--wp--preset--color--il-altgeld: #DD3403;--wp--preset--color--il-heritage-orange: #F5821E;--wp--preset--color--il-heritage-orange-1: #E56E15;--wp--preset--color--il-heritage-orange-2: #CE5E11;--wp--preset--color--il-heritage-orange-3: #B74D04;--wp--preset--color--il-blue: #13294B;--wp--preset--color--il-alma-mater: #1E3877;--wp--preset--color--il-alma-mater-1: #4D69A0;--wp--preset--color--il-alma-mater-2: #849BC1;--wp--preset--color--il-alma-mater-3: #AFC7DB;--wp--preset--color--il-industrial-blue: #1D58A7;--wp--preset--color--il-industrial-blue-1: #5783BC;--wp--preset--color--il-industrial-blue-2: #90AED5;--wp--preset--color--il-industrial-blue-3: #CAD9EF;--wp--preset--color--il-arches-blue: #009FD4;--wp--preset--color--il-arches-blue-1: #7FC3E1;--wp--preset--color--il-arches-blue-2: #A6D7EB;--wp--preset--color--il-arches-blue-3: #D2EBF5;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='ctf_styles-css' href='https://anastasio.bioengineering.illinois.edu/wp-content/plugins/custom-twitter-feeds/css/ctf-styles.min.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='bootstrapcss-css' crossorigin="anonymous" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css' media='all' />
+<link rel='stylesheet' id='main-css-css' href='https://publish.illinois.edu/wp-content/themes/uofi-2020/style.css?ver=250724-30532' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://anastasio.bioengineering.illinois.edu/wp-content/plugins/tablepress/css/build/default.css?ver=2.4.4' media='all' />
+<script src="https://cdn.toolkit.illinois.edu/2.16/toolkit.js?ver=6.7.2" id="toolkit-js"></script>
+<script src="https://cdn.toolkit.illinois.edu/3/toolkit.js?ver=6.7.2" id="toolkit3-js"></script>
+<script src="https://anastasio.bioengineering.illinois.edu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://anastasio.bioengineering.illinois.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://publish.illinois.edu/wp-content/themes/uofi-2020/js/main.js?ver=250724-30532" id="main_js-js"></script>
+<script src="https://publish.illinois.edu/wp-content/themes/uofi-2020/js/skipto.config.js" id="skiptoconf-js"></script>
+<script src="https://cdn.disability.illinois.edu/skipto.min.js" id="skipto-js"></script>
+<script crossorigin="anonymous" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" id="bootstrapjs-js"></script>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/846f7e331a.js" id="fontawesome-js"></script>
+<script crossorigin="anonymous" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" id="popper-js"></script>
+<script data-domain-script="26be7d61-2017-4ea7-8a8b-8f1704889763" src="https://onetrust.techservices.illinois.edu/scripttemplates/otSDKStub.js" id="onetrust-js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://anastasio.bioengineering.illinois.edu/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.2" />
+<link rel="canonical" href="https://anastasio.bioengineering.illinois.edu/" />
+<link rel='shortlink' href='https://anastasio.bioengineering.illinois.edu/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://anastasio.bioengineering.illinois.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fanastasio.bioengineering.illinois.edu%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://anastasio.bioengineering.illinois.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fanastasio.bioengineering.illinois.edu%2F&#038;format=xml" />
+<script src='https://publish.illinois.edu/?dm=4db78f2fb3cf29e9799e5ff2dbcbf689&amp;action=load&amp;blogid=4859&amp;siteid=1&amp;t=196247240&amp;back=https%3A%2F%2Fanastasio.bioengineering.illinois.edu%2F' type='text/javascript' async></script><style id="sccss">/* Enter Your Custom CSS Here */
+
+.page-id-78 .entry-header {
+	display: none;
+}
+</style>
+	<link rel="icon" href="https://cdn.brand.illinois.edu/favicon.ico">
+							
+				<style>
+		body .tile-list .tile.w66
+		{
+		flex: 0 0 calc(40% - 1.2rem);
+		max-width: calc(40% - 1.2rem);
+		min-width: calc(40% - 1.2rem);
+		}
+
+					#primary_secondary_wrapper header, #primary_secondary_wrapper .entry-content > *
+				{
+				/* max-width: 1140px !important; */
+				}
+
+			#primary_secondary_wrapper aside#secondary
+			{
+			width: 300px;
+			}
+			
+			@media (max-width: 768px)
+			{
+				#primary_secondary_wrapper aside#secondary
+				{
+				width: 100% !important;
+				}			
+			}			
+						#primary_secondary_wrapper header, #primary_secondary_wrapper .entry-content > *, .search #primary_secondary_wrapper article
+				{
+				/*
+				margin-left: auto;
+				margin-right: auto;
+				*/
+				}
+				
+			#primary_secondary_wrapper #secondary
+				{
+				max-width: 300px !important;
+				}
+			
+			.search #primary_secondary_wrapper article .entry-summary
+			{
+			margin-top: 0;
+			}
+			
+			.search #primary_secondary_wrapper article .post-thumbnail
+				{
+				max-width: 33%;
+				margin: 0 1rem 0.25rem 1rem;
+				float: right;
+				}
+			
+			@media (max-width: 768px)
+				{
+				.search #primary_secondary_wrapper article .post-thumbnail
+						{
+						max-width: 50%;
+						}		
+				}
+
+			@media (max-width: 400px)
+				{
+				.search #primary_secondary_wrapper article .post-thumbnail
+						{
+						max-width: 100%;
+						width: 100%;
+						float: none;
+						display: block;
+						padding: 0;
+						margin: 0 0 0.5rem 0;
+						}		
+				}
+
+			.archive #primary_secondary_wrapper #primary
+				{
+				max-width: 1140px;
+				}
+				
+			.has-sidebar .archive #primary_secondary_wrapper #primary
+				{
+				max-width: 870px;
+				}
+			
+			.has-sidebar #primary_secondary_wrapper main article .alignfull
+				{
+				max-width: 870px !important;	
+				}
+			
+	</style>
+</head>
+<body class="home page-template-default page page-id-78 metaslider-plugin no-sidebar">
+<div id="page" class="site">
+	<div>
+	<div>
+		<header id="masthead" class="site-header">
+					<div class="masthead_inner d-flex justify-content-between align-items-stretch">
+				<div class="il-header-wrapper flex-grow-1">
+					<ilw-header slot="header" source="Computational Imaging Science Laboratory-https://anastasio.bioengineering.illinois.edu">
+															<p slot="primary-unit"></p>								<a slot="site-name" href="https://anastasio.bioengineering.illinois.edu">Computational Imaging Science Laboratory</a>
+														
+						  	<form slot="search" method="get" action="https://anastasio.bioengineering.illinois.edu" method="get" searchname="s" role="search">
+								<input type="search" name="s" aria-labelledby="search-button">
+								<button id="search-button" type="submit">Search</button>
+							</form>
+						
+													<ilw-header-menu slot="navigation">
+								<ul class="site_navigation_links">
+								
+<li><a href="https://anastasio.bioengineering.illinois.edu/lab-members/">LAB MEMBERS</a></li>
+<li><ilw-header-menu-section linked="true"><a slot="link" href="https://anastasio.bioengineering.illinois.edu/research/" >RESEARCH</a>
+<ul><li><a href="https://anastasio.bioengineering.illinois.edu/research/photoacoustic-computed-tomography-pact/">Photoacoustic Computed Tomography (PACT)</a></li><li><a href="https://anastasio.bioengineering.illinois.edu/research/ultrasound-computed-tomography-usct/">Ultrasound Computed Tomography (USCT)</a></li><li><a href="https://anastasio.bioengineering.illinois.edu/research/machine-learning-based-numerical-observers/">Deep learning for objective image quality assessment</a></li><li><a href="https://anastasio.bioengineering.illinois.edu/research/comp-imag-learn/">Image reconstruction using machine learning</a></li><li><a href="https://anastasio.bioengineering.illinois.edu/research/machine-learning-in-neuroimaging/">Computational Methods for Neuroimaging</a></li><li><a href="https://anastasio.bioengineering.illinois.edu/research/frameworks-for-vits/">Frameworks for Virtual Imaging Trials</a></li><li><a href="https://anastasio.bioengineering.illinois.edu/research/x-ray-phase-contrast-xpc-imaging-and-tomography/">X-Ray Phase-Contrast (XPC) Imaging and Tomography</a></li><li><a href="https://anastasio.bioengineering.illinois.edu/research/deep-learning-for-image-analysis/">Deep Learning for Microscopy Image Analysis</a></li><li><a href="https://anastasio.bioengineering.illinois.edu/research/other-projects/">Other Projects</a></li></ul>
+</ilw-header-menu-section></li>
+<li><a href="https://anastasio.bioengineering.illinois.edu/recent-publications/">RECENT PUBLICATIONS</a></li>
+<li><a href="https://anastasio.bioengineering.illinois.edu/downloadable-content/">DOWNLOADABLE CONTENT</a></li>
+<li><a href="https://anastasio.bioengineering.illinois.edu/open-positions/">OPEN POSITIONS</a></li>								</ul>			
+							</ilw-header-menu>
+																</ilw-header>
+						
+				</div>
+			</div>
+		</header><!-- #masthead -->
+	</div>
+<!--<button class="ilw-button" id="toggleSidebar" onclick="toggleSidebar()">Hide Sidebar</button>-->
+		
+	<div id="primary_secondary_wrapper" class="d-flex flex-md-row flex-column justify-content-center ">
+
+				
+		<main id="primary" class="site-main flex-grow-1" aria-label="Document Content">
+		
+			<article id="post-78" class="post-78 page type-page status-publish hentry">	
+	<header class="entry-header il-formatted">
+		<h1 class="entry-title ">Home</h1>	</header><!-- .entry-header -->
+	<div class="entry-content">
+		
+		<div class="uofi-default-block il-formatted">
+<div><div id="metaslider-id-747" style="width: 100%;" class="ml-slider-3-98-0 metaslider metaslider-flex metaslider-747 ml-slider ms-theme-simply-dark has-dots-nav" role="region" aria-roledescription="Slideshow" aria-label="New Slideshow" data-width="2056">
+    <div id="metaslider_container_747">
+        <div id="metaslider_747">
+            <ul class='slides'>
+                <li style="display: block; width: 100%;" class="slide-1726 ms-image " aria-roledescription="slide" aria-label="slide-1726" data-date="2025-03-26 11:29:46"><img fetchpriority="high" decoding="async" src="https://anastasio.bioengineering.illinois.edu/files/2025/03/Framework_DTSeg-2056x1024.jpg" height="1024" width="2056" alt="" class="slider-747 slide-1726" title="Framework_DTSeg" /><div class="caption-wrap"><div class="caption"><div><span style="font-size:12pt;font-family:Aptos, sans-serif;">Overview of the proposed diffusion model-encoder transformer-decoder based segmentation (DTSeg)</span></div></div></div></li>
+                <li style="display: none; width: 100%;" class="slide-750 ms-image " aria-roledescription="slide" aria-label="slide-750" data-date="2021-07-15 13:17:04"><img decoding="async" src="https://anastasio.bioengineering.illinois.edu/files/2022/01/image-2056x1024.png" height="1024" width="2056" alt="" class="slider-747 slide-750" title="image" /><div class="caption-wrap"><div class="caption"><div>Prior Image-Constrained Reconstruction using Style-Based Generative Models</div></div></div></li>
+                <li style="display: none; width: 100%;" class="slide-749 ms-image " aria-roledescription="slide" aria-label="slide-749" data-date="2021-07-15 13:16:38"><img decoding="async" src="https://anastasio.bioengineering.illinois.edu/files/2021/07/SVR-1-2056x1024.png" height="1024" width="2056" alt="" class="slider-747 slide-749" title="SVR-1" /><div class="caption-wrap"><div class="caption"><div>A multivariate functional connectivity approach to mapping brain networks and imputing neural activity in mice</div></div></div></li>
+                <li style="display: none; width: 100%;" class="slide-997 ms-image " aria-roledescription="slide" aria-label="slide-997" data-date="2022-01-12 10:46:21"><img loading="lazy" decoding="async" src="https://anastasio.bioengineering.illinois.edu/files/2022/01/USCT_exp_recon-1-2056x1024.png" height="1024" width="2056" alt="" class="slider-747 slide-997" title="USCT_exp_recon" /><div class="caption-wrap"><div class="caption"><div>Reconstructed speed of sound images of a patient breast by USCT</div></div></div></li>
+                <li style="display: none; width: 100%;" class="slide-760 ms-image " aria-roledescription="slide" aria-label="slide-760" data-date="2021-07-15 13:25:12"><img loading="lazy" decoding="async" src="https://anastasio.bioengineering.illinois.edu/files/2019/06/ROC-2056x1024.png" height="1024" width="2056" alt="" class="slider-747 slide-760" title="ROC" /><div class="caption-wrap"><div class="caption"><div>Approximating the Ideal Observer and Hotelling Observer for binary signal detection tasks by use of supervised learning methods</div></div></div></li>
+                <li style="display: none; width: 100%;" class="slide-1076 ms-image " aria-roledescription="slide" aria-label="slide-1076" data-date="2022-03-28 13:25:02"><img loading="lazy" decoding="async" src="https://anastasio.bioengineering.illinois.edu/files/2022/03/Figure_slider_CISL.png" height="1024" width="2056" alt="" class="slider-747 slide-1076" title="Optical_fluence_normalization" /><div class="caption-wrap"><div class="caption">3D PACT breast images with normalization of optical fluence</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-959 ms-image " aria-roledescription="slide" aria-label="slide-959" data-date="2021-11-29 10:41:54"><a href="http://On%20Hallucinations%20in%20Tomographic%20Image%20Reconstruction" target="_self" aria-label="View Slide Details" class="metaslider_image_link"><img loading="lazy" decoding="async" src="https://anastasio.bioengineering.illinois.edu/files/2022/01/montage_ood-2056x1024.png" height="1024" width="2056" alt="" class="slider-747 slide-959" title="montage_ood" /></a></li>
+                <li style="display: none; width: 100%;" class="slide-1724 ms-image " aria-roledescription="slide" aria-label="slide-1724" data-date="2025-03-26 09:46:47"><img loading="lazy" decoding="async" src="https://anastasio.bioengineering.illinois.edu/files/2025/03/hkhuang3_LearnTranPact-e1743792405590-2056x1024.png" height="1024" width="2056" alt="" class="slider-747 slide-1724" title="hkhuang3_LearnTranPact" /></li>
+                <li style="display: none; width: 100%;" class="slide-1739 ms-image " aria-roledescription="slide" aria-label="slide-1739" data-date="2025-04-04 12:12:48"><img loading="lazy" decoding="async" src="https://anastasio.bioengineering.illinois.edu/files/2025/04/half_time_crt_fbp-e1743786425307-2056x1024.png" height="1024" width="2056" alt="" class="slider-747 slide-1739" title="half_time_crt_fbp" /><div class="caption-wrap"><div class="caption"><div><span style="font-size:11pt;font-family:Aptos, sans-serif;">Generalizable Learned FBP for Half-time Circular Radon Transform</span></div></div></div></li>
+            </ul>
+        </div>
+        
+    </div>
+</div></div>
+<p>The Computational Imaging Science Laboratory (CISL) performs research in computational and theoretical image science and pursues the advancement of emerging imaging methods.</p>
+<p>Our current projects include:</p>
+<ul>
+<li>Computational inverse problems in imaging</li>
+<li>Development of tomographic image reconstruction methods</li>
+<li>Deep learning for objective image quality assessment</li>
+<li>Development of machine learning methods for imaging applications</li>
+</ul>
+<p>Research in the CISL is conducted within the Grainger College of Engineering at University of Illinois Urbana-Champaign (UIUC). Students in the CISL come from various departments including <a href="https://bioengineering.illinois.edu/">Bioenginering</a>, <a href="https://ece.illinois.edu/">Electrical and Computer Engineering</a>, and <a href="https://cs.illinois.edu/">Computer Science</a>.</p>
+<p>The CISL is directed by Professor Mark Anastasio and funded by the <a href="http://www.nih.gov/">National Institute of Health</a> an the <a href="http://www.nsf.gov/">National Science Foundation</a>.</p>
+<p>Follow us on Twitter <a href="https://twitter.com/AnastasioLab">@AnastasioLab</a></p>
+<h3>Announcements</h3>
+<div class="pt-cv-wrapper"><div class="pt-cv-view pt-cv-grid pt-cv-colsys" id="pt-cv-view-c8de3fa67z"><div data-id="pt-cv-page-1" class="pt-cv-page" data-cvc="3"><div class="col-md-4 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col" ><div class='pt-cv-ifield'><a href="https://anastasio.bioengineering.illinois.edu/2025/07/28/panpans-article-was-accepted-to-ieee-transactions-on-medical-imaging/" class="_self pt-cv-href-thumbnail pt-cv-thumb-default" target="_self" ><img loading="lazy" decoding="async" width="300" height="185" src="https://anastasio.bioengineering.illinois.edu/files/2025/07/IMG_5105-300x185.png" class="pt-cv-thumbnail" alt="" srcset="https://anastasio.bioengineering.illinois.edu/files/2025/07/IMG_5105-300x185.png 300w, https://anastasio.bioengineering.illinois.edu/files/2025/07/IMG_5105-1024x631.png 1024w, https://anastasio.bioengineering.illinois.edu/files/2025/07/IMG_5105-768x474.png 768w, https://anastasio.bioengineering.illinois.edu/files/2025/07/IMG_5105-1536x947.png 1536w, https://anastasio.bioengineering.illinois.edu/files/2025/07/IMG_5105-2048x1263.png 2048w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>
+<h4 class="pt-cv-title"><a href="https://anastasio.bioengineering.illinois.edu/2025/07/28/panpans-article-was-accepted-to-ieee-transactions-on-medical-imaging/" class="_self" target="_self" >New paper accepted to IEEE Transactions on Medical Imaging. Authored by Panpan Chen</a></h4></div></div>
+<div class="col-md-4 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col" ><div class='pt-cv-ifield'><a href="https://anastasio.bioengineering.illinois.edu/2025/06/09/congratulations-to-panpan-for-being-selected-as-a-2025-mcginnis-medical-innovation-graduate-fellow/" class="_self pt-cv-href-thumbnail pt-cv-thumb-default" target="_self" ><img loading="lazy" decoding="async" width="300" height="300" src="https://anastasio.bioengineering.illinois.edu/files/2024/01/Panpan_info-300x300.jpg" class="pt-cv-thumbnail" alt="" srcset="https://anastasio.bioengineering.illinois.edu/files/2024/01/Panpan_info-300x300.jpg 300w, https://anastasio.bioengineering.illinois.edu/files/2024/01/Panpan_info-1024x1024.jpg 1024w, https://anastasio.bioengineering.illinois.edu/files/2024/01/Panpan_info-150x150.jpg 150w, https://anastasio.bioengineering.illinois.edu/files/2024/01/Panpan_info-768x768.jpg 768w, https://anastasio.bioengineering.illinois.edu/files/2024/01/Panpan_info-1536x1536.jpg 1536w, https://anastasio.bioengineering.illinois.edu/files/2024/01/Panpan_info-2048x2048.jpg 2048w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>
+<h4 class="pt-cv-title"><a href="https://anastasio.bioengineering.illinois.edu/2025/06/09/congratulations-to-panpan-for-being-selected-as-a-2025-mcginnis-medical-innovation-graduate-fellow/" class="_self" target="_self" >Congratulations to Panpan for being selected as a 2025 McGinnis Medical Innovation Graduate Fellow</a></h4></div></div>
+<div class="col-md-4 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col" ><div class='pt-cv-ifield'><a href="https://anastasio.bioengineering.illinois.edu/2025/04/23/cisl-at-20th-anniversary-frontiers-in-bioengineering-symposium/" class="_self pt-cv-href-thumbnail pt-cv-thumb-default" target="_self" ><img loading="lazy" decoding="async" width="300" height="225" src="https://anastasio.bioengineering.illinois.edu/files/2025/04/IMG_2055-300x225.jpg" class="pt-cv-thumbnail" alt="" srcset="https://anastasio.bioengineering.illinois.edu/files/2025/04/IMG_2055-300x225.jpg 300w, https://anastasio.bioengineering.illinois.edu/files/2025/04/IMG_2055-1024x768.jpg 1024w, https://anastasio.bioengineering.illinois.edu/files/2025/04/IMG_2055-768x576.jpg 768w, https://anastasio.bioengineering.illinois.edu/files/2025/04/IMG_2055-1536x1152.jpg 1536w, https://anastasio.bioengineering.illinois.edu/files/2025/04/IMG_2055-2048x1536.jpg 2048w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>
+<h4 class="pt-cv-title"><a href="https://anastasio.bioengineering.illinois.edu/2025/04/23/cisl-at-20th-anniversary-frontiers-in-bioengineering-symposium/" class="_self" target="_self" >CISL at 20th Anniversary Frontiers in Bioengineering Symposium</a></h4></div></div>
+<div class="col-md-4 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col" ><div class='pt-cv-ifield'><a href="https://anastasio.bioengineering.illinois.edu/2025/02/21/medical-imaging-group-presents-at-spie-mi/" class="_self pt-cv-href-thumbnail pt-cv-thumb-default" target="_self" ><img loading="lazy" decoding="async" width="300" height="225" src="https://anastasio.bioengineering.illinois.edu/files/2025/02/IMG_1710-300x225.jpg" class="pt-cv-thumbnail" alt="" srcset="https://anastasio.bioengineering.illinois.edu/files/2025/02/IMG_1710-300x225.jpg 300w, https://anastasio.bioengineering.illinois.edu/files/2025/02/IMG_1710-1024x768.jpg 1024w, https://anastasio.bioengineering.illinois.edu/files/2025/02/IMG_1710-768x576.jpg 768w, https://anastasio.bioengineering.illinois.edu/files/2025/02/IMG_1710-1536x1152.jpg 1536w, https://anastasio.bioengineering.illinois.edu/files/2025/02/IMG_1710-2048x1536.jpg 2048w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>
+<h4 class="pt-cv-title"><a href="https://anastasio.bioengineering.illinois.edu/2025/02/21/medical-imaging-group-presents-at-spie-mi/" class="_self" target="_self" >Medical Imaging Group Presents at SPIE-MI</a></h4></div></div>
+<div class="col-md-4 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col" ><div class='pt-cv-ifield'><a href="https://anastasio.bioengineering.illinois.edu/2025/01/30/pact-group-at-spie-photonics-west/" class="_self pt-cv-href-thumbnail pt-cv-thumb-default" target="_self" ><img loading="lazy" decoding="async" width="300" height="261" src="https://anastasio.bioengineering.illinois.edu/files/2025/01/IMG_7092-1-scaled-e1740155866714-300x261.jpg" class="pt-cv-thumbnail" alt="" srcset="https://anastasio.bioengineering.illinois.edu/files/2025/01/IMG_7092-1-scaled-e1740155866714-300x261.jpg 300w, https://anastasio.bioengineering.illinois.edu/files/2025/01/IMG_7092-1-scaled-e1740155866714-768x669.jpg 768w, https://anastasio.bioengineering.illinois.edu/files/2025/01/IMG_7092-1-scaled-e1740155866714-1024x892.jpg 1024w, https://anastasio.bioengineering.illinois.edu/files/2025/01/IMG_7092-1-scaled-e1740155866714-1536x1338.jpg 1536w, https://anastasio.bioengineering.illinois.edu/files/2025/01/IMG_7092-1-scaled-e1740155866714.jpg 1920w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>
+<h4 class="pt-cv-title"><a href="https://anastasio.bioengineering.illinois.edu/2025/01/30/pact-group-at-spie-photonics-west/" class="_self" target="_self" >PACT Group at SPIE Photonics West</a></h4></div></div>
+<div class="col-md-4 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col" ><div class='pt-cv-ifield'><a href="https://anastasio.bioengineering.illinois.edu/2024/05/26/congrats-to-refik-for-his-paper-accepted-by-inverse-problems/" class="_self pt-cv-href-thumbnail pt-cv-thumb-default" target="_self" ><img loading="lazy" decoding="async" width="300" height="300" src="https://anastasio.bioengineering.illinois.edu/files/2021/06/refik_mert_cam-300x300.jpg" class="pt-cv-thumbnail" alt="" srcset="https://anastasio.bioengineering.illinois.edu/files/2021/06/refik_mert_cam-300x300.jpg 300w, https://anastasio.bioengineering.illinois.edu/files/2021/06/refik_mert_cam-1024x1024.jpg 1024w, https://anastasio.bioengineering.illinois.edu/files/2021/06/refik_mert_cam-150x150.jpg 150w, https://anastasio.bioengineering.illinois.edu/files/2021/06/refik_mert_cam-768x768.jpg 768w, https://anastasio.bioengineering.illinois.edu/files/2021/06/refik_mert_cam-1536x1536.jpg 1536w, https://anastasio.bioengineering.illinois.edu/files/2021/06/refik_mert_cam-2048x2048.jpg 2048w, https://anastasio.bioengineering.illinois.edu/files/2021/06/refik_mert_cam-2000x2001.jpg 2000w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>
+<h4 class="pt-cv-title"><a href="https://anastasio.bioengineering.illinois.edu/2024/05/26/congrats-to-refik-for-his-paper-accepted-by-inverse-problems/" class="_self" target="_self" >Congrats to Refik for his paper accepted by Inverse Problems!</a></h4></div></div></div></div></div></div>
+	</div><!-- .entry-content -->
+
+	</article><!-- #post-78 -->
+		</main><!-- #main -->
+		
+			</div>
+		</div>
+
+	   <ilw-footer source="Computational Imaging Science Laboratory-https://anastasio.bioengineering.illinois.edu">
+		<a slot="site-name" href="https://anastasio.bioengineering.illinois.edu">Computational Imaging Science Laboratory</a>
+				
+					<address slot="address"><div>Email: <a href="mailto:maa@illinois.edu">maa@illinois.edu</a><div></address>
+				
+		
+				
+			  		</ilw-footer>
+
+
+</div><!-- #page -->
+
+<link rel='stylesheet' id='metaslider-flex-slider-css' href='https://anastasio.bioengineering.illinois.edu/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=3.98.0' media='all' property='stylesheet' />
+<link rel='stylesheet' id='metaslider-public-css' href='https://anastasio.bioengineering.illinois.edu/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=3.98.0' media='all' property='stylesheet' />
+<style id='metaslider-public-inline-css'>
+@media only screen and (max-width: 767px) {body.metaslider-plugin:after { display: none; content: "smartphone"; } .hide-arrows-smartphone .flex-direction-nav, .hide-navigation-smartphone .flex-control-paging, .hide-navigation-smartphone .flex-control-nav, .hide-navigation-smartphone .filmstrip, .hide-slideshow-smartphone, .metaslider-hidden-content.hide-smartphone{ display: none!important; }}@media only screen and (min-width : 768px) and (max-width: 1023px) {body.metaslider-plugin:after { display: none; content: "tablet"; } .hide-arrows-tablet .flex-direction-nav, .hide-navigation-tablet .flex-control-paging, .hide-navigation-tablet .flex-control-nav, .hide-navigation-tablet .filmstrip, .hide-slideshow-tablet, .metaslider-hidden-content.hide-tablet{ display: none!important; }}@media only screen and (min-width : 1024px) and (max-width: 1439px) {body.metaslider-plugin:after { display: none; content: "laptop"; } .hide-arrows-laptop .flex-direction-nav, .hide-navigation-laptop .flex-control-paging, .hide-navigation-laptop .flex-control-nav, .hide-navigation-laptop .filmstrip, .hide-slideshow-laptop, .metaslider-hidden-content.hide-laptop{ display: none!important; }}@media only screen and (min-width : 1440px) {body.metaslider-plugin:after { display: none; content: "desktop"; } .hide-arrows-desktop .flex-direction-nav, .hide-navigation-desktop .flex-control-paging, .hide-navigation-desktop .flex-control-nav, .hide-navigation-desktop .filmstrip, .hide-slideshow-desktop, .metaslider-hidden-content.hide-desktop{ display: none!important; }}
+</style>
+<link rel='stylesheet' id='metaslider_simply-dark_theme_styles-css' href='https://anastasio.bioengineering.illinois.edu/wp-content/plugins/ml-slider/themes/simply-dark/v1.0.0/style.css?ver=1.0.0' media='all' property='stylesheet' />
+<script id="pt-cv-content-views-script-js-extra">
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"9e9d389533","is_admin":"","is_mobile":"","ajaxurl":"https:\/\/publish.illinois.edu\/anastasiolab\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw=="};
+var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
+</script>
+<script src="https://anastasio.bioengineering.illinois.edu/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js?ver=4.1" id="pt-cv-content-views-script-js"></script>
+<script src="https://anastasio.bioengineering.illinois.edu/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider.min.js?ver=3.98.0" id="metaslider-flex-slider-js"></script>
+<script id="metaslider-flex-slider-js-after">
+var metaslider_747 = function($) {$('#metaslider_747').addClass('flexslider');
+            $('#metaslider_747').flexslider({ 
+                slideshowSpeed:3000,
+                animation:"fade",
+                controlNav:true,
+                directionNav:true,
+                pauseOnHover:true,
+                direction:"horizontal",
+                reverse:false,
+                keyboard:true,
+                touch:true,
+                animationSpeed:600,
+                prevText:'<svg aria-labelledBy=\'simply-dark-prev-title\' role=\'img\' xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 256 512\' data-fa-i2svg=\'\'><title id=\'simply-dark-prev-title\'>Previous Slide</title><path fill=\'currentColor\' d=\'M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z\'></path></svg>',
+                nextText:'<svg aria-labelledBy=\'simply-dark-next-title\' role=\'img\' xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 256 512\' data-fa-i2svg=\'\'><title id=\'simply-dark-next-title\'>Next Slide</title><path fill=\'currentColor\' d=\'M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z\'></path></svg>',
+                smoothHeight:false,
+                fadeFirstSlide:false,
+                slideshow:true,
+                pausePlay:false,
+                showPlayText:false,
+                playText:false,
+                pauseText:false
+            });
+            $(document).trigger('metaslider/initialized', '#metaslider_747');
+        };
+        var timer_metaslider_747 = function() {
+            var slider = !window.jQuery ? window.setTimeout(timer_metaslider_747, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_747, 1) : metaslider_747(window.jQuery);
+        };
+        timer_metaslider_747();
+</script>
+<script id="metaslider-script-js-extra">
+var wpData = {"baseUrl":"https:\/\/anastasio.bioengineering.illinois.edu"};
+</script>
+<script src="https://anastasio.bioengineering.illinois.edu/wp-content/plugins/ml-slider/assets/metaslider/script.min.js?ver=3.98.0" id="metaslider-script-js"></script>
+
+<ilw-back-to-top></ilw-back-to-top>
+</body>
+</html>

@@ -1,0 +1,38 @@
+Andrew Miller
+Research Areas
+Selected Articles in Journals
+- The Ekiden Platform for Confidentiality-Preserving, Trustworthy, and Performant Smart Contracts. Zhang, F. et al. In IEEE Security & Privacy, vol. 18, no. 03, pp. 17-27, 2020.
+- An Empirical Analysis of Linkability in the Monero Blockchain. Andrew Miller, Malte Moeser, Kevin Lee, Arvind Narayanan. PoPETS. July 2018
+Articles in Conference Proceedings
+- Long Live The Honey Badger: Robust Asynchronous DPSS and its Applications. Thomas Yurek, Zhuolun Xiang, Yu Xia, Andrew Miller. Usenix Security, 2023.
+- Publicly Auditable MPC-as-a-Service with succinct verification and universal setup Sanket Kanjalkar, Ye Zhang, Shreyas Gandlur, Andrew Miller. IEEE Workshop on Security and Privacy on the Blockchain, 2021.
+- An Empirical Analysis of Privacy in the Lightning Network George Kappos, Haaroon Yousaf, Ania Piotrowska, Sanket Kanjalkar, Sergi Delgado-Segura, Andrew Miller, Sarah Meiklejohn. Financial Crypto 2021.
+- Safer Illinois and RokWall: Privacy Preserving University Health Apps for COVID-19. Vikram Sharma Mailthody, James Wei, Nicholas Chen, Mohammad Behnia, Ruihao Yao, Qihao Wang, Vedant Agrawal, Churan He, Lijian Wang, Leihao Chen, Amit Agarwal, Edward Richter, Wen-Mei Hwu, Christopher W. Fletcher, Jinjun Xiong, Andrew Miller, Sanjay Patel. Workshop on Secure IT Technologies against COVID-19 (CoronaDef) 2021.
+- CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability Deepak Maram and Harjasleen Malvai and Fan Zhang and Nerla Jean-Louis and Alexander Frolov and Tyler Kell and Tyrone Lobban and Christine Moy and Ari Juels and Andrew Miller. (IEEE S&P 2021)
+- Non-interactive Proofs of Proof-of-Work. Aggelos Kiayias, Andrew Miller, Dionysis Zindros. Financial Cryptography 2020
+- Pisa: Arbitration Outsourcing for State Channels.. Patrick McCorry, Surya Bakshi, Iddo Bentov, Sarah Meiklejohn, Andrew Miller. ACM Advances in Financial Technology, 2019.
+- HoneyBadgerMPC and AsynchroMix: Practical AsynchronousMPC and its Application to Anonymous Communication. Donghang Lu, Thomas Yurek, Samarth Kulshreshtha, Rahul Govind, Rahul Mahadev, Aniket Kate, Andrew Miller. CCS 2019.
+- ILC: a calculus for composable, computational cryptography. Kevin Liao, Matthew Hammer, and Andrew Miller. (PLDI 2019)
+- TxProbe: Discovering Bitcoin's Network Topology Using Orphan Transactions. Sergi Delgado-Segura, Surya Bakshi, Cristina Pérez-Solà, James Litton, Andrew Pachulski, Andrew Miller, and Bobby Bhattacharjee. Financial Cryptography and Data Security. February 2019.
+- Sprites and State Channels: Payment Networks that Go Faster than Lightning. Andrew Miller, Iddo Bentov, Surya Bakshi, Ranjit Kumaresan, and Patrick McCorry. Financial Cryptography and Data Security. February 2019.
+- Short Paper: I Can’t Believe It’s Not Stake! Resource Exhaustion Attacks on PoS. Sanket Kanjalkar, Joseph Kuo, Yunqi Li, and Andrew Miller. Financial Cryptography and Data Security. February 2019.
+- Measuring Ethereum Network Peers. Seoung Kyun Kim, Zane Ma, Siddharth Murali, Joshua Mason, Andrew Miller and Michael Bailey. IMC. 2018.
+- Atomically Trading with Roger: Gambling on the success of a hardfork. Patrick McCorry, Ethan Heilman, Andrew Miller. Data Privacy Management, International Workshop on Cryptocurrencies and Blockchain Technology - CBT'17. September 2017
+- Instantaneous Decentralized Poker. Iddo Bentov, Ranjit Kumaresan, and Andrew Miller. AsiaCrypt. December 2017.
+- Zero-Collateral Lotteries in Bitcoin and Ethereum. Iddo Bentov and Andrew Miller. Security and Privacy on the Blockchain, April 2017.
+- SmartCast: An Incentive Compatible Consensus Protocol Using Smart Contracts. Abhiram Kothapalli, Andrew Miller, and Nikita Borisov. To appear, 1st Workshop on Trusted Smart Contracts, April 2017.
+- Towards an Accountable Software-Defined Networking Architecture. Benjamin Ujcich, Adam Bates, Andrew Miller, William H. Sanders, NETSOFT 2017.
+- The Honey Badger of BFT Protocols. Andrew Miller, Yu Xia, Kyle Croman, Elaine Shi, and Dawn Song. ACM CCS. November 2016
+- Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts. Ahmed Kosba, Andrew Miller, Elaine Shi, Zikai Wen, Charalampos Papamanthou. IEEE Security & Privacy (Oakland), May 2016.
+- Non-outsourceable Scratch-Off Puzzles to Discourage Bitcoin Mining Coalitions. Andrew Miller, Elaine Shi, Ahmed Kosba, and Jonathan Katz. ACM Computer and Communications Security (CCS), October 2015.
+- SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies. Joseph Bonneau, Andrew Miller, Jeremy Clark, Arvind Narayanan, Joshua A. Kroll, Edward W. Felten. IEEE Security & Privacy (Oakland), May 2015.
+- Permacoin: Repurposing Bitcoin Work for Long-Term Data Preservation. Andrew Miller, Ari Juels, Elaine Shi, Bryan Parno, Jonathan Katz. IEEE Security & Privacy (Oakland), May 2014.
+- Authenticated Data Structures, Generically. Andrew Miller, Michael Hicks, Jonathan Katz, Elaine Shi. ACM Symposium on Principles of Programming Languages (POPL). January, 2014. (project webpage)
+Public Service Honors
+- Distinguished Reviewer Award, IEEE Security & Privacy 2018 (May 22, 2018)
+Recent Courses Taught
+- CS 374 BL1 (ECE 374 BL1, ECE 374 BLZ, ECE 374 BYA, ECE 374 BYB, ECE 374 BYC, ECE 374 BYD, ECE 374 BYE, ECE 374 BYF) - Intro to Algs & Models of Comp
+- CS 563 (ECE 524) - Advanced Computer Security
+- ECE 407 (CS 407) - Cryptography
+- ECE 498 AC3 (ECE 498 AC4, CS 498 AM3, CS 498 AM4) - Applied Cryptography
+- ECE 598 AM - Ideal Funct. in Cryptography

@@ -1,0 +1,56 @@
+Margaret M. Fleck
+|
+Discrete Structures (CS 173): Spring 2025 and Spring 2021 and Spring 2020 .
+Artificial Intelligence (CS 440): Fall 2025 , Fall 2024 , Fall 2023 , and Fall 2022
+Computer Science Orientation (CS 100): Fall 2023 (link broken) and Fall 2022
+This shows the recurring parts of my schedule. Colored items happen most weeks. Uncolored items happen less often.
+WARNING: my fall schedule is still very incomplete and some bits are still tentative.
+An office hour scheduled right after a class is presumed to start at the classroom and eventually migrate over to my office. So I might get over to my office at a somewhat variable time.
+| Monday | Tuesday | Wednesday | Thursday | Friday | |
+|---|---|---|---|---|---|
+| 9-9:30 | CS 440 | CS 440 | CS 440 | ||
+| 9:30-10 | |||||
+| 10-10:30 | transit | office hour | office hour | ||
+| 10:30-11 | |||||
+| 11-11:30 | |||||
+| 11:30-12 | |||||
+| 12-12:30 | CS faculty meetings and lunches |
+transit | |||
+| 12:30-1 | Executive Committee |
+||||
+| 1-1:30 | NLP seminars | ||||
+| 1:30-2 | |||||
+| 2-2:30 | transit | ||||
+| 2:30-3 | transit | CS 440 staff meeting |
+|||
+| 3-3:30 | Senate | ||||
+| 3:30-4 | |||||
+| 4-4:30 | |||||
+| 4:30-5 | |||||
+| 5-5:30 | |||||
+| 5:30-6 | out of office | ||||
+| 6-6:30 |
+I focus on building materials that are easy for students to learn from. Specifically
+As our class size as grown, and particularly since the pandemic lockdown, I have become increasingly interested in techniques for making instruction scale well while preserving the most valuable aspects of in-person time and human feedback
+Discrete Structures (CS 173):
+Some specific challenges in teaching discrete mathematics:
+I've also been working on techniques for authoring and maintaining large sets of exam questions.
+Artificial Intelligence (CS 440)
+Fleck and Har-Peled lecture notes for Intro to Theory of Computation (CS 273) which I taught from Spring 2006 to Spring 2008.
+Back in the 90's, I developed a laboratory-based computer vision course.
+My recent research centers around understanding conversational speech, particularly unsupervised algorithms that learn word boundaries from transcribed speech. I am also interested in use of prosodic features (e.g. stress, duration) in language modelling and language acquisition.
+I worked in image understanding for many years and retain an interest in that area. I also have a long-term interest in building better programming language support for AI and have implemented a hybrid LISP/C package for computer vision applications and a hybrid Scheme/C package for linguistic research. At HP labs and U. Illinois, I have worked on systems that provide guidebooks and collect annotated records of personal experiences.
+Publications:
+Some useful resources:
+Here are the full versions of two software releases. The world has changed too much for the code to run, but they are still useful documentation of the designs.
+PhD theses
+MS theses
+MS-level projects, University of Iowa
+Undergraduate projects
+Some interesting ancestors: Mary Dyer and Susannah Martin. And a Dave Christman song about a historical event in my (small) hometown
+Semi-academic links:
+For steaming dumplings in quantity, Amazon sells a lovely German-made stainless Uzbek Mantovarka (brand Wetlif).
+On-line stores that sell really good tea, all with their own distinctive strengths.
+Palm frond unfolding
+Portable sailboats
+Music links

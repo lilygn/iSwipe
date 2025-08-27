@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><meta charset="utf-8"><meta name="Author" content="Sanjay Patel"><meta name="Description" content="Academic profile, University of Illinois at Urbana-Champaign"><meta name="Keywords" content="Sanjay J. Patel, Architecture, Technology Startups, Alchemy">
+	<link href="exp.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css" />
+	<title>Sanjay J. Patel&#39;s Home Page at University of Illinois Urbana-Champaign</title>
+</head>
+<body>
+<div id="banner">
+<h2><span style="font-size:36px;"><span class="normal">Sanjay J. Patel &emsp; </span></span></h2>
+
+<p><span style="font-size:22px;"><span class="normal">Professor of Electrical and Computer Engineering</span><br />
+Affiliate Professor, <a href="http://www.cs.illinois.edu">Computer Science</a><br />
+Co-Director, <a href="https://c3sr.com/">IBM-Illinois Center for Cognitive Computing Systems Research</a><br />
+Director, <a href="https://alchemyfoundry.com/">Alchemy Technology Foundry</a><br />
+Senior Technology Advisory, <a href="https://rokwire.org/">Rokwire Open-Source Initiative</a><br />
+University of Illinois at Urbana Champaign.</span></p>
+</div>
+
+<div id="content">
+<div id="rightcontent"><span class="normal"><img class="rounded img-fluid" src="SJP2017.png" /></span>
+
+<h2><span class="normal">Contact</span></h2>
+
+<p><span class="normal">Office: 211 <a href="http://www.fs.uiuc.edu/ada/0148.html">CSL</a> (Mail Code: 228),<br />
+1308 W. Main Street<br />
+Urbana, IL 61801<br />
+Phone: 217 333 9218<br />
+Email: sjp @ illinois.edu </span></p>
+
+<p><br />
+<b>Research Interests</b></p>
+
+<p>The intersection of Computer Architecture, Sensors, and Machine Learning. Digital Systems for Societal Good.</p>
+</div>
+
+<div id="leftcontent">
+<p><span class="normal"><b>Biosketch</b> </span></p>
+
+<p><span class="normal">Sanjay J. Patel is a Professor of Electrical and Computer Engineering and Computer Science at the University of Illinois at Urbana-Champaign. He holds a PhD from University of Michigan, Ann Arbor in Computer Science and Engineering (1999). He is a world reknowned technologist, author, and entrepreneur who has been involved in multiple high-impact projects. Sanjay&rsquo;s research has focused on computer architecture, and massively parallel chip design, with a focus on emerging use cases. Sanjay has recieved the National Science Foundation CAREER Award, an IBM Faculty Partnership Award, and multiple best paper awards.</span></p>
+
+<p><span class="normal">He is currently co-director of the IBM-Illinois Center for Cognitive Computing Systems Research, Senior Technology Advisor on the Rokwire Initiative, and Director of the Alchemy Foundry. For the past 15 years, he&rsquo;s been involved in numerous startup activities, including as CTO of Ageia Technologies (acquired by Nvidia) and as CEO and co-founder of Personify, Inc (acquired by Foxconn), and more recently, as advisor to ROKMETRO, Trova AI, DigitalGemini, and EarthSense.</span></p>
+
+<p><span class="normal">He is co-author, with Prof. Yale N. Patt, on the widely-adopted textbook Introduction to Computing Systems: From Bits and Gates to C/C++ and Beyond.</span></p>
+
+<p><span class="normal"><!-- Start of StatCounter Code --> <script type="text/javascript">
+				var sc_project=3940920;
+				var sc_invisible=0;
+				var sc_partition=47;
+				var sc_click_stat=1;
+				var sc_security="8b8a1916";
+			</script></span></p>
+<span class="normal"><script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-73567913-1', 'auto');
+		ga('send', 'pageview');
+
+		</script> </span></div>
+</div>
+</body>
+</html>

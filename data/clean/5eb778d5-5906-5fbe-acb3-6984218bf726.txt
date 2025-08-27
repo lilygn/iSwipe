@@ -1,0 +1,10 @@
+Michael A. Forbes
+Research Areas
+Recent Courses Taught
+- CS 473 (CSE 414, MATH 473) - Algorithms
+- CS 579 (ECE 579) - Computational Complexity
+- CS 598 MAF - Algeb & Geomet Complex Theory
+- CS 598 PSR - Pseudorandomness
+News Notes
+- 7/23/2024
+CS professor Michael A. Forbes won Best Paper for "Low-depth algebraic circuit lower bounds over any field" at the 2024 Computational Complexity Conference.

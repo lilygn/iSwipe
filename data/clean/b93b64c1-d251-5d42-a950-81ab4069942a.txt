@@ -1,0 +1,21 @@
+News: new papers and an AI hackathon award for aisafety4kids.org
+I am looking for new PhD students in AI security, privacy and safety. I'd encourage interested students to apply for the information science, informatics, or computer science (privacy/security, or interactive computing) PhD programs.
+I am a professor of information science and computer science (courtesy) in the University of Illinois at Urbana-Champaign (UIUC) where I co-direct the SALT lab and am part of the Interactive Computing group as well as the Security and Privacy Research at Illinois SPR@I group. I am also an affiliated faculty member in the Institute of Software Research (ISR) at the University of California, Irvine. I am an advisor to Conviva.
+I work on privacy, security, and responsible AI. More recently, I got interested in AI governance and safety. I am fortunate to work with my amazing students, including:
+Smirity Kaushik and Yaman Yu, as well as Dr. Zak Kilhoffer (graduated, now AI governance manager at Dynatrace), Dr. Tanusree Sharma (graduated, now assistant professor of information science at Penn State University), Dr. NatÃ£ Barbosa (graduated, now researcher at Netflix), and Dr. Yaxing Yao (graduated, now assistant professor of computer science at Johns Hopkins University).
+Some of my projects include:
+- OpenAI Democratic Inputs to AI: Inclusive.AI
+- Meta/Facebook Digital Privacy: Ad Privacy in the Global South
+- NSF SaTC: Visual Privacy
+- NSF SaTC: AI Ethics
+- Facebook Privacy Preserving Technology: Profiling Transparency
+- NSF CAREER: Inclusive Privacy
+- NSF CRII: Privacy Mirror
+- NIDILRR DRRP: Inclusive Cloud and Web Computing
+- NSF DGE: SEED Labs
+I am also interested in public policy issues, especially those regarding privacy, and have given invited talks discussing these issues at the Federal Trade Commission (FTC). My research has been supported by NSF, Department of Education, OpenAI, Google, Meta/Facebook, Alcatel-Lucent, and The Privacy Projects.
+Before joining UIUC, I was an assistant professor at the School of Information Studies (a.k.a., iSchool) in Syracuse University. Before Syracuse, I was a research scientist at the CyLab in Carnegie Mellon University. I spent two wonderful years at CMU working with Dr. Lorrie Cranor, Dr. Alessandro Acquisti, and folks in the CyLab Usable Privacy and Security Laboratory (CUPS Lab). I also collaborated with researchers from Alcatel-Lucent Bell Labs on privacy-enhancing technologies.
+I received my Ph.D. from the Donald Bren School of Information and Computer Sciences at University of California, Irvine. I had an amazing dissertation committee: Dr. Alfred Kobsa (advisor), Dr. AndrÃ© van der Hoek, and Dr. Gene Tsudik.
+While at UCI, I was affiliated with Institute of Software Research (ISR), Secure Computing & Networking Center (SCONCE) and
+Center for Research on Information Technology and Organizations (CRITO).
+I had the opportunities to work at Intel Research with Dr. Scott Mainwaring, at Fuji Xerox Palo Alto Lab (FXPAL) with Dr. Daniel Billsus and Dr. David Hilbert, and at CommerceNet with Dr. Rohit Khare. I was a visiting professor at the HCI lab in Tsinghua University in 2024 and the HCI lab at National University of Singapore in 2023. A while ago, I was a visiting researcher at Institute of Information Systems, Humboldt University in Berlin, Germany during the 2006 FIFA World Cup! I am still a passionate soccer player.

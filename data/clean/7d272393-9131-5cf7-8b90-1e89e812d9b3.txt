@@ -1,0 +1,12 @@
+Welcome to the DEPEND group homepage at the University of Illinois,
+Urbana-Champaign
+The DEPEND group focuses on the research, design, and validation of highly available, reliable, and trustworthy computing systems and networks. The research has two main branches in reliability and security, and health analytics and systems.
+The group comprises members from the Departments of Electrical and Computer Engineering and Computer Science, whose expertise spans across hardware and low-level architectures, operating systems and virtualization, cyber-physical systems, health informatics (embedded medical devices, personalized health-care, genomics) and big-data analytics. With a strong experimental focus, we develop techniques and methods that are tested on real systems or verified with actual production data.
+Our current collaborations include several industry partners and research institutions; for example, IBM, Cray, Microsoft, Intel, Nokia-Bell Labs, Los Alamos National Lab, NERSC, Sandia National Labs, the National Science Foundation, the Department of Defense, the Department of Energy, and the National Security Agency. For health-related research, we collaborate with Mayo Clinic, the National University Hospital in Singapore, and with industry partners from technical and pharma industries such as Strand Life Sciences, Abbott and Eli Lilly. In the past we had also important collaborations with Sun Microsystems (now Oracle), HP, Motorola, Boeing.
+Call for undergrads!
+We have a great history of success with undergraduates.
+Get in touch with our research members for a brilliant research experience. Visit the “Working with undergraduates” page for the latest updates!
+FEATURED RECENT RESEARCH:
+Cui, Shengkun, Archit Patke, Ziheng Chen, Aditya Ranjan, Hung Nguyen, Phuong Cao, Saurabh Jha et al. “Characterizing GPU Resilience and Impact on AI/HPC Systems.” arXiv preprint arXiv:2503.11901 (2025). https://doi.org/10.48550/arXiv.2503.11901
+Patke, Archit, Christian Pinto, Saurabh Jha, Haoran Qiu, Zbigniew Kalbarczyk, and Ravishankar K. Iyer. “Page Migration for Hardware Memory Disaggregation Across a Network.” In ACM International Conference on Supercomputing. 2025. https://arxiv.org/html/2503.18140v1
+Kremen, Vaclav, Yurui Cao, Vaclav Gerla, Filip Mivalt, Vladimir Sladky, Erik St. Louis, Mark Bower et al. “Post-Ictal Sleep Changes in Human Focal Epilepsy.” medRxiv (2025): 2025-01. https://doi.org/10.1101/2025.01.28.25321285

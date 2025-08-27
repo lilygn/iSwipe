@@ -1,0 +1,57 @@
+Active Research Themes
+Low Latency Satellite Connectivity
+We aim to enable near-realtime connectivity across Low Earth Orbit Satellites in space and devices on Earth through networking and AI innovations.
+Recent Publications: MobiCom 2024 (Best Community Paper award), HotNets 2024, NSDI 2024, Mobicom 2023, SIGCOMM 2021, HotNets 2020
+Machine Learning for Next Generation Networks
+Modern wireless networks are complex systems with varied capabilities and user needs. We are building robust and verifiable ML models to make optimum use of their capabilities.
+Recent Publications: ICLR 2025, NSDI 2023, MobiCom 2021, MobiCom 2020
+Localization and Sensing
+Our work focuses on enabling accurate location and sensing of devices, people, and robots using radio signals for applications in smart homes, healthcare, indoor navigation, and augmented reality.
+Recent Publications: MobiSys 2024, Mobicom 2023, NSDI 2022, Mobicom 2020.
+Rural Connectivity and Data-driven Agriculture
+We are studying the challenges and solutions for enabling high-fidelity connectivity for rural applications like digital agriculture and e-learning.
+Recent Publications: NSDI 2024, NSDI 2022, COMPASS 2019 (Best Paper award), NSDI 2017 (product at Microsoft)
+Current Ph.D. Students
+Jay Shenoy
+Satellite Networks, RF-Privacy
+Zikun Liu
+NextG Wireless, Machine Learning
+Bill Tao
+Satellite Networks, In-body Devices
+Emerson Sie
+RF Sensing, Robotics, Rural Connectivity
+Maleeha Masood
+Satellite Networks, Short Video Streaming. Co-advised with Prof. Indy Gupta.
+Ishani Janveja
+Satellite Networks, Acoustics
+Seoyul Oh
+NextG Wireless
+Recent News
+- [Spring 2024] Ishani and Emerson are Qualcomm Innovation Fellowship finalists for 2024.
+- [Spring 2024] Radarize accepted to MobiSys 2024.
+- [Spring 2024] Om Chabra is a CRA Outstanding Undergraduate researcher finalist!
+- [Fall 2023] Systems Research Award by VMWare to Deepak.
+- [Summer 2023] Two papers on satellite networks (Serval, and Spectrumize) accepted to NSDI 2024. Check out publications for papers.
+- [Spring 2023] NSF Career award to Deepak for low latency satellite networking.
+- [Spring 2023] Emerson won the Rambus Computer Engineering fellowship at UIUC and was selected as a Mavis Future Faculty fellow.
+- [Fall 2022/Spring 2023] Umbra, BatMobility, and InnerCompass accepted to Mobicom 2023. Check out our publications page.
+- [Fall 2022] RAFA accepted to NSDI 2023. Check out our publications page.
+- [Spring 2022] Zikun won the Qualcomm Innovation Fellowship.
+- [Spring 2022] Wi-Peep accepted to Mobicom 2022. Check out our publications page.
+- [Spring 2022] RF-Protect accepted to SIGCOMM 2022. Check out our publications page.
+- [Spring 2022] RF-Annotate accepted to ICRA 2022. Check out our publications page.
+Awards
+- Best Community Contribution Paper award at ACM MobiCom, 2024
+- Systems Research Award by VMWare, 2023
+- NSF CAREER Award, 2023
+- Outstanding Advisor Award, Grainger College of Engineering, UIUC, 2022
+- UIUC's List of Teachers Rated as Excellent, 2021
+- IIT Delhi Graduate of the Last Decade (GOLD) Award, 2021
+- Inaugural Microsoft Industry Research Fellow, 2020
+- ACM SIGCOMM Doctoral Dissertation Award, 2019
+- ACM SIGCOMM Best Paper Award, 2016
+- Winning team, Microsoft Oneweek Hackathon (Industries Category), 2016
+- Microsoft Research Ph.D. Fellowship, 2016-18
+- President of India Gold Medal, 2013 for highest CGPA across all departments at IIT Delhi
+- MIT EECS Great Educators Fund Fellowship for academic year 2013-14
+- Had the honor to witness Republic Day of India, 2008 and 2010 from the Prime Minister's box for being among the top 25 students in Class X and Class XII exams respectively

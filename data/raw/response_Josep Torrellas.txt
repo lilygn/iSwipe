@@ -1,0 +1,957 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>The i-acoma group at University of Illinois at Urbana-Champaign</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="../mycss.css" type="text/css">
+</head>
+<body>
+<div id="content">
+<div id="header">
+  <div>
+    <h1 id="page-title">
+    The i-acoma group at UIUC
+</h1>
+    <p id="description"></p>
+  </div>
+</div>
+<div id="navcontainer">
+  <ul id="navlist">
+    <li><a href="/index.html">Home</a></span></li>
+    <li><a href="/work.html">Papers</a></span></li>
+    <li><a href="/people.html">People</a></span></li>
+    <li><a href="/news.html">News</a></span></li>
+    <li><a href="/positions.html">Positions</a></span></li>
+    <li><a href="/links.html">Links</a></span></li>
+    <li><a href="/contact.html">Contact</a></span></li>
+  </ul>
+</div>
+<div id="main">
+  <div id="main2">
+    <!-- Begin .post -->
+    <div class="post">
+      <div class="post-body">
+        <p>
+        <div id="josep">
+          <h2><a href="http://iacoma.cs.uiuc.edu/josep/torrellas.html">Professor Josep Torrellas</a><br>
+              Director, SRC/DARPA JUMP 2.0 ACE Center for Evolvable Computing<br>
+              Saburo Muroga Professor of Computer Science, University of Illinois at Urbana-Champaign<br>
+              (torrella@illinois.edu)  
+              <a href="http://scholar.google.com/citations?user=zdnAkgsAAAAJ&hl=en">Google Scholar,</a>
+              <A HREF="/iacoma-papers/torrellas.pdf">CV August 2025</A></h2>
+<!--          <dt class="josep-img"><img src="../images/newjosep.jpg" width="61" height="86" alt="" /></dt>   
+          <dt class="josep-img"><img src="../students/josep_cluster.jpg" width="388" height="258" alt="" /></dt>   -->
+          <dt class="josep-img"><img src="torrellas_portrait.jpg" width="193" height="258" alt="" /></dt>  
+
+<p> <br>
+<p> <br>
+<p> <br>
+<p> <br>
+<p> <br>
+<p> <br>
+<p> <br>
+<p> <br>
+<p> <br>
+<p> <br>
+<p> <br>
+          <dt class="iacoma-img"><img src="../iacoma.gif" width="100" height="50" /></dt>
+
+          <div class="josep_thedata"> 
+
+
+<h3 style="font-weight: normal"> 
+
+
+<h2>Looking for Graduate Students:<br></h2>
+<h3>The <A HREF="https://acecenter.grainger.illinois.edu/">SRC/DARPA JUMP 2.0 ACE Center for Evolvable Computing</A> has started in January 2023. This 5-year 21-Principal Investigator project is focused on transforming distributed computing, substantially improving its energy efficiency and performance. See the <A HREF="https://acecenter.grainger.illinois.edu/news/52532">Official Announcement</A>, as well as the SRC announcements (<A HREF="https://www.src.org/newsroom/press-release/2023/1037/">here</A> and <A HREF="https://twitter.com/srcorg/status/1610637176798068736?s=20&t=woR80Se0_XlUgPjO4CvwPw">here</A>) and the
+<A HREF="https://www.darpa.mil/news-events/2023-01-04">DARPA announcement</A>. I am looking for graduate students who want to get involved in the Center. It is a great opportunity for individuals who are looking to learn and perform research on cross-disciplinary issues in computing systems, interact with students and senior researchers across the community, and have a close collaboration with computer industry leaders. 
+If interested, please send an email with your CV to torrella@illinois.edu.<br>
+</h3>
+
+
+
+<h3 style="font-weight: normal"> 
+
+
+<h2>JOSEP TORRELLAS BIO:</h2>
+<h3 style="font-weight: normal"> 
+
+Josep Torrellas is the Saburo Muroga Professor of <A HREF="https://cs.illinois.edu">Computer Science at the University of Illinois at Urbana-Champaign (UIUC)</a>. He is the 
+Director of the <A HREF="https://acecenter.grainger.illinois.edu/">SRC/DARPA JUMP 2.0 ACE Center for Evolvable Computing</A>, past Co-Leader of an Intel Strategic Research Alliance (ISRA) on Computer Security, and past Director of the 
+<A HREF="http://i2pc.cs.illinois.edu">Illinois-Intel Parallelism Center (I2PC)</a>.
+
+<br>
+<p>
+<p>
+
+Torrellas has made contributions to shared-memory multiprocessor architectures and thread-level speculation (TLS) over more than thirty years. He was the first to apply TLS ideas to parallel architectures and programs: He used speculative multithreading to eliminate stalling due to synchronization (Speculative Synchronization), identify and debug data races (ReEnact), monitor memory accesses (I-Watcher), provide fault tolerance (ReVive), and inexpensively enforce sequential consistency (BulkSC). Some of these ideas impacted IBM's Blue Gene and other commercial machines. Torrellas was part of the design team of <A HREF="https://en.wikipedia.org/wiki/PERCS">IBMâs PERCS Multiprocessor</a>, an architecture for productivity. The team considered some of his TLS mechanisms, as well as processing-in-memory features inspired by his <A HREF="http://iacoma.cs.uiuc.edu/flexram/index.html">FlexRAM Intelligent Memory</a> project.
+
+<br>
+<p>
+
+Using mechanisms inspired by TLS, Torrellas developed the <A HREF="http://iacoma.cs.uiuc.edu/iacoma-papers/bulkmulticore.pdf">Bulk Architecture</a>, an out-of-the-box scalable shared-memory multiprocessor for programmability that was influential within Intel as part of the <A HREF="http://iacoma.cs.uiuc.edu/iacoma-papers/Illinois_parallelism_book.pdf">Illinois-Intel Parallelism Center</a>. Torrellas also applied TLS ideas to develop Record and deterministic Replay (RnR) architectures and, together with Intel, he built <A HREF="http://iacoma.cs.uiuc.edu/iacoma-papers/isca13_1.pdf">QuickRec, the first RnR hardware prototype</a>, which used FPGAs to extend Intelâs cores and caches for RnR.
+
+<br>
+<p>
+
+Torrellas has made contributions to multiprocessor architectures, NUMA organizations, cache coherence protocols, hardware synchronization, and prefetching schemes. In recognition, the government made his I-ACOMA multiprocessor one of the <A HREF="https://www.eurekalert.org/pub_releases/1996-10/NSF-NfSN-251096.php">Ten Design-Point Studies</a> funded nationwide to attain Petaflop machines. He was involved in the <A HREF="https://en.wikipedia.org/wiki/Stanford_DASH">Stanford DASH</a> and <A HREF="https://dl.acm.org/doi/abs/10.1145/165123.165157">Illinois Cedar</a> experimental multiprocessors. His early work on <A HREF="http://iacoma.cs.uiuc.edu/iacoma-papers/false_sharing.pdf">false sharing</a> and cache behavior of OS and commercial workloads influenced compiler writers and architects of early parallel machines, such as the Silicon Graphics Origin2000. Torrellas was also co-leader of the <A HREF="http://iacoma.cs.uiuc.edu/iacoma-papers/hpca13_1.pdf">Intel Runnemede Extreme-Scale multiprocessor</a>, a machine designed for energy efficiency that impacted Intelâs high-end architectures. 
+
+<br>
+<p>
+
+Torrellas received the 2021 IEEE Computer Society <A HREF="https://www.computer.org/volunteering/awards/goode">Harry H. Goode Memorial Award</a> âfor contributions to energy efficient and programmable shared-memory multiprocessor architecturesâ, the 2017 UIUC <A HREF="https://cs.illinois.edu/news/torrellas-earns-campus-wide-student-mentoring-honor">Campus Award for Excellence in Graduate Student Mentoring</a>, and the 2015 IEEE Computer Society <A HREF="https://www.computer.org/volunteering/awards/technical-achievement">Technical Achievement Award</a> âfor <A HREF="https://www.computer.org/profiles/josep-torrellas">pioneering contributions to shared-memory multiprocessor architectures and thread-level speculation</a>â. He has received a Google Faculty Research Award, IBM Partnership Awards, Intel Research Council Awards, and an NSF Young Investigator Award. He was a Willett Faculty Scholar at Illinois (2002-9). He is a Fellow of IEEE, ACM, and <A HREF="https://www.aaas.org/news/2016-aaas-fellows-honored-advancing-science-serve-society">AAAS</a>. He has received many Best Paper Awards and a High-Impact Paper Award.
+
+<br>
+<p>
+
+Torrellas has mentored generations of computer architects. Of his 48 Ph.D. graduates, over a dozen are faculty at top US academic institutions, including MartÃ­nez (Cornell), Solihin (UCF), Huang (Rochester), Prvulovic (Gatech), Renau (UCSC), Tuck (NCSU), Ceze (Washington), Teodorescu (OSU), Ahn (Pittsburgh), Muzahid (Texas A&M), Karpuzcu (Minnesota), Qian (Purdue), Honarmand (Stony Brook), Yan (MIT), and Skarlatos (CMU).
+
+<br>
+<p>
+
+Torrellas has served as the Chair of the <A HREF="http://ieeetcca.org">IEEE CS Technical Committee on Computer Architecture (TCCA)</a> (2018-22). He has also served in the Board of Directors of the <A HREF="https://cra.org">Computing Research Association (CRA)</a> (2016-19), has been a Council Member of CRAâs <A HREF="https://cra.org/ccc/">Computing Community Consortium (CCC)</a> (2011-14), and has served as a Member of the <A HREF="https://www.nationalacademies.org/board/board-on-army-research-and-development">U.S. National Academies Board on Army Research and Development</a> (2018-23). He currently serves in the <A HREF="https://irds.ieee.org">International Roadmap for Devices and Systems (IRDS)</a>. He has co-organized many <A HREF="http://iacoma.cs.uiuc.edu/iacoma-papers/inter18.pdf">funding and visioning workshops</a>. His workshops on <A HREF="http://iacoma.cs.uiuc.edu/iacoma-papers/ACAR1_REPORT.pdf">Advancing Computer Architecture Research</a> helped usher NSFâs XPS Program.
+
+<br>
+<p>
+
+Prior to being at UIUC, Torrellas received a Ph.D. from Stanford University.
+
+
+
+            <p>
+            <p>
+<br>
+
+            <p>
+            <div id="person"><ul>
+			<li>&#171; <a href="../work.html">Publications </a>&#187;</li>
+			<li>&#171; <a href="./cv.html">Curr. Vitae </a>&#187; </li>
+			<li>&#171; <a href="../alradygra.html">Students Graduated</a>&#187; </li>
+			</ul>
+			</div>
+          </div>
+
+
+
+<h3 style="font-weight: normal"> 
+
+ <br>
+<h3> Recent News (whole list <A HREF="http://iacoma.cs.uiuc.edu/news.html">at the News Tab):</A></h3>
+<h3 style="font-weight: normal">
+          <UL>
+<LI>April 2025: The paper <A HREF="/iacoma-papers/asplos25_1.pdf">CXLfork: Fast Remote Fork over CXL Fabrics</A> receives the Best Paper Award, 2025 International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS).</LI>
+<LI>March 2025: Two papers are accepted in <strong>ISCA 2025</strong>.</LI>
+<LI>March 2025: The paper <A HREF="/iacoma-papers/hpca25_2.pdf">DynamoLLM: Designing LLM Inference Clusters for Performance and Energy Efficiency</A> receives the Best Paper Award, 2025 International Symposium on High-Performance Computer Architecture (HPCA).</LI>
+<LI>February 2025: The paper <A HREF="/iacoma-papers/asplos24_1.pdf">Everywhere All at Once: Co-Location Attacks on Public Cloud FaaS</A> is selected in 2025 IEEE Micro Top Picks from Computer Architecture Conferences.</LI>
+<LI>January 2025: Two papers are accepted in <strong>ASPLOS 2025</strong>.</LI>
+<LI>January 2025: The paper <A HREF="/iacoma-papers/asplos23.pdf">Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic Partitioning Schemes</A> is selected in Top Picks in Hardware and Embedded Security in 2024.</LI>
+<LI>December 2024: Two papers are accepted in <strong>HPCA 2025</strong>.</LI>
+<LI>August 2024: PhD student <A HREF="https://zzrcxb.me/">Zirui Neil Zhao</A> graduated and will start as an Assistant Professor at the Department of Electrical and Computer Engineering, University of Texas at Austin. Check out his thesis <A HREF="/iacoma-papers/neil_zhao_thesis.pdf">"You Share, You Leak: Practical Side-channel Attacks and Defenses in Modern Clouds"</A>.</LI> 
+<LI>August 2024: One paper is accepted in <strong>MICRO 2024</strong>.</LI>
+<LI>March 2024: Josep Torrellas is awarded the 2023-2024 Tau Beta Pi Daniel C. Drucker Eminent Faculty Award, College of Engineering, UIUC.</LI>
+<LI>March 2024: Two papers are accepted in <strong>ISCA 2024</strong>.</LI>
+<LI>January 2024: Four Papers in <strong>2024 IEEE Top Picks on Computer Architecture Conferences</strong>: 
+One Top Pick 
+(<A HREF="/iacoma-papers/micro23.pdf">Micro-Armed Bandit: Lightweight & Reusable Reinforcement Learning for Microarchitecture Decision-Making</A>) and 
+Thee Honorable Mentions 
+(<A HREF="/iacoma-papers/isca23_1.pdf">Î¼Manycore: A Cloud-Native CPU for Tail at Scale</A>; <A HREF="/iacoma-papers/asplos23.pdf">Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic Partitioning Schemes</A>; <A HREF="/iacoma-papers/isca23_3.pdf">SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM</A>).</LI>
+<LI>December 2023: Two papers are accepted in <strong>ASPLOS 2024</strong>.</LI>
+<LI>November 2023: Two papers are accepted in <strong>HPCA 2024</strong>.</LI>
+<LI>September 2023: One paper is accepted in <strong>MICRO 2023</strong> and one in <strong>ASPLOS 2024</strong>.</LI>
+<LI>March 2023: Three papers are accepted in <strong>ISCA 2023</strong>.</LI>
+<LI>January 2023: One paper is accepted in <strong>ASPLOS 2023</strong>.</LI> 
+<LI>January 2023: Josep Torrellas is the Director of the <A HREF="https://acecenter.grainger.illinois.edu/">SRC/DARPA JUMP 2.0 ACE Center for Evolvable Computing</A>. See the 
+<A HREF="https://acecenter.grainger.illinois.edu/news/52532">Center Announcement</A>, as well as the SRC announcements (<A HREF="https://www.src.org/newsroom/press-release/2023/1037/">here</A> and <A HREF="https://twitter.com/srcorg/status/1610637176798068736?s=20&t=woR80Se0_XlUgPjO4CvwPw">here</A>) and the
+<A HREF="https://www.darpa.mil/news-events/2023-01-04">DARPA announcement</A>.</LI>
+<LI>November 2022: One paper is accepted in <strong>PPoPP 2023</strong>.</LI> 
+<LI>October 2023: Two papers are accepted in <strong>HPCA 2023</strong>.</LI>
+<LI>March 2022: One paper is accepted in <strong>ISCA 2022</strong>.</LI>
+<LI>January 2022: Two papers are accepted in <strong>IEEE Top Picks in Computer Architecture 2022</strong>:
+<A HREF="/iacoma-papers/micro21.pdf">Distributed Data Persistency</A> (MICRO 21) and 
+<A HREF="/iacoma-papers/isca21_1.pdf">Maya: Using Formal Control to Obfuscate Power Side Channels</A> (ISCA 21) .</LI>
+</UL>
+<p>
+
+
+          <br>
+          Torrellas leads <a href="http://iacoma.cs.uiuc.edu">
+          <strong>The i-acoma Architecture Group</strong></a>, which focuses on new processor, 
+          memory, and system technologies and organizations to build novel multiprocessor 
+          computer architectures. Two examples of projects we have done in the past:
+          <p>
+          <ul>
+            <li> A novel multicore architecture for programmability: 
+                 <br>
+                 <A HREF="/iacoma-papers/bulkmulticore.pdf">
+                 <strong>The Bulk Multicore Architecture</strong></a> (Communications of the ACM,
+                 December 2009).
+                 <A HREF="/iacoma-papers/PRES/present_cacm09_1.pdf">[Presentation slides].</a>
+                 <br>
+                 <A HREF="http://www.eetimes.com/news/latest/showArticle.jhtml?articleID=212100891">
+                  EE Times article that discusses the Bulk Multicore.</a>
+                 <br>
+                 <A HREF="http://www.ddj.com/go-parallel/article/showArticle.jhtml?articleID=222200120">
+                 Dr. Dobb's Journal discussion of the Bulk Multicore.</a>
+                 <br>
+                 <A HREF="/iacoma-papers/Illinois_parallelism_book.pdf">
+                 Making Parallel Programming Easy: Research Contributions from Illinois,</A> a book
+                 summarizing the accomplishments of the Illinois-Intel Parallelism Center (I2PC).
+                 <br>
+                 This project is funded under the 
+                 <A HREF="http://i2pc.cs.illinois.edu">
+                 Illinois Intel Parallelism Center (I2PC).</a>
+                 </li>
+             <p>
+            <li> An extreme-scale multiprocessor architecture designed from the 
+                 ground up for energy and power efficiency:
+                 <br>
+                 <A HREF="/iacoma-papers/extreme.pdf">
+                 <strong>Thrifty: An Extreme-Scale Multiprocessor Architecture</strong></a> 
+                 (IEEE Computer, November 2009).
+                 <A HREF="/iacoma-papers/PRES/present_extreme09.pdf">[Presentation slides].</a>
+                 <br>
+                 <A HREF="/iacoma-papers/date14.pdf">
+                 Extreme-Scale Computer Architecture: Energy Efficiency from the Ground Up</A>
+                 (DATE, March 2014).
+                 <br>
+                 This work is part of an <A HREF="http://cs.illinois.edu/news/2010/Oct12-2">
+                 Intel-lead DARPA project</a> that aims to design an Extreme-Scale computer.
+                 <br>
+                 <A HREF="http://blogs.intel.com/research/2010/08/intel_and_darpa_collaborate_on.php">
+                 Intel blog on the DARPA project.</a>
+                 <br>
+                 This project is funded by DARPA under 
+                 <A HREF="http://www.darpa.mil/news/2010/UHPCNewsRelease.pdf">UHPC</a> and DOE.
+                 </li> 
+          </ul>
+          <p>
+   <p>
+
+
+<h3> Examples of Architectures We Designed in the Past:</h3>
+<h3 style="font-weight: normal"> 
+<UL>
+<LI> <A HREF="http://iacoma.cs.uiuc.edu/iacoma-papers/isca13_1.pdf">
+     "QuickRec: A Hardware Prototype for Recording and Deterministically Replaying
+Multithreaded Programs in the Intel Architecture"</A>.
+     This prototype has been developed in collaboration with Intel,
+     and is described in the QuickRec ISCA-2013 paper.</LI>
+<LI> <A HREF="http://iacoma.cs.uiuc.edu/iacoma-papers/hpca13_1.pdf">
+      "Runnemede: An Chip Multiprocessor for Extreme-Scale Computing"</A>.
+     This manycore chip has been designed in collaboration with Intel, and is
+     described in the Runnemede HPCA-2013 paper.</LI>
+</UL>
+
+
+<h3> Some Recent Publications:</h3>
+<h3 style="font-weight: normal">
+<UL>
+
+<LI><A HREF="/iacoma-papers/asplos24_3.pdf">Two-Face: Combining Collective and One-Sided Accesses for Efficient Distributed SpMM,</A> ASPLOS 2024.
+     <A HREF="/iacoma-papers/PRES/present_asplos24_3.pdf">[Presentation slides]</A>
+     </LI> <P>
+
+<LI><A HREF="/iacoma-papers/asplos24_2.pdf">Last-Level Cache Side-Channel Attacks Are Feasible in the Modern Public Cloud,</A> ASPLOS 2024.
+     <A HREF="/iacoma-papers/PRES/present_asplos24_2.pdf">[Presentation slides]</A>
+     </LI> <P>
+
+<LI><A HREF="/iacoma-papers/asplos24_1.pdf">Everywhere All at Once: Co-Location Attacks on Public Cloud FaaS,</A> ASPLOS 2024.
+     <A HREF="/iacoma-papers/PRES/present_asplos24_1.pdf">[Presentation slides]</A>
+     </LI> <P>
+
+<LI><A HREF="/iacoma-papers/hpca24_1.pdf">MINOS: Distributed Consistency and Persistency Protocol Implementation & Offloading to SmartNICs,</A> HPCA 2024.
+     <A HREF="/iacoma-papers/PRES/present_hpca24_1.pdf">[Presentation slides]</A>
+     </LI> <P>
+
+<LI><A HREF="/iacoma-papers/hpca24_2.pdf">HotTiles: Accelerating SpMM with Heterogeneous Accelerator Architectures,</A> HPCA 2024.
+     <A HREF="/iacoma-papers/PRES/present_hpca24_2.pdf">[Presentation slides]</A>
+     </LI> <P>
+
+<LI><A HREF="/iacoma-papers/micro23.pdf">Micro-Armed Bandit: Lightweight & Reusable Reinforcement Learning for Microarchitecture Decision-Making,</A> MICRO 2023.
+     <A HREF="/iacoma-papers/PRES/present_micro23.pdf">[Presentation slides]</A>
+     </LI> <P>
+
+<LI><A HREF="/iacoma-papers/isca23_1.pdf">Î¼Manycore: A Cloud-Native CPU for Tail at Scale,</A> ISCA 2023.
+     <A HREF="/iacoma-papers/PRES/present_isca23_1.pdf">[Presentation slides]</A>
+     </LI> <P>
+
+<LI><A HREF="/iacoma-papers/isca23_2.pdf">MXFaaS: Resource Sharing in Serverless Environments for Parallelism and Efficiency,</A> ISCA 2023.
+     <A HREF="/iacoma-papers/PRES/present_isca23_2.pdf">[Presentation slides]</A>
+     </LI> <P>
+
+<LI><A HREF="/iacoma-papers/isca23_3.pdf">SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM,</A> ISCA 2023.
+     <A HREF="/iacoma-papers/PRES/present_isca23_3.pdf">[Presentation slides]</A>
+     </LI> <P>
+
+
+<!--
+<LI><A HREF="/iacoma-papers/isca22.pdf">Graphite: Optimizing Graph Neural Networks on CPUs Through Cooperative Software-Hardware Techniques,</A> ISCA 2022.
+<A HREF="/iacoma-papers/PRES/present_isca22.pdf">[Presentation slides].</A>
+</LI><P>
+
+<LI><A HREF="/iacoma-papers/asplos22_1.pdf">Parallel Virtualized Memory Translation with Nested Elastic Cuckoo Page Tables,</A> ASPLOS 2022.
+<A HREF="/iacoma-papers/PRES/present_asplos22_1.pdf">[Presentation slides].</A>
+</LI><P>
+<LI><A HREF="/iacoma-papers/asplos22_2.pdf">Pinned Loads: Taming Speculative Loads in Secure Processors,</A> ASPLOS 2022.
+<A HREF="/iacoma-papers/PRES/present_asplos22_2.pdf">[Presentation slides].</A>
+</LI><P>
+<LI><A HREF="/iacoma-papers/micro21.pdf">Distributed Data Persistency,</A> MICRO 2021.
+<A HREF="/iacoma-papers/PRES/present_micro21.pdf">[Presentation slides].</A>
+ </LI><P>
+<LI><A HREF="/iacoma-papers/isca21_1.pdf">Maya: Using Formal Control to Obfuscate Power Side Channels,</A>
+ISCA 2021.
+<A HREF="/iacoma-papers/PRES/present_isca21_1.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI><A HREF="/iacoma-papers/isca21_2.pdf">Execution Dependence Extension (EDE): ISA Support for Eliminating Fences,</A>
+ISCA 2021.
+<A HREF="/iacoma-papers/PRES/present_isca21_2.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI><A HREF="/iacoma-papers/asplos21_1.pdf">Jamais Vu: Thwarting Microarchitectural Replay Attacks,</A>
+ASPLOS 2021.
+<A HREF="/iacoma-papers/PRES/present_asplos21_1.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI><A HREF="/iacoma-papers/asplos21_2.pdf">Speculative Interference Attacks: Breaking Invisible Speculation Schemes,</A> 
+ASPLOS 2021.
+<A HREF="/iacoma-papers/PRES/present_asplos21_2.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI><A HREF="/iacoma-papers/hpca21.pdf">WiDir: A Wireless-Enabled Directory Cache Coherence Protocol,</A>
+HPCA 2021.
+<A HREF="/iacoma-papers/PRES/present_hpca21.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/micro20_1.pdf">Speculation Invariance (InvarSpec): Faster Safe Execution Through Program Analysis</A>,
+MICRO 2020.
+<A HREF="/iacoma-papers/PRES/present_micro20_1.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/micro20_2.pdf">P-INSPECT: Architectural Support for Programmable Non-Volatile Memory Frameworks</A>,
+MICRO 2020.
+<A HREF="/iacoma-papers/PRES/present_micro20_2.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/micro20_3.pdf">SAVE: Sparsity-Aware Vector Engine for Accelerating DNN Training and Inference on CPUs</A>,
+MICRO 2020.
+<A HREF="/iacoma-papers/PRES/present_micro20_3.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/micro20_4.pdf">Draco: Architectural and Operating System Support for System Call Security</A>,
+MICRO 2020.
+<A HREF="/iacoma-papers/PRES/present_micro20_4.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca20_1.pdf">BabelFish: Fusing Address Translations Across the Stack for Containers</A>,
+ISCA 2020.
+<A HREF="/iacoma-papers/PRES/present_isca20_1.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca20_2.pdf">Speculative Data-Oblivious Execution: Mobilizing Safe Prediction For Safe and Efficient Speculative Execution</A>, ISCA 2020.
+<A HREF="/iacoma-papers/PRES/present_isca20_2.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/asplos20.pdf">Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelism</A>, ASPLOS 2020.
+<A HREF="/iacoma-papers/PRES/present_asplos20.pdf">[Presentation slides].</A>
+<A HREF="https://www.youtube.com/watch?v=BIvpGx-znlk&list=PLsLWHLZB96VeVp3IVzvSH58ttVz_Anr7H&index=68&t=0s">[Video].</A>
+</LI><P>
+
+
+<LI> <A HREF="/iacoma-papers/usenix20.pdf">Cache Telepathy: Leveraging Shared Resource Attacks to Learn DNN Architectures</A>, USENIX SS 2020.
+<A HREF="/iacoma-papers/PRES/present_usenix20.pdf">[Presentation slides].</A>
+</LI><P>
+
+
+<LI> <A HREF="/iacoma-papers/micro19_1.pdf">Tangram: Integrated Control of Heterogeneous Computers</A>,
+MICRO 2019.
+<A HREF="/iacoma-papers/PRES/present_micro19_1.pdf">[Presentation slides].</A>
+</LI><P>
+
+<LI> <A HREF="/iacoma-papers/micro19_2.pdf">Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data</A>,
+MICRO 2019.
+<A HREF="/iacoma-papers/PRES/present_micro19_2.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/sc19.pdf">Understanding Priority-Based Scheduling of Graph Algorithms on a Shared-Memory Platform</A>,
+SC 2019.
+<A HREF="/iacoma-papers/PRES/present_sc19.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca19_1.pdf">Designing Vertical Processors in Monolithic 3D</A>,
+ISCA 2019.
+<A HREF="/iacoma-papers/PRES/present_isca19_1.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca19_2.pdf">SecDir: A Secure Directory to Defeat Directory Side-Channel Attacks</A>,
+ISCA 2019.
+<A HREF="/iacoma-papers/PRES/present_isca19_2.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca19_3.pdf">MicroScope: Enabling Microarchitectural Replay Attacks</A>,
+ISCA 2019.
+<A HREF="/iacoma-papers/PRES/present_isca19_3.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/pldi19_1.pdf">AutoPersist: An Easy-To-Use Java NVM Framework Based on Reachability</A>,
+PLDI 2019.
+<A HREF="/iacoma-papers/PRES/present_pldi19_1.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/pldi19_2.pdf">Reusable Inline Caching for JavaScript Performance</A>,
+PLDI 2019.
+<A HREF="/iacoma-papers/PRES/present_pldi19_2.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/asplos19.pdf">Replica: A Wireless Manycore for Communication-Intensive and Approximate Data</A>,
+ASPLOS 2019.
+ <A HREF="/iacoma-papers/PRES/present_asplos19.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/hpca19_1.pdf">NoMap: Speeding-Up JavaScript Using Hardware Transactional Memory</A>,
+HPCA 2019.
+ <A HREF="/iacoma-papers/PRES/present_hpca19_1.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI><A HREF="/iacoma-papers/hpca19_2.pdf">PageSeer: Using Page Walks to Trigger Page Swaps in Hybrid Memory Systems</A>, HPCA 2019.
+ <A HREF="/iacoma-papers/PRES/present_hpca19_2.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/inter18.pdf">Inter-Disciplinary Research Challenges in Computer Systems for the 2020s</A>, NSF-sponsored Visioning Workshop Report.</LI><P>
+
+<LI> <A HREF="/iacoma-papers/micro18.pdf">InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy</A>,
+ MICRO 2018. <A HREF="/iacoma-papers/corrected_micro18.pdf">Corrected version of the paper.</A>
+<A HREF="/iacoma-papers/corrigendum18.pdf">One-page explanation of the correction.</A>
+ <A HREF="/iacoma-papers/PRES/present_micro18.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/pact18.pdf">Biased Reference Counting: Limiting Atomic 
+Operations in Reference Counting for Garbage Collection</A>,
+ PACT 2018. <A HREF="/iacoma-papers/PRES/pact18.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca18_1.pdf">HetCore: TFET-CMOS Hetero-Device Architecture for CPUs and GPUs</A>, ISCA 2018.
+ <A HREF="/iacoma-papers/PRES/present_isca18_1.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca18_2.pdf">Yukta: Multilayer Resource Controllers to Maximize Efficiency</A>, ISCA 2018.
+ <A HREF="/iacoma-papers/PRES/present_isca18_2.pdf">[Presentation slides].</A>
+</LI><P>
+
+<LI> <A HREF="/iacoma-papers/ssp19.pdf">Attack Directories, Not Caches: Side Channel Attacks in a Non-Inclusive World</A>, 
+SP 2019.  <A HREF="/iacoma-papers/PRES/present_ssp19.pdf">[Presentation slides].</A>
+<A HREF="/iacoma-papers/PRES/present_HASP18.pptx">[Slides from a workshop].</A>
+</LI><P>
+
+<LI> <A HREF="/iacoma-papers/hpca18.pdf">RnR-Safe: Record-Replay Architecture as a General Security Framework</A>,
+HPCA 2018. 
+<A HREF="/iacoma-papers/PRES/present_hpca18.pdf">[Presentation slides].</A>
+</LI><P>
+
+
+<LI> <A HREF="/iacoma-papers/micro17_1.pdf">PageForge: A Near-Memory Content-Aware Page-Merging Architecture</A>, MICRO 2017.
+<A HREF="/iacoma-papers/PRES/present_micro17_1.pdf">[Presentation slides].</A>
+</LI><P>
+
+<LI> <A HREF="/iacoma-papers/micro17_2.pdf">Xylem: Enhancing Vertical Thermal Conduction in 3D Processor-Memory Stacks</A>, MICRO 2017.
+<A HREF="/iacoma-papers/PRES/present_micro17_2.pdf">[Presentation slides].</A>
+</LI><P>
+
+<LI> <A HREF="/iacoma-papers/pact17.pdf">Sthira: A Formal Approach to Minimize 
+Voltage Guardbands under Variation in Networks-on-Chip for Energy Efficiency</A>, PACT 2017.
+<strong>Best Paper Nominee</strong>.
+<A HREF="/iacoma-papers/PRES/present_pact17.pdf">[Presentation slides].</A>
+</LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca17_1.pdf">ShortCut: Architectural Support for Fast 
+Object Access in Scripting Languages</A>, ISCA 2017.
+ <A HREF="/iacoma-papers/PRES/present_isca17_1.pdf">[Presentation slides].</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca17_2.pdf">Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Attacks</A>, ISCA 2017.
+ <A HREF="/iacoma-papers/PRES/present_isca17_2.pdf">[Presentation slides].</A>
+</LI><P>
+
+
+
+<LI> <A HREF="/iacoma-papers/cal16.pdf">
+ Survive: Pointer-based In-DRAM Incremental Checkpointing
+for Low-Cost Data Persistence and Rollback-Recovery</A>,
+ IEEE CAL 2016.
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/micro16_1.pdf">
+ ReplayConfusion: Detecting Cache-based Covert Channel Attacks Using Record and Replay</A>,
+ MICRO 2016.
+ <A HREF="/iacoma-papers/PRES/present_micro16_1.pdf">[Presentation slides]</A>
+ </LI><P>
+<LI> <A HREF="/iacoma-papers/micro16_2.pdf">
+ Snatch: Opportunistically Reassigning Power Allocation between Processor and Memory in 3D Stacks</A>,
+ MICRO 2016.
+ <A HREF="/iacoma-papers/PRES/present_micro16_2.pdf">[Presentation slides]</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/pact16.pdf">
+ WearCore: A Core for Wearable Workloads</A>
+ PACT 2016.
+ <A HREF="/iacoma-papers/PRES/present_pact16.pdf">[Presentation slides]</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca16.pdf">
+ Using Multiple Input, Multiple Output Formal Control to Maximize Resource Efficiency in Architectures</A>, ISCA 2016.
+ <A HREF="/iacoma-papers/PRES/present_isca16.pdf">[Presentation slides]</A>
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/ipdps16.pdf">
+         Architecting and Programming a Hardware-Incoherent Multiprocessor Cache Hierarchy</A>,
+         IPDPS 2016.
+         <A HREF="/iacoma-papers/PRES/present_ipdps16.pdf">[Presentation slides]</A>
+           </LI><P>
+<LI> <A HREF="/iacoma-papers/asplos16_1.pdf">
+         CASPAR: Breaking Serialization in Lock-Free Multicore Synchronization</A>, ASPLOS 2016.
+         <A HREF="/iacoma-papers/PRES/present_asplos16_1.pdf">[Presentation slides]</A>
+         </LI><P>
+<LI> <A HREF="/iacoma-papers/asplos16_2.pdf">
+         WiSync: An Architecture for Fast Synchronization through On-Chip Wireless Communication</A>,ASPLOS 2016.
+         <A HREF="/iacoma-papers/PRES/present_asplos16_2.pdf">[Presentation slides]</A>
+         </LI><P>
+<LI> <A HREF="/iacoma-papers/hpca16_1.pdf">
+         SCsafe: Logging Sequential Consistency Violations Continuously and Precisely</A>, HPCA 2016.
+         <A HREF="/iacoma-papers/PRES/present_hpca16_1.pdf">[Presentation slides]</A>
+         </LI><P>
+<LI> <A HREF="/iacoma-papers/hpca16_2.pdf">
+         ScalCore: Designing a Core for Voltage Scalability</A>, HPCA 2016.
+         <A HREF="/iacoma-papers/PRES/present_hpca16_2.pdf">[Presentation slides]</A>
+         </LI><P>
+<LI> <A HREF="/iacoma-papers/asplos15.pdf">
+         Asymmetric Memory Fences: Optimizing Both Performance and
+         Implementability</A>, ASPLOS 2015.
+         <A HREF="/iacoma-papers/PRES/present_asplos15.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca14_1.pdf">
+         Replay Debugging: Leveraging Record and Replay for Program Debugging</A>, 
+         ISCA 2014.
+         <A HREF="/iacoma-papers/PRES/present_isca14_1.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca14_2.pdf">
+         OmniOrder: Directory-Based Conflict Serialization of Transactions</A>,
+         ISCA 2014.
+         <A HREF="/iacoma-papers/PRES/present_isca14_2.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/pldi14.pdf">
+    Improving JavaScript Performance by Deconstructing the Type System</A>,PLDI 2014.
+          <strong>Distinguished Paper Award</strong>.
+         <A HREF="/iacoma-papers/PRES/present_pldi14.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/Illinois_parallelism_book.pdf">
+     Making Parallel Programming Easy: Research Contributions from Illinois</A>,
+     Illinois-Intel Parallelism Center book 2013.
+ </LI><P>
+
+<LI> <A HREF="/iacoma-papers/asplos14.pdf">
+         RelaxReplay: Record and Replay for Relaxed-Consistency Multiprocessors</A>,
+         ASPLOS 2014.
+         <A HREF="/iacoma-papers/PRES/present_asplos14.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/date14.pdf">
+         Extreme-Scale Computer Architecture: Energy Efficiency from the Ground Up</A>,
+         DATE 2014.
+         <A HREF="/iacoma-papers/PRES/present_date14.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/hpca14_1.pdf">
+         Mosaic: Exploiting the Spatial Locality of Process Variation to
+              Reduce Refresh Energy in On-Chip eDRAM Modules</A>,
+         HPCA 2014.
+         <A HREF="/iacoma-papers/PRES/present_hpca14_1.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/hpca14_2.pdf">
+         Tangle: Route-Oriented Dynamic Voltage Minimization for
+              Variation-Afflicted, Energy-Efficient On-Chip Networks</A>,
+         HPCA 2014. <strong>Best Paper Nominee in HPCA. Honorable Mention
+         in 2015 IEEE Micro's Top Picks from Computer Architecture
+         Conferences</strong>.
+         <A HREF="/iacoma-papers/PRES/present_hpca14_2.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/hpca14_3.pdf">
+         Dynamically Detecting and Tolerating IF-Condition Data Races</A>,
+         HPCA 2014.
+         <A HREF="/iacoma-papers/PRES/present_hpca14_3.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/micro13.pdf">
+         BulkCommit: Scalable and Fast Commit of Atomic Blocks in a Lazy
+Multiprocessor Environment</A>, MICRO 2013.
+         <A HREF="/iacoma-papers/PRES/present_micro13.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/ieee_micro_mag13.pdf">
+         Coping with Parametric Variation at Near-Threshold Voltages</A>,
+         IEEE Micro Magazine, <strong>Special Issue on Reliability-Aware
+         Microarchitecture Design</strong>, July-Aug. 2013.
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca13_1.pdf">
+         QuickRec: Prototyping an Intel Architecture Extension for Record and Replay of Multithreaded Programs</A>,
+         ISCA, June 2013.
+         <A HREF="/iacoma-papers/PRES/present_isca13_1.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/isca13_2.pdf">
+         WeeFence: Toward Making Fences Free in TSO</A>,
+         ISCA, June 2013.
+         <A HREF="/iacoma-papers/PRES/present_isca13_2.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/asplos13_1.pdf">
+         DeAliaser: Alias Speculation Using Atomic Region Support</A>,
+         ASPLOS, March 2013.
+         <A HREF="/iacoma-papers/PRES/present_asplos13_1.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/asplos13_2.pdf">
+         Cyrus: Unintrusive Application-Level Record-Replay for Replay Parallelism</A>,
+         ASPLOS, March 2013.
+         <A HREF="/iacoma-papers/PRES/present_asplos13_2.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/asplos13_3.pdf">
+         Volition: Scalable and Precise Sequential Consistency Violation Detection</A>,
+         ASPLOS, March 2013.
+         <A HREF="/iacoma-papers/PRES/present_asplos13_3.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/hpca13_1.pdf">
+         Runnemede: An Architecture for Ubiquitous High-Performance Computing</A>,
+         HPCA, February 2013.
+         <A HREF="/iacoma-papers/PRES/present_hpca13_1.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/hpca13_2.pdf">
+         EnergySmart: Toward Energy-Efficient Manycores for Near-Threshold Computing</A>,
+         HPCA, February 2013.
+         <A HREF="/iacoma-papers/PRES/present_hpca13_2.pdf">[Presentation slides]</A>
+         </LI><P>
+
+
+<LI> <A HREF="/iacoma-papers/hpca13_3.pdf">
+         Refrint: Intelligent Refresh to Minimize Power in On-Chip Multiprocessor Cache 
+         Hierarchies </A>, HPCA, February 2013.
+         <A HREF="/iacoma-papers/PRES/present_hpca13_3.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/hpca13_4.pdf">
+         Illusionist: Transforming Lightweight Cores into Aggressive Cores on 
+         Demand</A>, HPCA, February 2013.
+         <A HREF="/iacoma-papers/PRES/present_hpca13_4.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/micro12.pdf">
+         Vulcan: Hardware Support for Detecting
+Sequential Consistency Violations Dynamically</A>, MICRO,
+         December 2012.
+         <A HREF="http://media.cs.illinois.edu/DCS/research/I2PC/2012-09-27.asx">             [Video of a presentation at UIUC].</A>
+         <A HREF="/iacoma-papers/PRES/present_micro12.pdf">[Presentation slides]</A>
+         </LI><P>
+<LI> <A HREF="/iacoma-papers/iccd12.pdf">
+         FlexRAM: Toward an Advanced Intelligent Memory System. 
+         A Retrospective Paper</A>, ICCD, September 2012.
+         <A HREF="/iacoma-papers/PRES/present_iccd12.pdf">[Presentation slides]</A>
+         </LI><P>
+
+<LI> <A HREF="/iacoma-papers/community12.pdf">
+         21st Century Computer Architecture</A>,
+         A Community White Paper, May 2012.
+         <A HREF="/iacoma-papers/PRES/present_community12.pdf">[Presentation slides]</A>
+         </LI><P>
+
+    <LI> <A HREF="/iacoma-papers/dsn12.pdf">
+         VARIUS-NTV: A Microarchitectural Model to Capture the Increased Sensitivity
+         of Manycores to Process Variations at Near-Threshold Voltages</A>,
+         DSN, June 2012.
+         <A HREF="/iacoma-papers/PRES/present_dsn12.pdf">[Presentation slides]</A>
+         </LI><P>
+
+    <LI> <A HREF="/iacoma-papers/ispass12.pdf">
+         Comparing the Power and Performance of Intel's SCC to State-of-the-Art CPUs and GPUs</A>, 
+         ISPASS, April 2012.
+         <A HREF="/iacoma-papers/PRES/present_ispass12.pdf">[Presentation slides]</A>
+         </LI><P>
+    <LI> <A HREF="/iacoma-papers/hpca12_1.pdf">
+         BulkSMT: Designing SMT Processors for Atomic-Block Execution</A>,
+         HPCA, February 2012.
+         <A HREF="/iacoma-papers/PRES/present_hpca12_1.pdf">[Presentation slides]</A>
+         </LI><P>
+    <LI> <A HREF="/iacoma-papers/hpca12_2.pdf">
+         Pacman: Tolerating Asymmetric Data Races with Unintrusive Hardware</A>,
+         HPCA, February 2012.
+         <A HREF="/iacoma-papers/PRES/present_hpca12_2.pdf">[Presentation slides]</A>
+         </LI><P>
+    <LI> <A HREF="/iacoma-papers/hpca12_3.pdf">
+         BulkCompactor: Optimized Deterministic Execution via Conflict-Aware
+         Commit of Atomic Blocks</A>, 
+         HPCA, February 2012.
+         <A HREF="/iacoma-papers/PRES/present_hpca12_3.pdf">[Presentation slides]</A>
+         </LI><P>
+
+    <LI> <A HREF="/iacoma-papers/isca11_1.pdf">
+         FlexBulk: Intelligently Forming Atomic Blocks in
+         Blocked-Execution Multiprocessors to Minimize Squashes</A>,
+         ISCA, June 2011.
+         <A HREF="/iacoma-papers/PRES/present_isca11_1.pdf">[Presentation slides]</A>
+         </LI><P>
+    <LI> <A HREF="/iacoma-papers/isca11_2.pdf">
+         Rebound: Scalable Checkpointing for Coherent Shared Memory</A>,
+         ISCA, June 2011.
+         <A HREF="/iacoma-papers/PRES/present_isca11_2.pdf">[Presentation slides]</A>
+         </LI><P>
+
+    <LI> <A HREF="/iacoma-papers/encyclopedia_tls.pdf">
+         Thread-Level Speculation</A>,
+         Encyclopedia of Parallel Computing, May 2011.
+         </LI><P>
+    <LI> <A HREF="/iacoma-papers/encyclopedia_coma.pdf">
+         Cache-Only Memory Architecture</A>,
+         Encyclopedia of Parallel Computing, May 2011.
+         </LI><P>
+
+    <LI> <A HREF="/iacoma-papers/micro10_1.pdf">
+ScalableBulk: Scalable Cache Coherence for Atomic Blocks in a Lazy Environment</A>,
+         MICRO, December 2010.
+         <A HREF="/iacoma-papers/PRES/present_micro10_1.pdf">[Presentation slides]</A>
+         </LI><P>
+    <LI> <A HREF="/iacoma-papers/micro10_2.pdf">
+AtomTracker: A Comprehensive Approach to Atomic Region Inference and
+Violation Detection</A>,
+         MICRO, December 2010.
+         <A HREF="/iacoma-papers/PRES/present_micro10_2.pdf">[Presentation slides]</A>
+         </LI><P>
+    <LI> <A HREF="/iacoma-papers/micro10_3.pdf">
+InstantCheck: Checking the Determinism of Parallel Programs Using
+On-the-fly Incremental Hashing</A>, MICRO, December 2010.
+         <A HREF="/iacoma-papers/PRES/present_micro10_3.pdf">[Presentation slides]</A>
+         </LI><P>
+
+    <LI> <A HREF="/iacoma-papers/hpca10.pdf">
+         LeadOut: Composing Low-Overhead Frequency-Enhancing Techniques for Single-Thread
+         Performance in Configurable Multicores</A>, HPCA, January 2010.
+         <A HREF="/iacoma-papers/PRES/present_hpca10.pdf">[Presentation slides]</A>
+         </LI><P>
+   <LI> <A HREF="/iacoma-papers/bulkmulticore.pdf">
+        The Bulk Multicore Architecture for Improved Programmability</A>, CACM, December 2009.
+        <A HREF="/iacoma-papers/PRES/present_cacm09_1.pdf">
+        [Presentation slides]</A></LI><P>
+    <LI> <A HREF="/iacoma-papers/extreme.pdf">
+        Architectures for Extreme-Scale Computing</A>, IEEE Computer, November 2009.
+        <A HREF="/iacoma-papers/PRES/present_extreme09.pdf">
+        [Presentation slides]</A></LI><P>
+     <LI> <A HREF="/iacoma-papers/micro09_1.pdf">
+        BulkCompiler: High-Performance Sequential Consistency through Cooperative
+        Compiler and Hardware Support</A>, MICRO, December 2009.
+        <A HREF="/iacoma-papers/PRES/present_micro09_1.pdf">[Presentation slides] </A>
+        </LI><P>
+     <LI> <A HREF="/iacoma-papers/micro09_2.pdf">
+        The BubbleWrap Many-Core: Popping Cores for Sequential 
+        Acceleration</A>, MICRO, December 2009.
+        <strong>Best Paper Award.</strong>
+         <A HREF="/iacoma-papers/PRES/present_micro09_2.pdf"> [Presentation slides]</A>
+        </LI><P>
+     <LI> <A HREF="/iacoma-papers/micro09_3.pdf">
+        Light64: Lightweight Hardware Support for Race Detection during
+        Systematic Testing of Parallel Programs</A>, MICRO, December 2009.
+        <A HREF="/iacoma-papers/PRES/present_micro09_3.pdf">[Presentation slides] </A>
+        </LI><P>
+   <LI> <A HREF="/iacoma-papers/isca09.pdf">
+         SigRace: Signature-Based Data Race Detection</A>, ISCA, June 2009.
+         </LI><P>
+   <LI> <A HREF="/iacoma-papers/cacm_highlight09.pdf">
+        Two Hardware-based Approaches for Deterministic Multiprocessor Replay</A>,
+        <strong>Research Highlight, CACM</strong>, June 2009.</LI><P>
+    <LI> <A HREF="/iacoma-papers/wiosca09.pdf">
+         Lessons Learned During the Development of the CapoOne
+         Deterministic Multiprocessor Replay System</A>,
+         WIOSCA, June 2009. </LI><P>
+    <LI> <A HREF="/iacoma-papers/toppicks09.pdf">
+        SoftSig: Software-Exposed Hardware Signatures for Code Analysis and
+        Optimization</A>m by IEEE Micro <strong>Top Picks</strong>, January-February 2009.
+        </LI><P>
+    <LI> <A HREF="/iacoma-papers/asplos09.pdf">
+        Capo: A Software-Hardware Interface for Practical Deterministic
+         Multiprocessor Replay</A>, ASPLOS, March 2009.
+        </LI><P>
+    <LI> <A HREF="/iacoma-papers/waci09.pdf">
+         BubbleWrap: Popping CMP Cores for Sequential Acceleration</A>,  
+         Wild and Crazy Ideas, ASPLOS, March 2009.
+         </LI><P>
+-->
+    </UL>
+
+<h3> Software Released:</h3>
+<h3 style="font-weight: normal">
+           <P> 
+            <UL>
+            <LI> <A HREF="http://iacoma.cs.uiuc.edu/varius/index.html">
+              VARIUS and VARIUS-NTV</A>: A model of within-die process variation 
+              and resulting timing errors in manycores for microarchitects.</LI>
+
+	    <LI> <A HREF="http://sesc.sourceforge.net">
+               SESC</A>: A cycle accurate architectural simulator that models a
+               very wide set of architectures: superscalars, multiprocessors,
+               processors in memory, and thread-level speculation. </LI>
+
+ <!--
+ 
+            <LI> <A HREF="http://iacoma.cs.uiuc.edu/augmint.html"> 
+              Augmint</A>: A multiprocessor simulation 
+              environment for Intel x86 architectures.</LI>
+-->
+           </UL>
+ 
+		  
+<h3> Emphasis Research Areas:</h3>
+<h3 style="font-weight: normal">
+
+<!--
+          Professor Torrellas leads <a href="http://iacoma.cs.uiuc.edu"> The i-acoma Group</a>, 
+          which focuses on new processor, memory, and system technologies and organizations 
+          to build novel <strong>multiprocessor</strong> computer architectures. The goal is to design 
+          high-performance multiprocessor computers that are very easy to program, 
+          inexpensive, and built out of commodity components.
+-->
+          <P> The main emphasis research areas in the group are:
+   </p>
+   <ul>
+    <li> <a href="http://iacoma.cs.uiuc.edu/work/comanuma.html">
+         Multiprocessor organization and system design</a></li>
+    <li> <a href="http://iacoma.cs.uiuc.edu/work/speculation.html"> Speculative multithreading</a></li>
+    <li> <a href="http://iacoma.cs.uiuc.edu/work/hwreliability.html"> Hardware reliability and 
+        variability</a></li>
+    <li> <a href="http://iacoma.cs.uiuc.edu/work/swreliability.html"> Support for 
+        software reliability</a></li>
+    <li> <a href="http://iacoma.cs.uiuc.edu/work/lowpower.html"> Low-power design</a></li>
+    <p>
+    <li> Old Projects</li>
+      <ul>
+        <li> <a href="http://iacoma.cs.uiuc.edu/flexram/"> 
+            The FlexRAM Intelligent Memory System</a></li>
+        <li> <a href="http://iacoma.cs.uiuc.edu/m3t/">
+            The Morphable Multithreaded Memory Tiles (M3T) architecture</a></li>
+      </ul>
+    </ul>
+    <p>
+
+
+<!--            
+<LI> Architectural design for reliability, debuggability
+(See <a href="http://carmen.cs.uiuc.edu/probe/index.html"> The PROBE Project</a>), 
+and fault recovery</LI>
+
+    Professor Torrellas is also involved in the related 
+    project <a href="http://polaris.cs.uiuc.edu"> The Polaris parallelizing compiler.</a>
+
+-->
+<h3> Currently Teaching:</h3>
+<h3 style="font-weight: normal">
+              <A HREF="https://courses.engr.illinois.edu/cs533/"> CS533: Parallel Computer Architectures</A>.
+<!--          <A HREF="http://iacoma.cs.uiuc.edu/CS497/index.html"> CS497: Research Issues in 
+New Processor and Memory Architectures</A>.  -->
+
+<h3>Contact Information</h3>
+<h3 style="font-weight: normal">
+		  Josep Torrellas<br>
+		  4231 Thomas M. Siebel Center for Computer Science.<br>
+          University of Illinois.<br>
+          201 N. Goodwin Ave.<br>
+          Urbana, IL. 61801.<br>
+          Phone (217) 244-4148, fax 217-265-6582.<br>
+          E-mail: <a href="MAILTO:torrella@illinois.edu">torrella@illinois.edu</a><br>		  
+
+<h3>Administrative Assistant</h3>
+<h3 style="font-weight: normal">
+          Madeleine Garvey,<br>
+          Thomas M. Siebel Center for Computer Science.<br>
+          University of Illinois.<br>
+          201 N. Goodwin Ave.<br>
+          Urbana, IL. 61801.<br>
+          Phone (217) 300-6342.<br>
+          E-mail: <a href="MAILTO:mgarvey@illinois.edu">mgarvey@illinois.edu</a><br>
+        </div>
+        </p>
+
+    Our research is funded by NSF, DARPA, and DOE.
+
+    <dt class="iacoma-img">
+     <img src="../nsf.jpeg" width="50" height="50" />
+     <img src="../darpa.jpeg" width="90" height="50" />
+     <img src="../doe.jpeg" width="120" height="50" /></dt>
+    </p>
+    
+</h3>
+
+      </div>
+    </div>
+    <!-- End .post -->
+  </div>
+</div>
+<!-- End #main -->
+<!-- Begin #sidebar -->
+<div id="sidebar">
+  <!-- Begin .box -->
+  <div class="box">
+    <div class="box2">
+      <div class="box3">
+        <h3 class="sidebar-title">Learn about our papers</h3>
+        <ul id="ourwork">        In chronological order:<br>
+        <li><a href="/work/chrono.html">Full List</a></li>
+	By topic:<br>
+          <li><a href="/work/comanuma.html">Multiprocessor Organization and System Design</a></li>
+          <li><a href="/work/speculation.html">Speculative Multithreading</a></li>
+          <li><a href="/work/hwreliability.html">Hardware Reliability and Variability</a></li>
+          <li><a href="/work/swreliability.html">Support for Software Reliability</a></li>
+          <li><a href="/work/lowpower.html">Low-Power Design</a></li>
+          <li><a href="/work/flexram.html">Processor-Memory Integration</a></li>
+          <li><a href="/work/prefetching.html">Prefetching and Forwarding</a></li>
+          <li><a href="/work/databases.html">Databases and Operating Systems</a></li>
+          <li><a href="/work/toolsmisc.html">Tools and Misc</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="box2">
+      <div class="box3">
+        <h3 class="sidebar-title">Learn about us:</h3>
+        <ul id="ourteam">
+          <li>Leader: <a HREF="/josep/torrellas.html">Josep Torrellas</a></li>
+          <li><a HREF="/currentst.html">Current Students</a></li>
+          <li><a HREF="/postdocs.html">Research Scientists</a></li>
+          <li><a HREF="/associatd.html">Associated to the Project</a></li>
+          <li><a HREF="/alradygra.html">Already Graduated</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End #sidebar --> 
+<!-- Begin #footer -->
+<div id="footer">
+  <div>
+    <div>
+      <hr />
+      <p align="center"> Contact <a href="MAILTO:torrellas@cs.uiuc.edu">torrellas@cs.uiuc.edu</a> with questions or comments on this page. <br>
+        This site was created on 06/22/04, based on a <a href="http://www.blogger.com">blogger</a> template. <br>
+        This site was designed on an architecture with uniformly-sized instructions.<br> 
+	</p>
+    </div>
+  </div>
+</div>
+<!-- End #footer --> 
+</body>
+</html>

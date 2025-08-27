@@ -1,0 +1,11 @@
+Luther Tychonievich
+For More Information
+Biography
+Luther Tychonievich began at Illinois in August 2022; prior to that he spent 9 years as teaching faculty at the University of Virginia. His primary academic activity is education: education of students, teaching assistants, faculty, and computer science educators at every level. He has taught across the CS curriculum (computer organization, data structures, discrete mathematics, graphics, programming, software development, theory of computation) as well a about equity and inclusion (active recruiting, inclusive pedagogy, stereotype threat) and education (assessment, tutoring and teaching methods).
+Luther was the 2017 recipient of the Harold S. Morton Jr Award for Teaching and the 2015 and 2019 UVA ACM student chapter's Professor of the Year award winner. He currently serves on Illinois CS's Broadening Participation in Computing (BPC) committee, chairing the BPC committee's subcomittee on data, and as a Director of Academic Data Analysis. Luther is active in family history data standards where he is the chair of the board for FHISO, a managing editor of GEDCOM, and the technical lead for FHMWG; he also serves on the program committee for various conferences in CS education and as a Broadening Participation in Computing consultant for BPCnet.org, an NSF-funded service of the CRA. While at UVA he served as the chair of the Undergraduate Curriculum Committee and a member of the Diversty, Ops, Advisory, BA CS program committees, BS CS program committee, and the steering committee of the Center for Innovation in Computing Education and Outreach. He also serves on the program committee for various conferences in CS education.
+Luther earned his Ph.D. degree in computer science from the University of Virginia, M.S. and B.S. degrees in computer science from Brigham Young University, and A.A. and A.S. degrees from Lakeland Community College. As a community college alumnus, he is an advocate for community colleges generally and the community college to univeristy pipeline.
+Recent Courses Taught
+- CS 100 - Computer Science Orientation
+- CS 340 - Intro to Computer Systems
+- CS 415 - Game Development
+- CS 418 (CSE 427) - Interactive Computer Graphics

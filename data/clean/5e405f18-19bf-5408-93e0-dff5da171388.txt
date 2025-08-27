@@ -1,0 +1,655 @@
+Gul Agha
+Dr. Gul Agha is Director of the Open Systems Laboratory at the
+University of Illinois at Urbana-Champaign and a Professor in the
+Department of Computer Science. His widely cited work, "Actors: A
+Model of Concurrent Computing in Distributed Systems," (MIT Press,
+1986) provided a basis for a number of research projects in concurrent
+programming. He has co-edited another book, "Research Directions in
+Concurrent Object Oriented Programming" (MIT Press, 1993).
+The goal of Professor Agha's research is to understand the nature of
+concurrent computation. Results of the research will lead to new ways
+for building and maintaining open distributed systems. Specifically,
+Agha's group is developing concurrent programming languages and
+systems which support applications with high-performance,
+fault-tolerance or real-time requirements. The group's research is
+both theoretical and practical. The goal of the theory is to provide a
+clear semantics for new programming constructs and software
+composition techniques. The goal of developing systems to experiment
+with the ideas and provide a proof of principle.
+The research is based on the Actors, a model of concurrent objects for
+which Professor Agha is recognized as a prime exponent. Some recent
+accomplishments of his group include: building the fastest run-time
+systems available to support fine-grained object migration; developing
+a theory of actor systems which provides powerful proof techniques for
+open distributed computing; a distributed real-time programming
+language; visualization tools; a software architecture for defining
+reusable protocols; and a methodology for coordinating distributed
+objects.
+Publications
+2022
+-
+Dan Plyukhin and Gul Agha. A scalable algorithm for decentralized actor termination detection. Logical Methods in Computer Science, 2022.
+-
+Atul Sandur, ChanHo Park, Stavros Volos, Gul Agha, and Myeongjae Jeon. Jarvis: large-scale server monitoring with adaptive near-data processing. In 2022 IEEE 38th International Conference on Data Engineering (ICDE), 1408–1422. 2022.
+-
+Atul Sandur, ChanHo Park, Stavros Volos, Gul Agha, and Myeongjae Jeon. Streaming analytics with adaptive near-data processing. In Companion Proceedings of the Web Conference 2022, WWW '22, 563â566. New York, NY, USA, 2022. Association for Computing Machinery.
+2020
+-
+Dan Plyukhin and Gul Agha. Scalable termination detection for distributed actor systems. In Igor Konnov and Laura KovÃ¡cs, editors, 31st International Conference on Concurrency Theory, CONCUR 2020, September 1-4, 2020, Vienna, Austria (Virtual Conference), volume 171 of LIPIcs, 11:1–11:23. Schloss Dagstuhl - Leibniz-Zentrum fÃ¼r Informatik, 2020.
+2018
+-
+Tarek Elgamal, Atul Sandur, Klara Nahrstedt, and Gul Agha. Costless: optimizing cost of serverless computing through function fusion and placement. In 2018 IEEE/ACM Symposium on Edge Computing (SEC), 300–312. 2018.
+-
+Tarek Elgamal, Atul Sandur, Klara Nahrstedt, and Gul Agha. Costless: optimizing cost of serverless computing through function fusion and placement. CoRR, 2018.
+-
+Tarek Elgamal*, Atul Sandur*, Phuong Nguyen, Klara Nahrstedt, and Gul Agha. DROPLET: distributed operator placement for iot applications spanning edge and cloud resources. In 11th IEEE International Conference on Cloud Computing, CLOUD 2018, San Francisco, CA, USA, July 2-7, 2018, 1–8. IEEE Computer Society, 2018.
+-
+Tarek Elgamal, Atul Sandur, Gul Agha, and Klara Nahrstedt. Distributed placement of machine learning operators for iot applications spanning edge and cloud resources. In SysML Conference 2018, Stanford, CA, USA, February 15-16, 2018, 1–3. 2018.
+-
+Atul Sandur, Tarek Elgamal, Gul Agha, and Klara Nahrstedt. Complexity analysis for droplet: distributed operator placement for iot applications spanning edge and cloud resources. In Illinois Digital Environment for Access to Learning and Scholarship, 1–6. 2018.
+-
+Gul Agha and Karl Palmskog. Transforming threads into actors: learning concurrency structure from execution traces. In Principles of Modeling - Essays Dedicated to Edward A. Lee on the Occasion of His 60th Birthday, 16–37. 2018.
+-
+Sihan Li, Farah Hariri, and Gul Agha. Targeted test generation for actor systems. In 32nd European Conference on Object-Oriented Programming, ECOOP 2018, July 16-21, 2018, Amsterdam, The Netherlands, volume 109 of LIPIcs, 8:1–8:31. Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik, 2018.
+-
+Dan Plyukhin and Gul Agha. Concurrent garbage collection in the actor model. In Proceedings of the 8th ACM SIGPLAN International Workshop on Programming Based on Actors, Agents, and Decentralized Control, AGERE 2018, 44–53. New York, NY, USA, 2018. ACM.
+-
+Ehsan Khamespanah, Marjan Sirjani, Kirill Mechitov, and Gul Agha. Modeling and analyzing real-time wireless sensor and actuator networks using actors and model checking. STTT, 20(5):547–561, 2018.
+-
+Gul Agha and Karl Palmskog. A survey of statistical model checking. ACM Transactions on Modeling Computing and Simululation, 28(1):6:1–6:39, 2018.
+-
+Gul Agha, Minas Charalambides, Kirill Mechitov, Karl Palmskog, Atul Sandur, and Reza Shiftehfar. Inferring and enforcing use patterns for mobile cloud assurance. In R. H. Campbell and K. A. Kwiat C. A. Kamhoua, editors, Assured Cloud Computing, pages 237–376.
+Wiley/IEEE Press, 2018.
+2017
+-
+Gul Agha. Actor-oriented programming for the internet of things. In The 29th International Conference on Software Engineering and Knowledge Engineering, Wyndham Pittsburgh University Center, Pittsburgh, PA, USA, July 5-7, 2017., ix. KSI Research Inc. and Knowledge Systems Institute Graduate School, 2017.
+-
+Marjan Sirjani, Ehsan Khamespanah, Kirill Mechitov, and Gul Agha. A compositional approach for modeling and timing analysis of wireless sensor and actuator networks. SIGBED Review, 14(3):49–56, 2017.
+-
+B.F. Spencer, J.-W. Park, K.A. Mechitov, H. Jo, and G. Agha. Next generation wireless smart sensors toward sustainable civil infrastructure. Procedia Engineering, 171:5–13, 2017.
+The 3rd International Conference on Sustainable Civil Engineering Structures and Construction Materials - Sustainable Structures for Future Generations.
+2016
+-
+Atul Sandur, Karl Palmskog, and Gul Agha. Programming large scale iot applications. 2016.
+-
+Minas Charalambides, Peter Dinges, and Gul A. Agha. Parameterized, concurrent session types for asynchronous multi-actor interactions. Science of Computer Programming, 115-116:100–126, 2016.
+-
+Gul Agha. Abstractions, semantic models and analysis tools for concurrent systems: progress and open problems - (extended abstract). In Software Engineering and Formal Methods - 14th International Conference, SEFM 2016, Held as Part of STAF 2016, Vienna, Austria, July 4-8, 2016, Proceedings, volume 9763 of Lecture Notes in Computer Science, 3–8. Springer, 2016.
+-
+Ehsan Khamespanah, Kirill Mechitov, Marjan Sirjani, and Gul A. Agha. Schedulability analysis of distributed real-time sensor network applications using actor-based model checking. In Model Checking Software - 23rd International Symposium, SPIN 2016, Co-located with ETAPS 2016, Eindhoven, The Netherlands, April 7-8, 2016, Proceedings, volume 9641 of Lecture Notes in Computer Science, 165–181. Springer, 2016.
+-
+Gul Agha and Benny Van Houdt, editors. Quantitative Evaluation of Systems - 13th International Conference, QEST 2016, Quebec City, QC, Canada, August 23-25, 2016, Proceedings. Volume 9826 of Lecture Notes in Computer Science, Springer, 2016.
+-
+Billie F. Spencer Jr., Gul A. Agha, and Kirill A. Mechitov. Little calumet river bridge (usa). In David Rodenas-HerrÃ¡iz, Paul R. A. Fidler, Soga Kenichi, and Nicholas de Battista, editors, Wireless Sensor Networks for Civil Infrastructure Monitoring - A Best Practice Guide, number Chapter 13, pages 97–106.
+ICE Publishing, 2016.
+-
+Billie F. Spencer Jr., Gul A. Agha, and Kirill A. Mechitov. Rock island arsenal government bridge (usa). In David Rodenas-HerrÃ¡iz, Paul R. A. Fidler, Soga Kenichi, and Nicholas de Battista, editors, Wireless Sensor Networks for Civil Infrastructure Monitoring - A Best Practice Guide, number Chapter 14, pages 107–113.
+ICE Publishing, 2016.
+-
+Billie F. Spencer Jr., Gul A. Agha, and Kirill A. Mechitov. Mahomet bridge (usa). In David Rodenas-HerrÃ¡iz, Paul R. A. Fidler, Soga Kenichi, and Nicholas de Battista, editors, Wireless Sensor Networks for Civil Infrastructure Monitoring - A Best Practice Guide, number Chapter 12, pages 89–95.
+ICE Publishing, 2016.
+-
+Billie F. Spencer Jr., Gul A. Agha, and Kirill A. Mechitov. 2nd jindo bridge (south korea). In David Rodenas-HerrÃ¡iz, Paul R. A. Fidler, Soga Kenichi, and Nicholas de Battista, editors, Wireless Sensor Networks for Civil Infrastructure Monitoring - A Best Practice Guide, number Chapter 11, pages 81–88.
+ICE Publishing, 2016.
+-
+Billie F. Spencer, Hongki Jo, Kirill A. Mechitov, Jian Li, Sung-Han Sim, Robin E. Kim, Soojin Cho, Lauren E. Linderman, Parya Moinzadeh, Ryan K. Giles, and Gul Agha. Recent advances in wireless smart sensors for multi-scale monitoring and control of civil infrastructure. Journal of Civil Structural Health Monitoring, 6(1):17–41, Feb 2016.
+2015
+-
+Minas Charalambides, Peter Dinges, and Gul Agha. Parameterized, concurrent session types for asynchronous multi-actor interactions. Science of Computer Programming, November 2015.
+-
+Yun Mo, Zhongzhao Zhang, Yang Lu, and Gul Agha. A novel technique for human traffic based radio map updating in wi-fi indoor positioning systems. TIIS, 9(5):1881–1903, 2015.
+-
+Alessandro Ricci, Gul A. Agha, Rafael H. Bordini, and Assaf Marron. Special issue on programming based on actors, agents and decentralized control. Sci. Comput. Program., 98:117–119, 2015.
+-
+Yun Mo, Zhongzhao Zhang, Weixiao Meng, and Gul A. Agha. Space division and dimensional reduction methods for indoor positioning system. In 2015 IEEE International Conference on Communications, ICC 2015, London, United Kingdom, June 8-12, 2015, 3263–3268. IEEE, 2015.
+-
+H. Yoon, R. Shiftehfar, S. Cho, B. F. Spencer Jr, M. Nelson, and G. Agha. Victim localization and assessment system for emergency responders. Journal of Computing in Civil Engineering, 2015.
+10.1061/(ASCE)CP.1943-5487.0000483 , 04015011.
+-
+Yun Mo, Zhongzhao Zhang, Yang Lu, and Gul Agha. A novel technique for human traffic based radio map updating in wi-fi indoor positioning systems. KSII Transactions on Internet and Information Systems (TIIS), 2015.
+2014
+-
+Peter Dinges and Gul Agha. Targeted test input generation using symbolic-concrete backward execution. In 29th IEEE/ACM International Conference on Automated Software Engineering (ASE). VÃ¤sterÃ¥s, Sweden, September 15-19 2014. ACM.
+-
+Peter Dinges and Gul Agha. Solving complex path conditions through heuristic search on induced polytopes. In Proceedings of the 22nd ACM SIGSOFT Symposium on Foundations of Software Engineering. Hong Kong, November 16-21 2014. ACM.
+-
+Peter Dinges and Gul Agha. Targeted test input generation using symbolic-concrete backward execution. Technical Report, University of Illinois at Urbana--Champaign, September 2014.
+-
+YoungMin Kwon, Kirill Mechitov, and Gul A. Agha. Design and implementation of a mobile actor platform for wireless sensor networks. In Concurrent Objects and Beyond - Papers dedicated to Akinori Yonezawa on the Occasion of His 65th Birthday, volume 8665 of Lecture Notes in Computer Science, 276–316. Springer, 2014.
+-
+Gul A. Agha, Atsushi Igarashi, Naoki Kobayashi, Hidehiko Masuhara, Satoshi Matsuoka, Etsuya Shibayama, and Kenjiro Taura, editors. Concurrent Objects and Beyond - Papers dedicated to Akinori Yonezawa on the Occasion of His 65th Birthday. Volume 8665 of Lecture Notes in Computer Science, Springer, 2014.
+-
+Reza Shiftehfar, Kirill Mechitov, and Gul A. Agha. Towards a flexible fine-grained access control system for modern cloud applications. In 2014 IEEE 7th International Conference on Cloud Computing, Anchorage, AK, USA, June 27 - July 2, 2014, 966–967. IEEE Computer Society, 2014.
+-
+Gul Agha. Actors programming for the mobile cloud. In IEEE 13th International Symposium on Parallel and Distributed Computing, ISPDC 2014, Marseille, France, June 24-27, 2014, 3–9. IEEE, 2014.
+2013
+-
+Peter Dinges, Minas Charalambides, and Gul Agha. Automated inference of atomic sets for safe concurrent execution. In PASTE, 1–8. 2013.
+-
+Peter Dinges, Minas Charalambides, and Gul Agha. Automated inference of atomic sets for safe concurrent execution. Technical Report, University of Illinois at Urbana--Champaign, April 2013.
+-
+Bo Li, Zhuoxiong Sun, Kirill Mechitov, Gregory Hackmann, Chenyang Lu, Shirley Dyke, Gul Agha, and Billie F. Spencer. Realistic case studies of wireless structural control. In ICCPS, 179–188. ACM, 2013.
+-
+Dave Clarke and Gul Agha. Preface to the special issue on coordination models and languages (coordination 2010). Sci. Comput. Program., 78(2):145–146, 2013.
+-
+Gul Agha. Euclidean model checking: A scalable method for verifying quantitative properties in probabilistic systems. In Algebraic Informatics - 5th International Conference, CAI 2013, Porquerolles, France, September 3-6, 2013. Proceedings, volume 8080 of Lecture Notes in Computer Science, 1–3. Springer, 2013.
+-
+YoungMin Kwon and Gul Agha. Performance evaluation of sensor networks by statistical modeling and euclidean model checking. TOSN, 9(4):39:1–39:38, 2013.
+2012
+-
+Peter Dinges and Gul Agha. Scoped synchronization constraints for large scale actor systems. In COORDINATION, 89–103. 2012.
+-
+Kirill Mechitov and Gul Agha. An architecture for dynamic service-oriented computing in networked embedded systems. In Software Service and Application Engineering, volume 7365 of Lecture Notes in Computer Science, 147–164. Springer, 2012.
+-
+Kirill Mechitov and Gul Agha. Building portable middleware services for heterogeneous cyber-physical systems. In SESENA, 31–36. IEEE, 2012.
+-
+Samira Tasharofi, Rajesh K. Karmani, Steven Lauterburg, Axel Legay, Darko Marinov, and Gul Agha. Transdpor: a novel dynamic partial-order reduction technique for testing actor programs. In FMOODS/FORTE, volume 7273 of Lecture Notes in Computer Science, 219–234. Springer, 2012.
+-
+Ashish Vulimiri, Gul A. Agha, Philip Brighten Godfrey, and Karthik Lakshminarayanan. How well can congestion pricing neutralize denial of service attacks?. In SIGMETRICS, 137–150. ACM, 2012.
+-
+Minas Charalambides, Peter Dinges, and Gul Agha. Parameterized concurrent multi-party session types. In FOCLASA, volume 91 of Electronic Proceedings in Theoretical Computer Science, 16–30. Open Publishing Association, 2012.
+-
+Paria Moinzadeh, Kirill Mechitov, Reza Shiftehfar, Tarek F. Abdelzaher, Gul Agha, and Billie F. Spencer. The time-keeping anomaly of energy-saving sensors: manifestation, solution, and a structural monitoring case study. In SECON, 380–388. IEEE, 2012.
+-
+Manas Ranjan Gartia, Bjorn Braunschweig, Te-Wei Chang, Parya Moinzadeh, Barbara S. Minsker, Gul Agha, Andrzej Wieckowski, Laura L. Keefer, and Gang Logan Liu. The microelectronic wireless nitrate sensor network for environmental water monitoring. Journal of Environmental Monitoring, 14:3068–3075, 2012.
+2011
+-
+Gul Agha, Olivier Danvy, and JosÃ© Meseguer, editors. Formal Modeling: Actors, Open Systems, Biological Systems - Essays Dedicated to Carolyn Talcott on the Occasion of Her 70th Birthday. Volume 7000 of Lecture Notes in Computer Science, Springer, 2011.
+-
+Rohit Chadha, Vijay Anand Korthikanti, Mahesh Viswanathan, Gul Agha, and YoungMin Kwon. Model checking mdps with a unique compact invariant set of distributions. In QEST, 121–130. IEEE Computer Society, 2011.
+-
+Rajesh K. Karmani and Gul Agha. Actors. In Encyclopedia of Parallel Computing, pages 1–11.
+Springer, 2011.
+-
+Vijay Anand Korthikanti, Gul Agha, and Mark R. Greenstreet. On the energy complexity of parallel algorithms. In ICPP, 562–570. IEEE, 2011.
+-
+YoungMin Kwon and Gul A. Agha. Verifying the evolution of probability distributions governed by a dtmc. IEEE Trans. Software Eng, 37(1):126–141, 2011.
+-
+Stas Negara, Rajesh K. Karmani, and Gul A. Agha. Inferring ownership transfer for efficient message passing. In PPOPP, 81–90. ACM, 2011.
+-
+Alessandro Ricci, Gul Agha, and Rafael H. Bordini. Agere! (actors and agents reloaded): splash 2011 workshop on programming systems, languages and applications based on actors, agents and decentralized control. In SPLASH Workshops, 143–146. ACM, 2011.
+-
+Alessandro Ricci, Rafael H. Bordini, and Gul A. Agha. Agere! (actors and agents reloaded): splash 2011 workshop on programming systems, languages and applications based on actors, agents and decentralized control. In OOPSLA Companion, 325–326. ACM, 2011.
+-
+Vijay Anand Korthikanti and Gul Agha. Energy-performance trade-off analysis of parallel algorithms for shared memory architectures. Sustainable Computing: Informatics and Systems, 1(3):167 – 176, 2011.
+Theoretical aspects of Sustainable Computing.
+-
+J. A. Rice, K. A. Mechitov, S. H. Sim, B. F. Spencer, and G. A. Agha. Enabling framework for structural health monitoring using smart sensors. Structural Control and Health Monitoring, 18(5):574–587, 2011.
+2010
+-
+Dave Clarke and Gul A. Agha, editors. Coordination Models and Languages, 12th International Conference, COORDINATION 2010, Amsterdam, The Netherlands, June 7-9, 2010. Proceedings. Volume 6116 of Lecture Notes in Computer Science, Springer, 2010.
+-
+Vilas Jagannath, Milos Gligoric, Steven Lauterburg, Darko Marinov, and Gul Agha. Mutation operators for actor systems. In ICST Workshops, 157–162. IEEE Computer Society, 2010.
+-
+ShinAe Jang, Hongki Jo, Soojin Cho, Kirill Mechitov, Jennifer Rice, Sung-Han Sim, Hyung-Jo Jung, Chung-Bang Yun, B. F. Spencer, and Gul Agha. Structural health monitoring of a cable-stayed bridge using smart sensor technology: deployment and evaluation. Smart Structures and Systems, 6(5):439–460, 2010.
+-
+Vijay Anand Korthikanti and Gul Agha. Avoiding energy wastage in parallel applications. In Green Computing Conference, 149–163. IEEE, 2010.
+-
+Vijay Anand Korthikanti and Gul Agha. Energy-bounded scalability analysis of parallel algorithms. In International Workshop on Energy Efficient High-Performance Computing (EEHiPC). 2010.
+-
+Vijay Anand Korthikanti and Gul Agha. Energy-performance trade-off analysis of parallel algorithms. In USENIX Workshop on Hot Topics in Parallelism (HotPar). 2010.
+-
+Vijay Anand Korthikanti and Gul Agha. Towards optimizing energy costs of algorithms for shared memory architectures. In SPAA, 157–165. ACM, 2010.
+-
+Vijay Anand Korthikanti, Mahesh Viswanathan, Gul Agha, and YoungMin Kwon. Reasoning about mdps as transformers of probability distributions. In QEST, 199–208. IEEE Computer Society, 2010.
+-
+YoungMin Kwon, Kirill Mechitov, Sameer Sundresh, WooYoung Kim, and Gul Agha. Resilient localization for sensor networks in outdoor environments. TOSN, 2010.
+-
+Steven Lauterburg, Rajesh K. Karmani, Darko Marinov, and Gul Agha. Basset: a tool for systematic testing of actor programs. In SIGSOFT FSE, 363–364. ACM, 2010.
+-
+Steven Lauterburg, Rajesh K. Karmani, Darko Marinov, and Gul Agha. Evaluating ordering heuristics for dynamic partial-order reduction techniques. In FASE, volume 6013 of Lecture Notes in Computer Science, 308–322. Springer, 2010.
+-
+Sherin Moussa and Gul Agha. A framework for mobility-aware resource management and untraceability in multi-inhabitant smart space. In International Journal of intelligent Computing and Information Science, Vol. 10, No.2, July. 2010.
+-
+Sherin Moussa and Gul Agha. Developing a framework for mobility-aware resource management in multi-inhabitant smart home. In PhD Dissertation, Faculty of Computer and Information Sciences, Ain Shams University, Egypt, in cooperation with University of Illinois at Urbana-Champaign, USA, April. 2010.
+-
+Sherin M. Moussa and Gul A. Agha. Integrating encrypted mobile agents with smart spaces in a multi-agent simulator for resource management. JSW, 5(6):630–636, 2010.
+-
+Tomonori Nagayama, Hyung-Jo Jung, B. F. Spencer, ShinAe Jang, Kirill Mechitov, Soojin Cho, Mitsushi Ushita, Chung-Bang Yun, Gul Agha, and Yozo Fujino. International collaboration to develop a structural health monitoring system utilizing wireless smart sensor network and its deployment on a cable-stayed bridge. In 5th World Conference on Structural Control and Monitoring. 2010.
+-
+Tomonori Nagayama, Parya Moinzadeh, Kirill Mechitov, Mitsushi Ushita, Noritoshi Makihata, Masataka Ieiri, Gul Agha, B. F. Spencer, Yozo Fujino, and Ju-Won Seo. Reliable multi-hop communication for structural health monitoring. Smart Structures and Systems, 6(5):481–504, 2010.
+-
+Jennifer Rice, Kirill Mechitov, Sung-Han Sim, Tomonori Nagayama, ShinAe Jang, Robin Kim, B. F. Spencer, Gul Agha, and Yozo Fujino. Flexible smart sensor framework for autonomous structural health monitoring. Smart Structures and Systems, 6(5):423–438, 2010.
+-
+Jennifer Rice, Kirill Mechitov, B. F. Spencer, and Gul Agha. Autonomous smart sensor network for full-scale structural health monitoring. In Proc. SPIE Smart Structures/NDE, vol. 7647. 2010.
+2009
+-
+Rajesh K. Karmani, Amin Shali, and Gul Agha. Actor frameworks for the jvm platform: a comparative analysis. In PPPJ, 11–20. ACM, 2009.
+-
+Vijay Anand Korthikanti and Gul Agha. Analysis of parallel algorithms for energy conservation in scalable multicore architectures. In ICPP, 212–219. IEEE Computer Society, 2009.
+-
+Steven Lauterburg, Mirco Dotta, Darko Marinov, and Gul A. Agha. A framework for state-space exploration of java-based actor programs. In ASE, 468–479. IEEE Computer Society, 2009.
+-
+Sherin Moussa and Gul Agha. A multi-agent simulator for resource management in smart spaces. In in Proceedings of The International Workshop on Mobile Systems, E-commerce, and Agent Technology (MSEAT'2009), in conjunction with The Second IEEE International Conference on Ubi-media Computing (U-Media'2009), Taiwan, December. 2009.
+-
+Sherin M. Moussa, Mohamed H. Abdelaziz, and Gul A. Agha. Integrating encrypted mobile agents with smart homes. In NTMS, 1–5. IEEE, 2009.
+-
+Sherin M. Moussa, Mohamed Hashem, and Gul Agha. An agent-based framework for inhabitants' untraceability in ubiquitous environments. In MoMM, 386–390. ACM, 2009.
+2008
+-
+Gul Agha. Computing in pervasive cyberspace. Commun. ACM, 51(1):68–70, 2008.
+-
+MyungJoo Ham and Gul Agha. A study of coordinated dynamic market-based task assignment in massively multi-agent systems. In Coordination and Control in Massively Multi-Agent Systems in Massively Multi-Agent Technology of Lecture Notes in Computer Science, Vol. 5043, pp. 43--63. 2008.
+-
+MyungJoo Ham and Gul Agha. Market-based coordination strategies for physical multi-agent systems. SIGBED Review, 5(1):23, 2008.
+-
+MyungJoo Ham and Gul A. Agha. A robust audit mechanism to prevent malicious behaviors in multi-robot systems. In SASO, 35–44. IEEE Computer Society, 2008.
+-
+Rajesh Kumar Karmani and Gul Agha. Debugging wireless sensor networks using mobile actors. In RTAS Poster Session. 2008.
+-
+YoungMin Kwon and Gul Agha. Ltlc: linear temporal logic for control. In HSCC, volume 4981 of Lecture Notes in Computer Science, 316–329. Springer, 2008.
+-
+YoungMin Kwon and Gul Agha. Passive localization: large size sensor network localization based on environmental events. In IPSN, 3–14. IEEE Computer Society, 2008.
+-
+Tomonori Nagayama, B. F. Spencer, Kirill Mechitov, and Gul Agha. Middleware services for structural health monitoring using smart sensors. In Smart Structures and Systems, vol. 5, no. 2. 2008.
+-
+Jennifer Rice, Kirill Mechitov, B. F. Spencer, and Gul Agha. A service-oriented architecture for structural health monitoring using smart sensors. In Proc. 14th World Conference on Earthquake Engineering. 2008.
+-
+Jennifer Rice, Kirill Mechitov, B. F. Spencer, and Gul Agha. Flexible smart sensing framework for structural health monitoring. In Proc. US-Korea Workshop on Bio-Inspired Sensor Technology and Infrastructure Monitoring. 2008.
+-
+Sergei Shevlyagin, Kirill Mechitov, and Gul Agha. Fault tolerance in actornet. In UIUC Department of Computer Science Undergraduate Research Symposium. 2008.
+2007
+-
+Gul Agha. Computing with biosensors. In NSF Biosensing and Bioactuation Workshop. 2007.
+-
+Po-Hao Chang and Gul Agha. Supporting reconfigurable object distribution for customized web applications. In SAC, 1286–1292. ACM, 2007.
+-
+Po-Hao Chang and Gul Agha. Towards context-aware web applications. In DAIS, volume 4531 of Lecture Notes in Computer Science, 239–252. Springer, 2007.
+-
+Bill Donkervoet and Gul Agha. Reflecting on adaptive distributed monitoring. In Formal Methods for Components and Objects. 2007.
+-
+MyungJoo Ham and Gul Agha. Market-based coordination strategies for large-scale multi-agent systems. In System and Information Sciences Notes, Vol. 2, No. 1, pp. 126--131). 2007.
+-
+Rajesh K. Karmani, Timo Latvala, and Gul Agha. On scaling multi-agent task reallocation using market-based approach. In SASO, 173–182. IEEE Computer Society, 2007.
+-
+Rick Kazman and Gul Agha. Software technology track introduction. In HICSS, 255. IEEE Computer Society, 2007.
+-
+YoungMin Kwon and Gul Agha. A markov reward model for software reliability. In IPDPS, 1–6. IEEE, 2007.
+-
+Kirill Mechitov, Reza Razavi, and Gul Agha. Architecture design principles to support adaptive service orchestration in wsn applications. In International Workshop on Wireless Sensor Network Architectures (WWSNA). 2007.
+-
+Kirill Mechitov, Reza Razavi, and Gul Agha. Architecture design principles to support adaptive service orchestration in wsn applications. SIGBED Review, 4(3):37–42, 2007.
+-
+Reza Razavi, Kirill Mechitov, Gul Agha, and Jean-Francois Perrot. Ambiance: a mobile agent platform for end-user programmable ambient systems. In J.C. Augusto and D. Shapiro (eds.), Advances in Ambient Intelligence, Frontiers in Artificial Intelligence and Applications (FAIA), vol. 164, IOS Press. 2007.
+-
+Reza Razavi, Kirill Mechitov, Gul Agha, and Jean-Francois Perrot. Dynamic macroprogramming of wireless sensor networks with mobile agents. In 2nd Workshop on Artificial Intelligence Techniques for Ambient Intelligence (AITAmI). 2007.
+2006
+-
+Gul Agha. Track introduction. In HICSS. IEEE Computer Society, 2006.
+-
+Gul A. Agha, JosÃ© Meseguer, and Koushik Sen. Pmaude: rewrite-based specification language for probabilistic object systems. Electr. Notes Theor. Comput. Sci, 153(2):213–239, 2006.
+-
+Po-Hao Chang and Gul Agha. Supporting reconfigurable object distribution for customizable web applications. In OTM Workshops (1), volume 4277 of Lecture Notes in Computer Science, 32–33. Springer, 2006.
+-
+Liping Chen and Gul Agha. State aware data dissemination over structured overlays. In Peer-to-Peer Computing, 145–152. IEEE Computer Society, 2006.
+-
+Bill Donkervoet and Gul Agha. Reflecting on aspect-oriented programming, metaprogramming, and adaptive distributed monitoring. In FMCO, volume 4709 of Lecture Notes in Computer Science, 246–265. Springer, 2006.
+-
+MyungJoo Ham and Gul A. Agha. A study of coordinated dynamic market-based task assignment in massively multi-agent systems. In MMAS/LSMAS/CCMMS, volume 5043 of Lecture Notes in Computer Science, 43–63. Springer, 2006.
+-
+Myeong-Wuk Jang and Gul Agha. Agent framework services to reduce agent communication overhead in large-scale agent-based simulations. Simulation Modelling Practice and Theory, 14(6):679–694, 2006.
+-
+YoungMin Kwon and Gul Agha. Scalable modeling and performance evaluation of wireless sensor networks. In IEEE Real Time Technology and Applications Symposium, 49–58. IEEE Computer Society, 2006.
+-
+YoungMin Kwon, Sameer Sundresh, Kirill Mechitov, and Gul Agha. Actornet: an actor platform for wireless sensor networks. In AAMAS, 1297–1300. ACM, 2006.
+-
+Kirill Mechitov, WooYoung Kim, Gul Agha, and Tomonori Nagayama. High-frequency distributed sensing for structure monitoring. In Trans. of the Society of Instrument and Control Engineers (SICE), vol. E-S-1, no. 1, pages 109-114. 2006.
+-
+Tomonori Nagayama, B. F. Spencer, Gul Agha, and Kirill Mechitov. Model-based data aggregation for structural monitoring employing smart sensors. In 3rd International Conference on Networked Sensing Systems (INSS). 2006.
+-
+Reza Razavi, Kirill Mechitov, Sameer Sundresh, Gul Agha, and Jean-FranÃ§ois Perrot. Ambiance: adaptive object model-based platform for macroprogramming sensor networks. In OOPSLA Companion, 663–664. ACM, 2006.
+-
+Koushik Sen and Gul Agha. A race-detection and flipping algorithm for automated testing of multi-threaded programs. In Haifa Verification Conference, volume 4383 of Lecture Notes in Computer Science, 166–182. Springer, 2006.
+-
+Koushik Sen and Gul Agha. Automated systematic testing of open distributed programs. In FASE, volume 3922 of Lecture Notes in Computer Science, 339–356. Springer, 2006.
+-
+Koushik Sen and Gul Agha. Cute and jcute: concolic unit testing and explicit path model-checking tools. In CAV, volume 4144 of Lecture Notes in Computer Science, 419–423. Springer, 2006.
+-
+Koushik Sen, Grigore Rosu, and Gul Agha. Online efficient predictive safety analysis of multithreaded programs. STTT, 8(3):248–260, 2006.
+-
+Koushik Sen, Abhay Vardhan, Gul Agha, and Grigore Rosu. Decentralized runtime analysis of multithreaded applications. In IPDPS. IEEE, 2006.
+-
+Koushik Sen, Abhay Vardhan, Gul Agha, and Grigore Rosu. Efficient decentralized monitoring of safety in distributed systems. In Submitted to ACM TOSEM [invited]. 2006.
+-
+Koushik Sen, Mahesh Viswanathan, and Gul Agha. Model-checking markov chains in the presence of uncertainties. In TACAS, volume 3920 of Lecture Notes in Computer Science, 394–410. Springer, 2006.
+2005
+-
+Gul Agha. Software technology track. In HICSS. IEEE Computer Society, 2005.
+-
+Gul Agha, Carl Gunter, Michael Greenwald, Sanjeev Khanna, Jose Meseguer, Koushik Sen, and Prasanna Thati. Formal modeling and analysis of dos using probabilistic rewrite theories. In Foundations of Computer Security (FCS). 2005.
+-
+Gul Agha, Jose Meseguer, and Koushik Sen. Pmaude: rewrite-based specification language for probabilistic object systems. In 3rd Workshop on Quantitative Aspects of Programming Languages (QAPL 05). 2005.
+-
+Amr Ahmed, Abhilash Patel, Tom Brown, MyungJoo Ham, Myeong-Wuk Jang, and Gul Agha. Task assignment for a physical agent team via a dynamic forward/reverse auction mechanism. In The International Conference of Integration of Knowledge Intensive Multi-Agent Systems KIMAS '05: Modeling, Evolutions and Engineering, pp. 311-317, April 18 - 21. 2005.
+-
+Irma Becerra-Fernandez, Te Wei Wang, Gul Agha, and Thant Sin. Actor model and knowledge management systems: social interaction as a framework for knowledge integration. In Wissensmanagement (LNCS Volume), volume 3782 of Lecture Notes in Computer Science, 19–31. Springer, 2005.
+-
+Christo Frank Devaraj, Indranil Gupta, Mahwish Nagda, and Gul A. Agha. An underlay for sensor networks: localized protocols for maintenance and usage. In MASS. IEEE, 2005.
+-
+MyungJoo Ham and Gul Agha. Ara: a robust audit to prevent free-riding in p2p networks. In Peer-to-Peer Computing, 125–132. IEEE Computer Society, 2005.
+-
+Myeong-Wuk Jang and Gul Agha. Scalable agent distribution mechanisms for large-scale uav simulations. In The International Conference of Integration of Knowledge Intensive Multi-Agent Systems KIMAS '05: Scalable Agents Session, pp. 85-90, April 18-21, Waltham, Massachusetts. 2005.
+-
+YoungMin Kwon and Gul A. Agha. Iltlchecker: a probabilistic model checker for multiple dtmcs. In QEST, 245–246. IEEE Computer Society, 2005.
+-
+YoungMin Kwon, Kirill Mechitov, Sameer Sundresh, WooYoung Kim, and Gul A. Agha. Resilient localization for sensor networks in outdoor environments. In ICDCS, 643–652. IEEE Computer Society, 2005.
+-
+YoungMin Kwon, Sameer Sundresh, Kirill Mechitov, and Gul Agha. Actornet: an actor platform for wireless sensor networks. In Technical Report UIUCDCS-R-2005-2595, Department of Computer Science, University of Illinois at Urbana-Champaign. 2005.
+-
+Koushik Sen, Darko Marinov, and Gul Agha. Cute: a concolic unit testing engine for c. In ESEC/SIGSOFT FSE, 263–272. ACM, 2005.
+-
+Koushik Sen, Grigore Rosu, and Gul Agha. Detecting errors in multithreaded programs by generalized predictive analysis of executions. In FMOODS, volume 3535 of Lecture Notes in Computer Science, 211–226. Springer, 2005.
+-
+Koushik Sen, Mahesh Viswanathan, and Gul Agha. On statistical model checking of stochastic systems. In CAV, volume 3576 of Lecture Notes in Computer Science, 266–280. Springer, 2005.
+-
+Koushik Sen, Mahesh Viswanathan, and Gul A. Agha. Vesta: a statistical model-checker and analyzer for probabilistic systems. In QEST, 251–252. IEEE Computer Society, 2005.
+-
+Sameer Sundresh, YoungMin Kwon, Kirill Mechitov, WooYoung Kim, and Gul Agha. Localization of sparse sensor networks using layout information. In Technical Report UIUCDCS-R-2005-2525, Department of Computer Science, University of Illinois at Urbana-Champaign. 2005.
+-
+Predrag Tosic and Gul Agha. Maximal clique based distributed coalition formation for task allocation in large-scale multi-agent systems. In MMAS'04 Post-Proceedings, Springer-Verlag LNAI series, vol. 3446, pp. 104-120. 2005.
+-
+Predrag Tosic and Gul Agha. On computational complexity of predicting dynamical evolution of large agent ensembles. In Proceedings of the Third European Workshop on Multi-Agent Systems EUMAS '05, pp. 415-426, Flemish Academy of Sciences; held in Brussels, Belgium, December 7-8. 2005.
+-
+Predrag Tosic and Gul Agha. On parallel vs. sequential threshold cellular automata. In (to become) Department of Computer Science Technical Report, University of Illinois at Urbana-Champaign, Spring. 2005.
+-
+Predrag Tosic and Gul Agha. Parallel vs. sequential threshold cellular automata: comparison and contrast. In Proceedings of the First European Conference on Complex Systems ECCS '05 (CD-Rom), European Complex Systems Society; held in Paris, France, November 14-18. 2005.
+-
+Predrag T. Tosic and Gul A. Agha. Computational complexity of predicting some properties of large-scale agent ensembles' dynamical evolution. In EUMAS, 415–426. Koninklijke Vlaamse Academie van Belie voor Wetenschappen en Kunsten, 2005.
+-
+Predrag T. Tosic and Gul A. Agha. On computational complexity of counting fixed points in symmetric boolean graph automata. In UC, volume 3699 of Lecture Notes in Computer Science, 191–205. Springer, 2005.
+-
+Sandeep Uttamchandani, Li Yin, Guillermo A. Alvarez, John Palmer, and Gul A. Agha. Chameleon: a self-evolving, fully-adaptive resource arbitrator for storage systems. In USENIX Annual Technical Conference, General Track, 75–88. USENIX, 2005.
+-
+Sandeep Uttamchandani, Li Yin, John Palmer, Randy Katz, and Gul Agha. Model-based automation of the observe-analyze-act loop: will it become a reality?. In position paper submitted for review. 2005.
+-
+Sandeep Uttamchandani, Xiaoxin Yin, John Palmer, and Gul A. Agha. Monitormining: creating domain knowledge for system automation using a gray-box approach. In Integrated Network Management, 61–74. IEEE, 2005.
+-
+Abhay Vardhan, Koushik Sen, Mahesh Viswanathan, and Gul Agha. Using language inference to verify omega-regular properties. In TACAS, volume 3440 of Lecture Notes in Computer Science, 45–60. Springer, 2005.
+-
+Li Yin, Sandeep Uttamchandani, John Palmer, Randy H. Katz, and Gul A. Agha. Autoloop: automated action selection in the "observe-analyze-act" loop for storage systems. In POLICY, 129–138. IEEE Computer Society, 2005.
+2004
+-
+Gul Agha. Software technology track introduction. In HICSS. IEEE Computer Society, 2004.
+-
+Gul Agha and Prasanna Thati. An algebraic theory of actors and its application to a simple object-based language. In Essays in Memory of Ole-Johan Dahl, volume 2635 of Lecture Notes in Computer Science, 26–57. Springer, 2004.
+-
+Gul Agha and Carlos A. Varela. Worldwide computing middleware. In CRC Practical Handbook on Internet Computing, Editor: M. Singh, Invited Chapter. 2004.
+-
+Po-Hao Chang, WooYoung Kim, and Gul Agha. An adaptive programming framework for web applications. In SAINT, 152–159. IEEE Computer Society, 2004.
+-
+Nadeem Jamali, Indratmo, Xinghui Zhao, and Gul Agha. Decentralized resource control for multi-agent systems. In AAMAS, 1366–1367. IEEE Computer Society, 2004.
+-
+Myeong-Wuk Jang and Gul Agha. Adaptive agent allocation for massively multi-agent applications. In MMAS, volume 3446 of Lecture Notes in Computer Science, 25–39. Springer, 2004.
+-
+Myeong-Wuk Jang and Gul Agha. Dynamic agent allocation for large-scale multi-agent applications. In International Workshop on Massively Multi-Agent Systems, pp. 19-33, Kyoto, Japan, December 10-11. 2004.
+-
+Myeong-Wuk Jang and Gul Agha. On efficient communication and service agent discovery in multi-agent systems. In Third International Workshop on Software Engineering for Large-Scale Multi-Agent Systems (SELMAS '04), pp. 27-33, Edinburgh, Scotland, May 24-25. 2004.
+-
+Myeong-Wuk Jang, Amr Ahmed, and Gul Agha. A flexible coordination framework for application-oriented matchmaking and brokering services. In Technical Report UIUCDCS-R-2004-2430, Department of Computer Science, University of Illinois at Urbana-Champaign, April. 2004.
+-
+Myeong-Wuk Jang, Amr Abdel Momen, and Gul Agha. Atspace: a middle agent to support application oriented matchmaking and brokering services. In IAT, 393–396. IEEE Computer Society, 2004.
+-
+Myeong-Wuk Jang, Amr Ahmed Momen, and Gul Agha. Efficient agent communication in multi-agent systems. In SELMAS, volume 3390 of Lecture Notes in Computer Science, 236–253. Springer, 2004.
+-
+YoungMin Kwon and Gul Agha. Linear inequality ltl (iltl): a model checker for discrete time markov chains. In ICFEM, volume 3308 of Lecture Notes in Computer Science, 194–208. Springer, 2004.
+-
+YoungMin Kwon, Kirill Mechitov, Sameer Sundresh, WooYoung Kim, and Gul Agha. Resilient localization for sensor networks in outdoor environments. In Technical Report UIUCDCS-R-2004-2449, Department of Computer Science, University of Illinois at Urbana Champaign. 2004.
+-
+Kirill Mechitov, WooYoung Kim, Gul Agha, and Tomonori Nagayama. High-frequency distributed sensing for structure monitoring. In First International Workshop on Networked Sensing Systems (INSS), pages 101-104. 2004.
+-
+Tomonori Nagayama, Manuel Ruiz Sandoval, B. F. Spencer, Kirill Mechitov, and Gul Agha. Wireless strain sensor development for civil infrastructure. In First International Workshop on Networked Sensing Systems (INSS), pages 97-100. 2004.
+-
+Koushik Sen, Grigore Rosu, and Gul Agha. Online efficient predictive safety analysis of multithreaded programs. In TACAS, volume 2988 of Lecture Notes in Computer Science, 123–138. Springer, 2004.
+-
+Koushik Sen, Abhay Vardhan, Gul Agha, and Grigore Rosu. Efficient decentralized monitoring of safety in distributed systems. In ICSE, 418–427. IEEE Computer Society, 2004.
+-
+Koushik Sen, Abhay Vardhan, Gul Agha, and Grigore Rosu. On specifying and monitoring epistemic properties of distributed systems. In In 2nd International Workshop on Dynamic Analysis (WODA'04), Satellite workshop of ICSE 2004, pages 32-35. British Institution of Electrical Engineers (IEE), May 2004. 2004.
+-
+Koushik Sen, Mahesh Viswanathan, and Gul Agha. Learning continuous time markov chains from sample executions. In QEST, 146–155. IEEE Computer Society, 2004.
+-
+Koushik Sen, Mahesh Viswanathan, and Gul Agha. Statistical model checking of black-box probabilistic systems. In CAV, volume 3114 of Lecture Notes in Computer Science, 202–215. Springer, 2004.
+-
+Sameer Sundresh, WooYoung Kim, and Gul Agha. Sens: a sensor, environment and network simulator. In Annual Simulation Symposium, 221–228. IEEE Computer Society, 2004.
+-
+Prasanna Thati, Carolyn L. Talcott, and Gul Agha. Techniques for executing and reasoning about specification diagrams. In AMAST, volume 3116 of Lecture Notes in Computer Science, 521–536. Springer, 2004.
+-
+Predrag Tosic and Gul Agha. Concurrency vs. sequential interleavings in 1-d threshold cellular automata. In Proc. IEEE - IPDPS '04 (APDCM Workshop), Santa Fe, New Mexico, USA, April 26-30. 2004.
+-
+Predrag Tosic and Gul Agha. Maximal clique based distributed group formation for autonomous agent coalitions. In Coalitions and Teams Workshop (W10), within The Third Int'l Joint Conf. on Agents & Multi Agent Systems (AAMAS '04), Columbia University, New York City, USA. 2004.
+-
+Predrag T. Tosic and Gul Agha. Characterizing configuration spaces of simple threshold cellular automata. In ACRI, volume 3305 of Lecture Notes in Computer Science, 861–870. Springer, 2004.
+-
+Predrag T. Tosic and Gul Agha. Concurrency vs. sequential interleavings in 1-d threshold cellular automata. In IPDPS. IEEE Computer Society, 2004.
+-
+Predrag T. Tosic and Gul A. Agha. Maximal clique based distributed coalition formation for task allocation in large-scale multi-agent systems. In MMAS, volume 3446 of Lecture Notes in Computer Science, 104–120. Springer, 2004.
+-
+Predrag T. Tosic and Gul A. Agha. Towards a hierarchical taxonomy of autonomous agents. In SMC (4), 3421–3426. IEEE, 2004.
+-
+Sandeep Uttamchandani, Guillermo A. Alvarez, and Gul Agha. Decisionqos: an adaptive, self-evolving qos arbitration module for storage systems. In POLICY, 67–76. IEEE Computer Society, 2004.
+-
+Abhay Vardhan, Koushik Sen, Mahesh Viswanathan, and Gul Agha. Actively learning to verify safety for fifo automata. In FSTTCS, volume 3328 of Lecture Notes in Computer Science, 494–505. Springer, 2004.
+-
+Abhay Vardhan, Koushik Sen, Mahesh Viswanathan, and Gul Agha. Learning to verify safety properties. In ICFEM, volume 3308 of Lecture Notes in Computer Science, 274–289. Springer, 2004.
+-
+Nalini Venkatasubramanian, Carolyn L. Talcott, and Gul Agha. A formal model for reasoning about adaptive qos-enabled middleware. ACM Trans. Softw. Eng. Methodol, 13(1):86–147, 2004.
+2003
+-
+Gul Agha, WooYoung Kim, YoungMin Kwon, Kirill Mechitov, and Sameer Sundresh. Evaluation of localization services (preliminary report). In DARPA NEST Program. 2003.
+-
+Hui Ding, Can Zheng, Gul Agha, and Lui Sha. Automated verification of the dependability of object-oriented real-time systems. In WORDS Fall, 171–178. IEEE Computer Society, 2003.
+-
+Hui Ding, Can Zheng, Lui Sha, and Gul Agha. Specification and validation of fault-tolerant software architectures based on actor model. In SEKE, 458–466. 2003.
+-
+Nadeem Jamali and Gul Agha. Cyberorgs: a model for decentralized resource control in multi agent systems. In Proceedings of Workshop on Representations and Approaches for Time-Critical Decentralized Resource/Role/Task Allocation, at the Second International Joint Conference on Autonomous Agents and Multiagent Systems (AAMAS 03), Melbourne, Australia, July. 2003.
+-
+Myeong-Wuk Jang, Smitha Reddy, Predrag Tosic, Liping Chen, and Gul Agha. An actor-based simulation for studying uav coordination. In 15th European Simulation Symposium (ESS 2003), pp. 593-601, Delft, The Netherlands, October 26-29. 2003.
+-
+Nirman Kumar, Koushik Sen, JosÃ© Meseguer, and Gul Agha. A rewriting based model for probabilistic distributed object systems. In FMOODS, volume 2884 of Lecture Notes in Computer Science, 32–46. Springer, 2003.
+-
+Kirill Mechitov, Sameer Sundresh, YoungMin Kwon, and Gul Agha. Cooperative tracking with binary-detection sensor networks. In Technical Report UIUCDCS-R-2003-2379, Department of Computer Science, University of Illinois at Urbana-Champaign. 2003.
+-
+Kirill Mechitov, Sameer Sundresh, YoungMin Kwon, and Gul Agha. Cooperative tracking with binary-detection sensor networks. In SenSys, 332–333. ACM, 2003.
+-
+Koushik Sen, Grigore Rosu, and Gul Agha. Generating optimal linear temporal logic monitors by coinduction. In ASIAN, volume 2896 of Lecture Notes in Computer Science, 260–275. Springer, 2003.
+-
+Koushik Sen, Grigore Rosu, and Gul Agha. Runtime safety analysis of multithreaded programs. In ESEC / SIGSOFT FSE, 337–346. ACM, 2003.
+-
+Sameer Sundresh, Gul Agha, Kirill Mechitov, WooYoung Kim, and YoungMin Kwon. Coordination services for wireless sensor networks. In International Workshop on Advanced Sensors, Structural Health Monitoring and Smart Structures. 2003.
+-
+Predrag Tosic and Gul Agha. Simple genetic algorithms for pattern learning: the role of crossovers. In 5th Int'l Workshop on Frontiers in Evolutionary Algorithms (FEA'03), in Proc. Joint Conference on Information Systems, September 26-30. 2003.
+-
+Predrag Tosic and Gul Agha. Understanding and modeling agent autonomy in dynamic multi-agent, multi-task environments. In Proc. First European Workshop on Multi-Agent Systems (EUMAS '03) (Day 2, Panel 2 section), Oxford, England (UK), December 18-19. 2003.
+-
+Predrag Tosic, Myeong-Wuk Jang, Smitha Reddy, Joshua Chia, Liping Chen, and Gul Agha. Modeling a system of uavs on a mission. In Proc. 7th World Multiconference on Systemics, Cybernetics, and Informatics (SCI '03), pp. 508-514, July 27-30. 2003.
+-
+Reza Ziaei and Gul Agha. Synchnet: a petri net based coordination language for distributed objects. In GPCE, volume 2830 of Lecture Notes in Computer Science, 324–343. Springer, 2003.
+2002
+-
+Gul Agha. Introduction. Commun. ACM, 45(6):30–32, 2002.
+-
+Dejan S. Milojicic, Gul Agha, Philippe Bernadat, Deepika Chauhan, Shai Guday, Nadeem Jamali, Dan Lambright, and Franco Travostino. Case studies in security and resource management for mobile object systems. Autonomous Agents and Multi-Agent Systems, 5(1):45–79, 2002.
+-
+Koushik Sen and Gul Agha. Thin middleware for ubiquitous computing. In Process Coordination and Ubiquitous Computing, CRC Press. 2002.
+-
+Prasannaa Thati, Reza Ziaei, and Gul Agha. A theory of may testing for actors. In FMOODS, volume 209 of IFIP Conference Proceedings, 147–162. Kluwer, 2002.
+-
+Prasannaa Thati, Reza Ziaei, and Gul Agha. A theory of may testing for asynchronous calculi with locality and no name matching. In AMAST, volume 2422 of Lecture Notes in Computer Science, 223–238. Springer, 2002.
+-
+Sandeep Uttamchandani and Gul Agha. Wapsec: a personalized security architecture for wap. In 2nd Asian International Mobile Computing Conference 2002 (AMOC 2002). 2002.
+-
+Abhay Vardhan and Gul Agha. Using passive object garbage collection algorithms for garbage collection of active objects. In MSP/ISMM, 213–220. ACM, 2002.
+-
+Gul Agha and Prasanna Thati. Actors. In Urban J. and P. Dasgupta, editors, Encyclopedia of Distributed Computing.
+Kluwer Academic Publishers, 2002.
+2001
+-
+Gul Agha, Fiorella de Cindio, and Grzegorz Rozenberg, editors. Concurrent Object-Oriented Programming and Petri Nets, Advances in Petri Nets. Volume 2001 of Lecture Notes in Computer Science, Springer, 2001.
+-
+Gul Agha. The world wide computer: prospects for parallel and distributed computing on the web. In CCGRID, 18. IEEE Computer Society, 2001.
+-
+Gul Agha, Nadeem Jamali, and Carlos A. Varela. Agent naming and coordination: actor based models and infrastructures. In Coordination of Internet Agents: Models, Technologies, and Applications, pages 225–246.
+2001.
+-
+Gul Agha and Prasanna Thati. Actors: a model for reasoning about open distributed systems. In in H. Bowman and J. Derrick (editors), Formal Methods for Distributed Processing - An Object Oriented Approach, Chap. 8, Cambridge University Press. 2001.
+-
+Gul Agha, Prasanna Thati, and Reza Ziaei. Actors: a model for reasoning about open distributed systems. In Formal methods for distributed processing: a survey of object-oriented approaches. 2001.
+-
+Mark Astley, Daniel C. Sturman, and Gul Agha. Customizable middleware for modular distributed software. Commun. ACM, 44(5):99–107, 2001.
+-
+Prasannaa Thati, Po-Hao Chang, and Gul Agha. Crawlets: agents for high performance web search engines. In Mobile Agents, volume 2240 of Lecture Notes in Computer Science, 119–134. Springer, 2001.
+-
+Carlos A. Varela and Gul Agha. Programming dynamically reconfigurable open systems with salsa. SIGPLAN Notices, 36(12):20–34, 2001.
+-
+Nalini Venkatasubramanian, Carolyn L. Talcott, and Gul Agha. A formal model for reasoning about adaptive qos-enabled middleware. In FME, volume 2021 of Lecture Notes in Computer Science, 197–221. Springer, 2001.
+1999
+-
+Gul Agha and Nadeem Jamali. Concurrent programming for distributed artificial intelligence. In in G. Weiss (Editor), Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence, Chap. 12, pp 505-534, MIT Press. 1999.
+-
+Gul Agha and WooYoung Kim. Unifying parallel and distributed computation: an actor-based approach. In Journal of Systems Architecture. 1999.
+-
+Gul Agha and Reza Ziaei. Security and fault-tolerance in distributed systems: an actor based approach. In in P. Amman et al. (eds.), Computer Security, Dependability, and Assurance, From Needs to Solutions, pp. 72-88, IEEE Computer Society. 1999.
+-
+Gul A. Agha and WooYoung Kim. Actors: a unifying model for parallel and distributed computing. Journal of Systems Architecture, 45(15):1263–1277, 1999.
+-
+Nadeem Jamali, Prasanna Thati, and Gul Agha. An actor-based architecture for customizing and controlling agent ensembles. In IEEE Intelligent Systems, vol. 14, no. 2, April. 1999.
+-
+Brian Nielsen and Gul Agha. Towards reusable real-time objects. Ann. Software Eng, 7:257–282, 1999.
+-
+Carlos A. Varela and Gul Agha. A hierarchical model for coordination of concurrent activities. In COORDINATION, volume 1594 of Lecture Notes in Computer Science, 166–182. Springer, 1999.
+-
+Nalini Venkatasubramanian, Gul Agha, and Carolyn Talcott. A metaobject framework for qos-based distributed resource management. In Third International Symposium on Computing in Object-Oriented Parallel Environments (ISCOPE '99), December. 1999.
+1998
+-
+Gul Agha, Mark Astley, Jamil A. Sheikh, and Carlos A. Varela. Modular heterogeneous system development: a critical analysis of java. In Heterogeneous Computing Workshop, 144–155. 1998.
+-
+Mark Astley and Gul Agha. Customizaton and compositon of distributed objects: middleware abstractions for policy management. In SIGSOFT FSE, 1–9. ACM, 1998.
+-
+Mark Astley and Gul Agha. Modular construction and composition of distributed software architectures. In PDSE, 2–12. 1998.
+-
+Rachid Guerraoui and Gul Agha. Editorial - high availability in corba. TAPOS, 4(2):71, 1998.
+-
+WooYoung Kim and Gul Agha. Parallel programming and complexity analysis using actors. In in Proceedings of the Third International Working Conference on Massively Parallel Programming Models (MPPM '97). 1998.
+-
+Dejan S. Milojicic, Gul Agha, Philippe Bernadat, Deepika Chauhan, Shai Guday, Nadeem Jamali, and Dan Lambright. Case studies in security and resource management for mobile objects. In ECOOP Workshops, volume 1543 of Lecture Notes in Computer Science, 306. Springer, 1998.
+-
+Brian Nielsen, Shangping Ren, and Gul Agha. Specification of real-time interaction constraints. In ISORC, 206–214. IEEE Computer Society, 1998.
+-
+Shangping Ren and Gul Agha. A modular approach for programming embedded systems. In in Frits Vaandrager and Grzegorz Rozenberg (editors), Embedded Systems, Lecture Notes in Computer Science, vol. 1494, pp 170-207, Springer-Verlag. 1998.
+-
+Carlos A. Varela and Gul Agha. What after java? from objects to actors. Computer Networks, 30(1-7):573–577, 1998.
+1997
+-
+Gul Agha. Abstracting interaction patterns: a programming paradigm for open distributed systems. In in Elie Najm and Jean-Bernard Stefani (editors), Formal Methods for Open Object-Based Distributed Systems, pp 135-153, Chapman and Hall (on behalf of the International Federation for Information Processing). 1997.
+-
+Gul Agha, Ian A. Mason, Scott F. Smith, and Carolyn L. Talcott. A foundation for actor computation. J. Funct. Program, 7(1):1–72, 1997.
+-
+Gul Agha and Stefano Russo. Workshop on software engineering for parallel and distributed systems. In ICSE, 678. ACM, 1997.
+-
+Shangping Ren and Gul Agha. Source code level infeasibility detection on declarative timing constraints specified with rtsynchronizers. In ACM SIGPLAN Workshop on Languages, Compilers, and Tools for Real-Time Systems, pp 1-10. 1997.
+-
+Nalini Venkatasubramanian and Gul Agha. An actor based framework for managing multimedia qos. In Proceedings of the 3rd International Workshop on Multimedia Information Systems (MISC '97), Como, Italy, pp 54-62, September. 1997.
+1996
+-
+Gul Agha. Linguistic paradigms for programming complex distributed systems. ACM Comput. Surv, 28(2):295–296, 1996.
+-
+Gul Agha. Modeling concurrent systems: actors, nets, and the problem of abstraction and composition. In Application and Theory of Petri Nets, volume 1091 of Lecture Notes in Computer Science, 1–10. Springer, 1996.
+-
+Mark Astley and Gul Agha. A visualization model for concurrent systems. Inf. Sci, 93(1):107–131, 1996.
+-
+Svend Frølund and Gul Agha. Abstracting interactions based on message sets. In in Object-Based Models and Languages for Concurrent Systems, Lecture Notes in Computer Science, vol. 924, pp 107-124, Springer Verlag. 1996.
+-
+WooYoung Kim, Rajendra Panwar, and Gul Agha. Efficient compilation of call/return communication for actor-based programming languages. In Third International Conference on High Performance Computing, pp 62-67, Trivendarum, India, IEEE Computer Society. 1996.
+-
+Brian Nielsen and Gul Agha. Semantics for an actor-based real-time language. In in Proceedings of the Fourth International Workshop on Parallel and Distributed Real-Time Systems, pp 223-228, IEEE Computer Society. 1996.
+-
+Rajendra Panwar, WooYoung Kim, and Gul Agha. Parallel implementations of irregular problems using high-level actor language. In IPPS, 857–862. IEEE Computer Society, 1996.
+-
+Shangping Ren and Gul Agha. A modular approach for programming embedded systems. In European Educational Forum: School on Embedded Systems, volume 1494 of Lecture Notes in Computer Science, 170–207. Springer, 1996.
+-
+Shangping Ren, Gul Agha, and Masahiko Saito. A modular approach to programming distributed real-time systems. J. Parallel Distrib. Comput, 36(1):4–12, 1996.
+-
+Masahiko Saito and Gul Agha. A modular approach to real-time synchronization. OOPS Messenger, 7(1):13–20, 1996.
+1995
+-
+Gul Agha, Svend Frølund, WooYoung Kim, Rajendra Panwar, Anna Patterson, and Daniel Sturman. Abstraction and modularity mechanisms for concurrent computing. In in David Skillicorn and Domenico Talia (editors), Programming Languages for Parallel Processing, pp 146-157, IEEE Computer Society, May. 1995.
+-
+Gul Agha, WooYoung Kim, and Rajendra Panwar. Actor languages for specification of parallel computations. In in G. E. Blelloch, K. Mani Chandy and S. Jagannathan (editors), DIMACS Series in Discrete Mathematics and Computer Science, vol. 18, pp 239-258, American Mathematical Society. 1995.
+-
+Mark Astley and Gul Agha. Visualizing concurrent systems through component interfaces. In Proceedings of the Second Annual Joint Conference on Information Sciences, pp 214-217, Wrightsville Beach, NC, October. 1995.
+-
+WooYoung Kim and Gul Agha. Efficient support of location transparency in concurrent object-oriented programming languages. In SC, 39. IEEE Computer Society / ACM, 1995.
+-
+Shangping Ren and Gul Agha. Rtsynchronizer: language support for real-time specifications in distributed systems. In Workshop on Languages, Compilers, & Tools for Real-Time Systems, 50–59. ACM, 1995.
+1994
+-
+Gul Agha and Daniel Sturman. A methodology for adapting to patterns of faults. In in G. M. Koob and C. G. Lau (editors), Foundations of Dependable Computing: Models and Frameworks for Dependable Systems, Chap. 2, vol. 1, pp 1-59, Kluwer Academic Publishers. 1994.
+-
+Christian J. Callsen and Gul Agha. Open heterogeneous computing in actor space. J. Parallel Distrib. Comput, 21(3):289–300, 1994.
+-
+Svend FrÃ¸lund and Gul Agha. Abstracting interactions based on message sets. In ECOOP Workshop, volume 924 of Lecture Notes in Computer Science, 107–124. Springer, 1994.
+-
+Rajendra Panwar and Gul Agha. A methodology for programming scalable architectures. J. Parallel Distrib. Comput, 22(3):479–487, 1994.
+-
+Daniel C. Sturman and Gul Agha. A protocol description language for customizing semantics. In SRDS, 148–157. 1994.
+1993
+-
+Gul Agha and Christian J. Callsen. Actorspaces: an open distributed programming paradigm. In PPOPP, 23–32. ACM, 1993.
+-
+Gul Agha, Svend FrÃ¸lund, WooYoung Kim, Rajendra Panwar, Anna Patterson, and Daniel C. Sturman. Abstraction and modularity mechanisms for concurrent computing. IEEE P&DT, 1(2):3–14, 1993.
+-
+Gul Agha, Svend Frølund, Rajendra Panwar, and Daniel Sturman. A linguistic framework for dynamic composition of dependability protocols. In in C. E. Landwehr, B. Randell, and L. Simoncini (editors), Dependable Computing and Fault-Tolerant Systems VIII, pp 345-363, IFIP Transactions, Springer-Verlag. 1993.
+-
+Svend FrÃ¸lund and Gul Agha. A language framework for multi-object coordination. In ECOOP, volume 707 of Lecture Notes in Computer Science, 346–360. Springer, 1993.
+1992
+-
+Gul Agha. Formal methods for actor systems: a progress report. In FORTE, volume C-10 of IFIP Transactions, 217–228. North-Holland, 1992.
+-
+Gul Agha, Svend Frølund, Rajendra Panwar, and Daniel Sturman. A linguistic framework for dynamic composition of fault-tolerance protocols. In Conference on Dependable Computing for Critical Applications (DCCA-3), pp 197-207, International Federation of Information Processing Societies, Palermo (Sicily), Italy, September. 1992.
+-
+Gul Agha, Chris Houck, and Rajendra Panwar. Distributed execution of actor programs. In in D. Gelernter, T. Gross, A. Nicolau, and D. Padua (editors), Languages and Compilers for Parallel Computing, Lecture Notes in Computer Science, vol. 589, pp 1-17, Springer-Verlag. 1992.
+-
+Gul Agha, Ian A. Mason, Scott F. Smith, and Carolyn L. Talcott. Towards a theory of actor computation. In CONCUR, volume 630 of Lecture Notes in Computer Science, 565–579. Springer, 1992.
+-
+Gul Agha and Rajendra Panwar. An actor-based framework for heterogeneous computing systems. In Workshop on Heterogeneous Processing, pp 35-42, IEEE Computer Society, March. 1992.
+-
+Christopher R. Houck and Gul Agha. Hal: a high-level actor language and its distributed implementation. In ICPP (2), 158–165. CRC Press, 1992.
+-
+Suresh Jagannathan and Gul Agha. A reflective model of inheritance. In ECOOP, volume 615 of Lecture Notes in Computer Science, 350–371. Springer, 1992.
+-
+Won Kim and Gul Agha. Comilation of a highly parallel actor-based language. In LCPC, volume 757 of Lecture Notes in Computer Science, 1–15. Springer, 1992.
+-
+Shakuntala Miriyala, Gul Agha, and Yamina Sami. Visualizing actor programs using predicate transition nets. J. Vis. Lang. Comput, 3(2):195–220, 1992.
+-
+Nalini Venkatasubramanian, Gul Agha, and Carolyn L. Talcott. Scalable distributed garbage collection for systems of active objects. In IWMM, volume 637 of Lecture Notes in Computer Science, 134–147. Springer, 1992.
+-
+Nalini Venkatasubramanian, Shakuntala Miriyala, and Gul Agha. Scalable concurrent computing. In SADHANA: Academy Proceedings in Engineering Sciences, Special Issue on Parallel and Distributed Computing, vol. 17, no. 1, pp 193-220, 1992, Indian Academy of Sciences, Banglore, India. 1992.
+1991
+-
+Gul Agha. Proceedings of the sigplan workshop on object-based concurrent programming. In OOPS Messenger, vol. 2, No. 2, April 1991, ACM SIGPLAN. 1991.
+-
+Gul Agha, Christopher R. Houck, and Rajendra Panwar. Distributed execution of actor programs. In LCPC, volume 589 of Lecture Notes in Computer Science, 1–17. Springer, 1991.
+-
+Gul Agha, Akinori Yonezawa, Peter Wegner, and Samson Abramsky. Oopsla panel on object-based concurrent programming. OOPS Messenger, 2(2):3–15, 1991.
+-
+Vineet Singh, Vipin Kumar, Gul Agha, and Chris Tomlinson. Efficient algorithms for parallel sorting on mesh multicomputers. International Journal of Parallel Programming, 20(2):95–131, 1991.
+-
+Vineet Singh, Vipin Kumar, Gul Agha, and Chris Tomlinson. Scalability of parallel sorting on mesh multicomputers. In IPPS, 92–101. IEEE Computer Society, 1991.
+1990
+-
+Gul Agha. Concurrent object-oriented programming. Commun. ACM, 33(9):125–141, 1990.
+-
+Gul Agha. The structure and semantics of actor languages. In REX Workshop, volume 489 of Lecture Notes in Computer Science, 1–59. Springer, 1990.
+-
+Gul Agha, Samson Abramsky, Carl Hewitt, Robin Milner, Peter Wegner, and Akinori Yonezawa. Foundations of concurrent object-oriented programming (panel). In OOPSLA/ECOOP, 100. ACM, 1990.
+-
+Gul A. Agha. ACTORS - a model of concurrent computation in distributed systems. MIT Press series in artificial intelligence.
+MIT Press, 1990.
+1989
+-
+Gul Agha. Foundational issues in concurrent computing. SIGPLAN Notices, 24(4):60–65, 1989.
+-
+Gul Agha. Proceedings of the nsf/sigplan workshop on object-based concurrent programming. In SIGPLAN Notices, vol. 24, no. 4, April 1989, ACM SIGPLAN. 1989.
+-
+Gul Agha. Supporting multiparadigm programming on actor architectures. In PARLE (2), volume 366 of Lecture Notes in Computer Science, 1–19. Springer, 1989.
+-
+Chris Tomlinson, Won Kim, Mark Scheevel, Vineet Singh, B. Will, and Gul Agha. Rosette: an object-oriented concurrent systems architecture. SIGPLAN Notices, 24(4):91–93, 1989.

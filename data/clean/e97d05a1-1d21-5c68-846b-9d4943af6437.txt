@@ -1,0 +1,18 @@
+Hao Peng
+3314 SC
+201 North Goodwin Avenue
+Urbana, IL 61801
+I am an Assistant Professor at the Department of Computer Science of the University of Illinois at Urbana-Champaign (UIUC).
+I received my Ph.D. from the University of Washington, with Noah Smith, and my Bachelors Degree from Peking University. I spent one year at the Allen Institute for Artificial Intelligence as a Young Investigator, and time at Microsoft Research, Google, and DeepMind as an intern.
+My research broadly spans natural language processing and machine learning. My current interests primarily include:
+- Post-training algorithms and data, especially for tackling complex reasoning, coding, and mathematical problems
+- Long context and efficiency
+- LLMs for accelerating scientific research
+Outside work, I cater to the whims of a quartet of furry overlords: Meera, Loki, Sylvie, and Kea. When they release me from their service, I cycle in the summer, and (backcountry) ski in the winter.
+recent publications
+-
+-
+-
+-
+- A Little Goes a Long Way: Efficient Long Context Training and Inference with Partial ContextsIn Proceedings of the International Conference on Learning Representations (ICLR), 2025
+- oralRetrieval Head Mechanistically Explains Long-Context FactualityIn Proceedings of the International Conference on Learning Representations (ICLR), 2025

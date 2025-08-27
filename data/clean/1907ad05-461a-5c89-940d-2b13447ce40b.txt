@@ -1,0 +1,37 @@
+Contact Information
+226 Astronomy
+1002 West Green Street
+M/C 221
+Urbana, IL 61801
+Biography
+Robert J. Brunner is a professor in the School of Information Sciences and in the Department of Accountancy in the College of Business. He has affiliate appointments in the Astronomy, Computer Science, Electrical and Computer Engineering, Informatics, Physics, and Statistics Departments; at the Beckman Institute, in the Computational Science and Engineering program; and at the National Center for Supercomputing Applications. He is also the Data Science Expert in Residence at the Research Park at the University of Illinois.
+His primary research goal focuses on the application of statistical and machine learning to a variety of real-world problems, and in making these efforts easier, faster, and more precise. This work spans fundamental algorithm design to more effectively incorporate uncertainty to optimization using novel computational technologies. More generally, Brunner helps lead efforts to promote data science across campus and to encourage effective data management, analysis, and visualization techniques.
+Brunner earned his PhD in astrophysics at the Johns Hopkins University working under Alex Szalay on the development of the science archive for the Sloan Digital Sky Survey. His PhD thesis helped develop the statistical approach to quantifying galaxy evolution, where large data are used to place constraints on the original and evolution of the Universe. He subsequently spent five years as a postdoctoral scholar at the California Institute of Technology working under S. George Djorgovsi and Tom Prince as the project scientist for the Digital Sky project.
+Research Interests
+Observational Cosmology
+Information Science
+Statistical and Machine Learning
+Advanced Computational Techniques
+Transient and Variable Phenomena
+Research Description
+The development of data science, the application of machine learning, algorithmic optimization, statistical uncertainty and its incorporation in machine learning, data management, effective visualization, and data storytelling.
+Education
+Ph.D. Johns Hopkins University
+Additional Campus Affiliations
+Chief Disruption Officer, Gies College of Business
+Arthur Andersen Faculty Fellow, Accountancy
+Professor, Accountancy
+Professor, Siebel School of Computing and Data Science
+Professor, Electrical and Computer Engineering
+Professor, Statistics
+Professor, Astronomy
+Professor, Informatics
+Professor, National Center for Supercomputing Applications (NCSA)
+Professor, Beckman Institute for Advanced Science and Technology
+External Links
+Recent Publications
+Bracht, E., Brunner, R., & McMullin, J. (2025). Towards a unified approach to industry recovery: Insights from intraday stock data and advanced community detection methods. Physica A: Statistical Mechanics and its Applications, 669, Article 130501. https://doi.org/10.1016/j.physa.2025.130501
+Kaikaus, J., Li, H., & Brunner, R. J. (2023). Humans vs. ChatGPT: Evaluating Annotation Methods for Financial Corpora. In J. He, T. Palpanas, X. Hu, A. Cuzzocrea, D. Dou, D. Slezak, W. Wang, A. Gruca, J. C.-W. Lin, & R. Agrawal (Eds.), Proceedings - 2023 IEEE International Conference on Big Data, BigData 2023 (pp. 2831-2838). (Proceedings - 2023 IEEE International Conference on Big Data, BigData 2023). Institute of Electrical and Electronics Engineers Inc.. https://doi.org/10.1109/BigData59044.2023.10386425
+Bracht, E., Kindratenko, V., & Brunner, R. J. (2022). Sparse Spatio-Temporal Neural Network for Large-Scale Forecasting. In S. Tsumoto, Y. Ohsawa, L. Chen, D. Van den Poel, X. Hu, Y. Motomura, T. Takagi, L. Wu, Y. Xie, A. Abe, & V. Raghavan (Eds.), Proceedings - 2022 IEEE International Conference on Big Data, Big Data 2022 (Proceedings - 2022 IEEE International Conference on Big Data, Big Data 2022; Vol. 2022-January). Institute of Electrical and Electronics Engineers Inc.. https://doi.org/10.1109/BigData55660.2022.10036330
+Kaikaus, J., Hobson, J. L., & Brunner, R. J. (2022). Truth or Fiction: Multimodal Learning Applied to Earnings Calls. In S. Tsumoto, Y. Ohsawa, L. Chen, D. Van den Poel, X. Hu, Y. Motomura, T. Takagi, L. Wu, Y. Xie, A. Abe, & V. Raghavan (Eds.), Proceedings - 2022 IEEE International Conference on Big Data, Big Data 2022 (pp. 3607-3612). (Proceedings - 2022 IEEE International Conference on Big Data, Big Data 2022). Institute of Electrical and Electronics Engineers Inc.. https://doi.org/10.1109/BigData55660.2022.10020307
+Hariri, S., Kind, M. C., & Brunner, R. J. (2021). Extended Isolation Forest. IEEE Transactions on Knowledge and Data Engineering, 33(4), 1479-1489. Article 8888179. https://doi.org/10.1109/TKDE.2019.2947676

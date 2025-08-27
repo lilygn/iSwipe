@@ -1,0 +1,79 @@
+YONGJOO PARK
+Assistant Professor, Illinois CS (UIUC)
+yongjoo@g.illinois.edu
+Co-founder / Chief Scientist,
+Keebo
+yongjoo@keebo.ai
+Current Research: Systems for data-intensive AI
+- Efficient Retrieval-Augmented Generation (RAG)
+- Systems for exploratory AI
+At IllinoisCS, I am a member of DAIS. You can join DAIS Slack Workspace
+🎉 News (Jul 2025) Our Kishu paper received SIGMOD 2025 Best Demo Award!
+🎉 News (Jun 2025) Awarded NSF CAREER for novel data science systems!
+🎉 News (May 2025) Supawit will join CMKL University in Thailand as an Assistant Professor in 2026!
+🎉 News (Apr 2025) Supawit successfully defended his PhD (A few photos). Supawit will continue his academic career as a Postdoc at Google.
+🎉 News (Mar 2025) Selected for a new IBM-Illinois project on VectorDB/RAG.
+🎉 News (Mar 2025) Universal SmartSSD filtering accepted to ISCA'25.
+🎉 News (Feb 2025) HCI evaluation with AI-agents was accepted to CHI'25 late-breaking work.
+🎉 News (Feb 2025) Kishu, the World's First Undoable Jupyter, will be presented in PyCon'25.
+🎉 News (Jan 2025) Interface for data science versioning was accepted to CHI'25.
+🎉 News (Dec 2024) Kishu, the Time-traveling Notebook was accepted to PVLDB'25.
+🎉 News (Jun 2024) ElasticNotebook demo was presented at SIGMOD'24.
+🎉 News (May 2024) DeepOLA received SIGMOD'23 Best Artifact Award Honorable Mention!
+-
+TEACHING
+FA2025 CS511 - Advanced Data Management [Course Info] [Canvas]
+Past Courses (click to expand)
+- SP2025 CS598YP - Hot Topics in Data Management Course Info Canvas
+- FA2024 CS511 - Advanced Data Management Course Info Canvas
+- SP2024 CS598 YP - ML and Data Systems Course Info Canvas
+- FA2023 CS511 - Advanced Data Management Course Info Canvas
+- FA2022 CS511 - Advanced Data Management Course Info Canvas
+- FA2021 CS411 - Database Systems Course Info
+- SP2021 CS511 - Advanced Data Management Course Info
+-
+RESEARCH
+I build systems for data-intensive AI. I also study a few core database topics.
+Kishu: Managing Exploratory AI
+Kishu achieves World’s First Undoable Jupyter with reliable/efficient checkpointing
+✏️ Publications: [DEEM’23] [VLDB’24] [SIGMOD’24 demo] [VLDB’25] [CHI’25] [CHI’25 short] [SIGMOD’25 demo]
+🚀 Kishu is now open-sourced on GitHub
+Kishuboard: offers Git-like versioning in the code+data space.
+CARE: Efficient Reasoning with (Un)structured Data
+The CARE (CAusal-RElational data system) project develops a scalable system for reasoning with structured and unstructured data with end-to-end optimization:
+- LLM/RAG inference
+- Vector Database
+- In-Storage Computing: [ISCA'25]
+Core database topics
+- AirDB aims to allow transactions directly on storage layer (without servers).
+- AirIndex optimizes the structures of indexes automatically, considering system performance like latency, bandwidth, etc. [SIGMOD’24]
+- DeepOLA aims to offer progressive analytics (or Online Aggregation) to continuous data exploration frequently observed with Pandas-like libraries. [SIGMOD’23]
+-
+ADVISING
+These are amazing students I am working with.
+PhD Students:
+- Billy Li (2021-Present)
+- Dohyun Park (2023-Present)
+- Xinying Zheng (2023-Present, with Indy Gupta)
+- Haocheng Xia (2024-Present)
+- Yunqi Li (2025-Present)
+MS Students:
+- Talika Gupta (2024-Present)
+- Richard Zhao (2025-Present)
+- Arjun Sivaraman (2025-Present)
+- Havya Karuturi (2025-Present)
+- Jahnavi Juluri (2025-Present)
+- Sejun Park (2025-Present)
+- David Zhu (2025-Present)
+Graduated:
+- Supawit Chockchowwat (2020-25 -> Postdoc@Google, 2025-26 -> Asst. Prof at CMKL in Thailand, 2026)
+- Hanxi Fang (2023-Present -> Amazon)
+- Raunak Shah (2023-Present -> Adobe)
+- Shunning Zhang (2023-Present -> Meta)
+- Arthur Huang (2023-Present)
+- Nikhil Sheoran (MS 2022-23 -> Databricks)
+For undergraduates, see this research group website.
+Prospective PhD Students: Every year, I recruit one or two new PhD students. If you are interested in working with me, please indicate in your application or send me an email (to my Illinois address).
+These are some helpful articles I wrote:
+UIUC Undergrads: Every semester, I plan to advise a few students (and more during summer). If you are interested, please send me an email.
+Prospective Master’s Students: In general, I prioritize supporting PhD students. However, I may support a few exceptional MS students with RA. (Almost all) MS students are supported with TA by the department.

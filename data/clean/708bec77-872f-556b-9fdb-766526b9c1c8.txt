@@ -1,0 +1,30 @@
+ERNIE (Enhanced Research Network Informatics Environment) originates from a thought experiment (Williams et al. Cell 163:21-23, 2015) that we subsequently developed into a knowledge resource for research assessment. Emphasis is placed on the use of Open Source technologies
+The ERNIE project terminated on Sep 29, 2020. ERNIE's code is still available from our Github site. Various ERNIE members have forked the codebase so new manifestations of the concept may emerge. We thank NIDA, NIH for funding us, and Elsevier for its collaboration.
+A reincarnation of sorts has begun effective May 20, 2020 and can be found at ERNIE_Plus. Emphasis is placed on using bibliographic data in the public domain while referencing commercial sources when available. NETE Solutions is no longer acively supporting the ERNIE project. In fact, NETE Solutions has been acquired by NTT DATA.
+From one perspective, ERNIE is a data platform that enables the discovery and analysis of collaborative research networks that underlie scientific innovations that impact society and individual health. From another, ERNIE aggregates diverse data for discovery and enables multidimensional measurements of research achievements.
+The platform is designed and developed by NETELabs, an experimental research unit within NET ESolutions Corporation (NETE). ERNIE is funded in part by a Fast Track Small Business Innovative Research award from the National Institute on Drug Abuse, National Institutes of Health, US Department of Health and Human Services. Phase I was completed in Feb, 2018. Phase II commenced on Sept 30, 2018 and is focused on building a user community and 'productionizing' the platform.
+Data in ERNIE are from both publicly available and commercial sources. Server infrastructure, custom ETL processes, and data curation workflows are in place. In its first phase of development, ERNIE was tested in case studies spanning drug development, medical devices/diagnostics, behavioral interventions, and solutions for drug discovery. These case studies focused on substance abuse and relied on our core workflow consisting of data mining, linking, and network analysis.An important event in 2019 was formalizing a partnering agreement with Elsevier, which resulted in transition of ERNIE's bibliographic backbone from the Web of Science to Scopus. Similarly for patents, we now use IPDD from Lexis-Nexis instead of the Derwent Patent Citation Index, which we previously used.
+The project philosophy is an amalgam of academic-style research and industry-style development by a multidisciplinary team embracing agile practices. Diversity in training and life experience is a feature of this group and we believe that it plays a significant and positive role in the way we operate. Data Engineers (DEs), the frontline employees in our group, are typically just out of a Master's degree and are hired on short term contracts. They are expected to become rapidly productive after joining the team, contribute substantially during their tenure, and then find employment elsewhere with substantially increased material benefits (below).
+Our DEs have come from various schools including the University of Southern California, University of Virginia, University of Maryland, University of California Berkeley, Institut d'Étude Politiques de Paris (Sciences Po), University of Massachusetts Lowell, College of William and Mary, and Columbia University. They have diverse educational backgrounds: systems engineering, mathematics, computer science, business analytics, industrial engineering, and philosophy.
+The two senior data architects who have contributed to this project over twenty years of industrial experience each at IBM, Price Waterhouse Cooper, OpenText, Capital One, and were trained at Peking University and Moscow State University respectively. The project leader has a background in biochemistry, immunology, peer review and program administration at The Ohio State University, Washington University School of Medicine, and NIH.
+Members of the ERNIE team (present and past) are listed below with their current affiliations along with others who contributed in various measures to development and implementation of the concept.
+- Shreya Chandrasekharan (Microsoft)
+- Wenxi Zhao (TaskRabbit)
+- Djamil Lakhdar-Hamina (RDCT)
+- Sitaram Devarakonda (Vanguard)
+- Siyu Liu (Ant Group)
+- Hardik Furia ()
+- Avon Davey (Glaxo Smith Kline)
+- Akshat Maltare (Vheda Inc)
+- Samet Keserci (Amazon Research)
+- Lingtian, Lindsay, Wan (Facebook/Meta)
+- Dmitriy Korobskiy (NTT DATA)
+- Shixin Jiang (Capital One)
+- Haley LaVoo (NTT DATA)
+- Japjeev Kohli ()
+- Michelle Ryan (NTT DATA)
+- George Chacko (Univ of Illinois)
+- Jim Bradley, Coll. of William and Mary, VA
+- Alex Pico, Gladstone Institutes, San Francisco, CA
+- Tandy Warnow, Univ. of Illinois Urbana-Champaign, IL
+We thank the Program staff at NIDA for constructive critique and advice. This web page was designed by Haley LaVoo at NETE.
