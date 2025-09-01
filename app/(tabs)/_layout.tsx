@@ -25,7 +25,6 @@ export default function TabLayout() {
         tabBarLabelStyle: { fontSize: 11, fontWeight: '600' },
       }}
     >
-      {/* 1) Home */}
       <Tabs.Screen
         name="home"
         options={{
@@ -34,7 +33,6 @@ export default function TabLayout() {
         }}
       />
 
-      {/* 2) Explore */}
       <Tabs.Screen
         name="ExploreScreen"
         options={{
@@ -43,16 +41,14 @@ export default function TabLayout() {
         }}
       />
 
-      {/* 3) Saved */}
       <Tabs.Screen
-        name="Saved" // or rename to "saved/index" later
+        name="Saved" 
         options={{
           title: 'Saved',
           tabBarIcon: ({ color }) => <IconSymbol size={22} name="heart.fill" color={color} />,
         }}
       />
 
-      {/* 4) Profile */}
       <Tabs.Screen
         name="Profile" 
         options={{
@@ -61,7 +57,6 @@ export default function TabLayout() {
         }}
       />
 
-      {/* --- Hide the rest from the tab bar --- */}
       <Tabs.Screen name="index" options={{ href: null , tabBarStyle: {display: 'none'}}} />
       <Tabs.Screen name="Interests" options={{ href: null }} />
       <Tabs.Screen name="ProfileWelcome" options={{ href: null }} />

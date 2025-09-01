@@ -173,7 +173,6 @@ const styles = StyleSheet.create({
     padding: 22,
     borderWidth: 1,
     borderColor: COLORS.glassStroke,
-    // subtle depth
     shadowColor: '#000',
     shadowOpacity: 0.22,
     shadowRadius: 24,

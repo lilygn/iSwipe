@@ -1,4 +1,3 @@
-// app/profile.jsx (or .tsx)
 import React from "react";
 import { SafeAreaView, ScrollView, View, Text, StyleSheet } from "react-native";
 import Header from "../Profile/ProfileHeader";

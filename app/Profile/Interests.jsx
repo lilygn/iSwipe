@@ -52,9 +52,9 @@ export default function Interests({ setInterests }) {
       pathname: 'home',
       params: { filteredRSOs: JSON.stringify(filtered) }, 
     });
-    setFilteredRSOs([]); // Clear filtered RSOs after navigation
-    setTags([]); // Clear tags after generating cards
-    setInput(''); // Reset input field
+    setFilteredRSOs([]); 
+    setTags([]); 
+    setInput(''); 
 
   };
    

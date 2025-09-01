@@ -7,7 +7,6 @@ require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-// Accept headers to avoid 406 errors
 const AXIOS_HEADERS = {
   headers: {
     'User-Agent':

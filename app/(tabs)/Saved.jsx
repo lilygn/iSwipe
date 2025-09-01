@@ -1,4 +1,3 @@
-// Professors.jsx
 import React, { useCallback, useContext, useMemo, useRef, useState } from "react";
 import {
   Animated,
@@ -267,7 +266,6 @@ export default function SavedScreen() {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.page }}>
       <View style={styles.container}>
-        {/* Header */}
         <View style={styles.header}>
           <View style={styles.headerLeft}>
             <Text style={styles.title}>Saved</Text>
@@ -291,7 +289,6 @@ export default function SavedScreen() {
           </TouchableOpacity>
         </View>
 
-        {/* Lists */}
         {mode === "profs" ? (
           <SavedProfList
             items={savedProfs}
@@ -316,7 +313,6 @@ export default function SavedScreen() {
   );
 }
 
-/* ---------- Styles ---------- */
 const COLORS = {
   page: "#F6F7FB",
   card: "#FFFFFF",
@@ -335,7 +331,6 @@ const COLORS = {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: COLORS.page },
 
-  /* Header */
   header: {
     paddingHorizontal: 16,
     paddingTop: 14,
@@ -357,7 +352,6 @@ const styles = StyleSheet.create({
   },
   countText: { color: "#4F46E5", fontWeight: "700", fontSize: 12 },
 
-  /* Segmented toggle */
   segmentWrap: {
     flexDirection: "row",
     backgroundColor: COLORS.segBg,
@@ -382,7 +376,6 @@ const styles = StyleSheet.create({
   segmentText: { fontSize: 12, fontWeight: "700", color: COLORS.sub },
   segmentTextActive: { color: COLORS.text },
 
-  /* Clear button */
   clear: {
     flexDirection: "row",
     alignItems: "center",
@@ -396,7 +389,6 @@ const styles = StyleSheet.create({
   },
   clearText: { color: "#dc2626", fontWeight: "700", fontSize: 12, letterSpacing: 0.2 },
 
-  /* Item card */
   item: {
     backgroundColor: COLORS.card,
     borderRadius: 18,
@@ -426,7 +418,6 @@ const styles = StyleSheet.create({
   sub: { marginTop: 3, fontSize: 13, color: COLORS.sub },
   link: { marginTop: 4, fontSize: 12, color: COLORS.link },
 
-  /* Remove button */
   removeBtn: {
     width: 36,
     height: 36,

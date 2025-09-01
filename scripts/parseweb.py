@@ -9,10 +9,8 @@ import requests
 from bs4 import BeautifulSoup
 from trafilatura import extract as t_extract
 
-# ----------------------------
-# Config & Paths
-# ----------------------------
-BASE = Path(__file__).resolve().parent.parent  # project root (one level up from /scripts)
+
+BASE = Path(__file__).resolve().parent.parent  
 RAW_DIR   = BASE / "data" / "raw"
 CLEAN_DIR = BASE / "data" / "clean"
 META_DIR  = BASE / "data" / "meta"
@@ -30,9 +28,7 @@ NAMESPACE = uuid.UUID("5c2e8f4b-5d6b-4f2e-9a0a-1d8e9c2a1234")
 
 MIN_CLEAN_LEN = 350
 
-# ----------------------------
-# Helpers
-# ----------------------------
+
 def log(line: str, path: Path):
     with path.open("a", encoding="utf-8") as f:
         f.write(line.rstrip() + "\n")
@@ -64,9 +60,7 @@ def prefer_https(url: str) -> str:
     return url
 
 
-# ----------------------------
-# Fetch → Save raw HTML
-# ----------------------------
+
 def fetch_html(prof_id: str, url: str, timeout: int = 20) -> str | None:
     """Return HTML text or None; never raise. Saves raw HTML if successful."""
     primary = prefer_https(url)
@@ -86,9 +80,7 @@ def fetch_html(prof_id: str, url: str, timeout: int = 20) -> str | None:
     return None
 
 
-# ----------------------------
-# Clean raw HTML → readable text
-# ----------------------------
+
 def clean_data(html: str) -> str:
     """
     Use trafilatura first (no links/images). If short/empty, fallback with BS4:

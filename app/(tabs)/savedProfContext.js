@@ -12,15 +12,12 @@ import React, {
   
   export const SavedProfsContext = createContext(null);
   
-  // Normalize an id for any professor-shaped object
   const normalizeId = (x) =>
     String(x?.id ?? x?.profileUrl ?? x?.link ?? x?.name ?? "");
   
-  /** Provider */
   export function SavedProfsProvider({ children }) {
     const [savedProfs, setSavedProfs] = useState([]);
   
-    // Load once
     useEffect(() => {
       (async () => {
         try {
@@ -32,7 +29,6 @@ import React, {
       })();
     }, []);
   
-    // Persist on change
     useEffect(() => {
       AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(savedProfs)).catch(() => {});
     }, [savedProfs]);
@@ -50,7 +46,6 @@ import React, {
       if (!id) return;
   
       setSavedProfs((prev) => {
-        // avoid duplicates
         if (prev.some((p) => normalizeId(p) === id)) return prev;
         const normalized = { ...prof, id };
         return [...prev, normalized];

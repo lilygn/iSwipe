@@ -1,4 +1,3 @@
-# retrieve.py
 from typing import List
 from fastapi import FastAPI, Body
 from fastapi.middleware.cors import CORSMiddleware

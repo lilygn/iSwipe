@@ -59,7 +59,6 @@ export default function ProfileWelcome({ filteredProfessors }) {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* Top bar with back button (glass-like) */}
       <View style={styles.topBar}>
         <Pressable
           onPress={() => router.back()}
@@ -71,13 +70,11 @@ export default function ProfileWelcome({ filteredProfessors }) {
           <FontAwesome name="chevron-left" size={16} color={COLORS.text} />
         </Pressable>
         <Text style={styles.topTitle} numberOfLines={1}>Research Interests</Text>
-        {/* spacer to balance layout */}
         <View style={{ width: 40 }} />
       </View>
 
       <Animated.View style={[styles.heroWrap, { opacity: fadeAnim }]}>
         <View style={styles.card}>
-          {/* subtle inner highlight ring */}
           <View style={styles.innerRing} pointerEvents="none" />
 
           <Text style={styles.welcomeText}>{question}</Text>
@@ -95,7 +92,6 @@ export default function ProfileWelcome({ filteredProfessors }) {
               returnKeyType="send"
               onSubmitEditing={handleSubmit}
             />
-            {/* tiny sheen */}
             <View style={styles.inputSheen} pointerEvents="none" />
           </View>
 
@@ -127,7 +123,6 @@ export default function ProfileWelcome({ filteredProfessors }) {
   );
 }
 
-/* ===== Palette ===== */
 const COLORS = {
   page: '#0B0F14',
   glass: 'rgba(255,255,255,0.08)',
@@ -158,7 +153,6 @@ const SHADOWS = {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: COLORS.page },
 
-  /* --- Top bar --- */
   topBar: {
     height: 56,
     marginHorizontal: 12,
@@ -181,7 +175,6 @@ const styles = StyleSheet.create({
   backBtnPressed: { opacity: 0.85, transform: [{ translateY: 1 }] },
   topTitle: { color: COLORS.text, fontWeight: '800', fontSize: 16, letterSpacing: 0.2 },
 
-  /* --- Body --- */
   heroWrap: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 20 },
   card: {
     width: '90%',

@@ -10,7 +10,6 @@ export default function Header({
   leftIcon = "chevron-left",
   rightIcon = "settings",
 }) {
-  // shimmer sweep (opacity + translateX)
   const sweep = useRef(new Animated.Value(0)).current;
   useEffect(() => {
     Animated.loop(
@@ -19,24 +18,19 @@ export default function Header({
   }, [sweep]);
   const translateX = sweep.interpolate({ inputRange: [0, 1], outputRange: [-110, 110] });
 
-  // underline uses scaleX (native-driver friendly)
   const scale = sweep.interpolate({ inputRange: [0, 1], outputRange: [0.6, 1.0] });
 
   return (
     <SafeAreaView style={s.safe}>
-      {/* Header container */}
       <Animatable.View animation="fadeInDown" duration={360} useNativeDriver>
         <View style={s.glass}>
-          {/* subtle inner ring */}
           <View pointerEvents="none" style={s.innerRing} />
 
-          {/* diagonal sheen */}
           <Animated.View
             pointerEvents="none"
             style={[s.sheen, { transform: [{ translateX }] }]}
           />
 
-          {/* left */}
           <View style={s.side}>
             <TouchableOpacity
               onPress={onLeftPress}
@@ -49,7 +43,6 @@ export default function Header({
             </TouchableOpacity>
           </View>
 
-          {/* center */}
           <View style={s.center}>
             <Text numberOfLines={1} style={s.title}>{title}</Text>
             <View style={s.underlineTrack}>
@@ -57,7 +50,6 @@ export default function Header({
             </View>
           </View>
 
-          {/* right */}
           <View style={[s.side, { alignItems: "flex-end" }]}>
             <TouchableOpacity
               onPress={onRightPress}

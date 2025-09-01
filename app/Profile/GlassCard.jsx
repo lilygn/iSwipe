@@ -1,4 +1,3 @@
-// app/Profile/GlassCard.jsx
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Platform } from "react-native";
 import { Feather } from "@expo/vector-icons";
@@ -8,7 +7,7 @@ export default function GlassCard({
   helper,
   onPress,
   icon = "sliders",
-  tone = "lilac",        // 'lilac' | 'cyan'
+  tone = "lilac",        
   disabled = false,
   style,
 }) {
@@ -23,7 +22,6 @@ export default function GlassCard({
         style={[s.cta, { borderColor: T.border }]}
         accessibilityRole="button"
       >
-        {/* subtle sweep */}
         <View style={[s.sheen, { backgroundColor: T.sheen }]} />
         <View style={s.iconCapsule}>
           <Feather name={icon} size={16} color="#EAF0FF" />

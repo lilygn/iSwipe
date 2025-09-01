@@ -1,8 +1,3 @@
-# parseprof.py
-# Scrape Siebel School research areas -> faculty -> profile enrichment.
-# Run directly:  python parseprof.py
-# Optional HTTP: uncomment app.run() at bottom and GET /scrape_all
-
 from __future__ import annotations
 from langchain.docstore.document import Document
 from langchain.vectorstores import FAISS
@@ -25,7 +20,6 @@ key = os.getenv("OPENAI_API_KEY")
 
 
 
-# ====== Embedded area links (extend if you add more) ======
 AREAS: List[Dict[str, str]] = [
     {"area": "Architecture, Compilers, and Parallel Computing", "url": "https://siebelschool.illinois.edu/research/areas/architecture-compilers-and-parallel-computing"},
     {"area": "Artificial Intelligence", "url": "https://siebelschool.illinois.edu/research/areas/artificial-intelligence"},
@@ -86,7 +80,6 @@ def parse_faculty_from_area(html: str, base_url: str) -> List[Dict[str, Any]]:
             continue
         seen.add(profile)
 
-        # teaser/short interests (paragraph near the heading)
         teaser = ""
         h = a.find_parent(["h2", "h3"])
         if h and h.find_next_sibling("p"):
@@ -335,5 +328,4 @@ if __name__ == "__main__":
     data = run_full_scrape(enrich=True)
     path = save_json(data, "professors_updated.json")
     print(f"Saved → {path}  (faculty: {len(data['faculty'])})")
-    # To also serve an API, uncomment:
-    # app.run(port=5000, debug=True)
+    

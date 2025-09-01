@@ -12,17 +12,14 @@ export default function RSOCard({ name, description, website, instagram }) {
 
   return (
     <View style={styles.card}>
-      {/* Title box */}
       <View style={styles.titleContainer}>
         <Text style={styles.title}>{name}</Text>
       </View>
 
-      {/* Description */}
       <View style={styles.descriptionContainer}>
         <Text style={styles.description}>{description}</Text>
       </View>
 
-      {/* Links */}
       {instagram  && (
         <TouchableOpacity style={styles.linkButton} onPress={() => handlePress(instagram)}>
           <Text style={styles.linkButtonText}>Visit Instagram</Text>
