@@ -100,26 +100,3 @@ def generate_cards(tags: Dict[str, Any] = Body(...)):
     working["score"] /= max(len(interests), 1)
     top = working.nlargest(5, "score")
     return top.to_dict(orient="records")
-
-@app.post("/warmup-rso-embeddings")
-def warmup_rso_embeddings():
-    if df.empty:
-        raise HTTPException(500, "RSO dataset not available")
-    working = df.copy()
-    changed = False
-    for i, row in working.iterrows():
-        if isinstance(row.get("embedding"), list):
-            continue
-        name = row.get("name", "")
-        desc = row.get("description", "")
-        text = f"{name} | {desc}".strip()
-        try:
-            emb = get_embedding(text)
-            working.at[i, "embedding"] = list(emb)
-            changed = True
-            time.sleep(0.15)
-        except Exception as e:
-            print(f"Failed on row {i}: {e}")
-    if changed:
-        working.to_json(RSO_JSON, orient="records", indent=2)
-    return {"ok": True, "updated": bool(changed)}
