@@ -4,7 +4,7 @@ pandas
 numpy
 scikit-learn
 faiss-cpu
-langchain==0.2.11
-langchain-openai==0.1.7
+langchain-community
 openai==1.43.0
+httpx>=0.27.0
 python-dotenv

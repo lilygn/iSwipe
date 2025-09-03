@@ -1,24 +1,41 @@
 from __future__ import annotations
-from langchain.docstore.document import Document
-from langchain.vectorstores import FAISS
-from langchain.embeddings.openai import OpenAIEmbeddings
-from flask import Flask, jsonify
 
-from bs4 import BeautifulSoup
+import os
+import re
+import json
+import time
+from typing import List, Dict, Any
 from urllib.parse import urljoin
 from datetime import datetime
+from pathlib import Path
+
+import dotenv
 import requests
-import json
-import os
-import time
-import re
-from typing import List, Dict, Any
-import dotenv 
+from bs4 import BeautifulSoup
+
+import numpy as np
+import httpx
+from openai import OpenAI
+
+from langchain.docstore.document import Document
+from langchain_community.vectorstores import FAISS
+
 dotenv.load_dotenv()
-embeddings = OpenAIEmbeddings()
-key = os.getenv("OPENAI_API_KEY")
 
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise RuntimeError("OPENAI_API_KEY not set")
 
+for k in ("HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy", "ALL_PROXY", "all_proxy"):
+    os.environ.pop(k, None)
+
+EMBED_MODEL = "text-embedding-3-small"
+BATCH = int(os.getenv("EMBED_BATCH", "100"))
+
+HEADERS = {
+    "User-Agent": "UIUC-CS-Research-Scraper/1.0 (student project; contact: you@illinois.edu)",
+    "Accept": "text/html,application/xhtml+xml",
+}
 
 AREAS: List[Dict[str, str]] = [
     {"area": "Architecture, Compilers, and Parallel Computing", "url": "https://siebelschool.illinois.edu/research/areas/architecture-compilers-and-parallel-computing"},
@@ -34,23 +51,15 @@ AREAS: List[Dict[str, str]] = [
     {"area": "Theory and Algorithms", "url": "https://siebelschool.illinois.edu/research/areas/theory-and-algorithms"},
 ]
 
-HEADERS = {
-    "User-Agent": "UIUC-CS-Research-Scraper/1.0 (student project; contact: you@illinois.edu)",
-    "Accept": "text/html,application/xhtml+xml",
-}
-
+EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
 def fetch_html(url: str, timeout: int = 20) -> str:
     r = requests.get(url, headers=HEADERS, timeout=timeout)
     r.raise_for_status()
     return r.text
 
-
 def parse_faculty_from_area(html: str, base_url: str) -> List[Dict[str, Any]]:
-    """
-    Extract faculty cards from an area page.
-    Returns list of {name, profileUrl, teaser?, image?}.
-    """
+    """Extract faculty cards from an area page. Returns list of dicts."""
     soup = BeautifulSoup(html, "html.parser")
     out: List[Dict[str, Any]] = []
     seen = set()
@@ -58,16 +67,13 @@ def parse_faculty_from_area(html: str, base_url: str) -> List[Dict[str, Any]]:
     cards = []
     cards += soup.select(".views-row")
     cards += soup.select(".card")
-
     if not cards:
         for h in soup.select("h3, h2"):
             if h.parent not in cards:
                 cards.append(h.parent)
 
     for c in cards:
-        a = (c.select_one("h3 a") or
-             c.select_one("h2 a") or
-             c.select_one("a[href*='/people/']"))
+        a = (c.select_one("h3 a") or c.select_one("h2 a") or c.select_one("a[href*='/people/']"))
         if not a:
             continue
         name = (a.get_text() or "").strip()
@@ -92,12 +98,7 @@ def parse_faculty_from_area(html: str, base_url: str) -> List[Dict[str, Any]]:
         img = c.select_one("img")
         image = urljoin(base_url, img["src"]) if img and img.get("src") else None
 
-        out.append({
-            "name": name,
-            "profileUrl": profile,
-            "teaser": teaser,
-            "image": image
-        })
+        out.append({"name": name, "profileUrl": profile, "teaser": teaser, "image": image})
 
     if not out:
         for a in soup.select("a[href*='/people/']"):
@@ -112,14 +113,8 @@ def parse_faculty_from_area(html: str, base_url: str) -> List[Dict[str, Any]]:
 
     return out
 
-
-EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
-
 def enrich_from_profile(profile_html: str) -> Dict[str, Any]:
-    """
-    Extract title, email, office/location, lab website(s), interests/tags, and image.
-    Matches the 'For More Information' section seen on many profiles.
-    """
+    """Extract title, email, office, interests, image, website(s)."""
     soup = BeautifulSoup(profile_html, "html.parser")
     out: Dict[str, Any] = {}
 
@@ -136,8 +131,7 @@ def enrich_from_profile(profile_html: str) -> Dict[str, Any]:
         for sel in (".profile-title", ".field--name-field-title"):
             node = soup.select_one(sel)
             if node and node.get_text(strip=True):
-                title = node.get_text(strip=True)
-                break
+                title = node.get_text(strip=True); break
     if title:
         out["title"] = title
 
@@ -158,8 +152,7 @@ def enrich_from_profile(profile_html: str) -> Dict[str, Any]:
         for sel in (".field--name-field-office", ".profile-office"):
             node = soup.select_one(sel)
             if node:
-                office = node.get_text(strip=True)
-                break
+                office = node.get_text(strip=True); break
     if office:
         out["office"] = office
 
@@ -177,7 +170,6 @@ def enrich_from_profile(profile_html: str) -> Dict[str, Any]:
                     if href:
                         lab_links.append({"label": label, "url": href})
             break
-
     if lab_links:
         external = [l for l in lab_links if l["url"].startswith("http") and "illinois.edu" not in l["url"]]
         primary = external[0]["url"] if external else lab_links[0]["url"]
@@ -186,17 +178,11 @@ def enrich_from_profile(profile_html: str) -> Dict[str, Any]:
         out["isLabSite"] = bool(external) or ("lab" in primary.lower())
 
     tags = set()
-    for sel in (
-        ".tags a",
-        ".field--name-field-research-areas a",
-        ".research-areas a",
-        ".field--name-field-keywords a",
-    ):
+    for sel in (".tags a", ".field--name-field-research-areas a", ".research-areas a", ".field--name-field-keywords a"):
         for a in soup.select(sel):
             t = a.get_text(strip=True)
             if t:
                 tags.add(t)
-
     if not tags:
         for hdr in soup.select("h2, h3"):
             if "interest" in (hdr.get_text() or "").lower():
@@ -215,12 +201,35 @@ def enrich_from_profile(profile_html: str) -> Dict[str, Any]:
 
     return out
 
+class DirectEmbeddings:
+    def _embed_batch(self, texts: List[str]) -> List[List[float]]:
+        clean = [(i, (t or "").replace("\n", " ").strip()) for i, t in enumerate(texts)]
+        idxs_payload = [(i, t) for i, t in clean if t]
+        if not idxs_payload:
+            return [[] for _ in texts]
+
+        idxs, payload = zip(*idxs_payload)
+        out: List[List[float]] = [[] for _ in texts]
+
+        # batched calls
+        for s in range(0, len(payload), BATCH):
+            chunk = payload[s : s + BATCH]
+            with httpx.Client(timeout=60) as hc:
+                resp = OpenAI(api_key=OPENAI_API_KEY, http_client=hc).embeddings.create(
+                    model=EMBED_MODEL, input=list(chunk)
+                )
+            for j, item in enumerate(resp.data):
+                out[idxs[s + j]] = item.embedding
+        return out
+
+    def embed_query(self, text: str) -> List[float]:
+        return self._embed_batch([text])[0]
+
+    def embed_documents(self, texts: List[str]) -> List[List[float]]:
+        return self._embed_batch(texts)
 
 def run_full_scrape(enrich: bool = True) -> Dict[str, Any]:
-    """
-    Scrape all embedded AREAS -> list pages -> profile enrichment (optional).
-    Returns combined payload with per-area results and a deduped faculty list.
-    """
+    """Scrape all AREAS, optionally enrich profiles, and return combined payload."""
     areas_out: List[Dict[str, Any]] = []
     faculty_index: Dict[str, Dict[str, Any]] = {}
 
@@ -233,7 +242,7 @@ def run_full_scrape(enrich: bool = True) -> Dict[str, Any]:
             if enrich and faculty:
                 enriched = []
                 for f in faculty:
-                    time.sleep(0.12)  
+                    time.sleep(0.12)  # be nice to the site
                     try:
                         prof_html = fetch_html(f["profileUrl"])
                         extra = enrich_from_profile(prof_html)
@@ -242,15 +251,9 @@ def run_full_scrape(enrich: bool = True) -> Dict[str, Any]:
                         enriched.append({**f, "enrichError": str(e)})
                 faculty = enriched
 
-            areas_out.append({
-                "area": area,
-                "url": url,
-                "count": len(faculty),
-                "faculty": faculty
-            })
+            areas_out.append({"area": area, "url": url, "count": len(faculty), "faculty": faculty})
 
             for f in faculty:
-                print(f)
                 key = (f.get("profileUrl") or f.get("name", "")).lower()
                 if not key:
                     continue
@@ -266,7 +269,9 @@ def run_full_scrape(enrich: bool = True) -> Dict[str, Any]:
             areas_out.append({"area": area, "url": url, "error": str(e)})
 
     faculty_list = []
-    docs = []
+    docs_texts: List[str] = []
+    docs_meta: List[Dict[str, Any]] = []
+
     for f in faculty_index.values():
         parts = [
             f.get("name") or "",
@@ -281,28 +286,27 @@ def run_full_scrape(enrich: bool = True) -> Dict[str, Any]:
         content = " | ".join([p for p in parts if p])
         f["content"] = content
         faculty_list.append(f)
-        docs.append(Document(
-            page_content=content,
-            metadata= {
-                "name": f.get("name"),
-                "profileUrl": f.get("profileUrl"),
-                "title": f.get("title"),
-                "email": f.get("email"),
-                "office": f.get("office"),
-                "website": f.get("website"),
-                "areas": f.get("areas", []),
-                "teaser": f.get("teaser"),
-                "image": f.get("image"),
-                "isLabSite": f.get("isLabSite", False),
-                "moreLinks": f.get("moreLinks", []),
-                "interests": f.get("interests", []),
-            }
-        )
 
-        )
-    vectorstore = FAISS.from_documents(docs, embeddings)
+        docs_texts.append(content)
+        docs_meta.append({
+            "name": f.get("name"),
+            "profileUrl": f.get("profileUrl"),
+            "title": f.get("title"),
+            "email": f.get("email"),
+            "office": f.get("office"),
+            "website": f.get("website"),
+            "areas": f.get("areas", []),
+            "teaser": f.get("teaser"),
+            "image": f.get("image"),
+            "isLabSite": f.get("isLabSite", False),
+            "moreLinks": f.get("moreLinks", []),
+            "interests": f.get("interests", []),
+        })
+
+    # build + save FAISS with our direct adapter
+    embeddings = DirectEmbeddings()
+    vectorstore = FAISS.from_texts(docs_texts, embeddings, metadatas=docs_meta)
     vectorstore.save_local("faculty_faiss_index")
-
 
     payload = {
         "scrapedAt": datetime.utcnow().isoformat() + "Z",
@@ -312,20 +316,12 @@ def run_full_scrape(enrich: bool = True) -> Dict[str, Any]:
     return payload
 
 def save_json(payload: Dict[str, Any], filename: str = "professors.json") -> str:
-    out_path = os.path.join(os.path.dirname(__file__), filename)
+    out_path = Path(__file__).parent / filename
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
-    return out_path
-
-
-def scrape_all_route():
-    data = run_full_scrape(enrich=True)
-    path = save_json(data, "professors.json")
-    return jsonify({"saved": path, **data})
-
+    return str(out_path)
 
 if __name__ == "__main__":
     data = run_full_scrape(enrich=True)
     path = save_json(data, "professors_updated.json")
-    print(f"Saved → {path}  (faculty: {len(data['faculty'])})")
-    
+    print(f"Saved → {path}  (faculty: {len(data['faculty'])})  |  FAISS: ./faculty_faiss_index")
