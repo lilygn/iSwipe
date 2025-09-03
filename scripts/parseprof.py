@@ -6,18 +6,17 @@ import json
 import time
 from typing import List, Dict, Any
 from urllib.parse import urljoin
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 import dotenv
 import requests
 from bs4 import BeautifulSoup
 
-import numpy as np
 import httpx
 from openai import OpenAI
 
-from langchain.docstore.document import Document
+from langchain_core.embeddings import Embeddings
 from langchain_community.vectorstores import FAISS
 
 dotenv.load_dotenv()
@@ -26,14 +25,22 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY:
     raise RuntimeError("OPENAI_API_KEY not set")
 
+# defensively clear proxy envs that triggered earlier client errors
 for k in ("HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy", "ALL_PROXY", "all_proxy"):
     os.environ.pop(k, None)
 
 EMBED_MODEL = "text-embedding-3-small"
 BATCH = int(os.getenv("EMBED_BATCH", "100"))
+MAX_DOCS = int(os.getenv("MAX_DOCS", "0"))  # 0 = no cap
 
+# Use a common browser UA to avoid blocks; keep contact for good practice.
 HEADERS = {
-    "User-Agent": "UIUC-CS-Research-Scraper/1.0 (student project; contact: you@illinois.edu)",
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0_0) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/117.0 Safari/537.36 "
+        "UIUC-CS-Research-Scraper/1.0 (student project)"
+    ),
     "Accept": "text/html,application/xhtml+xml",
 }
 
@@ -53,10 +60,22 @@ AREAS: List[Dict[str, str]] = [
 
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
+# A small session with headers and simple retry
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
+
 def fetch_html(url: str, timeout: int = 20) -> str:
-    r = requests.get(url, headers=HEADERS, timeout=timeout)
-    r.raise_for_status()
-    return r.text
+    last = None
+    for attempt in range(3):
+        try:
+            r = SESSION.get(url, timeout=timeout)
+            if r.status_code == 200:
+                return r.text
+            last = f"HTTP {r.status_code}"
+        except Exception as e:
+            last = str(e)
+        time.sleep(0.5)
+    raise RuntimeError(f"fetch_html failed for {url}: {last}")
 
 def parse_faculty_from_area(html: str, base_url: str) -> List[Dict[str, Any]]:
     """Extract faculty cards from an area page. Returns list of dicts."""
@@ -64,14 +83,31 @@ def parse_faculty_from_area(html: str, base_url: str) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     seen = set()
 
-    cards = []
-    cards += soup.select(".views-row")
-    cards += soup.select(".card")
+    # primary patterns used by site
+    cards = soup.select(".views-row") or soup.select(".card")
+
+    # if cards missing, try a very broad fallback: all /people/ links
     if not cards:
+        people = []
+        for a in soup.select("a[href*='/people/']"):
+            name = a.get_text(strip=True)
+            href = (a.get("href") or "").strip()
+            if not name or not href:
+                continue
+            profile = urljoin(base_url, href)
+            if profile in seen:
+                continue
+            seen.add(profile)
+            people.append({"name": name, "profileUrl": profile})
+        if people:
+            return people  # fallback success
+
+        # last-ditch: include h2/h3 parents just in case
         for h in soup.select("h3, h2"):
             if h.parent not in cards:
                 cards.append(h.parent)
 
+    # card parsing
     for c in cards:
         a = (c.select_one("h3 a") or c.select_one("h2 a") or c.select_one("a[href*='/people/']"))
         if not a:
@@ -100,12 +136,13 @@ def parse_faculty_from_area(html: str, base_url: str) -> List[Dict[str, Any]]:
 
         out.append({"name": name, "profileUrl": profile, "teaser": teaser, "image": image})
 
+    # If still nothing, broad fallback as above
     if not out:
         for a in soup.select("a[href*='/people/']"):
             name = a.get_text(strip=True)
             if not name:
                 continue
-            profile = urljoin(base_url, a["href"])
+            profile = urljoin(base_url, a.get("href") or "")
             if profile in seen:
                 continue
             seen.add(profile)
@@ -131,7 +168,8 @@ def enrich_from_profile(profile_html: str) -> Dict[str, Any]:
         for sel in (".profile-title", ".field--name-field-title"):
             node = soup.select_one(sel)
             if node and node.get_text(strip=True):
-                title = node.get_text(strip=True); break
+                title = node.get_text(strip=True)
+                break
     if title:
         out["title"] = title
 
@@ -152,7 +190,8 @@ def enrich_from_profile(profile_html: str) -> Dict[str, Any]:
         for sel in (".field--name-field-office", ".profile-office"):
             node = soup.select_one(sel)
             if node:
-                office = node.get_text(strip=True); break
+                office = node.get_text(strip=True)
+                break
     if office:
         out["office"] = office
 
@@ -201,7 +240,8 @@ def enrich_from_profile(profile_html: str) -> Dict[str, Any]:
 
     return out
 
-class DirectEmbeddings:
+class DirectEmbeddings(Embeddings):
+    """LangChain-compatible embeddings (batched, no global client)."""
     def _embed_batch(self, texts: List[str]) -> List[List[float]]:
         clean = [(i, (t or "").replace("\n", " ").strip()) for i, t in enumerate(texts)]
         idxs_payload = [(i, t) for i, t in clean if t]
@@ -211,7 +251,6 @@ class DirectEmbeddings:
         idxs, payload = zip(*idxs_payload)
         out: List[List[float]] = [[] for _ in texts]
 
-        # batched calls
         for s in range(0, len(payload), BATCH):
             chunk = payload[s : s + BATCH]
             with httpx.Client(timeout=60) as hc:
@@ -222,22 +261,27 @@ class DirectEmbeddings:
                 out[idxs[s + j]] = item.embedding
         return out
 
-    def embed_query(self, text: str) -> List[float]:
-        return self._embed_batch([text])[0]
-
     def embed_documents(self, texts: List[str]) -> List[List[float]]:
         return self._embed_batch(texts)
+
+    def embed_query(self, text: str) -> List[float]:
+        return self._embed_batch([text])[0]
 
 def run_full_scrape(enrich: bool = True) -> Dict[str, Any]:
     """Scrape all AREAS, optionally enrich profiles, and return combined payload."""
     areas_out: List[Dict[str, Any]] = []
     faculty_index: Dict[str, Dict[str, Any]] = {}
 
+    total_cards = 0
+
     for link in AREAS:
         url = link["url"]; area = link["area"]
+        print(f"[scrape] area: {area}  url: {url}")
         try:
             area_html = fetch_html(url)
             faculty = parse_faculty_from_area(area_html, url)
+            print(f"[scrape] parsed cards: {len(faculty)}")
+            total_cards += len(faculty)
 
             if enrich and faculty:
                 enriched = []
@@ -266,6 +310,7 @@ def run_full_scrape(enrich: bool = True) -> Dict[str, Any]:
                 faculty_index[key] = entry
 
         except Exception as e:
+            print(f"[scrape] ERROR in {area}: {e}")
             areas_out.append({"area": area, "url": url, "error": str(e)})
 
     faculty_list = []
@@ -286,7 +331,6 @@ def run_full_scrape(enrich: bool = True) -> Dict[str, Any]:
         content = " | ".join([p for p in parts if p])
         f["content"] = content
         faculty_list.append(f)
-
         docs_texts.append(content)
         docs_meta.append({
             "name": f.get("name"),
@@ -303,13 +347,24 @@ def run_full_scrape(enrich: bool = True) -> Dict[str, Any]:
             "interests": f.get("interests", []),
         })
 
+    print(f"[embed] docs_texts before cap: {len(docs_texts)} (cards scraped: {total_cards})")
+    if MAX_DOCS and len(docs_texts) > MAX_DOCS:
+        docs_texts = docs_texts[:MAX_DOCS]
+        docs_meta = docs_meta[:MAX_DOCS]
+        print(f"[embed] capped to MAX_DOCS={MAX_DOCS}")
+
+    if not docs_texts:
+        raise RuntimeError("No docs_texts produced. Selectors likely failed or site layout changed.")
+
     # build + save FAISS with our direct adapter
     embeddings = DirectEmbeddings()
     vectorstore = FAISS.from_texts(docs_texts, embeddings, metadatas=docs_meta)
-    vectorstore.save_local("faculty_faiss_index")
+    out_dir = (Path(__file__).resolve().parent / "faculty_faiss_index")
+    vectorstore.save_local(str(out_dir))
+    print(f"[embed] FAISS saved at: {out_dir}")
 
     payload = {
-        "scrapedAt": datetime.utcnow().isoformat() + "Z",
+        "scrapedAt": datetime.now(timezone.utc).isoformat(),
         "areas": areas_out,
         "faculty": faculty_list,
     }
