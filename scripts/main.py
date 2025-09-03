@@ -113,6 +113,7 @@ def _load_docs_from_json() -> list:
 @app.on_event("startup")
 def init_resources():
     global retriever, df
+
     if RSO_JSON.exists():
         try:
             df_local = pd.read_json(RSO_JSON)
@@ -126,14 +127,13 @@ def init_resources():
         print(f"[startup] RSO JSON not found at {RSO_JSON}")
         df = pd.DataFrame([])
 
-
     try:
         if FAISS_DIR.exists():
-            embeddings = _DirectOpenAIEmbeddings()
-            index = FAISS.load_local(str(FAISS_DIR), embeddings, allow_dangerous_deserialization=True)
-            retriever_local = index.as_retriever(search_type="similarity", search_kwargs={"k": 10})
-            retriever = retriever_local
-            globals()["retriever"] = retriever
+            emb = _DirectOpenAIEmbeddings()
+            index = FAISS.load_local(str(FAISS_DIR), emb, allow_dangerous_deserialization=True)
+            if not callable(getattr(index, "embedding_function", None)):
+                index.embedding_function = emb.embed_query
+            retriever = index.as_retriever(search_type="similarity", search_kwargs={"k": 10})
             print("[startup] FAISS index loaded from disk.")
             return
         else:
@@ -146,18 +146,17 @@ def init_resources():
         if not docs:
             print("[startup] No docs to index; retriever disabled.")
             retriever = None
-            globals()["retriever"] = retriever
             return
-        embeddings = _DirectOpenAIEmbeddings()
-        index = FAISS.from_documents(docs, embeddings)
+
+        emb = _DirectOpenAIEmbeddings()
+        index = FAISS.from_documents(docs, emb)
+        if not callable(getattr(index, "embedding_function", None)):
+            index.embedding_function = emb.embed_query
         index.save_local(str(FAISS_DIR))
-        retriever_local = index.as_retriever(search_type="similarity", search_kwargs={"k": 10})
-        retriever = retriever_local
-        globals()["retriever"] = retriever
+        retriever = index.as_retriever(search_type="similarity", search_kwargs={"k": 10})
         print("[startup] FAISS index built from JSON and saved.")
     except Exception as e:
         retriever = None
-        globals()["retriever"] = retriever
         print(f"[startup] Failed to build FAISS index: {e}")
 
 @app.get("/healthz")
@@ -206,7 +205,7 @@ def retrieve(payload: Dict[str, Any] = Body(...)) -> List[Dict[str, Any]]:
     try:
         results = []
         if retriever is not None:
-            docs = retriever.get_relevant_documents(q) or []
+            docs = retriever.invoke(q)
             for d in docs:
                 m = d.metadata or {}
                 results.append({
