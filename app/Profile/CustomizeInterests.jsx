@@ -12,19 +12,23 @@ export default function SelectInterests() {
         <Text style={s.sectionTitle}>Customize Your Interests</Text>
         <View style={s.sectionUnderline} />
         <GlassCard
-          title=""
-          ctaLabel="Customize Interests"
-          helper="Pick topics you care about so we can surface the most relevant RSOs and professors."
-          onPress={() => router.push("/Profile/Interests")}
-        />
-        <Text style={[s.sectionTitle, { marginTop: 28 }]}>Customize Your Research Interests</Text>
-        <View style={[s.sectionUnderline, { width: 220 }]} />
-        <GlassCard
-          title=""
-          ctaLabel="Customize Lab Interests"
-          helper="Pick topics you care about so we can surface the most relevant professors."
-          onPress={() => router.push("/Profile/ProfileWelcome")}
-        />
+  variant="aurora"
+  title="Recommendations"
+  ctaLabel="Customize Interests"
+  helper="Pick topics you care about so we can surface the most relevant RSOs and professors."
+  onPress={() => router.push("/Profile/Interests")}
+  leftIcon={<Text style={{ fontSize: 18 }}>✨</Text>}
+/>
+
+<GlassCard
+  variant="holo"
+  title="Research Focus"
+  ctaLabel="Customize Lab Interests"
+  helper="Pin down your research focus so we can surface the most relevant professors."
+  onPress={() => router.push("/Profile/ProfileWelcome")}
+  leftIcon={<Text style={{ fontSize: 18 }}>🔬</Text>}
+/>
+
       </ScrollView>
     </View>
   );

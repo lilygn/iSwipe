@@ -19,9 +19,13 @@
       "edgeToEdgeEnabled": true,
       "package": "com.lily.RSOSwiper",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "icon": "./assets/images/icon.png"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
     },
 
     "plugins": [

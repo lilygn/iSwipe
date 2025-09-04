@@ -56,6 +56,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={22} name="person.crop.circle.fill" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="logout" 
+        options={{
+          title: 'Logout',
+          tabBarIcon: ({ color }) => <IconSymbol size={22} name="arrowshape.turn.up.left.fill" color={color} />,
+        }}
+      />
 
       <Tabs.Screen name="index" options={{ href: null , tabBarStyle: {display: 'none'}}} />
       <Tabs.Screen name="Interests" options={{ href: null }} />

@@ -35,7 +35,7 @@ async function backendReady(): Promise<boolean> {
   }
 }
 
-export default function ProfileWelcome() {
+export default function ResearchInterests() {
   const fadeAnim = React.useRef(new Animated.Value(0)).current;
   const [question, setQuestion] = React.useState('What are your research interests?');
   const [focused, setFocused] = React.useState(false);

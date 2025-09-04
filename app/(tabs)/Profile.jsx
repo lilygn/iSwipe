@@ -1,7 +1,7 @@
 import React from "react";
 import { SafeAreaView, ScrollView, View, Text, StyleSheet } from "react-native";
 import Header from "../Profile/ProfileHeader";
-import GlassCard from "../Profile/GlassCard";
+import { GlassCard } from "../Profile/GlassCard";
 import { router } from "expo-router";
 
 export default function Profile() {
@@ -10,7 +10,6 @@ export default function Profile() {
       <Header
         title="My Profile"
         onLeftPress={() => router.back()}
-        onRightPress={() => router.push("/Profile/Settings")}
       />
 
       <ScrollView
@@ -22,20 +21,24 @@ export default function Profile() {
         <View style={s.underline} />
 
         <GlassCard
+          variant="aurora"
+          title="Recommendations"
           ctaLabel="Customize Interests"
           helper="Pick topics you care about so we can surface the most relevant RSOs and professors."
           onPress={() => router.push("/Profile/Interests")}
-          tone="lilac"
+          leftIcon={<Text style={{ fontSize: 18 }}>✨</Text>}
         />
 
         <Text style={[s.sectionTitle, { marginTop: 28 }]}>Customize Your Research Interests</Text>
         <View style={[s.underline, { width: 220 }]} />
 
         <GlassCard
+          variant="holo"
+          title="Research Focus"
           ctaLabel="Customize Lab Interests"
           helper="Pick topics you care about so we can surface the most relevant professors."
-          onPress={() => router.push("/Profile/ProfileWelcome")}
-          tone="cyan"
+          onPress={() => router.push("/Profile/ResearchInterests")}
+          leftIcon={<Text style={{ fontSize: 18 }}>🔬</Text>}
           style={{ marginBottom: 8 }}
         />
 
@@ -49,5 +52,12 @@ const s = StyleSheet.create({
   safe: { flex: 1, backgroundColor: "#0B1022" },
   content: { padding: 16, gap: 12, paddingBottom: 28 },
   sectionTitle: { color: "#EAF0FF", fontSize: 22, fontWeight: "800", letterSpacing: 0.2 },
-  underline: { height: 2, width: 170, marginTop: 6, marginBottom: 8, backgroundColor: "rgba(124,92,255,0.35)", borderRadius: 2 },
+  underline: {
+    height: 2,
+    width: 170,
+    marginTop: 6,
+    marginBottom: 8,
+    backgroundColor: "rgba(124,92,255,0.35)",
+    borderRadius: 2,
+  },
 });

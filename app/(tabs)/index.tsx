@@ -10,7 +10,11 @@ import {
   KeyboardAvoidingView,
   Platform,
 } from 'react-native';
-import { signInWithEmailAndPassword, createUserWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth';
+import {
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword,
+  onAuthStateChanged,
+} from 'firebase/auth';
 import { auth } from './firebase';
 import { useNavigation } from '@react-navigation/native';
 
@@ -20,30 +24,71 @@ export default function LoginScreen() {
   const [focus, setFocus] = useState<'email' | 'password' | null>(null);
   const navigation = useNavigation();
 
+  // --- helpers ---
+  const isValidEmail = (e: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);
+  const MIN_PW = 6;
+
   const handleLogin = () => {
-    signInWithEmailAndPassword(auth, email, password)
+    const e = email.trim();                
+    const p = password;
+
+    if (!isValidEmail(e)) {
+      Alert.alert('Invalid email', 'Please enter a valid email like you@illinois.edu');
+      return;
+    }
+    if (p.length < MIN_PW) {
+      Alert.alert('Weak password', `Password must be at least ${MIN_PW} characters.`);
+      return;
+    }
+
+    signInWithEmailAndPassword(auth, e, p)
       .then(userCredential => {
         const user = userCredential.user;
         console.log('Logged in as:', user.email);
         Alert.alert('Login successful!');
-        navigation.replace('(tabs)');
+        navigation.replace('(tabs)');       
       })
-      .catch(error => {
-        console.error(error);
-        Alert.alert('Login failed', error.message);
+      .catch(err => {
+        const map: Record<string, string> = {
+          'auth/invalid-email': 'That email looks malformed.',
+          'auth/user-not-found': 'No account with that email.',
+          'auth/wrong-password': 'Incorrect password.',
+          'auth/too-many-requests': 'Too many attempts. Try again later.',
+        };
+        Alert.alert('Login failed', map[err.code] ?? err.message);
+        console.error('Login error:', err.code, err.message, { email: e });
       });
   };
 
   const handleSignUp = () => {
-    createUserWithEmailAndPassword(auth, email, password)
+    const e = email.trim();                
+    const p = password;
+
+    if (!isValidEmail(e)) {
+      Alert.alert('Invalid email', 'Please enter a valid email like you@illinois.edu');
+      return;
+    }
+    if (p.length < MIN_PW) {
+      Alert.alert('Weak password', `Password must be at least ${MIN_PW} characters.`);
+      return;
+    }
+
+    createUserWithEmailAndPassword(auth, e, p)
       .then(userCredential => {
         const user = userCredential.user;
         console.log('Registered as:', user.email);
         Alert.alert('Account created successfully!');
+      
       })
-      .catch(error => {
-        console.error(error);
-        Alert.alert('Signup failed', error.message);
+      .catch(err => {
+        const map: Record<string, string> = {
+          'auth/email-already-in-use': 'That email is already registered.',
+          'auth/invalid-email': 'That email looks malformed.',
+          'auth/operation-not-allowed': 'Email/password sign-in is disabled in Firebase Console.',
+          'auth/weak-password': 'Password is too weak.',
+        };
+        Alert.alert('Signup failed', map[err.code] ?? err.message);
+        console.error('Signup error:', err.code, err.message, { email: e });
       });
   };
 
@@ -51,7 +96,7 @@ export default function LoginScreen() {
     const unsub = onAuthStateChanged(auth, (user) => {
       if (user) {
         console.log('User is logged in:', user.email);
-        navigation.replace('home');
+        navigation.replace('home');         
       }
     });
     return unsub;
@@ -78,7 +123,7 @@ export default function LoginScreen() {
               <Text style={styles.label}>Email</Text>
               <TextInput
                 value={email}
-                onChangeText={setEmail}
+                onChangeText={(t) => setEmail(t.replace(/\s/g, ''))} 
                 placeholder="you@illinois.edu"
                 autoCapitalize="none"
                 keyboardType="email-address"
@@ -121,22 +166,20 @@ export default function LoginScreen() {
 
 const COLORS = {
   bg: '#0B111C',
-  glass: 'rgba(255,255,255,0.08)',     // card background
+  glass: 'rgba(255,255,255,0.08)',
   glassStroke: 'rgba(255,255,255,0.18)',
-  input: 'rgba(255,255,255,0.06)',     // input background
+  input: 'rgba(255,255,255,0.06)',
   inputStroke: 'rgba(255,255,255,0.14)',
   white: '#FFFFFF',
   textPrimary: '#E6E9EE',
   textSecondary: '#9AA4B2',
-  accent: '#FF5F05',                   // UIUC orange
+  accent: '#FF5F05',
 };
 
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: COLORS.bg },
 
-  bg: {
-    ...StyleSheet.absoluteFillObject,
-  },
+  bg: { ...StyleSheet.absoluteFillObject },
   gradientLayer: {
     position: 'absolute',
     width: '120%',
@@ -145,25 +188,12 @@ const styles = StyleSheet.create({
     right: '-10%',
     borderRadius: 24,
     opacity: 0.55,
-    // Simulated gradient via layered translucent views
     backgroundColor: 'rgba(255,95,5,0.18)',
   },
-  layerTop: {
-    top: -40,
-    transform: [{ rotate: '-6deg' }],
-  },
-  layerBottom: {
-    bottom: -60,
-    backgroundColor: 'rgba(88,155,255,0.14)',
-    transform: [{ rotate: '5deg' }],
-  },
+  layerTop: { top: -40, transform: [{ rotate: '-6deg' }] },
+  layerBottom: { bottom: -60, backgroundColor: 'rgba(88,155,255,0.14)', transform: [{ rotate: '5deg' }] },
 
-  container: {
-    flex: 1,
-    paddingHorizontal: 22,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+  container: { flex: 1, paddingHorizontal: 22, alignItems: 'center', justifyContent: 'center' },
 
   card: {
     width: '100%',
@@ -180,28 +210,12 @@ const styles = StyleSheet.create({
     elevation: 14,
   },
 
-  header: {
-    marginBottom: 16,
-  },
-  title: {
-    color: COLORS.textPrimary,
-    fontSize: 26,
-    fontWeight: '800',
-    letterSpacing: 0.2,
-  },
-  subtitle: {
-    marginTop: 6,
-    color: COLORS.textSecondary,
-    fontSize: 14,
-  },
+  header: { marginBottom: 16 },
+  title: { color: COLORS.textPrimary, fontSize: 26, fontWeight: '800', letterSpacing: 0.2 },
+  subtitle: { marginTop: 6, color: COLORS.textSecondary, fontSize: 14 },
 
   field: { marginTop: 14 },
-  label: {
-    color: COLORS.textSecondary,
-    fontSize: 12,
-    marginBottom: 8,
-    letterSpacing: 0.3,
-  },
+  label: { color: COLORS.textSecondary, fontSize: 12, marginBottom: 8, letterSpacing: 0.3 },
   input: {
     backgroundColor: COLORS.input,
     borderWidth: 1,
@@ -228,12 +242,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  primaryText: {
-    color: COLORS.white,
-    fontWeight: '700',
-    fontSize: 16,
-    letterSpacing: 0.3,
-  },
+  primaryText: { color: COLORS.white, fontWeight: '700', fontSize: 16, letterSpacing: 0.3 },
 
   secondaryButton: {
     marginTop: 12,
@@ -245,16 +254,7 @@ const styles = StyleSheet.create({
     borderColor: COLORS.inputStroke,
     backgroundColor: 'transparent',
   },
-  secondaryText: {
-    color: COLORS.textPrimary,
-    fontWeight: '700',
-    fontSize: 16,
-    letterSpacing: 0.2,
-  },
+  secondaryText: { color: COLORS.textPrimary, fontWeight: '700', fontSize: 16, letterSpacing: 0.2 },
 
-  footnote: {
-    color: COLORS.textSecondary,
-    fontSize: 12,
-    marginTop: 16,
-  },
+  footnote: { color: COLORS.textSecondary, fontSize: 12, marginTop: 16 },
 });
