@@ -3,7 +3,6 @@ import os
 from pathlib import Path
 import json
 from ast import literal_eval
-import time
 
 from fastapi import FastAPI, Body
 from fastapi.middleware.cors import CORSMiddleware
@@ -13,9 +12,15 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
-import httpx  
+import httpx
+from httpx import ReadTimeout, ConnectTimeout, PoolTimeout, HTTPError
 from openai import OpenAI
 from langchain_community.vectorstores import FAISS
+
+import logging, traceback, time as _time, random
+from functools import lru_cache
+from collections import Counter
+
 
 
 load_dotenv()
@@ -27,8 +32,9 @@ for k in ("HTTP_PROXY","HTTPS_PROXY","http_proxy","https_proxy","ALL_PROXY","all
     os.environ.pop(k, None)
 
 EMBED_MODEL = "text-embedding-3-small"
-
-client = OpenAI()
+HTTPX_TIMEOUT = 12.0
+EMBED_RETRIES = 3
+EMBED_BACKOFF_BASE = 0.25
 
 HERE = Path(__file__).resolve().parent
 PROJECT_ROOT = Path(__file__).resolve().parents[1] if HERE.name == "scripts" else HERE
@@ -42,27 +48,33 @@ df: pd.DataFrame = pd.DataFrame([])
 app = FastAPI(title="RSO & Faculty API")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],     
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-def get_embedding(text: str, *, timeout_s: float = 20.0, retries: int = 3, backoff_base: float = 0.75) -> List[float]:
-    """Timeout-safe embedding getter with retries and exponential backoff."""
+logger = logging.getLogger("uvicorn.error")
+
+
+
+@lru_cache(maxsize=4096)
+def get_embedding(text: str) -> List[float]:
     t = (text or "").replace("\n", " ").strip()
     if not t:
         return []
-    last_err: Optional[Exception] = None
-    for attempt in range(retries):
+    last_err = None
+    for attempt in range(EMBED_RETRIES):
         try:
-            resp = client.with_options(timeout=timeout_s).embeddings.create(
-                model=EMBED_MODEL, input=[t]
-            )
+            with httpx.Client(timeout=HTTPX_TIMEOUT) as hc:
+                resp = OpenAI(api_key=OPENAI_API_KEY, http_client=hc).embeddings.create(
+                    model=EMBED_MODEL, input=[t]
+                )
             return resp.data[0].embedding
-        except Exception as e:
+        except (ReadTimeout, ConnectTimeout, PoolTimeout, HTTPError, Exception) as e:
             last_err = e
-            sleep_s = min((2 ** attempt) * backoff_base, 3.0)
-            time.sleep(sleep_s)
+        sleep_s = min(EMBED_BACKOFF_BASE * (2 ** attempt) + random.random() * 0.15, 2.5)
+        _time.sleep(sleep_s)
+    logger.warning(f"[embedding] Failed for text='{t[:40]}...' after retries: {last_err}")
     return []
 
 class _DirectOpenAIEmbeddings:
@@ -71,6 +83,8 @@ class _DirectOpenAIEmbeddings:
         return get_embedding(text)
     def embed_documents(self, texts):
         return [get_embedding(t) for t in texts]
+
+
 
 PREFERRED_FIELDS = (
     "name", "title", "description", "about", "summary",
@@ -138,6 +152,8 @@ def _coerce_emb(x):
                 return []
     return []
 
+
+
 @app.on_event("startup")
 def init_resources():
     global retriever, df
@@ -189,6 +205,8 @@ def init_resources():
         retriever = None
         print(f"[startup] Failed to build FAISS index: {e}")
 
+
+
 @app.get("/healthz")
 def healthz():
     return {
@@ -201,9 +219,6 @@ def healthz():
 @app.get("/")
 def root():
     return healthz()
-
-import logging, traceback, time as _time
-logger = logging.getLogger("uvicorn.error")
 
 def _to_jsonable(x):
     if x is None or isinstance(x, (str, int, float, bool)):
@@ -224,7 +239,6 @@ def _to_jsonable(x):
 
 @app.post("/retrieve")
 def retrieve(payload: Dict[str, Any] = Body(...)) -> List[Dict[str, Any]]:
-    t0 = _time.time()
     try:
         q = (payload.get("input") or "").strip()
     except Exception:
@@ -232,8 +246,8 @@ def retrieve(payload: Dict[str, Any] = Body(...)) -> List[Dict[str, Any]]:
     if not q:
         return []
 
+    results = []
     try:
-        results = []
         if retriever is not None:
             docs = retriever.invoke(q)
             for d in docs:
@@ -248,10 +262,22 @@ def retrieve(payload: Dict[str, Any] = Body(...)) -> List[Dict[str, Any]]:
                     "email": m.get("email") or m.get("contact_email") or m.get("contact"),
                     "interests": m.get("interests") or [],
                 })
-        return _to_jsonable(results)
     except Exception as e:
         logger.error("retrieve crashed: %s\n%s", e, traceback.format_exc())
-        return []
+        if not df.empty:
+            hits = df[df.apply(lambda row: q.lower() in str(row).lower(), axis=1)]
+            for _, row in hits.head(5).iterrows():
+                results.append({
+                    "name": row.get("name") or row.get("title"),
+                    "description": str(row.to_dict())[:2000],
+                    "image": row.get("image"),
+                    "link": row.get("link"),
+                    "profileUrl": row.get("profileUrl"),
+                    "website": row.get("website"),
+                    "email": row.get("email"),
+                    "interests": row.get("interests") or [],
+                })
+    return _to_jsonable(results)
 
 @app.post("/generate-cards")
 def generate_cards(tags: Dict[str, Any] = Body(...)):
@@ -261,57 +287,20 @@ def generate_cards(tags: Dict[str, Any] = Body(...)):
 
     working = df.copy()
     working["score"] = 0.0
-    used = 0
-
-    preferred = ("name","title","description","about","summary",
-                 "interests","research_interests","areas_of_interest",
-                 "department","keywords","tags","link")
-    def row_text(r):
-        parts = []
-        for k in preferred:
-            v = r.get(k)
-            if isinstance(v, list):
-                v = ", ".join(map(str, v))
-            if isinstance(v, str) and v.strip():
-                parts.append(v)
-        return (" ".join(parts)).lower()
-    working["_text"] = working.apply(row_text, axis=1)
-
     for interest in interests:
-        emb = get_embedding(interest)  
+        emb = get_embedding(interest)
         if not emb:
             continue
-        used += 1
-        q = np.array(emb, dtype=np.float32).reshape(1, -1)
-        qdim = q.shape[1]
+        query = np.array(emb, dtype=np.float32).reshape(1, -1)
+        working["score"] += working["embedding"].apply(
+            lambda vec: cosine_similarity([vec], query)[0][0] if isinstance(vec, list) and vec else 0.0
+        )
+    if working["score"].sum() == 0.0:
+        for interest in interests:
+            working["score"] += working.apply(
+                lambda row: str(row).lower().count(interest.lower()), axis=1
+            )
 
-        def sim(vec):
-            if isinstance(vec, list) and len(vec) == qdim:
-                try:
-                    return float(cosine_similarity([vec], q)[0][0])
-                except Exception:
-                    return 0.0
-            return 0.0
-
-        working["score"] += working["embedding"].apply(sim)
-
-        needle = str(interest).lower().strip()
-        if needle:
-            working["score"] += working["_text"].apply(lambda s: 0.10 if needle in s else 0.0)
-
-    if used == 0:
-        needles = [str(i).lower().strip() for i in interests if str(i).strip()]
-        def kw_score(s):
-            s = s or ""
-            return sum(0.20 for n in needles if n and n in s)
-        working["score"] = working["_text"].apply(kw_score)
-
-    else:
-        working["score"] /= used
-
-    positive = working[working["score"] > 0]
-    top = (positive if not positive.empty else working).nlargest(5, "score")
-
-    top = top.drop(columns=["_text"], errors="ignore")
-
+    working["score"] /= max(len(interests), 1)
+    top = working.nlargest(5, "score")
     return top.to_dict(orient="records")
