@@ -242,19 +242,65 @@ def retrieve(payload: Dict[str, Any] = Body(...)) -> List[Dict[str, Any]]:
         logger.error("retrieve crashed: %s\n%s", e, traceback.format_exc())
         return []
 
-
 @app.post("/generate-cards")
 def generate_cards(tags: Dict[str, Any] = Body(...)):
     interests: List[str] = tags.get("interests") or []
     if not interests or df.empty or "embedding" not in df.columns:
         return []
+
     working = df.copy()
     working["score"] = 0.0
+    used = 0
+
+    # Precompute a simple lowercase text blob per row for keyword boosting
+    preferred = ("name","title","description","about","summary",
+                 "interests","research_interests","areas_of_interest",
+                 "department","keywords","tags","link")
+    def row_text(r):
+        parts = []
+        for k in preferred:
+            v = r.get(k)
+            if isinstance(v, list):
+                v = ", ".join(map(str, v))
+            if isinstance(v, str) and v.strip():
+                parts.append(v)
+        return (" ".join(parts)).lower()
+    working["_text"] = working.apply(row_text, axis=1)
+
     for interest in interests:
-        query = np.array(get_embedding(interest), dtype=np.float32).reshape(1, -1)
-        working["score"] += working["embedding"].apply(
-            lambda vec: cosine_similarity([vec], query)[0][0] if isinstance(vec, list) else 0.0
-        )
-    working["score"] /= max(len(interests), 1)
-    top = working.nlargest(5, "score")
+        emb = get_embedding(interest)
+        if not emb:
+            continue
+        used += 1
+        q = np.array(emb, dtype=np.float32).reshape(1, -1)
+        qdim = q.shape[1]
+
+        def sim(vec):
+            if isinstance(vec, list) and len(vec) == qdim:
+                try:
+                    return float(cosine_similarity([vec], q)[0][0])
+                except Exception:
+                    return 0.0
+            return 0.0
+
+        # vector similarity
+        working["score"] += working["embedding"].apply(sim)
+
+        # lightweight keyword boost
+        needle = str(interest).lower().strip()
+        if needle:
+            working["score"] += working["_text"].apply(lambda s: 0.10 if needle in s else 0.0)
+
+    if used == 0:
+        return []
+
+    working["score"] /= used
+
+    # keep only positive-scoring rows if any; else just take top few
+    positive = working[working["score"] > 0]
+    top = (positive if not positive.empty else working).nlargest(5, "score")
+
+    # cleanup helper column
+    top = top.drop(columns=["_text"], errors="ignore")
+
     return top.to_dict(orient="records")
