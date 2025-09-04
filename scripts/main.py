@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 import json
 from ast import literal_eval
-import logging, traceback, time as _time
+import logging, traceback
 
 import pandas as pd
 import numpy as np
@@ -24,7 +24,7 @@ for k in ("HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy", "ALL_PROXY",
     os.environ.pop(k, None)
 
 EMBED_MODEL = "text-embedding-3-small"
-client = OpenAI(api_key=OPENAI_API_KEY)
+client = OpenAI()
 
 HERE = Path(__file__).resolve().parent
 PROJECT_ROOT = HERE.parent
@@ -238,9 +238,9 @@ def generate_cards(tags: Dict[str, Any] = Body(...)):
         if not emb:
             continue
         used += 1
-        query = np.array(emb, dtype=np.float32).reshape(1, -1)
+        q = np.array(emb, dtype=np.float32).reshape(1, -1)
         working["score"] += working["embedding"].apply(
-            lambda vec: cosine_similarity([vec], query)[0][0]
+            lambda vec: cosine_similarity([vec], q)[0][0]
             if isinstance(vec, list) and len(vec) == len(emb) else 0.0
         )
     if used == 0:
