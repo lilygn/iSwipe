@@ -29,29 +29,49 @@ EMBED_MODEL = "text-embedding-3-small"
 
 HERE = Path(__file__).resolve().parent
 PROJECT_ROOT = Path(__file__).resolve().parents[1] if HERE.name == "scripts" else HERE
-DATA_DIR = PROJECT_ROOT / "app" / "assets"
 FAISS_DIR = (HERE / "faculty_faiss_index").resolve()
 
 retriever: Optional[Any] = None
 
 RSO_JSON_ENV = os.getenv("RSO_JSON_PATH")
-CANDIDATES = [
-    RSO_JSON_ENV,
-    "/Users/lilygniedz/Swipe/app/assets/all_rso_data.json",
-    str((PROJECT_ROOT / "app" / "assets" / "all_rso_data.json").resolve()),
-    str((HERE / "app" / "assets" / "all_rso_data.json").resolve()),
-]
+
 def _first_existing(paths):
     for p in [Path(p) for p in paths if p]:
         if p.exists():
             return p
     return None
+
+CWD = Path.cwd()
+CANDIDATES = [
+    RSO_JSON_ENV,
+    CWD / "app" / "assets" / "all_rso_data.json",
+    CWD / "assets" / "all_rso_data.json",
+    HERE / "app" / "assets" / "all_rso_data.json",
+    HERE / "assets" / "all_rso_data.json",
+    PROJECT_ROOT / "app" / "assets" / "all_rso_data.json",
+    PROJECT_ROOT / "assets" / "all_rso_data.json",
+]
+
 RSO_JSON_PATH = _first_existing(CANDIDATES)
+
 if not RSO_JSON_PATH:
-    raise FileNotFoundError("Could not find all_rso_data.json")
+    try:
+        RSO_JSON_PATH = next(PROJECT_ROOT.rglob("all_rso_data.json"))
+    except StopIteration:
+        try:
+            RSO_JSON_PATH = next(CWD.rglob("all_rso_data.json"))
+        except StopIteration:
+            tried = [str(p) for p in CANDIDATES if p]
+            raise FileNotFoundError(
+                "Could not find all_rso_data.json. "
+                f"Tried: {tried}. Set RSO_JSON_PATH or ensure the file is in app/assets/."
+            )
+
 with open(RSO_JSON_PATH, "r", encoding="utf-8") as f:
     raw = json.load(f)
+
 df = pd.DataFrame(raw) if isinstance(raw, list) else pd.json_normalize(raw)
+
 if "embedding" in df.columns and df["embedding"].dtype == object:
     def _coerce_emb(x):
         if isinstance(x, list):
