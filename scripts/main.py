@@ -32,7 +32,12 @@ RSO_JSON = DATA_DIR / "all_rso_data.json"
 FAISS_DIR = (HERE / "faculty_faiss_index").resolve()
 
 retriever: Optional[Any] = None
+
+BASE_DIR = Path(__file__).resolve().parent
+SRC = BASE_DIR.parent / "app" / "assets" / "all_rso_data.json"
 df: pd.DataFrame = pd.DataFrame([])
+df = pd.read_json(SRC)
+
 
 app = FastAPI(title="RSO & Faculty API")
 app.add_middleware(
@@ -114,18 +119,6 @@ def _load_docs_from_json() -> list:
 def init_resources():
     global retriever, df
 
-    if RSO_JSON.exists():
-        try:
-            df_local = pd.read_json(RSO_JSON)
-            if "embedding" not in df_local.columns:
-                df_local["embedding"] = None
-            df = df_local
-        except Exception as e:
-            print(f"[startup] Failed to read {RSO_JSON}: {e}")
-            df = pd.DataFrame([])
-    else:
-        print(f"[startup] RSO JSON not found at {RSO_JSON}")
-        df = pd.DataFrame([])
 
     try:
         if FAISS_DIR.exists():

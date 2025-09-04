@@ -25,7 +25,6 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY:
     raise RuntimeError("OPENAI_API_KEY not set")
 
-# defensively clear proxy envs that triggered earlier client errors
 for k in ("HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy", "ALL_PROXY", "all_proxy"):
     os.environ.pop(k, None)
 
@@ -33,7 +32,6 @@ EMBED_MODEL = "text-embedding-3-small"
 BATCH = int(os.getenv("EMBED_BATCH", "100"))
 MAX_DOCS = int(os.getenv("MAX_DOCS", "0"))  # 0 = no cap
 
-# Use a common browser UA to avoid blocks; keep contact for good practice.
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0_0) "
@@ -60,7 +58,6 @@ AREAS: List[Dict[str, str]] = [
 
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
-# A small session with headers and simple retry
 SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
 
@@ -83,10 +80,8 @@ def parse_faculty_from_area(html: str, base_url: str) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     seen = set()
 
-    # primary patterns used by site
     cards = soup.select(".views-row") or soup.select(".card")
 
-    # if cards missing, try a very broad fallback: all /people/ links
     if not cards:
         people = []
         for a in soup.select("a[href*='/people/']"):
@@ -100,14 +95,12 @@ def parse_faculty_from_area(html: str, base_url: str) -> List[Dict[str, Any]]:
             seen.add(profile)
             people.append({"name": name, "profileUrl": profile})
         if people:
-            return people  # fallback success
+            return people  
 
-        # last-ditch: include h2/h3 parents just in case
         for h in soup.select("h3, h2"):
             if h.parent not in cards:
                 cards.append(h.parent)
 
-    # card parsing
     for c in cards:
         a = (c.select_one("h3 a") or c.select_one("h2 a") or c.select_one("a[href*='/people/']"))
         if not a:
@@ -136,7 +129,6 @@ def parse_faculty_from_area(html: str, base_url: str) -> List[Dict[str, Any]]:
 
         out.append({"name": name, "profileUrl": profile, "teaser": teaser, "image": image})
 
-    # If still nothing, broad fallback as above
     if not out:
         for a in soup.select("a[href*='/people/']"):
             name = a.get_text(strip=True)
