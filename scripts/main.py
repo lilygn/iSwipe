@@ -1,6 +1,9 @@
 from typing import List, Dict, Any, Optional
 import os
 from pathlib import Path
+import json
+from ast import literal_eval
+import logging, traceback, time as _time
 
 from fastapi import FastAPI, Body
 from fastapi.middleware.cors import CORSMiddleware
@@ -13,7 +16,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 import httpx
 from openai import OpenAI
 from langchain_community.vectorstores import FAISS
-
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -28,21 +30,45 @@ EMBED_MODEL = "text-embedding-3-small"
 HERE = Path(__file__).resolve().parent
 PROJECT_ROOT = Path(__file__).resolve().parents[1] if HERE.name == "scripts" else HERE
 DATA_DIR = PROJECT_ROOT / "app" / "assets"
-RSO_JSON = DATA_DIR / "all_rso_data.json"
 FAISS_DIR = (HERE / "faculty_faiss_index").resolve()
 
 retriever: Optional[Any] = None
 
-BASE_DIR = Path(__file__).resolve().parent
-SRC = BASE_DIR.parent / "app" / "assets" / "all_rso_data.json"
-df: pd.DataFrame = pd.DataFrame([])
-df = pd.read_json(SRC)
-
+RSO_JSON_ENV = os.getenv("RSO_JSON_PATH")
+CANDIDATES = [
+    RSO_JSON_ENV,
+    "/Users/lilygniedz/Swipe/app/assets/all_rso_data.json",
+    str((PROJECT_ROOT / "app" / "assets" / "all_rso_data.json").resolve()),
+    str((HERE / "app" / "assets" / "all_rso_data.json").resolve()),
+]
+def _first_existing(paths):
+    for p in [Path(p) for p in paths if p]:
+        if p.exists():
+            return p
+    return None
+RSO_JSON_PATH = _first_existing(CANDIDATES)
+if not RSO_JSON_PATH:
+    raise FileNotFoundError("Could not find all_rso_data.json")
+with open(RSO_JSON_PATH, "r", encoding="utf-8") as f:
+    raw = json.load(f)
+df = pd.DataFrame(raw) if isinstance(raw, list) else pd.json_normalize(raw)
+if "embedding" in df.columns and df["embedding"].dtype == object:
+    def _coerce_emb(x):
+        if isinstance(x, list):
+            return x
+        if isinstance(x, str):
+            try:
+                v = literal_eval(x)
+                return v if isinstance(v, list) else []
+            except Exception:
+                return []
+        return []
+    df["embedding"] = df["embedding"].apply(_coerce_emb)
 
 app = FastAPI(title="RSO & Faculty API")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],     
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -58,7 +84,6 @@ def get_embedding(text: str) -> List[float]:
     return resp.data[0].embedding
 
 class _DirectOpenAIEmbeddings:
-    """Adapter so LangChain FAISS can call our embedding function."""
     def embed_query(self, text: str):
         return get_embedding(text)
     def embed_documents(self, texts):
@@ -118,8 +143,6 @@ def _load_docs_from_json() -> list:
 @app.on_event("startup")
 def init_resources():
     global retriever, df
-
-
     try:
         if FAISS_DIR.exists():
             emb = _DirectOpenAIEmbeddings()
@@ -133,14 +156,12 @@ def init_resources():
             print(f"[startup] FAISS dir not found at {FAISS_DIR}, rebuilding.")
     except Exception as e:
         print(f"[startup] Load failed with '{e}', rebuilding.")
-
     try:
         docs = _load_docs_from_json()
         if not docs:
             print("[startup] No docs to index; retriever disabled.")
             retriever = None
             return
-
         emb = _DirectOpenAIEmbeddings()
         index = FAISS.from_documents(docs, emb)
         if not callable(getattr(index, "embedding_function", None)):
@@ -165,7 +186,6 @@ def healthz():
 def root():
     return healthz()
 
-import logging, traceback, time as _time
 logger = logging.getLogger("uvicorn.error")
 
 def _to_jsonable(x):
@@ -194,7 +214,6 @@ def retrieve(payload: Dict[str, Any] = Body(...)) -> List[Dict[str, Any]]:
         q = ""
     if not q:
         return []
-
     try:
         results = []
         if retriever is not None:
@@ -216,7 +235,6 @@ def retrieve(payload: Dict[str, Any] = Body(...)) -> List[Dict[str, Any]]:
         logger.error("retrieve crashed: %s\n%s", e, traceback.format_exc())
         return []
 
-
 @app.post("/generate-cards")
 def generate_cards(tags: Dict[str, Any] = Body(...)):
     interests: List[str] = tags.get("interests") or []
@@ -225,9 +243,13 @@ def generate_cards(tags: Dict[str, Any] = Body(...)):
     working = df.copy()
     working["score"] = 0.0
     for interest in interests:
-        query = np.array(get_embedding(interest), dtype=np.float32).reshape(1, -1)
+        emb = get_embedding(interest)
+        if not emb:
+            continue
+        query = np.array(emb, dtype=np.float32).reshape(1, -1)
         working["score"] += working["embedding"].apply(
-            lambda vec: cosine_similarity([vec], query)[0][0] if isinstance(vec, list) else 0.0
+            lambda vec: cosine_similarity([vec], query)[0][0]
+            if isinstance(vec, list) and len(vec) == len(emb) else 0.0
         )
     working["score"] /= max(len(interests), 1)
     top = working.nlargest(5, "score")
