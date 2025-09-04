@@ -1,17 +1,17 @@
 from typing import List, Dict, Any, Optional
 import os
-import json
 from pathlib import Path
+import json
 from ast import literal_eval
 import logging, traceback, time as _time
 
-import numpy as np
 import pandas as pd
+import numpy as np
 from fastapi import FastAPI, Body, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from openai import OpenAI
 from sklearn.metrics.pairwise import cosine_similarity
+from openai import OpenAI
 from langchain_community.vectorstores import FAISS
 
 load_dotenv()
@@ -20,20 +20,24 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY:
     raise RuntimeError("OPENAI_API_KEY not set")
 
+for k in ("HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy", "ALL_PROXY", "all_proxy"):
+    os.environ.pop(k, None)
+
 EMBED_MODEL = "text-embedding-3-small"
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 HERE = Path(__file__).resolve().parent
 PROJECT_ROOT = HERE.parent
-SRC = PROJECT_ROOT / "app" / "assets" / "all_rso_data.json"
+DEFAULT_SRC = PROJECT_ROOT / "app" / "assets" / "all_rso_data.json"
+RSO_JSON_PATH = Path(os.getenv("RSO_JSON_PATH")) if os.getenv("RSO_JSON_PATH") else DEFAULT_SRC
 FAISS_DIR = (HERE / "faculty_faiss_index").resolve()
 
-if not SRC.exists():
-    raise FileNotFoundError(f"JSON file not found at {SRC}")
+if not RSO_JSON_PATH.exists():
+    raise FileNotFoundError(f"Could not find JSON at {RSO_JSON_PATH}. Set RSO_JSON_PATH or place file in app/assets/.")
 
 retriever: Optional[Any] = None
 
-def _coerce_embedding(x):
+def _coerce_emb(x):
     if isinstance(x, list):
         return x
     if isinstance(x, str):
@@ -49,9 +53,9 @@ def _coerce_embedding(x):
     return []
 
 def _load_df() -> pd.DataFrame:
-    df = pd.read_json(SRC)
+    df = pd.read_json(RSO_JSON_PATH)
     if "embedding" in df.columns:
-        df["embedding"] = df["embedding"].apply(_coerce_embedding)
+        df["embedding"] = df["embedding"].apply(_coerce_emb)
     else:
         df["embedding"] = [[] for _ in range(len(df))]
     return df
@@ -70,7 +74,7 @@ def get_embedding(text: str) -> List[float]:
     t = (text or "").replace("\n", " ").strip()
     if not t:
         return []
-    res = client.embeddings.create(input=[t], model=EMBED_MODEL)
+    res = client.embeddings.create(model=EMBED_MODEL, input=[t])
     return res.data[0].embedding
 
 PREFERRED_FIELDS = (
@@ -161,10 +165,10 @@ def init_resources():
 def healthz():
     return {
         "ok": True,
-        "rows": int(df.shape[0]),
-        "faiss_loaded": retriever is not None,
-        "src": str(SRC),
-        "faiss_dir": str(FAISS_DIR),
+        "has_retriever": retriever is not None,
+        "faiss_index_dir": str(FAISS_DIR),
+        "rso_rows": int(df.shape[0]) if isinstance(df, pd.DataFrame) else 0,
+        "json_path": str(RSO_JSON_PATH),
     }
 
 @app.get("/")
@@ -221,7 +225,7 @@ def retrieve(payload: Dict[str, Any] = Body(...)) -> List[Dict[str, Any]]:
 
 @app.post("/generate-cards")
 def generate_cards(tags: Dict[str, Any] = Body(...)):
-    interests = tags.get("interests") or []
+    interests: List[str] = tags.get("interests") or []
     if not isinstance(interests, list) or not interests:
         raise HTTPException(status_code=400, detail="Provide 'interests' as a non-empty list.")
     if df.empty or "embedding" not in df.columns:
@@ -234,12 +238,11 @@ def generate_cards(tags: Dict[str, Any] = Body(...)):
         if not emb:
             continue
         used += 1
-        q = np.array(emb, dtype=np.float32).reshape(1, -1)
-        def _sim(vec):
-            if isinstance(vec, list) and len(vec) == len(emb):
-                return float(cosine_similarity([vec], q)[0][0])
-            return 0.0
-        working["score"] += working["embedding"].apply(_sim)
+        query = np.array(emb, dtype=np.float32).reshape(1, -1)
+        working["score"] += working["embedding"].apply(
+            lambda vec: cosine_similarity([vec], query)[0][0]
+            if isinstance(vec, list) and len(vec) == len(emb) else 0.0
+        )
     if used == 0:
         return []
     working["score"] /= used
