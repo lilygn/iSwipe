@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import json
 from ast import literal_eval
+import time
 
 from fastapi import FastAPI, Body
 from fastapi.middleware.cors import CORSMiddleware
@@ -12,7 +13,7 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
-import httpx
+import httpx  
 from openai import OpenAI
 from langchain_community.vectorstores import FAISS
 
@@ -26,6 +27,8 @@ for k in ("HTTP_PROXY","HTTPS_PROXY","http_proxy","https_proxy","ALL_PROXY","all
     os.environ.pop(k, None)
 
 EMBED_MODEL = "text-embedding-3-small"
+
+client = OpenAI()
 
 HERE = Path(__file__).resolve().parent
 PROJECT_ROOT = Path(__file__).resolve().parents[1] if HERE.name == "scripts" else HERE
@@ -44,15 +47,23 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-def get_embedding(text: str) -> List[float]:
+def get_embedding(text: str, *, timeout_s: float = 20.0, retries: int = 3, backoff_base: float = 0.75) -> List[float]:
+    """Timeout-safe embedding getter with retries and exponential backoff."""
     t = (text or "").replace("\n", " ").strip()
     if not t:
         return []
-    with httpx.Client(timeout=30) as hc:
-        resp = OpenAI(api_key=OPENAI_API_KEY, http_client=hc).embeddings.create(
-            model=EMBED_MODEL, input=[t]
-        )
-    return resp.data[0].embedding
+    last_err: Optional[Exception] = None
+    for attempt in range(retries):
+        try:
+            resp = client.with_options(timeout=timeout_s).embeddings.create(
+                model=EMBED_MODEL, input=[t]
+            )
+            return resp.data[0].embedding
+        except Exception as e:
+            last_err = e
+            sleep_s = min((2 ** attempt) * backoff_base, 3.0)
+            time.sleep(sleep_s)
+    return []
 
 class _DirectOpenAIEmbeddings:
     """Adapter so LangChain FAISS can call our embedding function."""
@@ -252,7 +263,6 @@ def generate_cards(tags: Dict[str, Any] = Body(...)):
     working["score"] = 0.0
     used = 0
 
-    # Precompute a simple lowercase text blob per row for keyword boosting
     preferred = ("name","title","description","about","summary",
                  "interests","research_interests","areas_of_interest",
                  "department","keywords","tags","link")
@@ -268,7 +278,7 @@ def generate_cards(tags: Dict[str, Any] = Body(...)):
     working["_text"] = working.apply(row_text, axis=1)
 
     for interest in interests:
-        emb = get_embedding(interest)
+        emb = get_embedding(interest)  
         if not emb:
             continue
         used += 1
@@ -283,24 +293,25 @@ def generate_cards(tags: Dict[str, Any] = Body(...)):
                     return 0.0
             return 0.0
 
-        # vector similarity
         working["score"] += working["embedding"].apply(sim)
 
-        # lightweight keyword boost
         needle = str(interest).lower().strip()
         if needle:
             working["score"] += working["_text"].apply(lambda s: 0.10 if needle in s else 0.0)
 
     if used == 0:
-        return []
+        needles = [str(i).lower().strip() for i in interests if str(i).strip()]
+        def kw_score(s):
+            s = s or ""
+            return sum(0.20 for n in needles if n and n in s)
+        working["score"] = working["_text"].apply(kw_score)
 
-    working["score"] /= used
+    else:
+        working["score"] /= used
 
-    # keep only positive-scoring rows if any; else just take top few
     positive = working[working["score"] > 0]
     top = (positive if not positive.empty else working).nlargest(5, "score")
 
-    # cleanup helper column
     top = top.drop(columns=["_text"], errors="ignore")
 
     return top.to_dict(orient="records")
