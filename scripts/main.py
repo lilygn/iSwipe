@@ -282,25 +282,44 @@ def retrieve(payload: Dict[str, Any] = Body(...)) -> List[Dict[str, Any]]:
 @app.post("/generate-cards")
 def generate_cards(tags: Dict[str, Any] = Body(...)):
     interests: List[str] = tags.get("interests") or []
-    if not interests or df.empty or "embedding" not in df.columns:
+    if not isinstance(interests, list) or not interests:
+        return []
+    if df.empty or "embedding" not in df.columns:
         return []
 
     working = df.copy()
     working["score"] = 0.0
+
+    used = 0
     for interest in interests:
-        emb = get_embedding(interest)
+        emb = get_embedding(str(interest))
         if not emb:
             continue
-        query = np.array(emb, dtype=np.float32).reshape(1, -1)
-        working["score"] += working["embedding"].apply(
-            lambda vec: cosine_similarity([vec], query)[0][0] if isinstance(vec, list) and vec else 0.0
-        )
-    if working["score"].sum() == 0.0:
-        for interest in interests:
-            working["score"] += working.apply(
-                lambda row: str(row).lower().count(interest.lower()), axis=1
-            )
+        used += 1
+        q = np.asarray(emb, dtype=np.float32).reshape(1, -1)
 
-    working["score"] /= max(len(interests), 1)
+        def _sim(vec):
+            if isinstance(vec, (list, np.ndarray)):
+                v = np.asarray(vec, dtype=np.float32).reshape(1, -1)
+                if v.shape[1] == q.shape[1]:
+                    return float(cosine_similarity(v, q)[0][0])
+            return 0.0
+
+        working["score"] += working["embedding"].apply(_sim)
+
+    if used == 0:
+        def row_text(row):
+            try:
+                return _build_text_for_row(row)
+            except Exception:
+                return str(row)
+        base_text = working.apply(row_text, axis=1)
+        working["score"] = 0.0
+        for interest in interests:
+            s = interest.lower()
+            working["score"] += base_text.str.lower().str.count(repr(s)[1:-1])
+    else:
+        working["score"] /= used
+
     top = working.nlargest(5, "score")
     return top.to_dict(orient="records")
