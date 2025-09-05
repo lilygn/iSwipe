@@ -322,4 +322,16 @@ def generate_cards(tags: Dict[str, Any] = Body(...)):
         working["score"] /= used
 
     top = working.nlargest(5, "score")
-    return top.to_dict(orient="records")
+
+    # (Optional) trim to the fields the app actually uses
+    out = []
+    for _, row in top.iterrows():
+        out.append({
+            "name": row.get("name") or row.get("title") or "Unknown RSO",
+            "description": row.get("description") or row.get("about") or row.get("summary") or "",
+            "website": row.get("website") or row.get("link") or row.get("profileUrl") or row.get("url"),
+            "instagram": row.get("instagram"),
+            "facebook": row.get("facebook"),
+            "link": row.get("link"),
+        })
+    return out  # ← no stray "and this"

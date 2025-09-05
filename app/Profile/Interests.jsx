@@ -49,7 +49,6 @@ export default function Interests({ setInterests }) {
       pathname: 'home',
       params: { filteredRSOs: JSON.stringify(filtered) },
     });
-    setFilteredRSOs([]);
     setTags([]);
     setInput('');
   };
