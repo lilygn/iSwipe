@@ -6,9 +6,7 @@ import { router } from 'expo-router';
 import axios from 'axios';
 import { GenerateButton, ResetButton } from '../../components/Button';
 
-const baseURL =
-  process.env.EXPO_PUBLIC_API_URL?.trim() ||
-  'https://iswipe.onrender.com';
+const baseURL = process.env.EXPO_PUBLIC_API_URL?.trim() || 'https://iswipe.onrender.com';
 
 const api = axios.create({
   baseURL,
@@ -16,11 +14,10 @@ const api = axios.create({
   headers: { 'Content-Type': 'application/json' },
 });
 
-export default function Interests({ setInterests }) {
+export default function Interests({ setInterests, setFilteredRSOs }) {
   const [input, setInput] = useState('');
   const [tags, setTags] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [filteredRSOs, setFilteredRSOs] = useState([]);
   const navigation = useNavigation();
 
   const addTag = () => {
@@ -35,22 +32,21 @@ export default function Interests({ setInterests }) {
     setLoading(true);
     try {
       const res = await api.post('/generate-cards', { interests: tags });
-      setFilteredRSOs(res.data || []);
-      navigateToHome(res.data || []);
+      const filteredData = res.data || [];
+      setFilteredRSOs(filteredData);
+      setInterests(tags);
+      
+      // Navigate to home screen
+      router.push({
+        pathname: '/home',
+        params: { filteredRSOs: JSON.stringify(filteredData) },
+      });
     } catch (err) {
       console.error('Error generating cards:', err);
+      alert('Failed to generate cards. Please try again.');
     } finally {
       setLoading(false);
     }
-  };
-
-  const navigateToHome = (filtered) => {
-    router.push({
-      pathname: 'home',
-      params: { filteredRSOs: JSON.stringify(filtered) },
-    });
-    setTags([]);
-    setInput('');
   };
 
   const clearInterests = () => {
@@ -58,7 +54,7 @@ export default function Interests({ setInterests }) {
     setInput('');
     setLoading(false);
     setFilteredRSOs([]);
-    navigateToHome([]);
+    setInterests([]);
   };
 
   const removeTag = (index) => {
@@ -77,6 +73,7 @@ export default function Interests({ setInterests }) {
           padding: 10,
           borderRadius: 8,
           fontSize: 16,
+          marginBottom: 10,
         }}
         placeholder="e.g. robotics, music, AI"
         value={input}
@@ -85,7 +82,7 @@ export default function Interests({ setInterests }) {
         returnKeyType="done"
       />
 
-      <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginTop: 10 }}>
+      <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginBottom: 20 }}>
         {tags.map((tag, i) => (
           <TouchableOpacity
             key={`${tag}-${i}`}
@@ -103,9 +100,13 @@ export default function Interests({ setInterests }) {
       </View>
 
       {!loading ? (
-        <GenerateButton onPress={handleSubmit} title="Generate Cards" disabled={tags.length === 0} />
+        <GenerateButton 
+          onPress={handleSubmit} 
+          title="Generate Cards" 
+          disabled={tags.length === 0} 
+        />
       ) : (
-        <Animatable.View animation="fadeIn" style={{ marginTop: 40, alignItems: 'center' }}>
+        <Animatable.View animation="fadeIn" style={{ marginTop: 20, alignItems: 'center' }}>
           <ActivityIndicator size="large" color="#6200ee" />
           <Text style={{ marginTop: 10, fontSize: 16, color: '#666' }}>Generating Cards...</Text>
         </Animatable.View>

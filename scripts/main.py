@@ -22,13 +22,12 @@ from functools import lru_cache
 from collections import Counter
 
 
-
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY:
     raise RuntimeError("OPENAI_API_KEY not set")
 
-for k in ("HTTP_PROXY","HTTPS_PROXY","http_proxy","https_proxy","ALL_PROXY","all_proxy"):
+for k in ("HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy", "ALL_PROXY", "all_proxy"):
     os.environ.pop(k, None)
 
 EMBED_MODEL = "text-embedding-3-small"
@@ -37,10 +36,14 @@ EMBED_RETRIES = 3
 EMBED_BACKOFF_BASE = 0.25
 
 HERE = Path(__file__).resolve().parent
-PROJECT_ROOT = Path(__file__).resolve().parents[1] if HERE.name == "scripts" else HERE
-DATA_DIR = PROJECT_ROOT / "app" / "assets"
-RSO_JSON = DATA_DIR / "all_rso_data.json"
+DEFAULT_RSO_JSON = HERE / "app" / "assets" / "all_rso_data.json"
+RSO_JSON = Path(os.getenv("RSO_JSON_PATH", str(DEFAULT_RSO_JSON)))
 FAISS_DIR = (HERE / "faculty_faiss_index").resolve()
+
+FAIL_IF_MISSING_JSON = os.getenv("FAIL_IF_MISSING_JSON", "true").lower() in ("1", "true", "yes")
+
+print(f"[startup] RSO_JSON resolved to: {RSO_JSON}")
+print(f"[startup] FAISS_DIR: {FAISS_DIR}")
 
 retriever: Optional[Any] = None
 df: pd.DataFrame = pd.DataFrame([])
@@ -54,7 +57,6 @@ app.add_middleware(
 )
 
 logger = logging.getLogger("uvicorn.error")
-
 
 
 @lru_cache(maxsize=4096)
@@ -77,13 +79,12 @@ def get_embedding(text: str) -> List[float]:
     logger.warning(f"[embedding] Failed for text='{t[:40]}...' after retries: {last_err}")
     return []
 
+
 class _DirectOpenAIEmbeddings:
-    """Adapter so LangChain FAISS can call our embedding function."""
     def embed_query(self, text: str):
         return get_embedding(text)
     def embed_documents(self, texts):
         return [get_embedding(t) for t in texts]
-
 
 
 PREFERRED_FIELDS = (
@@ -153,12 +154,17 @@ def _coerce_emb(x):
     return []
 
 
-
 @app.on_event("startup")
 def init_resources():
     global retriever, df
 
-    if RSO_JSON.exists():
+    if not RSO_JSON.exists():
+        msg = f"[startup] RSO JSON not found at {RSO_JSON}"
+        print(msg)
+        if FAIL_IF_MISSING_JSON:
+            raise RuntimeError(msg + " (set RSO_JSON_PATH or add the file to your repo)")
+        df = pd.DataFrame([])
+    else:
         try:
             df_local = pd.read_json(RSO_JSON)
             if "embedding" not in df_local.columns:
@@ -166,12 +172,10 @@ def init_resources():
             else:
                 df_local["embedding"] = df_local["embedding"].apply(_coerce_emb)
             df = df_local
+            print(f"[startup] Loaded {len(df)} rows from {RSO_JSON}")
         except Exception as e:
             print(f"[startup] Failed to read {RSO_JSON}: {e}")
             df = pd.DataFrame([])
-    else:
-        print(f"[startup] RSO JSON not found at {RSO_JSON}")
-        df = pd.DataFrame([])
 
     try:
         if FAISS_DIR.exists():
@@ -206,13 +210,13 @@ def init_resources():
         print(f"[startup] Failed to build FAISS index: {e}")
 
 
-
 @app.get("/healthz")
 def healthz():
     return {
         "ok": True,
         "has_retriever": retriever is not None,
         "faiss_index_dir": str(FAISS_DIR),
+        "rso_json_path": str(RSO_JSON),
         "rso_rows": int(df.shape[0]) if isinstance(df, pd.DataFrame) else 0,
     }
 
@@ -284,54 +288,86 @@ def generate_cards(tags: Dict[str, Any] = Body(...)):
     interests: List[str] = tags.get("interests") or []
     if not isinstance(interests, list) or not interests:
         return []
-    if df.empty or "embedding" not in df.columns:
+    
+    if df.empty:
         return []
 
     working = df.copy()
-    working["score"] = 0.0
+    
+    has_embeddings = "embedding" in working.columns and not working["embedding"].empty
+    
+    if has_embeddings:
+        working["score"] = 0.0
+        used = 0
+        
+        for interest in interests:
+            emb = get_embedding(str(interest))
+            if not emb:
+                continue
+            used += 1
+            q = np.asarray(emb, dtype=np.float32).reshape(1, -1)
 
-    used = 0
-    for interest in interests:
-        emb = get_embedding(str(interest))
-        if not emb:
-            continue
-        used += 1
-        q = np.asarray(emb, dtype=np.float32).reshape(1, -1)
+            def _sim(vec):
+                if isinstance(vec, (list, np.ndarray)) and len(vec) > 0:
+                    try:
+                        v = np.asarray(vec, dtype=np.float32).reshape(1, -1)
+                        if v.shape[1] == q.shape[1]:
+                            return float(cosine_similarity(v, q)[0][0])
+                    except Exception:
+                        pass
+                return 0.0
 
-        def _sim(vec):
-            if isinstance(vec, (list, np.ndarray)):
-                v = np.asarray(vec, dtype=np.float32).reshape(1, -1)
-                if v.shape[1] == q.shape[1]:
-                    return float(cosine_similarity(v, q)[0][0])
-            return 0.0
+            working["score"] += working["embedding"].apply(_sim)
 
-        working["score"] += working["embedding"].apply(_sim)
+        if used > 0:
+            working["score"] /= used
+        else:
+            has_embeddings = False
 
-    if used == 0:
+    if not has_embeddings:
+        working["score"] = 0.0
+        
         def row_text(row):
             try:
-                return _build_text_for_row(row)
+                return _build_text_for_row(row).lower()
             except Exception:
-                return str(row)
+                return str(row).lower()
+        
         base_text = working.apply(row_text, axis=1)
-        working["score"] = 0.0
+        
         for interest in interests:
             s = interest.lower()
-            working["score"] += base_text.str.lower().str.count(repr(s)[1:-1])
-    else:
-        working["score"] /= used
+            working["score"] += base_text.str.contains(s, regex=False, na=False).astype(float)
+            
+            interest_fields = ['interests', 'research_interests', 'areas_of_interest', 'keywords', 'tags']
+            for field in interest_fields:
+                if field in working.columns:
+                    def _count_in_field(value, interest_term):
+                        if isinstance(value, list):
+                            return sum(1 for item in value if interest_term in str(item).lower())
+                        elif isinstance(value, str):
+                            return 1 if interest_term in value.lower() else 0
+                        return 0
+                    
+                    working["score"] += working[field].apply(lambda x: _count_in_field(x, s))
 
-    top = working.nlargest(5, "score")
+    filtered = working[working["score"] > 0]
+    
+    if filtered.empty:
+        return []
+    
+    top = filtered.nlargest(10, "score")
 
-    # (Optional) trim to the fields the app actually uses
     out = []
     for _, row in top.iterrows():
-        out.append({
-            "name": row.get("name") or row.get("title") or "Unknown RSO",
-            "description": row.get("description") or row.get("about") or row.get("summary") or "",
-            "website": row.get("website") or row.get("link") or row.get("profileUrl") or row.get("url"),
-            "instagram": row.get("instagram"),
-            "facebook": row.get("facebook"),
-            "link": row.get("link"),
-        })
-    return out  # ← no stray "and this"
+        card = {
+            "name": str(row.get("name") or row.get("title") or "Unknown RSO"),
+            "description": str(row.get("description") or row.get("about") or row.get("summary") or ""),
+            "website": str(row.get("website") or row.get("link") or row.get("profileUrl") or row.get("url") or ""),
+            "instagram": str(row.get("instagram") or ""),
+            "facebook": str(row.get("facebook") or ""),
+            "link": str(row.get("link") or ""),
+        }
+        out.append(card)
+
+    return out
