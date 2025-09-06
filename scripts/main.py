@@ -36,12 +36,14 @@ EMBED_RETRIES = 3
 EMBED_BACKOFF_BASE = 0.25
 
 HERE = Path(__file__).resolve().parent
-DEFAULT_RSO_JSON = HERE / "app" / "assets" / "all_rso_data.json"
+PROJECT_ROOT = HERE.parent
+DEFAULT_RSO_JSON = PROJECT_ROOT / "app" / "assets" / "all_rso_data.json"
 RSO_JSON = Path(os.getenv("RSO_JSON_PATH", str(DEFAULT_RSO_JSON)))
 FAISS_DIR = (HERE / "faculty_faiss_index").resolve()
 
 FAIL_IF_MISSING_JSON = os.getenv("FAIL_IF_MISSING_JSON", "true").lower() in ("1", "true", "yes")
 
+print(f"[startup] Project root: {PROJECT_ROOT}")
 print(f"[startup] RSO_JSON resolved to: {RSO_JSON}")
 print(f"[startup] FAISS_DIR: {FAISS_DIR}")
 
@@ -158,24 +160,42 @@ def _coerce_emb(x):
 def init_resources():
     global retriever, df
 
-    if not RSO_JSON.exists():
-        msg = f"[startup] RSO JSON not found at {RSO_JSON}"
+    possible_paths = [
+        RSO_JSON,
+        PROJECT_ROOT / "app" / "assets" / "all_rso_data.json",
+        HERE / ".." / "app" / "assets" / "all_rso_data.json",
+        Path("./app/assets/all_rso_data.json"),
+        Path("../app/assets/all_rso_data.json")
+    ]
+    
+    json_path = None
+    for path in possible_paths:
+        path = path.resolve()
+        if path.exists():
+            json_path = path
+            print(f"[startup] Found RSO JSON at: {json_path}")
+            break
+    
+    if not json_path:
+        msg = f"[startup] RSO JSON not found at any location. Checked: {[str(p) for p in possible_paths]}"
         print(msg)
         if FAIL_IF_MISSING_JSON:
-            raise RuntimeError(msg + " (set RSO_JSON_PATH or add the file to your repo)")
+            raise RuntimeError(msg)
         df = pd.DataFrame([])
-    else:
-        try:
-            df_local = pd.read_json(RSO_JSON)
-            if "embedding" not in df_local.columns:
-                df_local["embedding"] = [[] for _ in range(len(df_local))]
-            else:
-                df_local["embedding"] = df_local["embedding"].apply(_coerce_emb)
-            df = df_local
-            print(f"[startup] Loaded {len(df)} rows from {RSO_JSON}")
-        except Exception as e:
-            print(f"[startup] Failed to read {RSO_JSON}: {e}")
-            df = pd.DataFrame([])
+        print("[startup] Continuing without RSO data")
+        return
+
+    try:
+        df_local = pd.read_json(json_path)
+        if "embedding" not in df_local.columns:
+            df_local["embedding"] = [[] for _ in range(len(df_local))]
+        else:
+            df_local["embedding"] = df_local["embedding"].apply(_coerce_emb)
+        df = df_local
+        print(f"[startup] Loaded {len(df)} rows from {json_path}")
+    except Exception as e:
+        print(f"[startup] Failed to read {json_path}: {e}")
+        df = pd.DataFrame([])
 
     try:
         if FAISS_DIR.exists():
