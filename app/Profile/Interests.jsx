@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, ActivityIndicator, Platform } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import { View, Text, TextInput, TouchableOpacity, ActivityIndicator } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import { router } from 'expo-router';
 import axios from 'axios';
@@ -14,11 +13,10 @@ const api = axios.create({
   headers: { 'Content-Type': 'application/json' },
 });
 
-export default function Interests({ setInterests, setFilteredRSOs }) {
+export default function Interests() {
   const [input, setInput] = useState('');
   const [tags, setTags] = useState([]);
   const [loading, setLoading] = useState(false);
-  const navigation = useNavigation();
 
   const addTag = () => {
     const t = input.trim().toLowerCase();
@@ -27,19 +25,29 @@ export default function Interests({ setInterests, setFilteredRSOs }) {
     setInput('');
   };
 
+  const removeTag = (index) => {
+    setTags(prev => prev.filter((_, i) => i !== index));
+  };
+
+  const clearInterests = () => {
+    setTags([]);
+    setInput('');
+    setLoading(false);
+  };
+
   const handleSubmit = async () => {
     if (tags.length === 0) return;
     setLoading(true);
     try {
       const res = await api.post('/generate-cards', { interests: tags });
       const filteredData = res.data || [];
-      setFilteredRSOs(filteredData);
-      setInterests(tags);
-      
-      // Navigate to home screen
+
       router.push({
         pathname: '/home',
-        params: { filteredRSOs: JSON.stringify(filteredData) },
+        params: {
+          filteredRSOs: JSON.stringify(filteredData),
+          interests: JSON.stringify(tags),
+        },
       });
     } catch (err) {
       console.error('Error generating cards:', err);
@@ -47,18 +55,6 @@ export default function Interests({ setInterests, setFilteredRSOs }) {
     } finally {
       setLoading(false);
     }
-  };
-
-  const clearInterests = () => {
-    setTags([]);
-    setInput('');
-    setLoading(false);
-    setFilteredRSOs([]);
-    setInterests([]);
-  };
-
-  const removeTag = (index) => {
-    setTags(prev => prev.filter((_, i) => i !== index));
   };
 
   return (
@@ -75,7 +71,7 @@ export default function Interests({ setInterests, setFilteredRSOs }) {
           fontSize: 16,
           marginBottom: 10,
         }}
-        placeholder="e.g. robotics, music, AI"
+        placeholder="e.g. robotics, music, health"
         value={input}
         onChangeText={setInput}
         onSubmitEditing={addTag}
@@ -100,15 +96,17 @@ export default function Interests({ setInterests, setFilteredRSOs }) {
       </View>
 
       {!loading ? (
-        <GenerateButton 
-          onPress={handleSubmit} 
-          title="Generate Cards" 
-          disabled={tags.length === 0} 
+        <GenerateButton
+          onPress={handleSubmit}
+          title="Generate Cards"
+          disabled={tags.length === 0}
         />
       ) : (
         <Animatable.View animation="fadeIn" style={{ marginTop: 20, alignItems: 'center' }}>
           <ActivityIndicator size="large" color="#6200ee" />
-          <Text style={{ marginTop: 10, fontSize: 16, color: '#666' }}>Generating Cards...</Text>
+          <Text style={{ marginTop: 10, fontSize: 16, color: '#666' }}>
+            Generating Cards...
+          </Text>
         </Animatable.View>
       )}
 
